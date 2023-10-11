@@ -1,0 +1,140 @@
+,'
+, 
+,"""\""""
+"""",""Collection Analyzer"""
+颜色阈值,Color threshold:
+非常重,Very Heavy
+重度,Heavy
+中等,Medium
+轻度,Light
+非常轻,Very Light
+收集分析器 - 错误的版本,Collection Analyzer - Wrong Version
+此功能仅在Blender 2.91或以上版本中工作,This Feature Works Only In Blender 2.91 or Above
+3D视图分析器,3D View Analyzer
+场景分析器,Scene Analyzer
+简单链接,Easy Link
+执行。,Execute: 
+场景基准,Scene Benchmark
+材料基准,Material Benchmark
+tot.matbenchmarkmenu,tot.matbenchmarkmenu
+运行基准,Run Benchmark
+清除基准,Clear Benchmark
+最后一次基准测试结果。,Last Benchmark Results:
+物体基准,Objects Benchmark
+图像数据分析器,Image Data Analyzer
+图像调整器,Image Resizer
+选择至少1张图片来调整大小,Select at least 1 image to resize
+没有选择图像,No images selected
+选择图像,Select Images
+缩小到,Downsize to
+自定义尺寸,Custom Size
+如有必要，请复制图像,Duplicate images if necessary
+图像列表是空的，请更新它。,"The image list is empty, please update it."
+在场景中查找,Find in Scene
+选择。,Select: 
+ 自动选择, Auto Select
+额外工具,Extra Tools
+搜索词,Search Term
+倒置,Invert
+按名称排序,Sort By Name
+按大小排序,By Size
+缺少,Missing
+???,???
+更新集合分析器,Update Collection Analyzer
+更新,Update
+清除分析结果,Clear analyses result
+清除信息,Clear Information
+删除空的集合,Delete Empty Collections
+清洁3D视图分析器的颜色。,Clean 3D View Analyzer Colors.
+清洁的三维视图分析器,Clean 3D View Analyzer
+简易链接工具，轻松地将选定的对象转换为链接的对象,"Easy Link Tool, Easily convert selected objects to linked"
+转换为链接,Convert to Linked
+简易链接工具，恢复选定的对象（取消链接）,"Easy Link Tool, Restore selected object (unlink)"
+恢复链接对象,Restore Linked Object
+清除所有对象中未使用的材料,Clean Unused Materials From All Objects
+清理未使用的材质,Clean Unused Materials
+从场景中移除所有细分修改器,Remove All Subdivision Modifiers From Scene
+删除所有细分修改器,Remove All Subdivision Modifiers
+选择有更多顶点的物体,Select Object With More Vertices
+拥有更多顶点的物体,Object With More Vertices
+选择带有细分修改器的对象,Select Objects With Subdivision Modifier
+具有细分修改器的物体,Objects With Subdivision Modifier
+选择拥有超过X个顶点的对象,Select Objects With More than X Vertices
+拥有超过X个顶点的对象,Objects With More than X Vertices
+顶点,Vertices
+在列表中选择对象,Select Objects in the list
+选择对象,Select Objects
+更新图像列表,Update Image List
+调整所选图像的大小,Resize Selected Images
+调整图像大小,Resize Images
+重复的图像没有被清理!,Duplicate images was not cleaned!
+唐,Don
+自动保存已激活! 此文件将被保存,Auto Save is Active! This file will be saved
+属性B,Property B
+清除重复的图像,Clear Duplicate Images
+清除图像列表中的所有项目,Clear all items in the Image List
+清除图像列表,Clear Image List
+选择/取消选择所有图像,Select/Deselect All images
+切换选择全部,Toggle Select All
+显示所选图像信息,Show Selected Image Information
+图像信息,Image Information
+显示列表,Show List
+未找到图像,Image Not Found
+显示所有使用此图像的材料,Show all materials that uses this image
+材料列表,Material List
+图像没有被载入任何材料中,Image is not loaded in any material
+将材料设置为活动，你就可以看到它了。,"Set Material as active, and you will be able to see it"
+选择材料,Select Material
+从选定的对象中运行材料的基准,Run benchmark in materials from selected objects
+这个过程可能需要一些时间,This process may take a while
+清除材料基准数据,Clear Material Benchmark Data
+清除数据,Clear Data
+在列表中选择具有所选材料的对象,Select objects with the selected material in the list
+在列表中选择具有所选材料的对象,Select objects with the select material in the list
+ 存储原始颜色, Store Original Colors
+在使用场景分析工具之前，存储场景中每个物体的原始颜色。(如果启用，可能会影响使用该工具时的性能，只有在你需要这个功能时才启用它）。,"Store the original color of each object in the scene before using the Scene Analyzer Tool. (If enabled, may impact in performance when using the tool, enable it only if you need this feature)"
+ 将修改器包含在顶点计数中, Include Modifiers in Vertice Count
+在默认情况下，Blender对象数据不会存储未应用修改器的顶点。启用该选项后，插件将使用另一种方法来获取带有修改器的对象的顶点数量。(如果启用，可能会影响使用工具时的性能，只有在你需要这个功能时才启用它）,"By Default, Blender Object Data does not stores vertices with non-applied modifiers. By Enabling this option, the addon will use another method to get vertice count of objects with modifiers. (If enabled, may impact in performance when using the tool, enable it only if you need this feature)"
+ 必要时自动切换控制台, Auto Toggle Console if necessary
+在任何长的过程开始之前，如图像调整或场景基准测试，控制台将被切换，你将能够看到进度。,"The console will be toggled before any long process starts such as Image Resizing or Scene Benchmarks, and you will be able to see the progress"
+ 基准测试前自动保存文件, Auto Save File Before Benchmark
+文件总是需要被保存，以便在基准测试过程中能够访问所有的材料。,The file always need to be saved for all materials be accessible in the benchmark process
+ 显示链接图像, Show Linked Images
+在图像数据分析器列表中显示链接的图像,Show Linked Images in Image Data Analyzer List
+ 显示打包的图像, Show Packed Images
+在图像数据分析器列表中显示打包的图像,Show Packed Images in Image Data Analyzer List
+ 调整大小前自动保存文件, Auto Save File Before Resizing
+调整大小前自动保存文件,Auto Save File Before Resizing
+ 调整大小前清除重复的图像, Clear Duplicates Before Resizing
+ 在调整大小的过程中始终清除重复的图像, Always clear duplicate images before resizing process
+效能。,Peformance:
+材料基准。,Material Benchmark:
+纹理分析器。,Textures Analyzer:
+图像数据,Image Data
+控制台。,Console:
+集合分析法,Collections Analyzer Method
+场景分析法,Scene Analyzer Method
+在场景中查找方法,Find in Scene Method
+自动选择对象,Auto Select objects
+使用同一目录,Use Same Directory
+如果启用，该插件将在同一混合文件目录下创建一个文件夹，所有带有链接对象的混合文件都将放在那里。,"If enabled, the addon will crate a folder in the same blend file directory, and all blend files with linked objects will be placed there"
+本地化,Make Local
+如果启用，链接后的对象将成为本地对象，这意味着你将能够移动它，如果你不移动它的话。,"If enabled, after linked the object will be made local, meaning the you will be able to move it, if you don"
+基准范围,Benchmark Scope
+材料来自,Materials from
+材料名称,Material Name
+包括链接的对象,Include Linked Objects
+在结果中包括链接的对象,Include linked objects in the result
+对象在,Objects in
+从图像文件中获取图像列表,Get image list from
+图像文件,Image File
+最终分辨率,Final Resolution
+缩小到分辨率,Downsize to resolution
+自定义尺寸,Custom size
+必要时复制,Duplicate if necessary
+如有必要，创建重复的图像文件,Create Duplicate Image files if necessary
+混合文件目录中的纹理文件夹,Texture Folder in Blend File Directory
+所有调整大小的纹理将被放在一个名为 ,All resized textures will be in a folder called 
+自定义文件夹,Custom Folder
+设置一个自定义的输出文件夹,Set a custom output folder
+链接对象,Linked Objects

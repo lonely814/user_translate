@@ -1,0 +1,31 @@
+"""\""""
+"""", ""层索引""","""\""""
+"""",""Layer Index"""
+添加流体,Add Fluid
+ , 
+创建图集,Create Collection
+设置渲染设置,Setup Render Settings
+','
+启用折射,Enable Refraction
+禁用视口去噪,Disable Viewport Denoise
+设置透明光计数,Set Transparent Light Count
+透明光计数,Transparent Light Count
+透明光反弹循环,Cycles Transparent Light bounces
+EEVEE：,EEVEE:
+循环：,Cycles:
+烘焙流图,Bake Flow Map
+在视口和渲染中隐藏对象,Hide Object in Viewport and Render
+隐藏对象,Hide Object
+为集合中的对象添加所需的效果器修改器,Add Required Effector modifiers to objects in the collection
+设置效果器,Setup Effector
+移除效果器,Remove Effector
+单元格流体,Cell Fluids
+输入 ,input 
+新流体,New Fluid
+网格分辨率： ,Grid Resolution: 
+流体,Fluid:
+地面,Ground:
+效果器,Effector:
+设置效应器修改器,Setup Effector Modifiers
+细胞流体工具,Cell Fluids Tools
+细胞液,Cell Fluid

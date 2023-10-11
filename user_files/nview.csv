@@ -1,0 +1,110 @@
+,'
+类型,Type
+名称,Name
+图标,Icon
+可见的,Visible
+摄像机,Camera
+用什么相机来计算可见度,What camera to use to compute visibility
+自定义摄像机,Custom camera
+用于能见度检查的自定义相机,Custom camera to use for visibility check
+, 
+清除nView框架,Clear nView Frames
+清除对象的可见性关键帧,Clear object visibility keyframes
+设置集合nView,Set Collection nView
+根据对象的情况设置集合的可见性属性。,Set visibility attributes for collections based on their objects\
+选择网格nView,Select Mesh nView
+根据可见度选择网格面,Selects mesh faces based on their visibility
+显示网格nView,Show Mesh nView
+为给定的网格设置面的可见性,Set face visibility for given mesh
+设置网格掩码nView,Set Mesh Mask nView
+添加遮罩修改器，根据可见度隐藏网格面（仅针对网格对象）。使用网格剔除 ,Add mask modifier to hide faces based on visibility (Mesh objects only). Uses mesh culling 
+在作业视窗中应用,Apply in Viewport
+在视口中应用遮罩修改器,Apply mask modifiers in viewport
+在渲染中应用,Apply in Render
+在渲染中应用遮罩修改器,Apply mask modifiers in render
+顶点组名称,Vertex Group Name
+用于遮罩的顶点组名称,Vertex group name to use for masking
+遮罩修改器名称,Mask Modifier Name
+选择对象nView,Select Object nView
+根据对象的可见度来选择对象,Selects objects based on their visibility
+设置对象nView,Set Object nView
+根据可见度为对象设置可见度属性,Set visibility attributes for objects based on visibility
+重置nView,Reset nView
+重置当前场景中所有对象的可见性属性。,Reset visibility attributes for all objects in current scene.
+在集合上使用,Use on Collections
+获取场景帧,Get Scene Frames
+设置动画帧以匹配场景设置。,Set animation frames to match scene settings
+设置为渲染分辨率,Set to Render Resolution
+设置闭塞剔除分辨率，使之与场景相匹配。,Set occlusion culling resolution to match the scene\
+网格nView,Mesh nView
+mesh_edit,mesh_edit
+操作员,Operators
+对象nView,Object nView
+Objectmode,objectmode
+对象类型,Object types
+重置操作符,Reset Operators
+显示所有对象,Show all objects
+显示所有集合,Show all collections
+动画,Animation
+在一个帧范围内运行操作符,Run operators over a frame range
+开始帧,Start Frame
+结束帧,End Frame
+帧步骤,Frame Step
+自动关键帧,Auto keyframe
+为可见性属性设置关键帧（并非所有运算符都完全支持）。,Sets keyframes for visibility attributes (not fully supported by all operators)
+已启用,Enabled
+帧开始,Frame Start
+结束,End
+步骤,Step
+视图层,View Layer
+包括可见的集合作为视图层，排除其他集合,"Include visible collections as view layers, excluding others"
+间接,Indirect
+启用可见的集合作为间接的，禁用其他的,"Enable visible collections as indirect, disabling others"
+搁置,Holdout
+启用可见的集合作为保留，禁用其他集合,"Enable visible collections to be enabled as holdout, disabling others"
+仅可见,Visible only
+仅使用可见顶点、边或面进行可见性测试,"Use only visible vertices, edges, or faces for visibility tests"
+只选择,Selected only
+只使用选定的顶点、边或面进行可见性测试。,"Use only selected vertices, edges, or faces for visibility tests"
+网格剔除,Mesh Culling
+用来确定可见性的剔除类型,Type of culling used to determine visibility
+网格边距,Frustum Margin
+添加到视图框中的边距（相机框中最长边的百分比）,Margin added to the view frustum (percentage of longest side of camera frame)
+距离,Distance
+从摄像机到物体的最大允许距离,Maximum allowed distance from camera to object
+自定义分辨率 X,Custom Resolution X
+横跨摄像机视图的射线行数,Number of rows of rays spanning the camera view
+自定义分辨率Y,Custom Resolution Y
+跨越摄像机视野的射线列数,Number of columns of rays spanning the camera view
+自定义分辨率百分比,Custom Resolution %
+使用分辨率的百分比,Percentage of resolution used
+弹跳,Bounces
+添加反弹以寻找反射中可见的物体,Add bounces to find objects visible in reflections
+最大反弹次数,Max Bounces
+击中后反弹的最大射线数,Maximum number of rays to bounce from hits
+夹子开始,Clip Start
+反弹所经过的最短距离，被认为是击中。,The shortest distance travelled for bounce to be considered a hit 
+剪辑结束,Clip End
+弹跳射线的最远飞行距离,The farthest distance a bounce ray will travel
+Y,Y
+%,%
+使用当前可见的物体进行可见性检查,Use currently visible objects for visibility checks
+使用当前选择的对象进行可见性检查,Use current selection for visibility checks
+排除实例,Exclude instanced
+排除被其他对象所包围的集合中的对象,Exclude objects that are in collections instanced by other objects
+最小。边界框,Min. Bounding Box
+设置一个object（）。,Sets an object\
+对象剔除,Object Culling
+可选择,Selectable
+启用可见的对象为可选择的，禁用其他对象,"Enable visible objects to be selectable, disabling others"
+暂时启用视窗中的可见对象，隐藏其他对象,"Enable visible objects temporarily in viewport, hiding others"
+在视窗中可见,Visible in Viewport
+在视窗中全面启用可见对象，禁用其他对象,"Enable visible objects globally in viewport, disabling others"
+渲染中可见,Visible in Render
+启用渲染中的可见对象，禁用其他对象,"Enable visible objects in render, disabling others"
+扩展,Extend
+保留现有的选择并添加新的选择,Preserve existing selection and append new selection
+反转选择,Invert selection
+选择摄像机视角外的物体，而不是视角内的物体。,Select objects outside the camera view instead of in view
+,
+通过www.DeepL.com/Translator（免费版）翻译,

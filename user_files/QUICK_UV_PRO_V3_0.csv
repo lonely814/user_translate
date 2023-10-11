@@ -1,0 +1,194 @@
+,"""\""""
+"""",""Mesh"""
+, 
+QUP_MT_pie_uv_pro,QUP_MT_pie_uv_pro
+文件夹路径,Folder Path
+灯光纹理,Light Texture
+IES 灯光纹理,IES Light Texture
+更改灯光纹理,Change Light Texture
+首选项选项卡,Preferences Tab
+!!! 更改所有空白颜色,!!! Change All Empties Color
+灯光纹理路径,Light Texture Path
+灯光纹理路径,Path to Light Textures
+到其他纹理的路径,Path to ies Textures
+','
+界面设置：,Interface Settings:
+模态 Uv 和 Uv Gizmo 的颜色,Color for Modal Uv and Uv Gizmo
+世界小工具的颜色,Color for World Gizmo
+模态 Uv 的选定面不透明度：,Selected Faces opacity for Modal Uv:
+模态置换的自定义颜色：,Custom Color of Modal Displace:
+位置和大小快捷键,Shortcuts Positions and Sizes
+模态 Uv 和模态小工具的置换快捷键,Dispaly Shortcuts for Modal Uv and Modal Gizmos
+快捷键：,Shortcuts:
+X,X
+Y,Y
+大小,Size
+标题：,Title:
+实验工具,Experimental Tools
+快速 Uv Pro 热键：,Quick Uv Pro Hotkeys:
+设置自定义路径,Set your Custom Paths:
+图像编辑器,Image Editor
+光照路径,light_texture_path
+ies_texture_path,ies_texture_path
+点击此处查看演示：,Check the demos here:
+Quick Uv Pro 3.0 /// YOU TUBE 演示,Quick Uv Pro 3.0 /// YOU TUBE DEMO
+其他插件：,Other Addons:
+即时添加,Add On The Fly
+锁定小工具比例,Lock Gizmo Ratio
+锁定小工具比例,Lock gizmo ratio
+工作室渲染,Studio Render
+将图像打包到混合文件,Pack Image into Blend File
+将图像解压到混合文件,Unpack Image into Blend File
+导入相对纹理文件夹中的图像,Import Image In The Relative Texture folder
+添加置换节点,Add Displace Node
+快速 Uv Pro 派,Quick Uv Pro Pie
+光纹理路径,Light Texture paths
+ 添加光纹理路径, Add Light Texture Path
+光纹理的其他路径,Other Path for Light Texture
+其他纹理路径,ies Texture paths
+ 添加 ies 纹理路径, Add ies Texture Path
+其他光纹理路径,Other Path for ies Light Texture
+模态紫外线,Modal Uv
+从视图制作,Proj From View
+立方体模型,CUBE PROJ
+圆柱体模型,CYLINDER PROJ
+圆柱专业,SPHERE PROJ
+节点牧马人 Uv,Node Wrangler Uv
+单一纹理材质 Uv,One Texture Material Uv
+使用小工具的世界材质,World Material With Gizmos
+调整材质,Tweak Materials
+添加失真贴图,Add Dispalcement Map
+对齐视图,Align View
+展开,Unwrap
+直线展开,Straight Unwrap
+旋转 Uvs,Rotate Uvs
+平面小工具,Plane Gizmo
+选择平面小工具,Select Plane Gizmo
+链接材质,Link Material
+选择立方体小工具,Select Cube Gizmo
+立方体小工具,Cube Gizmo
+世界小工具,World Gizmos
+添加世界小工具,Add World Gizmo
+快速 UV 模态派,Quick UV Modal Pie
+模态正在运行）,Modal is Running :)
+查看项目,PROJ FROM VIEW
+立方体模型,Cube Proj
+圆柱体模型,Cylinder Proj
+球体模型,Sphere Proj
+小工具 /// 暂停,Gizmo /// Pause
+真实尺寸小工具 /// 暂停,Real Size Gizmo /// Pause
+纹理着色器派,Texture Shader Pie
+在 PSD 中打开,Open in PSD
+添加图像编辑路径,Add Images Editor Path
+重新载入图像,Reload Images
+打包图像,Pack Image
+解压图像,Unpack Image
+相对路径,Relative Path
+添加一个纹理节点,Add One Texture Node
+仅适用于纹理节点的派,Pie Available Only with Textures Nodes
+设置主要属性,Set Main Properties
+为光纹理添加路径,Add Path for Light Texture
+"为 ""Is ""纹理添加路径",Add Path for ies Texture
+为图像编辑器添加路径,Add Path for Image Editor
+路径,Path
+旋转度,Rotation Degree
+Uv 旋转度,Uv Rotation °
+重置为 0°,Reset to 0°
+快捷方式弹出窗口,Shortcut_popup
+快捷方式位置,Shortcuts Position
+快捷方式 ,Dispaly Shortcuts 
+X 位置,X Position
+Y 位置,Y Position
+模态快捷方式,Modal Shortcuts
+模态 Uv 颜色,Modal Uv Color
+选择材质小工具,Select Material Gizmo
+绘制遮罩,Draw Mask
+地形,Terrain
+材质 1,Material 1
+缩放,Scale
+旋转,Rotation
+色调,Hue
+饱和度,Saturation
+数值,Value
+凹凸,Bump
+材质 2,Material 2
+蒙版,Mask
+保存地形蒙板图像,Save Terrain Mask Image
+一次添加多个图像,Add multiple images at once
+一次打开选中的图像,Open Selected Images at Once
+缩放 Mat1 ,Scale Mat1 
+旋转 Mat1 ,Rotation Mat1 
+缩放 Mat2 ,Scale Mat2 
+旋转 Mat2 ,Rotation Mat2 
+快速 Uv Pro： 模态和小工具,Quick Uv Pro: Modal and Gizmos
+QUP_MT_pie_uv_modal,QUP_MT_pie_uv_modal
+UvCube,UvCube
+来自视图的 Uv,Uv from View
+Uv 柱面,Uv cylinder
+应用网格,Apply Mesh
+应用小工具,Apply Gizmo
+复制材质,CopyMaterial
+旋转 Uv,RotateUv
+将视图对准面部,AlignViewToFace
+创建多重纹理着色器,Create Multiple texture Shader
+模态添加 Mat_nw,Modal add mat_nw
+Node_Wrangler 材质,Node_Wrangler Material
+创建一个纹理着色器,Create One texture Shader
+添加 Mat,add mat
+一个纹理着色器,One_Texture_Shader
+新建 Mat,New Mat
+处理生成的纹理着色器,Handle Generated texture Shader
+处理生成的纹理,Handle Generated texture
+生成的纹理坐标,Generated Texture Coordinates
+交换纹理,Swap Textures
+位置,Location
+输入：,Inputs:
+混合着色器中的交换纹理,Swap texture  in Mix Shader
+交换纹理,Swap texture
+更换图像纹理,Change Image Texture
+处理快速 Uv Pro 材质,Handle Quick Uv Pro Materials
+图像路径,Img Path
+添加一个纹理组,Add One Texture Group
+警告 直接解包,Warning Straight Unwrap
+警告,Warning
+        只对四边形进行了精确的解包和拉直处理。,        Only Quads have been accurately Unwrapped and Straightened.
+        已从您的选择中移除 N_Gons，以正确解除 Uvs 的包裹并使其平直,        N_Gons have been removed from your selection to properly Unwrap and Straight Uvs
+QUP_Ghost,QUP_Ghost
+方块,Gizmo_CUBE
+平面,Gizmo_PLANE
+Gizmo_WORLD,Gizmo_WORLD
+UV_GIZMO,UV_GIZMO
+VIEW3D_MT_shading_pie,VIEW3D_MT_shading_pie
+根据图像纹理比例锁定 Gizmo 比例,Lock Gizmo Ratio based on Image Texture Ratio
+锁定纹理比例,Lock Ratio Texture
+设置尺寸,Set Dimensions
+Gizmo 实际尺寸,Gizmo Real Dimension
+小工具设置,Gizmo settings
+尺寸,Dimensions
+保持纹理比例,Keep Texture Ratio
+将 Gizmo 适合网格,Fit Gizmo to Msh
+将 Gizmo 适合网格,Fit Gizmo To Mesh
+将 Gizmo 适合选定的面,Fit Gizmo To Selected Faces
+添加垫层世界,add mat world
+世界纹理着色器,World_One_Texture_Shader
+添加世界小精灵,add World Gizmo
+UvGizmoCube,UvGizmoCube
+快速UV项目立方体,QuickUVProject_Cube
+UvGizmoRealSize,UvGizmoRealSize
+快速UV项目平面,QuickUVProject_Plane
+跳转到小工具 ,Jump to Gizmo 
+快速Uv Pro： 选择世界小工具,Quick Uv Pro: Select World Gizmo
+跳转到立方体小工具 ,Jump to Cube Gizmo 
+快速 Uv Pro： 选择立方体小工具,Quick Uv Pro: Select Cube Gizmo
+跳转到平面图形 ,Jump to Plane Gizmo 
+快速紫外线专业版 选择平面小工具,Quick Uv Pro: Select Plane Gizmo
+添加位移图,Add Displacement Map
+细分,Subdivision
+位移地图,Displace_map
+位移贴图,Displace Map
+UVMap_Displace,UVMap_Displace
+启动位移模态,Launch Modal for Displace
+模态置换 Qup,Modal Displace Qup
+"将小工具从 ""活动 ""复制到 ""选定",Copy Gizmo from Active to Selected
+将小工具复制到选中,Copy Gizmo to Selected
+弹出窗口,Gz_popup

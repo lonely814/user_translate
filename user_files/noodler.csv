@@ -1,0 +1,86 @@
+,"function needed to get cursor location, source: node_wrangler.py"
+,find real location of a node (global space guaranteed)
+,"""\""""
+"""",""Hello World"""
+绘制fond处理程序,draw fond handler
+清除所有附加的字体,clear all fond appended
+获取用户dpi，来源：node_wrangler.py,"get user dpi, source: node_wrangler.py"
+搜索有可能出现在这个框格内的节点，并创建框格,search node that can potentially be inside this boxframe created box
+ , 
+绘制框架,Draw Frames
+用快捷方式轻松地绘制改线面。,Draw Reroute Noodle Easily with Shortcut.
+[SHFT] 链接到节点,[SHFT] Link to node
+[CTRL] 捕捉,[CTRL] Snapping
+[DEL]后退,[DEL] Backstep
+[LEFTMOUSE] 添加重走路线/确认链接,[LEFTMOUSE] Add reroute/Confirm link
+[ENTER]确认重走路线,[ENTER] Confirm reroute
+[MOUSEWHEEL] 循环插座,[MOUSEWHEEL] Loop Sockets
+初始化过程,initialization process
+创建新/旧路线，或用新路线循环旧路线,"create new/old reroute, or cycle old with new"
+返回到先前的重路由,back to precedent reroute
+主状态机,main state machine
+从给定的节点获取链接信息，我们这样做是因为我们不能直接存储套接字对象，太危险了，会导致对象指针在内存中经常变化的错误,"get links information from given node, we do all this because we can't store socket object directly, too dangerous, cause bug as object pointer change in memory often"
+从给定的信息列表中恢复链接,restore links from given info list
+重新路由倒角,Reroute Chamfer
+返回下游或上游的所有节点的列表,return list of all nodes downstream or upsteam
+通过递归收集节点列表中的节点,gather node in nodelist by recursion
+用快捷方式选择依赖关系,Select Dependencies With Shortcut
+模式,Mode
+替换选择,Replace Selection
+包括框架,Include Frames
+检查节点是否到达输出端,check if node is reaching output
+删除所有未使用的节点,delete all unused nodes
+通过在X位置上对节点进行排序来重新安排节点，（可以改进）。,"re-arrange node by sorting them in X location, (could improve)"
+移除框架(s),Remove Frame(s)
+删除静音节点,Remove Muted Node(s)
+删除重路由,Remove Reroute(s)
+重新排列节点,Re-Arrange Nodes
+重新排列（不可能用框架）。,Re-Arrange (not possible with frames)
+节点搜索,Node Search
+搜索过滤器。,Search Filters:
+指定调色板,Assign Palette
+请在Vertex-paint中进入,Please go in vertex-paint to
+启动调色板API。,initiate the palette API.
+绘制框架,Draw Frame
+重复,Repeat
+任何,Any
+KeyMod:,KeyMod:
+默认快捷键,Default Shortcuts
+循环收藏。,Loop Favorites:
+Y,Y
+添加收藏。,Add Favorite:
+CTRL+Y,CTRL+Y
+绘制改线。,Draw Reroute:
+V,V
+绘制框架。,Draw Frame:
+按J,PRESS J
+改道倒角。,Reroute Chamfer:
+CTRL+B,CTRL+B
+选择下游。,Select Downstream:
+CTRL+LEFTMOUSE,CTRL+LEFTMOUSE
+选择上游。,Select Upstream:
+CTRL+ALT+左键鼠标,CTRL+ALT+LEFTMOUSE
+清除页眉中未使用的节点,Purge Unused Nodes in Header
+重置颜色,Reset Color
+每当用户点击一个调色板的颜色时，执行此功能,execute this function everytime user is clicking on a palette color
+添加收藏夹重设路线,Add favorites reroute
+在收藏夹中循环播放,Loop over favorites
+在上下文结点树中搜索结点,search in context nodetree for nodes
+noodle_scn = bpy.context.scene.noodler,noodle_scn = bpy.context.scene.noodler
+框架颜色,Frame Color
+颜色,Color
+同步颜色,Sync Color
+与调色板同步,Synchronize with palette
+标签,Label
+标签尺寸,Label Size
+关键词,Keywords
+重新定位视图,Recenter View
+类型,Type
+内部名称,Internal Name
+插座名称,Socket Names
+插座类型,Socket Types
+仅输入,Input Only
+仅限框架,Frame Only
+扩展菜单,extend menu
+清除未使用的节点,Purge Unused Nodes
+节点编辑器,Node Editor

@@ -1,0 +1,168 @@
+, 
+,'
+枢轴流,Pivot Flow
+使用位置,Use Location
+使用方向,Use Orientation
+使用光标,Use Cursor
+三维光标提示器,3D Cursor Gizmo
+为3D光标显示Gizmo,Show Gizmo For 3D Cursor
+本地方向,Local Orientation
+,"""\""""
+"""",""Check Update When Starting The Blender"""
+更新,Update
+版本,Version
+选项卡类别,Tab Category
+为面板的类别选择一个名称,Choose A Name For The Category Of The Panel
+翻转法线,Flip Normals
+如果其中一个刻度轴小于0，则翻转网格的法线。,Flip Normals For Meshes If One Of The Scale Axes Is Less Than 0
+在饼状菜单中显示应用面板。,Show Apply Panel In Pie Menu.
+框图,BBox
+在选定的极端点上的支点的变换,Transformation Of The Pivot Point At The Extreme Points Of The Selected One
+对于活动对象,For Active Object
+只对活动对象移动支点,Moving The Pivot Only For The Active Object
+选择后关闭,Close After Selection
+降至X,Drop To X
+下降到Y,Drop To Y
+下拉到Z,Drop To Z
+下拉至活动对象,Drop To Active
+模式,Mode
+方向,Orientation
+使用修改器,Use Modifier
+偏移,Offset
+更新,update
+对齐法线,Align To Normal
+小工具,Gizmo
+启用变形支点中的图形工具,To Enable The Gizmo In The Transformation Pivot
+移动,Move
+调整位置的工具,Gizmo To Adjust Location
+旋转,Rotate
+调整旋转的小工具,Gizmo To Adjust Rotation
+缩放,Scale
+调整比例的小工具,Gizmo To Adjust Scale
+全局保存,Global Save
+捕捉元素,Snap Element
+捕捉选项,Snapping Options
+3D光标的调整,Gizmo 3D Cursor Tweak
+用鼠标按钮调整Gizmo,Tweak Gizmo With Mouse Button
+选项卡,Tabs
+检查更新,Check For Updates
+已有新版本 ,New Version Is Available 
+没有更新,There Is No Update
+启用Gizmo,Enable Gizmo
+链接,Links
+Blender市场,Blender Market
+Gumroad,Gumroad
+艺术站,Artstation
+Discord 频道,Discord Channel
+特别感谢Blenderboi对该插件的测试和反馈,"Special thanks to Blenderboi for testing the addon, feedback"
+并帮助开发了在列表中保存支点这一功能。,and help in developing the feature Save Pivot in list.
+Blenderboi商店,Blenderboi Store
+钥匙图,Keymap
+*由于使用了其他附加组件，一些热键可能无法工作！!,*Some hotkeys may not work because of the use of other addons!!!
+3D视图,3D View
+VIEW3D_MT_pie_pivot,VIEW3D_MT_pie_pivot
+用于3D光标的Gizmo,Gizmo for 3D Cursor
+全部,All
+设置,Set
+从列表中设置变换的三维光标,Set Transformation 3D Cursor From The List
+轴,Axis
+移动列表中的变换三维光标,Move The Transformation 3D Cursor In The List
+添加,Add
+保存一个新的变换 列表中的3D光标,Save A New Transformation 3D Cursor In The List
+三维光标 ,3D Cursor 
+删除,Remove
+移除列表中的一个三维光标,Remove An Transformation 3D Cursor In The List
+获取上下文,Get Context
+检查上下文,Check Context
+设置上下文,Set Context
+变形应用,Transform Apply
+应用位置,Apply Location
+应用旋转,Apply Rotation
+应用比例,Apply Scale
+应用旋转和缩放,Apply Rotation & Scale
+应用所有变形,Apply All Transformation
+BBOX,BBOX
+枢轴下降,Pivot Drop
+添加固定点。,Add Snap Point: 
+移除最后的固定点。,Remove Last Snap Point: 
+使用Sanpping选项删除支点,Drop Pivot Point Using Sanpping Options
+枢轴模态模式,Pivot Modal Mod
+设置支点,Set Pivot
+从列表中设置支点。CTRL - 粘贴变换,Set Pivot From The List. CTRL - Paste Transform
+粘贴变形,Paste Transform
+移动支点,Move Pivot
+移动列表中的支点,Move The Pivot In The List
+添加支点,Add Pivot
+在列表中保存一个新的支点,Save A New Pivot In The List
+枢轴 ,Pivot 
+移除枢轴,Remove Pivot
+移除列表中的一个枢轴,Remove An Pivot In The List
+对齐位置,Align Position
+对齐所选对象与活动对象的位置透视,Align Location Pivot Of Selected Objects From Active Object
+枢轴到底部,Pivot To Bottom
+枢轴到选定对象的底部,Pivot To Bottom Of Selected Object
+方向,Direction
+下降到,Drop To
+X,X
+Y,Y
+Z,Z
+枢轴到选择,Pivot To Select
+枢轴转换,Pivot Transform
+开始转换,Start Transformation
+应用,Apply
+应用转换,Apply Transformation
+重置光标,Reset Cursor
+旋转,Rotation
+枢轴设置,Pivot Set
+三维光标,3D Cursor
+只影响三维光标,Only Affects The 3D Cursor
+设置支点/光标,Set Pivot/Cursor
+(Ctrl+LMB - 设置三维光标),(Ctrl+LMB - Set 3D Cursor)
+类型,Type
+中心,Center
+枢轴/光标到底部,Pivot/Cursor To Bottom
+枢轴到所选对象的底部 (Ctrl+LMB - 设置3D光标),Pivot To Bottom Of Selected Object (Ctrl+LMB - Set 3D Cursor)
+变换,Transform
+开始透视变换,Start Pivot Transformation
+应用支点变换,Apply Pivot Transformation
+预先选择元素,Preselect Element
+枢轴流的调整,Pivot FLow Tweak
+位置调整,Position
+重置支点位置,Reset Pivot Position
+重置支点旋转,Reset Pivot Rotation
+枢轴_流,PIVOT_FLOW
+应用支点转换,Apply Pivot Transform
+设置,Settings
+保存首选项,Save Preferences
+保存支点,Save Pivot
+保存枢轴,Pivot Save
+保存光标,Save Cursor
+3D光标保存,3d Cursor Save
+枢轴应用,Pivot Apply
+定位。,Loc.
+旋转。,Rot.
+缩放,Sca.
+应用所有变换,Apply All Transform
+旋转和缩放,Rotation & Scale
+  枢轴,  Pivot
+落下,Drop
+PT_PT_drop,PT_PT_drop
+流动,Flow
+重置支点。,Reset Pivot:
+至三维光标,To 3D Cursor
+枢轴转到活动,Pivot To Active
+至底部,To Bottom
+饼状菜单,Pie Menu
+枢轴至三维光标,Pivot To 3d Cursor
+网格转轴,Mesh To Pivot
+枢轴到中心网,Pivot To Center Mesh
+枢轴至质量中心,Pivot To Center Of Mass
+枢轴至体积中心,Pivot To Center Of Volume
+PT_PT_save,PT_PT_save
+重置所有变形,Reset All Transform
+至活动状态,To Active
+选择,To Select
+设置,Setup
+这不是MESH、CURVE、SURFACE、META、ARMATURE、LATTICE、GPENCIL！!,"This Is Not An MESH, CURVE, SURFACE, META, ARMATURE, LATTICE, GPENCIL !!!"
+检查该插件是否有更新。,Check If There Is An Update For The Addon
+枢轴变形,PivotTransform

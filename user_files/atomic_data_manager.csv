@@ -1,0 +1,243 @@
+, 
+"""\""""
+"""", ""调用 Pie Menu UI""","""\""""
+"""",""Invoke Pie Menu UI"""
+ATOMIC_MT_main_pie,ATOMIC_MT_main_pie
+删除所选类别中的所有数据块,Remove all data-blocks from the selected categories
+小心！,CAUTION!
+删除以下数据块？,Remove the following data-blocks?
+删除所选类别中所有未使用的数据块,Remove all unused data-blocks from the selected categories
+全部清除,Clean All
+删除此项目中的所有收藏集,Remove all collections from this project
+Nuke 收藏,Nuke Collections
+删除此项目中的所有图片,Remove all images from this project
+Nuke 图片,Nuke Images
+移除此项目中的所有灯光,Remove all lights from this project
+灯光,Nuke Lights
+移除此项目中的所有材质,Remove all materials from this project
+Nuke 材质,Nuke Materials
+删除此项目中的所有节点组,Remove all node groups from this project
+节点组,Nuke Node Groups
+移除此项目中的所有粒子系统,Remove all particle systems from this project
+核弹粒子,Nuke Particles
+移除此项目中的所有纹理,Remove all textures from this project
+Nuke 纹理,Nuke Textures
+移除此项目中的所有世界,Remove all worlds from this project
+核弹世界,Nuke Worlds
+删除此项目中所有未使用的收藏集,Remove all unused collections from this project
+清除收藏集,Clean Collections
+删除此项目中所有未使用的图片,Remove all unused images from this project
+清除图像,Clean Images
+删除此项目中所有未使用的灯光,Remove all unused lights from this project
+清洁灯光,Clean Lights
+删除此项目中所有未使用的材料,Remove all unused materials from this project
+清除材料,Clean Materials
+删除此项目中所有未使用的节点组,Remove all unused node groups from this project
+清理节点组,Clean Node Groups
+删除此项目中所有未使用的粒子系统,Remove all unused particle systems from this project
+清理粒子,Clean Particles
+删除项目中所有未使用的纹理,Remove all unused textures from this project
+清理纹理,Clean Textures
+删除此项目中所有未使用的世界,Remove all unused worlds from this project
+清理世界,Clean Worlds
+为数据块命名,Give this data-block a new name
+重命名数据块,Rename Data-Block
+将此数据块的所有实例替换为另一个数据块,Replace all instances of this data-block with another data-block
+替换数据块,Replace Data-Block
+保存此数据块，即使它没有用户,Save this data-block even if it has no users
+切换假用户,Toggle Fake User
+复制该数据块,Make an exact copy of this data-block
+复制数据块,Duplicate Data-Block
+从项目中强制删除此数据块,Forcibly remove this data-block from the project
+删除数据块,Delete Data-Block
+清除,Clean
+撤销之前的操作,Undo the previous action
+撤销,Undo
+自动选择未使用数据的类别,Auto-select categories with unused data
+智能选择,Smart Select
+选择所有类别,Select all categories
+全部选择,Select All
+取消选择所有类别,Deselect all categories
+全部取消选择,Deselect All
+重新加载丢失的文件,Reload missing files
+重新加载丢失的文件,Reload Missing Files
+重新加载丢失的文件报告,Reload report for missing files
+丢失文件重新加载报告,Missing File Reload Report
+Atomic 无法重新加载以下文件：,Atomic was unable to reload the following files:
+所有文件已成功重新加载！,All files successfully reloaded!
+删除此项目中所有丢失的文件,Remove all missing files from this project
+删除丢失的文件,Remove Missing Files
+在指定目录中搜索丢失的文件,Search a specified directory for the missing files
+搜索丢失的文件,Search for Missing Files
+不支持的操作！,Unsupported Operation!
+用新文件替换每个丢失的文件,Replace each missing file with a new file
+替换丢失的文件,Replace Missing Files
+"""打开 Remington Creative （""支持我""）网页","""Opens the Remington Creative \\""Support Me\\"" webpage"""
+支持我,Support Me
+检查收藏,Inspect Collections
+检查图像,Inspect Images
+检查灯光,Inspect Lights
+检查材料,Inspect Materials
+检查节点组,Inspect Node Groups
+检查粒子系统,Inspect Particle Systems
+检查粒子,Inspect Particles
+检查纹理,Inspect Textures
+检查世界,Inspect Worlds
+原子数据管理器主面板,The main Atomic Data Manager panel
+原子数据管理器,Atomic Data Manager
+场景,scene
+核弹,Nuke
+收藏,Collections
+灯光,Lights
+节点组,Node Groups
+纹理,Textures
+图像,Images
+材质,Materials
+粒子,Particles
+世界,Worlds
+','
+检测项目中丢失的文件,Detect missing files in this project
+缺失文件检测,Missing File Detection
+Atomic 检测到该项目中有一个或多个文件丢失。,Atomic has detected one or more missing files in 
+您想做什么？,What would you like to do?
+没有发现丢失的文件！,No missing files were found!
+全部,Nuke All
+检测丢失的文件,Detect Missing Files
+检查,Inspect
+ATOMIC_MT_inspect_pie,ATOMIC_MT_inspect_pie
+ATOMIC_MT_nuke_pie,ATOMIC_MT_nuke_pie
+ATOMIC_MT_clean_pie,ATOMIC_MT_clean_pie
+原子核弹,Atomic Nuke
+原子清洁,Atomic Clean
+原子检查,Atomic Inspect
+窗口,Window
+atomic.invoke_pie_menu_ui,atomic.invoke_pie_menu_ui
+在启动时显示警告，如果原子检测到 ,Display a warning on startup if Atomic detects 
+偶尔显示弹出窗口，询问您是否愿意 ,Occasionally display a popup asking if you would 
+在未使用的数据块中只包含虚假用户 ,Include data-blocks with only fake users in unused 
+启用原子饼状菜单用户界面，以便清理 ,"Enable the Atomic pie menu UI, so you can clean "
+自动检查更新,Auto-check for Update
+如果启用，自动检查更新的时间间隔为,"If enabled, auto-check for updates using an interval"
+月数,Months
+检查更新的间隔月数,Number of months between checking for updates
+天数,Days
+检查更新之间的天数,Number of days between checking for updates
+小时数,Hours
+两次检查更新之间的小时数,Number of hours between checking for updates
+分钟,Minutes
+检查更新之间的间隔分钟数,Number of minutes between checking for updates
+显示丢失文件警告,Show Missing File Warning
+显示,Show \
+包括虚假用户,Include Fake Users
+启用饼形菜单,Enable Pie Menu
+"""The Atomic Data Manager （""Stats for Nerds\"" panel）""","""The Atomic Data Manager \\""Stats for Nerds\\"" panel"""
+书呆子统计,Stats for Nerds
+类别,Categories:
+概述,Overview
+混合文件大小：     ,Blend File Size:     
+共计: {0},Total: {0}
+占位符,Placeholder
+未使用： {0},Unused: {0}
+未命名： {0},Unnamed: {0}
+缺失 {0},Missing: {0}
+对象,Objects
+粒子系统,Particle Systems
+"""显示原子数据管理器（Atomic Data Manager）弹出窗口（""Support Me\\"" popup","""Displays the Atomic \\""Support Me\\"" popup"""
+喜欢原子数据管理器吗？,Like Atomic Data Manager?
+请考虑支持我们的免费软件开发！,Consider supporting our free software development!
+不再显示,Never Show Again
+支持 Remington Creative,Support Remington Creative
+无,none
+解压缩下载的文件并验证内容,"Unzip the downloaded file, and validate contents"
+"在不删除现有文件夹的情况下，将文件夹 ""merger ""合并到文件夹 ""base",Merge folder 'merger' into folder 'base' without deleting existing
+指定要更新的标签名称和网址,Assign the tag name and url to update to
+为更新状态加载或初始化 JSON 字典数据,Load or initialize JSON dictionary data for updater state
+启动后台线程检查更新,Start a background thread which will check for updates
+执行更新检查，作为后台线程的目标运行,"Perform update check, run as target of background thread"
+与 Bitbucket API 集成，用于 git 格式的版本库,Integration to Bitbucket API for git-formatted repositories
+比特库,bitbucket
+与 Github API 集成,Integration to Github API
+github,github
+与 GitLab API 集成,Integration to GitLab API
+gitlab,gitlab
+为类字段添加注解属性以避免 Blender 2.8 警告,Add annotation attribute to class fields to avoid Blender 2.8 warnings
+Blender 2.8 之前和之后拆分 UI 功能的中间方法,Intermediate method for pre and post blender 2.8 split UI function
+Blender 2.8 前后抓取偏好设置的中间方法,Intermediate method for pre and post blender 2.8 grabbing preferences
+检查并安装可用更新,Check and install update if available
+更新 {x} 附加组件,Update {x} addon
+检查并显示当前可用更新的弹出菜单,Popup menu to check and display current updates available
+清除安装,Clean install
+如果启用，则完全清除附加组件,"If enabled, completely clear the addon"
+处理更新,Process update
+决定安装、忽略或推迟新的附加组件更新,"Decide to install, ignore, or defer new addon update"
+更新模块错误,Updater module error
+更新 {} 已准备就绪！,Update {} ready!
+选择 ,Choose 
+或点击窗口外的 推迟,or click outside window to defer
+无可用更新,No updates available
+"按 ""确定 ""以退出对话框",Press okay to dismiss dialog
+现在检查更新？,Check for update now?
+检查更新,Check for Updates
+检查原子数据管理器的更新,Check for an update to Atomic Data Manager
+更新 ,Update 
+更新至 {x} 附加组件的最新版本,Update to the latest version of the {x} addon
+安装目标版本的原子数据管理器,Install a targeted version of Atomic Data Manager
+要安装的目标版本,Target version to install
+选择要安装的版本,Select the version to install
+更新程序错误,Updater error
+选择安装版本,Select install version
+作为备用方案，引导用户到 d,"As a fallback, direct the user to download the addon manually"
+手动安装更新,Install update manually
+继续手动安装更新,Proceed to manually install update
+出现错误,Error Occurred
+尝试自动安装时出现问题,There was an issue trying to auto-install
+按下面的下载按钮并像安装普通插件一样安装,Press the download button below and install
+像安装普通插件一样安装压缩文件。,the zip file like a normal addon.
+手动安装插件,Install the addon manually
+直接下载,Direct download
+(直接下载失败）,(failed to retrieve direct download)
+打开网站,Open website
+查看源网站下载更新,See source website to download the update
+已安装附加组件，弹出窗口告知用户已完成安装或出错原因,"Addon in place, popup telling user it completed or what went wrong"
+安装报告,Installation Report
+更新安装响应,Update installation response
+出现错误，未安装,"Error occurred, did not install"
+点击手动下载。,Click for manual download.
+恢复插件,Addon restored
+重启搅拌器重新加载。,Restart blender to reload.
+已成功安装插件,Addon successfully installed
+考虑重新启动 blender 以完全重新加载。,Consider restarting blender to fully reload.
+从备份恢复插件,Restore addon from backup
+恢复备份,Restore backup
+防止今后弹出更新通知,Prevent future update notice popups
+忽略更新,Ignore update
+忽略更新以防止未来弹出通知,Ignore update to prevent future popups
+停止后台更新检查,Stop checking for update in the background
+结束后台检查,End background check
+传入更新器，后台线程更新器,"Passed into the updater, background thread updater"
+可放在其他操作符前面，按下后启动,Can be placed in front of other operators to launch when pressed
+重启搅拌器,Restart blender
+以完成更新,to complete update
+更新准备就绪！,Update ready!
+忽略,Ignore
+更新,Update
+手动安装,Install manually
+立即获取,Get it now
+初始化更新程序代码时出错：,Error initializing updater code:
+获取更新程序首选项出错,Error getting updater preferences
+更新原子数据管理器,Update Atomic Data Manager
+重新启动搅拌机以完成更新,Restart blender to complete update
+自动检查更新,Automatically check for updates every:
+检查...,Checking...
+直接更新至 ,Update directly to 
+现在更新至 ,Update now to 
+下载 ,Download 
+插件已更新,Addon is up to date
+安装最新 {} / 旧版本,Install latest {} / old version
+重新安装/安装旧版本,Reinstall / install old version
+恢复插件备份 ({}),Restore addon backup ({})
+上次更新检查 ,Last update check: 
+上次更新检查 从不,Last update check: Never
+上次检查 ,Last check: 
+上次检查 从不,Last check: Never
+在此模块中注册操作员,Registering the operators in this module

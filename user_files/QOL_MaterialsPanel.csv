@@ -1,0 +1,112 @@
+, 
+"""\""""
+"""", ""材料夹""","""\""""
+"""",""Materials Holder"""
+','
+随机颜色,random color
+随机颜色的基色，以便获得伽玛校正输出,base for random color so we get gamma corrected output
+面板类型,Panel Type
+是 NPanel 还是属性面板,Whether to be an NPanel or Properties Panel
+显示色板,Show Swatch
+在面板中显示色板,Show the swatch in the panel
+显示资产库状态,Show Asset Library Status
+在面板中显示资产库状态,Show the asset library status in the panel
+显示删除,Show Delete
+是否在面板上显示删除按钮,Whether to show the delete button on the panel
+显示假用户,Show Fake User
+是否在面板上显示 fake_user 按钮,Whether to show the fake_user button on the panel
+显示抓取,Show Grab
+是否在面板上显示抓取按钮,Whether to show the grab button on the panel
+显示收藏夹,Show Favorites
+是否在面板上显示收藏夹按钮,Whether to show the favorites button on the panel
+显示主按钮,Show Main Buttons
+是否显示所有材料或仅显示收藏的材料,Whether to show all materials or just the favorite materials
+列宽,Column Width
+弹出栏的宽度,The width of the popup column
+显示材料使用情况,Show Material Usage
+是否在面板上显示材料使用按钮,Whether to show the material usage button on the panel
+显示资产转换器,Show Asset Converter
+是否在面板上显示资产转换器按钮,Whether to show the asset converter button on the panel
+注意： ,Note: 
+资产转换器警告,Asset Converter Warning
+此功能仅供高级用户使用,This is a feature resevred for advanced users only
+它会将场景中的所有材质转换到资产库中（由于 Blenders 资产转换系统的特性，这有时会花费很长的时间，并且可能会出现冻结的情况）。,"It will convert all materials in the scene to the asset library\nBecause of the nature of Blenders asset conversion system\nThis can sometimes take a LONG time and may appear to have frozen\nIf you are unsure what this means, please leave this option disabled"
+键图：,Keymap:
+场景,Scene
+在对象属性区域创建一个面板,Creates a Panel in the Object properties area
+QOL 材质面板 ADV,QOL Materials Panel ADV
+材质,material
+  ,  
+尚无材质...,No Materials yet...
+收藏夹,Favorites
+还没有收藏...,No Favorites yet...
+工具,Tools
+过滤,filter
+清理对象插槽,Cleanup object slots
+清除场景中未使用的对象,Purge unused in scene
+转换为链接的对象,Convert to OBJECT Linked
+转换为关联数据,Convert to DATA Linked
+创建保险库,Make a Vault
+全部转为资产,All to Assetts
+材质弹出窗口,Materials Popup
+ QOL 材质, QOL Materials
+弹出材料面板 ADV 版本,Brings up a popup version of Materials Panel ADV
+添加新,Add New
+选项,Options
+清理插槽,Cleanup slots
+清除未使用的,Purge Unused
+清除所有未使用的材料,remove all unused materials
+添加材料,add material
+对象,object
+确认对话框 操作员,Confirmation Dialog Box Operator
+此操作可能需要很长时间。要继续吗？,This operation can take a long time. Do you want to continue?
+将所有材料转换为 Assetts,Convert all materials to Assetts
+注意：此操作可能需要很长时间,NOTE: This operation can take a very long time
+Blender生成预览的速度*非常*慢,Blender is *VERY* slow at generating previews
+  如果您继续，Blender 将无法响应,"  If you proceed, blender WILL be unresponsive"
+直到操作完成。,until the operation is complete.
+警告,WARNING:
+     Blender API 无法提供查看此操作进度的方法,     Blender API offers NO way to see the progress
+此操作的进度。,of this operation..
+添加并应用新材质。\nCTRL 单击可为每个选定对象随机添加新材质。,Add and apply new material. \nCTRL Click to add random new material to each object selected
+为所选对象添加新材质,Add new material to selected
+材质名称,Material Name
+要查找和选择的材料名称,Name of Material to find and Select
+从选择中删除未使用和重复的插槽,Remove unused and duplicate slots from selection
+高多边形数量警告 - 可能需要时间,High poly count warning - may take time
+选择具有此材质的所有对象,Select all objects with this material
+抓取具有此材质的对象,Grab objects with this material
+扩展,Extend
+扩展选区,Extend selection
+切换资产标记,Toggle Asset Marker
+随机颜色,Random color
+创建新材质时添加随机颜色,Add random color when creating new material
+覆盖,Overwrite
+清除所选对象上的所有材质，代之以新材质,"Wipes all materials from selected objects, replacing them with the new material"
+筛选,Filter
+选择过滤,Selection Filter
+是否通过选择过滤材质列表,Whether to filter the materials list by selection
+材质数量,Material Count
+场景中的材质数量,Number of materials in the scene
+后备颜色,Fallback Color
+未选择材质时使用的颜色,Color to use when no material is selected
+显示资产库,Display Asset Library
+是否显示资产库,Whether to display the Asset Library
+更改材质颜色,Change Material Color
+颜色,Color
+真的吗？,Really?
+你真的想这样做吗？,Do you really want to do that?
+属性 A,Property A
+属性 B,Property B
+将选定材质转换为对象材质,Converts selected material to object material
+转换为对象材质,Convert to Object Material
+直接访问材料的材料库,Vault for directly accessing materials
+材料库,Materials Vault
+材料名称,Name of the material
+收藏夹,Favorite
+该材料是否为收藏,Whether this material is a favorite
+删除选定的材料,Deletes selected material
+删除材料,Delete Material
+要删除的材料名称,Name of Material to delete
+使用指示器,Usage Indicator
+屏幕编辑,Screen Editing

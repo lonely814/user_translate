@@ -1,0 +1,16 @@
+自动更新文件,Auto Update File
+更新时间间隔,Update Interval
+文件数据,File Data
+从.py文件中提取文本,Extract text from .py file
+对翻译的文本进行处理,Process for translated text
+合并源文件和翻译文件以创建文件,Combine source & translation to create file
+从剪贴板粘贴翻译文本,Paste translated text from clipboard
+翻译后的文本,Translated
+粘贴剪贴板上由自动翻译网站等翻译的文本作为翻译文本,Paste the clipboard text translated by an automatic translation site etc. as translated text
+合并源文本和翻译文本，并将其保存为user_files文件夹中的.csv文件,Combine the source text and the translated text and save it as a .csv file in the user_files folder
+"从插件的.py文件中提取所有文本元素（搜索bl_label, bl_description, name, description, text）/在文件夹的情况下，搜索.py文件到更深的文件夹中","Extract all text elements from the add-on's .py file\n(search for bl_label, bl_description, name, description, text)\nIn the case of a folder, search the .py file to a deeper folder"
+从文件夹中的.py提取文本,Extract text from .py in a folder
+创建.csv文件(覆盖),Create .csv File(Overwrite)
+打开文件夹,Open Folder
+,
+,

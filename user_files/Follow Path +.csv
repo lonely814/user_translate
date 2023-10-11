@@ -1,0 +1,47 @@
+,"""\""""
+"""",""Settings"""
+遵循曲线（方向）。,Follow Curve (Direction)
+模式,Mode
+曲线类型,Curve Type
+长度,Length
+前轴,Forward Axis
+上轴,Up Axis
+','
+ , 
+选择任何对象或曲线,Select any Object or Curve
+接受自动执行的脚本,Accept scripts autoexecute
+为这个附加组件。,for this add-on:
+接受并开始!,Accept & go!
+决议。,Resolution:
+扭曲方法。,Twist Method:
+扭曲平滑。,Twist Smooth:
+绘制法线（编辑模式）,Draw Normals (Edit Mode)
+路径重新缩放 - 应用比例,Path rescaled - Apply scale
+应用比例,Apply Scale
+INVOKE_DEFAULT,INVOKE_DEFAULT
+显示轴线,Show Axis
+类型。,Type:
+草图,Sketch
+确认,Confirm
+取消,Cancel
+QuadView中未启用绘图功能,Drawing not enabled in QuadView
+方向。,Direction:
+长度。,Length:
+创建,Create
+確定,OK
+这个约束没有路径,This constraint doesnt have path
+距离。,Distance:
+倾斜。,Tilt:
+约束设置,Constraint Settings
+遵循曲线（带倾斜度）,Follow Curve (with Tilt)
+前进轴。,Forward Axis:
+上轴。,Up Axis:
+添加跟随路径约束,Add Follow Path constraint
+接受,Accept
+建立新曲线并添加约束条件,Build new curve and add constraint
+勾画曲线并添加约束条件,Sketch a curve and add constraint
+在视窗中显示轴线,Show Axis in viewport
+跟随路径的距离,Follow Path Distance
+跟随路径倾斜,Follow Path Tilt
+轴线,Axis
+,FP_DrawingInProcess

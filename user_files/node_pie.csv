@@ -1,0 +1,185 @@
+一个包含辅助工具的模块，可帮助用户更轻松地定义混合器类型（面板、运算符等）。,"A module containing helpers to make defining blender types easier (panels, operators etc.)"
+获取一个字符串并将其画在多行上，使其永不连接。,Take a string and draw it over multiple lines so that it is never concatenated.
+ , 
+','
+封装了记录不全的 blender 光标函数，以实现自动补全。,Wraps the poorly documented blender cursor functions to allow for auto-complete
+从中继承，为使用 BOperator 装饰器定义的操作符类提供适当的类型提示,Inherit from this to get proper type hinting for operator classes defined with the BOperator decorator
+封装 invoke 函数，以便设置一些初始属性,Wrap the invoke function so we can set some initial attributes
+封装模态函数，以便设置一些初始属性,Wrap the modal function so we can set some initial attributes
+"""封装执行函数，从而无需返回 {\""FINISHED\""}""","""Wrap the execute function to remove the need to return {\""FINISHED\""}"""
+继承类型，为使用 @BOperator 装饰器的类提供适当的类型提示,A type to inherit from that gives proper type hinting for classes using the @BOperator decorator
+实现必要设置的 blender NodeItem 类的内置模仿器,"An imitator of the built in blender NodeItem class, that implements the necessary settings"
+blender 内置的节点类别（NodeCategory）类的模仿器，该类实现了必要的设置,"An imitator of the built in blender NodeCategory class, that implements the necessary settings"
+绘制反锯齿线,Draw an antialiased line
+获取节点的实际位置，并将父框架节点考虑在内,"Get the actual location of a node, taking parent frame nodes into account"
+,
+返回插件首选项,Return the addon preferences
+两个值之间的线性插值（混合,Linear interpolation (mix) between two values
+反线性插值，获取面所在的 a 和 b 之间的分数。,"Inverse Linar Interpolation, get the fraction between a and b on which fac resides."
+两个向量的元素除法,Elementwise divide for two vectors
+两个向量的元素最小值,Elementwise minimum for two vectors
+两个向量的元素最大值,Elementwise maximum for two vectors
+表示矩形的辅助类,Helper class to represent a rectangle
+返回绘制坐标,Return coordinates for drawing
+检查点是否在矩形内,Check if a point is inside this rectangle
+返回构成此矩形的线段列表,Return a list of lines that make up this rectangle
+将此矩形裁剪到另一个矩形的内部,Crop this rectangle to the inside of another one
+视图 2D,View2D
+以比默认方式更漂亮的方式绘制键表项,Draw a keymap item in a prettier way than the default
+"""\""""
+"""", ""Cmd ""键","""\""""
+"""",""Cmd"""
+编辑按键绑定：,Edit keybind:
+为调用节点饼菜单添加新的键图项,Add a new keymap item for calling the node pie menu
+节点派实用工具：,Node Pie Utiltities:
+打开示例定义文件,Open example definition file
+节点饼,Node pie
+启用节点饼,Enable node pie
+使用可变尺寸,Use variable size
+是否增大最常用节点按钮的尺寸,Whether to increase the size of node buttons that are used most often
+正常大小,Normal size
+节点按钮的默认大小,The default size of the nodes buttons
+最大尺寸,Max size
+最常用节点的大小,The size of the most popular nodes
+显示节点组,Show node groups
+是否在饼状菜单中显示节点组,Whether to show node groups in the pie menu or not
+展开节点组,Expand node groups
+是否将节点组绘制为子菜单或单独按钮,Whether to draw the node groups as a sub menu or as individual buttons
+颜色条大小,Color bar size
+该值过低会导致颜色消失。,Having this value too low can cause the colors to disapear.
+冻结流行度,Freeze popularity
+防止节点流行度发生新的变化。,Prevent new changes the popularity of nodes.
+子类别标签,Subcategory labels
+绘制子类别的标题或只是一个空格,Draw the headings of subcategories or just a gap
+显示变体,Show variants
+为支持变体的节点绘制变体菜单,Draw the variants menus for nodes that support them
+显示额外开发功能,Show dev extras
+在右键菜单中显示一些操作符，使创建自定义定义文件更容易。,Show some operators in the right click menu to make creating custom definition files easier.
+启用链接拖动,Enable link dragging
+如果悬停新节点，则允许自动将其连接到套接字,Allow automatically connecting the new node to a socket if it is hoverred
+绘制调试框,Draw debug boxes
+绘制一些调试线，以显示单击节点套接字进行拖动连接时的边界框。,Draw some debug lines to show the bounding box for clicking a node socket for drag linking.
+套接字分离,Socket separation
+模仿 UILayout 但不绘制任何内容的类,"Class that immitates UILayout, but doesn't draw anything"
+绘制带有标题的框，并将其返回,"Draw a box with a title, and return it"
+绘制一个属性，标签位于值的左边,Draw a property with the label to the left of the value
+"绘制 ""启用部分 ""按钮，并返回以下布局","Draw the 'section enabled' button, and return the following layout"
+已启用     ,Enabled     
+"返回启用或禁用的""√""图标名称。","Returns the name of the tick icon, enabled or disabled."
+子菜单，可为某些节点添加不同的参数。,A sub menu that can be added to certain nodes with different parameters.
+节点选项,Node options
+获取可添加到当前节点树的节点组列表,Get a list of node groups that can be added to the current node tree
+显示可添加的节点组列表,Show a list of node groups that you can add
+节点组,Node Groups
+节点饼菜单,The node pie menu
+节点饼,Node Pie
+在尝试绘制饼形菜单时发生错误：,An error occurred while trying to draw the pie menu:
+绘制添加节点操作符,Draw the add node operator
+获取此节点的图标名称,Get the icon name for this node
+绘制节点类别的标题,Draw the header of a node category
+组,group
+绘制此类别中的所有节点项,Draw all node items in this category
+搜索,Search
+"遗憾的是，不支持此节点树，因为它不支持 ""搜索 ""功能。","Unfortunately, this node tree is not supported, as it doesn"
+您可以在偏好设置中启用开发人员额外功能，手动定义该节点树的饼状菜单。,You can define the pie menu for this node tree manually by enabling developer extras
+并从该节点树的右键菜单中选择 ,"in the preferences, and choosing "
+从该节点编辑器的右键菜单中选择,from the right click menu in this node editor
+请注意，这可能需要大量工作，具体取决于所需的节点数量,"Be aware that this could require a lot of work, depending on the number of nodes required"
+考虑到插座类型，在节点和插座之间建立最佳链接,"Make the optimal link between a node and a socket, taking into account socket types"
+添加节点,add_node
+在节点树中添加一个节点，并将其节点数增加 1,"Add a node to the node tree, and increase its poularity by 1"
+节点类型,Type
+要添加的节点类型,Node type to add
+节点组名称,Group name
+要添加的节点组名称,The name of the node group to add
+设置,Settings
+要应用于新创建节点的设置,Settings to be applied on the newly created node
+节点。,node.
+将 2d 编辑器坐标转换为屏幕空间坐标,Convert 2d editor to screen space coordinates
+将屏幕空间坐标转换为 2d 编辑器坐标,Convert screen space to 2d editor coordinates
+在活动节点的插槽周围画一个圆，并画出节点饼最后激活的位置,"Draw a circle around the sockets of the active node, and also the last location that the node pie was activated"
+调用节点饼菜单,Call the node pie menu
+以正确的格式复制所选节点，并粘贴到节点饼定义文件中。,Copy the selected nodes in the correct format to be pasted into the node pie definition file.
+允许用户在节点链接上绘图，调用节点饼并将所选节点插入到链接中,"Allow user to draw over a node link, call the node pie and insert the chosen node into the link"
+打开该节点树的节点饼定义文件,Open the node pie definition file for this node tree
+将所有节点的受欢迎程度重置为零,Reset the popularity of all nodes back to zero
+警告！,Warning!
+这将把所有节点的流行度重置为零。,This will reset the popularity of all nodes back to zero.
+无法撤销。,This cannot be undone.
+还要继续吗？,Continue anyway?
+基础传输适配器,The Base Transport Adapter
+清理适配器特定项目。,Cleans up adapter specific items.
+返回基本认证字符串。,Returns a Basic Auth string.
+所有 Auth 实现都源自该基类,Base class that all auth implementations derive from
+将 HTTP 基本身份验证附加到给定的请求对象。,Attaches HTTP Basic Authentication to the given Request object.
+将 HTTP 代理身份验证附加到给定的请求对象。,Attaches HTTP Proxy Authentication to a given Request object.
+为给定的请求对象附加 HTTP 摘要身份验证。,Attaches HTTP Digest Authentication to the given Request object.
+{self.username｝,{self.username}
+重置重定向时的 num_401_calls 计数器。,Reset num_401_calls counter on redirects.
+cookielib 没有合法使用此方法；如果你找到了，请将其添加回来。,cookielib has no legitimate use for this method; add it back if you find one.
+列出 jar 中所有域的实用程序。,Utility method to list all the domains in the jar.
+列出罐中所有路径的实用方法。,Utility method to list all the paths in the jar.
+用另一个 CookieJar 或类似 dict 的 Cookie 更新此 jar,Updates this jar with cookies from another CookieJar or dict-like
+与普通 CookieJar 不同，该类是可拾取的。,"Unlike a normal CookieJar, this class is pickleable."
+返回此 RequestsCookieJar 的副本。,Return a copy of this RequestsCookieJar.
+返回所使用的 CookiePolicy 实例。,Return the CookiePolicy instance used.
+将 Morsel 对象转换为包含一对 k/v 的 Cookie。,Convert a Morsel object into a Cookie containing the one k/v pair.
+用 `request` 和 `response` 对象初始化 RequestException。,Initialize RequestException with `request` and `response` objects.
+出现 JSON 错误。,A JSON error occurred.
+无法将文本解码为 json,Couldn't decode the text into json
+发生 HTTP 错误。,An HTTP error occurred.
+发生连接错误。,A Connection error occurred.
+发生代理错误。,A proxy error occurred.
+发生 SSL 错误。,An SSL error occurred.
+服务器在规定时间内未发送任何数据。,The server did not send any data in the allotted amount of time.
+提出请求需要有效的 URL。,A valid URL is required to make a request.
+重定向太多。,Too many redirects.
+缺少 URL 方案（如 http 或 https）。,The URL scheme (e.g. http or https) is missing.
+提供的 URL 方案无效或不支持。,The URL scheme provided is either invalid or unsupported.
+提供的 URL 不知何故无效。,The URL provided was somehow invalid.
+提供的标头值无效。,The header value provided was somehow invalid.
+提供的代理 URL 无效。,The proxy URL provided is invalid.
+服务器声明使用分块编码，但发送的分块无效。,The server declared chunked encoding but sent an invalid chunk.
+响应内容解码失败。,Failed to decode response content.
+此响应的内容已被使用。,The content for this response was already consumed.
+自定义重试逻辑失败,Custom retries logic failed
+请求在尝试回卷正文时遇到错误。,Requests encountered an error when trying to rewind a body.
+请求的基本警告。,Base warning for Requests.
+文件以文本模式打开，但请求确定了其二进制长度。,"A file was opened in text mode, but Requests determined its binary length."
+导入的依赖项与预期的版本范围不匹配。,An imported dependency doesn't match the expected version range.
+包含错误报告助手的模块。,Module containing bug report helper(s).
+生成错误报告信息。,Generate information for a bug report.
+将错误信息漂亮地打印为 JSON 格式。,Pretty-print the bug information as JSON.
+根据给定数据派发钩子字典。,Dispatches a hook dictionary on a given piece of data.
+构建要使用的路径 URL。,Build the path URL to use.
+正确注册钩子。,Properly register a hook.
+构建一个 :class:`PreparedRequest <PreparedRequest>` 用于传输并返回。,Constructs a :class:`PreparedRequest <PreparedRequest>` for transmission and returns it.
+使用给定参数准备整个请求。,Prepares the entire request with the given parameters.
+准备给定的 HTTP 方法。,Prepares the given HTTP method.
+准备给定的 HTTP URL。,Prepares the given HTTP URL.
+准备给定的 HTTP 头信息。,Prepares the given HTTP headers.
+准备给定的 HTTP 主体数据。,Prepares the given HTTP body data.
+根据请求方法和正文准备 Content-Length 头信息,Prepare Content-Length header based on request method and body
+准备给定的 HTTP 验证数据。,Prepares the given HTTP auth data.
+准备给定的钩子。,Prepares the given hooks.
+允许将响应用作迭代器。,Allows you to use a response as an iterator.
+如果此响应是重定向的永久版本之一，则返回 true。,True if this Response one of the permanent versions of redirect.
+返回重定向链中下一个请求的 PreparedRequest（如果有的话）。,"Returns a PreparedRequest for the next request in a redirect chain, if there is one."
+表面编码，由 charset_normalizer 或 chardet 库提供。,"The apparent encoding, provided by the charset_normalizer or chardet libraries."
+响应内容（以字节为单位）。,"Content of the response, in bytes."
+返回解析后的响应头链接（如果有）。,"Returns the parsed header links of the response, if any."
+如果有，则引发 :class:`HTTPError` 错误。,"Raises :class:`HTTPError`, if one occurred."
+接收响应。返回重定向 URI 或 ``None``.,Receives a Response. Returns a redirect URI or ``None``
+决定重定向时是否应删除授权头信息。,Decide whether Authorization header should be removed when redirecting
+接收一个响应。返回响应或请求的生成器。,Receives a Response. Returns a generator of Responses or Requests.
+关闭所有适配器，并因此关闭会话,Closes all adapters and as such the session
+状态代码,status_codes
+与 iteritems() 类似，但键值全部小写。,"Like iteritems(), but with all lowercase keys."
+字典查询对象。,Dictionary lookup object.
+返回内部序列字典更新。,Returns an internal sequence dictionary update.
+从 netrc 返回给定 url 的请求元组 auth。,Returns the Requests tuple auth for a given url from netrc.
+尝试猜测给定对象的文件名。,Tries to guess the filename of the given object.
+以原子方式将文件写入磁盘,Write a file to the disk in an atomic fashion
+流解码迭代器,Stream decodes an iterator.
+遍历字符串片段。,Iterate over slices of a string.
+python-requests,python-requests

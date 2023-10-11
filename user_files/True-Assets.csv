@@ -1,0 +1,429 @@
+,"""\""""
+"""",""Tags"""
+品质,Qualities
+Is Ta Dummy,Is Ta Dummy
+AmbientCG.blend,AmbientCG.blend
+','
+摄像机,Camera
+TA_SUBSURF,TA_SUBSURF
+TA_Track_To,TA_Track_To
+缩略图世界,TA_Thumbnail_World
+TA_Node_Group_Render_Setup,TA_Node_Group_Render_Setup
+ , 
+True-BSDF,True-BSDF
+节点组,NodeGroup
+未找到,Not Found
+过滤器,Filters
+集合,Collections
+对象,Objects
+材料,Materials
+世界,Worlds
+网格,Meshes
+曲线,Curves
+元球,Meta Balls
+曲面,Surfaces
+灯光,Lights
+摄像头,Cameras
+文字,Texts
+体积,Volumes
+油笔,Grease pencil
+节点组,Node Groups
+最少节点数,Minimum Nodes
+材质至少应有这么多节点,Materials should have atleast this many nodes
+缩略图着色,Thumbnail Shading
+节点组渲染引擎,NodeGroup Render Engine
+如果文件已经存在,If File Already Exists
+保存什么,What to save:
+实验选项,Experimental Options
+显示实验设置,Show Experimental settings
+Blender 3.5 崩溃修复,Blender 3.5 Crash Fix
+修复使用自定义纯色着色模式批量创建 fbx/obj/usd 资产时的崩溃问题,Fix crashing when using batch fbx/obj/usd asset creation by using Custom Solid shading mode
+自动清除搜索,Auto Clear Search
+切换库时自动清除搜索栏,Auto clear the search field when switching libraries
+真实资产目录,True Assets Directory
+对象目录,Objects Directory
+世界目录,Worlds Directory
+材料目录,Materials Directory
+节点组目录,Node Groups Directory
+环境目录,Ambient Directory
+下载资产,Downloaded Assets
+添加为库,Add as library
+在资产浏览器中将下载目录添加为库，以访问下载的资产,Add downloads directory as a library in the asset browser to access downloaded assets
+混合目录,Blends Directory
+对象库名称,Object Library Name
+材料库名称,Material Library Name
+世界库名称,World Library Name
+节点组库名称,Node Group Library Name
+AmbientCG 库名称,AmbientCG Library Name
+混合文件库名称,Blend Files Library Name
+为任务使用独立线程（无阻塞）,Use Separate threads for tasks (Non-Blocking)
+添加地平面,Add Ground Plane
+为缩略图添加地平面,Add ground plane for thumbnails
+世界强度（用于渲染缩略图）,World Strength (For Rendered Thumbnails)
+使用的导入器,Importer to use
+库名称,Library Names
+性能,Performance:
+Windows 上下文菜单：,Windows Context Menu:
+帮助,Help
+文档,Documentation
+聊天支持,Chat Support
+教程,Tutorials
+真实资产,True Assets
+库：,Libraries:
+标记此文件中的资产,Mark assets from this file
+显示高级设置,Show Advanced Settings
+确保 True-Asset 素材处于活动状态！,Make sure True-Asset material is active!
+世界中没有任何 True-HDRI 节点！,World does not have any True-HDRI node!
+标记资产并退出,Mark Assets and Quit
+从该文件创建资产,Create Assets from this File
+"在写入 ""对象 ""之前清除 ""材质 ""和 ""节点组 ""资产数据",Clear Materials and Node Groups asset data before writing Objects
+退出,Quit
+强制重新生成预览,Force Regenerate Previews
+目录,Catalog
+目录名称,Catalog Name
+打包外部数据,Pack External Data
+将原点移至底部,Move Origin To Bottom
+可能会比较慢,Might be slow!
+摄像机角度,Camera Angle
+从目录创建资产,Create Assets From Directory
+从目录创建资产,Create Assets from Directory
+文件路径,File Path
+每个文件的最长时间,Maximum Time Per File
+工具包资产,Kitbash Assets
+应用旋转,Apply Rotation
+更改位移类型,Change Displacement Type
+将材质的位移类型更改为 ,Change Displacement type on materials to 
+移除次表面修改器,Remove Subsurf Modifiers
+移除对象的次表面修改器。,Remove subsurface modifiers from objects.
+清除父对象,Clear Parent
+是否将外部数据（如图像、字体等）打包到混合文件中,"Whether to pack external(like images,fonts etc) data into the blend files"
+保存为单一混合文件,Save as Single Blend File
+缩略图渲染引擎,Render Engine for Thumbnail
+如何处理现有文件,What to do for existing files
+从美元文件创建资产,Create Assets From USD Files
+是否将外部数据（如图像和字体）打包到混合文件中,Whether to pack the External data (like Images and Fonts) into the blend files
+缩放,Scale
+设置帧范围,Set frame range
+细分,Subdivision
+导入实例代理,Import Instance Proxies
+仅可见基元,Visible Primitives Only
+创建集合,Create collection
+UV 坐标,UV Coordinates
+颜色属性,Color Attributes
+路径掩码,Path mask
+指南,Guide
+代理,Proxy
+渲染,Render
+相对路径,Relative Path
+导入美元预览,Import USD Preview
+设置材质混合,Set material blend
+光强比例,Light intensity scale
+材质名称碰撞,Material name collision
+导入所有材质,Import All Materials
+导入材质,Import Textures
+纹理目录,Textures Directory
+文件名碰撞,File name collision
+导入设置：,Importer Settings:
+数据类型：,Data Types:
+网格数据：,Mesh Data:
+包含,Include:
+选项,Options:
+从 FBX 文件创建资产,Create Assets From FBX Files
+将资产保存到一个文件中,Save assets into one file
+自动骨骼方向,Automatic Bone Orientation
+自动排序骨骼方向，如果要保留原始纟，请禁用该选项,"Automatically sort bones orientations, if you want to preserve the original armature, please disable the option"
+计算滚动,Calculate Roll
+当出现以下情况时，自动修正导入骨骼的轴线对齐方式 ,Automatically fix alignment of imported bones’ axes when 
+骨骼长度,Bone Length
+骨骼长度 ,Bone length when 
+叶骨,Leaf Bone
+叶骨的长度,The length of leaf bone
+固定骨骼姿势,Fix Bone Poses
+当绑定姿势不等于默认姿势时，尝试用默认姿势修复骨骼姿势,Try fixing bone poses with default poses whenever bind poses are not equal to default poses
+修复 Unity 和 C4D 的属性,Fix Attributes For Unity & C4D
+尝试修复 Unity 的空属性,Try fixing null attributes for Unity
+只导入变形骨骼,Only Deform Bones
+仅导入变形骨骼,Import only deform bones
+顶点动画,Vertex Animation
+导入顶点动画,Import vertex animation
+动画,Animation
+导入动画,Import animation
+动画偏移,Animation Offset
+为所有关键帧添加偏移,Add an offset to all keyframes
+动画前缀,Animation Prefix
+添加对象名称作为动画前缀,Add object name as animation prefix
+三角剖分,Triangulate
+对网格进行三角化处理,Triangulate meshes
+法线,Normal
+如何获取法线,How to get normals
+自动平滑,Auto Smooth
+自动平滑（基于平滑/锐利的面/边和面之间的角度）,Auto smooth (based on smooth/sharp faces/edges and angle between faces)
+角度,Angle
+将被视为平滑的面法线之间的最大角度,Maximum angle between face normals that will be considered as smooth
+着色,Shading
+如何渲染和显示面,How to render and display faces
+缩放所有数据,Scale all data
+为 Blender 优化,Optimize For Blender
+使旋转和缩放对 Blender 友好。这是一项实验性功能，可能存在错误，使用风险自负。,"Make Blender friendly rotation and scale. This is an experimental feature, which may has bugs, use at your own risk"
+重置网格原点,Reset Mesh Origin
+将网格原点重置为零,Reset mesh origin to zero
+边缘折痕,Edge Crease
+导入边缘折痕,Import edge crease
+边缘折痕比例,Edge Crease Scale
+边缘折痕值的缩放比例,Scale of the edge crease value
+平滑组,Smoothing Groups
+如何生成平滑组,How to generate smoothing groups
+导入材质,Import Materials
+为网格导入材质，如果您不知道如何导入材质。,"Import materials for meshes, if you don"
+按文件名重命名,Rename By Filename
+如果要批量导入大量 3d 模型或纟，且每个文件只有一个网格或一个纟，可以打开此选项，按文件名重命名导入的网格或纟,"If you want to import a lot of 3d models or armatures in batch, and there is only one mesh or one armature per file, you may turn on this option to rename the imported meshes or armatures by their filenames"
+旋转模式,Rotation Mode
+所有对象的旋转模式,Rotation mode of all objects
+手动调整方向,Manual Orientation
+指定方向和比例，而不是使用 FBX 文件中的嵌入数据,"Specify orientation and scale, instead of using embedded data in FBX file"
+应用变换,Apply Transform
+将空间变换烘焙到对象数据中，避免对象在旋转时产生不必要的旋转。,"Bake space transform into object data, avoids getting unwanted rotations to objects when "
+自定义法线,Custom Normals
+导入自定义法线（如果有的话）（否则 Blender 将重新计算法线,"Import custom normals, if available (otherwise Blender will recompute them)"
+图像搜索,Image Search
+搜索子目录中的相关图像（警告：可能会很慢）,Search subdirs for any associated images (WARNING: may be slow)
+阿尔法贴花,Alpha Decals
+将具有 Alpha 的材质视为贴花（无阴影投射）,Treat materials with alpha as decals (no shadow casting)
+贴花偏移,Decal Offset
+置换 Alpha 网格的几何形状,Displace geometry of alpha meshes
+导入动画,Import Animation
+导入 FBX 动画,Import FBX animation
+导入时应用于动画的偏移（以帧为单位,"Offset to apply to animation during import, in frames"
+细分数据,Subdivision Data
+导入 FBX 细分信息作为细分曲面修改器,Import FBX subdivision information as subdivision surface modifiers
+自定义属性,Custom Properties
+将用户属性作为自定义属性导入,Import user properties as custom properties
+以字符串形式导入枚举,Import Enums As Strings
+将枚举值存储为字符串,Store enumeration values as strings
+忽略叶骨,Ignore Leaf Bones
+忽略每条链末尾的最后一块骨骼（用于标记前一块骨骼的长度）,Ignore the last bone at the end of each chain (used to mark the length of the previous bone)
+强制连接子骨骼,Force Connect Children
+强制连接子代骨骼与父代骨骼，即使它们的计算头/尾也是如此 ,"Force connection of children bones to their parent, even if their computed head/tail "
+尝试将主要骨骼轴线与骨骼子节点对齐,Try to align the major bone axis with the bone children
+主骨轴,Primary Bone Axis
+次骨骼轴线,Secondary Bone Axis
+使用前/后旋转,Use Pre/Post Rotation
+使用来自 FBX 变换的预/后旋转（在某些情况下可能需要禁用该功能）,Use pre/post rotation from FBX transform (you may have to disable that in some cases)
+基本选项：,Basic Options:
+混合器选项：（试验性）,Blender Options: (Experimental)
+骨骼选项,Bone Options:
+动画选项,Animation Options:
+顶点动画选项,Vertex Animation Options:
+网格选项,Mesh Options:
+边缘选项,Edge Options:
+变换,Transform:
+使用手动定向,Use Manual Orientation
+动画,Animation:
+使用动画,Use Animation
+从 OBJ 文件创建资产,Create Assets From OBJ Files
+线,Lines
+以 2 个顶点为边缘导入线和面,Import lines and faces with 2 verts as edge
+平滑组,Smooth Groups
+用锐利边缘包围平滑组,Surround smooth groups by sharp edges
+对象,Object
+将 OBJ 对象导入 Blender 对象,Import OBJ Objects into Blender Objects
+组,Group
+将 OBJ 群组导入到 Blender 对象中,Import OBJ Groups into Blender Objects
+多边形组,Poly Groups
+将 OBJ 组作为顶点组导入,Import OBJ groups as vertex groups
+搜索子目录中的相关图像 ,Search subdirs for any associated images 
+分割,Split
+夹钳尺寸,Clamp Size
+此值下的夹钳边界（0 表示禁用）,Clamp bounds under this value (zero to disable)
+几何图形,Geometry
+按对象分割,Split by Object
+按组分割,Split by Group
+标记资产（真实资产）,Mark Asset (True Assets)
+标记资产,Mark Asset
+名称,Name
+描述,Description
+渲染引擎,Render Engine
+已存在同名文件！,File with same name already exists!
+{a.名称｝,{a.name}
+创建材质,Create Materials
+从目录创建材质,Create Materials from Directory
+目录,Directory
+搜索过滤器,Search Filter
+文件名必须包含以下内容,File names must include this
+即使只找到颜色纹理，也可创建材质！,Create materials even if only Color texture is found!
+使用凹凸节点而不是位移节点,Use Bump Node instead of Displacement Node
+标记为资产,Mark as Asset
+着色器类型,Shader Type
+打包图像,Pack Images
+是否将图像打包到混合文件中。打包会占用更多空间,Whether to pack the images into the blend files or not. Packing will use more space
+默认值,Default Values
+AO 数量,AO Amount
+发射强度,Emission Strength
+旋转,Rotation
+位置,Location
+启用颜色更改,Enable Colour Changes
+金属颜色,Metal Colour
+金属高度,Metal Lighness
+非金属颜色,Non-Metal Colour
+非金属亮度,Non-Metal Lightness
+金属质感,Metallic-ness
+金属斑点,Metal Spots
+无金属斑点,None Metal Spots
+粗糙度,Roughness
+有光泽的斑点,Shiny Spots
+粗糙斑点,Rough Spots
+各向异性,Anisotropic
+各向异性旋转,Anisotropic Rotation
+启用不透明度遮罩,Enable opacity mask
+反照率 HSL（影响 Trans 和 SSS）,Albedo HSL (Affects Trans and SSS)
+色调,Hue
+饱和度,Saturation
+亮度,Lightness
+SSS 色调和饱和度,SSS Hue and Saturation
+SSS 色调,SSS Hue
+SSS 饱和度,SSS Saturation
+使 SSS 成为人类（血液）,Make SSS Human (Blood)
+使用半透明（仅限 Alpha 遮罩垫）,Use Translucent (Alpha-masked mats only)
+半透明量,Translucent amount
+使用次表面散射（仅限歧管）,Use Subsurface Scattering (Manifold Only)
+SSS 量,SSS Amount
+次表层 IOR,Subsurface IOR
+次表面各向异性,Subsurface Anisotropy
+新颜色,New Colour
+启用表面 HSL,Enable surface HSL
+表面色调,Surface Hue
+表面饱和度,Surface Saturation
+表面亮度,Surface Lightness
+子表面色相,SubSurface Hue
+次表面饱和度,SubSurface Saturation
+启用半透明,Enable Translucent
+半透明角度,Translucent Angle
+半透明磨砂,Translucent Frosting
+半透明 IOR,Translucent IOR
+启用 SSS 塑料,Enable SSS Plastic
+AO 贴图强度,AO Map Strength
+DX 至 OGL 法线,DX to OGL Normals
+法线贴图强度,Normal map strength
+凹凸强度,Bump Strength
+凹凸距离,Bump Distance
+位移比例,Displacement Scale
+位移中层,Displacement Midlevel
+三平面贴图,Tri-Planar mapping
+接缝混合（仅适用于三平面）,Seam Blending (only for Tri-planar)
+旋转纹理,Rotate texture
+向上缩放纹理,Scale textures up
+缩放 X,Scale X
+缩放 Y,Scale Y
+缩放 Z（仅适用于三平面）,Scale Z (Only works with Tri-Planar)
+X 位置,X Location
+Y 位置,Y Location
+Z 位置（仅适用于三平面）,Z Location (Only works with Tri-Planar)
+材料设置,Material Settings
+表面设置,Surface Settings
+绘制地图,Mapping
+创建世界,Create Worlds
+从目录创建世界,Create Worlds from Directory
+HDR,HDR
+EXR,EXR
+JPG,JPG
+JPEG,JPEG
+PNG,PNG
+搜索子文件夹,Search Subfolders
+色调切换,Tonemapped Toggle
+光强度,Light Intensity
+曝光,Exposure
+清洁地平线,Clean Horizon
+EV 补偿,EV Compensation
+旋转,Rotate
+背景模糊,Background Blur
+开启/关闭 HSL,HSL ON/ OFF
+大气效果器,Atmosphere Effector
+光晕效果器,Glow Effector
+统一 HSL,HSL uniform
+天空色调,Sky Tint
+色调颜色,Tint colour
+地平线下降,Drop Horizon
+地平线位置,Horizon Position
+光源匹配器,Light source matcher
+对比度,Contrast
+强度,Strength
+滤镜,Filters:
+色值,Colour Values
+高级设置,Advanced Settings
+{文件名｝,{inp.name}
+快速交换,Quick Swap
+用该资产替换活动对象,Replace Active object with this asset
+实例,Instance
+重命名资产,Rename Assets
+重命名选定资产,Rename Selected Assets
+前缀,Prefix
+后缀,Suffix
+旧名称,Old Names
+新名称,New Names
+更新资产数据,Update Asset Data
+更新资产数据（标签、作者和描述）,"Update Asset Data(Tags,Author and Description)"
+作者,Author
+添加或替换,Add Or Replace
+移动到目录（真实资产）,Move to Catalog (True Assets)
+将选定的资产移至某个目录,Move selected assets to some catalog
+修复工具包资产,Fix Kitbash Assets
+通过更改材料来修复工具包资产的一些阴影问题,Fix some shading issues with kitbash assets by changing their material
+删除目录,Delete Catalog
+重命名目录,Rename Catalog
+新名称,New Name
+清除资产（真实资产）,Clear Assets (True Assets)
+清除资产,Clear Assets
+如果找不到其他资产，则删除混合文件！,Delete Blend file if no other asset is found!
+删除数据,Delete Data
+删除链接数据（材质和图像）,Delete Linked Data (Materials and Images)
+编辑资产（真实资产）,Edit Asset (True Assets)
+打开包含所选资产的混合文件,Open Blend file containing Selected Asset
+崩溃时重置状态,Reset Status in case of a crash
+重置状态并重新启用按钮以防崩溃,Reset Status and re-enable buttons in case a crash happens
+按类型清除资产（真实资产）,Clear Assets By Type(True Assets)
+按资产类型清除资产,Clear Assets by asset type
+类型,Type
+重新渲染缩略图（真实资产）,Re-Render Thumbnail (True Assets)
+文件名,File Name
+网格,Mesh
+集合,Collection
+应用缩放,Apply Scale
+将原点移至底部,Move origin to bottom
+可能较慢,Might be Slow
+获取 AmbientCG 资产,Fetch AmbientCG Assets
+从 AmbientCG 获取新资产,Fetch new assets from Ambientcg
+切换着色器,Switch Shader
+INVOKE_DEFAULT,INVOKE_DEFAULT
+撷取,Fetch
+AmbientCG：,AmbientCG:
+质量,Quality
+着色器,Shader
+显示已下载,Show Downloaded
+导入世界,Import World
+导入材质,Import Material
+取消下载,Cancel Download
+显示下载的资产,Show Downloaded Assets
+删除 Windows 上下文菜单条目,Delete Windows Context Menu Entries
+创建 Windows 上下文菜单条目,Create Windows Context Menu Entries
+删除,Remove
+移动,Move
+调整库的顺序,Reorder Libraries
+更改库的顺序,Change the order of Libraries
+名称,name
+批量删除目录,Batch Remove Catalogs
+一次性删除多个目录,Delete multiple catalogs in one go
+打开资产浏览器,Open Asset Browser
+打开此库,Open this Library
+三维视图,3D View
+材料质量,Material Quality
+获取材质,Fetching Materials
+世界设置,World Settings
+选定资料库,Selected LIbrary
+打开下载页面,Open Downloads Page
+更新信息：,Update Information:
+更新信息：,Update Message:
+下载页面 URL,Download Page URL
+插件已更新！,Addon is Up to Date!
+更新可用,Update Available
+检查更新,Check for Updates
+检查启动时的更新！,Check for Updates on Boot!

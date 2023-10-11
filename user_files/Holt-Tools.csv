@@ -1,0 +1,219 @@
+, 
+"""\""""
+"""", ""新对象""","""\""""
+"""",""New Object"""
+复制 ,Copy of 
+纹理,Texture
+','
+图像,Image
+修改器,Modifier
+数据传输,DataTransfer
+网格缓存,MeshCache
+网格序列缓存,MeshSequenceCache
+法线编辑,NormalEdit
+加权法线,WeightedNormal
+UV Project,UVProject
+翘曲,Warp
+顶点权重编辑,VertexWeightEdit
+顶点重量混合,VertexWeightMix
+顶点权重邻近度,VertexWeightProximity
+阵列,Array
+斜面,Bevel
+布尔值,Boolean
+构建,Build
+十进制,Decimate
+边缘分割,EdgeSplit
+遮罩,Mask
+镜像,Mirror
+多重网格,Multires
+重网格,Remesh
+螺钉,Screw
+皮肤,Skin
+固化,Solidify
+子曲面,Subsurf
+三角化,Triangulate
+焊接,Weld
+线框,Wireframe
+电枢,Armature
+铸造,Cast
+曲线,Curve
+位移,Displace
+钩,Hook
+拉普拉斯变形,LaplacianDeform
+网格,Lattice
+变形,Deform
+收缩包装,Shrinkwrap
+简单变形,SimpleDeform
+平滑,Smooth
+矫正平滑,CorrectiveSmooth
+拉普拉斯平滑,LaplacianSmooth
+表面变形,SurfaceDeform
+波浪,Wave
+布,Cloth
+碰撞,Collision
+动态油漆,DynamicPaint
+爆炸,Explode
+流体,Fluid
+海洋,Ocean
+粒子实例,ParticleInstance
+粒子系统,ParticleSystem
+软体,SoftBody
+摄像机,Cameras
+灯光,Lights
+清空,Empties
+物体,Objects
+曲线,Curves
+曲面,Surfaces
+元,Metas
+文本,Text
+体积,Volumes
+纟,Armatures
+网格,Lattices
+油脂铅笔,Grease Pencils
+光线探针,Light Probes
+清理模式,Cleanup Mode
+清理模式,The mode of cleanup
+自动平滑角度,Autosmooth Angle
+自动平滑的角度,The angle for autosmoothing
+材料名称,Material Name
+要执行清理操作的材质,The material to perform cleanup operations on
+选择模式,Selection Mode
+选择模式,The mode of selection
+选择相似字符串,Select Similar String
+用于查找名称中包含该字符串的对象,Used for finding objects that include this in their name
+仅限场景,Is Scene Only
+切换是否只在活动场景中搜索,Toggles whether to only search in the active scene
+是否区分大小写,Is Case Sensitive
+切换在比较名称时是否考虑大小写,Toggles whether to consider case when comparing names
+选择类型,Select Types
+选择对象的不同类型,Different types of object to select
+标签字符串,Tag String
+作为前缀或后缀添加的标记,Tag to be added as a prefix or suffix
+分隔符 字符串,Delimiter String
+用于前缀和后缀的分隔符,Delimiter to use for prefixes and suffixes
+顶点计数,Vertex Count
+顶点数，用于比较选择对象,Vertex count for comparing objects to choose selection
+比较模式,Comparison Mode
+顶点计数比较模式,Mode to compare the vertex count
+全局灯光添加,Light Add Global
+为全局所有灯光添加的数值,Value to add to all lights globally
+全局光源乘法,Light Multiply Global
+将光源乘以的值,Value to multiply light sources by
+灯光模式,Light Mode
+修改光强度的模式,The mode for modifying light strength
+灯光目标,Light Target
+灯光变化的目标,The target for lighting changes
+材料名称包括,Material Name Includes
+材料名称中必须包含的字符串,A string that must be included in a material name
+节点名称,Node Name Includes
+节点名称中必须包含的字符串,A string that must be included in a node name
+仅选定,Selected Only
+只更改选定灯光对象的颜色,Only change color of selected light objects
+衰减率,Decimate Rate
+快速分解选定对象的速率,The rate to quickly decimate selected object
+组织大纲,Organize Outliner
+将大纲器分为不同类别,Organizes the outliner into categories
+转换后缀,Convert Suffixes
+将 .001 后缀转换为 _1,Convert .001 suffixes to _1
+清除不需要的数据,Purge Unwanted Data
+删除所有不需要的数据,Remove all data that isn
+深度清理,Deep Clean
+帮我清理混合文件，好吗？,"Just clean the blend file me, will ya?"
+设置自动平滑,Set Auto Smooth
+设置自动平滑为真并给出角度,Sets auto smooth true and gives angle
+移至世界原点,Shift to World Origin
+获取选中的点，并以此将对象移至世界原点,Takes the selected point and uses this to shift the object to the world origin
+删除未使用的插槽,Remove Unused Slots
+删除选定对象中未使用的材料槽,Removes unused material slots from selected object
+修复重复的节点组,Fix Duplicate Node Groups
+删除重复的节点组并替换为原始节点组,Removes duplicate node groups and replaced with original
+设置默认值,Set Defaults
+将当前值设置为选定节点组的默认值,Sets the current values to be the default values for selected node groups
+获取默认值,Get Defaults
+获取当前值作为选定节点组的默认值,Gets the current values to be the default values for selected node groups
+选择所有对象，包括,Select All Including
+选择包括 ht_tools.select_type 在内的所有对象,Selects all objects including ht_tools.select_type
+形成集合,Form Collection
+将找到的对象组成一个集合,Form a collection with the found objects
+全选类型,Select All Type
+选择 ht_tools.select_string 的所有对象,Selects all objects of ht_tools.select_string
+将找到的某个类型的对象组成一个集合,Form a collection with the found objects of a type
+名称添加前缀,Name Add Prefix
+添加标签字符串作为前缀,Adds the tag string as a prefix
+名称添加后缀,Name Add Suffix
+添加标签字符串作为后缀,Adds the tag string as a suffix
+按顶点计数选择,Select By Vertex Count
+通过比较给定的顶点数来选择对象,Selects objects by comparing given vertex count
+根据顶点计数将找到的对象组成一个集合,Form a collection with the found objects depending on vertex count
+等于 ,Equal to 
+大于 ,Greater than 
+小于 ,Less than 
+全局添加灯光强度,Add Light Intensity Global
+为场景中的所有灯光增加强度,Adds intensity to all lights in the scene
+全局减去光强度,Subtract Light Intensity Global
+减去场景中所有灯光的强度,Subtracts intensity to all lights in the scene
+全局光强度乘法,Multiply Light Intensity Global
+将场景中所有灯光的强度相乘,Multiplies intensity of all lights in the scene
+设置灯光颜色,Set Light Color
+将选定灯光的颜色设置为 RGB 属性,Sets the color of selected lights to the RGB property
+随机化灯光颜色,Randomize Light Color
+随机化所选灯光对象的灯光颜色,Randomizes the light color for selected light objects
+快速分解,Quick Decimate
+根据 ht_tool.decimate_rate 快速分解对象,Quickly decimates object based on ht_tool.decimate_rate
+切换世界体积,Toggle World Volume
+切换世界节点中的体积着色器,Toggles volume shaders in the world nodes
+清理,Cleanup
+大纲,Outliner
+深度清理,^ Deep Clean ^
+重新计算法线,Recalculate Normals
+按距离合并,Merge By Distance
+( 更多信息在编辑模式下 ),( more in edit mode )
+清理自定义分割法线,Clean Custom Split Normals
+清除关键帧,Clear Keyframes
+自动平滑,Auto Smooth
+设置自动平滑,^ Set Auto Smooth ^
+其他操作,Other Operations
+同步网格名称,Sync Mesh Name
+材质,Materials
+( 选择节点组 ),( select node groups )
+选择,Selection
+选择所有对象，包括,Select all objects including:
+区分大小写,Case Sensitive
+^ 选择所有对象，包括 ^,^ Select All Including ^
+标签对象,Tag Objects
+前缀,Prefix
+后缀,Suffix
+按类型选择,Select By Type
+选择该类型的所有对象：,Select all objects of this type:
+^ 选择所有类型 ^,^ Select All Type ^
+比较：,Comparison:
+顶点计数,Vertex Count:
+^ 选择 ^,^ Select ^
+照明,Lighting
+电源,Power
+全局照明模式,Global Lighting Mode
+目标,Target
+材料名称 包括,Material Name Includes:
+节点名称包括,Node Name Includes:
+-,-
++,+
+X,X
+颜色,Color
+优化,Optimization
+网格,Mesh
+快速细分,Quick Decimation
+界面,Interface
+主题,Theme
+更改主题,Change the theme.
+世界,World
+容量,Volume
+信息,Information
+由柯蒂斯-霍尔特创建,Created by Curtis Holt
+使用 EasyBPY 增强,Enhanced with EasyBPY
+支持,Support
+捐赠,Donate
+社交媒体,Social
+社交网络,YouTube
+推特,Twitter
+网站,Website
+Instagram,Instagram

@@ -1,0 +1,140 @@
+,'
+合并面板,Merge Panels
+将即时清洁面板合并到 ,Merge the Instant Clean panel into the 
+"""\""""
+"""", ""预设""","""\""""
+"""",""Presets"""
+鲁宾,Ruben\
+清洁,Clean
+根据你的设置来清洁选中的对象： 仅选择,Clean the selected objects based on your settings.\nShift: Selection only
+ , 
+根据设置清理选中的对象,Clean the selected objects based on your settings
+溶解,Dissolve
+仅执行溶解操作,Execute Dissolve operations only
+法线,Normals
+仅执行法线操作,Execute Normals operations only
+对象数据,Objectdata
+仅执行对象数据操作,Execute Objectdata operations only
+重新安装标准预置,Reinstall Standard Presets
+选择预置,Choose Preset
+保存对预置的更改,Save changes to Preset
+添加/删除预置,Add/Remove Preset
+修复,Repair
+仅执行修复操作,Execute Repair operations only
+关闭结果,Close Results
+拓扑,Topology
+仅执行拓扑操作,Execute Topology operations only
+切换修复操作,Toggle Repair operations
+歧管,Manifold
+切换歧管操作,Toggle Manifold operations
+切换溶解操作,Toggle Dissolve operations
+切换拓扑操作,Toggle Topology operations
+切换法线操作,Toggle Normals operations
+切换对象数据操作,Toggle Objectdata operations
+最大角度,Max Angle
+分解几何体的最大角度,Maximum angle at which geometry will be dissolved
+边界,Boundaries
+仅与一个面相连的边缘,Edges which are connected to one face only
+尖锐,Sharp
+将标记为锐利的边缘排除在溶解之外,Excludes edges marked as sharp from the dissolve
+接缝,Seam
+将标记为接缝的边缘排除在溶解之外,Excludes edges marked as seam from the dissolve
+UV,UV
+从溶解中排除 UV 岛边界的边缘,Excludes edges which are boundary of UV islands from the dissolve
+材质,Materials
+从溶解中排除划分两个不同指定材质的边缘,Excludes edges which delimit two different assigned materials from the dissolve
+几何体溶解的最大角度,Maximal angle at which geometry will be dissolved
+非曲面,Non-Manifold Faces
+具有与两个以上面相连或位于网格内部（如内部面）的边的面,Faces with edges which are connected to more than two faces or are inside the mesh (e.g. interior faces)
+非网格顶点,Non-Manifold Vertices
+将连接网格两部分的顶点分割为零尺寸点,Splits vertices which are connecting two parts of a mesh in a zero size point
+线状几何体,Wire Geometry
+不包含任何面的几何体,Geometry not consisting of any faces
+填充孔,Fill Holes
+填充网格中的孔,Fill up holes in the mesh
+最大边数,Max Sides
+只填充边长不超过此值的孔,Fill only holes with up to this amount of sides
+削平面,Flatten Faces
+将顶点不在同一平面上的面移动到平均平面上，使其扁平化,Flatten faces which vertices are not in the same plane by moving them to match an average plane
+迭代,Iterations
+多次重复平铺过程,Repeat the flatten process this many times
+系数,Factor
+决定移动顶点的力度，使所有面尽可能平整,Determines how strong vertices will be moved to make all faces as flat as possible
+消除扭曲面,Undistort Faces
+对非平面面进行三角化处理，以创建尽可能多的平面面,Triangulate non-planar faces to create as many planar faces as possible
+只有扭曲程度大于此值的面才会被三角化,Only faces that are more distorted than this amount will be triangulated
+仅选择,Selection Only
+仅对当前选区执行所有操作,Execute all operations only for the current selection
+重新计算,Recalculate
+重新计算每个面的法线,Recalculate the normal of each face
+方向,Orientation
+重新计算方向,Recalculation orientation
+自动平滑,Auto Smooth
+根据角度平滑法线,Smoothes normals based of the angle
+将被视为平滑的面法线之间的最大角度,Maximal angle between face normals that will be considered as smooth
+加权法线,Weighted Normals
+自定义分割法线,Custom Split Normals
+清除可用的自定义分割法线,Clears custom split normals if any available
+锐边,Sharp Edges
+清除锐边，即自定义分割法线产生的锐边,Clears sharp edges i.a. resulting from custom split normals
+材质槽,Material Slots
+删除所有未为网格分配材质的材质槽,Removes all material slots whose materials are not assigned to the mesh
+清除方法,Clear Method
+材质槽清除方法,Material slots clearing method
+材质加倍,Material Doubles
+将所有以相同名称开始的材料分别合并为一个材料,"Merges all materials starting with the same name into one, respectively"
+删除数据,Remove Data
+从文件中破坏性地删除材料双倍数据,Remove material doubles from the file destructively
+空组,Empty Groups
+删除所有未分配顶点的顶点组,Removes all vertex groups which have no vertices assigned to it
+松散,Loose
+不连接的几何体,Unconnected Geometry
+松散顶点,Loose Verts
+不属于边的顶点,Vertices which are not part of an edge
+松散边,Loose Edges
+不属于面的边,Edges which are not part of an face
+松散的面,Loose Faces
+未与其他面连接的面,Faces which are not connected to other faces
+双面,Doubles
+位置相同的顶点,Vertices with the same position
+最大距离,Max Distance
+视为相同的位置之间的最大距离,Maximum Distance between positions to be considered as same
+零面,Zero Faces
+面积为零的面,Faces with an area of zero
+最大面积,Max Area
+视为零的面的最大面积,Maximum area of an face to be considered as zero
+可弃置,Dispensables
+连接两条边的顶点角度为零,Vertices which are connecting two edges by an angle of zero
+两条边之间的最大角度为零,Maximum angle between two edges to be considered as zero
+拓扑类型,Type
+网格将转换成的拓扑类型,Type of topology which the mesh will be converted to
+四边形方法,Quad Method
+用于计算四边形到三角形的方法,Method which will be used for the quad to triangle computation
+最大面角,Max Face Angle
+仅分解角度较小的边缘以创建四边形,Dissolve only edges with lower angles to create quads
+最大形状角度,Max Shape Angle
+仅当整体形状变化小于此角度时才尝试转换为四边形,Only try to convert to a quad if the overall shape change is lower than this angle
+NGon 方法,NGon Method
+用于将 ngon 转换为三角形计算的方法,Method which will be used for the ngon to triangle computation
+将标记为尖锐的边缘排除在转换之外,Excludes edges marked as sharp from the convertion
+将标记为缝的边缘排除在转换之外,Excludes edges marked as seam from the convertion
+颜色,VCol
+转换后顶点颜色保持不变,Leaves vertex colors unchanged after convertion
+保留顶点颜色,Leaves uv\
+材质,Material
+从转换中排除划定两种不同指定材质的边缘,Excludes edges which delimit two different assigned materials from the convertion
+保护,Protect
+即时清理,Instant Clean
+整体,Overall
+移除,Remove
+平面化,Make Planar
+扁平化迭代,Flatten Iterations
+清除数据,Clear Data
+顶点组,Vertex Groups
+超级,super
+转换为,Convert to
+方法,Methods
+四边形,Quads
+NGons,NGons
+比较,Compare
+单面,FACES_ONLY

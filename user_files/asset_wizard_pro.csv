@@ -1,0 +1,122 @@
+, 
+,'
+资产向导专业版,Asset Wizard Pro
+预览渲染器,Preview Renderer
+样品数量,Number of Samples
+预览渲染尺寸,Preview Render Size
+倾向于着色器节点向导派,Prefer Shader Node Wizard Pie
+If you\,If you\
+相对路径,Relative Paths
+如果启用，到外部数据（图像、体积）的路径是相对的，而不是绝对的。,"If enabled, Paths to external data (images, volumes) is relative, not absolute"
+在网格中自动放置对象,Autoplace Objects in Grid
+默认作者,Default Author
+删除动画数据,Remove animation Data
+从选定的网格中删除动画数据,Remove animation Data from selected Meshes
+移除父级空域,Remove parent Empties
+移除所有父级空洞，留下变形（可能需要清除动画数据）。,"Remove all Parent Empties, leaving Transformation (Clear animation Data may be necessary)"
+合并对象,Merge Objects
+合并所选层级的网格,Merge Meshes in selected Hierarchy
+清除自定义分割规范,Clear custom split Normals
+清除所有选定的网格上的这些网格,Clear these on all selected Meshes
+启用自动平滑功能,Enabled Auto Smooth
+启用自动平滑并设置角度,Enable Auto Smooth and set Angle
+重新计算法线,Recalculate Normals
+在所有选定的网格上重新计算法线至外侧,Recalculate Normals to Outside on all selected Meshes
+连接顶点,Join Vertices
+将顶点连接在一起，这并不意味着,"Join Vertices close together, which isn\"
+有限溶解,Limited Dissolve
+删除所有不需要的边和顶点，以获得大的N-Gons。,Delete all unnesseary Edges and Vertices to get large N-Gons
+自动平滑角度,Auto Smooth Angle
+最大距离,Max Distance
+连接顶点时的最大距离,Maximum Distance of Vertices when joining
+解散最大角度,Dissolve Max Angle
+有限溶解时的最大角度,Maximum Angle for Limited Dissolve
+快速转换,Quick Transform
+快速放置模式,Quick place Mode
+链接副本,Linked Copy
+创建一个链接副本,Create a linked Copy
+自动父代,Auto Parend
+自动设置目标对象为父对象,Automatically set Target Object as Parent
+预览渲染选项：,Preview Render Options:
+热键和设置：,Hotkeys and Settings:
+输出选项：,Export Options:
+首选的工具面板选项：,Preferred Tool Panel Options:
+对象清理：,Object Cleanup:
+放置物体：,Place Object:
+网格清理：,Mesh Cleanup:
+标签和节点组类型：,Tags and Node Group Types:
+导出到该库,Export to this Library
+导出到此文件,Export to this File
+将此项目映射到的目录,Catalog to map this Item to
+选择之前使用的标签,Select Tag previously used
+标签,Tags
+输入新的标签名称,Enter new Tag Name
+资产描述,Asset Description
+打开包含当前库信息的面板。,Open Panel with Info about current Library .blend
+使用当前的渲染结果作为预览图像，而不是渲染预览或使用占位符图像,"Use the current Render Result as Preview Image, instead of rendering a Preview or use Placeholder Image"
+作品集,Collection
+要输出的图集,Collection to export
+此资产的作者,Author of this Asset
+填充,Padding
+在网格放置中使用的填充物,Padding used in Grid placement
+着色器标签,Shader Tag
+包含在名称中的标签，以便派系菜单可以定位它,"Tag to include in Name, so Pie Menu can position it"
+几何标签,Geometry Tag
+对象清理,Object Cleanup
+切换对象清理选项,Toggle Object Cleanup Options
+网格清理,Mesh Cleanup
+切换网格清理选项,Toggle Mesh Cleanup Options
+重置模式,Re-Place Mode
+替换目标对象，复制变形,"Replace target Object, copy Transformation"
+放置前复制,Copy before Place
+在放置前创建一个副本,Create a Copy before placing
+自动父类,Auto Parent
+! 通知 !,! NOTICE !
+渲染结果,Render Result
+目录,Catalog
+存储库还没有目录,Repository has no Catalog yet
+描写,Description
+作者,Author
+标签,Tag
+新标签,New Tag
+库中没有文件，创建一个,"No File in Library, create one"
+没有配置资产库、,"No Asset Libraries configured,"
+检查首选项,check Preferences
+着色器节点向导,Shader Node Wizard
+NODE_MT_snw_main_pie_menu,NODE_MT_snw_main_pie_menu
+所有节点,All Nodes
+导入,Import
+一次性导入多个混合文件,Import multiple Blend Files at once
+每个文件的集合,Collection per File
+为每个文件创建一个单独的集合,Create a separate Collection for each File
+要导入什么样的数据,What kind of Data to import
+忽略的数据类型（导入后删除）,Data types to ignore (remove after import)
+材料预览,Material Preview
+为每个材料创建一个预览平面,Create a Preview Plane for each Material
+导入行为：,Import Behaviour:
+要导入的类型：,Types to Import:
+导入后要删除的项目,Items to remove after Import
+创建,Create
+创建新的目录或子目录,Create new Catalog or Subcatalog
+创建子目录,Create Subcatalog
+名称,Name
+父目录,Parent
+文件名称,File Name
+新文件的名称（不含.blend）,Name of new File (without .blend)
+新文件,New File
+没有预览,No preview
+打开馅饼菜单,Open the Pie Menu
+MATERIAL_MT_mw_nodes_pie_menu,MATERIAL_MT_mw_nodes_pie_menu
+地平面,Ground Plane
+ESC - 停止,ESC - Stop
+放置复制,Place Copy
+更新所有选择的预览图（可能需要一些时间）？,Update all selected Previews (may take some time)?
+更新所有选定资产的预览图,Update the Preview Images of all selected Assets
+更新预览图,Update Previews
+导出,Export
+没有任何东西可以导出,Nothing to export
+工具,Tools
+清理工具,Cleanup Tools
+批量旋转：,Batch Rotate:
+批量设置原点：,Batch Set Origin:
+视口工具,Viewport Tools

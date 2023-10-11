@@ -1,0 +1,63 @@
+ 用 x、y、z 或 -x、-y、-z 字符串指定朝向轴的视图，重要的是要将旋转顺序保持为 XYZ," specify look at facing Axis by string x,y,z or -x,-y,-z, its important to keep rotation Order as XYZ"
+在当前上下文中以 x、y（区域坐标）元组形式获取鼠标位置，并返回命中对象、命中位置、命中法线、命中指数和命中距离,"takes in the current context, a mouse position as a tuple x,y (region coords) and gives back the hit object, hit location, hit normal, hit index and hit distance"
+在位置处创建一个光点，光点类型有 POINT、SUN、SPOT、AREA,"Creates a Light at position, Light types are POINT, SUN, SPOT, AREA"
+ , 
+"""\""""
+"""", ""枢轴""","""\""""
+"""",""Pivot"""
+添加区域光,Adds an Area Light
+灯光类型,Light Types
+应生成哪种灯光类型,Which Light Type should be spawned
+在鼠标位置添加灯光,Add Light at Mouse Position
+','
+光控添加饼状菜单,Lightcontrol Add Pie Menu
+调用添加光源饼状菜单，在光标处创建光源,"Call Add Light Pie Menu, to create a Light Source at Cursor"
+LIGHTCONTROL_MT_add_light_pie_menu,LIGHTCONTROL_MT_add_light_pie_menu
+饼状菜单鼠标位置,Pie Menu Mouse Position
+初始化饼状菜单时的鼠标位置,Mouse Position when Pie Menu was Initialized
+控制 Blender 并调整光源,Takes control of Blender and Lets you adjust the Light
+调整灯光,Adjust Light
+编辑,Edit
+插件选项卡组,Addon Tab Groups
+分组可对附加组件首选项进行排序,Groups to sort the Addons Preferences
+按住输入键而不是按下,Hold Input Keys instead of Pressing
+按住输入键而不是按下它们，一旦掌握，速度会更快，但也更非传统 => 需要学习,"Hold Input Keys instead of Pressing them, is faster once mastered, but also more unconventional => requires learning"
+鼠标输入灵敏度,Mouse Input Sensitivity
+控制鼠标的灵敏度，数值越高，鼠标移动距离越短，效果越好，原始速度 = 1 = 100%,"Controls how sensitive the mouse is higher Values lets the mouse travel less distance for more effect, original speed = 1 = 100%"
+显示高级用户界面,Show Advanced UI
+显示用户界面，显示 Light Control 提供的更多选项。即使用户界面未显示，也可使用其他选项,Show UI that shows more Options that Light Control provides. Additional Options are available even if not shown in UI
+在 3D 栏中显示编辑灯光按钮,Show Edit Light Button in 3D Bar
+在 3D 视图顶栏中显示一个额外按钮，用于进入所选灯光的灯光编辑模式,Show an extra Button for entering Light Edit Mode of selected Light in the 3D View Top Bar
+编辑灯光时隐藏用户界面,Hide UI when Editing Light
+自动隐藏用户界面（可与 ,Automatically Hide UI (Reversable with 
+显示可用的操作界面,Show Available Operations UI
+在灯光编辑模式下显示或隐藏可用的操作界面,Show or Hide available Operations UI when in Light Edit Mode
+显示当前操作用户界面,Show Current Operation UI
+"在 ""灯光编辑 ""模式下显示或隐藏当前操作用户界面",Show or Hide Current Operation UI when in Light Edit Mode
+显示小工具用户界面,Show Gizmo UI
+"在 ""光编辑 ""模式下显示或隐藏 ""小工具 ""用户界面",Show or Hide Gizmo UI when in Light Edit Mode
+显示箭头用户界面,Show Arrow UI
+在光编辑模式下显示或隐藏鼠标上的箭头用户界面,Show or Hide Arrow UI on the Mouse when in Light Edit Mode
+用户界面缩放,UI Scale
+缩放所有 LightControl 字体和象形图 1.0 = 100%,Scales all LightControl Fonts and Pictograms 1.0 = 100%
+主色调,Main Color
+用于基本字体的颜色,Color Used for basic Font
+重音色,Accent Color
+用于字体重音的颜色,Color Used for accents in Font
+Gizmo 支点颜色,Gizmo Pivot Color
+用于透视指示灯的颜色,Color Used for light Pivot Indicator
+小工具不透明度,Gizmo Opacity
+指示灯光的小玩意的不透明度,Opacity of the Gizmos indicating the light
+作为灯光颜色的小工具颜色,Gizmo Color as Light Color
+用灯光的颜色给小玩意儿着色,Color the Gizmo in the Color that the Light is
+生成区域灯,Spawned Area Lights
+生成的点光源,Spawned Point Lights
+生成的太阳光,Spawned Sun Lights
+生成的点光源,Spawned Spot Lights
+常规,General
+用户界面可见性,UI Visibility
+生成区域灯 ,Spawned Area Lights 
+生成的点光源 ,Spawned Point Lights 
+生成的太阳光 ,Spawned Sun Lights 
+生成的点光源 ,Spawned Spot Lights 
+三维视图,3D View

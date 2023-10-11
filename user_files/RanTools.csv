@@ -1,0 +1,1157 @@
+,"""\""""
+"""",""Not Found"""
+名称,name
+ , 
+材料库,Material Library
+搜索材料库面板,Search Materials Library Panel
+无互联网,No Internet
+AmbientCG,AmbientCG
+上一页,Previous
+下一页,Next
+下载,Download
+','
+材料,Materials
+下载材料,Downloaded-Materials
+搜索,Search
+按钮,Button
+Append This Object/Collection/Material\n 按住 CTRL 键使用现有材料,Append This Object/Collection/Material\nHold CTRL to use existing Material
+添加对象面板,Append Object Panel
+添加与此名称匹配的对象,Append Object matching this name
+添加对象,Append Object
+用于附加与此名称匹配的文件,Used to Append file matching this Name
+独特,Unique
+对象,Objects
+集合,Collections
+节点组,Node Groups
+RT_PT_Append_Panel,RT_PT_Append_Panel
+路径,path
+类型,type
+创建资产,Create Asset
+将选定对象添加到集合并创建资产,Add Selected Object To A Collection And Create an Asset
+导入资产,Import Asset
+创建资产面板,Create Assets Panel
+导入资产面板,Import Assets Panel
+搜索资产,Search Assets
+刷新缩略图,Refresh Thumbnails
+添加背投,Add BackDrop
+添加背投,Add a BackDrop
+BD_,BD_
+BackDrops_temp,BackDrops_temp
+更改斜面属性,Change Bevel Properties
+斜面属性,Bevel Properties
+斜面,Bevel
+刷新备份列表,Refresh Backups List
+刷新,Refresh
+删除备份/nCTRL+LMB: 删除对象,Remove Backup\nCTRL+LMB: Delete Object
+删除,Delete
+从该备份传输正常值 （nALT+LMB: 使用任何其他对象进行正常值传输,Transfer Normals From This Backup\nALT+LMB: Use any other object for normal transfer
+正常传输,Normal Transfers
+应用修改器,Apply Modifier
+映射方法,Mapping Method
+翻转,Flipped
+翻转源法线,Flip source normals
+RT_Normal_Transfer,RT_Normal_Transfer
+RT_Data_Transfer,RT_Data_Transfer
+从该备份传输法线,Transfer Normals From This Backup
+查看备份,View Backup
+查看,View
+隐藏备份,Hide Backup
+隐藏,Hide
+Add Selected Backup\nCTRL+LMB: 添加副本,Add Selected Backup\nCTRL+LMB: Add A Copy
+添加,Add
+用选中的备份替换当前对象 （nCTRL+LMB: 保留副本,Replace Current Object with Selected Backup\nCTRL+LMB: Retain A Copy
+交换,Swap
+创建备份,Create Backup
+创建新备份,Create New Backup
+RT_Edge_Mask,RT_Edge_Mask
+RT_Worn_Edge_Mask,RT_Worn_Edge_Mask
+RT_EdgeMask_Output,RT_EdgeMask_Output
+RT_EdgeDetection,RT_EdgeDetection
+RT_EdgeMask,RT_EdgeMask
+烘焙斜角,Bake Bevels
+Bake Bevels For Eevee\nSHIFT+LMB:Bake Edge Mask\nALT+LMB:Bake Worn Edge Mask\nCTRL+SHIFT+LMB:Bake Bevels And Edge Mask\nCTRL+ALT+LMB:Bake Bevels And Worn Edge Mask,Bake Bevels For Eevee\nSHIFT+LMB:Bake Edge Mask\nALT+LMB:Bake Worn Edge Mask\nCTRL+SHIFT+LMB:Bake Bevels And Edge Mask\nCTRL+ALT+LMB:Bake Bevels And Worn Edge Mask
+RT_Edge_From_NormalMap,RT_Edge_From_NormalMap
+RT_Bevel_Output,RT_Bevel_Output
+RT_PRINCIPLED,RT_PRINCIPLED
+RT_BEVEL,RT_BEVEL
+RT_Bevel_Map,RT_Bevel_Map
+RT_EdgeDetectGroup,RT_EdgeDetectGroup
+RT_Overlay,RT_Overlay
+RT_NormalMap,RT_NormalMap
+乘法,Multiply
+分辨率乘以 2 （nCTRL+LMB:分辨率除以 2,Multiply Resolution by 2\nCTRL+LMB:Divide Resolution by 2
+_,_
+非彩色,Non-Color
+通用数据,Generic Data
+烘焙纹理节点,RT_Texture_Bake_Node
+烘焙纹理,Bake Textures
+RT_HeightMap_Output,RT_HeightMap_Output
+RT_TextCoord,RT_TextCoord
+RT_SepXYZ,RT_SepXYZ
+RT_AO_Output,RT_AO_Output
+RT_AO,RT_AO
+RT_IDMap_Output,RT_IDMap_Output
+RT_ID_Color,RT_ID_Color
+创建顶点蒙版,Create Vertex Mask
+在活动对象周围创建镜像,Mirror around active object
+RT_Mask,RT_Mask
+布尔清理,Boolean CleanUp
+快速合并布尔剪切周围的顶点,Quickly merge vertices around boolean cuts
+布尔清理,Clean Booleans
+使用合并和滑动清理布尔剪切,Clean Booleans Cuts using merging and sliding
+合并阈值,Merge Threshold
+附近合并阈值,Nearby Merge Threshold
+幻灯片选择阈值,Slide Selection Threshold
+幻灯片距离,Slide Distance
+使用与边缘长度成比例的距离,Use Distance Proportional to edge length
+连接顶点,Connect Vertices
+循环选择,Loop Select
+选择循环,Select Loop
+边缘阈值,Edge Threshold
+面阈值,Face Threshold
+切割器列表,Cutters List
+切割器,Cutters
+INVOKE_DEFAULT,INVOKE_DEFAULT
+调用切割器,Recall Cutter
+P-Cutter 中使用的调用切割器,Recall Cutter used in P-Cutter
+绘制布尔值,Draw Booleans
+额外 1,Extra 1
+额外 2,Extra 2
+RT_Cutters,RT_Cutters
+计数,Count
+RT_Intersect_Bool,RT_Intersect_Bool
+RT_Slice_Bool_Solidify,RT_Slice_Bool_Solidify
+RT_Difference_Boolean 布尔值,RT_Difference_Boolean
+RT_Inset_Bool_Solidify,RT_Inset_Bool_Solidify
+RT_Inset_Bool_Solidify,RT_Inset_Boolean
+RT_Union_ 布尔值,RT_Union_Boolean
+RT_Intersect_ 布尔值,RT_Intersect_Boolean
+RT_SCREW,RT_SCREW
+RT_SOLIDIFY,RT_SOLIDIFY
+RT_WELD,RT_WELD
+RT_DECIMATE,RT_DECIMATE
+RT_BOOLAN_DISPLACE,RT_BOOLEAN_DISPLACE
+RT_ARRAY,RT_ARRAY
+线性数组,RT_LINEAR_ARRAY
+rt_boolean_mirror,RT_BOOLEAN_MIRROR
+绘制布尔值/nCTRL+LMB：快速剪切模式,Draw Booleans\nCTRL+LMB: Fast Cutter Mode
+剪切,CUTTER
+子曲面,subsurf
+创建缆线,Create Cable
+在两点之间创建缆线,Create Cable Between 2 Points
+内置选择,builtin.select
+将边缘转换为曲线,Edge To Curve
+将选中的边缘转换为曲线,Convert Selected Edges To Curves
+深度,Depth
+分辨率,Resolution
+偏移,Offset
+宽度,Width
+分段,Segments
+编辑子曲线,Edit Child Curve
+使子曲线可见并进入编辑模式,Make child curve visible and enter edit mode
+绘制曲线/电缆,Draw Curves/Cables
+在物体表面绘制曲线,Draw Curves on Surface Of Objects
+内置绘制,builtin.draw
+我的类名,My Class Name
+在搅拌器工具提示中显示的说明,Description that shows in blender tooltips
+多导线,Multiple Wires
+将曲线转换为多条导线,Convert Curve To Multiple Wires
+RT_Temp,RT_Temp
+RT_Wire,RT_Wire
+RT_CurveDisplace,RT_CurveDisplace
+RT_POC_Curve,RT_POC_Curve
+曲线调整,Curve Adjust
+在模态操作器中操纵曲线,Manipulate curve in a modal operator
+在曲线上添加盖帽,Add Caps on Curve
+在选定的曲线上放置活动对象,Put Active object on selected curves
+方法,Method
+缩放,Scale
+在曲线上重新定位盖帽,Reposition Caps on Curve
+在曲线上重新定位盖帽,Reposition caps on the curve
+放在曲线上,Put on Curve
+将选中的对象放在活动曲线上 object\nCTRL+LMB : 设置数组长度以适应曲线,Put selected object on active curve object\nCTRL+LMB : Set Array length to Fit Curve
+RT_POC_ARRAY,RT_POC_ARRAY
+模拟导线,Simulate Wire
+钉住,Pinned
+RT_Cloth,RT_Cloth
+QC_Collision,QC_Collision
+子曲面,RT_Subsurf
+RT_Skin,RT_Skin
+RT_Deform,RT_Deform
+RT_Smooth,RT_Smooth
+RT_Corrective_Smooth,RT_Corrective_Smooth
+使发射,Make Emissive
+使选定的面孔具有发射效果,Make Selected Faces Emissive
+调用烘焙工具弹出窗口,Call Bake Tools Popup
+要烘焙的纹理：,Textures To Bake:
+漫反射,Diffuse
+粗糙度,Roughness
+金属质感,Metallic
+光泽,Glossy
+正常,Normal
+高度,Height
+ID 地图,ID Maps
+AO,AO
+发射,Emission
+不透明度,Opacity
+紫外线,UV
+环境,Environment
+组合,Combined
+确保所有选中的对象都在单一的 UV,Make sure all selected objects are properly UV
+在单个 UV 布局上进行适当的解包,unwrapped on a single UV Layout
+样本（用于 AO/水平/组合烘焙）,Samples (For AO/Bevel/Combined Bakes)
+2X,2X
+斜面宽度,Bevel Width
+OBJECT_PT_Bake_Tools 工具,OBJECT_PT_Bake_Tools
+调用备份弹出窗口,Call Backup Popup
+OBJECT_PT_BackUps_List,OBJECT_PT_BackUps_List
+P 型切割机,P-Cutter
+备份,Backups
+时间,time
+相机工具,Camera Tools
+渲染长宽比,Render Aspect Ratio
+交互式摄像机调整,Interactive Camera Adjust
+渲染分辨率,Render Resolution
+焦距（毫米）,Focal Length(mm)
+快门速度,Shutter Speed
+添加灯光,Add Lights
+设置渲染路径,Set Render Path
+设置去噪器,SetUp Denoiser
+创建摄像机标记,Create Camera Markers
+活动相机,Active Camera
+活动相机 ,Active Camera: 
+自动保存渲染图像,Auto Save Rendered Images
+保存项目以使用自动保存,Save The Project To Use Auto Save
+烘焙工具,Bake Tools
+材质工具,Material Tools
+设置 PBR 材质,SetUp PBR Materials
+更改材质,Change Material
+粘土颜色,Clay Color
+添加粘土材质,Add Clay Material
+移除粘土材质,Remove Clay Material
+曲线工具,Curve Tools
+半径,Radius
+顶点,Vertices
+扭曲,Twist
+长度,Length
+类型,Type
+股半径,Strand Radius
+厚度,Thickness
+位置,Position
+轴线,Axis
+配合类型,Fit Type
+曲线,Curve
+变形轴,Deform Axis
+端点 1 张力,Endpoint 1 Tension
+端点 2 张力,Endpoint 2 Tension
+粒子工具,Particle Tools
+取消细分,Un-Subdivide
+沸点计数,Boid Count
+boids！,Boids!
+飞行,Fly
+陆地,Land
+排放率,Emission Rate
+分离,Separation
+陆地分离,Land Separation
+目标,Target
+高级选项,Advanced Options
+爬升,Climb
+比例随机性,Scale Randomness
+资产工具,Asset Tools
+随机工具,Random Tools
+名称,Name
+镜像,Mirror
+布尔清理,Boolean Cleanup
+标记为地面,Mark As Ground
+捕捉,Snap!
+接地！,Snap To Ground!
+中断,Break!
+创建自定义宏,Create Custom Macros
+自定义宏,Custom Macros
+节点工具,Node Tools
+灯光工具,Light Tools
+灯光,Lights
+世界,World
+分组,Group It
+通过将所选对象关联到空方框来创建群组,Create Group By Parenting Selected Objects To Box Empty
+将对象固定到地面 ,Snap Objects To Ground 
+将选定对象吸附到地面,Snap Selected Objects To Ground
+仅将对象吸附到地面,Snap only to ground objects
+翻转,Flip
+位置随机化,Location Randomise
+移动后旋转（边框）,Move Followed By Rotation(Bounding Box)
+仅定位（边框）,Only Location(Bounding Box)
+旋转后移动（边框）,Rotate Followed By Move(Bounding Box)
+旋转 90,Spin 90
+阴影平滑,Shade Smooth
+遮罩平滑并设置自动平滑/nCTRL+LMB：清除分割法线,Shade Smooth And Set Auto Smooth\nCTRL+LMB : Clear Split Normals
+切换显示类型,Switch Display Type
+切换对象显示类型：（线/实体）\nCTRL+LMB:边界,Switch Object Display Type: (Wire/Solid)\nCTRL+LMB:Bounds
+原点到几何图形,Origin To Geometry
+将原点设置为考虑修改器后计算的几何图形,Set Origin To Geometry Calculated After Considering Modifiers
+匹配视口和渲染可见性,Match Viewport and Render Visiblity
+Match Render Visiblity To Viewport Visiblity\nCTRL+LMB: Match Viewport Visiblity To Render Visiblity,Match  Render Visiblity To Viewport Visiblity\nCTRL+LMB: Match Viewport Visiblity To Render Visiblity
+创建管道,Create Tube
+创建非破坏性管道,Create Non Destructive Tube
+管道,Tube
+RT_ST_Displace,RT_ST_Displace
+RT_ST_Screw,RT_ST_Screw
+RT_ST_Screw_2,RT_ST_Screw_2
+RT_ST_Solidify,RT_ST_Solidify
+骰子,Dice
+从视角切割对象,Dice Object From View Angle
+切割比例,Dicing Scale
+尺寸 X,Size X
+尺寸 Y,Size Y
+有限溶解,Limited Dissolve
+切割,Cut Through
+与几何图形对齐,Align To Geometry
+偏移 X,Offset X
+偏移 Y,Offset Y
+RT_Bevel_Dice,RT_Bevel_Dice
+实例圆阵列,Instance Circular Array
+创建基于实例的圆阵列,Create Instance Based Circular Array
+收缩包装,Shrinkwrap
+收缩,RT_Shrink
+从视图投影（正确的纵横比）,Project From View (Correct Aspect Ratio)
+以正确的纵横比从视图创建项目,Project From View with Correct Aspect Ratio
+切分对象,Slice Object
+使用平面切分对象,Slice Object using a Plane
+RT_Slice,RT_Slice
+RT_Solidify,RT_Solidify
+在命中点添加关键帧,Add Keyframes at Hit Point
+中断操作符,Break Operator
+添加网格,Add Lattice
+添加网格和网格修改器,Add Lattice and Lattice Modifier
+RT_Lattice,RT_Lattice
+渐变,Taper
+使用网格锥形对象,Taper Object Using Lattice
+材质转移,Material Transfer
+将材质从一个面转移到另一个面 （nCTRL+LMB: 使用所选材质选择所有对象,Transfer materials from one face to other\nCTRL+LMB: Select All objects with the selected Material
+放置副本,Place Copies
+单击以放置对象的链接副本,Click To Place Linked Copies Of Object
+板材,Plate
+分离并固化 （nCTRL+LMB : Inset>P-Cutter\nSHIFT+LMB : Inset>Solidify,Separate and Solidify\nCTRL+LMB : Inset>P-Cutter\nSHIFT+LMB : Inset>Solidify
+固化,Solidify
+镶嵌布尔值,Inset Boolean
+RT_Inset_Bool,RT_Inset_Bool
+切片布尔值,Slice Boolean
+RT_Diff_Bool,RT_Diff_Bool
+布尔值,Booleans
+RT_Difference_Bool 布尔值,RT_Difference_Bool
+布尔测试,Bool Test
+buildin.primitive_cube_add,builtin.primitive_cube_add
+builtin.primitive_uv_sphere_add,builtin.primitive_uv_sphere_add
+builtin.primitive_cone_add,builtin.primitive_cone_add
+builtin.primitive_cylinder_add,builtin.primitive_cylinder_add
+buildin.primitive_ico_sphere_add,builtin.primitive_ico_sphere_add
+替换,DISPLACE
+aA,aA
+调整修改器,Adjust Modifier
+调整/nCTRL+LMB:移除修改器,Adjust\nCTRL+LMB:Remove Modifier
+提取面,Extract Faces
+单击并拖动以提取面孔 （nCTRL+LMB: Extract>Inset>P-Cutter,Click And Drag To Extract Faces\nCTRL+LMB: Extract>Inset>P-Cutter
+单击并拖动以提取面 （nCTRL+LMB: Extract>Inset>P-Cutter\nSHIFT+LMB: Extract>Inset>Solidify,Click And Drag To Extract Faces\nCTRL+LMB: Extract>Inset>P-Cutter\nSHIFT+LMB: Extract>Inset>Solidify
+创建变形网格,Create Deform Mesh
+RT_SW,RT_SW
+RT_Mesh_Deform,RT_Mesh_Deform
+转换为平面,Convert to Plane
+添加平面,Add Plane
+玻璃 2.4,Glass 2.4
+布尔值,RT_Boolean
+圆形阵列,Circular Array
+创建圆形阵列,Create Circular Array
+阵列轴,Array Axis
+置换轴,Displace Axis
+RT_Displace,RT_Displace
+RT_Array,RT_Array
+强度,Strength
+边缘到剥离,Edge To Strip
+Apply Modifiers\nCTRL+LMB: Apply Till Last Bevel Modifier\nSHIFT+LMB: Apply Till Last Mirror Modifier,Apply Modifiers\nCTRL+LMB: Apply Till Last Bevel Modifier\nSHIFT+LMB: Apply Till Last Mirror Modifier
+RT_Bevel,RT_Bevel
+应用修改器,Apply Modifiers
+将视图对齐至面,Align View To Face
+将视图对齐至正常面,Align View To Face Normal
+内嵌缩小,Inset Shrink
+使用内嵌缩小面,Shrink faces using Inset
+收缩量,Shrink Amount
+单个,Individual
+合并附近顶点,Merge Nearby Vertices
+将相邻顶点与选中的顶点合并（选中的顶点不会相互合并）,Merge adjacent vertices with the selected vertices(Selected Vertices are not merged with each other)
+距离,Distance
+选中,Selected
+滑动附近的顶点,Slide nearby Vertices
+将附近的顶点从选区中滑开,Slide nearby vertices away from the selection
+阈值,Threshold
+合并顶点组中的顶点,Merge Vertices From Vertex Groups
+按距离合并两个顶点组的顶点,Merge vertices of 2 vertex groups by distance
+法线来源,Source
+将法线对准轴,Align normal to axis
+将活动面的法线对齐到任意轴上 （提示：选择 2 个面，先选择要对齐到水平轴的面，然后选择要对齐到垂直轴的面,"Align Active face normal to any of the axes\nTip: Select 2 faces, first the face you want to align to horizontal axis and then the face you want to align to the vertical axis"
+选中 2 个面时没有关系,Does not matter when 2 faces are selected
+将原点移至底部,Origin to Bottom
+将原点移至对象底部,Move origin to the bottom of the object
+调用上一个切割器,Recall Last Cutter
+调用 P-Cutter 中使用的最后一个切割器,Recall Last Cutter used in P-Cutter
+聚焦子对象,Focus Children
+选择并聚焦子对象,Select and focus children
+选择锐边,Select Sharp Edges
+选择所有足够锐利的边缘 （nCTRL+LMB:同时设置权重为 1 （nSHIFT+LMB: 清除权重,Select all sharp enough edges\nCTRL+LMB:Also Set weights to 1\nSHIFT+LMB: Clear Weights
+锐度,Sharpness
+设置权重,Set Weight
+清除权重,Clear Weight
+标记锐利,Mark Sharp
+将选中的边缘标记为锐利 （nCTRL+LMB:清除锐利 （nALT+LMB:选择标记为锐利的边缘,Mark selected edges as sharp\nCTRL+LMB:Clear Sharp\nALT+LMB:Select edges marked as sharp
+标记接缝,Mark Seam
+nCTRL+LMB:清除接缝 （nALT+LMB:选择标记为接缝的边缘,Mark selected edges as seam\nCTRL+LMB:Clear Seam\nALT+LMB:Select edges marked as seam
+调整斜角权重,Adjust Bevel Weight
+调整斜角权重,Adjust Bevel Weights
+斜面重量,Bevel Weight
+调整斜面重量 （nCTRL+LMB: 只调整选中的边缘,Adjust Bevel Weight\nCTRL+LMB: Adjust Only the Selected Edges
+清除所有边缘,Clear All Edges
+Clear All Edge Weights\nCTRL+LMB: Clear All Seamed Edges\nSHIFT+LMB: Clear All Sharp Edges\nALT+LMB: Clear all creased edges,Clear All Edge Weights\nCTRL+LMB: Clear All Seamed Edges\nSHIFT+LMB: Clear All Sharp Edges\nALT+LMB: Clear all creased edges
+选择边缘,Select Edges
+选择所有标记为锐利的边缘 nCTRL+LMB: 选择所有标记为接缝的边缘,Select all Edges marked as sharp\nCTRL+LMB: Select all Edges marked as seams
+特征,Trait
+设置/清除斜面重量,Set/Clear Bevel Weight
+为所有材料创建缩略图,Create Thumbnails for all Materials
+为标记为资产的所有材质创建缩略图,Create Thumbnails for all Materials marked as an asset
+添加灯光设置,Add Light Setups
+L_,L_
+灯光温度,Light_temp
+RT_Track_To,RT_Track_To
+从剪贴板,From Clipboard
+从剪贴板设置所有灯光的颜色,Set color of all lights from the clipboard
+独奏,Solo
+独奏该组,Solo this Group
+取消独奏,Unsolo
+取消此组的独奏,Unsolo this Group
+溶解,Dissolve
+解散该组,Dissolve this Group
+增强功能,Powers
+随机化颜色,Randomise Colors
+为每盏灯分配随机颜色,Assign Random Colors To Each Light
+选择,Select
+Select Light （选择灯光）/nShift+LMB: Add Light To Selection （将灯光添加到选区,Select Light\nShift+LMB: Add Light To Selection
+Select All Lights from This Group\nShift+LMB: Add All Lights To Selection （从该组中选择所有灯光,Select All Lights From This Group\nShift+LMB: Add All Lights To Selection
+删除,Remove
+从该组中移除灯光,Remove Light From This Group
+添加灯光,Add Light
+将选定的灯添加到该组,Add Selected Lights to This Group
+删除组,Delete Group
+删除该组中的所有灯光,Delete All Lights in this Group
+创建灯组,Create Group
+用选定的灯光创建新灯光组,Create New Light Group with Selected Lights
+灯光组,Light Group
+设置材质,Setup Materials
+从目录中设置所有 PBR 材质 （nCTRL+LMB: 将创建的材质标记为资产,Setup All PBR Materials From A Directory\nCTRL+LMB: Mark created materials as asset
+RanTools 材质,RanTools Materials
+RanTools_Assets,RanTools_Assets
+Add This Material To Active Material Slot\nCTRL+LMB : Make Material Emissive and Add\nSHIFT+LMB: Add Copy\nALT+LMB: Adjust Material,Add This Material To Active Material Slot\nCTRL+LMB : Make Material Emissive and Add\nSHIFT+LMB: Add Copy\nALT+LMB: Adjust Material
+新材质,New Material
+创建新材质,Create New Material
+材质菜单,Material Menu
+RTOOLS_MT_Material_Menu,RTOOLS_MT_Material_Menu
+快速调整材质,Quick Material Adjust
+RT_Math_Adjust,RT_Math_Adjust
+RT_Color_Adjust,RT_Color_Adjust
+快速材质调整面板,Quick Material Adjust Panel
+修改器预设,Modifier Presets
+镜像,RT_Mirror
+对象：,Object:
+绑定到,Bind To:
+顶点组,Vertex Groups
+骨骼包络线,Bone Envelopes
+角度限制,Angle Limit
+求解器,Solver
+评估,Evaluation:
+时间映射,Time Mapping:
+轴映射,Axis Mapping:
+向前/向上轴,Forward/Up Axis:
+翻转轴,Flip Axis:
+缓存文件属性,Cache File Properties:
+修改器属性,Modifier Properties:
+"设置位于 ""物理 ""选项卡内",Settings are inside the Physics tab
+变形轴,Deformation Axis:
+划界,Delimit:
+边缘角度,Edge Angle
+锐边,Sharp Edges
+顶点组,Vertex Group:
+粒子 UV,Particle UV
+衔铁,Armature:
+XYZ,XYZ
+轴： XYZ,Axis:
+Bisect：,Bisect:
+翻转,Flip:
+镜像对象,Mirror Object:
+预览,Preview
+雕刻,Sculpt
+渲染,Render
+细分,Subdivide
+简单细分,Subdivide Simple
+线性细分,Subdivide Linear
+删除较高,Delete Higher
+取消细分,Unsubdivide
+重塑,Reshape
+应用基础,Apply Base
+重建细分,Rebuild Subdivisions
+打包外部,Pack External
+保存外部...,Save External...
+不使用 OceanSim 修改器,Built without OceanSim modifier
+波浪,Waves:
+排列,Alignment
+方向,Direction
+覆盖范围,Coverage
+泡沫数据层名称：,Foam Data Layer Name:
+删除烘烤,Delete Bake
+开始,Start
+结束,End
+缓存路径：,Cache path:
+粒子系统,Particle System
+从创建：,Create From:
+何时显示粒子,Show Particles When:
+数量,Amount
+沿路径创建,Create Along Paths
+随机,Random
+索引层,Index Layer
+值图层,Value Layer
+设置可在粒子上下文中找到,Settings can be found inside the Particle context
+目标：,Target:
+模式,Mode:
+变形,Deform:
+视口,Viewport:
+级别,Levels
+渲染,Render:
+自适应,Adaptive
+视口,Viewport
+投影仪,Projectors
+纵向 X,Aspect X
+纵向 Y,Aspect Y
+比例 X,Scale X
+比例 Y,Scale Y
+不带重网格修改器,Built without Remesh modifier
+影响/遮罩选项：,Influence/Mask Options:
+全局影响,Global Influence:
+顶点群遮罩,Vertex Group Mask:
+纹理蒙板,Texture Mask:
+纹理坐标：,Texture Coordinates:
+使用通道：,Use Channel:
+对象,Object
+骨骼,Bone
+默认权重：,Default Weight:
+顶点组 A：,Vertex Group A:
+默认权重 A：,Default Weight A:
+混合模式：,Mix Mode:
+顶点组 B,Vertex Group B:
+默认权重 B,Default Weight B:
+混合设置：,Mix Set:
+目标对象,Target Object:
+距离,Distance:
+对称轴,Symmetry Axes:
+创建衔铁,Create Armature
+选定顶点,Selected Vertices:
+标记松动,Mark Loose
+清除松动,Clear Loose
+标记根,Mark Root
+均衡半径,Equalize Radii
+四边形方法,Quad Method:
+Ngon 方法,Ngon Method:
+最小顶点,Minimum Vertices:
+UV 轴,UV Axis:
+从,From:
+至,To:
+骨骼,Bone:
+偏移,Offset:
+缩放,Scale:
+旋转,Rotate:
+UV 贴图,UV Map:
+因子,Factor
+折痕边缘,Crease Edges
+折痕重量,Crease Weight
+均匀厚度,Even Thickness
+相对厚度,Relative Thickness
+边界,Boundary
+替换原始材料,Replace Original
+材料偏移,Material Offset
+生成数据层,Generate Data Layers
+重量,Weight
+全部应用,Apply All
+修改器调整面板,Modifier Adjust Panel
+显示布尔值,Show Booleans
+快速修改器调整,Quick Modifier Adjust
+应用,Apply
+修改器调整,Modifier Adjust
+收藏修改器预置 ,Favorite Modifier Presets 
+堆叠预置,Stack Presets
+调用修改器预置子菜单,Call Modifier Preset Sub Menu
+RTOOLS_MT_Mods_Sub_Menu,RTOOLS_MT_Mods_Sub_Menu
+添加修改器预置,Add Modifier Preset
+Add this Modifier Preset\nSHIFT+CTRL+LMB:Add to all selected objects and sync modifiers\nSHIFT+LMB:Apply After Adding\nALT+LMB:Add/Remove from Favorites\nCTRL+LMB:Delete Preset,Add this Modifier Preset\nSHIFT+CTRL+LMB:Add to all selected objects and sync modifiers\nSHIFT+LMB:Apply After Adding\nALT+LMB:Add/Remove from Favorites\nCTRL+LMB:Delete Preset
+加载修改器预置,Load Modifier Presets
+从 txt 文件加载修改器预置,Load Modifier Presets From txt file
+调用修改器预置菜单,Call Modifier Presets Menu
+RTOOLS_MT_Mods_Menu,RTOOLS_MT_Mods_Menu
+调用收藏夹修改器预置菜单,Call Favorite Modifier Presets Menu
+RTOOLS_MT_Mods_Favorites_Menu,RTOOLS_MT_Mods_Favorites_Menu
+创建预置,Create Preset
+创建修改器预设菜单,Create Modifier Preset Menu
+完整堆栈,Complete Stack
+完整堆栈,FullStack
+创建修改器预设,Create Modifer Preset
+为该修改器/堆栈创建修改器预置,Create Modifier Preset For This Modifier/Stack
+同步修改器,Sync Modifiers
+添加节点,Add Node
+将选中的节点添加到节点树中,Add Selected Node To The NodeTree
+RT_FlowMap_Image,RT_FlowMap_Image
+使其流动,Make It Flow
+为图像添加流图,Add Flow Map To Image
+RT_FlowMap,RT_FlowMap
+速度,speed
+为快速调整添加节点,Add Node To Quick Adjust
+为快速材质调整面板添加节点,Add Node To Quick Material Adjust Panel
+添加插座,Add Sockets
+将插座添加到快速材质调整面板,Add Sockets To Quick Material Adjust Panel
+插入节点,Plug Into Node
+将此纹理与此节点混合 （nALT+LMB：将此纹理插入此节点,Mix this texture with this node\nALT+LMB: Plug this texture into this node
+与节点混合,Mix With Node
+RTOOLS_MT_Material_Mix_Using_Menu （使用菜单,RTOOLS_MT_Material_Mix_Using_Menu
+RTOOLS_MT_Plug_To_Socket_Menu,RTOOLS_MT_Plug_To_Socket_Menu
+混合 2 种材质,Mix 2 Materials
+混合 2 种材料,Mix 2 materials
+顶点实例,Instance At Vertices
+在活动对象的每个面上实例化所选对象,Instance Selected Object At Each Face of Active Object
+RT_Instance_Verts,RT_Instance_Verts
+创建真实实例,Make Instances Real
+将实例转换为真实对象并移除粒子系统/nCTRL+LMB:不要让对象数据成为单用户数据,Convert Instances To Real Objects And Remove Particle System\nCTRL+LMB:Dont Make Object Data Single User
+在面上创建实例,Instance At Faces
+使用粒子系统在活动对象的每个面上实例化所选对象 （nCTRL+LMB:使用实例化创建实例,Instance Selected Object At Each Face of Active Object Using Particle Systems\nCTRL+LMB:Use Instancing To Create Instances
+细分,SubDivide
+细分源对象,Subdivide Source Object
+RT_IAF_Subsurf,RT_IAF_Subsurf
+更新实例,Update Instances
+更新实例数,Update Instance Count
+创建 Boids,Create Boids
+添加对象,Add Objects
+添加碰撞,Add Collision
+HDRI 库,HDRI Library
+搜索 HDRI 库面板,Search HDRIs Library Panel
+Z 偏移,Z Offset
+旋转,Rotation
+模糊,Blur
+亮度,Brightness
+对比度,Contrast
+色调,Hue
+饱和度,Saturation
+混合因子,Mix Factor
+阳光强度,Sun Strength
+背景颜色,Background Color
+聚天堂,PolyHaven
+RT_World,RT_World
+Hdris,Hdris
+已下载-Hdris,Downloaded-Hdris
+重置,Reset
+重置 RT_World 节点的所有输入值,Reset all the input values of the RT_World Node
+保存首选项,Save Preferences
+加载首选项,Load Preferences
+路径,Path
+资产文件夹路径,Path of Asset Folder
+面板,Panels
+备份管理器,Backup Manager
+烘焙边距,Margin for Baking
+覆盖 CTRL+S 以打开 RanTools 项目面板,Override CTRL+S to open RanTools Project Panel
+项目目录,Projects Directory
+设置材料后删除 Zip 文件,Delete Zip files after setting up materials
+收藏预设,Favorite Presets
+网格线粗细,Grid Line Thickness
+网格点大小,Grid Point Size
+显示嵌入点,Show Inset Points
+显示红线,Show Red Lines
+斜面阈值,Bevel Threshold
+宽度低于此值的斜面修改器将从 P-Cutter 的计算中移除（对齐边缘和提取面）,Bevel modifiers with width below this will be removed from calculations in P-Cutter(Aligning to Edges and Extract Faces)
+网格大小基于,Grid Size Based On
+绘制模式固化偏移,Draw mode solidify offset
+布尔模式固化偏移,Boolean mode solidify offset
+仅从实体对象中提取面,Extract faces from solid objects only
+使用浮动文本,Use Floating Text
+仅使用活动对象,Use Active Object Only
+使用 P-Cutter 时仅使用活动对象,Use only the active object with P-Cutter
+绘制后自动隐藏布尔值,Auto Hide Booleans after drawing
+将视图对齐至网格时使用正交视图,Use orthographic view when aligning view to Grid
+将视图对齐至网格时使用正交视图,Use Orthographic view when aligning view to Grid
+圆分辨率,Circle Resolution
+交点捕捉阈值,Intersection Snap Threshold
+使用捕捉时显示最终（捕捉）形状,Show the final (snapped) shape while using Snapping
+将图形捕捉到点，而不是只突出显示捕捉点,Snap the drawing to the points instead of just highlighting the snapping point
+在绘制后使网格具有破坏性,Make meshes destructive after drawing
+使用切片布尔运算时应用修改器,Apply Modifiers When Using Slice Boolean
+网格颜色,Grid Color
+在修改器堆栈排序时包含镜像修改器,Include Mirror modifier when sorting the modifier stack
+"将其切换为 ""关闭""，可以在对象的镜像面上绘制切割器（将切割器移动到镜像修改器下方）",Toggling this OFF will let you draw cutters on the mirrored side of the object(by moving the cutter below the mirror modifier)
+形状 边缘 厚度,Shape Edges Thickness
+网格类型,Grid Type
+仅显示关闭网格点,Show Close Grid Points Only
+绘制后调整圆段,Adjust Circle Segments after drawing
+使用快速切割模式时，自动将视图切换为正交视图,Automatically Switch view to Orthographic view when using Fast Cutter Mode
+记住绘制时最后使用的形状,Remember the last shape used for drawing
+"使用 ""快速剪切 ""模式时，自动将网格与视图对齐",Automatically align the grid to view when using Fast Cutter Mode
+材料文件夹,Materials Folder
+下载素材的目录,Directory where materials will be downloaded
+HDRI 文件夹,HDRIs Folder
+下载 HDRI 的目录,Directory where HDRIs will be downloaded
+使用唯一对象,Use Unique
+是否按名称显示唯一对象,Whether to Show Unique Objects by Name
+自动 ABS,Auto ABS
+是否通过摄像机设置启用 AO、Bloom 和屏幕空间反射,"Whether to Enable AO, Bloom and ScreenSpace Reflection With Camera Settings"
+设置仅具有漫反射纹理的材质,SetUp Material Having Only Diffuse Texture
+自动更新索引,Auto Update Indexes
+添加新文件夹时自动更新索引,Auto Update Indexes Whenever new Folder is Added
+使用 Eevee 制作缩略图,Use Eevee for thumbnails
+将 Eevee 用于资产缩略图,Use Eevee For Asset Thumbnails
+使用凹凸,Use Bump
+设置 PBR 材质时使用凹凸节点,Use Bump node when Setting Up PBR Materials
+使用空方框,Use Box Empty
+"在创建资产时使用 ""空方框 ""而不是 ""平轴",Use Box Empty Instead Of Plain-Axis While Creating Assets
+套筒,Sockets
+在快速材质调整中显示套筒,Sockets To Show In Quick Material Adjust
+"在 ""快速材质调整 ""中显示的节点",Nodes To Show In Quick Material Adjust
+节点,Nodes
+从修改器预设菜单使用修改器时自动隐藏布尔对象,Automatically Hide Boolean Objects When Using Modifiers From Modifier Preset Menu
+不完美贴图,Imperfection Maps
+纹理文件夹,Textures Folder
+渲染文件夹,Renders Folder
+使用饼状菜单选择最喜欢的修改器预设,Use Pie Menu for Favorite Modifier Presets
+自定义校验器纹理,Custom Checker Texture
+杂项,Miscellaneous
+材质和 HDRI,Materials And HDRIs
+屏幕用户界面,On-Screen UI
+管理面板,Manage Panels
+关键地图,Key Maps
+资产文件夹,Asset Folders
+字体大小,Font Size
+生成缩略图的等待时间乘数,Wait time multiplier for Thumbnail generation
+HDRI 预览分辨率,HDRI Preview Resolution
+使用快速模式时跳过 P-Cutter 的切割阶段,Skip Cutting Phase of P-Cutter when using Fast Mode
+文字颜色（左）,Text Color (Left)
+文本颜色（右）,Text Color (Right)
+副文字颜色,Sub-Text Color
+关键高光颜色,Key Highlight Color
+背景色,Background
+边框颜色,Border Color
+边角半径,Corner Radius
+边框厚度,Border Thickness
+位置 X,Location X
+位置 Y,Location Y
+位置 Y（从顶部）,Location Y (From Top)
+位置 X（从右侧）,Location X (From Right)
+资产库路径,Asset Library Path
+翻转屏幕用户界面（从左至右）,Flip On-Screen UI (Left-Right)
+浮动文本位置,Floating Text Location
+光标溢出,Cursor Overflow
+当光标太靠近右端时，是否将光标移到左端,Whether to move the cursor to the left end when it reaches too close to the right end
+使用饼状主菜单,Use Master Pie Menu
+互联网连接检查站点,Internet Connection Check Site
+烘焙样品,Bake Samples
+烘焙样本（用于 AO 和斜面以外的烘焙）,Bake Samples (For bakes other than AO and Bevels)
+使用与行业兼容的键图,Use Industry Compatible Keymap
+在修改器面板中添加预设菜单,Add Presets menu to the Modifier Panel
+电缆模拟的针状顶点,Pinned vertices for cable simulations
+为两端不受模拟影响的顶点编号,Number vertices on both ends which are not affected by the simulation
+使用上/下键代替滚轮,Use UP/DOWN Key instead of Scroll Wheel
+预设,Preset
+面板和馅饼,Panels and Pies
+弹出式面板样式,PopUp Panel Style
+面板类别,Panel Categories
+饼面板,Pie Panels
+下拉式面板,Dropdown Panels
+工作区附加组件类别,Workspace Addon Categories
+更新枕头,Update Pillow
+添加文件夹,Add Folder
+刷新对象索引,Refresh Object Indexes
+添加新文件夹时自动更新索引,Auto update indexes whenever a new folder is added
+在 Patreon 上支持 AmbientCG,Support AmbientCG on Patreon
+在 Patreon 上支持 PolyHaven,Support PolyHaven on Patreon
+加载缓存预览,Load Cached Previews
+添加资产文件夹路径,Add Asset Folder path
+添加资产文件夹路径,Add a path to a Asset Folder
+添加新类别,Add New Category
+移除此类别,Remove this Category
+移除资产文件夹路径,Remove Asset Folder path
+删除此路径,Remove this path
+从旧版本的 Blender 中导入数据,Import data from older versions of Blender
+从旧版本的 Blender 中导入资产和下载数据,Import Assets and Download data from previous versions of blender
+检查更新,Check for Updates
+在线检查是否有新的更新,Check online if new updates are available
+刷新对象索引,Refresh Indexes Of Objects
+刷新对象索引以进行追加,Refresh Indexes Of Objects for appending
+加载离线 HDRI,Load Offline HDRIs
+将离线 HDRI 加载到 RanTools HDRI 库中,Load your offline HDRIs into RanTools HDRI Library
+标签,Tags
+文件路径,File Path
+jpg,jpg
+hdr,hdr
+exr,exr
+tif,tif
+布料重网格,Remesh for Cloth
+为布料（或任何其他用途）重塑网格,Remesh for cloth (or any other purpose)
+重网格比例,Remesh Scale
+细分级别,Subdivision Level
+翻转法线,Flip Normals
+细分方法,Subdivision Method
+创建独立对象,Create Separate Object
+启用此选项仅使用选定的面,Enable This To Use Only Selected Faces
+使用单个面,Use Individual Faces
+启用此选项将自动启用细分！,Enabling This Will Automatically Enable SubDivision!
+单独重网格面,Remesh Faces Individually
+精确,Precise
+RT_EdgeSplit,RT_EdgeSplit
+RT_SUBDIVISION,RT_SUBDIVISION
+RT_ClothPin,RT_ClothPin
+创建网格布,Create Cloth
+创建布面板,Create cloth Panels
+压力,Pressure
+收缩,Shrink
+刚度,Stiffness
+在布面后添加子曲面修改器,Add Subsurf modifier after cloth
+RT_Cloth_Subsurf,RT_Cloth_Subsurf
+平面重网格,Planar Remesh
+重网格平面网格,Remesh Planar Meshes
+重网格,RT_Remesh
+使用骰子重网格,Remesh Using Dice
+仅选取面,Only Selected Faces
+对齐到面,Align To Faces
+单个面,Individual Faces
+共面阈值,Coplanar Threshold
+乘以渲染分辨率,Multiply Render Resolution
+设置相机焦距,Set Camera Focal Length
+使用文件名设置渲染路径,Set Render Path with FileName
+文件输出,RT_File_Output
+线框渲染,RT_WireFrame
+线框渲染,Wire Frame Render
+添加线框节点,Add WireFrame Node
+混合,Mix
+设置去噪节点,Setup Denoise Nodes
+设置去噪,Setup Denoise
+创建摄像机标记和关键帧,Create Camera Markers And Keyframes
+设置快门速度,Set Shutter Speed
+设置长宽比,Set aspect ratio
+将纵横比设置为 2:1,Set aspect ratio to 2:1
+调整摄像机设置,Adjust Camera Settings
+交互式摄像机设置工具,Interactive Camera Settings Tool
+添加摄像机（RanTools）,Add Camera (RanTools)
+在当前位置添加摄像机并进入调整模式,Add camera at current location and enter adjustment modal
+摄像机,Camera
+临时多边形,TempPolygon
+RT_StartMat,RT_StartMat
+RT_StartMat_FBX,RT_StartMat_FBX
+光泽度,Glossiness
+胶片日志,Filmic Log
+添加 UV 网格,Add UV Grid
+为所有材质添加 UV 网格纹理,Add a UV Grid Texture to All Material
+RT_CHECKER_TEX,RT_CHECKER_TEX
+RT_Checker_Output,RT_Checker_Output
+RT_Checker_Coord,RT_Checker_Coord
+RT_Checker_Mapping,RT_Checker_Mapping
+RT_Checker_Scale,RT_Checker_Scale
+RT_Checker_Texture,RT_Checker_Texture
+移除 UV 网格,Remove UV Grid
+移除 UV 网格纹理（如果存在,Remove UV Grid Texture if present
+漫反射,RT_Diffuse
+颜色,Color
+RT_Clay_Group_Output,RT_Clay_Group_Output
+RT_Transparent_Group_Output,RT_Transparent
+RT_Transparent_Group_Output,RT_Transparent_Group_Output
+RT_TransparentNodeGroup_Output,RT_TransparentNodeGroup
+RT_Transparent_Group_Output,RT_Clay_Output
+RT_ClayNodeGroup,RT_ClayNodeGroup
+将粘土材质添加到所有材质中 （nCTRL+LMB:也将粘土材质添加到透射材质中,Add a Clay Material to All Material\nCTRL+LMB:Also Add Clay Materials To Transmissive Materials
+也添加到半透明材质,Also Add To Translucent Materials
+移除粘土材质（如果存在,Remove Clay Material if present
+创建自定义宏,Create Custom Macro
+创建自定义宏操作符,Create Custom Macro Operators
+{nameOG} 名称,{nameOG}
+清除,Clear
+获取,Fetch
+从 INFO 面板获取命令,Fetch Commands From INFO Panel
+{arg.capitalize()},{arg.capitalize()}
+保存视图,Save View
+设置视图,Set View
+从视图渲染 UV 项目,UV Project From View
+保存渲染预设,Render Preset Save
+创建渲染设置预设,Create Render Settings Preset
+{arg.capitalize().replace(,{arg.capitalize().replace(
+全部渲染,Render All
+渲染所有渲染预设,Render All Render Presets
+渲染结果,Render result
+保存渲染结果,Save Render Results
+批量渲染,Render Batch
+标记完成,Mark Complete
+更新,Update
+更新渲染设置 预设,Update Render Settings Preset
+移除渲染预设,Render Preset Remove
+删除渲染预设,Remove Render Preset
+加载渲染预设,Render Presets Load
+加载渲染设置预设,Load Render Settings Preset
+切换渲染引擎,Switch Render Engine
+重置项目,Reset Project
+设置项目,Set Up Project
+覆盖项目,RTOOLS_MT_Override_Project
+覆盖项目？,Override Project?
+已存在同名项目，是否要覆盖它？,Project with same name already exists do you want to override it?
+覆盖！,Override!
+保存项目,Save Project
+项目设置,Project Settings
+最新文件,Recent Files
+项目信息,Project Information
+派菜单,Pie Menu
+RanTools 菜单,RanTools Menu
+最后一个斜面,Last Bevel
+RanTools - 面板派,RanTools - Panels Pie
+RTOOLS_MT_Panels_Sub_Pie_Menu,RTOOLS_MT_Panels_Sub_Pie_Menu
+面板饼形菜单,Panels Pie Menu
+RT 曲线饼状菜单,RT Curves Pie Menu
+布尔饼状菜单,Booleans Pie Menu
+网格饼状菜单,Mesh Pie Menu
+绘制,Draw
+差异,Difference
+联合,Union
+相交,Intersect
+切片,Slice
+镶嵌,Inset
+最后一刀,Last Cutter
+角度,Angle
+最后坡口宽度,Last Bevel Width
+调整修改器 ,Adjust Modifiers 
+更改,Change
+新,New
+调整,Adjust
+库,Library
+电缆,Cables
+创建,Create
+模拟,Simulate
+编辑,Edit
+清晰锐利,Clear Sharp
+1,1
+压痕,Crease
+选择边缘（锐利）,Select Edges (Sharp)
+选择边缘（接缝）,Select Edges (Seam)
+添加到 RanTools 菜单,Add To RanTools Menu
+材料混合菜单,Material Mix Menu
+节点混合菜单,Node Mix Menu
+使用,Mix using
+噪音纹理,Noise Texture
+马斯格雷夫纹理,Musgrave Texture
+边缘遮罩,Edge Mask
+磨边面具,Worn Edge Mask
+其他材质,Other Materials
+高度贴图和边缘蒙版,Height Maps and Edge Masks
+插入,Plug Into
+RanTools - 主菜单,RanTools - Main Menu
+RTOOLS_MT_RanTools_Main,RTOOLS_MT_RanTools_Main
+RanTools - 节点混合,RanTools - Node Mix
+RTOOLS_MT_Node_Mix_Menu,RTOOLS_MT_Node_Mix_Menu
+RanTools - 馅饼,RanTools - Pie
+OBJECT_PT_Material_Adjust,OBJECT_PT_Material_Adjust
+RTOOLS_MT_Pie_Menu,RTOOLS_MT_Pie_Menu
+RanTools - 曲线图,RanTools - Curves Pie
+RTOOLS_MT_Curves_Pie_Menu,RTOOLS_MT_Curves_Pie_Menu
+RTOOLS_MT_Panels_Pie_Menu,RTOOLS_MT_Panels_Pie_Menu
+RTOOLS_MT_Panel_Categories_Pie_Menu,RTOOLS_MT_Panel_Categories_Pie_Menu
+RanTools - 布尔运算,RanTools - Booleans
+RTOOLS_MT_Booleans_Pie_Menu,RTOOLS_MT_Booleans_Pie_Menu
+RanTools - 边缘派,RanTools - Edges Pie
+RTOOLS_MT_Edges_Pie_Menu,RTOOLS_MT_Edges_Pie_Menu
+未使用,Unused
+灯光,Light
+PBR 纹理目录路径,Path To PBR Textures Directory
+设置此目录中的所有 PBR 贴图,SetUp All PBR Textures in this directory
+选择相似字符串,Select Similar String
+用于查找名称中包含此字符串的对象,Used for finding objects that include this in their name
+备份名称,BackUp Name
+用于创建的备份的名称,Name To Use For The Created Backup
+使用的渲染样本,Render Samples to Use
+灯组名称,Light Group Name
+仅本地,Only Local
+烘焙 AO 时只考虑对象本身,Only Consider the object itself while baking AO
+创建新材质,Create New Materials
+分配材质,Assign Materials
+使用视口颜色,Use Viewport Colors
+为 ID 贴图使用视口颜色而不是随机颜色,Use Viewport Colors for ID Maps instead of Random Colors
+将所有对象烘焙为单个图像,Bake All Objects to Single Image
+添加节点,Node To Append
+要添加的套接字,Sockets To Add
+点击对象,Hitting Object
+操作,Operations
+连续绘制,Continuous Drawing
+使用线材模拟 V1,Use Wire Simulation V1
+清理网格,Clean Mesh
+在绘制后运行有限溶解和移除双倍以移除多余顶点,Run Limited Dissolve And Remove Doubles To Remove Extra Vertices After Drawing
+计算共面,Calculate Coplanar Faces
+是否计算共面和中心（处理高多边形网格时关闭）,Whether to calculate coplanar faces and center(Turn off when working with very high poly meshes)
+默认曲线类型,Default Curve Type
+形状,Shape
+当前形状,Current Shape
+绘制时使用的默认形状,Default Shape To Use While Drawing
+最后一个切割器 布尔值,Last Cutter Boolean
+全部显示,Show All
+显示所有脱机材料，而不是只显示符合搜索条件的材料,Show all Offline materials instead of just the ones matching the search query
+类别,Category
+提取太阳,Extract Sun
+背景纯色,Solid Color For Background
+切割机 ID,Cutter ID
+项目名称,Project Name
+绽放夹钳,Bloom clamp
+绽放强度,Bloom intensity
+绽放膝盖,Bloom knee
+绽放半径,Bloom radius
+虚化阈值,Bloom threshold
+虚化最大尺寸,Bokeh max size
+虚化阈值,Bokeh threshold
+Gi 自动烘焙,Gi auto bake
+Gi 立方地图显示尺寸,Gi cubemap display size
+Gi 立方地图分辨率,Gi cubemap resolution
+Gi 漫反射,Gi diffuse bounces
+Gi 滤镜质量,Gi filter quality
+Gi 光泽夹钳,Gi glossy clamp
+Gi 辐照度显示尺寸,Gi irradiance display size
+Gi 辐照度平滑,Gi irradiance smoothing
+Gi 显示立方体贴图,Gi show cubemaps
+Gi 显示辐照度,Gi show irradiance
+Gi 可见度分辨率,Gi visibility resolution
+Gtao 距离,Gtao distance
+Gtao 因子,Gtao factor
+Gtao 质量,Gtao quality
+光阈值,Light threshold
+运动模糊深度比例,Motion blur depth scale
+动态模糊最大值,Motion blur max
+动态模糊快门,Motion blur shutter
+动态模糊步长,Motion blur steps
+过扫描尺寸,Overscan size
+阴影级联尺寸,Shadow cascade size
+阴影立方体大小,Shadow cube size
+Ssr 边框渐变,Ssr border fade
+Ssr 萤火虫面,Ssr firefly fac
+Ssr 最大粗糙度,Ssr max roughness
+阴影质量,Ssr quality
+Ssr 厚度,Ssr thickness
+Sss 抖动阈值,Sss jitter threshold
+Sss 样本,Sss samples
+Taa 渲染采样,Taa render samples
+Taa 样本,Taa samples
+使用 Bloom,Use bloom
+使用 gtao,Use gtao
+使用 gtao 弯曲法线,Use gtao bent normals
+使用 gtao 反弹,Use gtao bounce
+使用运动模糊,Use motion blur
+使用过扫描,Use overscan
+使用高位元深度阴影,Use shadow high bitdepth
+使用柔和阴影,Use soft shadows
+使用 ssr,Use ssr
+使用ssr半分辨率,Use ssr halfres
+使用 ssr 折射,Use ssr refraction
+使用 taa 重投影,Use taa reprojection
+使用体积光,Use volumetric lights
+使用体积阴影,Use volumetric shadows
+体积末端,Volumetric end
+体积光钳,Volumetric light clamp
+体积样本分布,Volumetric sample distribution
+体积样本,Volumetric samples
+体积阴影样本,Volumetric shadow samples
+体积测量开始,Volumetric start
+体积瓦片大小,Volumetric tile size
+自适应阈值,Adaptive threshold
+预览 自适应最小样本,Preview Adaptive Min Samples
+Aa 样本,Aa samples
+自适应最小采样,Adaptive min samples
+Ao 反弹,Ao bounces
+傲慢反弹渲染,Ao bounces render
+Ao 样本,Ao samples
+模糊光泽,Blur glossy
+相机剔除边缘,Camera cull margin
+虚像反射,Caustics reflective
+焦散折射,Caustics refractive
+切割率,Dicing rate
+漫反射反弹,Diffuse bounces
+漫反射采样,Diffuse samples
+距离剔除余量,Distance cull margin
+胶片曝光,Film exposure
+胶片透明玻璃,Film transparent glass
+胶片透明粗糙度,Film transparent roughness
+滤镜宽度,Filter width
+光泽反弹,Glossy bounces
+光泽采样,Glossy samples
+光取样阈值,Light sampling threshold
+最大反弹,Max bounces
+最大细分,Max subdivisions
+网格光采样,Mesh light samples
+最小光线反弹,Min light bounces
+最小透明反弹,Min transparent bounces
+屏外切割比例,Offscreen dicing scale
+预览 aa 样本,Preview aa samples
+预览去噪起始样本,Preview denoising start sample
+预览切割率,Preview dicing rate
+预览暂停,Preview pause
+预览样本,Preview samples
+预览开始分辨率,Preview start resolution
+滚动快门持续时间,Rolling shutter duration
+直接采样所有灯光,Sample all lights direct
+间接采样所有灯光,Sample all lights indirect
+直接钳位取样,Sample clamp direct
+间接夹钳采样,Sample clamp indirect
+采样,Samples
+种子,Seed
+遮光系统,Shading system
+表层下样品,Subsurface samples
+透射反弹,Transmission bounces
+透射样本,Transmission samples
+透明最大反弹,Transparent max bounces
+使用自适应采样,Use adaptive sampling
+使用动画种子,Use animated seed
+使用摄像机剔除,Use camera cull
+使用去噪,Use denoising
+使用距离剔除,Use distance cull
+使用预览去噪,Use preview denoising
+使用渐进细化,Use progressive refine
+使用方形采样,Use square samples
+音量反弹,Volume bounces
+音量最大步长,Volume max steps
+音量预览步进率,Volume preview step rate
+音量采样,Volume samples
+音量步进率,Volume step rate
+引擎,Engine
+粘土,Clay
+线框,Wireframe
+位置,Location
+分辨率 x,Resolution x
+分辨率 Y,Resolution Y
+透明,Transparent
+帮助,Help
+文档,Documentation
+聊天支持,Chat Support
+视频,Youtube
+来自开发者的消息,Message from the Developer:
+Snap,Snap
+渲染（萌萌哒）,Rendered (Eevee)
+冉工具,RanTools
+下拉菜单,Dropdowns
+三维视图,3D View
+节点编辑器,Node Editor
+对象模式,Object Mode
+网格,Mesh
+地面,Ground
+最后布线针脚组,Last Cloth Pin Group
+备份混合模式,Backup Blend Mode
+备份,Backup
+隐藏视图,Hide View
+首页,HI
+打开下载页面,Open Downloads Page
+更新信息：,Update Information:
+更新信息：,Update Message:
+下载页面 URL,Download Page URL
+插件已更新！,Addon is Up to Date!
+更新可用,Update Available
+开机检查更新！,Check for Updates on Boot!
+每 X 天检查一次,Check every X days
+每 X 天检查更新,Check for Updates every X days
+安装枕头,Install Pillow
+.\n,.\n
+PIL,PIL

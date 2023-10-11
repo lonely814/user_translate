@@ -1,0 +1,1001 @@
+, 
+BG同步,BG Sync
+Builtin.select,builtin.select
+Create (unit or unit+height) box or cylinder primitve based on selection (or not = ground)/n,Creates (unit or unit+height) box or cylinder primitve based on selection (or not = ground)\n
+EDGES：循环选择，POLYS：链接选择，VERTS：（链接）边界边缘,"EDGES: loop select, POLYS: Linked select, VERTS: (linked) Border edges"
+Fit2Grid,Fit2Grid
+ID材料,ID Material
+KCM,KCM
+Origin to Selected Elements（原点至所选元素,Origin To Selected Elements
+Pie-Slot Mouse Offset,Pie-Slot Mouse Offset
+Quantization\n,Quantization\n
+TripleConnectSpin,TripleConnectSpin
+VERTS: Connect Verts/n,VERTS: Connect Verts\n
+VERTS：连接顶点，EDGE（s）：旋转，FACE（s）：三角化,"VERTS: Connect Verts, EDGE(s): Spin, FACE(s): Triangulate"
+ke_fitprim,ke_fitprim
+一键完成所有重要的清理操作。自定义选项。,All the important cleaning operations in one click. Customize options. 
+三角形阴影,Triangulate Shading
+上下文 挤压,Context Extrude
+上下文倒角,Context Bevel
+上下文删除,Context Delete
+上下文溶解,Context Dissolve
+上下文滑动,Context Slide
+上下文连接,Context Connect
+上下文选择,Context Select
+上下文选择减去,Context Select Subtract
+上下文选择扩展（Context Select Extend,Context Select Extend
+下降时在障碍物上停止（无：Z0）。,Stops on obstructions on the way down (Nothing: Z0)
+与每个顶点的距离，以合并链接的顶点。,Distance from each vert to merge linked verts from
+中心,Center
+为两个对象交换位置（变换）。(应用比例来避免),"Swap places (transforms) for two objects. loc, rot & scale. (apply scale to avoid)"
+也可以在编辑模式下制作新的对象,Makes new object also from Edit mode
+交换位置,Swap Places
+从元素或对象选择中创建 BOX 或 CONVEX HULL 碰撞式对象。,Creates BOX or CONVEX HULL collision-style object from Element or Object selection\n
+从对象或编辑模式切换到鼠标指针下的对象（并设置编辑模式）。,Switch to object under mouse pointer (and set Edit Mode) from either Object or Edit Mode
+从每个顶点到处理距离的边缘链接的数量。,The # of edge links away from each vert to process distance on
+从面的比例,Scale From Faces
+位置,Location
+偏移,Offset
+光标书签,Cursor Bookmarks
+光标位置,Cursor Location
+光标拟合与对齐,Cursor Fit & Align
+光标旋转,Cursor Rotation
+光标正交定位,Cursor Otho Snap
+全屏+。当切换回来时，恢复原来的设置。,Fullscreen+. Restores original settings when toggled back.
+内部BU中最近的网格值（公制）。,Nearest Grid value in internal BU(Metric)
+减去上下文选择。适用于Ctrl-双击LMB,Subtracts Context Select. Intended for Ctrl-Double-click LMB
+创建一个盒状原形。立方体工具，但有更多的设置。(来自Blender的默认模板) №n,"Creates a Box Primitive. Cube tool, but with more settings. (from Blender Default Template) \n"
+制作物体,Make Object
+剪切+或复制+面的选择（到临时缓存），然后粘贴+到另一个对象。,Cut+ or Copy+ face selection (to temporary cache) then Paste+ into another object.
+匹配活动界线,Match Active Bounding Box
+参考风格阴影,Reference Style Shading
+反转选择,Invert Selection
+取消隐藏或关闭本地,Unhide or Local Off
+叠加类型,Overlay Type
+只在连接/链接的网格上反转选区。,Inverts selection only on connected/linked mesh geo\n
+只渲染当前视口中可见的部分 - 不考虑轮廓器的设置。,Render only what is currently visible in the viewport - Regardless of outliner settings
+合并到活动位置,Merge to Active
+合并到鼠标,Merge to Mouse
+合并选定的附近,Merge Near Selected
+名称,Name
+四面体,QuadSphere
+在一条直线上创建一个数组，实例在起点和终点之间自动间隔。,Creates an array in a line where instances are spaced automatically between start and end 
+在大纲视图中找到所选对象（并将父集合设置为活动集合）。,Locate the selected object(s) in the outliner (& set parent Collection as Active)
+在射线投射时忽略选中的物体。,Ignore selected Objects when raycasting
+在平面和平滑阴影之间切换所选对象。也可在编辑模式下使用。,Toggles selected object(s) between Flat & Smooth shading.\nAlso works in Edit mode.
+在编辑模式下获取和设置对象,Get & Set Object in Edit Mode
+在选定的点附近合并其他点（在任何元素模式下！）/n,Merges other verts near selected verts to them (in any element mode!)\n
+在面或边模式下，从选区创建新的网格。活动面/边（连接的循环）。,Creates new mesh from selection in face or edge mode. Active face/edge(w.connected loop) 
+在鼠标下的边上插入边环（或带DIV的顶点）。 不需要选择） （n,Inserts edge loop (or a vert with DIV) on an edge under the mouse. (No selection needed)\n
+地面（或中心）,Ground (or Center)
+垂直和面部模式。将选定的顶点合并到离鼠标最近的顶点上。,Vert & Face Mode: Merge selected verts to the vert nearest the Mouse 
+垂直模式。将选定的顶点合并到活动顶点上（如图）。,Vert Mode: Merge selected verts to the Active vert (as 
+复制+,CopyPlus
+复制对象旋转,Copy Obj Rot
+存储和使用光标变换,Store & Use Cursor Transforms
+宏观网格清洁器,Macro Mesh Cleaner
+宽度,Width
+对准（或中心）选定的物体，或选定的元素（只对准世界Z0）。,"Ground (or Center) selected Object(s), or selected elements (snap to world Z0 only)"
+对象图层,Object Layers
+对象控制,Object Control
+对象模式。为每个选定的碰撞对象，或一个组合的碰撞对象,"Object Mode: Collision object for each selected, or one combined"
+对鼠标指针下的材料进行取样，并将其应用到选区上。,Samples material under mouse pointer and applies it to the selection
+对齐,Align
+对齐对象的活动,Align Object(s) To Active
+将ID材料应用于物体/面。,Applies ID Material to Object(s) / Faces
+将光标对准视图,Align Cursor To View
+将光标锁定在选定的位置上，并将其定位到FACE/VERT/EDGE法线。\n,Snap Cursor to selected + orient to FACE/VERT/EDGE normal. \n
+将原点与光标对齐,Align Origin To Cursor
+将原点与选定的元素对齐,Align Origin To Selected Elements
+将原点置于元素选择的平均位置 （n,Places origin(s) at element selection average\n
+将图像渲染到第一个空的渲染槽,Render Image to the first empty render slot
+将对象与光标对齐,Align Object To Cursor
+将所有选定的物体视为一个项目,Treat all selected objects as one item
+将所选对象的原点与光标对齐（旋转、位置或两者）。,"Aligns selected object(s) origin(s) to Cursor (Rotation,Location or both)"
+将所选对象的地理或元素模式选择放在对象的原点上（只限于位置） （n,Places Selected Object Geo or Element Mode Selection at objects Origin (Location only)\n
+将碰撞对象的视口设置为边界显示，不显示在渲染图中。,Sets collision object(s) viewport to bounds display & not show in renders
+将视口预览背景EXR设置为渲染背景EXR/n,Set Viewport Preview Background EXR to Render Background EXR\n
+将选定的对象与光标对齐（旋转和位置）。,Aligns selected object(s) to Cursor (Rotation & Location)
+将选定的对象与活动对象对齐 变形。(你可能想应用比例）。,Align selected object(s) to the Active Objects Transforms. (You may want to apply scale)
+将选定的对象按最后选定的对象边界框（沿重做时选择的轴）进行缩放。,Scales selected object(s) to last selected object bounding box (along axis chosen in redo)\n
+将选择的元素分离成一个新的对象，并在编辑模式下设置为活动对象。,Separate element selection into a New Object & set as Active Object in Edit Mode
+将选择的对象旋转到最接近设定的度数。,Snaps selected object(s) rotation to nearest set degree
+层数,Layers
+度数捕捉,Degree Snap
+延伸,Extend
+延伸上下文选择。适用于Shift-Double-click LMB,Extends Context Select. Intended for Shift-Double-click LMB
+延长选择/新选择,Extend selection / New selection
+当鼠标指针在任何物体上时，在所选物体的编辑和物体模式之间切换。,Toggle between Edit and Object modes on selected object when mouse pointer is over -nothing-
+忽略选中的物体,Ignore Selected
+拉直,Straighten
+拟合选项,FitPrim Options
+指向对象,Point To Obj
+按显示类型选择,Select by Display Type
+按选择模式（VERTEX、EDGE、POLY或OBJECT）删除选择。,"Deletes selection by selection mode (VERTEX, EDGE, POLY or OBJECT)"
+捕捉--将光标的Z轴相对于视口摄像机对准最近的世界（正交）轴。,"Snap-Aligns the Cursor Z-axis to the nearest world (ortho) axis, relative to the viewport camera"
+捕捉光标到,Snap Cursor To
+提取和编辑,Extract & Edit
+操作,Operation
+方形拐角,Square Corners
+方法,Method
+旋转,Rotation
+显示光标轴,Show Cursor Axis
+显示在大纲视图中,Show in Outliner
+显示类型,Display Type
+替代的一键式双G滑动。,Alternative one-click for double-G slide.
+杂项饼状菜单操作等,Misc pie menu ops & such
+根据所选面的大小（面积）差异来调整所选物件的比例，以符合最后选定的对象。,Scales selected object(s) by the size(area) difference of selected faces to match last selected 
+框选全部或选定,Frame All or Selected
+框选，如果没有选择，则全部选择。,"Frame Selection, or everything if nothing is selected."
+桥接或填充,Bridge or Fill
+桥接边缘选择，除非是选择了一个连续的边界边缘环。Grid Fill/n,"Bridge edge selection, except when ONE continous border edge-loop is selected: Grid Fill\n"
+模式,Mode
+正射,Ortho
+步骤 旋转,Step Rotate
+活动的一侧，但有活动的垂直、边缘或面和鼠标的位置 ,"Side of Active, but with active vert, edge or face and mouse position "
+深度,Depth
+清除位置,Clear Loc
+清除光标,Clear the cursor
+清除光标旋转,Clear Cursor Rotation
+清除数据,Purge Data
+清除旋转,Clear Rot
+清除未使用的数据,Purge Unused Data
+清除特定的未使用的数据块/Note: 删除的网格仍然会被保存。,Purge specific unused data blocks\nNote: Deleted meshes will still 
+渲染可见的,Render Visible
+渲染图像槽循环,Render Image Slot Cycle
+激活,Active
+焦点模式,Focus Mode
+独立的碰撞对象,Separate Collision Objects
+盒子的宽度,Box Width
+盒子的深度,Box Depth
+目标对象,Target Object
+直接元素<->对象模式切换,Direct Element <-> Object Mode Switch
+直接环形切割,Direct Loop Cut
+碰撞,Collision
+碰撞类型,Collision Type
+碰撞风格阴影,Collision Style Shading
+科基特光标菜单,keKit Cursor Menu
+空间切换,Space Toggle
+竖向计数选择,Vert Count Select
+箱体高度,Box Height
+类型,Type
+线性阵列,Linear Array
+编辑模式,Edit Mode
+编辑模式。将原点放置在所选元素上（+方向）/n,Edit Mode: Places origin(s) at element selection (+orientation)\n
+缩放,Scaling
+网格,Grid
+网格值,Grid Value
+群组,Group
+自定义Z值,Custom Z Value
+获取和设置材料,Get & Set Material
+覆盖选项和切换,Overlay Options & Toggles
+解除隐藏的项目，或者如果当前处于本地模式，则将本地模式切换为关闭。,"Unhides hidden items OR toggles Local mode OFF, if currently in Local mode"
+设置Z轴的自定义值,Set custom value on Z axis
+设置活动集合,Set Active Collection
+设置碰撞对象的视口颜色和前面的阴影。,Sets collision object(s) viewport color & in-front shading
+设置选定的对象,Set selected object
+资讯,Info
+距离,Distance
+轴模式,Axis Mode
+轴的符号,Axis Sign
+轴线,Axis
+边缘切割,Edge Cuts
+边缘旋转模式,Edge Spin Mode
+选择VERTS。顶点挤出，EDGES：边缘挤出，POLYS：面挤出 正常（区域）,"VERTS selected: Vertex Extrude, EDGES: Edge Extrude, POLYS: Face Extrude Normal (Region)"
+选择VERTS。顶点斜面工具，EDGES：边缘斜面，POLYS：多边形嵌入。,"VERTS selected: Vertex bevel Tool, EDGES: edge bevel, POLYS: Poly Inset"
+选择。,Sel.
+选择到原点,Selection to Origin
+选择反转链接,Select Invert Linked
+选择用于查找翻转面的方法。,Choose which method used to find flipped faces.\n
+选择相邻的顶点,Select Collinear Verts
+选择相邻的顶点,Selects Collinear Vertices
+选择翻转的法线面,Select Flipped Normal Faces
+选择翻转的法线面（即 ,Selects flipped normal faces (the 
+选择要缩放的包围盒轴线,Choose which Bounding Box Axis to scale with
+选择边界(+active),select boundary(+active)
+选择边界边并设置一条边为激活状态 （Select Boundary）。,Select Boundary edges & sets one edge active\n
+通过垂直计数选择地理信息,Select Geo by Vert Count
+通过视口显示类型选择场景中的物体,Select objects in scene by viewport display type
+通过选择模式（VERTEX、EDGE或POLY）解除选择。,"Dissolves selection by selection mode (VERTEX, EDGE or POLY)"
+遗留功能 - 仅在这里用于 ,LEGACY FEATURE - Only here for 
+重置光标,Reset Cursor
+链接级别,Link Level
+锁定/锁定未选择的。禁用所选/未选对象的选择/n,Lock/Lock Unselected: Disable Selection for selected/unselected object(s)\n
+锁定和解锁,Lock & Unlock
+阈值,Threshold
+阴影切换,Shading Toggle
+雷击,Raycast
+面部三角测量模式,Face Triangulation Mode
+顶点连接模式,Vertex Connect Mode
+项目化,Itemize
+高度,Height
+鼠标的活动面,Mouse Side of Active
+ 在编辑或对象模式下，通过所选对象的垂直数来选择几何体。(注意：Ngons为5以上), Select geo by vert count in selected Object(s) in Edit or Object Mode. (Note: Ngons are 5+)
+,"""\""""
+"""",""Box"""
+,'
+,1
+,2
+,3
+,4
+,5
+,6
+鼠标轴移动,Mouse Axis Move
+根据你的鼠标移动（或旋转时的视口），使用重新计算的方向，在轴线自动锁定的情况下运行Grab。,Runs Grab with Axis auto-locked based on your mouse movement (or viewport when rot) using recalculated orientation 
+龙卷风,keTF
+鼠标镜像与翻转,Mouse Mirror & Flip
+用鼠标指针离开中心（对象、元素或光标）进行镜像或翻转。,"Mirror or Flip with Mouse pointer away from center (object, element or cursor) "
+链接复制,Linked Duplicate
+存储预置,Store Preset
+将数值存储到MC1-8槽（注：将存储为固定值，如果固定偏移量不为0）（n,"Stores values to slot MC1-8\n(Note: Will be stored as Fixed, if fixed offset is not 0)\n"
+预设,Preset
+多重切割,MultiCut
+(选择边缘）就像循环切割与偏移边缘滑动相结合的末端。,(Select edge) Like Loop Cut combined with Offset Edge Slide for the ends.\n
+甚至,Even
+中心切割,Center Cuts
+相对偏移,Relative Offset
+固定偏移,Fixed Offset
+中心切割,Center Cut
+预设,Presets
+%s,%s
+不错的项目,Nice Project
+贯穿切割,Cut Through
+保持切割器的地理状态,Keep Cutter Geo
+(编辑模式) 禁用，以便在操作后移除切割器,(Edit Mode) Disable to remove cutter after operation
+保持选定的切割器,Keep Cutter Selected
+(编辑模式)或者，结果将被选中。,"(Edit Mode) Or, the result will be selected"
+使用所有边线,Use All Edges
+使用切割器中的所有边缘作为边界边缘进行切割。,Use ALL edges in Cutter as boundary edges to cut with
+注意：重做需要保持视口不变。,Note: Redo requires unchanged viewport
+只有脸部,FACES_ONLY
+挤出边缘+,Extrude Edges +
+像挤出边缘一样，但在各种模式下使用顶点或面的法线，以及只用偏移选项。,"Like Extrude Edges, but using Vertex or Face Normals in various modes. & with offset-only option."
+偏移值,Offset Value
+偏移/挤出边缘的距离，以Blender单位（m）计算。,Distance to offset/extrude edges in Blender Unit (m)
+只偏移,Offset Only
+偏移重复的边缘而不创建面,Offset duplicate edges without creating faces
+翻转法线,Flip Normals
+反转新面的法线,Invert the normals of new faces
+自动正交,Auto-Ortho
+如果所有选定的边都是边界边，则自动设置面的正交模式。,Automatically set Face Orthogonal mode if all selected edges are boundary edges
+方向和支点组合,Orientation and Pivot Combo
+组合,Combo
+饼状操作符,Pie Operators
+子D,SubD
+WB斜面,WBevel
+AB斜面,ABevel
+k巩固,kSolidify
+kW加权法线,kWeightedNormal
+捕捉目标,Snap Target
+捕捉元素,Snap Element
+kSubd,keSubd
+斜面权重-1,Bevel Weight -1
+斜面权重1,Bevel Weight 1
+镜像XYZ,Mirror XYZ
+二分XYZ,Bisect XYZ
+翻转XYZ,Flip XYZ
+使用世界原点,Use World Origo
+添加镜子,Add Mirror
+,X
+,Y
+,Z
+添加格子 (WIP),Add Lattice (WIP)
+视口级别,Viewport Level
+渲染级别,Render Level
+角落,Corners
+SubD切换,SubD Toggle
+添加SUBD,Add SUBD
+厚度,Thickness
+添加固化,Add Solidify
+(WIP TU),(WIP TU)
+加权法线,Weighted Normal
+(WIP MT),(WIP MT)
+分段,Segments
+钳子,Clamp
+类型 >,Type >
+增加重量 坡口,Add Weight Bevel
+角度,Angle
+添加角度斜面,Add Angle Bevel
+S,S
+E,E
+V,V
+韩国坡口,Korean Bevels
+ 平坦 , Flat 
+光滑,Smooth
+单独的PreC,Solo PreC
+折痕重量-1,Crease Weight -1
+折痕重量1,Crease Weight 1
+科.fit_prim,ke.fit_prim
+圆柱体,Cylinder
+圆柱体Obj,Cylinder Obj
+立方体,Cube
+立方体Obj,Cube Obj
+球体,Sphere
+球体Obj,Sphere Obj
+四球体 Obj,QuadSphere Obj
+平面,Plane
+平面Obj,Plane Obj
+ke.fit_prim_add,ke.fit_prim_add
+科普一下光标对齐,keSnapAlign
+光标拟合与对齐,Cursor Fit&Align
+零刻度H,ZeroScale H
+零刻度光标,ZeroScale Cursor
+零刻度V,ZeroScale V
+选择到网格,Selection to Grid
+选择到游标,Selection to Cursor
+选择至光标w.偏移,Sel.to Cursor w.Offset
+选择至激活,Selection to Active
+选择至原点 (设置原点),Sel.to Origin (Set Origin)
+零刻度法线,ZeroScale Normal
+光标至世界原点,Cursor to World Origin
+光标至选定,Cursor to Selected
+光标至活动,Cursor to Active
+光标至网格,Cursor to Grid
+将原点对准选定的,Align Origin To Selected
+将原点对准游标,Align Origin(s) To Cursor
+将对象对齐到光标,Align Object(s) to Cursor
+对齐对象至活动区,Align Object(s) to Active
+键入,keSnapping
+绝对网格,Absolute Grid
+开/关捕捉,Snapping On/Off
+对齐旋转,Align Rotation
+投影到自己身上,Project Onto Self
+自身项目,Project Ind.Elements
+背面剪裁,Backface Culling
+剥离对象,Peel Object
+,T
+,R
+科菲特2网格,keFit2Grid
+50厘米,50cm
+5厘米,5cm
+15厘米,15cm
+1厘米,1cm
+1m,1m
+2.5厘米,2.5cm
+25厘米,25cm
+10厘米,10cm
+keFit2Grid_micro,keFit2Grid_micro
+5毫米,5mm
+5µm,5µm
+1.5毫米,1.5mm
+1µm,1µm
+2.5µm,2.5µm
+1mm,1mm
+科多切,keMultiCut
+叠层,keOverlays
+地板,Floor
+两种,Both
+额外的,Extras
+光标,Cursor
+起源,Origins
+骨头,Bones
+对象线框,Object Wireframes
+选择大纲,Select Outline
+物体轮廓,Object Outline
+超级聚焦模式,Super Focus Mode
+焦点模式(关闭),Focus Mode (Off)
+超级聚焦模式(关闭),Super Focus Mode (Off)
+超级聚焦,Super Focus
+边缘接缝,Edge Seams
+边缘锋利,Edge Sharp
+边缘折痕,Edge Crease
+边缘斜面重量,Edge Bevel Weight
+顶点规范,Vertex Normals
+分割规范,Split Normals
+面部规范,Face Normals
+面的方向,Face Orientation
+顶点权重,Vertex Weights
+指数,Indices
+统计资料,Stats
+显示活动对象。,Show Active Object:
+线框,Wireframe
+所有边线,All Edges
+纹理空间,Texture Space
+阴影,Shadow
+在前面,In Front
+无活动对象,No Active Object
+所有叠加,All Overlays
+所有边缘覆盖,All Edge Overlays
+倾斜度透视,keOrientPivot
+阴影,keShading
+禁用工作室灯光编辑,Disable Studio Light Edit
+世界空间照明,World Space Lighting
+首选项,Preferences
+旋转Z,RotateZ
+强度,Intensity
+阿尔法,Alpha
+模糊,Blur
+阴影,Shadows
+空洞,Cavity
+镜面,Specular
+呼叫派（KeCallPie,keCallPie
+纹理材料,keMaterials
+调用_区域_赢,INVOKE_REGION_WIN
+指派ID材料,Assign ID Material
+指定材料 [%s /%s],Assign Material  [%s / %s]
+复制主动权给他人,Copy Active to Others
+替换材料,Replace Material
+设置假的用户,Set Fake User
+改变材料链接,Change Material Link
+材料利用插件未启用,Material Utils Add-on Not Enabled
+keVPStepRotate,keVPStepRotate
+-90,-90
+90,90
+X 清除,X Clear
+Y 无色,Y Clear
+Z 清除,Z Clear
+调直物体,Straighten Object
+-45,-45
+45,45
+-180,-180
+180,180
+查看和光标书签 ,View & Cursor Bookmarks 
+视图书签,View Bookmarks
+使用槽位1,Use Slot 1
+使用插槽2,Use Slot 2
+使用插槽3,Use Slot 3
+使用插槽4,Use Slot 4
+使用插槽5,Use Slot 5
+使用插槽6,Use Slot 6
+获取,Get
+设置,Set
+三维视图通用,3D View Generic
+科.调取_派,ke.call_pie
+KE_MT_shading_pie,KE_MT_shading_pie
+快速测量,Quick Measure
+通过网格选择的上下文测量类型（Obj & Edit模式）。,Contextual measurement types by mesh selection (Obj & Edit modes).\n
+启动模式,Start Mode
+快速缩放,Quick Scale
+设置尺寸和比例轴以适应。对象(s)&编辑模式(选择),Set size and scale axis to fit. Object(s) & Edit mode (selection)
+处理对象,Process Objects
+单位大小,Unit Size
+单位大小。根据需要对所有轴进行缩放 ,Unit Size: Scales all axis as needed 
+尺寸,Size
+快速原点移动,Quick Origin Move
+径向阵列,Radial Array
+创建一个圆形阵列，自动放置源对象（如果切换了） （n,"Creates a circular array, with the source object placed automatically (if toggled) \n"
+捕捉设置组合,Snapping Setting Combos
+存储和恢复抓取设置。(在KeKit面板中自定义命名）保存KeKit预设值,Store & Restore snapping settings. (Custom naming in keKit panel) Save kekit prefs!
+Solo Cutter,Solo Cutter
+为当前选择的 ,Toggle for currently selected 
+ks_cutter_,ks_cutter_
+切换/设置子级别,Toggle/Set Subd Levels
+水平模式,Level Mode
+细分,Subdivison
+步进式子水平仪,Step Subd Levels
+变形工具切换,Transform Tool Toggle
+内置移动,builtin.move
+内建旋转,builtin.rotate
+内建缩放,builtin.scale
+变形切换菜单,Transform Toggle Menu
+VP-Transform,VP-Transform
+运行抓取、旋转或缩放，并根据视口旋转自动锁定视图平面。,"Runs Grab,Rotate or Scale with View Planes auto-locked based on your viewport rotation."
+变形,Transform
+取消斜面,Unbevel
+选择斜面上的边缘环（s）/n,Select the Edge Ring(s) on bevel(s)\n
+重建斜面,Rebevel
+保持宽度,Keep Width
+再斜面计数,Rebevel Count
+重塑轮廓,Rebevel Profile
+再斜面合并UV,Rebevel Merge UVs
+你很少需要这个,You rarely want this
+自动环形选择,Auto Ring Select
+解除旋转器,Unrotator
+解除旋转器选项,Unrotator Options
+旋转偏移,Rotation Offset
+反转,Invert
+面部中心,Face Center
+世界原点空,World Origo Empty
+通过JohnLaRooy,viaJohnLaRooy
+按类型、活动与否获取选定的对象,"Get a selected Object by Type, Active or not"
+从垂直对的列表中排序,Sort verts from list of vert pairs
+ 通过鼠标位置使上下文覆盖活动的三维视图区域 , Make context override with active view3d region by mouse pos 
+在CW-或CCW四边形中排序，当它不重要时。,"sort verts in CW -or- CCW quad, for when it doesnt matter"
+"从元组或元组(obj, vertlist)中排序(最小)的3个第一轮。","Sort (min) 3 first verts from tuple or tuple of tuples (obj, vertlist)"
+ 输入法线以检查/强制翻转Z , input normal to check/force z flip 
+ 在编辑模式下工作的Raycast - 注意：返回已评估的面的idx不匹配。, Raycast that works in edit mode - caution: returns evaluated face idx does not match 
+将数值转换为当前场景设置,Converts value to current scene setting
+将一个列表中的元素向左或向右移动。,Shifts the elements of a list to the left or right.
+视图对齐选择,View Align Selected
+将视图与活动面或3个顶点对齐。,Align View to Active Face or 3 vertices.
+选择的视图对齐切换,View Align Selected Toggle
+视图对齐模式,View Align Mode
+视图对准,View Align Snap
+将视图锁定到最近的正射影像。注意：没有切换--只是将视图旋转回透视。,Snap view to nearest Orthographic. Note: No toggle - just rotate view back to perspective
+选定。活动面或3个顶点或2条边（或在对象模式下。物体模式：Obj,Selected: Active Face OR 3 Vertices OR 2 Edges (or in Object-mode: Obj
+获取和设置视图位置,Get & Set Viewpos
+视图位置,Viewpos
+"存储和使用视口位置（persp/ortho, loc, rot）。","Store & Use Viewport Placement (persp/ortho, loc, rot)"
+循环查看书签,Cycle View Bookmarks
+循环存储的视口书签,Cycle stored Viewport Bookmarks
+捕捉视图到最近的正射影像。注意：没有切换--只是将视图旋转到透视。,Snap view to nearest Orthographic. Note: No toggle - just rotate view to perspective
+VP步骤旋转,VP Step Rotate
+基于作业视窗的视平面，旋转物件或所选元素的角度（仅限全局）,"Rotate object or selected elements given angle, based on viewport viewplane (Global Only)"
+零刻度,ZeroScale
+即时将选定的元素零比例化为A。垂直或水平屏幕全局轴（派）。,Instantly zero-scales selected elements to A: Vertical or Horisontal screen global axis (pie)
+定向,Orientation
+书签,Bookmarks
+SnapCombo名称,SnapCombo Names
+捕捉组合,Snapping Combos
+O&P组合,O&P Combos
+OPC 1,OPC 1
+OPC1 对象模式,OPC1 Object Mode
+东方,Orient
+枢轴,Pivot
+OPC1编辑模式,OPC1 Edit Mode
+OPC2,OPC 2
+OPC2对象模式,OPC2 Object Mode
+OPC2编辑模式,OPC2 Edit Mode
+OPC3,OPC 3
+OPC3 对象模式,OPC3 Object Mode
+OPC3编辑模式,OPC3 Edit Mode
+OPC4,OPC 4
+OPC4对象模式,OPC4 Object Mode
+OPC4编辑模式,OPC4 Edit Mode
+OPC5,OPC 5
+OPC5 对象模式,OPC5 Object Mode
+OPC5编辑模式,OPC5 Edit Mode
+OPC6,OPC 6
+OPC6 对象模式,OPC6 Object Mode
+OPC6编辑模式,OPC6 Edit Mode
+清理工具,Clean-Up Tools
+宏观网格清理,Macro Mesh Clean
+选择,Select
+清理,Clean
+清理,Purge
+网格,Mesh
+材料,Material
+纹理,Texture
+图像,Image
+清除所有无用的数据,Purge All Orphaned Data
+选择工具,Selection Tools
+通过垂直计数选择元素。,Select Elements by Vert Count:
+0,0
+5+,5+
+所有重要的清理操作只需一次点击。Select or Clean.n,All the important cleaning operations in one click. Select or Clean.\n
+Purge specific unused data blocks\n,Purge specific unused data blocks\n
+上下文工具,Context Tools
+K/F,K/F
+TT,TT
+H,H
++,+
+ C.选择选项。, C.Select Options:
+FH,FH
+B,B
+三连击旋转,Triple Connect Spin
+垂直模式。Vertex Bevel Tool（顶点斜面工具）/nEdge Mode（边缘模式）。Edge Bevel Tool\nFace Mode （边缘斜面工具）。嵌入面工具,Vert Mode: Vertex Bevel Tool\nEdge Mode: Edge Bevel Tool\nFace Mode: Inset Faces Tool
+垂直模式。Vertex Extrude（顶点挤压）/nEdge（边缘）模式。Edge Extrude\nFace Mode（边缘挤压）。面部挤出法线（区域）,Vert Mode: Vertex Extrude\nEdge Mode: Edge Extrude\nFace Mode: Face Extrude Normal (Region)
+通过选择模式（顶点、边缘、面或物体）删除选择。,"Deletes selection by selection mode (VERTEX, EDGE, FACE or OBJECT)"
+直接循环剪切和滑动,Direct Loop Cut & Slide
+直接插入顶点,Direct Insert Vertex
+直接插入顶点和滑动,Direct Insert Vertex & Slide
+复制,Duplication
+剪切+,Cut+
+复制+,Copy+
+粘贴+,Paste+
+提取和编辑,Extract&Edit
+复制项目,DupeItemize
+鼠标镜像,MouseMirror
+鼠标翻转,MouseFlip
+合适的边缘,FitPrim
+拟合立方体,FitPrim Cube
+拟合圆柱体,FitPrim Cylinder
+拟合平面,FitPrim Plane
+适合于球体,FitPrim Sphere
+FitPrim四球体,FitPrim QuadSphere
+选项,Options
+没有单位大小,No-sel Unit Size
+圆柱体 默认侧边。,Cylinder Default Sides:
+模态圆柱体,Modal Cylinder
+球体部分,Sphere Segments
+球体环,Sphere Rings
+四维球体分割,QuadSphere Div
+选择结果 (编辑网格),Select Result (Edit Mesh)
+确定材料,ID Materials
+应用,Apply
+设置名称,Set Name
+设置颜色,Set Color
+矢量4颜色--夹住R、G和B，但不夹住Alpha。,"Vector4 Color - clamps R,G & B but not Alpha"
+m_id,m_id
+材料,MATERIAL
+主要的,Main
+获取和设置编辑,Get&SetEdit
+语法,GSExt
+获取和设置材料,Get&Set Material
+快速测量,QuickMeasure
+计量方式,QMF
+按距离的局部模式,Local Mode by Distance
+根据与所选物体的距离，将物体纳入本地模式中,Include objects in Local Mode by distance to selected object
+仅限相同类型,Same Type Only
+反转范围,Invert Range
+框架视图,Frame View
+本地归零,Zero Local
+暂时存储和归零Loc+Rot，并设置本地视图。,Temporarily stores & zeroes Loc+Rot & sets Local View. 
+建模,Modeling
+平坦/光滑切换,Flat/Smooth Toggle
+地面或中心,Ground or Center
+BBox,BBox
+凸面体,Convex Hull
+零刻度到光标,ZeroScale to Cursor
+QScale,QScale
+U,U
+从面的比例,Scale From Face
+通过所选面的尺寸（面积）差异来缩放所选对象，以匹配最后选定的对象。,Scales selected object(s) by the size(area) difference of selected faces to match last selected
+显示切割器修改器,Show Cutter Modifier
+将使用切割器的对象（在布尔型修改器中）设置为活动的+n,Sets object using cutter (in boolean modifier) as active +\n
+修改器,MODIFIER
+模式,Modes
+设置元素模式--直接进入选择模式，也可以从对象模式中选择。,"Sets Element Mode - Direct to selection mode, also from Object Mode"
+空间切换。在所选对象的编辑和对象模式之间进行切换 （n,Space Toggle: Toggle between Edit and Object modes on selected object\n
+ MC1, MC1
+ MC2, MC2
+ MC3, MC3
+ MC4, MC4
+ MC5, MC5
+ MC6, MC6
+ MC7, MC7
+ MC8, MC8
+手动重命名,Manual Rename
+馅饼菜单,Pie Menus
+VIEW3D_MT_ke_pie_snapping,VIEW3D_MT_ke_pie_snapping
+keSnapping 不适用,keSnapping N/A
+柯式旋转,keStepRotate
+VIEW3D_MT_ke_pie_step_rotate,VIEW3D_MT_ke_pie_step_rotate
+keStepRotate 不适用,keStepRotate N/A
+VIEW3D_MT_ke_pie_fit2grid,VIEW3D_MT_ke_pie_fit2grid
+F2G 微型,F2G Micro
+VIEW3D_MT_ke_pie_fit2grid_micro,VIEW3D_MT_ke_pie_fit2grid_micro
+keFit2Grid 不适用,keFit2Grid N/A
+VIEW3D_MT_ke_pie_orientpivot,VIEW3D_MT_ke_pie_orientpivot
+keOrientPivot 不适用,keOrientPivot N/A
+VIEW3D_MT_KE_PIE_overlays,VIEW3D_MT_ke_pie_overlays
+VIEW3D_MT_ke_pie_align,VIEW3D_MT_ke_pie_align
+不适用,keSnapAlign N/A
+科幻片,keFitPrim
+VIEW3D_MT_ke_pie_fitprim,VIEW3D_MT_ke_pie_fitprim
++添加,+Add
+VIEW3D_MT_ke_pie_fitprim_add,VIEW3D_MT_ke_pie_fitprim_add
+keFitPrim 不适用,keFitPrim N/A
+查看3D_MT_ke_pie_subd,VIEW3D_MT_ke_pie_subd
+VIEW3D_MT_PIE_ke_materials,VIEW3D_MT_PIE_ke_materials
+keMaterials 不适用,keMaterials N/A
+视图和光标书签,View&CursorBookmarks
+VIEW3D_MT_ke_pie_vcbookmarks,VIEW3D_MT_ke_pie_vcbookmarks
+查看和光标书签 不适用,View&CursorBookmarks N/A
+VIEW3D_MT_ke_pie_multicut,VIEW3D_MT_ke_pie_multicut
+keMultiCut 不适用,keMultiCut N/A
+科米斯克,keMisc
+VIEW3D_MT_ke_pie_misc,VIEW3D_MT_ke_pie_misc
+Blender默认的饼状菜单,Blender Default Pie Menus
+折叠派,Falloffs Pie
+VIEW3D_MT_proportional_editing_falloff_pie,VIEW3D_MT_proportional_editing_falloff_pie
+视图派,View Pie
+VIEW3D_MT_view_pie,VIEW3D_MT_view_pie
+枢轴派,Pivot Pie
+VIEW3D_MT_pivot_pie,VIEW3D_MT_pivot_pie
+方向派,Orientation Pie
+VIEW3D_MT_orientations_pie,VIEW3D_MT_orientations_pie
+阴影派,Shading Pie
+VIEW3D_MT_shading_pie,VIEW3D_MT_shading_pie
+捕捉派,Snap Pie
+VIEW3D_MT_snap_pie,VIEW3D_MT_snap_pie
+紫外线：捕捉派,UV: Snap Pie
+IMAGE_MT_uvs_snap_pie,IMAGE_MT_uvs_snap_pie
+夹子。追踪,Clip: Tracking
+CLIP_MT_tracking_pie,CLIP_MT_tracking_pie
+剪辑。解决问题,Clip: Solving
+剪辑：MT_solving_pie,CLIP_MT_solving_pie
+剪辑。标记,Clip: Marker
+剪辑：MT_marker_pie,CLIP_MT_marker_pie
+剪辑。重构,Clip: Reconstruction
+CLIP_MT_reconstruction_pie,CLIP_MT_reconstruction_pie
+带有预设（临时）热键的自定义馅饼操作员,Custom Pie Operator with preset (temp) hotkey
+V_G,V_G
+V_G。,V_G.
+kWeightedN,kWeightedN
+渲染,Render
+渲染槽循环,Render Slot Cycle
+选择和对齐,Select & Align
+对齐视图到,Align View To
+选择,Selected
+正射影像,OrthoSnap
+将原点对准,Align Origin(s) To
+选择,Selection
+定位,Sel.Loc
+自动轴,AutoAxis
+对准对象,Align Object(s) To
+活动对象,Active Object
+原点,Origin
+锁定,Lock
+锁定未选择的对象,Lock Unselected
+解锁,Unlock
+选择边界(+活动),Select Boundary (+Active)
+选择具有显示类型的对象。,Select Objects with Display Type:
+纹理型,Textured
+实体,Solid
+线条,Wire
+边界,Bounds
+具体界线显示类型。,Specific Bounds Display Type:
+胶囊,Capsule
+锥体,Cone
+倒置Z轴,Invert Z-Axis
+在编辑模式下反转Z-轴,Invert Z-Axis in Edit Mode
+按类型反转或全部反转(-下面的过滤选项),Invert by Type or Invert All (- filter options below)
+只显示相同类型,Same DisplayType Only
+JFYI：灯光与网格的显示类型相同 (,JFYI: Lights are the same display-type as mesh (
+仅限相同集合,Same Collection Only
+通过垂直选择选择物体,Select Objects by VertSelection
+在多对象编辑模式下：n,In Multi-Object Edit Mode:\n
+SubD工具,SubD Tools
+Step VP Lv +1,Step VP Lv +1
+步骤VP Lv -1,Step VP Lv -1
+设置VP Lv,Set VP Lv
+设置Render Lv,Set Render Lv
+渲染Lv,VP Lv
+渲染Lv,Render Lv
+边界,Boundary
+使用极限表面,Use Limit Surface
+关闭时使用平面阴影,Flat Shade when off
+使用最佳显示,Use Optimal Display
+笼子上,On Cage
+变换工具,Transform Tools
+TT切换,TT Toggle
+TT移动,TT Move
+TT 旋转,TT Rotate
+缩放,TT Scale
+复制,TT Dupe
+循环,TT Cycle
+手柄,Handle
+弹性工具,SelTool
+矩阵,MAS
+重复链接切换,Dupe Linked Toggle
+强制解除链接,Force Unlinked
+强制链接,Force Linked
+鼠标轴,Mouse Axis
+移动,Move
+旋转,Rotate
+缩放,Scale
+移动重复,Move Dupe
+移动光标,Move Cursor
+视图平面,View Plane
+VPDupe,VPDupe
+VPGrab,VPGrab
+旋转,VPRotate
+VPResize,VPResize
+根据你的鼠标移动（或旋转时的视口）自动锁定轴线，运行抓取程序。,Runs Grab with Axis auto-locked based on your mouse movement (or viewport when rot)\n
+Unrotator Duplicate,Unrotator Duplicate
+只旋转的解旋器,Unrotator RotOnly
+自动选择链接,Auto-Select Linked
+对象复制 无链接,Object Duplicate Unlinked
+No Object Modal Snapping,No Object Modal Snapping
+反转旋转,Invert Rotation
+以面为中心,Center on Face
+随机化复制的Z,Randomize Dupe Z
+清除,Clear
+新建,New
+新建斜面V组,New Bevel VGroup
+添加镜像 [+双分割],Add Mirror [+Bisect]
+子母线 切换 不适用,Subd Toggle N/A
+边缘,Rim
+仅限轮辋,Only Rim
+添加加权法线,Add Weighted Normal
+增加 ,Add 
+平坦,Flat
+自动时间,AutoSmth
+30,30
+60,60
+孤独症,SoloC
+独家,SoloP
+单片机,SCM
+[禁用：需要KeKit实验模式]。,[ Disabled: Requires keKit Experimental Mode ]
+开启/关闭,Snap On/Off
+边缘长度,Edge Lengths
+ke.misc,ke.misc
+空间       ,Space       
+圆圈      ,Circle      
+启用LoopTools插件,Enable LoopTools Add-On
+N/A-Exp.On,N/A-Exp.Only
+平滑      ,Smooth      
+内置平滑,builtin.smooth
+随机化,Randomize
+内置随机化,builtin.randomize
+缩水/增肥,Shrink/Fatten
+buildin.shrink_fatten,builtin.shrink_fatten
+剪切,Shear
+buildin.shear,builtin.shear
+取消坡度      ,Unbevel      
+地面/中心,Ground/Center
+Extended keKit Shading Pie Menu,Extended keKit Shading Pie Menu
+BG同步 不适用,BG sync N/A
+禁用旋转,Rot Disabled
+导出KeKit设置,Export keKit Settings
+导出当前的KeKit设置（到用户配置文件夹中的JSON文件）。,Export current keKit settings (to JSON-file in user config folder)
+导入ARKit设置,Import keKit Settings
+打开一个文件浏览器来加载KeKit prefs文件。,Open a filebrowser to load keKit prefs file
+导入KeKit设置（从JSON-文件）。,Import keKit settings (from JSON-file)
+文件路径,filepath
+重置KeKit设置,Reset keKit Settings
+将KeKit设置重置为默认值,Reset keKit settings to default values
+keKit,keKit
+keKit主面板,keKit Main Panel
+光标轴,Cursor Axis
+围绕哪一个光标（本地）轴进行旋转,Which of the cursors (local) axis to rotate around
+步进预设,Step Presets
+步进旋转的预设旋转值,Preset rotation values for step-rotate
+自定义步骤,Custom Step
+阶梯旋转的自定义旋转（非零将覆盖预设使用）。,Custom rotation (non zero will override preset-use) for step-rotate
+文本比例,Text Scale
+keKIT模式的用户界面文本比例 - 乘以Blender用户界面比例,keKIT modal UI text scale - multiplied to Blender UI Scale
+外联机按钮,Outliner Buttons
+在Outliner标题中增加了额外的按钮，用于： （n,Adds extra buttons in Outliner header for:\n
+实验性,Experimental
+Toggle properties/features that work - but has some quirks\n,Toggle properties/features that work - but has some quirks\n
+页眉颜色,Header Color
+文本颜色,Text Color
+子文本颜色,Sub-Text Color
+0：模式,0: Modes
+1: 复制,1: Duplication
+2：主模式,2: Main
+3: 渲染,3: Render
+4: 书签,4: Bookmarks
+5: 选择与对齐,5: Select & Align
+6: 建模,6: Modeling
+6A: DirectLoopCut,6A: DirectLoopCut
+6B: 多重切割,6B: MultiCut
+6C: SubD工具,6C: SubD Tools
+6D: 解旋器,6D: Unrotator
+6E: FitPrim,6E: FitPrim
+6F: 语境工具,6F: Context Tools
+7: 变换工具,7: Transform Tools
+8: ID材料,8: ID Materials
+9: 清理工具,9: Clean-Up Tools
+10: 饼状菜单,10: Pie Menus
+Show KeKit Cursor Menu icon in toolbar （需要KeKit Select & Align Module）。,Show KeKit Cursor Menu icon in toolbar\nRequires keKit Select & Align Module\n
+从选择中连接连接面,Connect linked faces from selection
+重复的对象将不会被数据连接起来,Duplicated Objects will not be data-linked
+切换脸部表面的捕捉与否,Toggles on face surface snapping or not
+反转（Z）旋转（与重做面板分开）。,Invert (Z) rotation (Separate from the redo-panel)
+以目标面为中心。(提示：Shift-LMB在模式中）。,Center on target face. (Tip: Shift-LMB in modal)
+复制时随机化Z轴旋转,Randomize Z-axis rotation when duplicating
+枢轴变换,Pivot Transform
+名称OPC1,Name OPC1
+名称OPC2,Name OPC2
+名称OPC3,Name OPC3
+名称OPC4,Name OPC4
+名称OPC5,Name OPC5
+名为OPC6,Name OPC6
+老的Sel.mode脚本的鼠标操作元素模式选择,Mouse-Over Element Mode Selection for old Sel.mode script
+VPAutoGlobal,VPAutoGlobal
+设置全局方向。覆盖GOT选项,Sets Global orientation. Overrides GOT options
+抓取全局或工具,Grab GlobalOrTool
+全局时为VPGrab，否则为Transform (gizmo)。,"VPGrab when Global, otherwise Transform (gizmo)"
+旋转全局或工具,Rotate GlobalOrTool
+全局时为VPRotate，否则为旋转（gizmo）。,"VPRotate when Global, otherwise Rotate (gizmo)"
+缩放 全局或工具,Scale GlobalOrTool
+全局性的时候是VPResize，否则是Scale (gizmo)。,"VPResize when Global, otherwise Scale (gizmo)"
+设置尺寸（单位米）或单位与所选轴的配合。Obj & Edit模式（选择）,Set dimension (Unit meter) or Unit fit with chosen axis. Obj & Edit mode (selection)
+双重地理,Double Geo
+占据相同位置的顶点（0.0001以内）,Vertices occupying the same location (within 0.0001)
+双重地理距离,Double Geo Distance
+松动的顶点/边线,Loose Verts/Edges
+没有连接到面的Verts/Edges,Verts/Edges not attached to faces
+内部面,Interior Faces
+所有边都有2个以上的面的用户的面,Faces where all edges have more than 2 face users
+退化的地理学,Degenerate Geo
+非万能的地理。没有长度的边和没有面积的面,Non-Manifold geo: Edges with no length & Faces with no area
+微小边缘,Tiny Edges
+短于Tiny-Edge Value set/n的边。,Edges that are shorter than the Tiny-Edge Value set\n
+微小边缘限制,Tiny Edge Limit
+允许的最短边缘长度，用于选择微小边缘,Shortest allowed Edge length for Tiny Edge Selection
+相邻边线,Collinear Verts
+在一条边上的直线上的额外（多余的）顶点,Additional(Superfluous) verts in a straight line on an edge
+同时将方向和支点设置为光标,Also set Orientation & Pivot to Cursor
+在模态过程中应用旋转并使用全局方向和支点。,Applies Rotation and usese Global Orientation & Pivot during modal
+,IDM01
+,IDM02
+,IDM03
+,IDM04
+,IDM05
+,IDM06
+,IDM07
+,IDM08
+,IDM09
+,IDM10
+,IDM11
+,IDM12
+将ID颜色也设置为物体视口显示,Set ID color also to Object Viewport Display
+将ID颜色也设置为材料视口显示,Set ID color also to Material Viewport Display
+为视口显示略微调低ID颜色（仅适用于）。,Tone down ID colors slightly for Viewport Display (only)
+要使用的视口级别,Viewport Levels to be used
+要使用的渲染级别,Render Levels to be used
+当Subd为0级时，设置平面阴影,Set Flat Shading when Subd is Level 0
+控制开放边界的平滑程度。,Controls how open boundaries are smoothed
+显示在编辑笼上,Show On Edit Cage
+ON:当subd开启时，自动平滑功能会通过切换关闭，反之亦然。,ON:Autosmooth is turned off by toggle when subd is on - and vice versa\n
+Autosmooth Toggle,Autosmooth Toggle
+,Snapping Element Combo 1
+,Snapping Element Combo 2
+,Snapping Element Combo 3
+,Snapping Element Combo 4
+,Snapping Element Combo 5
+,Snapping Element Combo 6
+,Snapping Targets Combo 1
+,Snapping Targets Combo 2
+,Snapping Targets Combo 3
+,Snapping Targets Combo 4
+,Snapping Targets Combo 5
+,Snapping Targets Combo 6
+,Snapping Bools Combo 1
+,Snapping Bools Combo 2
+,Snapping Bools Combo 3
+,Snapping Bools Combo 4
+,Snapping Bools Combo 5
+,Snapping Bools Combo 6
+,Snapping Combo 1 Name
+,Snapping Combo 2 Name
+,Snapping Combo 3 Name
+,Snapping Combo 4 Name
+,Snapping Combo 5 Name
+,Snapping Combo 6 Name
+自动激活抓取,Auto-Activate Snap
+使用抓取组合时自动激活抓取模式,Auto activate snapping mode when using snap combo
+粘贴+鼠标点,Paste+ Mouse Point
+ON:将粘贴的对象放置在鼠标点上。OFF:原始位置,ON:Places pasted Object(s) at mousepoint. OFF:Original location
+层次结构删除,Hierarchy Delete
+还有子对象（在对象模式下）。,And the children too (in Object Mode)
+使用Cut+ Buffer,Use Cut+ Buffer
+删除的对象(或编辑模式下的FACES)被储存在Cut+缓冲区中--可以被Paste+使用。,Deleted object(s) (or FACES in Edit Mode) are stored in the Cut+ buffer - can be used by Paste+
+智能溶解,Smart Dissolve
+溶解Verts和Edges而不是删除它们。面部被删除。,Dissolve Verts and Edges instead of deleting them. Faces are deleted.
+在默认的变换工具、MouseAxis或VP之间进行切换,"Toggles between default transform tools, MouseAxis or VP"
+TT 默认使用手柄工具或经典样式(,TT Default uses the handle tools or the classic style (
+切换到选择工具（Tweak），当切换到TT时，默认的手柄工具是有效的。,Switches to Select Tool (Tweak) for when default handle tools are active when toggling TT
+使用TT模式进行变换。默认、MouseAxis和VP，除了面之外,"Use TT Mode for transform: Default, MouseAxis and VP, except faces"
+全局TT复制链接切换（包括鼠标轴复制和VP复制）。,Global TT Duplicate Linked Toggle (includes Mouse Axis Dupe & VP Dupe)
+启用渲染槽循环（到第一个空的渲染槽）。,Enable render slot cycling (to the first empty render slot)
+自动排列/原位切换,Auto-arrange/In-place Toggle
+自动排列对象到径向阵列或使用当前位置,Auto-arrange object to Radial Array or use current placement
+渲染槽全包,Render Slot Full-Wrap
+渲染槽满时回到第一个槽，并向前循环一步，或停止并通知。,"Back to 1st slot when full and cycle step fwd, or stop and notify"
+获取和设置编辑与元素选择,Get & Set Edit with Element Pick
+(在编辑模式下) 基于鼠标下的元素的组件模式 ,(In Edit Mode) Component Mode based on element under mouse 
+从端点的相对偏移。自动镜像到另一个端点。,Relative Offset from endpoint. Mirrored automatically to the other end point.
+从端点的固定偏移。自动镜像到另一个端点。,Fixed Offset from endpoint. Mirrored automatically to the other end point.
+中心切割。1或0表示没有。,Center Cut. 1 or 0 for none.
+,MultiCut Preset 1
+,MultiCut Preset 2
+,MultiCut Preset 3
+,MultiCut Preset 4
+,MultiCut Preset 5
+,MultiCut Preset 6
+,MultiCut Preset 7
+,MultiCut Preset 8
+仅限选择的切换,Selection-Only Toggle
+不需要鼠标点击，只选择元素（在面限制中最近的选定边缘 ,"No mouse-pick, selected element only (nearest selected edge in face limit "
+平坦阴影三角测量,Flat Shading Triangulate
+Flat Shading Triangulate:n,Flat Shading Triangulate:\n
+仅限地理,Geo Only
+忽略非地理对象（灯光、相机等）的框架（未选择）。,"Ignore non-geo objects (lights, cameras etc) for Frame All (not selected)"
+鼠标轴刻度 - 取消选中默认的（未锁定的）刻度行为。,Mouse Axis Scale - Uncheck for default (unlocked) Scale behaviour for 
+韩文/平面斜面切换,Korean/Flat Bevel Toggle
+切换韩文/平面斜面预设的上下文斜面和KeKit子工具斜面。,Toggles Korean / Flat Bevel preset for Context Bevel and keKit subdtools bevels
+仅活动集合,Active Collection Only
+仅在活动集合中按显示类型选择,Select by display type in active collection only
+解除斜面自动边缘环,Unbevel Auto-EdgeRing
+在取消坡口前运行边缘环选择,Runs Edge-Ring selection before Unbevel
+Context Select Object Mode Full Hierarchy\n,Context Select Object Mode Full Hierarchy\n
+Context Select - Vertex Mode behaviour\n ,Context Select - Vertex Mode behaviour\n 
+E&E Itemize,E&E Itemize
+Active Element selection (3 verts or 2 edges or 1 face)\n,Active Element selection (3 verts or 2 edges or 1 face)\n
+TT 图标的放置,TT Icon Placement
+变形工具（TT）模块的视口图标,Viewport icons for Transform Tools (TT) module
+显示。,Show:
+Viewport TT Icons:,Viewport TT Icons:
+keKit主面板模块。,keKit Main Panel Modules:
+重新加载附加组件,Reload Add-ons
+keKit模块。,keKit Modules:
+Modal Text:,Modal Text:
+keKit Keymap Export/Import,keKit Keymap Export/Import
+keKit Keymap Export/Import./nExports -only- keKit Operators & Pie-menus mappings to JSON file.,keKit Keymap Export/Import.\nExports -only- keKit Operators & Pie-menus mappings to JSON file
+导出/导入KeKit关键图,Export / Import keKit Keymap
+Unicode-icon statusbar modal-printing - 记得设置为 None,Unicode-icon statusbar modal-printing - remember to set to None
