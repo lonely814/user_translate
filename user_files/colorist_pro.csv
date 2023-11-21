@@ -1,206 +1,206 @@
-, 
-,"""\""""
-"""",""Operator.026"""
-,Operator.027
-,'
-,Selective Color
-,EXEC_DEFAULT
-,Enable
-,Disable
-,Mix
-,Red
-,Reset
-,Hue
-,Saturation
-,Brightness
-,Green
-,Blue
-,Cyan
-,Magenta
-,Yellow
-,Operator.028
-,Link Selective Color node in Compositor
-,Colorist Pro
-,Operator.030
-,Operator.031
-,Operator.032
-,Operator.033
-,Lens Flare
-,Enable Glares
-,Link Glares node in Compositor
-,Glares
-,Lens Dirt
-,Disable Glares
-,"Unlink Glares node, press to safe viewport performance"
-,Glare
-,Operator.001
-,"Unlink Lens Dirt node, press to save viewport performance"
-,Operator
-,Link Lens Dirt node in compositor
-,Extra Brightness
-,Aberration
-,Dispersion
-,Lens Dirt 1 - Small Dirts 4K
-,Opacity
-,Scale
-,Blur
-,Lens Dirt 2 - Medium Bokeh 4K
-,Extra Bokeh
-,Lens Dirt 3 - Huge Bokeh 4K
-,Enabled Glares will have influence on
-,Operator.005
-,Make enabled Lens Dirts appear wet
-,Wet Lens
-,Operator.006
-,Disable Wet Lens effect
-,Operator.020
-,Operator.014
-,Operator.021
-,Operator.022
-,Operator.008
-,Operator.009
-,Operator.007
-,Operator.010
-,Operator.011
-,Operator.012
-,Operator.013
-,Operator.016
-,Operator.017
-,Operator.015
-,Operator.019
-,Operator.018
-,Aspect Ratio & Resolution
-,Resolution X
-,Resolution Y
-,Enable Colorist
-,Enable the compositing tree and add the necessary nodes. Warning: This will delete existing node setup in the compositor
-,Aberration & Dispersion
-,Film Emulation
-,Ghost Distortion
-,Hue Mixer
-,Huge Bokeh
-,Lens Distortion
-,Medium Bokeh
-,Small Dirts
-,Tonal Range
-,Vibrance
-,Colorist Pro v1.0
-,Enable Colorist Pro
-,Use Nodes (Compositor)
-,Version: 1.0
-,Reset WB
-,Return WB values to default
-,Operator.002
-,Return Exposure values to default
-,Color Grading
-,White Balance
-,Temperature
-,Tint
-,Color
-,Exposure
-,Gamma
-,Contrast
-,Tone
-,Highlight
-,Midtone
-,Shadow
-,White
-,Black
-,Highlight/Gain
-,Operator.003
-,Return Color values to default
-,Color Management
-,Color Space Preset
-,Blender Default
-,ACES Preset
-,Use LUTs exclusively with ACES
-,sRGB or Rec709 only
-,Display Device
-,View Transform
-,LUTs (Look)
-,Sequencer
-,Operator.024
-,Return Tone values to default
-,Operator.004
-,Change colorspace to Blender
-,sRGB
-,Operator.023
-,Change colorspace to ACES sRGB
-,ACES - ACEScg
-,ACES sRGB
-,Clear LUTs
-,Change LUTs to: None
-,Operator.029
-,Unlink Selective Color Node
-,Enable Film
-,Link Film Emulation node in Compositor
-,Disable Film
-,Unlink Film Emulation node
-,4k Grain
-,BW Noise
-,4k Grain.001
-,BW Noise.001
-,Enable Lens Flare
-,Link Lens Flare node in Compositor
-,Disable Lens Flare
-,"Unlink Lens Flare node, press to safe viewport performance"
-,Iris Ghost
-,Quality
-,Color Overlay
-,Iris
-,Soften
-,Distortion
-,Dispersion Saturation
-,Iterations
-,Color Module
-,Ghost
-,Color Modulation
-,Threshold
-,Simple Star
-,Fade
-,Rotate 45
-,Streaks
-,Angle Offset
-,Fog Glow
-,Size
-,This section is experimental
-,Make It Wet!
-,Dry It!
-,4:3
-,4:3 4K
-,4:3 720p
-,4:3 1080p
-,16:9
-,16:9 1080p
-,16:9 4K
-,16:9 720p
-,16:9 480p
-,Social Media
-,Insta Square 1:1
-,Insta Vertical 4:5
-,Insta Reels/Tiktok 9:16
-,2.35:1
-,2.35:1 4K
-,2.35:1 720p
-,2.35:1 1080p
-,1.85:1
-,1.85:1 4K
-,1.85:1 720p
-,1.85:1 1080p
-,Film Grain
-,BW Grain
-,RGB Grain
-,Soften Grain
-,RGB Grain Saturation
-,Animate (0/1)
-,Halation
-,Glow
-,Green Channel
-,Projector
-,Jitter
-,Fit
-,Distort
-,RGB Split
-,Simple Hoop
-,Invert Hoop
-,Hoop Flare
+""," "
+"","\""
+"","Operator.026"
+"","Operator.027"
+"","'"
+"","Selective Color"
+"","EXEC_DEFAULT"
+"","Enable"
+"","Disable"
+"","Mix"
+"","Red"
+"","Reset"
+"","Hue"
+"","Saturation"
+"","Brightness"
+"","Green"
+"","Blue"
+"","Cyan"
+"","Magenta"
+"","Yellow"
+"","Operator.028"
+"","Link Selective Color node in Compositor"
+"","Colorist Pro"
+"","Operator.030"
+"","Operator.031"
+"","Operator.032"
+"","Operator.033"
+"","Lens Flare"
+"","Enable Glares"
+"","合成器中的“链接眩光”节点"
+"","Glares"
+"","Lens Dirt"
+"","Disable Glares"
+"","Unlink Glares node, press to safe viewport performance"
+"","Glare"
+"","Operator.001"
+"","Unlink Lens Dirt node, press to save viewport performance"
+"","Operator"
+"","Link Lens Dirt node in compositor"
+"","Extra Brightness"
+"","Aberration"
+"","Dispersion"
+"","Lens Dirt 1 - Small Dirts 4K"
+"","Opacity"
+"","Scale"
+"","Blur"
+"","Lens Dirt 2 - Medium Bokeh 4K"
+"","Extra Bokeh"
+"","Lens Dirt 3 - Huge Bokeh 4K"
+"","Enabled Glares will have influence on"
+"","Operator.005"
+"","Make enabled Lens Dirts appear wet"
+"","Wet Lens"
+"","Operator.006"
+"","Disable Wet Lens effect"
+"","Operator.020"
+"","Operator.014"
+"","Operator.021"
+"","Operator.022"
+"","Operator.008"
+"","Operator.009"
+"","Operator.007"
+"","Operator.010"
+"","Operator.011"
+"","Operator.012"
+"","Operator.013"
+"","Operator.016"
+"","Operator.017"
+"","Operator.015"
+"","Operator.019"
+"","Operator.018"
+"","Aspect Ratio & Resolution"
+"","Resolution X"
+"","Resolution Y"
+"","Enable Colorist"
+"","Enable the compositing tree and add the necessary nodes. Warning: This will delete existing node setup in the compositor"
+"","Aberration & Dispersion"
+"","Film Emulation"
+"","Ghost Distortion"
+"","Hue Mixer"
+"","Huge Bokeh"
+"","Lens Distortion"
+"","Medium Bokeh"
+"","Small Dirts"
+"","Tonal Range"
+"","Vibrance"
+"","Colorist Pro v1.0"
+"","Enable Colorist Pro"
+"","Use Nodes (Compositor)"
+"","Version: 1.0"
+"","Reset WB"
+"","Return WB values to default"
+"","Operator.002"
+"","Return Exposure values to default"
+"","Color Grading"
+"","White Balance"
+"","Temperature"
+"","Tint"
+"","Color"
+"","Exposure"
+"","Gamma"
+"","Contrast"
+"","Tone"
+"","Highlight"
+"","Midtone"
+"","Shadow"
+"","White"
+"","Black"
+"","Highlight/Gain"
+"","Operator.003"
+"","Return Color values to default"
+"","Color Management"
+"","Color Space Preset"
+"","Blender Default"
+"","ACES Preset"
+"","Use LUTs exclusively with ACES"
+"","sRGB or Rec709 only"
+"","Display Device"
+"","View Transform"
+"","LUTs (Look)"
+"","Sequencer"
+"","Operator.024"
+"","Return Tone values to default"
+"","Operator.004"
+"","Change colorspace to Blender"
+"","sRGB"
+"","Operator.023"
+"","Change colorspace to ACES sRGB"
+"","ACES - ACEScg"
+"","ACES sRGB"
+"","Clear LUTs"
+"","Change LUTs to: None"
+"","Operator.029"
+"","Unlink Selective Color Node"
+"","Enable Film"
+"","Link Film Emulation node in Compositor"
+"","Disable Film"
+"","Unlink Film Emulation node"
+"","4k Grain"
+"","BW Noise"
+"","4k Grain.001"
+"","BW Noise.001"
+"","Enable Lens Flare"
+"","Link Lens Flare node in Compositor"
+"","Disable Lens Flare"
+"","Unlink Lens Flare node, press to safe viewport performance"
+"","Iris Ghost"
+"","Quality"
+"","Color Overlay"
+"","Iris"
+"","Soften"
+"","Distortion"
+"","Dispersion Saturation"
+"","Iterations"
+"","Color Module"
+"","Ghost"
+"","Color Modulation"
+"","Threshold"
+"","Simple Star"
+"","Fade"
+"","Rotate 45"
+"","Streaks"
+"","Angle Offset"
+"","Fog Glow"
+"","Size"
+"","This section is experimental"
+"","Make It Wet!"
+"","Dry It!"
+"","4:3"
+"","4:3 4K"
+"","4:3 720p"
+"","4:3 1080p"
+"","16:9"
+"","16:9 1080p"
+"","16:9 4K"
+"","16:9 720p"
+"","16:9 480p"
+"","Social Media"
+"","Insta Square 1:1"
+"","Insta Vertical 4:5"
+"","Insta Reels/Tiktok 9:16"
+"","2.35:1"
+"","2.35:1 4K"
+"","2.35:1 720p"
+"","2.35:1 1080p"
+"","1.85:1"
+"","1.85:1 4K"
+"","1.85:1 720p"
+"","1.85:1 1080p"
+"","Film Grain"
+"","BW Grain"
+"","RGB Grain"
+"","Soften Grain"
+"","RGB Grain Saturation"
+"","Animate (0/1)"
+"","Halation"
+"","Glow"
+"","Green Channel"
+"","Projector"
+"","Jitter"
+"","Fit"
+"","Distort"
+"","RGB Split"
+"","Simple Hoop"
+"","Invert Hoop"
+"","Hoop Flare"

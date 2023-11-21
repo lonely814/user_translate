@@ -1,0 +1,389 @@
+# Target Addon : Send to Unreal ver2.0.2
+# User Translate : ver1.0.1
+# Translate File : ver1.0.0
+# Translate File Author : Bookyakuno
+
+"ダイアログなしで、開いているアンリアルエディターインスタンスにアセットをすばやく送信します","Quickly send your assets to an open unreal editor instance without a dialog"
+"Unrealに送信","Send to Unreal"
+"設定ダイアログを開いて、ツールのプロパティを変更します","Open the settings dialog to modify the tool properties"
+"設定ダイアログ","Settings Dialog"
+"アンリアルファイルのインポート","Import a file came from unreal"
+"アセットのインポート","Import Asset"
+"アセットデータを収集するために必要な事前定義されたコレクション「エクスポート」を作成します。","Creates the pre-defined collection 'Export' that is needed to collect asset data."
+"事前定義されたコレクションを作成する","Create Pre-defined Collections"
+"プロパティの現在の状態を指定されたテンプレートファイルに保存します","Saves the current state of the properties to the specified template file"
+"テンプレートを保存","Save Template"
+"指定したテンプレートファイルをテンプレートフォルダの場所にロードします","Loads the specified template file into the template folder location"
+"テンプレートをロード","Load Template"
+"選択した設定テンプレートを削除します","Remove the selected settings template"
+"このテンプレートを削除しますか？","Delete this template?"
+"拡張ファイルをリロードします","Reload the extensions files"
+"拡張機能をリロードする","Reload Extensions"
+"アンリアルブートストラップとrpcサーバースレッドとのブレンダーにより、リモート呼び出しの準備が整います。","Bootstraps unreal and blender with rpc server threads, so that they are ready for remote calls."
+"RPCサーバーを起動します","Start RPC Servers"
+"これは何も変更しない演算子ですが、元に戻るスタックをクリアするために使用されていました","This is an operator that changes nothing, but it used to clear the undo stack"
+"ヌル演算子","Null Operator"
+"事前定義されたコレクションを自動的に作成します","Automatically create pre-defined collections"
+"RPC応答タイムアウト","RPC Response Timeout"
+"拡張機能レポパス","Extensions Repo Path"
+"ソースアプリケーション","Source Application"
+"元のファイルが作成されたアプリケーション","The application the original file was created with"
+"進捗","Progress"
+"テンプレートバージョン","Template Version"
+"テンプレートの設定","Setting Template"
+"ロードする設定テンプレートを選択します","Select which settings template you want to load"
+"設定のどのセクションを表示するかを選択します","Choose which section of the settings to view"
+"パスモード","Path Mode"
+"エクスポート先のパスの種類を選択します","Select which type of paths you want to export to"
+"直接の親コレクション名を使用する","Use immediate parent collection name"
+"コレクションをフォルダーとして使用する","Use collections as folders"
+"メッシュフォルダ（Unreal）","Mesh Folder (Unreal)"
+"アニメーションフォルダ（Unreal）","Animation Folder (Unreal)"
+"スケルトンアセット（Unreal）","Skeleton Asset (Unreal)"
+"物理資産（Unreal）","Physics Asset (Unreal)"
+"メッシュフォルダー（ディスク）","Mesh Folder (Disk)"
+"アニメーションフォルダ（ディスク）","Animation Folder (Disk)"
+"ボーンを自動的にスケーリングします","Automatically scale bones"
+"すべてのアクションをエクスポートする","Export all actions"
+"オブジェクト名をルートボーンとしてエクスポート","Export object name as root bone"
+"カスタムプロパティの曲線をエクスポートする","Export custom property fcurves"
+"オートスタッシュアクティブアクション","Auto stash active action"
+"オブジェクトの原点を使用する","Use object origin"
+"子メッシュを組み合わせる","Combine child meshes"
+"マテリアルとテクスチャ","Materials and Textures"
+"FBXファイルからマテリアルとテクスチャをインポートするかどうか","Whether or not to import the materials and textures from the FBX file"
+"アニメーション","Animations"
+"FBXファイルからアニメーションをインポートするかどうか","Whether or not to import the animation from the FBX file"
+"FBXインポートUIを起動します","Launch FBX Import UI"
+"このオプションを有効にすると、UnrealでFBXインポートUIが起動します","When enabled this option launches the FBX import UI in Unreal"
+"LOD","LODs"
+"カスタムLODをエクスポートするかどうか","Whether or not to export the custom LODs"
+"LOD正規表現","LOD Regex"
+"LOD設定（Unreal）","LOD Settings (Unreal)"
+"シーンスケールを確認する","Check scene scale"
+"シーンのフレームレートを確認する","Check scene frame rate"
+"これにより、シーンの時間単位がチェックされ、指定された値に設定されていることが確認されます。","This checks the scene time units and ensures they are set to the specified value"
+"アーマチュアに適用されていない変換がないか確認してください","Check armatures for un-applied transforms"
+"資産に未使用の材料があるかどうかを確認します","Check if asset has unused materials"
+"テクスチャ参照を確認してください","Check texture references"
+"パスを確認する","Check paths"
+"根","root"
+"アーマチュア","Armature"
+"BlenderRPCServer","BlenderRPCServer"
+"RPCServer","RPCServer"
+"UnrealRPCServer","UnrealRPCServer"
+"定義されたアセット名の接辞をメッシュ、テクスチャ、マテリアルなどに追加します。","Adds the defined asset name affixes to Meshes, Textures, Materials etc."
+"アセットの接辞を追加する","Add Asset Affixes"
+"メッシュ、テクスチャ、マテリアルなどに付加されている定義済みのアセット名を削除します。","Removes the defined asset name affixes to Meshes, Textures, Materials etc."
+"アセットの接辞を削除する","Remove Asset Affixes"
+"接辞","affixes"
+"エクスポート時に接辞を自動的に追加します","Automatically add affixes on export"
+"エクスポート後に接辞を削除します","Remove affixes after export"
+"静的メッシュ接辞","Static Mesh Affix"
+"エクスポートされた静的メッシュアセットに使用する接頭辞または接尾辞。プレフィックスはで終わります","The prefix or suffix to use for exported static mesh assets. Prefixes end with an "
+"材料の接辞","Material Affix"
+"エクスポートされたマテリアルアセットに使用する接頭辞または接尾辞。プレフィックスはで終わります","The prefix or suffix to use for exported material assets. Prefixes end with an "
+"テクスチャ接辞","Texture Affix"
+"エクスポートされたテクスチャアセットに使用するプレフィックスまたはサフィックス。プレフィックスはで終わります","The prefix or suffix to use for exported texture assets. Prefixes end with an "
+"骨格メッシュ接辞","Skeletal Mesh Affix"
+"エクスポートされた骨格メッシュアセットに使用する接頭辞または接尾辞。プレフィックスはで終わります","The prefix or suffix to use for exported skeletal mesh assets. Prefixes end with an "
+"アニメーションシーケンスの接辞","Animation Sequence Affix"
+"エクスポートされたアニメーションシーケンスアセットに使用するプレフィックスまたはサフィックス。プレフィックスはで終わります","The prefix or suffix to use for exported animation sequence assets. Prefixes end with an "
+"接辞：","Affixes:"
+"ue2rigify","ue2rigify"
+"拡張機能レポパス：","Extensions Repo Path:"
+"テンプレート：","Templates:"
+"ロード","Load"
+"保存する","Save"
+"INVOKE_DEFAULT","INVOKE_DEFAULT"
+"ソースアプリケーション：","Source Application:"
+"輸入","Import"
+"書き出す","Export"
+"ユーティリティ","Utilities"
+"パイプライン","Pipeline"
+"マテリアルの競合時にFbxにリセット","Reset to Fbx on Material Conflict"
+"行方不明の衝突を生成する","Generate Missing Collision"
+"静的メッシュLODGroup","Static Mesh LODGroup"
+"頂点カラーインポートオプション","Vertex Color Import Option"
+"頂点オーバーライドカラー（RGB）","Vertex Override Color (RGB)"
+"縮退を削除","Remove Degenerates"
+"リバースインデックスバッファの構築","Build Reversed Index Buffer"
+"ライトマップUVを生成する","Generate Lightmap UVs"
+"UCXごとに1つの凸包","One Convex Hull Per UCX"
+"メッシュを組み合わせる","Combine Meshes"
+"頂点を絶対に変換する","Transform Vertex to Absolute"
+"頂点でピボットをベイク処理","Bake Pivot in Vertex"
+"通常のインポート方法","Normal Import Method"
+"通常の生成方法","Normal Generation Method"
+"加重法線を計算する","Compute Weighted Normals"
+"シーンの変換","Convert Scene"
+"フロントX軸を強制","Force Front X Axis"
+"シーンユニットの変換","Convert Scene Unit"
+"翻訳のインポート","Import Translation"
+"インポートローテーション","Import Rotation"
+"均一スケールのインポート","Import Uniform Scale"
+"マテリアルをFBX注文に再注文する","Reorder Material to FBX Order"
+"コンテンツタイプのインポート","Import Content Type"
+"頂点カラーインポートオプション","Vertex Color Import Option"
+"頂点オーバーライドカラー（RGB）","Vertex Override Color (RGB)"
+"スケルトン参照ポーズを更新","Update Skeleton Reference Pose"
+"モーフターゲットをインポートする","Import Morph Targets"
+"参照ポーズとしてTOを使用","Use TO As Ref Pose"
+"スムーシンググループを保持する","Preserve Smoothing Groups"
+"ボーン階層にメッシュをインポートする","Import Meshes in Bone Hierarchy"
+"頂点を絶対に変換する","Transform Vertex to Absolute"
+"頂点でピボットをベイク処理","Bake Pivot in Vertex"
+"通常のインポート方法","Normal Import Method"
+"通常の生成方法","Normal Generation Method"
+"加重法線を計算する","Compute Weighted Normals"
+"敷居位置","Threshold Position"
+"しきい値接線法線","Threshold Tangent Normal"
+"しきい値UV","Threshold UV"
+"モーフしきい値位置","Morph Threshold Position"
+"シーンの変換","Convert Scene"
+"フロントX軸を強制","Force Front X Axis"
+"シーンユニットの変換","Convert Scene Unit"
+"翻訳のインポート","Import Translation"
+"インポートローテーション","Import Rotation"
+"均一スケールのインポート","Import Uniform Scale"
+"マテリアルをFBX注文に再注文する","Reorder Material to FBX Order"
+"アニメーションの長さ","Animation Length"
+"フレームのインポート範囲","Frame Import Range"
+"ボーン階層にメッシュをインポートする","Import Meshes in Bone Hierarchy"
+"デフォルトのサンプルレートを使用する","Use Default Sample Rate"
+"カスタムサンプルレート","Custom Sample Rate"
+"カスタム属性のインポート","Import Custom Attribute"
+"既存のカスタム属性曲線を削除する","Delete Existing Custom Attribute Curves"
+"ボーントラックをインポートする","Import Bone Tracks"
+"材料曲線タイプを設定する","Set Material Curve Type"
+"材料曲線の接尾辞","Material Curve Suffixes"
+"冗長キーを削除します","Remove Redundant Keys"
+"既存のモーフターゲット曲線を削除する","Delete Existing Morph Target Curves"
+"値が0のみの曲線をインポートしないでください","Do not import curves with only 0 values"
+"ローカル変換を維持する","Preserve Local Transform"
+"シーンの変換","Convert Scene"
+"フロントX軸を強制","Force Front X Axis"
+"シーンユニットの変換","Convert Scene Unit"
+"翻訳のインポート","Import Translation"
+"インポートローテーション","Import Rotation"
+"均一スケールのインポート","Import Uniform Scale"
+"検索場所","Search Location"
+"ベース材料名","Base Material Name"
+"ベースカラー名","Base Color Name"
+"ベース発光色名","Base Emissive Color Name"
+"ベースディフューズテクスチャ名","Base Diffuse Texture Name"
+"ベースエミシブテクスチャ名","Base Emmisive Texture Name"
+"ベースノーマルテクスチャ名","Base Normal Texture Name"
+"基本不透明度テクスチャ名","Base Opacity Texture Name"
+"ベーススペキュラーテクスチャ名","Base Specular Texture Name"
+"法線マップを反転する","Invert Normal Maps"
+"シーンの変換","Convert Scene"
+"フロントX軸を強制","Force Front X Axis"
+"シーンユニットの変換","Convert Scene Unit"
+"翻訳のインポート","Import Translation"
+"インポートローテーション","Import Rotation"
+"均一スケールのインポート","Import Uniform Scale"
+"法線を再計算する","Recompute Normals"
+"接線を再計算します","Recompute Tangents"
+"MikkTSpaceを使用する","Use Mikk T Space"
+"加重法線を計算する","Compute Weighted Normals"
+"縮退を削除","Remove Degenerates"
+"リバースインデックスバッファの構築","Build Reversed Index Buffer"
+"高精度の接線基準を使用する","Use High Precision Tangent Basis"
+"フルプレシジョンUVを使用する","Use Full Precision UVs"
+"ライトマップUVを生成する","Generate Lightmap UVs"
+"最小ライトマップ解像度","Min Lightmap Resolution"
+"ソースライトマップインデックス","Source Lightmap Index"
+"宛先ライトマップインデックス","Destination Lightmap Index"
+"ビルドスケール","Build Scale"
+"距離フィールド解像度スケール","Distance Field Resolution Scale"
+"両面距離フィールド生成","Two-Sided Distance Field Generation"
+"距離フィールド置換メッシュ","Distance Field Replacement Mesh"
+"法線を再計算する","Recompute Normals"
+"接線を再計算します","Recompute Tangents"
+"MikkTSpaceを使用する","Use Mikk T Space"
+"加重法線を計算する","Compute Weighted Normals"
+"縮退を削除","Remove Degenerates"
+"高精度の接線基準を使用する","Use High Precision Tangent Basis"
+"フルプレシジョンUVを使用する","Use Full Precision UVs"
+"敷居位置","Threshold Position"
+"しきい値接線法線","Threshold Tangent Normal"
+"しきい値UV","Threshold UV"
+"モーフしきい値位置","Morph Threshold Position"
+"カスタムプロパティ","Custom Properties"
+"規模","Scale"
+"スケーリングを適用する","Apply Scalings"
+"前方","Forward"
+"上","Up"
+"ユニットを適用","Apply Unit"
+"！実験的！変換を適用する","!EXPERIMENTAL! Apply Transform"
+"スムージング","Smoothing"
+"サブディビジョンサーフェスをエクスポートする","Export Subdivision Surface"
+"モディファイヤを適用する","Apply Modifiers"
+"ゆるいエッジ","Loose Edges"
+"接空間","Tangent Space"
+"一次骨軸","Primary Bone Axis"
+"二次骨軸","Secondary Bone Axis"
+"アーマチュアFBXNodeタイプ","Armature FBXNode Type"
+"変形するボーンのみ","Only Deform Bones"
+"葉の骨を追加する","Add Leaf Bones"
+"焼きたてのアニメーション","Baked Animation"
+"すべてのボーンにキーを設定","Key All Bones"
+"キーイングの開始/終了を強制する","Force Start/End Keying"
+"サンプリングレート","Sampling Rate"
+"簡素化する","Simplify"
+"メタデータを使用する","Use Metadata"
+trueの場合、再インポートの競合が発生した場合、インポートされたマテリアルセクションはインポートされたデータに自動的にリセットされます,"If true, the imported material sections will automatically be reset to the imported data in case of a reimport conflict"
+オンにすると、衝突が自動的に生成されます（カスタム衝突がインポートまたは使用されている場合は無視されます）,"If checked, collision will automatically be generated (ignored if custom collision is imported or used)"
+インポート時にこのメッシュに関連付けるLODGroup,The LODGroup to associate with this mesh when it is imported
+頂点カラーのインポート方法を指定します,Specify how vertex colors should be imported
+VertexColorImportOptionがOverrideに設定されている場合は、オーバーライドの色を指定します,Specify override color in the case that VertexColorImportOption is set to Override
+このオプションを無効にすると、縮退した三角形が検出されたままになります。通常、このオプションはオンのままにしておく必要があります,Disabling this option will keep degenerate triangles found. In general you should leave this option on
+ミラー化された変換でメッシュを最適化するために必要です。ダブルインデックスバッファサイズ,Required to optimize mesh in mirrored transform. Double index buffer size
+ライトマップUVを生成する,Generate Lightmap UVs
+チェックすると、複数の船体に分解する代わりに、UCX_プレフィックス付き衝突メッシュごとに1つの凸包が生成されます。,"If checked, one convex hull per UCX_ prefixed collision mesh will be generated instead of decomposing into multiple hulls"
+有効にすると、すべてのメッシュが1つのメッシュに結合されます,"If enabled, combines all meshes into a single mesh"
+このオプションがtrueの場合、ノードの絶対変換（変換、オフセット、およびピボット）がメッシュ頂点に適用されます。,"If this option is true the node absolute transform (transform, offset and pivot) will be apply to the mesh vertices"
+実験的-このオプションがtrueの場合、逆ノード回転ピボットがメッシュ頂点に適用されます。 DCCからのピボットがメッシュの原点になります。注：\ u201cTransformVertexToAbsolute\u201dはfalseである必要があります,Experimental - If this option is true the inverse node rotation pivot will be apply to the mesh vertices. The pivot from the DCC will then be the origin of the mesh. Note: \u201cTransformVertexToAbsolute\u201d must be false
+このオプションを有効にすると、タンジェント（タンジェント、バイノーマル、ノーマル）が自動的に生成されるのではなく、FBXファイルから読み取られます。,"Enabling this option will read the tangents(tangent,binormal,normal) from FBX file instead of generating them automatically"
+メッシュに法線と接線を生成するには、MikkTSpace接線空間ジェネレーターを使用します,Use the MikkTSpace tangent space generator for generating normals and tangents on the mesh
+このオプションを有効にすると、法線または接線を計算するときに、重み付き法線アルゴリズム（面積と角度）が使用されます。,Enabling this option will use weighted normals algorithm (area and angle) when computing normals or tangents
+シーンをFBX座標系からUnrealEngine座標系に変換します,Convert the scene from FBX coordinate system to Unreal Engine coordinate system
+シーンをFBX座標系から-YではなくフロントX軸を持つUnrealEngine座標系に変換します,Convert the scene from FBX coordinate system to Unreal Engine coordinate system with front X axis instead of -Y
+シーンをFBXユニットからUEユニットに変換する（センチメートル）,Convert the scene from FBX unit to UE unit (centimeter)
+翻訳のインポート,Import Translation
+インポートローテーション,Import Rotation
+均一スケールのインポート,Import Uniform Scale
+マテリアルリストは、FBXファイルと同じ順序で並べ替えられます,The material list will be reorder to the same order has the FBX file
+入ってくる骨格メッシュからインポートしたいコンテンツをフィルタリングします,Filter the content we want to import from the incoming skeletal mesh
+頂点カラーのインポート方法を指定します,Specify how vertex colors should be imported
+VertexColorImportOptionがOverrideに設定されている場合は、オーバーライドの色を指定します,Specify override color in the case that VertexColorImportOption is set to Override
+有効になっている場合は、（インポートされるメッシュの）スケルトンを更新します\u2019の参照ポーズ,"If enabled, update the Skeleton (of the mesh being imported)\u2019s reference pose"
+有効にすると、インポートされたメッシュの非現実的なモーフオブジェクトが作成されます,"If enabled, creates Unreal morph objects for the imported meshes"
+フレーム0を参照ポーズとして使用するには、このオプションを有効にします,Enable this option to use frame 0 as reference pose
+チェックすると、スムージンググループが一致しない三角形が物理的に分割されます,"If checked, triangles with non-matching smoothing groups will be physically split"
+オンにすると、ボーン階層にネストされたメッシュがボーンに変換されるのではなくインポートされます,"If checked, meshes nested in bone hierarchies will be imported instead of being converted to bones"
+このオプションがtrueの場合、ノードの絶対変換（変換、オフセット、およびピボット）がメッシュ頂点に適用されます。,"If this option is true the node absolute transform (transform, offset and pivot) will be apply to the mesh vertices"
+実験的-このオプションがtrueの場合、逆ノード回転ピボットがメッシュ頂点に適用されます。 DCCからのピボットがメッシュの原点になります。注：\ u201cTransformVertexToAbsolute\u201dはfalseである必要があります,Experimental - If this option is true the inverse node rotation pivot will be apply to the mesh vertices. The pivot from the DCC will then be the origin of the mesh. Note: \u201cTransformVertexToAbsolute\u201d must be false
+このオプションを有効にすると、タンジェント（タンジェント、バイノーマル、ノーマル）が自動的に生成されるのではなく、FBXファイルから読み取られます。,"Enabling this option will read the tangents(tangent,binormal,normal) from FBX file instead of generating them automatically"
+メッシュに法線と接線を生成するには、MikkTSpace接線空間ジェネレーターを使用します,Use the MikkTSpace tangent space generator for generating normals and tangents on the mesh
+このオプションを有効にすると、法線または接線を計算するときに、重み付き法線アルゴリズム（面積と角度）が使用されます。,Enabling this option will use weighted normals algorithm (area and angle) when computing normals or tangents
+頂点位置の同等性を比較するためのしきい値,Threshold to compare vertex position equality
+法線、接線、または従法線の等式を比較するためのしきい値,"Threshold to compare normal, tangent or bi-normal equality"
+UVの同等性を比較するためのしきい値,Threshold to compare UV equality
+モーフターゲットデルタを計算するときに頂点位置の同等性を比較するためのしきい値,Threshold to compare vertex position equality when computing morph target deltas
+シーンをFBX座標系からUnrealEngine座標系に変換します,Convert the scene from FBX coordinate system to Unreal Engine coordinate system
+シーンをFBX座標系から-YではなくフロントX軸を持つUnrealEngine座標系に変換します,Convert the scene from FBX coordinate system to Unreal Engine coordinate system with front X axis instead of -Y
+シーンをFBXユニットからUEユニットに変換する（センチメートル）,Convert the scene from FBX unit to UE unit (centimeter)
+翻訳のインポート,Import Translation
+インポートローテーション,Import Rotation
+均一スケールのインポート,Import Uniform Scale
+マテリアルリストは、FBXファイルと同じ順序で並べ替えられます,The material list will be reorder to the same order has the FBX file
+インポートするアニメーション範囲。エクスポート時、アニメーション時に定義されたもの、または範囲を手動で定義したもの,"Which animation range to import. The one defined at Exported, at Animated time or define a range manually"
+アニメーションの長さで範囲の設定が使用されている場合に使用されるフレーム範囲,Frame range used when Set Range is used in Animation Length
+オンにすると、ボーン階層にネストされたメッシュがボーンに変換されるのではなくインポートされます,"If checked, meshes nested in bone hierarchies will be imported instead of being converted to bones"
+有効にすると、すべてのアニメーションカーブを30FPSにサンプリングします,"If enabled, samples all animation curves to 30 FPS"
+指定されたサンプルレートでfbxアニメーションデータをサンプリングします。0は自動的に最適なサンプルレートを見つけます,"Sample fbx animation data at the specified sample rate, 0 find automatically the best sample rate"
+カスタム属性をアニメーション内の曲線としてインポートする,Import if custom attribute as a curve within the animation
+trueの場合、再インポートを実行すると、以前のすべてのカスタム属性曲線が削除されます,"If true, all previous custom attribute curves will be deleted when doing a re-import"
+ボーントランスフォームトラックをインポートします。 falseの場合、ボーン変換トラックはすべて破棄されます。 （曲線のみのアニメーションに役立ちます）,"Import bone transform tracks. If false, this will discard any bone transform tracks. (useful for curves only animations)"
+存在するすべてのカスタム属性のマテリアルカーブタイプを設定します,Set Material Curve Type for all custom attributes that exists
+次の接尾辞を使用して、カスタム属性のマテリアルカーブタイプを設定します。 Set Material Curve Typeがtrueの場合、これは重要ではありません。これは名前のコンマ区切りのリストです,Set Material Curve Type for the custom attribute with the following suffixes. This doesn\u2019t matter if Set Material Curve Type is true. This is a comma separated list of names
+カスタム属性を曲線としてインポートする場合は、冗長なキーを削除してください,"When importing custom attribute as curve, remove redundant keys"
+有効にすると、このタイプのアセットがFBXから削除されます,"If enabled, this will delete this type of asset from the FBX"
+カスタム属性またはmorphtargetをcurveとしてインポートする場合、ゼロ以外の値がない場合はインポートしないでください。これは、評価するために余分な曲線を追加することを避けるためです,"When importing custom attribute or morphtarget as curve, do not import if it does not have any value other than zero. This is to avoid adding extra curves to evaluate"
+有効にすると、アニメーション内にカーブがインポートされます,"If enabled, this will import a curve within the animation"
+シーンをFBX座標系からUnrealEngine座標系に変換します,Convert the scene from FBX coordinate system to Unreal Engine coordinate system
+シーンをFBX座標系から-YではなくフロントX軸を持つUnrealEngine座標系に変換します,Convert the scene from FBX coordinate system to Unreal Engine coordinate system with front X axis instead of -Y
+シーンをFBXユニットからUEユニットに変換する（センチメートル）,Convert the scene from FBX unit to UE unit (centimeter)
+翻訳のインポート,Import Translation
+インポートローテーション,Import Rotation
+均一スケールのインポート,Import Uniform Scale
+インポート時に一致するマテリアルを検索する場所を指定します,Specify where we should search for matching materials when importing
+マテリアルをインポートするときにインスタンス化するベースマテリアル,Base material to instance from when importing materials
+ベースカラー名,Base Color Name
+ベース発光色名,Base Emissive Color Name
+ベースディフューズテクスチャ名,Base Diffuse Texture Name
+ベースエミシブテクスチャ名,Base Emmisive Texture Name
+ベースノーマルテクスチャ名,Base Normal Texture Name
+基本不透明度テクスチャ名,Base Opacity Texture Name
+ベーススペキュラーテクスチャ名,Base Specular Texture Name
+テクスチャのインポートが有効になっている場合、このオプションを使用すると、法線マップのY（緑）値が反転します。,"If importing textures is enabled, this option will cause normal map Y (Green) values to be inverted"
+シーンをFBX座標系からUnrealEngine座標系に変換します,Convert the scene from FBX coordinate system to Unreal Engine coordinate system
+シーンをFBX座標系から-YではなくフロントX軸を持つUnrealEngine座標系に変換します,Convert the scene from FBX coordinate system to Unreal Engine coordinate system with front X axis instead of -Y
+シーンをFBXユニットからUEユニットに変換する（センチメートル）,Convert the scene from FBX unit to UE unit (centimeter)
+翻訳のインポート,Import Translation
+インポートローテーション,Import Rotation
+均一スケールのインポート,Import Uniform Scale
+ trueの場合、生のメッシュの法線は無視され、再計算されます,"If true, normals in the raw mesh are ignored and recomputed"
+trueの場合、生のメッシュの接線は無視され、再計算されます,"If true, tangents in the raw mesh are ignored and recomputed"
+法線マップを作成するためにベーキングツールで使用される接空間の一般的な標準,A common standard for tangent space used in baking tools to produce normal maps
+trueの場合、法線を計算するときに、三角形の表面積と角の角度を比率として使用します。,"If true, we will use the surface area and the corner angle of the triangle as a ratio when computing the normals"
+ trueの場合、縮退した三角形は削除されます,"If true, degenerate triangles will be removed"
+ミラー化された変換でメッシュを最適化するために必要です。ダブルインデックスバッファサイズ,Required to optimize mesh in mirrored transform. Double index buffer size
+trueの場合、接線は16ビットと8ビットの精度で保存されます,"If true, Tangents will be stored at 16 bit vs 8 bit precision"
+trueの場合、UVは完全な浮動小数点精度で格納されます,"If true, UVs will be stored at full floating point precision"
+ライトマップUVを生成する,Generate Lightmap UVs
+最小ライトマップ解像度,Min Lightmap Resolution
+ソースライトマップインデックス,Source Lightmap Index
+宛先ライトマップインデックス,Destination Lightmap Index
+メッシュを構築するときに適用されるローカルスケール,The local scale applied when building the mesh
+距離フィールド解像度スケール,Distance Field Resolution Scale
+すべての三角形のヒットを前面として扱う距離フィールドを生成するかどうか。有効にすると、メッシュが開いているために距離フィールドが破棄されるのを防ぎますが、距離フィールドのAO品質も低下します。,"Whether to generate the distance field treating every triangle hit as a front face. When enabled prevents the distance field from being discarded due to the mesh being open, but also lowers Distance Field AO quality"
+距離フィールド置換メッシュ,Distance Field Replacement Mesh
+ trueの場合、生のメッシュの法線は無視され、再計算されます,"If true, normals in the raw mesh are ignored and recomputed"
+trueの場合、生のメッシュの接線は無視され、再計算されます,"If true, tangents in the raw mesh are ignored and recomputed"
+法線マップを作成するためにベーキングツールで使用される接空間の一般的な標準,A common standard for tangent space used in baking tools to produce normal maps
+trueの場合、法線を計算するときに、三角形の表面積と角の角度を比率として使用します。,"If true, we will use the surface area and the corner angle of the triangle as a ratio when computing the normals"
+ trueの場合、縮退した三角形は削除されます,"If true, degenerate triangles will be removed"
+trueの場合、接線は16ビットと8ビットの精度で保存されます,"If true, Tangents will be stored at 16 bit vs 8 bit precision"
+trueの場合、UVは完全な浮動小数点精度で格納されます,"If true, UVs will be stored at full floating point precision"
+頂点位置の同等性を比較するためのしきい値,Threshold to compare vertex position equality
+法線、接線、または従法線の等式を比較するためのしきい値,"Threshold to compare normal, tangent or bi-normal equality"
+UVの同等性を比較するためのしきい値,Threshold to compare UV equality
+モーフターゲットデルタを計算するときに頂点位置の同等性を比較するためのしきい値,Threshold to compare vertex position equality when computing morph target deltas
+カスタムプロパティをエクスポートする,Export custom properties
+すべてのデータをスケーリングします（一部のインポーターはスケーリングされたアーマチュアをサポートしていません！）,Scale all data (Some importers do not support scaled armatures!)
+生成されたFBXファイルにカスタムおよび単位スケーリングを適用する方法（BlenderはFBXスケールを使用してインポート時に単位を検出しますが、他の多くのアプリケーションは同じ方法を処理しません）,"How to apply custom and units scalings in generated FBX file (Blender uses FBX scale to detect units on import, but many other applications do not handle the same way)"
+現在のBlenderユニット設定を考慮に入れてください（設定されていない場合、生のBlenderユニット値がそのまま使用されます）,"Take into account current Blender units settings (if unset, raw Blender Units values are used as-is)"
+ベイクスペースをオブジェクトデータに変換し、ターゲットスペースがBlenderのスペースと整列していない場合に、オブジェクトに不要な回転が発生しないようにします（警告！実験オプション、自己責任で使用、アーマチュア/アニメーションで壊れていることがわかっています）,"Bake space transform into object data, avoids getting unwanted rotations to objects when target space is not aligned with Blender's space (WARNING! experimental option, use at own risks, known broken with armatures/animations)"
+平滑化情報をエクスポートします（ターゲットインポーターが分割法線を理解している場合は、「法線のみ」オプションを優先します）,Export smoothing information (prefer 'Normals Only' option if your target importer understand split normals)
+最後のCatmull-RomサブディビジョンモディファイヤをFBXサブディビジョンとしてエクスポートします（[モディファイヤを適用]が有効になっている場合でも、モディファイヤを適用しません）,Export the last Catmull-Rom subdivision modifier as FBX subdivision (does not apply the modifier even if 'Apply Modifiers' is enabled)
+メッシュオブジェクトにモディファイヤを適用します（アーマチュアオブジェクトを除く）-警告：シェイプキーのエクスポートを禁止します,Apply modifiers to mesh objects (except Armature ones) - WARNING: prevents exporting shape keys
+ルーズエッジをエクスポートします（2つの頂点のポリゴンとして）,Export loose edges (as two-vertices polygons)
+従法線ベクトルと接線ベクトルを、法線とともに接線空間を形成します（トリス/クワッドのみのメッシュでのみ正しく機能します！）,"Add binormal and tangent vectors, together with normal they form the tangent space (will only work correctly with tris/quads only meshes!)"
+ Blenderのアーマチュアを表すために使用されるFBXタイプのノード（オブジェクト）（他のアプリで問題が発生しない限り、Nullを使用してください。他の選択肢はBlenderに完全にインポートされない場合があります...）,"FBX type of node (object) used to represent Blender's armatures (use Null one unless you experience issues with other app, other choices may no import back perfectly in Blender...)"
+変形するボーン（および変形する子がある場合は変形しないボーン）のみを書き込みます。,Only write deforming bones (and non-deforming ones when they have deforming children)
+各チェーンの最後に最後のボーンを追加して、最後のボーンの長さを指定します（エクスポートされたデータからアーマチュアを編集する場合はこれを使用します）,Append a final bone to the end of each chain to specify last bone length (use this when you intend to edit the armature from exported data)
+ベイク処理されたキーフレームアニメーションをエクスポートする,Export baked keyframe animation
+すべてのボーンのアニメーションの少なくとも1つのキーを強制的にエクスポートします（Unreal Engineなどの一部のターゲットアプリケーションで必要）,"Force exporting at least one key of animation for all bones (needed with some target applications, like Unreal Engine)"
+アニメーションチャンネルのアクションの開始時と終了時に常にキーフレームを追加します,Always add a keyframe at start and end of actions for animated channels
+アニメーション値を評価する頻度（フレーム単位）,How often to evaluate animated values (in frames)
+ベイク処理された値をどれだけ単純化するか（無効にする場合は0.0、高いほど単純化されます）,"How much to simplify baked values (0.0 to disable, the higher the more simplified)"
+"検証","Validations"
+"プロジェクトに送信","Send to Project"
+"中間ファイルをディスク上の一時的な場所に送信してから、UnrealProjectにインポートします。 これには追加の構成は必要ありませんが、中間ファイルをソース管理下に置く必要がある場合は理想的ではない可能性があります。","Sends the intermediate files to a temporary location on disk and then imports them into the Unreal Project. This does not require any extra configuration, but might not be ideal if your intermediate files need to be under source control."
+"ディスクに送信","Send to Disk"
+"中間ファイルをディスク上の指定された場所に送信し、インポートしません","Sends the intermediate files to a specified location on disk and does not import them."
+"ディスクに送信してからプロジェクト","Send to Disk then Project"
+"中間ファイルをディスク上の指定された場所に送信してから、UnrealProjectにインポートします。 これには追加のパスを構成する必要がありますが、中間ファイルをソース管理下に置く必要がある場合に理想的です。","Sends the intermediate files to a specified location on disk and then imports them into the Unreal Project. This requires extra paths to be configured, but is ideal if your intermediate files need to be under source control."
+"メッシュフォルダー","Mesh Folder"
+"アニメーションフォルダー","Animation Folder"
+"スケルトンアセット","Skeleton Asset"
+"物理アセット","Physics Asset"
+"LOD設定","LOD Settings"
+"スケルタルメッシュ:","Skeletal Mesh:"
+"FBXインポート設定","FBX Import Settings"
+"FBXエクスポート設定","FBX Export Settings"
+"アニメーション設定","Animation Settings"
+"ジオメトリとスキニングウェイト","Geometry and Skinning Weights"
+"すべてのfbxコンテンツ（ジオメトリ、スキニング、ウェイト）をインポートします","Import all fbx content: geometry, skinning, and weights"
+"ジオメトリのみ","Geometry Only"
+"スケルトンメッシュジオメトリのみをインポートします（デフォルトのスケルトンを作成するか、ジオメトリを既存のスケルトンにマップします）。 モーフとLODを一緒にインポートできます","Import skeletal mesh geometry only (will create a default skeleton, or map the geometry to the existing one). Morph and LOD can be imported with it"
+"スキニングウェイトのみ","Skinning Weights Only"
+"骨格メッシュのスキニングとウェイトのみをインポートします。 （ジオメトリはインポートされません）。 この設定では、モーフとLODはインポートされません。","Import the skeletal mesh skinning and weights only. (no geometry will be imported). Morph and LOD will not be imported with this setting"
+"",""
+"",""
+"",""
+"",""
+"",""
