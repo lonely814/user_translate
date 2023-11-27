@@ -1,0 +1,89 @@
+, 
+,"""\""""
+"""",""Simulation Start"""
+模拟结束,Simulation End
+使用当前帧作为缓存,Use current frames as cache
+烟雾域随机化,Smoke Domain Randomize
+随机化烟雾模拟域设置,Randomization of smoke sim domain settings
+火域随机化,Fire Domain Randomize
+快速烟雾设置,Quick Smoke Setup
+快速火域设置,Quick Fire Setup
+液体域随机化,Liquid Domain Randomize
+液体模拟域设置随机化,Randomization of liquid sim domain settings
+快速流体设置,Quick Fluid Setup
+颗粒开/关,Particles On/Off
+切换液体粒子（喷雾、泡沫、气泡）的开关,"Toggle fluid particles (spray, foam, bubble) on or off"
+粒子随机化,Particle Randomize
+随机化粒子模拟设置,Randomization of particle sim settings
+添加随机力场,Add Random Force Field
+随机化力场,Randomize Force Field
+随机化力场设置,Randomize force field settings
+重置帧,Reset Frame
+将当前帧重置为 1,Resets Current Frame to 1
+边界碰撞开启,Border Collision On
+碰撞切换,Collisions Toggle
+关闭边界碰撞,Border Collision Off
+使用时间线帧进行烘焙,Use Timeline Frames to Bake
+使用当前时间线帧作为缓存的起点和终点,Use current timeline frames as cache start and end
+物理生成烟雾/火焰,Physics Gen Smoke/Fire
+ 先选择网格, Select mesh first:
+ 先选择烟雾或火焰域：, Select smoke or fire domain first:
+ 烘焙或释放烟雾模拟：, Bake or free smoke sims:
+ 调整域大小后重新选择：, Reselect after resizing domain:
+物理流体,Physics Gen Fluid
+ 先选择网格 , Select mesh first: 
+ 先选择域, Select domain first:
+ 烘焙或自由流体模拟, Bake or free fluid sims:
+物理粒子,Physics Gen Particles
+ 添加粒子, Add particles:
+ 烘焙或自由粒子模拟, Bake or free particle sims:
+物理生成粒子渲染,Physics Gen Particle Rendering
+ 将粒子渲染为, Render particle as:
+ 粒子大小, Particle size:
+物理力场 ,Physics Gen Force Field 
+ 添加或随机化, Add or randomize:
+物理源额外域设置 ,Physics Gen Extra Domain Settings 
+ 域分辨率, Domain Resolution:
+ 域碰撞, Domain Collisions:
+ 要烘焙的域帧：, Domain Frames to Bake:
+ 选择域对象, Select the domain object
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+ ,
+,
+,
+,
+,
+,
+,
+,
+,
+ ,
+,
+ ,
