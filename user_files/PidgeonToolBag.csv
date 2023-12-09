@@ -1,0 +1,797 @@
+,"""\""""
+"""",""Render Output"""
+将该文件夹输入结果的最后路径设置为渲染的输出路径,Set the last path this folder input results in as output path for your renders
+文件夹名称,Folder Name
+自动设置文件夹。添加子文件夹的格式： 文件夹>>子文件夹>>子文件夹,Automatic Setup Folder. Format for Adding Subfolders: Folder>>Subfolder>>Subsubfolder
+此路径当前是否可访问,Whether this path is currently reachable
+该路径是否保存在书签中，或由操作系统生成,"Whether this path is saved in bookmarks, or generated from OS"
+活动项目,Active Project
+文件浏览器面板中应显示哪个项目。,Which project should be displayed in the Filebrowser panel.
+自定义属性,Custom Property
+用户界面部分,UI Section
+显示超级项目管理器首选项的不同 UI 元素。,Display the different UI Elements of the Super Project Manager preferences.
+文件夹结构集,Folder Structure Set
+所有可用文件夹集的列表。,A list of all available folder sets.
+项目名称前缀,Project Name Prefix
+如果启用，则使用项目名称作为所有文件夹的前缀,"If enabled, use the project name as prefix for all folders"
+自动设置渲染输出路径,Auto Set Render Output Path
+如果启用，可使用自动设置渲染输出路径功能,"If enabled, the feature to automatically set the Render Output path can be used"
+默认项目位置,Default Project Location
+保存到,Save to
+预览已编译的子文件夹,Preview compiled Subfolders
+在首选项中显示已编译的子文件夹字符串,Show the compiled subfolder-strings in the preferences
+Pidgeon 工具袋 (PTB) 偏好设置,Pidgeon Tool Bag (PTB) Preferences
+依赖关系,Dependencies
+保存设置,Save Settings
+文件夹结构集： ,Folder Structure Set: 
+预览,Preview
+cv2,cv2
+numpy,numpy
+matplotlib,matplotlib
+ 用于抑制标准输出的上下文管理器。, A context manager to suppress standard output. 
+ 将当前场景渲染到指定文件路径，并返回渲染时间。, Render the current scene to the specified file path and return the render time. 
+检查依赖项,Check Dependencies
+检查插件所需的 Python 依赖项,Checks for the Python dependencies required by the addon
+安装依赖项,Install Dependencies
+安装插件所需的 Python 依赖项,Install the Python dependencies required by the addon
+打开插件首选项,Open Addon Prefs
+打开附加组件首选项,Open the addon preferences
+Pidgeon 工具包,Pidgeon Tool Bag
+渲染,render
+信息,Info
+Pidgeon Tool Bag：,Pidgeon Tool Bag:
+v1.0.0,v1.0.0
+超级项目管理器,Super Project Manager:
+v1.5.0,v1.5.0
+超级快速渲染,Super Fast Render:
+v4.0.0,v4.0.0
+超级高级相机,Super Advanced Camera:
+v2.0.0,v2.0.0
+超级真实音效：,Super Real Sound:
+v0.0.0,v0.0.0
+超级图像去噪器,Super Image Denoiser:
+v5.0.0,v5.0.0
+超级分辨率渲染,Super Resolution Render:
+超级渲染农场,Super Render Farm:
+v0.2.0,v0.2.0
+我们的社交,Our Socials
+加入我们的 Discord！,Join our Discord!
+视频,YouTube
+BlenderMarket,BlenderMarket
+社交网络,Instagram
+微博,Twitter
+支持与反馈！,Support and Feedback!
+可用预览的动态列表。,Dynamic list of available previews.
+.SAC 点阵屏幕,.SAC Dot Screen
+最后使用的 ID,Last Used ID
+sac_effect_list 索引,Index for sac_effect_list
+名称,Name
+图标,Icon
+警告,Warn
+此效果与视口不兼容\n它将在最终渲染中起作用。\n\n这是 Blender 的限制。\n禁用此效果可以查看视口。,This effect is not viewport compatible.\nIt will work in the final render.\n\nThis is a limitation of Blender.\nDisable this effect to see the viewport.
+静音,Mute
+在视口和最终渲染中禁用此特效。,Disable this effect for viewport and final render.
+效果组,Effect Group
+ID,ID
+初始化超级高级摄像机,Initialize Super Advanced Camera
+将上一个滤镜设置为活动滤镜,Sets the previous filter as the active filter
+将下一个滤镜设置为活动滤镜,Set the next filter as the active filter
+应用滤镜,Apply Filter
+将当前滤镜设置为活动滤镜,Sets the current filter as the active filter
+在列表中添加新效果,Add a new effect to the list
+从列表中移除所选效果,Remove the selected effect from the list
+将所选效果在列表中上移,Move the selected effect up in the list
+将所选效果在列表中向下移动,Move the selected effect down in the list
+将选定的虚化效果应用到效果,Apply selected Bokeh to the effect
+应用虚化效果,Apply Bokeh
+SAC 相机_虚化_旋转,SAC Camera_Bokeh_Rotate
+SAC 相机_虚化_缩放,SAC Camera_Bokeh_Scale
+SAC 相机_虚化_图像,SAC Camera_Bokeh_Image
+SAC 相机_虚化_切换,SAC Camera_Bokeh_Switch
+SAC 相机_虚化_自定义纹理,SAC Camera_Bokeh_Custom_Texture
+SAC 相机_波克曲线,SAC Camera_Bokeh_Curves
+设置起始帧,Set Start Frame
+设置当前帧为起始帧,Sets the current frame as the start frame
+设置结束帧,Set End Frame
+将当前帧设置为结束帧,Sets the current frame as the end frame
+应用渐变,Apply Gradient
+超级高级摄像机,Super Advanced Camera
+场景中未发现摄像机。,No camera found in scene.
+请为场景添加一个摄像机。,Please add a camera to the scene.
+摄像机,Camera
+分辨率,Resolution
+宽度,Width
+高度,Height
+比例,Scale
+帧数,Frames
+开始,Start
+结束,End
+步骤,Step
+使用预览范围,Use Preview Range
+显示子帧,Show Subframes
+当前,Current
+帧速率： ,Frame Rate: 
+基本,Base
+时间拉伸,Time Stretching
+原始持续时间,Original duration
+新持续时间,New duration
+垂直倾斜移动,Vertical Tilt Shift
+水平倾斜移动,Horizontal Tilt Shift
+倾斜移动,Tilt Shift
+垂直镜头位移,Vertical Lens Shift
+水平镜头位移,Horizontal Lens Shift
+镜头位移,Lens Shift
+最小 可见距离,Min. Visible Distance
+最大可视距离 可见距离,Max. Visible Distance
+使用虚化,Use Bokeh
+未找到虚化平面。,No Bokeh Plane found.
+请先应用虚化。,Please apply Bokeh first.
+虚化类型,Bokeh Type
+制造商：,Manufacturer:
+型号,Model:
+光圈,Aperture:
+特别感谢 Matt Gunn 博士教授提供虚化纹理。,Special thanks to Prof. Dr. Matt Gunn for the Bokeh textures.
+您需要初始化 SAC 才能使用此功能！,You need to initialize SAC to use this feature!
+滤镜名称：,Filter Name:
+RGB 曲线,RGB Curves
+HSV 曲线,HSV Curves
+阴影,Shadows
+亮度,Brightness
+强度,Intensity
+中间调,Midtones
+高光,Highlights
+未选择效果。,No effect selected.
+此效果与视口不兼容。,This effect is not viewport compatible.
+渐变名称：,Gradient Name:
+哎呀，那个,"Oops, that"
+','
+请向我们报告。,Please report this to us.
+我们的讨论区,Our Discord
+筛选类型,Filter Type
+按类型过滤 fitlter 列表,Filter the fitlter list by type
+白平衡,White Balance
+调整图像的整体色调，使其看起来更自然，\n以补偿光源的色温,"Adjusts the overall color tone of an image to make it appear more natural,\ncompensating for the color temperature of the light source"
+色温,Temperature
+调整图像的色彩平衡，使其更冷（更蓝）或更暖（更橙）。,"Adjusts the color balance of an image,\nmaking it cooler (bluer) or warmer (more orange)"
+色调,Tint
+调整图像中的绿色-洋红平衡\n补偿某些光源造成的偏色,"Adjusts the green-magenta balance in an image,\ncompensating for color cast from certain light sources"
+饱和度,Saturation
+增加或减少图像中从鲜艳到灰暗的色彩强度,"Increases or decreases the intensity of colors in an image, from vivid to gray"
+色调,Hue
+围绕色轮旋转图像中所有颜色的色调,Rotates the hue of all colors in the image around the color wheel
+曝光,Exposure
+调整图像的整体亮度,Adjusts the overall brightness of the image
+对比度,Contrast
+修改图像最暗和最亮部分之间的差异\n使阴影更深、高光更亮,"Modifies the difference between the darkest and lightest parts of an image,\nmaking shadows deeper and highlights brighter"
+调整图像最亮部分的亮度,Adjusts the brightness of the brightest parts of the image
+调整图像最暗部分的亮度,Adjusts the brightness of the darkest parts of the image
+白色,Whites
+调整图像最亮部分的亮度\n帮助设置白点,"Adjusts the luminance level of the very brightest parts of the image,\nhelping to set the white point"
+暗部,Darks
+调整图像最暗部分的亮度\n帮助设置黑点,"Adjusts the luminance level of the very darkest parts of the image,\nhelping to set the black point"
+滤镜混合,Filter Blend
+调整原始图像和滤镜之间的混合程度,Adjusts the blend between the original image and the filter
+极值校正,Extreme Value Correction
+滤镜可能会在高/低亮度值\n（高于 1 或低于 0）时出现问题。,The filter may run into issues at high/low brightness values (above 1 or below 0).\nThis setting eliminates that by clamping the brightness
+锐化,Sharpen
+增强图像边缘的对比度，使它们看起来更清晰,"Increases the contrast of edges in the image,\nmaking them appear more defined"
+鲜艳度,Vibrance
+在不影响已饱和色彩的情况下\n增加图像中较柔和色彩的强度,"Increases the intensity of the more muted colors in the image,\nwithout affecting the already saturated colors"
+高光色调,Highlight Tint
+改变图像高光区域的色调,Alters the color tint specifically in the highlight regions of an image
+阴影色调,Shadow Tint
+专门改变图像阴影部分的色调,Alters the color tint specifically in the shadow regions of an image
+RGB 曲线强度,RGB Curves Intensity
+调整原始图像与曲线之间的混合程度,Adjusts the blend between the original image and the curves
+HSV 曲线强度,HSV Curves Intensity
+阴影亮度,Shadows Brightness
+阴影 色轮强度,Shadows Colorwheel Intensity
+调整原始图像与色轮之间的混合度,Adjusts the blend between the original image and the colorwheel
+中间调亮度,Midtones Brightness
+调整图像中间调的亮度,Adjusts the brightness of the midtones of the image
+中间调色轮强度,Midtones Colorwheel Intensity
+高光亮度,Highlights Brightness
+高光 色轮强度,Highlights Colorwheel Intensity
+色彩 1,Color 1
+设置图像亮部的颜色,Sets the color for the bright parts of the image
+色彩 2,Color 2
+设置图像暗部的颜色,Sets the color for the dark parts of the image
+混合,Blend
+调整原始图像和双色调图像之间的混合程度,Adjusts the blend between the original image and the duotone
+阈值,Threshold
+调整雾光效果的阈值,Adjusts the threshold for the fog glow effect
+大小,Size
+调整雾光效果的大小,Adjusts the size of the fog glow effect
+强度,Strength
+调整雾光效果的强度,Adjusts the strength of the fog glow effect
+调整条纹效果的阈值,Adjusts the threshold for the streaks effect
+计数,Count
+调整条纹的数量,Adjusts the number of streaks
+角度,Angle
+调整条纹的角度,Adjusts the angle of the streaks
+扭曲,Distortion
+调整条纹的颜色变化,Adjusts the color modulation of the streaks
+渐变,Fade
+调整条纹的渐变,Adjusts the fade of the streaks
+长度,Length
+调整条纹的长度,Adjusts the length of the streaks
+调整条纹的强度,Adjusts the strength of the streaks
+调整重影效果的阈值,Adjusts the threshold for the ghosts effect
+调整重影的颜色调制,Adjusts the color modulation of the ghosts
+调整幽灵数量,Adjusts the number of ghosts
+调整重影的强度,Adjusts the strength of the ghosts
+调整浮雕效果的强度,Adjusts the strength of the emboss effect
+步数,Steps
+调整海报效果中的色彩步数,Adjusts the number of color steps in the posterize effect
+调整叠加效果的强度,Adjusts the strength of the overlay effect
+像素大小,Pixel Size
+调整马赛克效果中像素的大小,Adjusts the size of the pixels in the mosaic effect
+色差量,Amount
+调整色差的大小,Adjusts the amount of chromatic aberration
+调整渐晕的强度，负值使渐晕更暗\n正值使渐晕更亮,"Adjusts the intensity of the vignette,\nnegative values make the vignette darker,\npositive values make the vignette brighter"
+圆度,Roundness
+调整渐晕的圆度，正值使渐晕更圆\n负值使渐晕更方,"Adjusts the roundness of the vignette,\npositive values make the vignette rounder,\nnegative values make the vignette more square"
+羽化,Feather
+调整渐晕效果的模糊程度,Adjusts the blur of the vignette
+中点,Midpoint
+调整渐晕的中点,Adjusts the midpoint of the vignette
+调整红外效果的混合程度,Adjusts the blend of the infrared effect
+偏移,Offset
+调整红外效果的偏移量,Adjusts the offset of the infrared effect
+负片,Negative
+调整负片效果的强度,Adjusts the strength of the negative effect
+翘曲,Warp
+调整扭曲效果的强度,Adjusts the strength of the warp effect
+鱼眼,Fisheye
+调整鱼眼效果的强度,Adjusts the strength of the fisheye effect
+水平,Horizontal
+调整水平透视偏移,Adjusts the horizontal perspective shift
+垂直,Vertical
+调整垂直透视偏移,Adjusts the vertical perspective shift
+调整 ISO 效果的强度,Adjusts the strength of the ISO effect
+调整 ISO 效果的大小,Adjusts the size of the ISO effect
+调整胶片颗粒效果的强度,Adjusts the strength of the filmgrain effect
+灰尘比例,Dust Proportion
+调整胶片颗粒效果中灰尘的比例,Adjusts the proportion of dust in the filmgrain effect
+调整胶片颗粒效果的大小,Adjusts the size of the filmgrain effect
+数值,Value
+调整半色调效果的偏移量,Adjusts the offset of the halftone effect
+三角,Delta
+调整半色调效果的亮度范围,Adjusts the brightness range of the halftone effect
+调整半色调效果的大小,Adjusts the size of the halftone effect
+调整渐变映射效果的混合程度,Adjusts the blend of the gradient map effect
+最大尺寸,Max Size
+调整虚化效果的\n最大尺寸。,Adjusts the max size of the bokeh effect.\nLarger will be slower
+调整虚化效果的聚焦点,Adjusts the focus point of the bokeh effect
+范围,Range
+调整虚化效果的聚焦范围,Adjusts the focus range of the bokeh effect
+图像,Image
+用于虚化效果的图像,The image to use for the bokeh effect
+旋转,Rotation
+调整虚化效果的旋转角度,Adjusts the rotation of the bokeh effect
+叶片,Blades
+调整虚化效果中的瓣数,Adjusts the number of flaps in the bokeh effect
+调整虚化效果的角度,Adjusts the angle of the bokeh effect
+圆角,Rounding
+调整虚化效果的圆润度,Adjusts the rounding of the bokeh effect
+双曲面,Catadioptric
+调整虚化效果的折射率（Catadioptric）。,Adjusts the catadioptric of the bokeh effect.\nValues above 0 will adda black circle in the center of the bokeh
+Adjusts the lens shift of the bokeh effect.（调整虚化效果的镜头偏移，数值大于 0 将使虚化边缘偏向蓝色，数值小于 0 将使虚化边缘偏向红色,"Adjusts the lens shift of the bokeh effect.\nValues above 0 will shift the bokeh edges to blue,\nvalues below 0 will shift the bokeh edges to red"
+使用的虚化类型,The type of bokeh to use
+从列表中选择相机,Select a camera from the list
+是调整倾斜偏移，还是调整镜头偏移,"Whether to adjust the tilt shift, or the lens shift"
+调整垂直倾斜偏移,Adjusts the vertical tilt shift
+调整水平倾斜移动,Adjusts the horizontal tilt shift
+调整虚化效果的比例,Adjusts the scale of the bokeh effect
+曝光补偿,Exposure Compensation
+调整虚化效果的曝光补偿。,"Adjusts the exposure compensation of the bokeh effect.\nBokeh naturally darkens the image, this can be used to compensate for that"
+预设,Presets
+画面拉伸效果的预设,Presets for the frame stretching effect
+.SAC 颜色级,.SAC Colorgrade
+.SAC 效果,.SAC Effects
+.SAC Colorwheel,.SAC Colorwheel
+.SAC色彩升级_色轮_阴影,SAC Colorgrade_Colorwheel_Shadows
+SAC 色彩升级_色轮_阴影_亮度,SAC Colorgrade_Colorwheel_Shadows_Brightness
+.SAC色彩升级_色轮_中间调,SAC Colorgrade_Colorwheel_Midtones
+SAC Colorgrade_Colorwheel_Midtones_亮度,SAC Colorgrade_Colorwheel_Midtones_Brightness
+SAC 颜色升级_色轮_高光,SAC Colorgrade_Colorwheel_Highlights
+SAC 颜色升级_色轮_高光_亮度,SAC Colorgrade_Colorwheel_Highlights_Brightness
+.SAC 对比度,.SAC Contrast
+对比度,SAC Colorgrade_Light_Contrast
+.SAC 曲线,.SAC Curves
+.SAC 颜色级_曲线_RGB,SAC Colorgrade_Curves_RGB
+.SAC色彩升级_曲线_HSV,SAC Colorgrade_Curves_HSV
+.SAC 暗部,.SAC Darks
+.SAC暗部,SAC Colorgrade_Light_Darks
+.SAC 曝光,.SAC Exposure
+.SAC色彩升级_光_曝光,SAC Colorgrade_Light_Exposure
+.SAC三个最大值,.SAC Three Max
+.SAC 合并,.SAC Combine
+.SAC滤色器,.SAC Filter
+.SAC 滤色器_红色,SAC Colorgrade_Filter_Red
+.SAC滤色器_绿色,SAC Colorgrade_Filter_Green
+.SAC滤色器_蓝色,SAC Colorgrade_Filter_Blue
+.SAC滤色器_混色,SAC Colorgrade_Filter_Mix
+.SAC 高光,.SAC Highlights
+.SAC 高光色调,SAC Colorgrade_Light_Highlights
+.SAC 高光色调,.SAC HighlightTint
+.SAC 高光色调,SAC Colorgrade_Presets_HighlightTint
+.SAC 阴影,.SAC Shadows
+.SAC 阴影色调,SAC Colorgrade_Light_Shadows
+.SAC 阴影色调,.SAC ShadowTint
+.SAC 阴影色调,SAC Colorgrade_Presets_ShadowTint
+.SAC 锐化,.SAC Sharpen
+.SAC 锐化,SAC Colorgrade_Presets_Sharpen
+.SAC 温度,.SAC Temperature
+颜色温度,SAC Colorgrade_Color_Temperature
+.SAC色调,.SAC Tint
+色调,SAC Colorgrade_Color_Tint
+.SAC 色差,.SAC Vibrance
+.SAC Colorgrade_Presets_Vibrance,SAC Colorgrade_Presets_Vibrance
+.SAC 白度,.SAC WhiteLevel
+.SAC WhiteLevel,SAC Colorgrade_Color_WhiteLevel
+.SAC 白度,.SAC Whites
+.SAC 白平衡,SAC Colorgrade_Light_Whites
+.SAC 虚化,.SAC Bokeh
+.SAC 效果_虚化偏移,SAC Effects_Bokeh_Offset
+.SAC 效果_虚化范围,SAC Effects_Bokeh_Range
+.SAC Effects_Bokeh_Image,SAC Effects_Bokeh_Image
+.SAC Effects_虚化_自定义图像,SAC Effects_Bokeh_Custom_Image
+SAC Effects_Bokeh_程序,SAC Effects_Bokeh_Procedural
+SAC Effects_Bokeh_Switch,SAC Effects_Bokeh_Switch
+SAC Effects_Bokeh_ImageSwitch,SAC Effects_Bokeh_ImageSwitch
+SAC Effects_Bokeh_旋转,SAC Effects_Bokeh_Rotation
+.SAC Effects_Bokeh_Blur,SAC Effects_Bokeh_Blur
+.SAC 彩扩,.SAC ChromaticAberration
+.SAC Effects_ChromaticAberration,SAC Effects_ChromaticAberration
+.SAC 双色调,.SAC Duotone
+.SAC Effects_Duotone_Colors,SAC Effects_Duotone_Colors
+.SAC 效果_双色调混合,SAC Effects_Duotone_Blend
+.SAC 浮雕,.SAC Emboss
+.SAC 效果_浮雕,SAC Effects_Emboss
+.SAC 胶片纹理,.SAC FilmGrain
+.SAC Effects_模糊效果,SAC Effects_FilmGrain_Blur
+.SAC Effects_FilmGrain_强度,SAC Effects_FilmGrain_Strength
+.SAC 鱼眼,.SAC Fisheye
+.SAC效果_鱼眼,SAC Effects_Fisheye
+.SAC FogGlow,.SAC FogGlow
+.SAC Effects_FogGlow,SAC Effects_FogGlow
+.SAC效果_雾光强度,SAC Effects_FogGlowStrength
+.SAC 幽灵,.SAC Ghost
+.SAC 效果_幽灵,SAC Effects_Ghosts
+效果强度,SAC Effects_GhostsStrength
+.SAC 梯度图,.SAC GradientMap
+.SAC渐变效果图,SAC Effects_GradientMap
+.SAC渐变效果图,SAC Effects_GradientMap_Mix
+.SAC 半色调,.SAC Halftone
+.SAC Effects_Halftone_SizeSave,SAC Effects_Halftone_SizeSave
+.SAC效果_半色调_切换,SAC Effects_Halftone_Switch
+SAC Effects_Halftone_纹理,SAC Effects_Halftone_Texture
+.SAC Effects_Halftone_Value,SAC Effects_Halftone_Value
+.SAC效果_半色调_Delta,SAC Effects_Halftone_Delta
+.SAC半色调部分,.SAC Halftone part
+.SAC 红外线,.SAC Infrared
+.SAC 效果_红外线_添加,SAC Effects_Infrared_Add
+.SAC 效果_红外线_混音,SAC Effects_Infrared_Mix
+.SAC ISO,.SAC ISO
+.SAC Effects_ISO_Despeckle,SAC Effects_ISO_Despeckle
+.SAC 效果_ISO_添加,SAC Effects_ISO_Add
+.SAC负片,.SAC Negative
+.SAC 效果_负片,SAC Effects_Negative
+.SAC 叠加,.SAC Overlay
+.SAC 效果_叠加,SAC Effects_Overlay
+.SAC 效果_叠加_纹理,SAC Effects_Overlay_Texture
+.SAC 透视偏移,.SAC PerspectiveShift
+.SAC 效果_透视位移_角钉,SAC Effects_PerspectiveShift_CornerPin
+.SAC 效果_透视平移_刻度,SAC Effects_PerspectiveShift_Scale
+.SAC像素化,.SAC Pixelate
+.SAC 效果_像素尺寸,SAC Effects_Pixelate_Size
+.SAC Posterize,.SAC Posterize
+.SAC 效果_海报化,SAC Effects_Posterize
+.SAC条纹,.SAC Streaks
+.SAC 效果_条纹,SAC Effects_Streaks
+.SAC 效果_条纹强度,SAC Effects_StreaksStrength
+.SAC曲线,.SAC Viginette
+.SAC 效果_曲线的圆度,SAC Effects_Viginette_Roundness
+.SAC 效果_曲线强度,SAC Effects_Viginette_Intensity
+.SAC 效果_曲线中点,SAC Effects_Viginette_Midpoint
+.SAC效果_曲线中点_添加,SAC Effects_Viginette_Midpoint_Add
+.SAC效果_轮廓_方向模糊,SAC Effects_Viginette_Directional_Blur
+.SAC扭曲,.SAC Warp
+.SAC Effects_Warp,SAC Effects_Warp
+虚拟操作员,Dummy Operator
+超级简单分析,Super Easy Analytics
+超级轻松分析》由 Beedy 开发。,Super Easy Analytics is developed by Beedy.
+您可以在我们的 Discord 服务器上跟踪开发过程。,You can track the development on our discord server.
+加入讨论区,Join Discord
+ 设置渲染的反弹设置。, Set the bounce settings for the render. 
+ 计算两幅图像之间的平均亮度差。, Calculate the average brightness difference between two images. 
+ 绘制每个反弹的渲染时间与亮度差异的对比图。, Plot the render time against brightness difference for each bounce. 
+ 绘制帧数与渲染时间的对比图。, Plot the frames against render time. 
+帧基准,Frame Benchmark
+启动单帧基准测试过程,Starts the benchmarking process for a single frame
+打开文件夹,Open Folder
+打开包含基准图像的文件夹,Open Folder with Benchmarked Images
+预览预设,Preview Preset
+最快的渲染设置 - 用于预览。,Fastest possible render settings - for previewing.
+快速预设,Fast Preset
+快速渲染设置--用于快速渲染。,Fast render settings - for quick renders.
+默认预置,Default Preset
+默认的 Blender 渲染设置。无优化。,Default blender render settings. No optimizations.
+高预设值,High Preset
+高质量渲染设置 - 用于最终渲染。,High quality render settings - for final renders.
+超预设,Ultra Preset
+最佳渲染设置--用于趣味渲染。,Best possible render settings - for fun renders.
+纹理优化,Texture Optimization
+优化纹理，降低内存使用率。,Optimize textures for lower memory usage.
+网格优化,Frame Optimization
+优化选定对象的网格。(使用修改器）,Optimizes the mesh for selected objects. (uses modifiers)
+[SFR]-分解-渲染,[SFR] - Decimate - Render
+[SFR] - 简化 - 视口,[SFR] - Decimate - Viewport
+移除优化,Remove Optimization
+删除所选对象的网格优化。,Removes the mesh optimization for the selected objects.
+估算渲染时间,Estimate Render Time
+估算动画的渲染时间,Estimates the render time for the animation
+超快渲染,Super Fast Render
+优化方法,Optimization Method
+未找到依赖项。请安装。,Dependencies not found. Please install them.
+工作目录,Working Directory
+基准分辨率,Benchmark Resolution
+场景类型,Scene Type
+开始设置：,Starting Settings:
+漫反射,Diffuse Bounces
+光泽反弹,Glossy Bounces
+透射反弹,Transmission Bounces
+体积反弹,Volume Bounces
+透明反弹,Transparent Bounces
+总反弹,Total Bounces
+反射浮灰,Reflective Caustics
+折射焦散,Refractive Caustics
+信息：,Info:
+反弹顺序图例：,Bounce Order Legend:
+0 = 扩散,0 = Diffuse
+1 = 光泽,1 = Glossy
+2 = 透射,2 = Transmission
+3 = 体积,3 = Volume
+4 = 透明,4 = Transparent
+5 = 反射焦散,5 = Reflective Caustics
+6 = 折射微尘,6 = Refractive Caustics
+基准框架,Benchmark Frame
+渲染,Render
+自适应采样,Adaptive Samples
+噪声阈值,Noise Threshold
+最小采样,Min Samples
+时间限制,Time Limit
+最大采样,Max Samples
+视口,Viewport
+模糊虚化,Blur Caustics
+最大直接亮度,Max Direct Brightness
+最大间接亮度,Max Indirect Brightness
+光树,Light Tree
+光线采样阈值,Light Sampling Threshold
+自动缩放,Auto Scrambling
+缩放距离,Scrambling Distance
+视口缩放,Viewport Scrambling
+体积渲染步进率,Volume Render Step Rate
+体积预览步进率,Volume Preview Step Rate
+体积最大步长,Volume Max Steps
+使用平铺渲染,Use Tiled Rendering
+平铺大小,Tile Size
+空间分割,Spacial Splits
+优化曲线,Optimize Curves
+保留渲染数据,Keep Render Data
+简化,Simplify
+细分,Subdivision
+子粒子,Child Particles
+纹理限制,Texture Limit
+体积分辨率,Volume Resolution
+子粒子渲染,Child Particles Render
+凹凸剔除,Frustrum Culling
+凹凸边缘,Frustrum Margin
+距离剔除,Distance Culling
+距离边缘,Distance Margin
+直接可见,Directly Visible
+间接可见,Indirectly Visible
+自定义,Custom
+转换为,Convert to:
+优化纹理,Optimize Textures
+优化框架,Optimize Frame
+建议使用的优化方法： 自动,The optimization method to use.\nRecommended: Automatic
+基准路径,Benchmark Path
+基准的工作目录： //SFR/,The working directory for the benchmark.\nRecommended: //SFR/
+以缩放的分辨率渲染场景，以加快基准测试的速度： 5%,"Render the scene at a scaled resolution to speed up the benchmark.\nHigher values will result in a more accurate benchmark, but will take longer to process.\nRecommended: 5%"
+基准的阈值。\n较低的值将导致更精确的基准，但处理时间较长： 0.1,"The threshold for the benchmark.\nLower values will result in a more accurate benchmark, but will take longer to process.\nRecommended: 0.1"
+添加关键帧,Add Keyframes
+添加基准设置的关键帧： 已启用,Keyframes the settings set by the benchmark.\nUseful for animation.\nRecommended: Enabled
+根据场景的不同，您可能需要不同的基准方法,"Depending on the scene, you may need a different benchmarking approach"
+弹跳顺序,Bounce Order
+决定一个动画的弹跳顺序。,"Determines the order in which the bounces are benchmarked.\nRecommended: 4,0,1,2,4,3,5,6"
+漫反射 / 反照率,Diffuse / Albedo
+漫反射,Diffuse
+环境遮蔽,Ambient Occlusion
+金属/镜面,Metallic / Specular
+金属,Metallic
+粗糙度/光泽度,Roughness / Glossiness
+粗糙度,Roughness
+正常/凹凸,Normal / Bump
+正常,Normal
+不透明度/透明度,Opacity / Transparency
+不透明度,Opacity
+半透明,Translucency
+发射,Emission
+位移,Displacement
+自定义 1,Custom 1
+自定义 2,Custom 2
+创建备份,Create Backup
+备份纹理,Backup Textures
+转换纹理格式,Converted Texture Format
+将纹理转换为的格式： PNG,The format to convert textures to.\nRecommended: PNG
+渲染细化,Render Decimation
+细化,Decimation
+视口细化,Viewport Decimation
+动态,Dynamic
+最大 质量,Max. Quality
+最大,Max
+最小 质量,Min. Quality
+最低,Min
+质量变化,Quality Change
+比率,Ratio
+渲染系数,Render Factor
+视口系数,Viewport Factor
+仅选定,Selected Only
+选定,Selected
+关键帧,Keyframe
+持续时间,Duration
+子帧,Subframes
+要渲染多少个子帧。,How many subframes to render.\n-1 = Auto
+分割,Divisions
+渲染应分割的次数。,How many times the render should be divided.
+.SID 跳过去噪器,.SID Skip Denoiser
+.SID 超级去噪器,.SID Super Denoiser
+.SID 超级,.SID Super
+漫反射去噪器,Diffuse Denoiser
+光泽去噪器,Glossy Denoiser
+传输去噪器,Transmission Denoiser
+体积去噪器,Volume Denoiser
+发射去噪器,Emission Denoiser
+环境去噪器,Environment Denoiser
+.SID 高级去噪器,.SID High Denoiser
+.SID 高级,.SID High
+.SID 标准,.SID Standard
+.SID 时间反照率,.SID Temporal Albedo
+.Super 图像去噪器,.Super Image Denoiser
+.SID 时域输出,SID Temporal Output
+SID 输出,SID Output
+.SID 时域中值最小值,.SID Temporal MedianMin
+.SID 时域中值最大值,.SID Temporal MedianMax
+.SID 时域裁剪,.SID Temporal Crop
+.SID 时态对齐,.SID Temporal Align
+添加超级图像去噪器,Add Super Image Denoiser
+在合成器中添加超级图像去噪器,Add Super Image Denoiser to the compositor
+检测通道,Detect Passes
+从材质中检测通道,Detect passes from the materials
+渲染动画,Render Animation
+使用 SID-Temporal 渲染动画,Render Animation with SID-Temporal
+打开包含渲染图像的文件夹,Open Folder with Rendered Images
+去噪动画,Denoise Animation
+使用 SID-Temporal 进行去噪动画处理,Denoise Animation with SID-Temporal
+打开包含去噪图像的文件夹,Open Folder with Denoised Images
+将帧合并为动画,Combine Frames To Animation
+将经过去噪处理的帧合成为动画,Combine Denoised Frames To Animation
+sRGB,sRGB
+打开包含合并动画的文件夹,Open Folder with Combined Animation
+通过,Passes
+高级设置,Advanced Settings
+质量,Quality
+常规设置,General Settings
+步骤 1：渲染,Step 1: Render
+覆盖现有文件,Overwrite existing files
+运动模糊,Motion Blur
+TED 滤镜,TED-Filter
+第 2 步：去噪,Step 2: Denoise
+初始化 SAC,Initialize SAC
+视频设置,Video Settings
+步骤 3：帧到动画（可选）,Step 3: Frames to Animation (optional)
+超级图像去噪器,Super Image Denoiser
+去噪类型,Denoiser Type
+刷新超级图像去噪器,Refresh Super Image Denoiser
+渲染,Rendering
+当前渲染,Currently rendering
+停止,Stop
+用户要求停止,User requested stop
+工作总数,Total Jobs
+要运行的工作总数,Total number of jobs to run
+已完成任务,Jobs Done
+已完成的任务数,Number of jobs completed
+剩余工作,Jobs Remaining
+仍未完成的工作数量,Number of jobs still remaining to complete
+%,%
+已完成任务的百分比,Percentage of jobs completed
+选择去噪类型：图像和动画。,Choose the denoiser type.\nSID: Images and Animations.\nSID-Temporal: Animations.
+选择最终去噪图像的质量。影响内存使用率和合成速度,Choose the quality of the final denoised image. Affects memory usage and speed for compositing
+漫反射去噪,Denoise the diffuse pass
+光泽,Glossy
+去噪光泽,Denoise the glossy pass
+透射,Transmission
+对传输通道进行去噪处理,Denoise the transmission pass
+体积,Volume
+对体积进行去噪处理,Denoise the volume pass
+噪音消除,Denoise the emission pass
+环境,Environment
+通过环境去噪,Denoise the environment pass
+多层 EXR,Multilayer EXR
+除了渲染文件外，还会输出一个多层 EXR 文件，其中包含所有经过去噪处理的通道。,"Outputs a multilayer EXR file in addition to the rendered file,\ncontaining all the denoised Passes.\nThis is useful for when you want to do further compositing in another program"
+保存多层 EXR 文件的目录,The directory where the multilayer EXR files will be saved
+保存渲染和去噪图像的目录,The directory where the rendered and denoised images will be saved
+自定义文件名,Custom File Name
+渲染和去噪图像的自定义名称。,The custom name of the rendered and denoised images.\nLeave empty for default name.
+较小的 EXR 文件,Smaller EXR Files
+这使得 EXR 文件在其他程序中的加载速度较慢，但可以节省大量磁盘空间。,"Saves the EXR files with the smallest possible file size.\nThis makes the EXR files slower to load in other programs, but saves a lot of disk space\nLossy compression is used, but usually unnoticeable"
+预览渲染,Preview Render
+在后台渲染，无需预览。,"Render in the background, without a preivew.\nThis option saves a lot of memory, but you can"
+使用超级高级相机,Use Super Advanced Camera
+使用 “超级高级摄影机” 附加组件来合成效果\n这将使合成器再次可用于时间去噪。\n\n 此选项将停止安装并启用 “超级高级相机” 插件,Use the Super Advanced Camera addon for compositing effects.\nThis will make the compositor useable again for temporal denoising.\n\nThis option rquieres the Super Advanced Camera addon to be installed and enabled.
+去噪时使用运动模糊,Use motion blur when denoising
+采样,Samples
+用于动态模糊的样本量,The amount of samples to use for motion blur
+快门速度,Shutter Speed
+动态模糊时使用的快门速度,The shutter speed to use for motion blur
+最小速度,Min Speed
+像素接收到的运动模糊的最小强度。,"The minimum intensity of motion blur a pixel will receive.\nThere will always be more motion blur than this, but this is the minimum"
+最大速度,Max Speed
+像素将接收到的运动模糊的最大强度。,The maximum intensity of motion blur a pixel will receive.\nThere will never be more motion blur than this.\n0 for no limit
+曲线插值,Curved Interpolation
+在帧与帧之间使用曲线插值\n而不是线性插值。,Interpolates between frames using a curve instead of linearly.\nThis makes the motion blur look more natural
+滤镜源,Filter Source
+选择 TED-Filter 用来检测伪影的来源。,Chose the source the TED-Filter will use to detect artifacts.
+滤镜阈值,Filter Threshold
+TED-Filter（TED 滤镜）会检测快速运动造成的伪影，我们建议大多数场景的阈值在 2 到 5 之间。,"The higher, the more agressive the TED-Filter will be.\nThe TED-Filter detects artifacts caused by fast movement.\nWe recommend a value between 2 and 5 for most scenes.\nA value of 0 will disable the filter."
+滤镜半径,Filter Radius
+这个值决定了 TED 滤镜的过渡应该有多平滑。,"The higher, the more feathering the TED-Filter will have.\nThis value determins how smooth the transition of the TED-Filter should be.\nWe recommend a value between 2 and 5 for most scenes.\nA value of 0 will disable the filter."
+过扫描,Overscan
+渲染帧外像素的数量。,The amount of pixels to render outside of the frame.\nUseful on fast camera motion.
+帧补偿,Frame Compensation
+由于时间去噪的工作方式，第一帧和最后两帧会被剪切掉。,"Due to the way temporal denoising works, the first and the last 2 frames will be cut off.\nThis option will compensate for that by using non temporal denoised frames as a replacement"
+文件输出,File Output
+选择步骤 2 输出的文件格式。,Choose the file format step 2 will output.
+选择步骤 3 输出的文件格式！,"Choose the file format step 3 will output.\nIf you need more options, let us know!"
+自动分割,Autosplit
+如果需要，可将视频分割成多个文件,Split the video into multiple files if it
+编码速度,Encoding Speed
+视频比特率,Video Bitrate
+视频的比特率，单位 kbps。,"The bitrate of the video in kbps.\nHigher is better, but also bigger"
+设置并验证插件数据。,Setup and validate the addon data.
+项目名称,Project Name
+项目文件夹名称,Name of the Project Folder
+项目位置,Project Location
+保存文件的位置,Saves the location of file
+项目设置,Project Setup
+打开目录,Open Directory
+创建项目后打开项目目录,Open the Project Directory after the Project is created
+新建未完成项目,New unfinished project
+添加新的未完成项目,Add a new unfinished project
+保存 Blender 文件,Save Blender File
+在构建时保存 Blender 文件。如果禁用，则只创建项目文件夹,"Save Blender File on build. If disabled, only the project folders are created"
+剪切或复制,Cut or Copy
+决定是否要将文件从当前文件夹剪切或复制到项目文件夹。,"Decide, if you want to cut or copy your file from the current folder to the project folder."
+以其他名称保存 Blender 文件,Save Blender File with another name
+添加版本号,Add Version Number
+如果文件已经存在，添加一个版本号,Add a Version Number if the File already exists
+保存文件名,Save File Name
+Blender 文件的名称,Name of the Blender File
+重新映射相对路径,Remap Relative
+重新映射相对路径,Remap the Relative Paths
+压缩保存,Compress Save
+在保存时压缩文件，这会使文件变小，但保存时间会延长。,"Compress the File on Save.\nThis will make the File smaller, but it will take longer to save.\nThis will not compress images."
+设置渲染输出,Set the Render Output
+将渲染输出设置为项目文件夹,Set the Render Output to the Project Folder
+切换到重新排列模式,Switch to Rearrange Mode
+返回文件夹树的字符串表示。,Return a string representation of the folder tree.
+__str__()的递归辅助函数。,Recursive helper function for __str__().
+将标记解析为路径树。,Parse tokens as tree of paths.
+将路径树编译成相对路径列表。,Compile the Tree into a list of relative paths.
+在系统中创建文件夹。,Create the folders on the system.
+构建项目,Build Project
+构建项目操作符 ,Build Project Operator 
+添加文件夹,Add Folder
+删除文件夹,Remove Folder
+删除所选文件夹。,Remove the selected Folder.
+添加新的文件夹结构集。,Adds a new folder structure set.
+添加文件夹结构集,Add Folder Structure Set
+文件夹结构集名称：,Folder Structure Set Name:
+删除文件夹结构集,Remove a folder structure set
+删除设置,Remove Set
+超级项目管理器,Super Project Manager
+自定义文件夹设置,Custom Folder Setup
+打开首选项,Open Preferences
+渲染路径,Render Path
+磁贴渲染到的路径。,The path where the tiles will be rendered to.
+超级真实音效,Super Real Sound
+Super Real Sound 由 Kevin 开发。,Super Real Sound is developed by Kevin.
+开始渲染,Start Render
+使用设置启动渲染农场,Uses the settings to start the render farm
+转到输出,Go To Outputs
+进入输出设置,Brings you to the outputs settings
+输出,OUTPUT
+保存主设置,Save Master Settings
+将主设置保存到文件中,Saves the master settings to a file
+超级渲染农场（即将推出）,Super Render Farm (coming soon)
+打开主设置,Open Master Settings
+传输方法,Transfer Method
+一切都是自动的,Everything is automatic
+SMB URL 为空,SMB URL is empty
+SMB 用户名为空,SMB Username is empty
+SMB 密码为空,SMB Password is empty
+FTP URL 为空,FTP URL is empty
+FTP 用户名为空,FTP Username is empty
+FTP 密码为空,FTP Password is empty
+渲染开始时关闭 Blender,Close Blender on render start
+不支持的文件格式,Unsupported file format
+渲染农场的工作目录： //SRF/,The working directory for the render farm.\nRecommended: //SRF/
+日志记录,Logging
+启用日志记录到文件： 这可能需要很大的磁盘空间： true,Enable logging to a file.\nWarning: This can require a lot of disk space.\nRecommended: True
+端口,Port
+服务器使用的端口： 19186,The port to use for the server.\nRecommended: 19186
+分析,Analytics
+启用分析功能。,Enable analytics.
+保存调试数据,Save Debug Data
+将调试数据保存到文件中。（n）完全本地化，数据不会发送到任何地方： 建议： true,"Saves debug data to a file.\nCompletely local, no data is sent anywhere.\nRecommended: True"
+IP 覆盖,IP Override
+覆盖服务器绑定的 IP 地址。,Override the IP address that the server binds to.\nLeave empty for automatic.
+PRF 覆盖,PRF Override
+覆盖 PRF 文件位置。,Override the PRF file location.\nLeave empty for automatic.
+客户端限制,Client Limit
+限制可连接的客户端数量。,Limit the number of clients that can connect.\n0 = No Limit
+FTP URL,FTP URL
+FTP 服务器的 URL。,The URL to the FTP server.
+FTP 用户名,FTP Username
+FTP 服务器使用的用户名。,The username to use for the FTP server.
+FTP 密码,FTP Password
+FTP 服务器使用的密码。,The password to use for the FTP server.
+SMB URL,SMB URL
+SMB 服务器的 URL。,The URL to the SMB server.
+SMB 用户名,SMB Username
+用于 SMB 服务器的用户名。,The username to use for the SMB server.
+SMB 密码,SMB Password
+用于 SMB 服务器的密码。,The password to use for the SMB server.
+数据库覆盖,Database Override
+覆盖数据库文件位置。,Override the database file location.\nLeave empty for automatic.
+使用 SFR,Use SFR
+在渲染前优化渲染设置,Optimizes your render settings before rendering
+使用 SID 时域,Use SID-Temporal
+使用 SID-Temporal 对动画进行去噪处理,Denoise your animation using SID-Temporal
+测试渲染,Test Render
+在渲染完整动画前渲染测试帧,Render a test frame before rendering the full animation
+批次大小,Batch Size
+一次渲染的帧数,The number of frames to render at once
+传输文件的方法,The method to use for transferring files
+渲染设备,Render Device
+用于渲染的设备,The device to use for rendering
+关闭渲染器,Close Blender
+渲染时关闭 Blender,Close Blender while rendering
+超级渲染输出（super_res_render_output,super_res_render_output
+非彩色,Non-Color
+分割当前摄像机,Split Active Camera
+细分活动相机,Subdivides the active Camera
+细分图像,Subdivides your Image
+停止渲染,Stop Render
+合并帧,Merge Frames
+将帧合并为一幅图像,Merge Frames into one Image
+超分辨率渲染,Super Resolution Render
+建议分辨率,Suggested Resolution:
+最大瓦片数,Max Tile:
+渲染,Rendering:
+开始渲染,Start Rendering
+停止渲染,Stop Rendering
+瓷砖总数,Total Tiles
+要渲染的瓷砖总数,Total number of tiles to render
+已渲染的瓷砖数,Tiles Done
+已渲染的瓷砖数量,Number of tiles rendered
+已渲染瓷砖的百分比,Percentage of tiles rendered
+方法,Method
+渲染时将图像分割成瓷砖的方法,Method used to divide image into tiles while rendering
+瓷砖,Tiles
+将渲染的图像细分为瓦片,Subdivisions of rendered image into tiles
+状态,Status
+开始平铺,Start Tile
+开始渲染的瓦片。,The Tile it starts rendering from.

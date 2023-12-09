@@ -1,0 +1,183 @@
+,"""\""""
+"""",""Camera From View"""
+创建相机,Create Camera
+使用空目标,With Empty Target
+前方,Front
+顶部,Top
+摄像机展位设置,Camera Booth Setup
+使用正射影像,Use Orthographic
+创建摄像机设置,Create Camera Setup
+曲线摄像机飞越,Curve Cam Fly Through
+曲线摄像机瞄准,Curve Cam With Aim
+限制选定的摄像机,Constraint Selected Cameras
+至选定曲线,To Selected Curve
+跟踪至活动对象,Track To Active Object
+选定摄像机实用程序,Selected Camera Utility
+选定摄像机至视图,Selected Camera To View
+框选活动摄像机至选定对象,Frame Active Camera To Selected Objects
+从选定对象,From Selected
+创建空目标,Create Empty Targets
+创建标记,Create Markers
+从曲线创建摄像机,Create Camera From Curves
+从摄像机创建曲线,Create Curve From Camera
+场景相机实用工具,Scene Camera Utility
+框选对象,Frame Selected Objects
+场景相机到视图,Scene Camera To View
+插槽 ,Slot 
+立方体,Cube
+摄像机和空目标,Camera And Empty Target
+前置摄像机,Front Camera
+顶部摄像机,Top Camera
+展位摄像机,Camera Booth
+曲线飞越摄像机,Curve Fly Through Cam
+所选摄像机中的空目标,Target Empties From Selected Cameras
+来自选定摄像机的标记,Markers From Selected Cameras
+来自选定曲线的夹紧摄像机,Clamped Camera From Selected Curves
+限制摄像机至曲线,Constraint Camera To Curve
+来自曲线的摄像机,Camera From Curves
+曲线取自相机,Curve From Camera
+ , 
+取景器菜单,Viewfinder Menu
+默认设置,INVOKE_DEFAULT
+相机预设,Camera Preset
+创建曲线飞越摄像机,Create Curve Fly Through Cam
+创建具有瞄准功能的曲线摄像机,Create Curve Cam With Aim
+从所选相机清空目标,Target Empties From Selected
+从选定的摄像机中提取标记,Markers From Selected Camera
+摄像机曲线工具,Camera Curve Tools
+混合工具,Blender Tools
+选中活动摄像机视图,Active Camera View Selected
+活动相机至视图,Active Camera To View
+三维视图,3D View
+查看器_MT_查看器_菜单,VIEWFINDER_MT_viewfinder_menu
+添加对齐的摄像机,Add Aligned Camera
+名称,Name
+侧面,Side
+距离,Distance
+角度,Angle
+查看摄像机,View Camera
+添加摄像头和空目标,Add Camera And Empty Target
+高度,Height
+形状,Shape
+显示尺寸,Display Size
+添加摄像机展位,Add Camera Booth
+尺寸,Size
+四分之一,Quarter
+底部,Bottom
+链接摄像机,Link Camera
+限制条件,Constraint
+第一个曲线后关闭影响,Turn Off Influence After First Curve
+清除位置,Clear Location
+跟随曲线角度,Follow Curve Angle
+面向前方,Face Forward
+从选定的摄像机创建和约束曲线,Create and Constraint Curve From Selected Camera
+曲线类型,Curve Type
+从视图创建摄像机,Create Camera From View
+移动摄像机,Dolly Camera
+当前帧的摄像机标记,Camera Markers at Current Frame
+添加到渲染剧照列表,Add to Render Still List
+从灯光创建空镜，并将灯光跟踪至创建的空镜,Create Empties from Light and Track the Light to the created Empties
+创建摄像机目标空镜,Create Camera Target Empties
+在前方,In Front
+从选定的曲线创建受约束的摄像机,Create Constrainted Camera From Selected Curves
+目标大小,Target Size
+目标距离,Target Distance
+目标形状,Target Shape
+目标在前方,Target In Front
+目标跟踪约束,Target Tracking Constraint
+从选定摄像机创建标记,Create Markers From Selected Camera
+帧增量,Frame Increment
+从选定摄像机到选定对象,Selected Camera To Selected Objects
+场景摄像机,Scene Camera
+活动摄像机,Active Camera
+预览摄像机,Preview Camera
+预览摄像机菜单,Preview Camera Menu
+预览摄像机设置,Preview Camera Settings
+分辨率,Resolution
+在相机视图中隐藏预览,Hide Preview In Camera View
+服从隐藏叠加,Obey Hide Overlay
+在预览中隐藏覆盖图,Hide Overlay in Preview
+显示相机名称,Display Camera Name
+标签字体,Label Font
+字体偏移,Font Offset
+字体大小,Font Size
+宽度,Width
+宽度模式,Width Mode
+显示,Display
+偏移,Offset
+模式,Mode
+X 位置,X Position
+Y 位置,Y Position
+边框,Border
+边框厚度,Thickness
+正常,Normal
+激活,Activate
+选择要查看的摄像机,Selected Camera to View
+摄像机查看,Camera To View
+跟踪约束所选摄像机至激活状态,Track Constraint Selected Camera To Active
+跟踪约束所选摄像机至激活状态,Track Constraint Selected Cameras To Active
+创建摄像机和目标,Create Camera And Target
+从目标创建摄像机,Create Camera From And Target
+创建空父节点,Create Empty Parent
+创建适合边界框的摄像机,Create Camera Fit Boundary Box
+影响 X,Affect X
+影响 Y,Affect Y
+影响 Z,Affect Z
+TGT_,TGT_
+尺寸_X,Dim_X
+尺寸_Y,Dim_Y
+尺寸_Z,Dim_Z
+透镜,Lens
+Res_X,Res_X
+Res_Y,Res_Y
+边界偏移,Offset_Boundary
+影响_X,Affect_X
+影响_Y,Affect_Y
+影响_Z,Affect_Z
+在所选位置创建灯光,Create Light At Selected
+从选定位置创建摄像机,Create Camera from Selected
+使用偏移,Use Offset
+正常偏移,Normal Offset
+旋转,Rotation
+使用集合,Use Collection
+父对象（约束）,Parent to Object (Constraint)
+骨骼父对象（约束）,Parent to Bone (Constraint)
+方向,Orientation
+翻转方向,Flip Direction
+创建目标,Create Target
+将摄像机锁定到视图,Lock Camera to View
+将摄像机缩放至 1 比 1,Zoom Camera to 1 to 1
+空距离,Empty Distance
+添加摄像机标记,Add Camera Marker
+添加标记,Add Marker
+帧,Frame
+将摄像机添加到静态列表,Add Camera to Still List
+将摄像机添加到照片列表,Add Camera To Still List
+复制摄像机,Duplicate Camera
+查找摄像机,Find Camera
+删除相机,Remove Camera
+选择相机,Select Camera
+分辨率与场景匹配,Resolution Match Scene
+取景器摄像机列表,Viewfinder Camera List
+设置标记,Set Marker
+滤镜,Filter
+使用分辨率,Use Resolution
+未找到相机,No Camera Found
+从取景器新建相机,New Camera From View
+摄像机,Camera
+分辨率 X,Resolution X
+分辨率 Y,Resolution Y
+光圈,Aperture
+取景器操作员,Viewfinder Operators
+面板,Panels
+取景器操作面板,Viewfinder Operators Panel
+类别,Category
+标签,Label
+取景器预览器面板,Viewfinder Previewer Panel
+使用相机菜单,Use Camera Menu
+添加菜单操作符,Add Menu Operators
+从所选相机清空,Empty From Selected
+从选定摄像机标记,Marker From Selected Camera
+从选定曲线夹紧相机,Clamped Camera From Selected Curve
+相机设置,Camera Setup
+相机预览,Camera Preview

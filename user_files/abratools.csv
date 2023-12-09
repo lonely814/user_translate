@@ -1,0 +1,217 @@
+,'
+动画频道,Animation Channels
+帧,Frames
+返回 AddonPreferences 类型,Returns AddonPreferences type
+更改活动关键帧集,Changes active KeyingSet
+函数将返回所选关键帧的索引,Function will return an index of selected keyframes
+返回所选关键帧最左和最右的帧范围的 [最小，最大] 值,"Returns [min, max] of frame range of leftmost and rightmost selected keys"
+"返回指定曲线中键的 [x,y] 坐标","Returns [x,y] coordinates of key from specified curve"
+"返回 [x1, y1, x2, y2] 左/右键柄的坐标","Returns [x1, y1, x2, y2] coordinates of left/right key handles"
+返回 [x1、y1、x2、y2] 控制柄与按键的距离,"Returns [x1, y1, x2, y2] distance of handles from key"
+返回两个键柄的 [斜边，斜边,"Returns [hypotenuse, hypotenuse] of both key handles"
+按相对于按键的角度设置手柄。,Sets the handle by angle relative to the key.
+返回键在给定帧上的索引。,Return the index of the key at the given frame.
+返回指定曲线索引上的键，非选定索引,"Returns the key on specified curve index, NOT SELECTED INDEX"
+返回指定选中索引上的键,Returns the key on specified selected index
+Returns the left neighbour of a key selection. 基本上，这是左侧第一个未被选中的键。如果选择不包含邻键，则返回 None。,Returns the left neighbour of a key selection. Essentially this is the first key to the left that is not selected. Returns None if selection contains no neighbour.
+返回选中键的右邻键。基本上是右边第一个未被选中的按键。如果选中的键不包含邻键，则返回 None（无）。,Returns the right neighbour of a key selection. Essentially this is the first key to the right that is not selected. Returns None if selection contains no neighbour.
+返回按键的左邻。,Returns the left neighbour of a key.
+返回按键的右邻。,Returns the right neighbour of a key.
+从活动对象的选择集中选择骨骼。,Selects bones from selection set of active object.
+选择位于播放头的关键帧。请注意，此功能保留通道选择，只影响关键帧选择。,Selects keyframes that lie on the playhead. Do note that this function preserves channel selections and only affects keyframe selection.
+创建新的选择集，并将选中的骨骼分配给它,Creates a new selection set and assign selected bones to it
+在指定的关键帧数组中插入一个关键帧,Inserts a key on specified key array
+返回所选骨骼总数的 int。如果用户未处于姿势模式，则返回 0,"Returns int of total bones selected. If user is not in pose mode, 0 is returned"
+返回 bool。检查插件是否已安装并启用。用于第三方功能。,"""Returns bool. Checks if addon \""name\"" is installed and enabled. Used for third-party functions."""
+返回 [bool，bool]。运行活动屏幕中所有基于时间的区域并查找 OSS。如果关闭，则立即中断并返回 false，用于密钥管理。,"Returns [bool, bool]. Runs through all time-based areas in the active screen and look for OSS. If it's off, immediately break and return false to use for key management."
+返回 Bool。确定骨骼是否通过活动骨骼层可见。,Returns Bool. Determines if the bone is visible via active bone layers.
+ , 
+"""\""""
+"""", ""按键选择曲线""","""\""""
+"""",""Key Selected Curves"""
+为所有选中的 F 曲线在播放头上插入一个键,Inserts a key on the playhead for all selected F-Curves
+键入可见曲线,Key Visible Curves
+在所有可见 F 曲线的播放头上插入一个键,Inserts a key on the playhead on all visible F-Curves
+复制关键帧,Copy Keys
+将播放头上任何可见的关键帧复制到剪贴板。请注意，这将覆盖当前剪贴板和未在播放头上的任何选定关键帧。,Copies any visible keyframes on playhead to a clipboard. Note that this will overwrite your current clipboard and any selected keyframes not on the playhead
+粘贴关键帧,Paste Keys
+从剪贴板粘贴任何关键帧的简单操作,Simple operator to paste any keyframes from clipboard
+复制姿势,Copy Pose
+复制所有可见骨骼的姿势,Copies the pose of all visible bones
+粘贴姿势,Paste Pose
+粘贴缓冲区中的姿势数据（如果有）。此操作与 ,"Paste pose data from buffer, if any. This does the same as "
+删除键,Delete Keys
+删除选中的按键。如果未选择任何按键，则会删除播放头的按键。,"Deletes selected keys. If nothing is selected, keys from the playhead will be deleted instead"
+复制按键时序,Copy Key Timing *
+* ,* 
+键入所有形状键,Key All Shape Keys
+在选定对象上插入关键帧,Inserts a keyframe on selected object
+键控整个纟,Key Whole Armature
+键入纟上的所有骨骼。这样可以省下几次 [A] 和 [I] 键的按键次数,Keys every single bone on the armature. This saves you a couple [A] and [I] keypresses
+场景重定时,Retime Scene
+通过自动平移关键帧和标记，在关键帧之间添加指定的空间,Adds a specified amount of space between keys by translating keys and markers automatically
+烘烤按键,Bake Keys
+添加和替换所有选定对象的键,Adds and replaces keys for all selected objects
+选择子对象,Select Children
+从所有选定的骨骼中选择子对象。按住 SHIFT 键可将骨骼添加到选区而不是替换,Selects the children from all selected bones. Hold SHIFT to add bones to selection instead of replace
+选择同胞,Select Siblings
+选择与所选骨骼相关的所有其他子代,Selects all other children related to selected bones
+选择父代,Select Parent
+从所有选中的骨骼中选择父代。按住 SHIFT 可将骨骼添加到选区，而不是替换,Selects the parent from all selected bones. Hold SHIFT to add bones to selection instead of replace
+选择镜像,Select Mirror
+"选择相反的骨骼。要使其生效，相邻骨骼必须具有相同的名称，并带有表示其位置的前缀/后缀（例如：""Cursor to Selected Bone""）： ","Selects the opposite bone. For this to work, adjacent bones must have the same name with a prefix/suffix denoting their position (ex: "
+光标到选中,Cursor to Selected
+Blender 原生功能，用于将 3D 光标移动到选定对象上,Native Blender function that moves the 3D cursor to selected objects
+切换光标枢轴,Toggle Cursor Pivot
+在三维光标和单个起源枢轴类型之间快速切换,Quickly changes between 3D Cursor and Individual Origins pivot types
+切换光标小工具,Toggle Cursor Gizmo
+切换可转换 3D 光标的小工具,Toggles a gizmo that allows you to transform the 3D Cursor
+光标小工具桥,aTCursorGizmoBridge
+光标小工具,aTCursorGizmo
+光标小工具（执行）,Cursor Gizmo (Exec)
+仅供内部使用,Internal use only
+查看选择设置,View Selection Sets *
+交换装配模式,Swap Rig Mode
+"在 ""姿势""/""物体 ""模式之间切换，并选择相关的电枢或电枢网格。在 ""姿势 ""模式外使用装配体形状键时，如果希望更快地访问网格，或反之亦然，这将非常有用。","Swaps between Pose/Object Mode and selects the associated armature or armature meshes. Useful when working with rig shape keys outside of Pose Mode and want to access the mesh faster, and vice versa"
+计算运动路径,Calculate Motion Path
+为所有选定对象生成运动轨迹。按住 Shift + 单击可进行其他设置,Generates motion paths for all selected objects. Shift + Click for additional settings
+清除路径,Clear Paths
+删除场景中的所有运动路径。Shift + 单击只删除所选对象的路径,Removes all motion paths from scene. Shift + Click to remove paths from selected objects only
+帧范围到选区,Frame Range to Selection
+将帧范围设置为当前关键帧的选区,Sets the frame range to the current keyframe selection
+帧范围至标记,Frame Range to Markers
+将帧范围设置为距离当前帧最近的标记。如果您,Sets the frame range to the markers that are nearest to the current frame. Useful if you
+设置自由切线,Set Free Tangent
+将所有选定关键帧设置为自由切线的简单操作,Simple operator to set all selected keys to Free
+设置对齐切线,Set Aligned Tangent
+将所有选中的键设置为对齐的简单操作符,Simple operator to set all selected keys to Aligned
+设置矢量切线,Set Vector Tangent
+将所有选定键设置为矢量的简单操作符,Simple operator to set all selected keys to Vector
+设置自动切线,Set Automatic Tangent
+将所有选定键设置为自动的简单操作符,Simple operator to set all selected keys to Automatic
+设置自动夹紧切线,Set Auto Clamped Tangent
+将所有选定键设置为自动夹紧的简单操作符,Simple operator to set all selected keys to Auto-Clamped
+隔离曲线（执行）,Isolate Curves (Exec)
+隔离曲线,Isolate Curves
+启用此功能后，AbraTools 将自动隐藏 F-Curve 通道，这些通道将不会显示在屏幕上。,"While enabled, AbraTools will automatically hide F-Curve channels that aren"
+自动框架,Auto Frame
+"启用此功能后，AbraTools 将在帧范围内自动将 F 曲线框入视图。与 ""隔离曲线 ""一起使用效果最佳。此功能为测试版","While enabled, AbraTools will automatically frame F-Curves into view within the frame range. Works best alongside Isolate Curves. This is a beta feature"
+自动叠加,Automatic Overlay
+启用后，AbraTools 将在播放动画时自动关闭叠加功能。,"While enabled, AbraTools will automatically turn off overlays while animation is playing"
+自动叠加（执行）,Auto Overlay (Exec)
+转到下一关键帧,Go to Next Keyframe
+根据 FCurve 可见性和关键帧选择，将播放头智能放置到下一个关键帧。,Smart playhead placement to next keyframe based on FCurve visibility and keyframe selection.
+转到上一关键帧,Go to Previous Keyframe
+根据 FCurve 可见性和关键帧选择，将播放头智能放置到上一个关键帧。,Smart playhead placement to previous keyframe based on FCurve visibility and keyframe selection.
+快速查看位置,Quick View Location
+只显示位置 F 曲线的快速操作,Quick operation to only show location F-Curves
+快速查看旋转,Quick View Rotation
+只显示欧拉旋转 F 曲线的快速操作。按住 Shift + 单击可显示四元数 F 曲线,Quick operation to only show euler rotation F-Curves. Hold Shift + Click to show quaternion F-Curves
+快速查看比例,Quick View Scale
+只显示比例 F 曲线的快速操作,Quick operation to only show scale F-Curves
+快速查看形状键,Quick View Shape Keys
+只显示形状键 F 曲线的快速操作,Quick operation to only show shape key F-Curves
+快速查看自定义属性,Quick View Custom Properties
+只显示自定义属性 F 曲线的快速操作,Quick operation to only show custom property F-Curves
+快速查看约束影响,Quick View Constraint Influence
+只显示约束影响的快速操作 F 曲线,Quick operation to only show constraint influence F-Curves
+运动轨迹设置,Motion Path Settings
+活动对象不支持运动轨迹。,Active object does not support motion paths.
+未选择活动对象。,No active object is selected.
+不支持的对象,Unsupported object
+尝试在对象/姿势模式下选择其他对象,Try selecting something in object/pose mode
+重新计时,Retime
+重命名,renaming
+选择这组骨骼。也可以通过 Shift + 单击将这组骨骼添加到当前选区中,Select this set of bones. You can also Shift + Click to add this set to your current selection
+设置选择器,Set Selector
+设置索引,set_index
+重命名选择集,Rename a selection set
+重命名选择集,Rename Set
+为当前选中的骨骼创建一个选区集,Create a selection set for the current selected bones
+创建选择集,Create Set
+删除活动的选择集,Deletes active selection set
+删除选择集,Delete Set
+上移列表中的活动集合,Moves up the active set in the list
+上移,Move Up
+下移列表中的活动设置,Moves down the active set in the list
+下移,Move Down
+将所选骨骼分配到活动选择集,Assigns selected bones to active selection set
+分配骨骼,Assign Bones
+将选中的骨骼从活动选择集中移除,Removes selected bones from active selection set
+删除骨骼,Remove Bones
+选择集面板,Selection Sets Panel
+默认值,INVOKE_DEFAULT
+此纟不存在选择集。,No selection sets exist for this armature.
+从当前选区创建选区集,Create a set from current selection
+此工具仅支持姿势模式,This tool only supports Pose Mode
+请启用 ,Please enable 
+AbraTools 状态,AbraTools State
+供内部使用。检查 AbraTools 是否已覆盖首选项面板,For internal use. Checks whether AbraTools has overridden the preferences panel
+已启用隔离曲线,Isolate Curves Enabled
+供内部使用。检查用户是否启用了隔离曲线,For internal use. Checks if user enabled Isolate Curves
+已启用自动框架,Auto Frame Enabled
+供内部使用。检查用户是否启用了自动框架,For internal use. Checks if user enabled Auto Frame
+已启用自动叠加,Auto Overlay Enabled
+供内部使用。检查用户是否启用了自动叠加功能,For internal use. Checks if user enabled Auto Overlay
+光标小工具 已启用,Cursor Gizmo Enabled
+供内部使用。检查用户是否启用光标小工具,For internal use. Checks if user enabled Cursor Gizmo
+范围,Range
+帧前,Frames Ahead
+用于计算运动路径的当前帧的帧数。例如，如果当前帧数为 20，而前置帧数为 25，则将为第 20 至 45 帧创建运动路径。,"The amount of frames from the current frame to calculate a motion path. For example, if your current frame is 20 and Frames Ahead is 25, it will create a motion path for frames 20 to 45"
+骨骼路径,Bone Path
+标题颜色,Header Color
+使用 AbraTools 时标题的颜色,The color of the header while AbraTools is in use
+按钮宽度,Button Width
+设置工具栏中按钮的宽度,Sets the width of buttons in the toolshelf
+调试模式,Debug Mode
+仅供开发人员使用。向 Blender 控制台打印额外内容,Developer use only. Prints additional content to the Blender console
+帧开始,Frame Start
+将对其右侧的所有按键重新计时的帧,The frame that will retime all keys to the right of it
+帧偏移,Frame Offset
+按键移动的帧数,The amount of frames the keys will be moved by
+为选定对象重新定时,Retime Selected
+仅为选定对象的按键重新计时。禁用时，将对所有按键进行重置,"Retimes keys of selected objects only. When disabled, it will retime all keys instead"
+重置隐藏对象,Retime Hidden Objects
+对隐藏对象进行重置,Retime hidden objects
+重置标记,Retime Markers
+重置时间线标记,Retime timeline markers
+帧步进,Frame Step
+在烘焙出另一个按键之前提前多少帧,How many frames ahead until another key is baked
+插值,Interpolation
+烘焙键将使用的插值类型。大多数情况下，建议使用贝塞尔插值,"The type of interpolation that baked keys will use. In most cases, Bezier is recommended"
+手柄,Handle
+烘焙键将使用的手柄类型。大多数情况下建议使用自动,"The type of handles that baked keys will use. In most cases, Automatic is recommended"
+切换 AbraTools 工具栏,Toggles the AbraTools toolshelf
+在编辑器下方打开 abraTools 工具栏,Opens an abraTools toolshelf below this editor
+重写使用 AbraTools 的首选项标题。,Overrides preferences header for AbraTools usage.
+关闭 AbraTools 时，恢复原始首选项窗口。,Restores original preferences window when AbraTools is toggled off.
+绘制 aT 标题和工具,Draw aT header and tools
+EXEC_DEFAULT,EXEC_DEFAULT
+绘制 aT 主体（可见性选项和设置）,Draw aT body (visibility options and settings)
+AbraTools 设置面板,AbraTools Settings Panel
+在此，您可以修改标题的外观和工具可见性。,"Here, you can modify the appearance and tool visibility for the header."
+一旦您,Once you
+感谢您使用 AbraTools。,Thank you for using AbraTools.
+文档,Documentation
+GitHub,GitHub
+开发,Developed with
+开发的,from Abrax Operations
+修改图形编辑器中元素可见性的工具,Tools that modify the visibility of elements in the Graph Editor
+修改和管理关键帧的工具,Tools that modify and manage keyframes
+修改关键帧切线的工具,Tools that modify tangents of keyframes
+修改对象选择的工具,Tools that modify the selection of objects
+其他实用工具,Other useful tools
+第三方插件：,Third-party Addons:
+动画拷贝 (已安装),Animcopy (INSTALLED)
+动画复制,Animcopy
+由 Blastframe 提供 | 点击购买,By Blastframe | Click to Buy
+复制全局变换（已安装）,Copy Global Transform (INSTALLED)
+复制全局变换,Copy Global Transform
+本地插件,Native Add-on
+骨骼选择集（已安装）,Bone Selection Sets (INSTALLED)
+骨骼选择集,Bone Selection Sets
+某些工具需要第三方插件才能使用,Some tools require third-party addons in order to use
+我们与这些附加组件无关，也未经其认可,We are not affiliated nor endorsed by these addons
+aT | beta1,aT | beta1
+绘制侧边栏标签,Draw sidebar tabs
+退出,Exit
