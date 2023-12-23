@@ -11,7 +11,7 @@
 返回两个键柄的 [斜边，斜边,"Returns [hypotenuse, hypotenuse] of both key handles"
 按相对于按键的角度设置手柄。,Sets the handle by angle relative to the key.
 返回键在给定帧上的索引。,Return the index of the key at the given frame.
-返回指定曲线索引上的键，非选定索引,"Returns the key on specified curve index, NOT SELECTED INDEX"
+返回指定曲线索引上的键（非选定索引,"Returns the key on specified curve index, NOT SELECTED INDEX"
 返回指定选中索引上的键,Returns the key on specified selected index
 Returns the left neighbour of a key selection. 基本上，这是左侧第一个未被选中的键。如果选择不包含邻键，则返回 None。,Returns the left neighbour of a key selection. Essentially this is the first key to the left that is not selected. Returns None if selection contains no neighbour.
 返回选中键的右邻键。基本上是右边第一个未被选中的按键。如果选中的键不包含邻键，则返回 None（无）。,Returns the right neighbour of a key selection. Essentially this is the first key to the right that is not selected. Returns None if selection contains no neighbour.
@@ -76,9 +76,9 @@ Blender 原生功能，用于将 3D 光标移动到选定对象上,Native Blende
 计算运动路径,Calculate Motion Path
 为所有选定对象生成运动轨迹。按住 Shift + 单击可进行其他设置,Generates motion paths for all selected objects. Shift + Click for additional settings
 清除路径,Clear Paths
-删除场景中的所有运动路径。Shift + 单击只删除所选对象的路径,Removes all motion paths from scene. Shift + Click to remove paths from selected objects only
-帧范围到选区,Frame Range to Selection
-将帧范围设置为当前关键帧的选区,Sets the frame range to the current keyframe selection
+删除场景中的所有运动路径。Shift + 点击仅删除选定对象的路径,Removes all motion paths from scene. Shift + Click to remove paths from selected objects only
+帧范围到选择,Frame Range to Selection
+将帧范围设置为当前选择的关键帧,Sets the frame range to the current keyframe selection
 帧范围至标记,Frame Range to Markers
 将帧范围设置为距离当前帧最近的标记。如果您,Sets the frame range to the markers that are nearest to the current frame. Useful if you
 设置自由切线,Set Free Tangent
@@ -115,7 +115,7 @@ Blender 原生功能，用于将 3D 光标移动到选定对象上,Native Blende
 只显示自定义属性 F 曲线的快速操作,Quick operation to only show custom property F-Curves
 快速查看约束影响,Quick View Constraint Influence
 只显示约束影响的快速操作 F 曲线,Quick operation to only show constraint influence F-Curves
-运动轨迹设置,Motion Path Settings
+运动路径设置,Motion Path Settings
 活动对象不支持运动轨迹。,Active object does not support motion paths.
 未选择活动对象。,No active object is selected.
 不支持的对象,Unsupported object
@@ -137,7 +137,7 @@ Blender 原生功能，用于将 3D 光标移动到选定对象上,Native Blende
 下移,Move Down
 将所选骨骼分配到活动选择集,Assigns selected bones to active selection set
 分配骨骼,Assign Bones
-将选中的骨骼从活动选择集中移除,Removes selected bones from active selection set
+从活动选择集中移除所选骨骼,Removes selected bones from active selection set
 删除骨骼,Remove Bones
 选择集面板,Selection Sets Panel
 默认值,INVOKE_DEFAULT
@@ -189,7 +189,7 @@ AbraTools 状态,AbraTools State
 EXEC_DEFAULT,EXEC_DEFAULT
 绘制 aT 主体（可见性选项和设置）,Draw aT body (visibility options and settings)
 AbraTools 设置面板,AbraTools Settings Panel
-在此，您可以修改标题的外观和工具可见性。,"Here, you can modify the appearance and tool visibility for the header."
+在这里，您可以修改标题的外观和工具可见性。,"Here, you can modify the appearance and tool visibility for the header."
 一旦您,Once you
 感谢您使用 AbraTools。,Thank you for using AbraTools.
 文档,Documentation
@@ -215,3 +215,5 @@ GitHub,GitHub
 aT | beta1,aT | beta1
 绘制侧边栏标签,Draw sidebar tabs
 退出,Exit
+,
+,

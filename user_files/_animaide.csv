@@ -1,0 +1,259 @@
+,'
+,"""\""""
+"""",""Key Manager"""
+动画偏移,Anim Offset
+改变工具模式的工作方式,Changes how the tools modal work
+参考帧使用标记,use markers for the reference frames
+打开动画偏移,Anim Offset on
+按键管理器开启,Key Manager on
+鼠标释放时激活,Activate on mouse release
+使用标记,Use markers
+快速计算,Fast calculation
+面板,Panel
+ , 
+动画辅助,AnimAide
+帧上曲线工具,On Frame Curve Tools
+饼状动画偏移,Pie AnimOffset
+ANIMAIDE_MT_pie_anim_offset,ANIMAIDE_MT_pie_anim_offset
+滑块操作符预设,Slider Operators Preset
+测试,Test
+激活无 maks 的动画偏移,Activates Anim Offset without maks
+动画偏移,AnimOffset
+停用动画偏移,Deactivates Anim Offset
+关闭动画偏移,AnimOffset off
+添加或修改动画偏移遮罩并激活它,Adds or modifies Anim Offset mask and activates it
+动画偏移遮罩,AnimOffset Mask
+删除并停用动画偏移掩码,Deletes Anim Offset mask and deactivates it
+关闭动画偏移遮罩,AnimOffset Mask off
+显示动画偏移的全局选项,Shows global options for Anim Offset
+动画偏移设置,Anim Offset Settings
+设置,Settings
+鼠标释放时遮罩结束,masking ends on mouse release
+快速偏移计算,Fast offset calculation
+自动按键外边距,Auto Key outside margins
+蒙版混合插值,Mask blend interpolation
+使用标记,Use Markers
+蒙版混合插值,Mask Blend Interpolation
+蒙版混合缓和,Mask Blend Easing
+由 anim_offset 处理程序运行的函数,Function to be run by the anim_offset Handler
+确定用户对当前对象所做的变换改变,Determine the transformation change by the user of the current object
+"在名为 ""animaide ""的动作中添加一条带有 4 个控制点的曲线，作为 anim_offset 的遮罩",Add a curve with 4 control pints to an action called 'animaide' that would act as a mask for anim_offset
+删除用作 anim_offset 遮罩的 fcurve 和动作,Removes the fcurve and action that are been used as a mask for anim_offset
+修改用作 anim_offset 遮罩的 fcurve 4 个控制点的位置 ,Modify the position of the fcurve 4 control points that is been used as mask to anim_offset 
+使用时间线回放和预览范围来表示遮罩,Use the timeline playback and preview ranges to represent the mask
+将时间线重放和预览范围重置为用户所设定的范围,Resets the timeline playback and preview ranges to what the user had it as
+存储时间线重放和预览范围,Stores the timeline playback and preview ranges
+轮询所有与 anim_offset 相关的操作符,Poll for all the anim_offset related operators
+获取动画偏移的全局值,Get global values for the anim_offset
+现在动画偏移按钮,Now Anim Offset buttons
+在时间线,are in the timeline
+标题中的,header next to Animaide
+菜单,menu
+停用,Deactivate
+激活,Activate
+停用遮罩,Deactivate Mask
+屏蔽,Mask
+修改遮罩,Modify Mask
+遮罩混合插值：,Mask blend interpolation:
+打开,On
+关闭,Off
+动画偏移蒙版,Anim Offset Mask
+添加/修改,Add/Modify
+删除,Delete
+无遮罩的动画偏移,AnimOffset Without Mask
+添加动画偏移遮罩,Add AnimOffset Mask
+删除动画偏移遮罩,Delete AnimOffset Mask
+停用动画偏移,Deactivate AnimOffset
+影响,Influence
+获取使用曲线工具所需的所有全局值,Gets all the global values needed to work with the curve_tools
+曲线雕刻器,Curve Sculptor
+模式,Mode
+"将选定的或当前的按键从 ""邻近的",Transition selected or current keys from the neighboring\n
+"以 ""S ""形的方式（同时缓入和缓出）转换选中的或当前的按键。","""ones in a \""S\"" shape manner (ease-in and ease-out simultaneously).\n"""
+它不考虑当前的键值。,It doesn't take into consideration the current key values.\n
+Ease To Ease,Ease To Ease
+"""以 ""C ""形方式（ease-in 或 ease-out）执行。它不","""ones in a \""C\"" shape manner (ease-in or ease-out). It doesn't\n"""
+考虑当前键值。,take into consideration the current key values.
+缓和,Ease
+使用邻近的按键将选定的或当前的按键混合到缓入或缓出曲线中。,Blend selected or current keys to the ease-in or ease-out\n
+曲线。,curve using the neighboring keys.
+混合缓和,Blend Ease
+将选中或当前按键与相邻左键或右键的值混合。,Blend selected or current keys to the value of the neighboring\n
+左键或右键的值。,left or right keys.
+混合邻近键,Blend Neighbor
+将选定或当前按键与邻近按键的斜度混合,Blend selected or current keys to the slant of neighboring\n
+无限混合,Blend infinite
+将选中的按键或当前按键与所选中的,Blend selected or current keys to the value of the chosen\n
+左框或右框的值。,left or right frames.
+混合帧,Blend Frame
+将选中的按键或当前按键移动到所选左右边框的值上。,Shift selected or current keys to the\n
+值。,value of the chosen left and right frames.
+混合偏移,Blend Offset
+设置所选按键或当前按键与相邻按键的线性相对值（n,Set lineal relative value of the selected or current keys \n
+与相邻按键的线性相对值。它不考虑,in relationship to the neighboring ones. It doesn't take into\n
+当前键值。,consideration the current key values.
+渐变,Tween
+放大或缩小选定或当前按键的值,Exagerates or decreases the value of the selected or current keys
+推拉,Push Pull
+平均选定按键的值，创建更平滑的曲线,Averages values of selected keys creating a smoother fcurve
+平滑,Smooth
+在时间上移动所选按键或当前按键的值 ,Shift the value in time of selected or current keys 
+时间偏移,Time Offset
+%s.%d.clone,%s.%d.clone
+右剪切,Shear Right
+向左剪切,Shear Left
+为选定或当前按键设置随机值,Set random values to the selected or current key \n
+或将其设置为波形模式。,or set them in a wave pattern.
+波浪-噪音,Wave-Noise
+增大或减小所选按键或当前按键 （n）的值，使其与左侧相邻按键 （n）的值保持一致。,Increase or decrease the value of selected or current keys \n
+的数值。,in relationship to the left neighboring one.
+左缩放,Scale Left
+与右侧相邻键的关系。,in relationship to the right neighboring one.
+右缩放,Scale Right
+与受影响键的平均值的关系,in relationship to the average point of those affected
+平均缩放,Scale Average
+显示曲线工具的全局选项,Shows global options for Curve Tools
+工具设置,Tools Settings
+过冲,overshoot
+仅光标下的按键,Only keys under cursor
+释放时激活,Activates on release
+缓和斜率,Ease slope
+噪音设置,Noise settings
+相位,Phase
+刻度,Scale
+将帧添加到列表中，供日后用作参考,Adds a frame to the list for latter use as reference
+添加书签,Add Bookmark
+帧 %s,frame %s
+从列表中删除帧 ,Delete frame from the list 
+删除书签,Delete Bookmark
+推送书签框架作为参考框架,Pushes the bookmarked frame to be used as reference frame
+推送书签,Push Bookmark
+设置 BLEND FRAME\n 工具将使用的参考帧。,Sets a reference frame that will be use by the BLEND FRAME\n
+工具将使用的参考帧。左边的设置左参考框，右边的设置右参考框。,"tool. The one at the left sets the left reference, and the\n"
+则设置右参考帧,one on the right sets the right reference
+获取参考帧,Get Reference Frames
+使用修改器为曲线添加噪点,Add noise to a curve using a modifier
+修改器,Modifier
+路径,Path
+之前,Before
+影响未选中的曲线,Affect unselected fcurves
+当光标在未选中的按键上时，影响这些按键,Affect unselected keys when cursor is over them
+展开,Expand
+在工具的压缩和扩展模式之间切换,Toggle between compact and expanded modes for the Tools
+更改噪声形状,Change noise shape
+改变噪音比例,Change noise scale
+确定过渡的锐利程度,Determine how sharp the trasition is
+过冲,Overshoot
+允许更高的数值,Allows for higher values
+粘性手柄,Sticky Handles
+如果开启，将独立修改关键点,If On key points will be modified independently\n
+缓和工具选择器,Ease Tool Selector
+为曲线添加噪声修改器,Adds noise modifier to an fcurve
+将所选键设置为全局变量中的值,Set selected keys to the values in the global variables
+S 曲线公式,Formula for 'S' curve
+缓入或缓出曲线公式,Formula for ease-in or ease-out curve
+相邻曲线之间的线性过渡,Lineal transition between neighbors
+默认值,EXEC_DEFAULT
+参考帧：,Referece frames:
+L:,L:
+R:,R:
+-1,-1
+0,0
+1,1
+曲线工具,Curve Tools
+展开_3d,expand_3d
+选择器_3d,selector_3d
+展开,expand
+选择器,selector
+粘性手柄,Sticky handles
+选项,Cicle Options
+框架书签,Frame Bookmarks
+调整,Tweak
+向左调整,Tweak Left
+向右调整,Tweak Right
+左匹配,Match Left
+右匹配,Match Right
+饼形曲线工具,Pie Curve Tools
+A 组,Group A
+ANIMAIDE_MT_pie_curve_tools_a,ANIMAIDE_MT_pie_curve_tools_a
+B 组,Group B
+ANIMAIDE_MT_pie_curve_tools_b,ANIMAIDE_MT_pie_curve_tools_b
+曲线工具 A,Curve Tools A
+曲线工具 B,Curve Tools B
+根据预定量移位按键,Displace keys based on a predetermined amount
+移动按键,Move Key
+方向,Direction
+根据预定量改变按键之间的帧数,Change the amount of frames between keys base on a predetermine amount
+按键间距,Space between Keys
+按键数量,Amount
+按键类型分类,Classify keys by type
+设置按键类型,Set Key Type
+按键类型,Key Type
+根据类型分类删除密钥,Remove keys based on the type classification
+删除密钥类型,Delete Key Type
+根据类型分类设置键的选择,Sets the selection of keys based on the type classification
+按键选择类型,Key selection Type
+设置按键的手柄类型,Sets the type of handle a key has
+设置手柄类型,Set Handles Type
+插值,Interpolation
+手柄类型,Handle Type
+作用于,Act on
+设置相应按键部分的选择状态,Sets the selection status of of the corresponding key part
+选择按键部分,Select Key Part
+设置按键的插值类型,Sets the interpolation type of keys
+设置手柄插值,Set Handles Interpolation
+缓和强度,Ease Strength
+缓和模式,Ease Mode
+按键管理器设置,Key Manager Settings
+克隆 F 曲线,Clone Fcurve
+删除克隆,Remove Clone
+手柄类型,Handle_type
+激活,Act-on
+预设,Presets
+设置按键类型,Sets key type
+水平移动按键,move keys horizontally
+在按键之间插入边框,insert frames between keys
+可选择或取消选择按键的手柄或控制点,lets you select or unselect either handle or control point of a key
+"设置按键句柄的 ""类型",set 'type' of a key handles
+"如果按键与 ""类型 ""中的类型一致，则删除按键",Deletes keys if they match the type in 'kind'
+"如果按键与 ""类型 ""中的类型一致，则选择或取消选择按键",Selects or unselects keys if they match the type in 'kind'
+以给定的频率向 fcurve 添加按键,Add keys to an fcurve with the given frequency
+键 1 变为键 2，键 2 变为键 1,Keys1 become key2 and key2 becomes key1
+"将 ""reference_key ""的值复制到 ""keyframes ""中",Copy value of 'reference_key' to 'keyframes'
+移动-插入,Move-Insert
+类型,Type
+新键将是,New keys will be:
+键插值,Key Interpolation
+处理选择：,Handle selection:
+动画,animaide
+"在 ""animaide ""动作中添加一条曲线",Adds and fcuve in the 'animaide' action
+在当前动作中返回选中的辅助曲线，参考曲线除外,return selected fcurves in the current action with the exception of the reference fcurves
+移除已添加到对象动作中的所有辅助曲线,Remove the all the helper curves that have been added to an object action
+获取特定范围内曲线的斜率,Gets the slope of a curve at a specific range
+为 fcurve 添加循环修饰符,Adds cycle modifier to an fcurve
+复制一条曲线,Duploicates an fcurve
+使用全局值复制一条曲线,Duplicates a curve using the global values
+复制一条 fcurve,Create an fcurve clone
+删除克隆 fcurve,Removes an fcurve clone
+及时移动克隆曲线,Moves clone fcurve in time
+"""创建一个名为 ""animaide ""的动作","""Creates an \""action\"" called 'animaide'"""
+将 key_y 的值逐渐过渡到 target_y,Gradualy transition the value of key_y to target_y
+获取一个值，如果它超出了最小值和最大值，就会用它们代替。,Take a value and if it goes beyond the minimum and maximum it would replace it with those.
+取一个值，如果它低于最小值，就用它来替代,Take the value and if it goes lower than the minimum it would replace it with it
+取一个值，如果该值超过最大值，则用该值替换。,Take the value and if it goes over the maximum it would replace it with it
+"将 ""to_toggle ""改为目前没有的拖动值之一",Change 'to_toggle' to one of the tow values it doesn't have at the moment
+添加参照系标记,add reference frames marker
+相同,SAME
+删除参考帧标记,Removes reference frame markers
+用于所有滑块操作符的 Poll,Poll used on all the slider operators
+返回对象,returns objects
+将所选键的'y'值与目标曲线的值 o 匹配,Match 'y' value of selected keys to the value o target_fcurve
+将键的'y'值与 o target_fcurve 的值相匹配,Match 'y' value of a key to the value o target_fcurve
+创建选中键的索引列表,Creates a list of selected keys index
+取消选择每个键,Deselect every key
+返回当前帧中键的索引,returns the index of the key in the current frame
+获取选中键的左右邻接键,Get the left and right neighboring keys of the selected keys
+获取给定索引的键的邻键,Get the neighboring keys of a key given index
+获取帧的相邻键,Get neighboring keys of a frame
+,
+通过www.DeepL.com/Translator（免费版）翻译,

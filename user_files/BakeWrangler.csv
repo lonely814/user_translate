@@ -1,0 +1,547 @@
+, 
+,"""\""""
+"""",""BW_Post_Col"""
+BW_Post_,BW_Post_
+对象复制,Object Copy
+应用修改器的复制,Copy with modifiers applied
+对象剥离,Object Stripped
+删除修改器的副本,Copy with modifiers stripped
+对象 VCol 复制,Object VCol Copy
+保留修改器的副本,Copy with modifiers intact
+笼子,Cage
+烘烤牧马人自动生成的笼子,Bake Wrangler auto generated cage
+','
+非彩色,Non-Color
+线性,Linear
+烘烤,bake_
+Mat_plane_,mat_plane_
+%s.%s,%s.%s
+bw_basic_,bw_basic_
+bw_bent_,bw_bent_
+bw_mask_,bw_mask_
+BW_Combined,BW_Combined
+在状态栏中显示烘干图标,Show BW Icon in Status Bar
+显示一个根据烘焙状态改变颜色的图标，点击该图标可以调出日志,Shows an icon that changes color based on baking state and can be clicked on to bring up the log
+信息到文本编辑器,Messages to Text editor
+除控制台外，还可将信息写入文本块,Write messages to a text block in addition to the console
+清除旧信息,Clear Old Messages
+在每次新的烘焙之前清除文本块,Clear the text block before each new bake
+在新窗口中打开文本,Open Text in new Window
+每次开始新的烘焙时，都会打开一个新窗口显示文本块,A new window will be opened displaying the text block each time a new bake is started
+自动关闭文本窗口,Auto Close Text Window
+在成功完成烘焙后关闭文本窗口,Close the text window on successful bake completion
+节点默认值,Node Defaults
+默认的一般节点选项,Default general node options
+网格,Meshes
+显示网格类型对象,Show mesh type objects
+曲线,Curves
+显示曲线类型对象,Show curve type objects
+曲面,Surfaces
+显示曲面类型对象,Show surface type objects
+元,Metas
+显示元类型对象,Show meta type objects
+字体,Fonts
+显示字体类型对象,Show font type objects
+灯光,Lights
+显示灯光类型对象,Show light type objects
+集合,Collections
+仅切换集合,Toggle only collections
+展开高级设置,Expand Advanced Settings
+在创建节点时展开高级设置，而不是一开始就折叠设置,Expand advanced settings on node creation instead of starting with them collapsed
+反转烘焙修改器中的选择,Invert Selected in Bake Modifiers
+将烘焙修改器选项使用的选择方法从忽略视口隐藏修改器反转为烘焙修改器,Inverts the selection method used by the Bake Modifiers option from ignoring viewport hidden modifiers to baking them
+渲染默认值,Render Defaults
+渲染选项的默认设置,Default settings for rendering options
+默认烘焙样本,Default Bake Samples
+创建新传递节点时设置的每个像素的采样数目,The number of samples per pixel that new Pass nodes will be set to when created
+默认烘焙 X 分辨率,Default Bake X Resolution
+创建新传递节点时设置的 X 分辨率,The X resolution new Pass nodes will be set to when created
+默认烘焙 Y 分辨率,Default Bake Y Resolution
+创建新通过节点时将设置的 Y 分辨率,The Y resolution new Pass nodes will be set to when created
+默认设备,Default Device
+创建新传递节点时将设置的渲染设备,The render device new Pass nodes will be set to when created
+默认光线距离,Default Ray Distance
+创建新网格节点时使用的射线距离,The ray distance that new Mesh nodes will use when created
+默认最大光线距离,Default Max Ray Dist
+创建新网格节点时将使用的最大光线距离,The max ray distance that new Mesh nodes will use when created
+默认边距,Default Margin
+创建新网格节点时使用的边距,The margin that new Mesh nodes will use when created
+默认遮罩边距,Default Mask Margin
+创建新网格节点时将使用的遮罩边距,The mask margin that new Mesh nodes will use when created
+对象始终可见,Objects Always Visible
+启用此选项可在烘焙时忽略所选对象的可见性，使其无论在搅拌器中如何设置都可见,"Enable to ignore the visibility of selected objects when baking, making them visible regardless of settings in blender"
+输出默认值,Output Defaults
+输出选项的默认设置,Default settings for output options
+默认输出格式,Default Output Format
+创建新的输出节点时将使用的格式,The format new Output nodes will use when created
+默认输出 X 分辨率,Default Output X Resolution
+创建新输出节点时将设置的 X 分辨率,The X resolution new Output nodes will be set to when created
+默认输出 Y 分辨率,Default Output Y Resolution
+创建新输出节点时将设置的 Y 分辨率,The Y resolution new Output nodes will be set to when created
+默认输出路径,Default Output Path
+创建新输出节点时将使用的路径,The path new Output nodes will use when created
+默认输出名称,Default Output Name
+创建新输出节点时将使用的名称,The name new Output nodes will use when created
+创建路径,Create Paths
+如果所选路径没有,If selected path doesn
+自动打开烘焙图像,Auto open bakes
+自动打开已烘焙的图像（如果没有的话,Automatically open the baked image in blender if it isn
+保存打包的图像,Save packed images
+在烘焙之前，保存任何已打包的更改图像，否则这些更改将无法在烘焙过程中应用,"Prior to baking, save any packed images with changes or they will not apply during the bake"
+保存未打包的图像,Save unpacked images
+在烘焙之前，保存任何未打包的已更改图像，否则它们将不会在烘焙过程中应用,"Prior to baking, save any unpacked images with changes or they will not apply during the bake"
+禁用附加组件,Disable Add-ons
+在后台烘焙实例中禁用附加组件（加载时间更快，某些第三方附加组件会导致进程崩溃）,Disable add-ons in the background baking instance (faster load times and some 3rd party add-ons can crash the process)
+调试,Debug
+启用额外的调试输出,Enable additional debugging output
+过滤器,Filter:
+样本,Samples
+X,X
+Y,Y
+设备,Device
+边距,Margin
+掩膜边距,Mask Margin
+射线距离,Ray Distance
+最大射线距离,Max Ray Dist
+格式,Format
+图像路径,Image Path
+图像名称,Image Name
+烘焙处理器状态,Bake Wrangler Status
+烘焙漫游日志,Bake Wangler Log
+烘焙旺格温度混合,Bake Wangler Temp Blend
+FBX 预置,FBX Presets
+添加 FBX 预置,Add FBX preset
+包括,Include
+变形,Transform
+几何体,Geometry
+纟,Armature
+烘焙动画,Bake Animation
+输出导出网格,Output Export Mesh
+输出路径,Output Path
+保存网格的路径,Path to save mesh in
+输出文件,Output File
+保存网格的文件前缀,File prefix to save mesh as
+输出文件格式,Export file format
+烘焙配方,Bake Recipe
+烘焙配方.%03d,Bake Recipe.%03d
+配方信息,Recipe Info
+区域,area
+未加载配方,No recipe loaded
+食谱版本： ,Recipe version: 
+插件版本： ,Add-on version: 
+节点： ,Nodes: 
+状态： 附加元件需要更新,Status: Add-on requires update
+状态： 需要更新 配方需要更新,Status: Recipe requires update
+更新配方,Update Recipe
+更新不可用,Update Unavailable
+自动笼,Auto Cages
+显示日志,Show Log
+生成笼子,Generate Cages
+更新笼子,Update Cages
+删除笼子,Remove Cages
+添加选定,Add Selected
+丢弃数据,Discard Data
+应用数据,Apply Data
+取消烘烤,Cancel Bake
+烘烤通过,Bake Pass
+!!! 验证失败：,!!! Validation FAILED:
+详情请查看控制台,See console for details
+!!! 材料警告：,!!! Material Warnings:
+烘焙节点编辑器,Bake Node Editor
+已初始化,Initialized
+树版本,Tree Version
+最后日志,Last Log
+对象,Object
+以某种方式用于烘焙传递的对象,Object to be used in some way in a bake pass
+类型,Type
+值类型的 ID 字符串,ID String of value type
+递归选择,Recursive Selection
+启用后，将使用所选集合中的所有集合,When enabled all collections within the selected collection will be used
+选择 UV 贴图,Pick UV Map
+可选择使用哪个 UV 贴图，而不是当前使用的贴图,Enables selecting which UV map to use instead of the active one
+UV 贴图,UV Map
+如果值是网格，则使用 UV 贴图代替当前贴图,UV Map to use instead of active if value is a mesh
+使用笼子,Use Cage
+启用保持架和选择保持架网格,Enables cage usage and selection of cage mesh
+使用保持架的网格,Mesh to use a cage
+材质,Material
+在烘焙时使用的材质,Material to be used in a bake pass
+网格,Mesh
+颜色,Color
+后缀,Suffix
+附加到此输出文件名的后缀,Suffix appended to filename for this output
+名称,Name
+通道图,Channel Map
+输入通道,Input Channel
+要取值的输入颜色数据的通道,Channel of input color data to take values from
+从,From
+浮动,Float
+面,Fac
+数值,Value
+基数,Base
+指数,Exponent
+烘烤,Bake
+网格设置,Mesh Settings
+通过设置,Pass Settings
+采样设置,Sample Settings
+输出设置,Output Settings
+对象名称,Object Names
+分割输出,Split Output
+保存图像的路径,Path to save image in
+保存图像的文件前缀,File prefix to save image as
+路径 ,Path: 
+名称 ,Name: 
+停止...,Stopping...
+设置,Settings
+固定,Pin
+固定时，在节点树中全局使用设置,"When pinned, use settings globally in node tree"
+从选定对象到活动对象烘烤时向内光线投射的距离,Distance to use for inward ray cast when using a selected to active bake
+活动对象和选定对象之间匹配点的最大射线距离。如果为零，则没有限制,"The maximum ray distance for matching points between the active and selected objects. If zero, there is no limit"
+作为后处理滤镜扩展烘焙结果,Extends the baked result as a post process filter
+扩展,Extend
+边距向外扩展边界像素（而不是从相邻面取值）,Margin extends border pixels outward (instead of taking values from adjacent faces)
+为蒙版烘焙添加额外的填充。如果启用遮罩时边缘细节被剪切掉，则使用此功能,Adds extra padding to the mask bake. Use if edge details are being cut off when masking is enabled
+自动笼罩,Auto Cage
+自动为不需要遮罩的对象生成遮罩。,Automatically generate a cage for objects that don
+笼子扩展,Cage Expansion
+从原始对象扩展自动生成的笼状几何体的距离,Distance to expand automatically generated cage geometry from original object
+保持架平滑角度,Cage Smoothing Angle
+应用自动法线平滑的角度范围,Angle range that automatic normal smoothing will be applied to
+材质覆盖,Material Override
+用指定的材质替换所选对象上的所有材质（没有材质的对象将添加新材质）,Replace all materials on selected objects with the specified material (objects without a material will have it added)
+覆盖材质,Override Material
+用于替代所有其他材质的材质,Material that will be used in place of all other materials
+OSL,OSL
+材质使用 OSL 着色器节点,Material uses an OSL shader node
+将修改烘焙为未修改,Bake Mods to Unmodded
+启用了视口可见性的修改器将从目标对象中剥离，而应用了这些修改器的副本将被创建并用作源对象（在修改器上禁用视口可见性可将其排除在外--如果您希望可见性设置以另一种方式工作，可在附加组件首选项中反转此设置）,Modifiers with viewport visibility enabled will be stripped from Target objects and a copy with those modifiers applied will be created and used as the Source object (Disable viewport visibility on a modifier to exclude it - this setting can be inverted in the add-on preferences if you prefer the visibilty setting to work the other way)
+烘焙 X 分辨率 ,Bake X resolution 
+烘焙贴图的宽度 (X),Width (X) to bake maps at
+烘焙 Y 分辨率 ,Bake Y resolution 
+高度 (Y)，以烘焙贴图,Height (Y) to bake maps at
+烘焙设备,Bake device
+插值,Interpolate
+在烘焙像素和输出像素之间使用三次插值，创建柔和的抗锯齿效果,"Use cubic interpolation between baked pixel and output pixel, creating a soft anti-aliasing effect"
+高级设置,Advanced Settings
+显示或隐藏高级设置,Show or hide advanced settings
+使用世界,Use World
+启用后可选择要使用的世界（空则使用活动世界），而不是烘焙处理器的默认设置,"Enabled to pick a world to use (empty to use active), instead of Bake Wranglers default"
+世界,World
+要使用的世界，以代替烘焙牧人的默认设置（如果为空，则使用活动设置）,World to use instead of Bake Wranglers default (empty to use active)
+复制设置,Copy Settings
+从选定场景复制渲染设置（空为活动状态），而不是使用默认设置,"Copy render settings from selected scene (empty to use active), instead of using defaults"
+渲染场景,Render Scene
+要复制渲染设置的场景（空为活动状态）,Scene to copy render settings from (empty to use active)
+平铺,Tiles
+渲染瓦片大小,Render tile size
+线程,Threads
+同时使用的最大 CPU 内核数（自动设置为 0）,Maximum number of CPU cores to use simultaneously (set to zero for automatic)
+背景色,BG Color
+空白区域的背景颜色,Background color for blank areas
+空白区域使用的背景色,Background color used in blank areas
+烘焙样本,Bake Samples
+每个像素的烘焙样本数。所有 PBR 通道和法线贴图均使用 1。超过 50 的值通常会获胜。,Number of samples to bake for each pixel. Use 1 for all PBR passes and Normal maps. Values over 50 generally won
+噪点阈值,Noise Threshold
+在样本数达到之前停止采样的噪音水平,Noise level to stop sampling at if reached before sample count
+使用阈值,Use Threshold
+启用噪音水平阈值,Enables use of noise level threshold
+时间限制,Time Limit
+单次烘烤的最长时间。零表示禁用,Maximum time to spend on a single bake. Zero to disable
+图像 X 分辨率,Image X resolution
+图像的水平像素数。烘焙数据将根据图像大小进行缩放。2 的幂次方尺寸通常最适合导出,Number of horizontal pixels in image. Bake pass data will be scaled to fit the image size. Power of 2 sizes are usually best for exporting
+图像 Y 分辨率,Image Y resolution
+图像的垂直像素数。烘焙数据将按比例调整以适应图像大小。导出时通常最好使用 2 的幂次大小。,Number of vertical pixels in image. Bake pass data will be scaled to fit the image size. Power of 2 sizes are usually best for exporting
+清除图像,Clear Image
+在写入烘焙数据前清除图像,Clear image before writing bake data
+UDIM,UDIM
+将 UV 贴图视为 UDIM 空间，并在文件名后附加标准数字系统,Treat UV map as UDIM space and append standard number system to file name
+图像格式,Image Format
+将烘焙数据保存为的文件格式,File format to save bake as
+快速抗锯齿,Fast Anti-Alias
+快速抗锯齿。使用不同的分辨率对烘焙输出进行向下或向上采样，以获得更多控制权,Fast Anti-Aliasing. For more control use down or up sampling of bake to output by using different resolutions
+快速 AA 级别,Fast AA Level
+应用的快速 AA 级别，从 1 到 9,Level of fast AA to apply from 1 to 9
+边缘生成器,Marginer
+使用其他边缘生成器（速度较慢）,Use alternative margin generator (slower)
+边距大小,Marginer Size
+填充空白,Marginer Fill
+用边距填充所有间隙，而不是使用固定宽度,Fill all gaps with margin instead of using a fixed width
+显示或隐藏高级设置,Display or hide advanced settings
+色彩空间,Color Space
+保存图像时使用的色彩空间,Color space to use when saving the image
+使用 32 位浮点,Use 32 Bit Float
+使用 32 位浮点色彩（每个像素 128 位）生成所有输入通道。注意这不是,Generate all input passes using 32 bit floating point color (128 bits per pixel). Note this isn
+保存灰度图像时选择 BW，保存红、绿、蓝通道时选择 RGB，保存红、绿、蓝和 Alpha 通道时选择 RGBA。,"Choose BW for saving grayscale images, RGB for saving red, green and blue channels, and RGBA for saving red, green, blue and alpha channels"
+保存灰度图像时选择 BW，保存红、绿、蓝通道时选择 RGB,"Choose BW for saving grayscale images, RGB for saving red, green and blue channels"
+颜色深度,Color Depth
+每个通道的比特深度,Bit depth per channel
+压缩,Compression
+确定最佳压缩的时间：0 = 无压缩，100 = 最大无损压缩,"Amount of time to determine best compression: 0 = no compression, 100 = maximum lossless compression"
+质量,Quality
+支持有损压缩的图像格式的质量,Quality for image formats that support lossy compression
+编解码器,Codec
+jpeg2000 的编解码器设置,Codec settings for jpeg2000
+OpenEXR 的编解码器设置,Codec settings for OpenEXR
+TIFF 压缩模式,Compression mode for TIFF
+影院,Cinema
+使用 Openjpeg 电影预设,Use Openjpeg Cinema Preset
+影院（48 帧）,Cinema (48)
+使用 Openjpeg 电影预设（48 帧/秒）,Use Openjpeg Cinema Preset (48 fps)
+YCC,YCC
+保存亮度-色度-色度通道，而非 RGB 颜色,Save luminance-chrominance-chrominance channels instead of RGB colors
+对数,Log
+转换为对数色彩空间,Convert to logarithmic color space
+Z 缓冲区,Z Buffer
+保存每个像素的 Z 深度（32 位无符号 int z 缓冲区）,Save the z-depth per pixel (32 bit unsigned int z-buffer)
+设备：,Device:
+高级,Advanced:
+使用我的世界,Use My World
+使用我的设置,Use My Settings
+噪音,Noise
+清除,Clear
+快速 AA,Fast AA:
+格式,Format:
+空间,Space:
+色彩,Color:
+深度,Depth:
+压缩,Compression:
+质量,Quality:
+编解码器,Codec:
+文件名,File Names
+对象,Objects
+自动排序网格,Auto Sort Meshes
+目标搜索,Target Search
+如何搜索目标标识符,How to search for target identifier
+目标标识符,Target Ident
+目标标识符,Target identifier
+目标大小写敏感性,Target case sensitivity
+使用大小写敏感匹配,Use case sensitive matching
+源标识符,Source Ident
+源标识符,Source identifier
+源搜索,Source Search
+如何搜索源标识符,How to search for source identifier
+匹配集合,Match Collections
+尝试匹配源集合，然后再尝试其中的项目,Try to match a source collection before trying the items inside it
+源大小写敏感性,Source case sensitivity
+场景标识符,Scene Ident
+场景标识符,Scene identifier
+场景搜索,Scene Search
+如何搜索场景标识符,How to search for scene identifier
+尝试匹配场景集合，然后再尝试其中的项目,Try to match a scene collection before trying the items inside it
+场景大小写敏感性,Scene case sensitivity
+显示分组,Show Groupings
+目标 ID：,Target ID:
+源 ID：,Source ID:
+场景 ID：,Scene ID:
+-来源,-Source:
+  ,  
+-场景,-Scene:
+输入广告牌,Input Billboard
+阿尔法反弹,Alpha Bounces
+射线穿过透明表面的次数,Number of times a ray can pass through transparent surfaces
+输入材质,Input Material
+宽度,Width
+要投射材质的平面宽度,Width of plane to project material on
+高度,Height
+投射材质的平面高度,Height of plane to project material on
+输入网格,Input Mesh
+烘烤结果,bake_result
+BW 内部使用,Used internally by BW
+屏蔽结果,mask_result
+烘烤结果,sbake_result
+屏蔽结果,smask_result
+组,Group
+用于选择烘焙传票的类别,Category to select bake passes from
+通过,Pass
+要烘焙的 PBR 通道类型,Type of PBR pass to bake
+要烘焙的 Blender 标准通道类型,Type of Blender standard pass to bake
+要烘焙的 Wrangler 通道类型,Type of Wrangler pass to bake
+已选择,Picked
+选择的烘焙类型,Selected bake type
+每个像素的烘焙样本数。大多数烘焙类型使用 25 到 50 个采样点（AO 效果可能会更好）。,Number of samples to bake for each pixel. Use 25 to 50 samples for most bake types (AO may look better with more).\nQuality is gained by increaseing resolution rather than samples past that point
+使用遮罩,Use Masking
+生成已更改 UV 岛的映射图，在更新像素值时用作遮罩。允许在单个图像上分层显示多个通道，只要它们不是,Generate a map of changed UV islands to use as a mask when updating pixel values. Allows layering of multiple passes onto a single image so long as they don
+直接,Direct
+添加直接光照效果,Add direct lighting contribution
+间接,Indirect
+添加间接光照效果,Add indirect lighting contribution
+为通道着色,Color the pass
+漫反射,Diffuse
+添加漫反射效果,Add diffuse contribution
+光泽,Glossy
+添加光泽效果,Add glossy contribution
+透射,Transmission
+添加透射贡献,Add transmission contribution
+次表层,Subsurface
+添加次表面效果,Add subsurface contribution
+环境遮蔽,Ambient Occlusion
+添加环境遮挡效果,Add ambient occlusion contribution
+发射,Emit
+添加排放效果,Add emission contribution
+空间,Space
+烘焙法线的空间,Space to bake the normals in
+R,R
+轴，在红色通道中烘焙,Axis to bake in Red channel
+G,G
+轴，在绿色通道中进行烘焙,Axis to bake in Green channel
+B,B
+在蓝色通道中烘焙的轴,Axis to bake in Blue channel
+多分辨率类型,Multires Type
+要烘焙的多分辨率类型,Type of multiresolution pass to bake
+多分辨率方法,Multires Method
+选择多分辨率源和目标的方法,Method to pick multiresolution source and target
+多分辨率目标,Multires Target
+烘焙目标的细分级别,Subdivision level for target of bake
+多分辨率源,Multires Source
+烘焙源的细分级别,Subdivision level for source of bake
+斜角半径,Bevel Radius
+边缘斜角宽度,Width of bevel on edges
+斜面样本,Bevel Samples
+采样个数（采样个数越多，精度越高，但时间成本越高。在大多数情况下，取值为 4 时效果较好，可以通过使用更多的烘焙样本来解决噪音问题，而不是增加该值）,Number of samples to take (more gives greater accuracy at cost of time. A value of 4 works well in most cases and noise can be resolved by using more bake pass samples instead of increasing this value)
+腔过采样,Cavity Over Samples
+采样个数（采样个数越多，结果越精确，但耗时越长。）,"Number of samples to take (more gives a more accurate result but takes longer, increase bake pass samples to reduce noise before increasing this value)"
+凹槽采样距离,Cavity Sample Distance
+可用于计算的面的距离（对于较大的物体可能需要更大的距离）,How far away a face can be to contribute to the calculation (may need larger distances for larger objects)
+空腔伽玛,Cavity Gamma
+对空腔值进行伽玛变换,Gamma transform to be performed on cavity values
+边缘模式,Edge Mode
+反转空腔贴图法线以查找边缘。如果,Inverts the cavity map normals to find edges. If it
+曲率平面,Curvature Flat
+分配给曲线中间点（平坦区域）的值,Value to assign to the mid-point between curves (flat area)
+曲率凸,Curvature Convex
+指定凸曲线最尖锐（最大）点的值,Value to assign to the sharpest (maximum) point of a convex curve
+曲率凹,Curvature Concave
+为凹曲线的最尖点（最小值）赋值,Value to assign to the sharpest (minimum) point of a concave curve
+曲率凸最大值,Curvature Convex Max
+最大曲率的凸值（数值越大，范围越大）,Convex value to consider the maximum curvature (higher values create a greater range)
+曲率凹面最小值,Curvature Concave Min
+考虑最小曲率的凹值（数值越小，范围越大）,Concave value to consider the minimum curvature (lower values create a greater range)
+曲率距离（OSL）,Curvature Distance (OSL)
+搜索邻近曲面的距离,Distance to search for a neighboring surface
+曲率样本（OSL）,Curvature Samples (OSL)
+在距离值范围内尝试寻找相邻曲面的次数,Number of attempts to try finding a neighboring surface within the distance value
+曲率对比度（OSL）,Curvature Contrast (OSL)
+应用于曲率值的对比度,Contrast level applied to curvature value
+高度距离,Height Distance
+从源到曲面的最大距离,Maximum distance from source to look for a surface
+高度样本,Height Samples
+每个点要考虑多少个曲面。必须至少有两个，但曲面相距很近的复杂物体可能需要更多的曲面才能得到正确的结果,How many surfaces to consider for each point. Must be at least two but complex objects with faces close together may need more for correct results
+中间高度,Height Mid Level
+用作中间水平的值（不高也不低）,Value to use as the middel level (neither high or low)
+高度空白颜色,Height Void Color
+填充在搜索距离内找不到高度值的区域的颜色,Color to fill in areas where no height value could be found within the search distance
+顶点颜色层,Vertex Color Layer
+顶点颜色图层（留空将使用活动图层）。,Vertex color layer to bake from (leaving blank will use active)
+AOV 名称,AOV Name
+分配给要烘焙的 AOV 节点的名称,Name assigned to AOV node you want to bake from
+AOV 来源,AOV Source
+从 AOV 节点的颜色或数值输入中获取数据,Take data from either color or value input of AOV node
+使用视口颜色,Use Viewport Color
+使用材质指定的视口颜色，而不是根据其名称随机生成颜色,Use the materials assigned viewport color instead of generating a random one based on its name
+使用减法,Use Subtraction
+从材质法线中减去对象法线，以将其分离出来。这样可以得到正确的切线法线旋转结果，但可能不够清晰,Subtract the object normals from the material normals to isolate them. This results in correct tangent normal rotations but may not be as clean a result
+弯曲法线距离,Bent Normals Distance
+曲面与环境光遮挡的最大距离,Maximum distance for a surface to contribute to ambient occlusion
+对每个表面点进行环境光采样的次数,Number of ambient light samples to take for each surface point
+名称,Name:
+输入,Input:
+采样：,Samples:
+半径,Radius:
+边缘模式：,Edge Mode:
+过采样：,Over Samples:
+距离,Distance:
+伽玛,Gamma:
+平面,Flat:
+凸面,Convex:
+最大凸面,Convex Max:
+凹,Concave:
+凹： 最小,Concave Min:
+对比度,Contrast:
+中度,Mid Level:
+虚色,Void Color:
+层,Layer:
+类型,Type:
+方法,Method:
+目标分隔线,Target Divs:
+源分隔符,Source Divs:
+R:,R:
+G:,G:
+B:,B:
+混合 RGB,Mix RGB
+运算符,Operator
+执行数学运算,Mathematical operation to perform
+分割 RGB,Split RGB
+连接 RGB,Join RGB
+数学运算,Math
+操作,Ops
+函数,Functions
+四舍五入,Rounding
+伽玛,Gamma
+输出图像路径,Output Image Path
+输出顶点颜色,Output Vertex Colors
+域,Domain
+数据存储的元素类型,Type of element the data is stored on
+数据类型,Data Type
+元素中存储的数据类型,Type of data stored in element
+应用,Apply
+丢弃,Discard
+批量烘焙,Batch Bake
+脚本位置,Script Location
+内部或外部文件,Either internal or external file
+脚本路径,Script path
+要运行的 python 脚本的路径,Path to python script to run
+脚本文件,Canical Script File
+脚本的官方路径,Canicial path to script
+脚本,Script
+要运行的 Python 脚本,Python script to run
+用户属性,User Property
+启用自定义用户属性递增器,Enable custom user property incrementer
+开启数据属性类型,Type of data property is on
+数据,Data
+开启数据属性,Data property is on
+属性名称,Name of the property
+烘焙时归零,Zero on Bake
+烘焙开始时将属性重置为零,Resets property to zero when bake starts
+完成时关闭,Shutdown on Completion
+批量烘焙完成后尝试关闭系统,Attempt to shutdown system after batch bake completes
+烘焙图像：,Bake Images:
+烘焙前脚本,Pre-Bake Script:
+烘烤后脚本,Post-Bake Script:
+递增属性,Increment Property
+红色,Red
+绿色,Green
+蓝,Blue
+从对象烘焙,Bake From
+从对象烘焙,Bake From Object(s)
+在进行 ,Geometry to be part of selection when doing a 
+集合,Collection
+启用后将选择整个集合，而不是单个对象,When enabled whole collections will be selected instead of individual objects
+对象：,Objects:
+烘焙目标,Bake Target
+烘焙时将作为活动对象的网格,Mesh that will be the active object during the bake
+为遮罩烘焙添加额外的填充。如果边缘细节被剪切掉，可使用此功能,Adds extra padding to the mask bake. Use if edge details are being cut off
+多重网格,Multires
+直接从多重网格对象进行烘焙。这将禁用或忽略其他烘焙设置。,Bake directly from multires object. This will disable or ignore the other bake settings.\nOnly Normals and Displacment can be baked
+选择要烘焙到图像中的着色信息。,Choose shading information to bake into the image.\nMultires pass will override any connected bake pass
+从笼子向活动对象投射光线。笼子必须有相同数量的面,Cast rays to active object from a cage. The cage must have the same number of faces
+笼子对象,Cage Object
+作为笼子使用的对象，而不是从活动对象计算笼子,Object to use as a cage instead of calculating the cage from the active object
+如果对象有多个图层，则选择要烘焙的贴图。留空表示使用活动图层,Pick map to bake if object has multiple layers. Leave blank to use active layer
+网格对象：,Mesh Object:
+填充,Padding
+UV：,UV:
+来自多重图层,From Multires
+笼子,Cage:
+烘烤： From：,Bake From:
+射线分布,Ray Dist
+分辨率,Resolutions
+激活,Active
+使该节点的设置在全局范围内使用（一次只能激活一个节点的设置）,Causes this nodes settings to be used globally (only one can be active at a time)
+图像 X 分辨率 ,Image X resolution 
+输出图像的宽度 (X)（烘焙将按比例放大或缩小以匹配，使用此分辨率可通过向下采样来平滑地图）,"Width (X) to output images at (bake will be scaled up or down to match, use this to smooth maps by down sampling)"
+图像 Y 分辨率 ,Image Y resolution 
+输出图像的高度 (Y)（烘焙将按比例放大或缩小以匹配，使用此分辨率可通过向下采样来平滑地图）,"Height (Y) to output images at (bake will be scaled up or down to match, use this to smooth maps by down sampling)"
+烘焙分辨率,Bake Resolution:
+输出分辨率,Output Resolution:
+,
+,

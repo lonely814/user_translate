@@ -1,0 +1,201 @@
+,Show description
+, 
+,"""\""""
+"""",""Show Info"""
+网格,Mesh
+对象模式,Object Mode
+X 射线选框,Select Box X-Ray
+使用 X 射线框选功能选择项目,Select items using box selection with x-ray
+选择圆形 X 光片,Select Circle X-Ray
+使用 X 射线的圆选择功能选择项目,Select items using circle selection with x-ray
+选择套索 X 光,Select Lasso X-Ray
+用 X 光套索选择项目,Select items using lasso selection with x-ray
+使用方框选择功能选择项目,Select items using box selection
+使用圆选区选择项目,Select items using circle selection
+使用套索选区选择项目,Select items using lasso selection
+为每个工具创建空的后备键图。,Create empty fallback keymap for every tool.
+使用插件偏好设置中的键图项填充工具后备键图。,Fill tool fallback keymaps with keymap items from addon preferences.
+删除工具后备键图项目。,Remove tool fallback keymap items.
+从模板填充偏好键图集合属性,Fill preferences keymaps collection property from template
+从附加组件首选项的键图集合属性中获取工具键图项目。,Get tool keymap items from addon preferences keymap collection property.
+将 addon 偏好设置的键图集合属性更改应用到 keyconfig 工具键图。,Apply changes of addon preferences keymap collection property to keyconfig tool keymaps.
+说明,Description
+图标,Icon
+激活,Active
+启用或禁用按键修饰符,Enable or disable key modifier
+移位,Shift
+按下 Shift 键,Shift key pressed
+Ctrl,Ctrl
+按下 Ctrl 键,Ctrl key pressed
+Alt,Alt
+按下 Alt 键,Alt key pressed
+KMIS,KMIS
+全选,Select Through
+选择位于下方的顶点、面和边,"Select verts, faces and edges laying underneath"
+默认颜色,Default Color
+"禁用 ""选择通过 ""时的工具颜色",Tool color when selection through is disabled
+选择通过颜色,Select Through Color
+显示 X 光,Show X-Ray
+在选择时启用 X 射线阴影,Enable x-ray shading during selection
+选择所有边缘,Select All Edges
+另外选择部分位于选区边界内的边缘、 ,"Additionally select edges that are partially inside the selection borders, "
+选择所有面,Select All Faces
+选择部分位于选择边框内的面、 ,"Additionally select faces that are partially inside the selection borders, "
+选择背向,Select Backfacing
+选择法线朝向远离你的元素。仅在全选模式下有效,Select elements with normals facing away from you. Works only in select through mode
+选项卡,Tabs
+方向框行为,Directional Box Behavior
+为拖动方向分别配置行为,Configure behavior separately for dragging directions
+方向套索行为,Directional Lasso Behavior
+选择通过切换键,Selection Through Toggle Key
+通过按住此键切换选择,Toggle selection through by holding this key
+通过按住切换选择,Toggle Selection Through by Press or Hold
+通过按住或按下该键切换选区,Toggle selection through by holding or by pressing key
+隐藏镜像,Hide Mirror
+在选择过程中隐藏镜像修改器,Hide mirror modifiers during selection
+隐藏凝固,Hide Solidify
+在选择过程中隐藏凝固修饰符,Hide solidify modifiers during selection
+隐藏小工具,Hide Gizmo
+在选择过程中隐藏活动工具小工具,Hide active tool gizmo during selection
+显示十字准线,Show Crosshair
+启用等待输入时显示十字准线,Show crosshair when wait_for_input is enabled
+显示套索光标,Show Lasso Cursor
+启用输入等待时显示套索光标图标,Show lasso cursor icon when wait_for_input is enabled
+启动时自动激活,Activate automatically at startup
+将此工具设置为在启动搅拌器或加载保存文件时在工具栏中自动激活,Set this tool as active in toolbar automatically when you start blender or load a save file
+X 光切换键,X-Ray Toggle Key
+按住此键切换 X 光,Toggle x-ray by holding this key
+通过按住或不放切换 X 光,Toggle X-Ray by Press or Hold
+通过按住或按下该键切换 X 光,Toggle x-ray by holding or by pressing key
+方框选择行为,Box Select Behavior
+选择行为,Selection behavior
+圆形选择行为,Circle Select Behavior
+套索选择行为,Lasso Select Behavior
+网格模式键盘快捷键,Mesh Mode Keyboard Shortcuts
+激活可将快捷键添加到混合器键盘映射中，停用可将其删除 ,"Activate to add shortcuts to blender keymap, deactivate to remove "
+网格模式鼠标快捷键,Mesh Mode Mouse Shortcuts
+对象模式键盘快捷键,Object Mode Keyboard Shortcuts
+对象模式鼠标快捷键,Object Mode Mouse Shortcuts
+首选项切换快捷方式,Preferences Toggles Shortcuts
+工具键图,Keymaps of Tools
+网格方向道具,Mesh Direction Props
+属性的最后值，因为 keyconfig.preferences 不是,"Last value of property, since keyconfig.preferences isn"
+','
+工具选择修改键,Tool Selection Modifier Keys
+网格工具选项卡。,Mesh Tools tab.
+在此更改快捷键，或通过取消选中来禁用快捷键。,Change shortcuts here or disable them by unchecking
+通过启用选择开始选择,Start selection with enabled selection through
+在使用某个键选择时切换选择通过,Toggle select through during selection with a key
+工具,Tool
+ 和 , and 
+方向,Direction
+从右向左,Right to Left
+从左至右,Left to Right
+任意,Any
+禁用直通选择时的选择框颜色,Selection frame color when selection through is disabled
+"启用 ""选择通过 ""时的选择框颜色",Selection frame color when selection through is enabled
+在选择通过时显示 X 射线阴影,Show x-ray shading during selection through
+选择选择区域触及的所有边,Select all edges touched by selection region
+选择选择区域触及的所有面,Select all faces touched by selection region
+选择法线朝向远离您的元素,Select elements with normals facing away from you
+为拖动方向单独配置工具设置,Configure tool settings separately for drag directions
+方向框,Directional Box
+方向套索,Directional Lasso
+在选择过程中临时隐藏该修改器,Temporary hide this modifiers during selection through
+临时隐藏活动工具的小工具,Temporary hide gizmo of the active tool
+显示方框工具十字线或套索工具图标,Show box tool crosshair or lasso tool icon
+显示套索图标,Show Lasso Icon
+启动时自动激活工具,Activate tool automatically at startup
+对象工具选项卡。,Object Tools tab.
+启用 X 射线阴影开始选择,Start selection with enabled x-ray shading
+在选择过程中通过按键切换 X 射线阴影,Toggle x-ray shading during selection with a key
+方框工具行为,Box tool behavior
+圆工具行为,Circle tool behavior
+套索工具行为,Lasso tool behavior
+高级键图选项卡。,Advanced Keymap tab.
+启动工具和更改首选项的快捷方式,Shortcuts for starting tools and changing preferences
+网格模式工具： 键盘快捷键,Mesh Mode Tools: Keyboard Shortcuts
+对象模式工具 键盘快捷键,Object Mode Tools: Keyboard Shortcuts
+网格模式工具：键盘快捷键 鼠标快捷键,Mesh Mode Tools: Mouse Shortcuts
+对象模式工具：鼠标快捷键 鼠标快捷键,Object Mode Tools: Mouse Shortcuts
+首选项 切换快捷方式,Preferences Toggle Shortcuts
+工具栏工具选择模式的快捷方式,Shortcuts for toolbar tool selection modes
+向右,RIGHT_TO_LEFT
+左向右,LEFT_TO_RIGHT
+更快的 np.isin.,Faster np.isin.
+位置,position
+.hide_vert,.hide_vert
+.select_vert,.select_vert
+.edge_verts,.edge_verts
+.hide_edge,.hide_edge
+.select_edge,.select_edge
+.hide_poly,.hide_poly
+.select_poly,.select_poly
+用于通过热键或改变拖动方向切换叠加。,For toggling overlays by hotkey or by changing dragging direction.
+在编辑模式下隐藏修改器或恢复初始可见性。,Hide modifiers in editmode or restore initial visibility.
+查找选区多边形路径内的顶点。,Look for verts inside the selection polygon path.
+查找与选区多边形路径相交的边。,Look for edges that intersect the selection polygon path.
+查找面,Look for faces.
+获取对象位置的二维坐标,Get 2D coordinates of object location.
+返回圆的边框,Return a bounding box of a circle.
+返回多边形的边框,Return a bounding box of a polygon.
+返回矩形的布尔掩码，该矩形的区域内有一个给定点。,Return a boolean mask of rectangles that have a single given point inside their area.
+返回位于给定矩形边界内的点的布尔掩码。,Return a boolean mask of points that lie inside a border of a given rectangle.
+返回完全位于矩形外的线段的布尔掩码,Return a boolean mask of segments that lie completely outside rectangle
+返回与矩形相交的线段的布尔掩码。,Return a boolean mask of segments that intersect rectangle.
+返回与圆相交或完全位于圆内的线段的布尔掩码,Return a boolean mask of segments that intersect circle or fully inside circle.
+返回在多边形区域内有一个给定点的多边形的布尔掩码。,Return a boolean mask of polygons that have a single given point inside their area.
+返回位于单个给定多边形内的点的布尔掩码，射线投影法。,"Return a boolean mask of points that lie within a single given polygon, ray casting method."
+返回多边形相交线段的布尔掩码。,Return a boolean mask of segments that intersect polygon.
+获取对象空间中点的全局坐标,Get global coordinates of points in object space.
+获取多个对象空间中点的全局坐标。,Get global coordinates of points in multiple object spaces.
+获取点的二维坐标,Get 2D coordinates of points.
+不会导致侧边栏宽度重叠的 UI 左侧最大 X 位置。,Maximum x position of ui left side that doesn't cause overlap width sidebar.
+"切换网格 X 射线选择工具的 ""选择通过""。",Toggle selection through for mesh xray selection tools.
+切换选择通过,Toggle Select Through
+关闭,OFF
+为网格 xray 选择工具切换网格选择行为。,Toggle mesh selection behavior for mesh xray selection tools.
+切换选择所有边和面,Toggle Select All Edges & Faces
+默认,Default
+为网格 xray 选择工具切换背向选择。,Toggle backfacing selection for mesh xray selection tools.
+切换选择背面,Toggle Select Backfacing
+方框选择 X 射线,Box Select X-Ray
+模式,Mode
+默认选择模式,Default selection mode
+备用模式,Alternate Mode
+备用选择模式,Alternate selection mode
+备用模式切换键,Alternate Mode Toggle Key
+按住此键切换选择模式,Toggle selection mode by holding this key
+等待输入,Wait for Input
+等待鼠标输入或立即初始化方框选择（通常您需要 ,Wait for mouse input or initialize box selection immediately (usually you 
+覆盖全局属性,Override Global Properties
+使用此键图项中的属性，而不是全局插件设置中的属性,Use properties in this keymaps item instead of properties in the global addon settings
+通过切换选择按下/按住,Selection Through Toggle Press / Hold
+禁用选择通过时的工具颜色,Tool color when disabled selection through
+启用通过选择时的工具颜色,Tool color when enabled selection through
+另外选择部分位于选择框内的边、 ,"Additionally select edges that are partially inside the selection box, "
+另外选择部分位于选择框内的面、 ,"Additionally select faces that are partially inside the selection box, "
+设置状态文本，绘制 wait_for_input 着色器。,"Set status text, draw wait_for_input shader."
+恢复状态文本，删除等待输入着色器。,"Restore status text, remove wait_for_input shader."
+人民币，ESC： 取消,"RMB, ESC: Cancel"
+圆选择 X-Ray,Circle Select X-Ray
+半径,Radius
+等待鼠标输入或立即初始化圆的选择（通常情况下，您需要等待鼠标输入）。,Wait for mouse input or initialize circle selection immediately (usually you 
+另外，选择部分位于选择圈内的边、 ,"Additionally select edges that are partially inside the selection circle, "
+另外选择部分位于选择圈内的面、 ,"Additionally select faces that are partially inside the selection circle, "
+设置状态文本，绘制着色器。,"Set status text, draw shader."
+RMB、ESC： 取消 | WhDown/Pad+： WhUp/Pad-： 减,"RMB, ESC: Cancel  |  WhDown/Pad+: Add  |  WhUp/Pad-: Subtract"
+恢复光标和状态文本，删除着色器。,"Restore cursor and status text, remove shader."
+套索选择 X-Ray,Lasso Select X-Ray
+等待鼠标输入或立即初始化套索选择（通常情况下，您需要等待鼠标输入）。,Wait for mouse input or initialize lasso selection immediately (usually you 
+另外选择部分位于套索选区内的边缘、 ,"Additionally select edges that are partially inside the selection lasso, "
+另外选择部分位于选择套索内的面、 ,"Additionally select faces that are partially inside the selection lasso, "
+等待输入,Wait for input
+等待鼠标输入或立即初始化框选 ,Wait for mouse input or initialize box selection immediately 
+选择行为,Selection Behavior
+设置光标和状态文本，绘制 wait_for_input 着色器。,"Set cursor and status text, draw wait_for_input shader."
+恢复光标和状态文本，删除 wait_for_input 着色器。,"Restore cursor and status text, remove wait_for_input shader."
+设置光标和状态文本，绘制着色器。,"Set cursor and status text, draw shader."
+等待鼠标输入或立即初始化套索选区 ,Wait for mouse input or initialize lasso selection immediately 
+,
+通过www.DeepL.com/Translator（免费版）翻译,

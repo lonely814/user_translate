@@ -1,0 +1,109 @@
+, 
+,"""\""""
+"""",""Copy Animation"""
+复制动画,Copy Animation
+将动画从活动对象复制到选定对象（也可用于取消动画链接）,Copy animation from active to selected objects (can also use this to unlink animation)
+链接动画,Link Animation
+将活动对象中的动画链接到选定对象,Link animation from active to selected objects
+转换为,Convert to
+将选定对象的动作转换为另一种类型,Convert action to another type for selected objects
+动画数据,Animation Data
+动画数据类型,Animation data type
+烘焙动画,Bake Animation
+将程序动画烘焙为关键帧,Bake procedural animation into keyframes
+自由烘焙,Free Bake
+移除已烘焙的关键帧,Remove baked keyframes
+刷新,Refresh
+刷新活动对象的形状关键帧列表,Refresh shape key list for active object
+设置插值,Set Interpolation
+为选定的形状键设置插值类型,Set interpolation type for selected shape keys
+插值,Interpolation
+绝对形状键的插值类型,Interpolation type for absolute shape keys
+形状键生成关键帧,Shape Key Generate Keyframes
+影响引用的形状键,Affect referenced shape key
+排序方式,Sort By
+排序对象方法,Sort objects method
+阈值,Threshold
+每帧步长的动画对象数量,Number of objects to animate per frame step
+种子,Seed
+随机化器的种子值，用于获得不同的偏移模式,Seed value for randomizer to get different offset patterns
+偏移,Offset
+动画偏移的帧步长,Frame step for animation offset
+反向,Reverse
+逆转排序顺序,Reverse sort order
+距离,Proxymity
+根据与效果器的距离启用偏移（效果器范围由对象尺寸控制）,Enable offset by proximity from effector (effector range controlled by object size)
+对象,Object
+影响对象动画数据,Affect object animation data
+对象数据,Object Data
+影响对象数据的动画数据,Affect object data animation data
+形状键,Shape Keys
+影响形状键动画数据,Affect shape keys animation data
+材质,Material
+影响材料动画数据,Affect material animation data
+仅选定,Selected Only
+仅影响选定的关键帧或条带,Affect only selected keyframes or strips
+动画,Animated
+动画对象集合,Collection for animated objects
+效果器,Effectors
+效果对象集合（影响动画集合中的对象）,Collection for effector objects (to affect objects from animated collection)
+位置,Location
+旋转,Rotation
+缩放,Scale
+绝对形状键,Absolute Shape Keys
+轨迹,Trail
+效果器离开有效范围后留下永久痕迹,Leave permanent trail after effector left the effective range
+起始位置,Start location
+最终位置,Final location
+开始旋转,Start rotation
+最终旋转,Final rotation
+开始缩放,Start scale
+最终比例,Final scale
+评估时间,Evaluation Time
+开始评估时间,Start evaluation time
+最终评估时间,Final evaluation time
+衰减,Falloff
+效应器半径衰减,Effector radius falloff
+衰减,Fade
+随时间变化的衰减轨迹,Fade trail over time
+接近效果器,Proximity Effector
+骚动,Commotion
+,INVOKE_DEFAULT
+动画偏移,Animation Offset
+,VIEW3D_PT_commotion_animation_offset
+复制,Copy
+链接,Link
+,VIEW3D_PT_commotion_shape_keys
+,VIEW3D_PT_commotion_proxy_effector
+对象模式,objectmode
+更新,Update
+值,value
+时间,Time
+生成关键帧,Generate Keyframes
+动画工具,Animation Utils
+烘焙,Bake
+检查更新,Check for Updates
+检查新发布的附加组件,Check for new add-on release
+安装更新,Install Update
+下载并安装新版附加组件,Download and install new version of the add-on
+查看内容,See What
+在网页浏览器中打开版本说明,Open release notes in web browser
+自动检查更新,Automatically check for updates
+以指定间隔自动检查更新,Automatically check for updates with specified interval
+更新到预发布版本,Update to pre-release
+将附加组件更新到预发布版本（如果有的话,Update add-on to pre-release version if available
+自动检查间隔,Auto-check interval
+仅在有新更新时显示,Only shows when new update is available
+更新完成,Update completed
+关闭 Blender 以完成安装,Close Blender to complete the installation
+安装...,Installing...
+检查中...,Checking...
+,{} {}
+偏移动画,Offset Animation
+偏移动画,Offset animation
+反向动画偏移,Reverse animation offset
+帧偏移,Frame Offset
+动画偏移滴管,Animation Offset Eyedropper
+从选定的动画对象中设置偏移和阈值属性,Set offset and threshold properties from selected animated objects
+,
+通过www.DeepL.com/Translator（免费版）翻译,

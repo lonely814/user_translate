@@ -1,0 +1,44 @@
+, 
+,"""\""""
+"""",""{\n"""
+为相机添加抖动,Add shake to your Cameras.
+相机防抖,Camera Shakify
+数据,data
+OBJECT_UL_camera_shake_items,OBJECT_UL_camera_shake_items
+相机抖动,camera_shakes
+,camera_shakes_active_index
+抖动,Shake
+其他实用工具,Misc Utilties
+帧,frame
+子帧,subframe
+手动,manual
+时间,time
+速度,speed
+帧偏移,frame_offset
+影响,influence
+位置刻度,location_scale
+单位比例,unit_scale
+在列表中添加选中的抖动镜头,Adds the selected camera shake to the list
+添加抖动项目,Add Shake Item
+从列表中删除所选的抖动项目,Removes the selected camera shake item from the list
+删除抖动项,Remove Shake Item
+在列表中向上/向下移动所选的摄像机抖动项,Moves the selected camera shake up/down in the list
+移动抖动项,Move Shake Item
+确保场景中的所有摄影机抖动都设置正确。一般情况下没有必要这样做，但如果出现异常情况，应该可以解决,"Ensures that all camera shakes in the scene are set up properly. This generally shouldn't be necessary, but if things are behaving strangely this should fix it"
+修复所有摇镜头,Fix All Camera Shakes
+抖动类型,Shake Type
+影响,Influence
+抖动对摄像机的影响程度,How much the camera shake affects the camera
+尺度,Scale
+抖动的程度,The scale of the shake
+','
+手动计时,Manual Timing
+通过手动设置摄像机抖动动画的时间进程,Manually animate the progression of time through the camera shake animation
+时间,Time
+抖动动画的当前时间（帧数,Current time (in frame number) of the shake animation
+速度,Speed
+抖动动画播放速度的乘数,Multiplier for how fast the shake animation plays
+帧偏移,Frame Offset
+抖动动画的偏移帧数,How many frames to offset the shake animation
+摄像机抖动列表活动项索引,Camera Shake List Active Item Index
+显示相机抖动实用工具 UI,Show Camera Shake Utils UI

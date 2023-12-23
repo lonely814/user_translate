@@ -1,206 +1,203 @@
-""," "
-"","\""
-"","Operator.026"
-"","Operator.027"
-"","'"
-"","Selective Color"
-"","EXEC_DEFAULT"
-"","Enable"
-"","Disable"
-"","Mix"
-"","Red"
-"","Reset"
-"","Hue"
-"","Saturation"
-"","Brightness"
-"","Green"
-"","Blue"
-"","Cyan"
-"","Magenta"
-"","Yellow"
-"","Operator.028"
-"","Link Selective Color node in Compositor"
-"","Colorist Pro"
-"","Operator.030"
-"","Operator.031"
-"","Operator.032"
-"","Operator.033"
-"","Lens Flare"
-"","Enable Glares"
-"","合成器中的“链接眩光”节点"
-"","Glares"
-"","Lens Dirt"
-"","Disable Glares"
-"","Unlink Glares node, press to safe viewport performance"
-"","Glare"
-"","Operator.001"
-"","Unlink Lens Dirt node, press to save viewport performance"
-"","Operator"
-"","Link Lens Dirt node in compositor"
-"","Extra Brightness"
-"","Aberration"
-"","Dispersion"
-"","Lens Dirt 1 - Small Dirts 4K"
-"","Opacity"
-"","Scale"
-"","Blur"
-"","Lens Dirt 2 - Medium Bokeh 4K"
-"","Extra Bokeh"
-"","Lens Dirt 3 - Huge Bokeh 4K"
-"","Enabled Glares will have influence on"
-"","Operator.005"
-"","Make enabled Lens Dirts appear wet"
-"","Wet Lens"
-"","Operator.006"
-"","Disable Wet Lens effect"
-"","Operator.020"
-"","Operator.014"
-"","Operator.021"
-"","Operator.022"
-"","Operator.008"
-"","Operator.009"
-"","Operator.007"
-"","Operator.010"
-"","Operator.011"
-"","Operator.012"
-"","Operator.013"
-"","Operator.016"
-"","Operator.017"
-"","Operator.015"
-"","Operator.019"
-"","Operator.018"
-"","Aspect Ratio & Resolution"
-"","Resolution X"
-"","Resolution Y"
-"","Enable Colorist"
-"","Enable the compositing tree and add the necessary nodes. Warning: This will delete existing node setup in the compositor"
-"","Aberration & Dispersion"
-"","Film Emulation"
-"","Ghost Distortion"
-"","Hue Mixer"
-"","Huge Bokeh"
-"","Lens Distortion"
-"","Medium Bokeh"
-"","Small Dirts"
-"","Tonal Range"
-"","Vibrance"
-"","Colorist Pro v1.0"
-"","Enable Colorist Pro"
-"","Use Nodes (Compositor)"
-"","Version: 1.0"
-"","Reset WB"
-"","Return WB values to default"
-"","Operator.002"
-"","Return Exposure values to default"
-"","Color Grading"
-"","White Balance"
-"","Temperature"
-"","Tint"
-"","Color"
-"","Exposure"
-"","Gamma"
-"","Contrast"
-"","Tone"
-"","Highlight"
-"","Midtone"
-"","Shadow"
-"","White"
-"","Black"
-"","Highlight/Gain"
-"","Operator.003"
-"","Return Color values to default"
-"","Color Management"
-"","Color Space Preset"
-"","Blender Default"
-"","ACES Preset"
-"","Use LUTs exclusively with ACES"
-"","sRGB or Rec709 only"
-"","Display Device"
-"","View Transform"
-"","LUTs (Look)"
-"","Sequencer"
-"","Operator.024"
-"","Return Tone values to default"
-"","Operator.004"
-"","Change colorspace to Blender"
-"","sRGB"
-"","Operator.023"
-"","Change colorspace to ACES sRGB"
-"","ACES - ACEScg"
-"","ACES sRGB"
-"","Clear LUTs"
-"","Change LUTs to: None"
-"","Operator.029"
-"","Unlink Selective Color Node"
-"","Enable Film"
-"","Link Film Emulation node in Compositor"
-"","Disable Film"
-"","Unlink Film Emulation node"
-"","4k Grain"
-"","BW Noise"
-"","4k Grain.001"
-"","BW Noise.001"
-"","Enable Lens Flare"
-"","Link Lens Flare node in Compositor"
-"","Disable Lens Flare"
-"","Unlink Lens Flare node, press to safe viewport performance"
-"","Iris Ghost"
-"","Quality"
-"","Color Overlay"
-"","Iris"
-"","Soften"
-"","Distortion"
-"","Dispersion Saturation"
-"","Iterations"
-"","Color Module"
-"","Ghost"
-"","Color Modulation"
-"","Threshold"
-"","Simple Star"
-"","Fade"
-"","Rotate 45"
-"","Streaks"
-"","Angle Offset"
-"","Fog Glow"
-"","Size"
-"","This section is experimental"
-"","Make It Wet!"
-"","Dry It!"
-"","4:3"
-"","4:3 4K"
-"","4:3 720p"
-"","4:3 1080p"
-"","16:9"
-"","16:9 1080p"
-"","16:9 4K"
-"","16:9 720p"
-"","16:9 480p"
-"","Social Media"
-"","Insta Square 1:1"
-"","Insta Vertical 4:5"
-"","Insta Reels/Tiktok 9:16"
-"","2.35:1"
-"","2.35:1 4K"
-"","2.35:1 720p"
-"","2.35:1 1080p"
-"","1.85:1"
-"","1.85:1 4K"
-"","1.85:1 720p"
-"","1.85:1 1080p"
-"","Film Grain"
-"","BW Grain"
-"","RGB Grain"
-"","Soften Grain"
-"","RGB Grain Saturation"
-"","Animate (0/1)"
-"","Halation"
-"","Glow"
-"","Green Channel"
-"","Projector"
-"","Jitter"
-"","Fit"
-"","Distort"
-"","RGB Split"
-"","Simple Hoop"
-"","Invert Hoop"
-"","Hoop Flare"
+, 
+,"""\""""
+"""",""Operator.026"""
+,Operator.027
+,'
+选择颜色,Selective Color
+,INVOKE_DEFAULT
+启用,Enable
+禁用,Disable
+混合,Mix
+,EXEC_DEFAULT
+红色,Red
+重置,Reset
+色调,Hue
+饱和度,Saturation
+亮度,Brightness
+绿,Green
+蓝,Blue
+青色,Cyan
+洋红,Magenta
+黄,Yellow
+,Operator.028
+在合成器中链接选择性色彩节点,Link Selective Color node in Compositor
+专业调色师,Colorist Pro
+,Operator.030
+,Operator.031
+,Operator.032
+,Operator.033
+镜头炫光,Lens Flare
+启用炫光,Enable Glares
+链接合成器中的炫光节点,Link Glares node in Compositor
+反光,Glares
+镜头污垢,Lens Dirt
+禁用光晕,Disable Glares
+解除 Glares 节点链接，按下以确保安全视口性能,"Unlink Glares node, press to safe viewport performance"
+反光,Glare
+,Operator.001
+解除链接 Lens Dirt 节点，按下以保存视口性能,"Unlink Lens Dirt node, press to save viewport performance"
+,Operator
+在合成器中链接 Lens Dirt 节点,Link Lens Dirt node in compositor
+额外亮度,Extra Brightness
+色差,Aberration
+色散,Dispersion
+镜头污垢 1 - 小污垢 4K,Lens Dirt 1 - Small Dirts 4K
+不透明度,Opacity
+比例,Scale
+模糊,Blur
+镜头污垢 2 - 中度虚化 4K,Lens Dirt 2 - Medium Bokeh 4K
+额外虚化,Extra Bokeh
+镜头污点 3 - 大幅虚化 4K,Lens Dirt 3 - Huge Bokeh 4K
+启用眩光将影响,Enabled Glares will have influence on
+,Operator.005
+使启用的镜头污点看起来湿润,Make enabled Lens Dirts appear wet
+湿润镜头,Wet Lens
+,Operator.006
+禁用湿润透镜效果,Disable Wet Lens effect
+,Operator.020
+,Operator.014
+,Operator.021
+,Operator.022
+,Operator.008
+,Operator.009
+,Operator.007
+,Operator.010
+,Operator.011
+,Operator.012
+,Operator.013
+,Operator.016
+,Operator.017
+,Operator.015
+,Operator.019
+,Operator.018
+宽高比和分辨率,Aspect Ratio & Resolution
+分辨率 X,Resolution X
+分辨率 Y,Resolution Y
+启用调色师,Enable Colorist
+启用合成树并添加必要的节点,Enable the compositing tree and add the necessary nodes
+胶片模拟,Film Emulation
+渲染图层 - 调色师,Render Layers - Colorist
+合成 - 调色师,Composite - Colorist
+查看器 - 调色师,Viewer - Colorist
+重置 WB,Reset WB
+将 WB 值还原为默认值,Return WB values to default
+,Operator.002
+将曝光值还原为默认值,Return Exposure values to default
+调色,Color Grading
+白平衡,White Balance
+色温,Temperature
+色调,Tint
+色彩,Color
+亮度,Vibrance
+曝光,Exposure
+伽玛,Gamma
+对比度,Contrast
+色调,Tone
+高光,Highlight
+中间调,Midtone
+阴影,Shadow
+白色,White
+黑,Black
+高光/增益,Highlight/Gain
+,Operator.003
+将色彩值恢复为默认值,Return Color values to default
+色彩管理,Color Management
+色彩空间预设,Color Space Preset
+混合器 AGX,Blender AGX
+ACES sRGB,ACES sRGB
+显示设备,Display Device
+视图转换,View Transform
+LUT （外观）,LUTs (Look)
+编曲器,Sequencer
+,Operator.024
+将音调值恢复为默认值,Return Tone values to default
+,Operator.004
+将色彩空间更改为 Blender,Change colorspace to Blender
+sRGB,sRGB
+,Operator.023
+将色彩空间更改为 ACES sRGB,Change colorspace to ACES sRGB
+ACEScg,ACEScg
+清除 LUT,Clear LUTs
+将 LUT 更改为 无,Change LUTs to: None
+,Operator.029
+取消链接选择性色彩节点,Unlink Selective Color Node
+启用胶片,Enable Film
+在合成器中链接胶片模拟节点,Link Film Emulation node in Compositor
+禁用胶片,Disable Film
+取消链接胶片仿真节点,Unlink Film Emulation node
+4k 颗粒,4k Grain
+黑白噪声,BW Noise
+,4k Grain.001
+,BW Noise.001
+启用镜头炫光,Enable Lens Flare
+在合成器中链接镜头炫光节点,Link Lens Flare node in Compositor
+禁用镜头炫光,Disable Lens Flare
+取消链接镜头炫光节点，按下以确保安全视口性能,"Unlink Lens Flare node, press to safe viewport performance"
+Colorist Pro v1.1.1,Colorist Pro v1.1.1
+启用 Colorist Pro,Enable Colorist Pro
+警告： 启用 Colorist Pro 将删除,Warning: Enabling Colorist Pro will delete
+合成器中的任何现有节点,any existing nodes in the compositor
+使用节点（合成器）,Use Nodes (Compositor)
+版本：1.1.1,Version: 1.1.1
+虹膜幽灵,Iris Ghost
+质量,Quality
+色彩叠加,Color Overlay
+虹膜,Iris
+柔化,Soften
+失真,Distortion
+色散饱和度,Dispersion Saturation
+迭代,Iterations
+色彩模块,Color Module
+阈值,Threshold
+鬼影,Ghost
+色彩调制,Color Modulation
+简单星形,Simple Star
+渐变,Fade
+旋转 45,Rotate 45
+条纹,Streaks
+角度偏移,Angle Offset
+雾状光晕,Fog Glow
+尺寸,Size
+弄湿！,Make It Wet!
+擦干,Dry It!
+4:3,4:3
+4:3 4K,4:3 4K
+4:3 720p,4:3 720p
+4:3 1080p,4:3 1080p
+16:9,16:9
+16:9 1080p,16:9 1080p
+16:9 4K,16:9 4K
+16:9 720p,16:9 720p
+16:9 480p,16:9 480p
+社交媒体,Social Media
+Insta 正方形 1:1,Insta Square 1:1
+Insta 垂直 4:5,Insta Vertical 4:5
+Insta Reels/Tiktok 9:16,Insta Reels/Tiktok 9:16
+,2.35:1
+,2.35:1 4K
+,2.35:1 720p
+,2.35:1 1080p
+,1.85:1
+,1.85:1 4K
+,1.85:1 720p
+,1.85:1 1080p
+光晕,Halation
+光晕,Glow
+绿色通道,Green Channel
+镜头失真,Lens Distortion
+投影仪,Projector
+抖动,Jitter
+适合,Fit
+扭曲,Distort
+RGB 分割,RGB Split
+胶片颗粒,Film Grain
+黑白颗粒,BW Grain
+RGB 颗粒,RGB Grain
+阴影结块,Shadow Clumping
+软化颗粒,Soften Grain
+RGB 色彩颗粒饱和度,RGB Grain Saturation
+动画 (0/1),Animate (0/1)
+简单箍,Simple Hoop
+环状耀斑,Hoop Flare
+,
+,

@@ -1,0 +1,70 @@
+通过计时器自我运行的操作器,Operator which runs its self from a timer
+ , 
+"""\""""
+""纠正平滑的贝克""","""\""""
+"""",""Corrective Smooth Baker"""
+获取反向绑定姿势,Get inverse bind poses
+获取静态位置,Get static positions
+获取尖锐顶点,Get sharp vertices
+扭曲骨骼 {}/{},Twisting bones: {}/{}
+叠加变换矩阵,Make transform matrix stack
+完成： {:.1f}%，顶点：{}/{}，剩余： {}:{}:{},"Complete: {:.1f}%, Vertex: {}/{}, Remain: {}:{}:{}"
+烘焙范围,Bake Range
+是否烘焙所有顶点的顶点权重,Where or not to bake vertex weights for all vertices
+偏差阈值,Deviation Threshold
+跳过所有位置变化（以厘米为单位）低于偏差阈值的顶点,Skip all the vertices whose position changes(in centimeters) are below the deviation threshold
+烘焙质量,Bake Quality
+平衡质量和速度,Balance the quality and the speed
+扭曲角度,Twist Angle
+变形骨骼的最大扭曲角度,Maximum twist angle of the deform bones
+影响骨骼,Influence Bones
+每个顶点的最大影响骨骼数，请为移动设备减小该值（如 4,"Max influence bones per vertex, please decrease the value (such as 4) for mobile devices"
+剪切阈值,Prune Threshold
+剪切低于阈值的顶点权重,Prune vertex weights which below the threshold
+进度条,Progress Bar
+进度条,Progress bar
+线性系统求解器,Linear System Solver
+线性系统求解器,Linear system solver
+刷新频率,Refresh Frequency
+刷新状态栏的频率（帧/秒），刷新频率过高可能会降低烘焙速度。,"How often(fps) to refresh the status bar, too high refresh frequency may reduce the baking speed"
+在对象属性窗口中创建一个面板,Creates a Panel in the Object properties window
+沿当前视图将所选关节对齐至网格面,Align selected joints to mesh surface along current view
+将所选关节对齐到网格表面,Align Selected Joints To Mesh Surface
+沿当前视图将所选关节对齐至网格体积,Align selected joints to mesh volume along current view
+将所选接点对齐至网格体积,Align Selected Joints To Mesh Volume
+最大射线命中数,Max Raycast Hit Count
+侦测网格体的最大光线投射次数，如果网格部分不是多面体，可以尝试较大的数值，但过大的数值可能会造成其他网格部分的干扰。,"Max raycast hit count to detect mesh volume, you can try a bigger number if the mesh part is not manifold, but too big number might cause interference from other mesh parts"
+关节对齐工具,Joint Alignment Tool
+曲面模式,Surface Mode
+体积模式,Volume Mode
+表面热漫反射蒙皮,Surface Heat Diffuse Skinning
+体素分辨率,Voxel Resolution
+最大体素网格尺寸,Maximum voxel grid size
+漫反射循环,Diffuse Loops
+热扩散通道 = 像素分辨率 * 扩散环路,Heat diffuse pass = Voxel Resolution * Diffuse Loops
+射线采样,Sample Rays
+射线样本数,Ray samples count
+漫反射落差,Diffuse Falloff
+热漫反射衰减,Heat diffuse falloff
+保护选定顶点权重,Protect Selected Vertex Weight
+保护选定顶点权重,Protect selected vertex weight
+边缘,Edges
+体素作业已完成,Voxel Job Finished
+体素作业是否已完成,Whether or not the voxel job has finished
+检测凝固,Detect Solidify
+检测已凝固的衣服，如果启用此选项，请确保所有骨骼都在角色中,"Detect solidified clothes, if you enable this option, make sure that all bones are in the charecter"
+','
+使用选定的骨骼,Use Selected Bones
+只使用选定的骨骼,Use only selected bones
+导出体素骨骼,Export voxel bone
+导出体素骨骼,Export Voxel Bone
+体素骨骼 (.txt),Voxel Bone (.txt)
+导出体素网格,Export voxel mesh
+导出体素网格,Export Voxel Mesh
+体素网格（.txt）,Voxel Mesh (.txt)
+导入体素权重,Import voxel weight
+导入体素权重,Import Voxel Weight
+体素权重（.txt）,Voxel Weight (.txt)
+体素热漫反射蒙皮,Voxel Heat Diffuse Skinning
+,
+通过www.DeepL.com/Translator（免费版）翻译,

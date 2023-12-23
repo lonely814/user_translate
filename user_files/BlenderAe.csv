@@ -1,49 +1,207 @@
-"","Convert location to Blender coordinates"
-"","rotates an object around a local x,y,z rotation"
-"","rotates an object around a local single axis"
-"","create an empty with a name and type"
-""," "
-"","\""
-"","BlenderAe_AeLayers.json"
-"","BlenderAe_AeLayers.jsxbin"
-"","BlenderAe_AeLayers.jsx"
-"","Get the solid dimensions from the parent to offset the obj position"
-"","BlenderAe_Camera.json"
-"","BlenderAe_Camera.jsxbin"
-"","BlenderAe_Camera.jsx"
-"","check if an object is planar (flat)"
-"","Returns a face global location and rotation, and associated vertex locations"
-"","Check whether a set of nested lists are the same, returns True if the values are identical"
-"","'"
-"","AfterFX.exe"
-"","Connected"
-"","----"
-"","Connect to Ae"
-"","Connect to active instance of After Effects"
-"","Disconnect"
-"","Disconnect from active instance of After Effects"
-"","Export data to json for After Effects"
-"","Export to Ae"
-"","Export selected to After Effects"
-"","Help & License (opens in Ae)"
-"","Open Help in After Effects"
-"","Import json data from After Effects"
-"","Import Layers"
-"","Import selected After Effects layers. 3D Camera tracks, solids, nulls currently supported"
-"","Export and import selected objects to and from After Effects"
-"","BlenderAe"
-"","Center Offset"
-"","Camera"
-"","Size"
-"","Width"
-"","Height"
-"","Ae Path"
-"","Ae Connected"
-"","Ae Connected Icon"
-"","Export Scale"
-"","Change the export scene scale for the exported data"
-"","Import Scale"
-"","Change the import scene scale for the imported data"
-"","Use Ae Comp Center"
-"","Use the After Effects composition center values (eg. 1080p has a center of [960, 540, 0]) instead of a [0,0,0] world origin"
-"","search for your plugin modules in blender python sys.modules and remove them"
+将位置转换为 Blender 坐标,Convert location to Blender coordinates
+围绕局部 x、y、z 旋转对象,"rotates an object around a local x,y,z rotation"
+围绕本地单轴旋转对象,rotates an object around a local single axis
+用名称和类型创建一个空,create an empty with a name and type
+ , 
+"""\""""
+"""", ""BlenderAe_AeLayers.json""(中文)","""\""""
+"""",""BlenderAe_AeLayers.json"""
+BlenderAe_AeLayers.jsxbin,BlenderAe_AeLayers.jsxbin
+BlenderAe_AeLayers.jsx,BlenderAe_AeLayers.jsx
+从父对象中获取实体尺寸，以偏移对象的位置,Get the solid dimensions from the parent to offset the obj position
+检查对象是否为平面（平面）,check if an object is planar (flat)
+返回面的全局位置、旋转角度及相关顶点位置,"Returns a face global location and rotation, and associated vertex locations"
+检查一组嵌套列表是否相同，如果值相同则返回 True,"Check whether a set of nested lists are the same, returns True if the values are identical"
+','
+AfterFX.exe,AfterFX.exe
+已连接,Connected
+----,----
+连接到 After Effects,Connect to Ae
+连接到 After Effects 的活动实例,Connect to active instance of After Effects
+断开连接,Disconnect
+从活动的 After Effects 实例断开连接,Disconnect from active instance of After Effects
+将数据导出为 After Effects 的 json 格式,Export data to json for After Effects
+导出到 Ae,Export to Ae
+将选定数据导出到 After Effects,Export selected to After Effects
+从 After Effects 导入 json 数据,Import json data from After Effects
+导入图层,Import Layers
+导入选定的 After Effects 图层。目前支持 3D 相机轨迹、实体和空值,"Import selected After Effects layers. 3D Camera tracks, solids, nulls currently supported"
+将选定对象导入或导出至 After Effects,Export and import selected objects to and from After Effects
+BlenderAe,BlenderAe
+中心偏移,Center Offset
+相机传感器设置,Camera Sensor Settings
+尺寸,Size
+宽度,Width
+高度,Height
+电枢选项,Armature Options
+电枢路径,Ae Path
+Ae 连接,Ae Connected
+Ae 连接图标,Ae Connected Icon
+导出比例,Export Scale
+更改导出数据的导出场景比例,Change the export scene scale for the exported data
+导入比例,Import Scale
+调整导入的比例。在 Blender 和 Ae 之间循环使用摄像机时，请使用 10.0。,Adjust the imported scale. Use 10.0 for roundtripping a camera between Blender and Ae.
+使用 Ae 合成中心,Use Ae Comp Center
+"使用 After Effects 合成中心值（例如，1080p 的中心值为 [960,540,0]），而不是 [0,0,0] 世界原点。","Use the After Effects composition center values (eg. 1080p has a center of [960, 540, 0]) instead of a [0,0,0] world origin"
+包含骨骼尾部,Include Bone Tails
+在导出数据中包含所选骨骼的尾部位置,Include the tail position of selected bones in the exported data
+已安装的依赖项,Dependencies Installed
+这些依赖项能帮助 BlenderAe 更可靠地连接。,These dependencies help BlenderAe to connect more reliably.
+安装依赖项,Install Dependencies
+卸载依赖项,Uninstall Dependencies
+安装 BlenderAe 附加组件的依赖项,Install the BlenderAe addon dependencies
+__init__.py和_ps*.py模块共享的公共对象。,Common objects shared by __init__.py and _ps*.py modules.
+当执行操作的权限被拒绝时出现异常。,Exception raised when permission to perform an action is denied.
+"计算 ""已用 ""与 ""总 ""的使用百分比。",Calculate percentage usage of 'used' against 'total'.
+清除缓存,Clear cache.
+停用并清除缓存。,Deactivate and clear cache.
+如果该平台支持 IPv6，则返回 True。,Return True if IPv6 is supported on this platform.
+将包含环境变量的 C environ 块解析为字典。,Parse a C environ block of environment variables into a dictionary.
+将原始连接元组转换为适当的 ntuple。,Convert a raw connection tuple to a proper ntuple.
+"清除内部缓存，可选择只针对函数 ""name""。","Clear the internal cache, optionally only for function 'name'."
+以包含 3 个元素的元组形式返回内部缓存字典。,Return internal cache dicts as a tuple of 3 elements.
+与上述相同，但以二进制模式打开文件。,Same as above but opens file in binary mode.
+返回更新后的 psutil.PROCFS_PATH 常量。,Return updated psutil.PROCFS_PATH constant.
+"返回 ""string ""的高亮版本。",Return an highlighted version of 'string'.
+打印字符串的彩色版本。,Print a colorized version of string.
+如果设置了 PSUTIL_DEBUG 环境变量，则会向 stderr 打印调试信息。,"If PSUTIL_DEBUG env var is set, print a debug message to stderr."
+报告缓存统计数据,Report cache statistics
+清除缓存和缓存统计,Clear the cache and cache statistics
+AIX 平台实现。,AIX platform implementation.
+"以（total, used, free, sin, sout）元组形式交换系统内存。","Swap system memory as a (total, used, free, sin, sout) tuple."
+以命名元组形式返回全系统 CPU 时间,Return system-wide CPU times as a named tuple
+以命名元组列表的形式返回系统每个 CPU 的时间,Return system per-CPU times as a list of named tuples
+返回系统中逻辑 CPU 的数量。,Return the number of logical CPUs in the system.
+以命名元组形式返回各种 CPU 统计信息。,Return various CPU stats as a named tuple.
+返回系统磁盘分区。,Return system disk partitions.
+获取网卡统计信息（isup、duplex、speed、mtu）。,"Get NIC stats (isup, duplex, speed, mtu)."
+系统启动时间，以自纪元起的秒数表示。,The system boot time expressed in seconds since the epoch.
+以命名元组列表的形式返回当前连接的用户。,Return currently connected users as a list of namedtuples.
+本地主机,localhost
+返回当前在系统上运行的 PID 列表。,Returns a list of PIDs currently running on the system.
+检查是否存在 unix pid。,Check for the existence of a unix pid.
+底层 C 实现的封装类。,Wrapper class around underlying C implementation.
+FreeBSD、OpenBSD 和 NetBSD 平台的实现。,"FreeBSD, OpenBSD and NetBSD platforms implementation."
+"以命名元组（total, used, free, sin, sout）形式返回系统交换内存。","System swap memory as (total, used, free, sin, sout) namedtuple."
+以命名元组形式返回系统每 CPU 时间,Return system per-CPU times as a namedtuple
+以命名元组形式返回系统 CPU 时间,Return system CPU times as a namedtuple
+返回系统中 CPU 内核的数量。,Return the number of CPU cores in the system.
+全系统网络连接。,System-wide network connections.
+返回电池信息。,Return battery info.
+如果有 CPU 内核，则返回 CPU 内核温度，否则返回空 dict。,"Return CPU cores temperatures if available, else an empty dict."
+核心 %s,Core %s
+如果 pid 存在，则返回 True。,Return True if pid exists.
+同上，适用于依赖读取 /proc fs 的例程。,"Same as above, for routines relying on reading /proc fs."
+如果进程消失，则引发 NSP。,Raise NSP if the process disappeared on us.
+以原始元组形式一次性读取多个进程信息。,Retrieves multiple process info in one shot as a raw tuple.
+返回进程当前的工作目录。,Return process current working directory.
+以命名元组列表形式返回进程打开的文件。,Return files opened by process as a list of namedtuples.
+返回进程打开的文件描述符的数量。,Return the number of file descriptors opened by this process.
+Linux 平台实现。,Linux platform implementation.
+os.readlink() 的封装。,Wrapper around os.readlink().
+返回交换内存指标。,Return swap memory metrics.
+解析 /proc/net/tcp* 和 /proc/net/udp* 文件。,Parse /proc/net/tcp* and /proc/net/udp* files.
+解析 /proc/net/unix 文件。,Parse /proc/net/unix files.
+返回全系统打开的连接,Return system-wide open connections.
+以命名元组列表的形式返回已挂载的磁盘分区。,Return mounted disk partitions as a list of namedtuples.
+返回系统启动时间，以自纪元开始的秒数表示。,Return the system boot time expressed in seconds since the epoch.
+Linux 进程实现。,Linux process implementation.
+%s/%s/io,%s/%s/io
+进程所在的 CPU。,What CPU the process is on.
+%s/%s/task/%s/stat,%s/%s/task/%s/stat
+macOS 平台实现。,macOS platform implementation.
+以命名元组形式返回系统虚拟内存。,System virtual memory as a namedtuple.
+以命名元组形式返回系统 CPU 时间。,Return system CPU times as a namedtuple.
+以命名元组形式返回系统 CPU 时间,Return system CPU times as a named tuple
+返回电池信息,Return battery information.
+所有 posix 系统通用的例程。,Routines common to all posix systems.
+检查当前进程表中是否存在 pid。,Check whether pid exists in the current process table.
+将负信号值转换为枚举。,Convert a negative signal value to an enum.
+Sun OS Solaris 平台实现。,Sun OS Solaris platform implementation.
+报告虚拟内存指标,Report virtual memory metrics.
+报告交换内存指标,Report swap memory metrics.
+"通过解析 ""pfiles ""输出，获取进程使用的 UNIX 套接字。",Get UNIX sockets used by process by parsing 'pfiles' output.
+%s/%s/path/%s,%s/%s/path/%s
+Windows 平台实现。,Windows platform implementation.
+返回与路径相关的磁盘使用情况。,Return disk usage associated with path.
+返回磁盘分区。,Return disk partitions.
+以命名元组形式返回系统 CPU 时间。,Return system CPU times as a named tuple.
+以命名元组列表的形式返回系统每 CPU 时间。,Return system per-CPU times as a list of named tuples.
+返回 CPU 统计数据。,Return CPU statistics.
+返回与每个网卡相关的地址。,Return the addresses associated to each NIC.
+生成 WindowsService 实例列表。,Yields a list of WindowsService instances.
+打开 Windows 服务并将其作为 WindowsService 实例返回。,Open a Windows service and return it as a WindowsService instance.
+代表已安装的 Windows 服务。,Represents an installed Windows service.
+拥有此服务的用户名。,The name of the user that owns this service.
+字符串形式的服务状态。,Service status as a string.
+服务长描述。,Service long description.
+如果是权限错误，则返回 True。,Return True if this is a permission error.
+将 OSError 转换为 NoSuchProcess 或 AccessDenied。,Convert OSError into NoSuchProcess or AccessDenied.
+将 OSError 转换为 NoSuchProcess 或 AccessDenied 的装饰器。,Decorator which converts OSError into NoSuchProcess or AccessDenied.
+以人类可读的形式格式化秒。,Format seconds in a human readable form.
+进程 PID。,The process PID.
+进程名称。首次调用后会缓存返回值。,The process name. The return value is cached after first call.
+调用该进程的命令行。,The command line this process has been called with.
+以 STATUS_* 常量表示的进程当前状态。,The process current status as a STATUS_* constant.
+以绝对路径表示的进程当前工作目录。,Process current working directory as an absolute path.
+获取或设置进程好坏（优先级）。,Get or set process niceness (priority).
+返回该进程使用的线程数。,Return the number of threads used by this process.
+返回当前运行的 PID 列表。,Return a list of current running PIDs.
+运行单元测试,run unit tests
+AIX 特定测试。,AIX specific tests.
+针对所有 BSD 平台的测试。,Tests specific to all BSD platforms.
+"muse"" cmdline 工具的精简封装。",Thin wrapper around 'muse' cmdline utility.
+所有 BSD 变体通用的通用测试。,Generic tests common to all BSD variants.
+测试 net_connections() 和 Process.connections() API。,Tests for net_connections() and Process.connections() APIs.
+测试已打开但未连接的套接字。,Tests sockets which are open but not connected to anything.
+测试 net_connections()。,Tests for net_connections().
+Linux 特定测试。,Linux specific tests.
+如果 /proc/meminfo 提供交换指标，则返回 True。,Return True if /proc/meminfo provides swap metrics.
+测试 Process 类方法的泄漏。,Test leaks of Process class methods.
+测试 psutil 模块函数的泄漏。,Test leaks of psutil module functions.
+%s,%s
+名称,name
+my docstring,my docstring
+foo docstring,foo docstring
+/foo,/foo
+测试 scripts 目录中的脚本。,"""Tests for scripts in the \""scripts\"" directory."""
+macOS 专用测试。,macOS specific tests.
+"vm_stat"" cmdline 工具的包装器。",Wrapper around 'vm_stat' cmdline utility.
+POSIX 特定测试。,POSIX specific tests.
+将 psutil 的结果与'ps'命令行工具（主要）进行比较。,Compare psutil results against 'ps' command line utility (mainly).
+长程序名,long-program-name
+测试某些系统 API。,Test some system APIs.
+测试 psutil.Process 类。,Tests for psutil.Process class.
+测试 psutil.Popen 类。,Tests for psutil.Popen class.
+Sun OS 特定测试。,Sun OS specific tests.
+测试系统 APIS。,Tests for system APIS.
+测试具有古怪、有效、UTF8 路径名的 FS API。,"Test FS APIs with a funky, valid, UTF8 path name."
+使用奇特、无效的路径名测试 FS API。,"Test FS APIs with a funky, invalid path name."
+非 FS 相关 API 的 Unicode 测试。,Unicode tests for non fs-related APIs.
+Windows 特定测试,Windows specific tests.
+将进程 API 结果与 WMI 进行比较。,Compare Process API results with WMI.
+%s\\%s,%s\\%s
+什么都不做的线程任务。,A thread task which does nothing expect staying alive.
+停止线程执行并等待直到停止。,Stop thread execution and and waits until it is stopped.
+"返回一个元组，如（2, 6, 36）。","Return a tuple such as (2, 6, 36)."
+重试装饰器。,A retry decorator.
+等待在磁盘上写入某个内容的文件。,Wait for a file to be written on disk with some content.
+移除临时测试文件或目录的方便函数。,Convenience function for removing temporary test files or dirs.
+创建目录的方便函数。,Convenience function for creating a directory.
+临时更改当前目录的上下文管理器。,Context manager which temporarily changes the current directory.
+在指定位置创建可执行文件。,Creates an executable file in the given location.
+测试可调用程序,Test a callable.
+清除进程实例的缓存。,Clear the cache of a Process instance.
+测试,test_
+忽略 AccessDenied 异常的装饰器。,Decorator to Ignore AccessDenied exceptions.
+忽略 NotImplementedError 异常的装饰器。,Decorator to Ignore NotImplementedError exceptions.
+返回未使用的 TCP 端口。受竞赛条件影响。,Return an unused TCP port. Subject to race conditions.
+绑定通用套接字。,Binds a generic socket.
+绑定 UNIX 套接字,Bind a UNIX socket.
+打开尽可能多的套接字系列/类型。,Open as many socket families / types as possible.
+检查命名元组连接的有效性。,Check validity of a connection namedtuple.
+Python 3.3+ 的 importlib.reload 的回传。,Backport of importlib.reload of Python 3.3+.
+引发警告提示,Raise a warning msg.
+检查对象是否是 namedtuple 的实例。,Check if object is an instance of namedtuple.
+,
+通过www.DeepL.com/Translator（免费版）翻译,
