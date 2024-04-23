@@ -1,0 +1,87 @@
+, 
+,'
+TILA_umi_{}_settings,TILA_umi_{}_settings
+"""\""""
+"""", ""导入设置名称""","""\""""
+"""",""Import Setting Name"""
+导入格式,Import Format
+根目录,ROOT
+导入的设置,Settings imported
+命令批处理操作符,Command Batcher Operators
+命令批处理预置,Command Batcher Presets
+命令批处理,Command Batcher
+导入模式,Importer_mode
+全部导入,Import ALL
+{} 导入设置,{} Import Settings
+最多同时导入（文件）,Max Import Simultaneously (files)
+同时导入文件的最大数量,Maximum number of file to import simultaneously
+最大批次大小（MB）,Max batch size (MB)
+每个导入批次的最大大小。一个导入批次代表同时导入的文件数量,Max size per import batch. An import batch represents the number of files imported simultaneously
+尽量减少批次数量,Minimize batch number
+尽量以接近最大批次大小的方式打包每个批次的文件，然后尽量减少导入批次的数量,"Try to pack files per batch in a way to be as close as possible to the Max batch size, and then minimize the number of import batches"
+为每个文件创建集合,Create collection per file
+每个导入的文件都将放入一个集合中,Each imported file will be placed in a collection
+备份文件,Backup file
+导入文件后备份文件。频率取决于 ,Backup file after importing file. The frequency will be made based on 
+备份步骤（MB）,Backup Step (MB)
+导入 X 个文件后备份文件,Backup file after X file(s) imported
+跳过已导入文件,Skip already imported files
+如果在混合文件中发现同名的收藏集，将跳过导入。,Import will be skipped if a Collection with the same name is found in the Blend file. 
+导入后保存文件,Save file after import
+整个导入过程结束后保存原始文件,Save the original file when the entire import process is compete
+忽略后期处理错误,Ignore Post Process Errors
+如果在导入文件的后期处理过程中出现任何错误，错误将被忽略，导入过程将继续进行下一步操作,"If any error occurs during post processing of imported file(s), error(s) will be ignore and the import process will continue to the next operation"
+以油性笔导入 SVG,Import SVG as Grease Pencil
+SVG 文件将作为油性笔而不是曲线对象导入,SVG file will be imported as grease Pencil instead of curve objects
+导入设置,Import Settings
+文件数量,File Count
+设置,Settings
+备份,Backup
+移动操作器,Move Operator
+上移或下移操作器，控制菜单中的位置。,Move Operator up or down.\nThis controls the position in the Menu.
+清除所有操作符,Clear All Operators
+清除所有操作员。,Clear All Operators.
+删除选定的操作员,Remove Selected Operator
+删除选定的操作员。,Remove selected Operator.
+操作员 ID,Operator ID
+复制所选操作员,Duplicate Selected Operator
+复制选中的操作员。,Duplicate selected Operator.
+编辑操作员,Edit Operator
+编辑当前操作员,Edit current operator
+操作员命令,Operator Command
+命令,Command
+添加操作符,Add Operator
+添加新操作符,Add a new operator
+移动预置,Move Preset
+向上或向下移动预置。,Move Preset up or down.\nThis controls the position in the Menu.
+清除所有预置,Clear All Presets
+清除所有预置。,Clear All Presets.
+删除所选预置,Remove Selected Preset
+永久删除所选预置？,Remove Selected Preset PERMANENTLY ?
+预置 ID,Preset ID
+复制所选预置,Duplicate Selected Preset
+复制所选预置。,Duplicate selected Preset.
+编辑当前预置,Edit current preset
+预置名称,Preset Name
+预置名称,Preset name
+来自列表,From List
+保存预置,Save Preset
+将当前操作员列表的预置保存到磁盘上的预置文件中,Save a preset of the current operator list to a preset file on your disk
+文件路径,Filepath
+加载预置,Load Preset
+加载预置并将命令添加到当前列表的末尾,Load a preset and add the commands at the end of the current list
+加载磁盘上保存的所有预置列表,Load the list of all presets saved on disks
+在 3D 视图上显示日志,Show Log on 3D View
+完成后自动隐藏文本,Auto Hide Text When Finished
+隐藏前等待（秒）,Wait Before Hiding (s)
+每次导入文件后强制刷新视口,Force Refresh Viewport After Each Imported Files
+已注册的导入设置,Import settings registered
+操作员,Operator
+名称,Name
+文件路径,File Path
+准备导入,Ready to Import
+是否正在处理,Is Batcher Processing
+已导入的当前格式设置,Current Format Settings Imported
+通用多路导入器,Universal Multi Importer
+,
+通过www.DeepL.com/Translator（免费版）翻译,

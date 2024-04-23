@@ -1,0 +1,304 @@
+, 
+,'
+"""\""""
+"""", ""插针/取消插针""","""\""""
+"""",""Pin/ Un-Pin"""
+保存或清除所有视图层状态,Save or clear all View Layer states
+保存视图层状态,Save View Layer states
+主图层,Primary Layer
+将视图层保存为主工作区,Save a view layer as the primary workspace
+查看图层,View layers
+删除镜头,Delete Shot
+永久删除此镜头,Permanently delete this shot
+删除所有选定镜头,Delete all selected shots
+删除主视图层,Delete Primary View Layer
+覆盖,Override
+刷新,Refresh
+刷新输出查看器,Refresh Output Viewer
+复制,Copy From
+将另一个镜头的属性复制到此镜头或所有队列镜头中,Copy properties from another shot to this shot or all queued shots
+源镜头名称：,Source Shot Name:
+镜头数据,Shot Data
+应用于所有排队的镜头,Apply to all queued shots
+复制,Duplicate
+复制此镜头，保留所有设置并生成新名称,"Duplicate this shot, keeping all of the settings and generate a new name"
+分割,Split
+在所选帧处分割此镜头，创建一个完整副本,"Split this shot at the selected frame, creating a complete copy"
+在帧上分割,Split at Frame
+合并,Join
+将另一个镜头合并到此镜头中，扩展其时间范围并删除目标。可选择合并视图层和规则。其他镜头数据将不会保留。,"Merge another shot into this one, extending its time range and deleting the target. Option to merge View Layers and Rules. Other shot data will not be preserved."
+目标,Target
+将目标镜头合并到活动镜头中。,Merges the Target shot into the active shot.
+删除目标,Delete Target
+同化视图层,Assimilate View Layers
+从源添加视图层状态,Add View Layer states from source
+吸收规则,Assimilate Rules
+从源添加不存在的规则,Add non-existent rules from source
+与 ,With 
+添加镜头,Add Shot
+新镜头,New Shot
+添加新镜头,Add a new shot
+模式：静态图像,MODE: Still Images
+使用单帧而非帧范围,Use single frames rather than frame ranges
+模式：静态图像 生成视图图层,MODE: Generate View Layers
+为每个新镜头创建并关联一个视图图层作为主图层,Make and associate a View Layer with each new shot as Primary Layer
+图集状态,Collections State
+生成的视图层的集合状态,State of collections for generated View Layer
+-1,-1
+排序,Sort
+移动镜头,Move Shot
+移动到索引,Move To Index
+将镜头移动到另一个索引,Move Shot to another index
+目标索引,Target Index
+快速选择,Quick Select
+快速选择镜头,Quick Select shot
+选择/查看项目,Select/View item
+选择和/或查看项目属性,Select and/or view item properties
+数据,DATA
+全部排队,Queue All
+切换队列全部（可见颜色集内）或无,Toggle queue all(within visible colour set) or None
+保存 json,Save json
+将镜头保存为 json,Save shots into json
+包含镜头管理器设置,Include Shot Manager Settings
+打开 json,Open json
+从 json 加载镜头,Load shots from json
+替换默认镜头,Replace Default Shot
+用导入的 ,Replace the default shot with an imported 
+场景名称,Scene name
+要复制的原始场景，留空表示全部导入。,"Original scene to copy from, leave empty to import all."
+应用设置,Apply Settings
+使用当前场景设置预填充镜头数据,Use the current scene settings to pre-fill shot data
+重新命名视图层？,Rename View Layer?
+更新视图层名称以匹配镜头,Update View Layer name to match the Shot
+切换叠加区域,Switch overlay area
+刷新镜头列表,Refresh Shot List
+来源,Source
+选择源镜头。,Select source shot.
+镜头名称：,Shot Name:
+镜头管理器： 新图集,Shot Manager: New Collection
+在所有视图层都未启用的情况下添加新集合,Add a new Collection without it being enabled in all View Layers
+添加属性覆盖,Add Property Override
+添加新的属性覆盖，所有镜头都可访问 ,"Add a new property override, accessible by all shots "
+删除覆盖属性,Delete Property Override
+删除所有镜头的覆盖属性,Delete a property override for all shots
+删除的属性将从该场景的所有镜头中移除！,Deleted properties will be removed from all shots within this scene!
+修复镜头,Fix Shots
+修复缺少数据的镜头,Fix Shots for missing data
+镜头,Camera
+B-renderon 二进制,B-renderon binary
+临时文件路径,Temp file path
+截止日期路径,Deadline Path
+弗拉门戈路径,Flamenco Path
+安全模式,Safe Mode
+以出厂设置进行渲染，防止第三方插件干扰渲染过程,Render with factory settings to prevent 3rd party add-ons from interfering with the render process
+白名单,White List
+最爱输出,Favourite Output
+高级,Advanced
+显示高级选项,Show advanced options
+显示 N 面板菜单,Display N-Panel Menu
+切换镜头管理器中的可见性 ,Toggle Shot Manager visibility in the 
+渲染为副本,Render as copy
+保存此项目的副本以进行渲染,Save a copy of this project to render from
+叠加缩放,Overlay Scale
+缩放叠加用户界面,Scale the Overlay UI
+版本,Version:
+专业版,PRO:
+添加 B-Renderon 集成。注意：必须是 v2.2 或更新版本。,Add B-Renderon integration. Note: Must be v2.2 or newer.
+截止日期文件夹,Deadline Folder
+弗拉门戈二进制,Flamenco Binary
+渲染设置：,Render settings:
+第三方插件：,3rd Party Addons:
+显示叠加效果,Show Overlays
+缩放宽度,Zoom Width
+显示序列,Show Sequence
+缩放高度,Zoom Height
+滑动,Slide
+滚动,Scroll
+不透明度,Opacity
+黑框不透明度,Black frame opacity
+拍摄基础,Shot Basics
+输出摘要,Output Summary
+显示说明,Display Notes
+折叠,Collapsed
+Target= 射击目标的属性集合,Target= properties collection of target shot
+字符串,String
+枚举器,Enumerator
+开关,Switch
+整数,Integer
+浮点数,Float
+属性组,Property Group
+矢量,Vector
+四元数,Quaternion
+对象,Object
+世界,World
+场景,Scene
+输出组（通道）,Output Group(Passes)
+ID,ID
+覆盖名称,Override Name
+镜头名称,Name
+镜头名称,Name of Shot
+场景链接,Link from scene
+镜头别名,Shot Alias
+锁定,Lock
+防止通过镜头数据用户界面更改镜头属性,Prevent changes to shot properties via shot data UI
+静止模式,Still Mode
+只渲染静止画面,Only render a still frame
+使用静态模式,Use Still Mode
+覆盖渲染帧范围,Override Render Frame Range
+开始帧,Start Frame
+设置起始帧,Set start frame
+结束帧,End Frame
+设置结束帧,Set end frame
+注释,Notes
+注释，使用反斜线（）换行 ,"Notes, Use backslash \ to make a new line "
+文本文件,Text File
+要在叠加中显示的文本数据块中的文本,Text from text data-block to be visible in overlay
+队列,Queue
+队列拍摄,Queue Shot
+选择,Select
+选择镜头,Select Shot
+覆盖主图层,Override Primary Layer
+颜色设置,Colour Set
+覆盖后缀,Override Suffix
+后缀,Suffix
+显示图层,Show Layers
+索引,Index
+规则,Rules
+格式,Format
+输出格式,Output format
+使用,Use
+旁路镜头管理器覆盖,Bypass Shot Manager overides
+类别,Categories
+镜头子文件夹,Shot Subfolders
+为每个镜头创建子文件夹，防止潜在的覆盖，否则直接渲染到根目录。,"Create a subfolder for each Shot, preventing potiential overwriting, otherwise render directly to root directory. "
+用于调试,For debuging purposes
+显示循环样本,Show Cycles Samples
+设置,Setting
+仅显示已启用和主图层,Show only Enabled & Primary
+仅显示已启用的视图图层和主图层,Only display enabled View Layers and Primary Layers
+设置,Set
+按关键字过滤,Filter by keyword
+显示链接照片,Show Linked Shots
+显示链接镜头,Display Linked Shots
+镜头序列回放,Shot Sequence Playback
+序列缩放,Sequence Scrubbing
+在时间线的镜头之间进行缩放。,Scrub between shot in timeline. 
+生成主图层,Generate Primary Layers
+用新镜头生成主视图层。,Generate Primary View Layers with new shots.
+使用主图层,Use primary layer
+自动切换到您的 ,Automatically switch to your 
+根文件夹,Root Folder
+生成路径的起始目录,Starting directory for generated paths
+保持在范围内,Keep in Range
+切换镜头时将视图设置为帧范围。如果启用了序列缩放，则会禁用,Set view to frame range when switching shots. Disabled if Sequence Scrubbing is enabled
+队列所有镜头进行批量输出,Queue all shots for batch output
+反转队列镜头,Invert Queued shots
+未保存图层默认值,Unsaved layers default
+为未保存的视图图层选择默认状态,Select a default state for unsaved View Layers
+跳转到第一帧,Jump to First Frame
+镜头变化时跳转到第一帧，否则保持在帧范围内,"Jump to First Frame on shot change, otherwise keep withing frame range"
+分隔符,Separator
+输出文件名和帧号的分隔符,Separator for output filename and frame number
+路径类型,Path type
+使路径相对或绝对,Make paths relative or absolute
+捕捉偏移,Snap Offset
+下一个或上一个镜头与捕捉位置之间的帧数。,The number of frames between next or previous shot and snapping position.
+从单个文件提交和渲染，以减少保存时间,Submit and render from a single file to reduce saving time
+扁平化播放 ,Flattened Playback 
+自上而下播放序列，否则按顺序播放整个镜头,"Play sequence with top down dominance, otherwise play entire shots in order"
+循环播放序列,Loop Sequence
+循环播放序列,Loop sequence playback
+使用后缀,Use Suffix
+显示后缀,Show Suffix
+显示摄像机,Show Camera
+活动镜头,Active Shot
+视图层,View Layer
+选择要显示的视图层,Select a View Layer to display
+  创建镜头列表,  Create Shot List
+渲染队列,Render Queued
+源镜头：,Source Shot:
+源缺失,Source Missing
+查看图层,View Layers
+使用当前帧,Use current Frame
+应用帧范围,Apply Frame Range
+主要图层：,Primary Layer:
+在活动场景中不可用,Not Available in active scene
+缺少镜头源！,Shot Source is Missing!
+未固定默认值：,Unpinned Default:
+清除图钉,Clear Pins
+全部图钉,Pin All
+仅启用,Enabled Only
+默认 - 始终固定。,Default - Always pinned.
+警告： 渲染时未启用视图层。,Warning: No View Layers are enabled for render.
+需要刷新镜头,Shot Refresh required
+SM,SM
+专业功能,Pro Features
+规则允许在每个镜头中覆盖任何场景数据。,Rules allow any scene data to be overriden per shot.
+宏是可以在点击时执行的命令。,Macros are commands that can be executed on click.
+新规则,New Rule
+使用宏时显示错误,Diasbled when Macros in use
+过滤,Filter
+当前值 = %s,Current Value = %s
+可以,Can
+默认,Default
+切换到主要,Switch to Primary
+默认查看层,View Layer Default
+因序列擦除而禁用,Disabled due to Sequence Scrubbing
+限制播放头,Limit Playhead
+使用中的宏,Macros in use
+调试模式,Debug Mode
+跳过更新 = ,Skip Update = 
+输出,output
+跳过更新！检查控制台,Skipping Updates! Check console
+拍摄预置,Shot Presets
+编辑源,Editing Source
+专业功能,Pro Feature
+无规则定义，在规则手册中创建一个规则即可开始使用,"No Rule definitions, make one in the Rule Book to get started"
+输出设置,Output Settings
+警告： \\\\ 语法无效，请使用 //,"Warning: \\\\ not valid syntax, use //"
+临时路径,Temp Path
+安全模式已启用！,Safe Mode is Enabled!
+第三方插件将在渲染过程中禁用。,3rd party addons will be disabled during render.
+例外情况：,Exceptions:
+专业功能：,Pro Features:
+使用 SM Render、Deadline、B-Renderon、Flamenco 进行批量渲染,"Batch Render with SM Render, Deadline, B-Renderon, Flamenco"
+浴缸导出为文件和视口渲染,Bath Export as files and Viewport Render
+注意：渲染时会启用大量视图层。,NOTICE: A large number fo View Layers are enabled for render.
+警告：未启用任何视图层进行渲染。,WARNING: No View Layers are enabled for render.
+注意：已启用合成器，但没有镜头列表节点。,NOTICE: Compositor is enabled but there is no Shot List node.
+输出可能与预期不符。,Output may not be as intended.
+SM 工具,SM Tools
+视图层编辑器,View Layers Editor
+仅启用视图层,Only Enabled View Layers
+样本,Samples
+JSON 备份,JSON Backup
+JSON 文件包含大部分 Shot 数据。,JSON files contain most Shot data.
+不包括 场景数据（如对象）。镜头规则和视图层状态。,Not included: Scene data such as objects. Shot Rules and View Layer states.
+"可选择包含的 ""镜头管理器 ""设置。",Shot Manager settings optionally included.
+可识别名称匹配的场景、摄像机和世界。,"Scenes, Cameras and Worlds with matching names are recognised."
+导出,Export
+导入,Import
+收藏检查器,Collections Inspector
+输出查看器,Output Viewer
+复合输出： ,Composite Out: 
+主输出： (尚不存在） ,Main Output: (Does Not Exist Yet) 
+输出： ,Output: 
+输出： (尚不存在） ,Output: (Does Not Exist Yet) 
+(尚不存在） ,(Does Not Exist Yet) 
+镜头管理器,Shot Manager
+镜头操作,Shot Operations
+叠加选项,Overlay Options
+锁定用户界面：,Lock UI:
+镜头列表,Shot List
+回放,Playback:
+链接镜头,Linked Shots
+相机,Cameras
+F： %i,F: %i
+F:,F:
+查看图层设置,View Layer Settings
+设置,Settings
+去噪,Denoising:
+SM 渲染,SM Rendering
+文件路径被镜头管理器覆盖,Filepath is being overriden by Shot Manager
+,
+通过www.DeepL.com/Translator（免费版）翻译,

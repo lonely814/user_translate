@@ -1,0 +1,17 @@
+根据此树对对象的形状键排序。,Sorts the object's shape keys according to this Tree.
+"""\""""
+"""", ""返回选中的 bpy.types.ShapeKey 列表。""","""\""""
+"""",""Returns a list of selected bpy.types.ShapeKey."""
+取消选择所有形状键，并返回一个名称列表，作为重新选择()的参数。,Deselects all shape keys and returns a list of names to be passed as the argument to reselect().
+从 `selections` 中的名称列表（例如 deselect() 返回的名称列表）中选择形状键。,"Selects the shape keys from the list of names in `selections`, such as those returned by deselect()."
+如果可能，返回 `l[i]` 的值，否则返回 `d`。,"Returns the value of `l[i]` if possible, otherwise `d`."
+在 `a` 和 `b` 之间循环 `n`（排他）。,Loops `n` between `a` and `b` (exclusive).
+','
+类型,Type
+ , 
+数据,data
+MESH_UL_shape_keys_plus,MESH_UL_shape_keys_plus
+键块,key_blocks
+active_shape_key_index,active_shape_key_index
+形状键图标,Shape Key Icon
+的 ,of 

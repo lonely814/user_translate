@@ -1,0 +1,2687 @@
+, 
+"""\""""
+"""", ""BlenRig 修复错位骨骼","""\""""
+"""",""BlenRig Fix Misaligned Bones"""
+修复烘焙后错位的骨骼,Fixes misaligned bones after baking
+BlenRig 自动计算滚动角度,BlenRig Auto Calulate Roll Angles
+将滚动角度设置为预定义值,Set roll angles to their predefined values
+BlenRig 用户定义滚动角度,BlenRig User Defined Roll Angles
+计算用户定义的滚动角度和对齐方式,Calulate roll angles and aligns defined by user
+BlenRig 存储滚动角度,BlenRig Store Roll Angles
+存储每个骨骼的当前滚动角度,Store current roll angles for each bone
+BlenRig 恢复滚动角度,BlenRig restore Roll Angles
+将滚动角度还原为保存在每个骨骼中的角度,Retore roll angles to the ones saved in each bone
+BlenRig 重置动态塑形,BlenRig Reset Dynamic Shaping
+重置动态塑形值,Reset Dynamic Shaping values
+BlenRig 镜像体量保持约束 L 至 R,BlenRig Mirror Volume Preservation Constraints L to R
+镜像左至右的体量保持约束,Mirror Volume Preservation Constraints L to R
+BlenRig 镜像真实关节约束 L 至 R,BlenRig Mirror Realistic Joints Constraints L to R
+镜像真实关节约束 L 至 R,Mirror Realistic Joints Constraints L to R
+BlenRig 计算 IK 杆角度,BlenRig Calculate IK Pole Angles
+计算 IK 杆角度,Calculate IK Pole Angles
+BlenRig 计算地板偏移,BlenRig Calculate Floor Offsets
+计算地板偏移,Calculate Floor Offsets
+BlenRig 6 网格烘焙,BlenRig 6 Mesh Baker
+将当前姿势烘焙到网格,Bake current pose to mesh
+','
+基础,Basis
+烘焙形状,Baked_shape
+BlenRig 6 重置挂钩,BlenRig 6 Reset Hooks
+重置网格和曲线上的钩点,Reset Hooks on Lattices and Curves
+BlenRig 6 禁用钩子修改器,BlenRig 6 Disable Hooks modifier
+禁用钩子修改器,Disable Hooks modifier
+BlenRig 6 重置变形器,BlenRig 6 Reset Deformers
+重置电枢相关的网格和曲线,Reset Armature related Lattices and Curves
+BlenRig 6 电枢烘焙,BlenRig 6 Armature Baker
+将当前姿势烘焙到衔铁,Bake current pose to armature
+BlenRig 6 重置约束,BlenRig 6 Reset Constraints
+重置所有姿势约束,Reset all posebone constraints
+缩放至所选,BlenRig Zoom to Selected
+缩放至选定 / 查看全部,Zoom to selected / View All
+BlenRig 插入关键帧到主动画属性,BlenRig Insert Keyframes To Main Animation Properties
+为主要动画属性插入关键帧,Insert Keyframes to main animation properties
+BlenRig 选择头部拉伸,BlenRig Select head_stretch
+头部拉伸,head_stretch
+BlenRig 选择头部卡通,BlenRig Select head_toon
+头部,head_toon
+,BlenRig Select head_top_ctrl
+,head_top_ctrl
+,BlenRigSelect head_mid_ctrl
+,head_mid_ctrl
+,BlenRig Select head_mid_curve
+,head_mid_curve
+,BlenRig Select mouth_str_ctrl
+,mouth_str_ctrl
+,BlenRIg Select look_L
+,look_L
+,BlenRIg Select look_R
+,look_R
+,BlenRIg Select look
+,look
+,BlenRIg Select head_fk
+,head_fk
+,BlenRIg Select head_ik_ctrl
+,head_ik_ctrl
+,BlenRig Select neck_4_toon
+,neck_4_toon
+,BlenRig Select face_toon_up
+,face_toon_up
+,BlenRig Select face_toon_mid
+,face_toon_mid
+,BlenRig Select face_toon_low
+,face_toon_low
+,BlenRig Select neck_3
+,neck_3_ik_ctrl / neck_3_fk
+,BlenRig Select neck_2
+,neck_2_ik_ctrl / neck_2_fk
+,BlenRig Select neck_1
+,neck_1_fk
+,neck_2_fk
+,neck_3_fk
+,BlenRig Select neck_fk_ctrl
+,neck_fk_ctrl
+,BlenRig Select neck_3_toon
+,neck_3_toon
+,BlenRig Select neck_2_toon
+,neck_2_toon
+,BlenRig Select neck_ctrl
+,neck_ik_ctrl / neck_fk_ctrl
+,BlenRig Select clavi_toon_R
+,clavi_toon_R
+,BlenRig Select shoulder_rot_R
+,shoulder_rot_R
+,BlenRig Select shoulder_R
+,shoulder_R
+,BlenRig Select head_scale
+,head_scale
+,BlenRig Select shoulder_L
+,shoulder_L
+,BlenRig Select shoulder_rot_L
+,shoulder_rot_L
+,BlenRig Select clavi_toon_L
+,clavi_toon_L
+,BlenRig Select arm_toon_R
+,arm_toon_R
+,BlenRig Select elbow_pole_R
+,elbow_pole_R
+,BlenRig Select forearm_toon_R
+,forearm_toon_R
+,BlenRig Select arm_scale_R
+,arm_scale_R
+,BlenRig Select arm_fk_R
+,arm_fk_R
+,arm_fk_ctrl_R
+,BlenRig Select arm_ik_R
+,arm_ik_R
+,BlenRig Select elbow_toon_R
+,elbow_toon_R
+,BlenRig Select forearm_fk_R
+,forearm_fk_R
+,BlenRig Select forearm_ik_R
+,forearm_ik_R
+,BlenRig Select hand_toon_R
+,hand_toon_R
+,BlenRig Select arm_toon_L
+,arm_toon_L
+,BlenRig Select elbow_pole_L
+,elbow_pole_L
+,BlenRig Select forearm_toon_L
+,forearm_toon_L
+,BlenRig Select arm_scale_L
+,arm_scale_L
+,BlenRig Select arm_fk_L
+,arm_fk_L
+,arm_fk_ctrl_L
+,BlenRig Select arm_ik_L
+,arm_ik_L
+,BlenRig Select elbow_toon_L
+,elbow_toon_L
+,BlenRig Select forearm_fk_L
+,forearm_fk_L
+,BlenRig Select forearm_ik_L
+,forearm_ik_L
+,BlenRig Select hand_toon_L
+,hand_toon_L
+,BlenRig Select torso_ctrl
+,torso_ik_ctrl / torso_fk_ctrl / torso_inv_ctrl
+,BlenRig Select spine_3
+,spine_3_ik_ctrl / spine_3_fk / spine_3_inv
+,BlenRig Select spine_2
+,spine_2_ik_ctrl / spine_2_fk / spine_2_inv
+,BlenRig Select spine_1
+,spine_1_ik_ctrl / spine_1_fk / spine_1_inv
+,spine_1_fk
+,spine_2_fk
+,spine_3_fk
+,BlenRig Select torso_fk_ctrl
+,torso_fk_ctrl
+,BlenRig Select spine_2_fk_inv
+,spine_2_fk_inv
+,BlenRig Select spine_3_fk_inv
+,spine_3_fk_inv
+,BlenRig Select torso_fk_ctrl_inv
+,torso_fk_ctrl_inv
+,BlenRig Select spine_4_toon
+,spine_4_toon
+,BlenRig Select spine_3_toon
+,spine_3_toon
+,BlenRig Select spine_2_toon
+,spine_2_toon
+,BlenRig Select spine_1_toon
+,spine_1_toon
+,BlenRig Select spine_3_inv_ctrl
+,spine_3_inv_ctrl
+,BlenRig Select pelvis_toon
+,pelvis_toon
+,BlenRig Select pelvis_ctrl
+,pelvis_ctrl
+,pelvis_ctrl / pelvis_inv
+,BlenRig Select master_torso_pivot_point
+,master_torso_pivot_point
+,BlenRig Select master_torso
+,master_torso
+,BlenRig Select hand_roll_R
+,palm_bend_ik_ctrl_R / palm_bend_fk_ctrl_R
+,BlenRig Select hand_ik_pivot_point_R
+,hand_ik_pivot_point_R
+,BlenRig Select hand_ik_ctrl_R
+,hand_ik_ctrl_R
+,BlenRig Select hand_fk_R
+,hand_fk_R
+,BlenRig Select fing_spread_R
+,fing_spread_R
+,BlenRig Select fing_lit_ctrl_R
+,fing_lit_ctrl_R
+,BlenRig Select fing_lit_2_R
+,fing_lit_2_R
+,BlenRig Select fing_lit_3_R
+,fing_lit_3_R
+,BlenRig Select fing_lit_4_R
+,fing_lit_4_R
+,BlenRig Select fing_ring_ctrl_R
+,fing_ring_ctrl_R
+,BlenRig Select fing_ring_2_R
+,fing_ring_2_R
+,BlenRig Select fing_ring_3_R
+,fing_ring_3_R
+,BlenRig Select fing_ring_4_R
+,fing_ring_4_R
+,BlenRig Select fing_mid_ctrl_R
+,fing_mid_ctrl_R
+,BlenRig Select fing_mid_2_R
+,fing_mid_2_R
+,BlenRig Select fing_mid_3_R
+,fing_mid_3_R
+,BlenRig Select fing_mid_4_R
+,fing_mid_4_R
+,BlenRig Select fing_ind_ctrl_R
+,fing_ind_ctrl_R
+,BlenRig Select fing_ind_2_R
+,fing_ind_2_R
+,BlenRig Select fing_ind_3_R
+,fing_ind_3_R
+,BlenRig Select fing_ind_4_R
+,fing_ind_4_R
+,BlenRig Select fing_thumb_ctrl_R
+,fing_thumb_ctrl_R
+,BlenRig Select fing_thumb_1_R
+,fing_thumb_1_R
+,BlenRig Select fing_thumb_2_R
+,fing_thumb_2_R
+,BlenRig Select fing_thumb_3_R
+,fing_thumb_3_R
+,BlenRig Select fing_lit_ik_R
+,fing_lit_ik_R
+,BlenRig Select fing_ring_ik_R
+,fing_ring_ik_R
+,BlenRig Select fing_mid_ik_R
+,fing_mid_ik_R
+,BlenRig Select fing_ind_ik_R
+,fing_ind_ik_R
+,BlenRig Select fing_thumb_ik_R
+,fing_thumb_ik_R
+,BlenRig Select hand_close_R
+,hand_close_R
+,BlenRig Select hand_roll_L
+,palm_bend_ik_ctrl_L / palm_bend_fk_ctrl_L
+,BlenRig Select hand_ik_pivot_point_L
+,hand_ik_pivot_point_L
+,BlenRig Select hand_ik_ctrl_L
+,hand_ik_ctrl_L
+,BlenRig Select hand_fk_L
+,hand_fk_L
+,BlenRig Select fing_spread_L
+,fing_spread_L
+,BlenRig Select fing_lit_ctrl_L
+,fing_lit_ctrl_L
+,BlenRig Select fing_lit_2_L
+,fing_lit_2_L
+,BlenRig Select fing_lit_3_L
+,fing_lit_3_L
+,BlenRig Select fing_lit_4_L
+,fing_lit_4_L
+,BlenRig Select fing_ring_ctrl_L
+,fing_ring_ctrl_L
+,BlenRig Select fing_ring_2_L
+,fing_ring_2_L
+,BlenRig Select fing_ring_3_L
+,fing_ring_3_L
+,BlenRig Select fing_ring_4_L
+,fing_ring_4_L
+,BlenRig Select fing_mid_ctrl_L
+,fing_mid_ctrl_L
+,BlenRig Select fing_mid_2_L
+,fing_mid_2_L
+,BlenRig Select fing_mid_3_L
+,fing_mid_3_L
+,BlenRig Select fing_mid_4_L
+,fing_mid_4_L
+,BlenRig Select fing_ind_ctrl_L
+,fing_ind_ctrl_L
+,BlenRig Select fing_ind_2_L
+,fing_ind_2_L
+,BlenRig Select fing_ind_3_L
+,fing_ind_3_L
+,BlenRig Select fing_ind_4_L
+,fing_ind_4_L
+,BlenRig Select fing_thumb_ctrl_L
+,fing_thumb_ctrl_L
+,BlenRig Select fing_thumb_1_L
+,fing_thumb_1_L
+,BlenRig Select fing_thumb_2_L
+,fing_thumb_2_L
+,BlenRig Select fing_thumb_3_L
+,fing_thumb_3_L
+,BlenRig Select fing_lit_ik_L
+,fing_lit_ik_L
+,BlenRig Select fing_ring_ik_L
+,fing_ring_ik_L
+,BlenRig Select fing_mid_ik_L
+,fing_mid_ik_L
+,BlenRig Select fing_ind_ik_L
+,fing_ind_ik_L
+,BlenRig Select fing_thumb_ik_L
+,fing_thumb_ik_L
+,BlenRig Select hand_close_L
+,hand_close_L
+,BlenRig Select thigh_toon_R
+,thigh_toon_R
+,BlenRig Select knee_pole_R
+,knee_pole_R
+,BlenRig Select shin_toon_R
+,shin_toon_R
+,BlenRig Select pelvis_toon_R
+,pelvis_toon_R
+,BlenRig Select leg_scale_R
+,leg_scale_R
+,BlenRig Select thigh_fk_R
+,thigh_fk_R
+,BlenRig Select thigh_fk_ctrl_R
+,thigh_fk_ctrl_R
+,BlenRig Select thigh_ik_R
+,thigh_ik_R
+,BlenRig Select knee_toon_R
+,knee_toon_R
+,BlenRig Select shin_fk_R
+,shin_fk_R
+,BlenRig Select shin_ik_R
+,shin_ik_R
+,BlenRig Select foot_toon_R
+,foot_toon_R
+,BlenRig Select thigh_toon_L
+,thigh_toon_L
+,BlenRig Select knee_pole_L
+,knee_pole_L
+,BlenRig Select shin_toon_L
+,shin_toon_L
+,BlenRig Select pelvis_toon_L
+,pelvis_toon_L
+,BlenRig Select leg_scale_L
+,leg_scale_L
+,BlenRig Select thigh_fk_L
+,thigh_fk_L
+,BlenRig Select thigh_fk_ctrl_L
+,thigh_fk_ctrl_L
+,BlenRig Select thigh_ik_L
+,thigh_ik_L
+,BlenRig Select knee_toon_L
+,knee_toon_L
+,BlenRig Select shin_fk_L
+,shin_fk_L
+,BlenRig Select shin_ik_L
+,shin_ik_L
+,BlenRig Select foot_toon_L
+,foot_toon_L
+,BlenRig Select toe_2_fk_R
+,toe_2_fk_R
+,BlenRig Select toes_ik_ctrl_R
+,toes_ik_ctrl_R
+,BlenRig Select toe_roll_2_R
+,toe_roll_2_R
+,BlenRig Select toe_1_fk_R
+,toe_1_fk_R
+,BlenRig Select toes_ik_ctrl_mid_R
+,toes_ik_ctrl_mid_R
+,BlenRig Select toe_roll_1_R
+,toe_roll_1_R
+,BlenRig Select foot_R
+,foot_ik_ctrl_R / foot_fk_R
+,BlenRig Select foot_roll_ctrl_R
+,foot_roll_ctrl_R
+,BlenRig Select toes_spread_R
+,toes_spread_R
+,BlenRig Select toe_lit_ctrl_R
+,toe_lit_ctrl_R
+,BlenRig Select toe_lit_2_R
+,toe_lit_2_R
+,BlenRig Select toe_lit_3_R
+,toe_lit_3_R
+,BlenRig Select toe_lit_ik_R
+,toe_lit_ik_R
+,BlenRig Select toe_fourth_ctrl_R
+,toe_fourth_ctrl_R
+,BlenRig Select toe_fourth_2_R
+,toe_fourth_2_R
+,BlenRig Select toe_fourth_3_R
+,toe_fourth_3_R
+,BlenRig Select toe_fourth_4_R
+,toe_fourth_4_R
+,BlenRig Select toe_fourth_ik_R
+,toe_fourth_ik_R
+,BlenRig Select toe_mid_ctrl_R
+,toe_mid_ctrl_R
+,BlenRig Select toe_mid_2_R
+,toe_mid_2_R
+,BlenRig Select toe_mid_3_R
+,toe_mid_3_R
+,BlenRig Select toe_mid_4_R
+,toe_mid_4_R
+,BlenRig Select toe_mid_ik_R
+,toe_mid_ik_R
+,BlenRig Select toe_ind_ctrl_R
+,toe_ind_ctrl_R
+,BlenRig Select toe_ind_2_R
+,toe_ind_2_R
+,BlenRig Select toe_ind_3_R
+,toe_ind_3_R
+,BlenRig Select toe_ind_4_R
+,toe_ind_4_R
+,BlenRig Select toe_ind_ik_R
+,toe_ind_ik_R
+,BlenRig Select toe_big_ctrl_R
+,toe_big_ctrl_R
+,BlenRig Select toe_big_2_R
+,toe_big_2_R
+,BlenRig Select toe_big_3_R
+,toe_big_3_R
+,BlenRig Select toe_big_ik_R
+,toe_big_ik_R
+,BlenRig Select sole_ctrl_R
+,sole_ctrl_R
+,BlenRig Select sole_pivot_point_R
+,sole_pivot_point_R
+,BlenRig Select toe_2_fk_L
+,toe_2_fk_L
+,BlenRig Select toes_ik_ctrl_L
+,toes_ik_ctrl_L
+,BlenRig Select toe_roll_2_L
+,toe_roll_2_L
+,BlenRig Select toe_1_fk_L
+,toe_1_fk_L
+,BlenRig Select toes_ik_ctrl_mid_L
+,toes_ik_ctrl_mid_L
+,BlenRig Select toe_roll_1_L
+,toe_roll_1_L
+,BlenRig Select foot_L
+,foot_ik_ctrl_L / foot_fk_L
+,BlenRig Select foot_roll_ctrl_L
+,foot_roll_ctrl_L
+,BlenRig Select toes_spread_L
+,toes_spread_L
+,BlenRig Select toe_lit_ctrl_L
+,toe_lit_ctrl_L
+,BlenRig Select toe_lit_2_L
+,toe_lit_2_L
+,BlenRig Select toe_lit_3_L
+,toe_lit_3_L
+,BlenRig Select toe_lit_ik_L
+,toe_lit_ik_L
+,BlenRig Select toe_fourth_ctrl_L
+,toe_fourth_ctrl_L
+,BlenRig Select toe_fourth_2_L
+,toe_fourth_2_L
+,BlenRig Select toe_fourth_3_L
+,toe_fourth_3_L
+,BlenRig Select toe_fourth_4_L
+,toe_fourth_4_L
+,BlenRig Select toe_fourth_ik_L
+,toe_fourth_ik_L
+,BlenRig Select toe_mid_ctrl_L
+,toe_mid_ctrl_L
+,BlenRig Select toe_mid_2_L
+,toe_mid_2_L
+,BlenRig Select toe_mid_3_L
+,toe_mid_3_L
+,BlenRig Select toe_mid_4_L
+,toe_mid_4_L
+,BlenRig Select toe_mid_ik_L
+,toe_mid_ik_L
+,BlenRig Select toe_ind_ctrl_L
+,toe_ind_ctrl_L
+,BlenRig Select toe_ind_2_L
+,toe_ind_2_L
+,BlenRig Select toe_ind_3_L
+,toe_ind_3_L
+,BlenRig Select toe_ind_4_L
+,toe_ind_4_L
+,BlenRig Select toe_ind_ik_L
+,toe_ind_ik_L
+,BlenRig Select toe_big_ctrl_L
+,toe_big_ctrl_L
+,BlenRig Select toe_big_2_L
+,toe_big_2_L
+,BlenRig Select toe_big_3_L
+,toe_big_3_L
+,BlenRig Select toe_big_ik_L
+,toe_big_ik_L
+,BlenRig Select sole_ctrl_L
+,sole_ctrl_L
+,BlenRig Select sole_pivot_point_L
+,sole_pivot_point_L
+,BlenRig Select master
+,master
+,BlenRig Select master_pivot_point
+,master_pivot_point
+,BlenRig Select master extra
+,master extra
+,BlenRig Select ankle_toon_L
+,ankle_toon_L
+,BlenRig Select carpal_fk_L
+,carpal_fk_L
+,BlenRig Select carpal_ik_L
+,carpal_ik_L
+,BlenRig Select carpal_toon_L
+,carpal_toon_L
+,BlenRig Select ankle_toon_R
+,ankle_toon_R
+,BlenRig Select carpal_fk_R
+,carpal_fk_R
+,BlenRig Select carpal_ik_R
+,carpal_ik_R
+,BlenRig Select carpal_toon_R
+,carpal_toon_R
+,BlenRig Select hock_toon_L
+,hock_toon_L
+,BlenRig Select tarsal_fk_L
+,tarsal_fk_L
+,BlenRig Select tarsal_ik_L
+,tarsal_ik_L
+,BlenRig Select tarsal_toon_L
+,tarsal_toon_L
+,BlenRig Select hock_toon_R
+,hock_toon_R
+,BlenRig Select tarsal_fk_R
+,tarsal_fk_R
+,BlenRig Select tarsal_ik_R
+,tarsal_ik_R
+,BlenRig Select tarsal_toon_R
+,tarsal_toon_R
+,BlenRig Select fing_2_fk_L
+,fing_2_fk_L
+,BlenRig Select fing_roll_2_L
+,fing_roll_2_L
+,BlenRig Select fing_1_fk_L
+,fing_1_fk_L
+,BlenRig Select fing_roll_1_L
+,fing_roll_1_L
+,BlenRig Select hand_L
+,hand_ik_ctrl_L / hand_fk_L
+,BlenRig Select hand_roll_ctrl_L
+,hand_roll_ctrl_L
+,BlenRig Select hand_sole_ctrl_L
+,hand_sole_ctrl_L
+,BlenRig Select hand_sole_pivot_point_L
+,hand_sole_pivot_point_L
+,BlenRig Select fing_2_fk_R
+,fing_2_fk_R
+,BlenRig Select fing_roll_2_R
+,fing_roll_2_R
+,BlenRig Select fing_1_fk_R
+,fing_1_fk_R
+,BlenRig Select fing_roll_1_R
+,fing_roll_1_R
+,BlenRig Select hand_R
+,hand_ik_ctrl_R / hand_fk_R
+,BlenRig Select hand_roll_ctrl_R
+,hand_roll_ctrl_R
+,BlenRig Select hand_sole_ctrl_R
+,hand_sole_ctrl_R
+,BlenRig Select hand_sole_pivot_point_R
+,hand_sole_pivot_point_R
+,BlenRig Select ear_up_R
+,ear_up_R
+,BlenRig Select ear_R
+,ear_R
+,BlenRig Select ear_low_R
+,ear_low_R
+,BlenRig Select brow_ctrl_4_R
+,brow_ctrl_4_R
+,BlenRig Select brow_ctrl_3_R
+,brow_ctrl_3_R
+,BlenRig Select brow_ctrl_2_R
+,brow_ctrl_2_R
+,BlenRig Select brow_ctrl_1_R
+,brow_ctrl_1_R
+,BlenRig Select brow_ctrl_R
+,brow_ctrl_R
+,BlenRig Select toon_brow_R
+,toon_brow_R
+,BlenRig Select ear_up_L
+,ear_up_L
+,BlenRig Select ear_L
+,ear_L
+,BlenRig Select ear_low_L
+,ear_low_L
+,BlenRig Select brow_ctrl_4_L
+,brow_ctrl_4_L
+,BlenRig Select brow_ctrl_3_L
+,brow_ctrl_3_L
+,BlenRig Select brow_ctrl_2_L
+,brow_ctrl_2_L
+,BlenRig Select brow_ctrl_1_L
+,brow_ctrl_1_L
+,BlenRig Select brow_ctrl_L
+,brow_ctrl_L
+,BlenRig Select toon_brow_L
+,toon_brow_L
+,BlenRig Select frown_ctrl
+,frown_ctrl
+,BlenRig Select nose_bridge_1_ctrl
+,nose_bridge_1_ctrl
+,BlenRig Select eyelid_up_ctrl_R
+,eyelid_up_ctrl_R
+,BlenRig Select eyelid_up_ctrl_3_R
+,eyelid_up_ctrl_3_R
+,BlenRig Select eyelid_up_ctrl_2_R
+,eyelid_up_ctrl_2_R
+,BlenRig Select eyelid_up_ctrl_1_R
+,eyelid_up_ctrl_1_R
+,BlenRig Select toon_eye_out_R
+,toon_eye_out_R
+,BlenRig Select toon_eye_up_R
+,toon_eye_up_R
+,BlenRig Select pupil_ctrl_R
+,pupil_ctrl_R
+,BlenRig Select eye_ctrl_R
+,eye_ctrl_R
+,BlenRig Select iris_ctrl_R
+,iris_ctrl_R
+,BlenRig Select toon_eye_in_R
+,toon_eye_in_R
+,BlenRig Select toon_eye_low_R
+,toon_eye_low_R
+,BlenRig Select eyelid_ctrl_out_R
+,eyelid_ctrl_out_R
+,BlenRig Select eyelid_low_ctrl_3_R
+,eyelid_low_ctrl_3_R
+,BlenRig Select eyelid_low_ctrl_2_R
+,eyelid_low_ctrl_2_R
+,BlenRig Select eyelid_low_ctrl_1_R
+,eyelid_low_ctrl_1_R
+,BlenRig Select eyelid_ctrl_in_R
+,eyelid_ctrl_in_R
+,BlenRig Select eyelid_low_ctrl_R
+,eyelid_low_ctrl_R
+,BlenRig Select eyelid_up_ctrl_L
+,eyelid_up_ctrl_L
+,BlenRig Select eyelid_up_ctrl_3_L
+,eyelid_up_ctrl_3_L
+,BlenRig Select eyelid_up_ctrl_2_L
+,eyelid_up_ctrl_2_L
+,BlenRig Select eyelid_up_ctrl_1_L
+,eyelid_up_ctrl_1_L
+,BlenRig Select toon_eye_out_L
+,toon_eye_out_L
+,BlenRig Select toon_eye_up_L
+,toon_eye_up_L
+,BlenRig Select pupil_ctrl_L
+,pupil_ctrl_L
+,BlenRig Select eye_ctrl_L
+,eye_ctrl_L
+,BlenRig Select iris_ctrl_L
+,iris_ctrl_L
+,BlenRig Select toon_eye_in_L
+,toon_eye_in_L
+,BlenRig Select toon_eye_low_L
+,toon_eye_low_L
+,BlenRig Select eyelid_ctrl_out_L
+,eyelid_ctrl_out_L
+,BlenRig Select eyelid_low_ctrl_3_L
+,eyelid_low_ctrl_3_L
+,BlenRig Select eyelid_low_ctrl_2_L
+,eyelid_low_ctrl_2_L
+,BlenRig Select eyelid_low_ctrl_1_L
+,eyelid_low_ctrl_1_L
+,BlenRig Select eyelid_ctrl_in_L
+,eyelid_ctrl_in_L
+,BlenRig Select eyelid_low_ctrl_L
+,eyelid_low_ctrl_L
+,BlenRig Select nose_bridge_2_ctrl
+,nose_bridge_2_ctrl
+,BlenRig Select nose_frown_ctrl_R
+,nose_frown_ctrl_R
+,BlenRig Select nose_frown_ctrl_L
+,nose_frown_ctrl_L
+,BlenRig Select cheek_ctrl_R
+,cheek_ctrl_R
+,BlenRig Select cheek_ctrl_3_R
+,cheek_ctrl_3_R
+,BlenRig Select cheek_ctrl_2_R
+,cheek_ctrl_2_R
+,BlenRig Select cheek_ctrl_1_R
+,cheek_ctrl_1_R
+,BlenRig Select cheek2_ctrl_3_R
+,cheek2_ctrl_3_R
+,BlenRig Select cheek2_ctrl_2_R
+,cheek2_ctrl_2_R
+,BlenRig Select cheek2_ctrl_1_R
+,cheek2_ctrl_1_R
+,BlenRig Select lip_up3_ctrl_3_R
+,lip_up3_ctrl_3_R
+,BlenRig Select lip_up3_ctrl_2_R
+,lip_up3_ctrl_2_R
+,BlenRig Select lip_up3_ctrl_1_R
+,lip_up3_ctrl_1_R
+,BlenRig Select lip_up2_ctrl_3_R
+,lip_up2_ctrl_3_R
+,BlenRig Select lip_up2_ctrl_2_R
+,lip_up2_ctrl_2_R
+,BlenRig Select lip_up2_ctrl_1_R
+,lip_up2_ctrl_1_R
+,BlenRig Select cheek_ctrl_L
+,cheek_ctrl_L
+,BlenRig Select cheek_ctrl_3_L
+,cheek_ctrl_3_L
+,BlenRig Select cheek_ctrl_2_L
+,cheek_ctrl_2_L
+,BlenRig Select cheek_ctrl_1_L
+,cheek_ctrl_1_L
+,BlenRig Select cheek2_ctrl_3_L
+,cheek2_ctrl_3_L
+,BlenRig Select cheek2_ctrl_2_L
+,cheek2_ctrl_2_L
+,BlenRig Select cheek2_ctrl_1_L
+,cheek2_ctrl_1_L
+,BlenRig Select lip_up3_ctrl_3_L
+,lip_up3_ctrl_3_L
+,BlenRig Select lip_up3_ctrl_2_L
+,lip_up3_ctrl_2_L
+,BlenRig Select lip_up3_ctrl_1_L
+,lip_up3_ctrl_1_L
+,BlenRig Select lip_up2_ctrl_3_L
+,lip_up2_ctrl_3_L
+,BlenRig Select lip_up2_ctrl_2_L
+,lip_up2_ctrl_2_L
+,BlenRig Select lip_up2_ctrl_1_L
+,lip_up2_ctrl_1_L
+,BlenRig Select nostril_ctrl_R
+,nostril_ctrl_R
+,BlenRig Select nose_ctrl
+,nose_ctrl
+,BlenRig Select nostril_ctrl_L
+,nostril_ctrl_L
+,BlenRig Select lip_up3_ctrl_mid
+,lip_up3_ctrl_mid
+,BlenRig Select lip_up3_ctrl
+,lip_up3_ctrl
+,BlenRig Select lip_up2_ctrl_mid
+,lip_up2_ctrl_mid
+,BlenRig Select lip_up2_ctrl
+,lip_up2_ctrl
+,BlenRig Select cheek_ctrl_4_R
+,cheek_ctrl_4_R
+,BlenRig Select cheek2_ctrl_4_R
+,cheek2_ctrl_4_R
+,BlenRig Select lip_up3_ctrl_4_R
+,lip_up3_ctrl_4_R
+,BlenRig Select lip_up2_ctrl_4_R
+,lip_up2_ctrl_4_R
+,BlenRig Select cheek_ctrl_4_L
+,cheek_ctrl_4_L
+,BlenRig Select cheek2_ctrl_4_L
+,cheek2_ctrl_4_L
+,BlenRig Select lip_up3_ctrl_4_L
+,lip_up3_ctrl_4_L
+,BlenRig Select lip_up2_ctrl_4_L
+,lip_up2_ctrl_4_L
+,BlenRig Select mouth_mstr_up
+,mouth_mstr_up
+,BlenRig Select mouth_corner_R
+,mouth_corner_R
+,BlenRig Select mouth_corner_L
+,mouth_corner_L
+,BlenRig Select lip_up_ctrl
+,lip_up_ctrl
+,BlenRig Select lip_up_ctrl_collision
+,lip_up_ctrl_collision
+,BlenRig Select lip_up_ctrl_3_R
+,lip_up_ctrl_3_R
+,BlenRig Select lip_up_ctrl_2_R
+,lip_up_ctrl_2_R
+,BlenRig Select lip_up_ctrl_1_R
+,lip_up_ctrl_1_R
+,BlenRig Select lip_up_ctrl_mid
+,lip_up_ctrl_mid
+,BlenRig Select lip_up_ctrl_1_L
+,lip_up_ctrl_1_L
+,BlenRig Select lip_up_ctrl_2_L
+,lip_up_ctrl_2_L
+,BlenRig Select lip_up_ctrl_3_L
+,lip_up_ctrl_3_L
+,BlenRig Select mouth_up_ctrl
+,mouth_up_ctrl
+,BlenRig Select lip_up_ctrl_4_R
+,lip_up_ctrl_4_R
+,BlenRig Select lip_up_ctrl_4_L
+,lip_up_ctrl_4_L
+,BlenRig Select mouth_ctrl
+,mouth_ctrl
+,BlenRig Select mouth_low_ctrl
+,mouth_low_ctrl
+,BlenRig Select lip_low_ctrl_3_R
+,lip_low_ctrl_3_R
+,BlenRig Select lip_low_ctrl_2_R
+,lip_low_ctrl_2_R
+,BlenRig Select lip_low_ctrl_1_R
+,lip_low_ctrl_1_R
+,BlenRig Select lip_low_ctrl_mid
+,lip_low_ctrl_mid
+,BlenRig Select lip_low_ctrl_1_L
+,lip_low_ctrl_1_L
+,BlenRig Select lip_low_ctrl_2_L
+,lip_low_ctrl_2_L
+,BlenRig Select lip_low_ctrl_3_L
+,lip_low_ctrl_3_L
+,BlenRig Select lip_low_ctrl_collision
+,lip_low_ctrl_collision
+,BlenRig Select lip_low_ctrl
+,lip_low_ctrl
+,BlenRig Select mouth_mstr_low
+,mouth_mstr_low
+,BlenRig Select mouth_mstr_ctrl
+,mouth_mstr_ctrl
+,BlenRig Select mouth_frown_ctrl_R
+,mouth_frown_ctrl_R
+,BlenRig Select lip_low2_ctrl_3_R
+,lip_low2_ctrl_3_R
+,BlenRig Select lip_low2_ctrl_2_R
+,lip_low2_ctrl_2_R
+,BlenRig Select lip_low2_ctrl_1_R
+,lip_low2_ctrl_1_R
+,BlenRig Select lip_low3_ctrl_3_R
+,lip_low3_ctrl_3_R
+,BlenRig Select lip_low3_ctrl_2_R
+,lip_low3_ctrl_2_R
+,BlenRig Select lip_low3_ctrl_1_R
+,lip_low3_ctrl_1_R
+,BlenRig Select cheek_ctrl_5_R
+,cheek_ctrl_5_R
+,BlenRig Select chin_ctrl_3_R
+,chin_ctrl_3_R
+,BlenRig Select chin_ctrl_2_R
+,chin_ctrl_2_R
+,BlenRig Select chin_ctrl_1_R
+,chin_ctrl_1_R
+,BlenRig Select mouth_frown_ctrl_L
+,mouth_frown_ctrl_L
+,BlenRig Select lip_low2_ctrl_3_L
+,lip_low2_ctrl_3_L
+,BlenRig Select lip_low2_ctrl_2_L
+,lip_low2_ctrl_2_L
+,BlenRig Select lip_low2_ctrl_1_L
+,lip_low2_ctrl_1_L
+,BlenRig Select lip_low3_ctrl_3_L
+,lip_low3_ctrl_3_L
+,BlenRig Select lip_low3_ctrl_2_L
+,lip_low3_ctrl_2_L
+,BlenRig Select lip_low3_ctrl_1_L
+,lip_low3_ctrl_1_L
+,BlenRig Select cheek_ctrl_5_L
+,cheek_ctrl_5_L
+,BlenRig Select chin_ctrl_3_L
+,chin_ctrl_3_L
+,BlenRig Select chin_ctrl_2_L
+,chin_ctrl_2_L
+,BlenRig Select chin_ctrl_1_L
+,chin_ctrl_1_L
+,BlenRig Select lip_low2_ctrl_mid
+,lip_low2_ctrl_mid
+,BlenRig Select lip_low2_ctrl
+,lip_low2_ctrl
+,BlenRig Select lip_low3_ctrl_mid
+,lip_low3_ctrl_mid
+,BlenRig Select lip_low3_ctrl
+,lip_low3_ctrl
+,BlenRig Select chin_ctrl_mid
+,chin_ctrl_mid
+,BlenRig Select chin_ctrl
+,chin_ctrl
+,BlenRig Select maxi
+,maxi
+,BlenRig Select head_mid_stretch
+,head_mid_stretch
+,BlenRig Select head_low_stretch
+,head_low_stretch
+,BlenRig Select teeth_up_ctrl_R
+,teeth_up_ctrl_R
+,BlenRig Select teeth_up_ctrl_L
+,teeth_up_ctrl_L
+,BlenRig Select teeth_up_ctrl_mid_R
+,teeth_up_ctrl_mid_R
+,BlenRig Select teeth_up_ctrl_mid_L
+,teeth_up_ctrl_mid_L
+,BlenRig Select teeth_up_ctrl_mid
+,teeth_up_ctrl_mid
+,BlenRig Select teeth_up
+,teeth_up
+,BlenRig Select teeth_low_ctrl_R
+,teeth_low_ctrl_R
+,BlenRig Select teeth_low_ctrl_L
+,teeth_low_ctrl_L
+,BlenRig Select teeth_low_ctrl_mid_R
+,teeth_low_ctrl_mid_R
+,BlenRig Select teeth_low_ctrl_mid_L
+,teeth_low_ctrl_mid_L
+,BlenRig Select teeth_low_ctrl_mid
+,teeth_low_ctrl_mid
+,BlenRig Select teeth_low
+,teeth_low
+,BlenRig Select uvula_1
+,uvula_1
+,BlenRig Select uvula_2
+,uvula_2
+,BlenRig Select tongue_1_fk
+,tongue_1_fk
+,BlenRig Select tongue_2_fk
+,tongue_2_fk
+,BlenRig Select tongue_1_ik
+,tongue_1_ik
+,BlenRig Select tongue_2_ik
+,tongue_2_ik
+,BlenRig Select tongue_3_ik
+,tongue_3_ik
+,BlenRig Select tongue_mstr
+,tongue_mstr
+,BlenRig 6 Biped Rig Updater
+,Update BlenRig 6 biped rig to the latest version
+,Set Library Overrides On for Legacy Rigs
+,BlenRig Arm_L IK to FK
+,Switch Arm to FK preserving pose
+,BlenRig Arm_L FK to IK
+,Switch Arm to IK preserving pose
+,BlenRig Switch Arm_L Space
+,Switch Arm_L Space preserving pose
+,Free
+,Pelvis
+,Torso
+,Head
+,Arm_L Space Switch List
+,Switch Arm_L Space
+,BlenRig Switch Hand_L Space
+,Switch Hand_L Space preserving pose
+,Arm
+,Hand_L Space Switch List
+,Switch Hand_L Space
+,BlenRig Switch Arm_L Pole Space
+,Switch Arm_L Pole Space preserving pose
+,Arm_L Pole Space Switch List
+,Switch Arm_L Pole Space
+,BlenRig Switch All Fingers_L Space
+,Switch All Fingers_L Space preserving pose
+,Hand
+,All Fingers_L Space Switch List
+,Switch All Fingers_L Space
+,BlenRig Switch Thumb Finger_L Space
+,Switch Thumb Finger_L Space preserving pose
+,Thumb Finger_L Space Switch List
+,Switch Thumb Finger_L Space
+,BlenRig Switch Index Finger_L Space
+,Switch Index Finger_L Space preserving pose
+,Index Finger_L Space Switch List
+,Switch Index Finger_L Space
+,BlenRig Switch Middle Finger_L Space
+,Switch Middle Finger_L Space preserving pose
+,Middle Finger_L Space Switch List
+,Switch Middle Finger_L Space
+,BlenRig Switch Ring Finger_L Space
+,Switch Ring Finger_L Space preserving pose
+,Ring Finger_L Space Switch List
+,Switch Ring Finger_L Space
+,BlenRig Switch Little Finger_L Space
+,Switch Little Finger_L Space preserving pose
+,Little Finger_L Space Switch List
+,Switch Little Finger_L Space
+,BlenRig Leg_L IK to FK
+,Switch Leg to FK preserving pose
+,Switch Leg to IK preserving pose
+,BlenRig Switch Leg_L FK Space
+,Switch Leg_L FK Space preserving pose
+,Leg_L FK Space Switch List
+,Switch Leg_L FK Space
+,BlenRig Switch Leg_L Pole Space
+,Switch Leg_L Pole Space preserving pose
+,Foot
+,Leg_L Pole Space Switch List
+,Switch Leg_L Pole Space
+,BlenRig Pin Elbow_L
+,Pin Elbow_L
+,BlenRig UnPin Elbow_L
+,UnPin Elbow_L
+,BlenRig Pin Knee_L
+,Pin Knee_L
+,BlenRig UnPin Knee_L
+,UnPin Knee_L
+,BlenRig Arm_R IK to FK
+,BlenRig Arm_R FK to IK
+,BlenRig Switch Arm_R Space
+,Switch Arm_R Space preserving pose
+,Arm_R Space Switch List
+,Switch Arm_R Space
+,BlenRig Switch Hand_R Space
+,Switch Hand_R Space preserving pose
+,Hand_R Space Switch List
+,Switch Hand_R Space
+,BlenRig Switch Arm_R Pole Space
+,Switch Arm_R Pole Space preserving pose
+,Arm_R Pole Space Switch List
+,Switch Arm_R Pole Space
+,BlenRig Switch All Fingers_R Space
+,Switch All Fingers_R Space preserving pose
+,All Fingers_R Space Switch List
+,Switch All Fingers_R Space
+,BlenRig Switch Thumb Finger_R Space
+,Switch Thumb Finger_R Space preserving pose
+,Thumb Finger_R Space Switch List
+,Switch Thumb Finger_R Space
+,BlenRig Switch Index Finger_R Space
+,Switch Index Finger_R Space preserving pose
+,Index Finger_R Space Switch List
+,Switch Index Finger_R Space
+,BlenRig Switch Middle Finger_R Space
+,Switch Middle Finger_R Space preserving pose
+,Middle Finger_R Space Switch List
+,Switch Middle Finger_R Space
+,BlenRig Switch Ring Finger_R Space
+,Switch Ring Finger_R Space preserving pose
+,Ring Finger_R Space Switch List
+,Switch Ring Finger_R Space
+,BlenRig Switch Little Finger_R Space
+,Switch Little Finger_R Space preserving pose
+,Little Finger_R Space Switch List
+,Switch Little Finger_R Space
+,BlenRig Leg_R IK to FK
+,BlenRig Switch Leg_R FK Space
+,Switch Leg_R FK Space preserving pose
+,Leg_R FK Space Switch List
+,Switch Leg_R FK Space
+,BlenRig Switch Leg_R Pole Space
+,Switch Leg_R Pole Space preserving pose
+,Leg_R Pole Space Switch List
+,Switch Leg_R Pole Space
+,BlenRig Pin Elbow_R
+,Pin Elbow_R
+,BlenRig UnPin Elbow_R
+,UnPin Elbow_R
+,BlenRig Pin Knee_R
+,Pin Knee_R
+,BlenRig UnPin Knee_R
+,UnPin Knee_R
+,BlenRig Switch Head Space
+,Switch Head Space preserving pose
+,Head Space Switch List
+,Switch Head Space
+,BlenRig Switch Neck Space
+,Switch Neck Space preserving pose
+,Neck Space Switch List
+,Switch Neck Space
+,BlenRig Switch Look Space
+,Switch Look Space preserving pose
+,Body
+,Look Space Switch List
+,Switch Look Space
+,BlenRig Switch Eyeglasses Space
+,Switch Eyeglasses Space preserving pose
+,Eyeglasses Space Switch List
+,Switch Eyeglasses Space
+,BlenRig Switch Hat Space
+,Switch Hat Space preserving pose
+,Hat Space Switch List
+,Switch Hat Space
+,BlenRig Switch Hand Accessory Space
+,Switch Hand Accessory Space preserving pose
+,Hand_L
+,Hand_R
+,Hand Accessory Space Switch List
+,Switch Hand Accessory Space
+,BlenRig Reset Hand_L Pivot
+,Reset Hand_L Pivot preserving pose
+,BlenRig Reset Hand_R Pivot
+,Reset Hand_R Pivot preserving pose
+,BlenRig Reset Master_Torso Pivot
+,Reset Master_Torso Pivot preserving pose
+,BlenRig Reset Master_Body Pivot
+,Reset Master_Body Pivot preserving pose
+,BlenRig Reset Master Pivot
+,Reset Master Pivot preserving pose
+,BlenRig Torso IK to FK
+,Switch Torso to FK preserving pose
+,BlenRig Torso FK to IK
+,Switch Torso to IK preserving pose
+,BlenRig Align Spine
+,Aligns spine controllers to match current pose
+,BlenRig Torso Snap IK FK
+,Prepare seamless switch to FK
+,BlenRig Torso Snap FK IK
+,Prepare seamless switch to IK
+,BlenRig Torso Snap INV UP
+,Prepare seamless switch to Invert torso
+,BlenRig Torso Snap UP INV
+,Prepare seamless switch to FK or IK Torso
+,BlenRig Head Snap IK FK
+,BlenRig Head Snap FK IK
+,BlenRig Arm_L Snap IK FK
+,BlenRig Arm_L Snap FK IK
+,BlenRig Arm_R Snap IK FK
+,BlenRig Arm_R Snap FK IK
+,BlenRig Leg_L Snap IK FK
+,BlenRig Leg_L Snap FK IK
+,BlenRig Leg_R Snap IK FK
+,BlenRig Leg_R Snap FK IK
+根据 item.rotation_mode 将旋转从矩阵 mat 复制到 item,Copy rotation to item from matrix mat depending on item.rotation_mode
+返回运算符执行函数的生成函数 ,Generator function that returns exec functions for operators 
+返回基本运算符的生成函数,Generator function that returns the basic operator
+从复制列表及其相关函数生成运算符,Generate ops from the copy list and its associated functions
+循环选定的骨骼并对其执行 funk,Loop over selected bones and execute funk on them
+卡点,Snap Points
+中心环笼,Center loop Cage
+BlenRig 6 网眼烤盘,BlenRig 6 Mesh Baking Panel
+烘烤,Baking
+烘焙网,Bake Mesh
+重量转移,Weights Transfer
+传送重量,Transfer Weights
+光线距离,Ray Distance:
+贴图,Mapping:
+添加修改器,Add Modifiers
+添加头部修改器,Add Head Mofiiers
+添加手部修饰器,Add Hands Mofiiers
+添加形状键,Add Shapekeys
+添加身体塑形键,Add Body Shapekeys
+添加手指形状键,Add Fingers Shapekeys
+添加脚趾形状键,Add Toes Shapekeys
+添加面部形状键,Add Face Shapekeys
+绑定网格变形,Bind Mesh Deform
+绑定网格变形（快速）,Bind Mesh Deform (Fast)
+绑定网格变形（最终）,Bind Mesh Deform (Final)
+解除绑定网格变形,Unbind Mesh Deform
+BlenRig 6 网格和曲线面板,BlenRig 6 Lattice & Curves Panel
+编辑网格位置,Edit Lattice Position
+应用网格位置,Apply Lattice Position
+,left_side
+,right_side
+,eyes
+,face
+,eyebrows
+,face_mech
+,inner_mouth
+,hands
+,toes
+,body
+,lips
+,face_controls
+,others
+,IK/FK Toggle
+,ik_head
+,ik_torso
+,Invert Torso Hierarchy
+,inv_torso
+,ik_arm_L
+,ik_arm_R
+,ik_leg_L
+,ik_toes_all_L
+,ik_leg_R
+,ik_toes_all_R
+,ik_fing_ind_L
+,ik_fing_mid_L
+,ik_fing_lit_L
+,ik_fing_thumb_L
+,ik_fing_ind_R
+,ik_fing_mid_R
+,ik_fing_lit_R
+,ik_fing_thumb_R
+,ik_fing_all_R
+,ik_fing_all_L
+,Isolate Rotation
+,hinge_head
+,hinge_neck
+,hinge_arm_L
+,hinge_arm_R
+,hinge_hand_L
+,hinge_hand_R
+,hinge_fing_ind_L
+,hinge_fing_mid_L
+,hinge_fing_lit_L
+,hinge_fing_thumb_L
+,hinge_fing_ind_R
+,hinge_fing_mid_R
+,hinge_fing_lit_R
+,hinge_fing_thumb_R
+,hinge_fing_all_R
+,hinge_fing_all_L
+,hinge_leg_L
+,hinge_toes_all_L
+,hinge_leg_R
+,hinge_toes_all_R
+,Rotation Space
+,space_head
+,space_neck
+,space_arm_L
+,space_arm_R
+,space_hand_L
+,space_hand_R
+,space_fing_ind_L
+,space_fing_mid_L
+,space_fing_ring_L
+,space_fing_lit_L
+,space_fing_thumb_L
+,space_fing_ind_R
+,space_fing_mid_R
+,space_fing_ring_R
+,space_fing_lit_R
+,space_fing_thumb_R
+,space_fing_all_R
+,space_fing_all_L
+,space_leg_L
+,space_toes_all_L
+,space_leg_R
+,space_toes_all_R
+,Pole Space
+,space_arm_ik_pole_L
+,space_arm_ik_pole_R
+,space_leg_ik_pole_L
+,space_leg_ik_pole_R
+,Toggle pole Target
+,toggle_arm_ik_pole_L
+,toggle_arm_ik_pole_R
+,toggle_leg_ik_pole_L
+,toggle_leg_ik_pole_R
+,Stretchy IK Toggle
+,toon_head
+,toon_torso
+,toon_arm_L
+,toon_arm_R
+,toon_leg_L
+,toon_leg_R
+,toon_fing_thumb_L
+,toon_fing_index_L
+,toon_fing_middle_L
+,toon_fing_ring_L
+,toon_fing_little_L
+,toon_fing_thumb_R
+,toon_fing_index_R
+,toon_fing_middle_R
+,toon_fing_ring_R
+,toon_fing_little_R
+,pin_elbow_L
+,pin_elbow_R
+,pin_knee_L
+,pin_knee_R
+,Target of Eyes
+,look_switch
+,Toggle Reproportion Mode
+,reproportion
+,Toggle Face Riggin Drivers
+,toggle_face_drivers
+,Toggle Flex Drivers
+,toggle_flex_drivers
+,Toggle Dynamic Shaping Drivers
+,toggle_dynamic_drivers
+,Toggle Body Rigging Drivers
+,toggle_body_drivers
+,Toggle fingers in rig
+,toggle_fingers_L
+,Toggle index finger in rig
+,toggle_fingers_index_L
+,Toggle middle finger in rig
+,toggle_fingers_middle_L
+,Toggle ring finger in rig
+,toggle_fingers_ring_L
+,Toggle little finger in rig
+,toggle_fingers_little_L
+,Toggle thumb finger in rig
+,toggle_fingers_thumb_L
+,Toggle toes in rig
+,toggle_toes_L
+,Toggle index toe in rig
+,toggle_toes_index_L
+,Toggle middle toe in rig
+,toggle_toes_middle_L
+,Toggle fourth toe in rig
+,toggle_toes_fourth_L
+,Toggle little toe in rig
+,toggle_toe_little_L
+,Toggle big toe in rig
+,toggle_toes_big_L
+,toggle_fingers_R
+,toggle_fingers_index_R
+,toggle_fingers_middle_R
+,toggle_fingers_ring_R
+,toggle_fingers_little_R
+,toggle_fingers_thumb_R
+,toggle_toes_R
+,toggle_toes_index_R
+,toggle_toes_middle_R
+,toggle_toes_fourth_R
+,toggle_toe_little_R
+,toggle_toes_big_R
+,Upper Eyelid Downwards Movement Limit
+,EYELID_DOWN_LIMIT_L
+,Upper Eyelid Upwards Movement Limit
+,EYELID_UP_LIMIT_L
+,Eyelid Outwards Movement Limit
+,EYELID_OUT_LIMIT_L
+,Eyelid Inwards Movement Limit
+,EYELID_IN_LIMIT_L
+,Automatic movement for when eye looks down
+,EYE_DOWN_FOLLOW_L
+,Automatic movement for when eye looks up
+,EYE_UP_FOLLOW_L
+,Automaic movement range for when cheek moves up
+,AUTO_CHEEK_L
+,EYELID_DOWN_LIMIT_R
+,EYELID_UP_LIMIT_R
+,EYELID_OUT_LIMIT_R
+,EYELID_IN_LIMIT_R
+,EYE_DOWN_FOLLOW_R
+,EYE_UP_FOLLOW_R
+,AUTO_CHEEK_R
+,Transform range for frown action
+,FROWN_LIMIT_L
+,FROWN_LIMIT_R
+,FROWN_LIMIT
+,Automaic movement range for when mouth corner moves up
+,AUTO_SMILE_L
+,Downwards movement limit
+,CHEEK_DOWN_LIMIT_L
+,Upwards movement limit
+,CHEEK_UP_LIMIT_L
+,AUTO_SMILE_R
+,CHEEK_DOWN_LIMIT_R
+,CHEEK_UP_LIMIT_R
+,Automatic backwards movement when corner moves out
+,AUTO_BACK_L
+,Inwards movement limit
+,IN_LIMIT_L
+,Outwards movement limit
+,OUT_LIMIT_L
+,UP_LIMIT_L
+,DOWN_LIMIT_L
+,Forwards movement limit
+,FORW_LIMIT_L
+,Backwards movement limit
+,BACK_LIMIT_L
+,AUTO_BACK_R
+,IN_LIMIT_R
+,OUT_LIMIT_R
+,UP_LIMIT_R
+,DOWN_LIMIT_R
+,FORW_LIMIT_R
+,BACK_LIMIT_R
+,IN_LIMIT
+,OUT_LIMIT
+,Smile rate for mouth_ctrl roatation
+,SMILE_LIMIT
+,Transformation amount for U_M controllers
+,U_M_CTRL_LIMIT
+,Jaw rotation rate for mouth_ctrl vertical movement
+,JAW_ROTATION
+,Jaw downwards rotation limit
+,JAW_DOWN_LIMIT
+,Jaw upwards rotation limit
+,JAW_UP_LIMIT
+,joint displacement simulation
+,realistic_joints_fingers_rot_L
+,realistic_joints_fingers_loc_L
+,realistic_joints_toes_rot_L
+,realistic_joints_toes_loc_L
+,realistic_joints_elbow_loc_L
+,realistic_joints_elbow_rot_L
+,realistic_joints_wrist_rot_L
+,realistic_joints_ankle_rot_L
+,realistic_joints_knee_loc_L
+,realistic_joints_knee_rot_L
+,realistic_joints_fingers_rot_R
+,realistic_joints_fingers_loc_R
+,realistic_joints_toes_rot_R
+,realistic_joints_toes_loc_R
+,realistic_joints_elbow_loc_R
+,realistic_joints_elbow_rot_R
+,realistic_joints_wrist_rot_R
+,realistic_joints_ankle_rot_R
+,realistic_joints_knee_loc_R
+,realistic_joints_knee_rot_R
+,Volume Variation for stretch and squash
+,volume_variation_arm_L
+,volume_variation_fingers_L
+,volume_variation_leg_L
+,volume_variation_toes_L
+,volume_variation_arm_R
+,volume_variation_fingers_R
+,volume_variation_leg_R
+,volume_variation_toes_R
+,volume_variation_torso
+,volume_variation_head
+,volume_variation_neck
+,Volume Preservation Bones Movement Rage
+,volume_preservation_fingers_down_L
+,volume_preservation_knuckles_down_L
+,volume_preservation_knuckles_up_L
+,volume_preservation_palm_down_L
+,volume_preservation_fingers_down_R
+,volume_preservation_knuckles_down_R
+,volume_preservation_knuckles_up_R
+,volume_preservation_palm_down_R
+,volume_preservation_sole_down_L
+,volume_preservation_toe_knuckles_up_L
+,volume_preservation_toes_down_L
+,volume_preservation_sole_down_R
+,volume_preservation_toe_knuckles_up_R
+,volume_preservation_toes_down_R
+,BlenRig 6 add rigs
+,INVOKE_REGION_WIN
+BlenRig 6 双脚架,BlenRig 6 Biped Rig
+选项卡,Tab
+要展开的图形界面选项卡,Tab of the gui to expand
+切换属性显示,Toggle properties display
+显示所有捕捉按钮,Display ALL Snapping Buttons
+显示捕捉按钮,Display Snapping Buttons
+显示所有自定义属性,Show ALL Custom Properties
+调整头部额外选项,Tweak head extra options
+调整手臂额外选项,Tweak arms extra options
+调整手指额外选项,Tweak fingers extra options
+调整腿部额外选项,Tweak legs extra options
+调整配件选项,Tweak accessories options
+设置面部移动限制,Set limits to facial movement
+定义嘴唇弧度的参数,Parameters to define lips curvature
+关闭面部动作以进行编辑,Toggle facial actions off for editing
+面部碰撞偏移,Face Collisions Offset
+面部弯曲骨骼设置,Face Bendy Bones Settings
+设置 IK 骨骼的初始旋转,Set the initial rotation of IK bones
+自动运动参数,Parameters for automated movement
+模拟骨骼厚度对关节旋转的影响,Simulate how bone thickness affects joint rotation
+体积保存骨骼运动定义,Volume Preservation Bones Movement Definition
+切换身体部位,Toggle body parts
+身体弯曲骨骼设置,Body Bendy Bones Settings
+身体碰撞偏移,Body Collisions Offset
+烘焙到形状键,Bake to Shape Key
+将网格烘焙为单独的形状键,Bake the mesh into a separate Shape Key
+启用移动网格,Enable to Move Lattice
+允许移动网格，禁止修改网格,Let move Lattice disabling modif hoocks
+仅选定骨骼,Selected Bones Only
+仅对选定的骨骼执行对齐,Perform aligning only on selected bones
+自定义图层,Gui Custom Layers
+显示上下文,Display Context
+在此面板中显示的上下文类型。,Type of context to display in this panel.
+显示上下文 2,Display Context 2
+与对象的距离,Distance from object
+调整笼子与对象的距离,Ajust the distance of Cage to object
+选择组,Selection Sets
+便于选择的骨骼组列表,List of groups of bones for easy selection
+活动选择集,Active Selection Set
+当前活动选择集的索引,Index of the currently active selection set
+姿势,Pose
+POSE_MT_selection_sets_select,POSE_MT_selection_sets_select
+BlenRig 紧凑型图层方案,BlenRig Compact Layers Scheme
+利用骨骼自动隐藏功能，以紧凑的方案组织图层 ,Organize layers in a compact scheme relying on bone auto-hiding 
+BlenRig 扩展图层方案,BlenRig Expanded Layers Scheme
+按身体部位和 FK / IK 组织图层 ,Organize layers by body parts and FK / IK 
+BlenRig 6 添加双足装配,BlenRig 6 Add Biped Rig
+生成 BlenRig 6 双足装配,Generates BlenRig 6 biped rig
+复制旋转,Copy Rotation
+变形_torso_ik_ctrl,Transformation_torso_ik_ctrl
+复制缩放,Copy Scale
+阻尼轨迹,Damped Track
+拉伸到_REPROP,Stretch To_REPROP
+切换柔性缩放,Toggle Flex Scaling
+为选中的骨骼创建部件,Creates a widget for selected bone
+创建,Create
+相对尺寸,Relative size
+形状大小与骨骼大小成比例,Shapes size proportionnal to bone size
+全局尺寸,Global Size
+位置,Location
+位置部件,Location widget
+旋转,Rotation
+旋转部件 尚未运行,Rotate the widget NOT YET WORKING
+编辑选定骨骼的部件,Edit the widget for selected bone
+编辑,Edit
+切换回纟,Switch back to the armature
+返回纟,Return to armature
+将部件与骨骼变换相匹配,Match the widget to the bone transforms
+匹配骨骼变换,Match bone transforms
+如果以 .L 或 .R 命名，则对称到另一侧,"Symmetrize to the opposite side, if it is named with a .L or .R"
+对称,Symmetrize
+将选定的网格对象添加到骨骼形状库,Add selected mesh object to Bone Shapes Library
+添加形状,Add Shapes
+从骨骼形状库中移除选定的部件对象,Remove selected widget object from the Bone Shapes Library
+删除形状,Remove Shapes
+隐藏取消隐藏骨骼部件集合,HideUnhide the bone widget collection
+集合可见性,Collection Visibilty
+删除 WDGT 集合中未使用的对象,Delete unused objects in the WDGT collection
+删除未使用的形状,Delete Unused Shapes
+清除所选姿势骨骼中的形状,Clear shapes from selected pose bones
+清除形状,Clear Shapes
+重新同步形状名称,Resync Shapes Names
+在所选姿势骨骼中重新设置形状的左/右比例和大小,unificate shapes scale and size from L/R in selected pose bones
+对称形状的大小/比例,Symmetrize Shapes Size/Scale
+为骨骼创建唯一形状,Make Unique Shape for Bone
+制作独特的,Make Unique
+骨骼形状,Bone Shapes
+形状,Shape
+自动匹配骨骼变换,Automatic Match Bone Transforms
+自动对称形状,Automatic Symmetrize Shape
+形状选择,Shapes Select
+至骨骼,To bone
+对称形状,Symmetrize Shape
+匹配骨骼变换,Match Bone Transforms
+清除骨骼形状,Clear Bone Shapes
+骨骼形状特效,Bone Shapes Specials
+将形状添加至库,Add Shapes to library
+从库中删除形状,Remove Shapes from library
+骨骼形状特效_编辑,Bone Shapes Specials_edit
+骨骼形状前缀,Bone Shapes prefix
+为部件对象选择前缀,Choose a prefix for the widget objects
+骨骼形状集合名称,Bone Shapes collection name
+为将出现的形状选择一个集合名称,Choose a name for the collection the shapes will appear
+形状前缀,Shapes Prefix
+集合名称,Collection name
+BlenRig_temp,BlenRig_temp
+骨骼名称,Bone Name
+集合名称,Set Name
+是否已选择,Is Selected
+特殊选择集,Selection Sets Specials
+选择选择集,Choose Selection Set
+新建选择集,New Selection Set
+选择选择集,Select Selection Set
+EXEC_DEFAULT,EXEC_DEFAULT
+操作符仅适用于姿势模式下的电枢类型对象。,Operator only available for objects of type armature in pose mode.
+操作符仅在纟有选定的选择集时可用。,Operator only available if the armature has a selected selection set.
+删除所有选择集,Delete All Sets
+删除所有选择集,Deletes All Selection Sets
+从所有选择集中删除所选骨骼,Remove Selected Bones from All Sets
+从所有选择集中删除所选骨骼,Removes the Selected Bones from All Sets
+在列表中移动选择集,Move Selection Set in List
+将激活的选择集在列表中向上/向下移动,Move the active Selection Set up/down the list of sets
+移动方向,Move Direction
+"移动活动 ""选择集 ""的方向： 上（默认）或下",Direction to move the active Selection Set: UP (default) or DOWN
+创建选择集,Create Selection Set
+创建一个新的空选择集,Creates a new empty Selection Set
+删除选择集,Delete Selection Set
+删除一个选择集,Delete a Selection Set
+将骨骼添加到选择集,Add Bones to Selection Set
+将选中的骨骼添加到选择集,Add selected bones to Selection Set
+创建选择集,BLENRIG_MT_selection_set_create
+"从 ""选择集 ""中移除骨骼",Remove Bones from Selection Set
+"从 ""选择集 ""中删除选中的骨骼",Remove selected bones from Selection Set
+"将 ""选择集 ""中的骨骼添加到当前选区",Add Selection Set bones to current selection
+选择集索引,Selection Set Index
+选择哪个选择集；-1 使用活动选择集,Which Selection Set to select; -1 uses the active Selection Set
+取消选择集,Deselect Selection Set
+从当前选择中删除选择集骨骼,Remove Selection Set bones from current selection
+创建并向选择集添加骨骼,Create and Add Bones to Selection Set
+用当前选中的骨骼创建新的选择集,Creates a new Selection Set with the currently selected bones
+复制选择集,Copy Selection Set(s)
+将选中的选择集复制到剪贴板,Copies the selected Selection Set(s) to the clipboard
+粘贴选择集,Paste Selection Set(s)
+从剪贴板添加新的选择集,Adds new Selection Set(s) from the Clipboard
+骨骼选择集,Bone Selection Set
+将 JSON 中的选择集（一个或多个）添加到当前装备中。,Add the selection sets (one or more) from JSON to the current rig.
+Blenrig 指南,Blenrig Guide
+运行 Blenrig 互动指南并在 3d 视口中显示,Run Blenrig interactive guide and show it inside 3d viewport
+关闭,Close
+显示比例指南,Show Reproportion Guide
+显示数据传输指南,Show Data Transfer Guide
+数据传输,datatransfer
+显示网格变形指南,Show Mesh Deform Guide
+mdef,mdef
+网格,lattices
+显示操作指南,Show Actions Guide
+动作,actions
+显示权重绘制指南,Show Weight Painting Guide
+权重,weights
+显示高级设置指南,Show Advanced Settings Guide
+rig_settings,rig_settings
+显示形状键指南,Show Shapekeys Guide
+形状键,shapekeys
+在安全环境下调用步骤操作,Call Step Action within a safe context
+在安全范围内加载步骤图像,Load Step Images within a safe context
+Lorem ipsum...,Lorem ipsum...
+INVOKE_DEFAULT,INVOKE_DEFAULT
+BlenRig 转移顶点群,BlenRig Transfer Vgroups
+将顶点群组从选定对象转移到活动对象,Transfer Vertex Groups from selected object to active object
+BlenRig 转移顶点群的转移指南,BlenRig Transfer Vgroups for Transfer Guide
+将顶点群组从选定对象转移到导图中的活动对象 ,Transfer Vertex Groups from selected object to active object within the guide 
+BlenRig 测试角色如何随装配移动,BlenRig Test how the Character moves with the Rig
+测试角色如何随装配移动,Test how the Character moves with the Rig
+BlenRig 添加头部修改器,BlenRig add Head Modifiers
+根据网格变形添加常用的头部变形修改器,Add commonly used modifiers for Head Deformation based on Mesh Deform
+电枢,Armature
+网格变形,MeshDeform
+修正平滑,CorrectiveSmooth
+腮帮子_L,Cheek_Puff_L
+腮红_R,Cheek_Puff_R
+LATTICE_EYE_L,LATTICE_EYE_L
+LATTICE_EYE_R,LATTICE_EYE_R
+LATTICE_BROW,LATTICE_BROW
+LATTICE_MOUTH,LATTICE_MOUTH
+LATTICE_HEAD,LATTICE_HEAD
+细分,Subdivision
+BlenRig 添加眼睛修改器,BlenRig add Eyes Modifiers
+为眼睛变形添加常用修改器,Add commonly used modifiers for Eye Deformation
+BlenRig 添加牙齿修改器,BlenRig add Teeth Modifiers
+添加用于牙齿变形的常用修改器,Add commonly used modifiers for Teeth Deformation
+BlenRig 添加手部修改器,BlenRig add Hands Modifiers
+为基于网格变形的手部变形添加常用修改器,Add commonly used modifiers for Hands Deformation based on Mesh Deform
+BlenRig 添加身体修改器,BlenRig add Body Modifiers
+添加网格变形修改器,Add Mesh Deform modifier
+BlenRig 为指南定义角色身体部分,BlenRig Define Character Body part for Guide
+为向导定义角色身体部分,Define Character Body part for Guide
+BlenRig 将活动衔铁设置为 BlenRig 导向衔铁,BlenRig Set Active Armature as BlenRig Armature for Guide
+将活动衔铁设置为导轨的BlenRig衔铁,Set Active Armature as BlenRig Armature for Guide
+BlenRig 绑定网格变形修改器,BlenRig Bind Mdef Modifiers
+绑定网格变形修改器,Binds Mesh Deform modifier
+三角化,Triangulate
+快速绑定,Fast Binding
+BlenRig 引导绑定 Mdef 修改器,BlenRig Guide Bind Mdef Modifiers
+BlenRig 解除绑定 Mdef 修改器,BlenRig Unbind Mdef Modifiers
+解除绑定网格变形修改器,Unbinds Mesh Deform modifier
+BlenRig Guide 解除绑定 Mdef 修改器,BlenRig Guide Unbind Mdef Modifiers
+BlenRig 编辑网格变形笼,BlenRig Edit Mesh Deform Cage
+编辑 MDef Cage。这将首先解除网格变形的绑定，然后才能编辑笼子。,"Edit MDef Cage. This will Unbind Mesh Deform first, in order to Edit the Cage"
+BlenRig 添加身体形状键,BlenRig add Body Shapkeys
+为肢体添加常用的形状键。通常在 Mdef Cage 中使用。,Add commonly used shapekeys for the body. Typically used in the Mdef Cage
+BlenRig 添加手指形状键,BlenRig add Fingers Shapkeys
+为手指添加形状键,Add shapekeys for the fingers
+BlenRig 添加脚趾形状键,BlenRig add Toes Shapkeys
+为脚趾添加形状键,Add shapekeys for the toes
+BlenRig 添加脸部形状键,BlenRig add Face Shapkeys
+为脸部添加形状键,Add shapekeys for the Face
+形状键,ShapeKeys
+BlenRig 更新形键驱动器,BlenRig Update Shapkey Driver
+根据装配体的当前姿势和数值更新活动形键驱动器,Update Active Shapkey Driver based on the current Pose and Values of the Rig
+BlenRig 更新面部形键驱动程序,BlenRig Update Face Shapkeys Drivers
+根据当前面部移动范围值更新面部形键驱动程序,Update Facial Shapkeys Drivers based on the current Facial Movement Ranges Values
+BlenRig 镜像塑像驱动程序,BlenRig Mirror Shapkeys Drivers
+镜像所有驱动程序的值,Mirror the values of all drivers
+选择侧面,Choose Side
+BlenRig 镜像活动形键驱动器,BlenRig Mirror Active Shapkey Driver
+将活动形键的驱动程序镜像到其另一侧,Mirror the driver of the active shapekey to its opposite side
+BlenRig 复制形状键到其他形状键,BlenRig Copy Shapekey to other Shapekeys
+将形键复制到指定的形键,Copy Shapekey to specified Shapekeys
+BlenRig 重置活动形键,BlenRig Reset Active Shapekey
+重置活动形键,Reset Active Shapekey
+BlenRig 根据当前姿势创建用于雕刻形键的对象,BlenRig Create Object for Sculpting Shapekey from current Pose
+从当前姿势创建用于雕刻形状键的对象,Create Object for Sculpting Shapekey from current Pose
+雕刻姿势,Sculpt_Pose
+新建雕刻,New_Sculpt
+BlenRig 将雕刻对象应用到活动形键,BlenRig Apply Sculpt Object to Active Shapekey
+将雕刻对象应用于激活的形状键,Apply Sculpt Object to Active Shapekey
+BlenRig 取消雕刻并返回角色,BlenRig Cancel Sculpt and Return to Character
+取消雕刻并返回角色,Cancel Sculpt and Return to Character
+BlenRig 手动分配雕刻源和目标,BlenRig Manually Assign the Sculpt Source and Target
+手动指定雕刻源和目标,Manually Assign the Sculpt Source and Target
+BlenRig 更新活动形键,BlenRig Update Active Shapekey
+更新活动形状键,Update Active Shapekey
+BlenRig 更新所有对侧形键,BlenRig Update all opposite side Shapekeys
+更新所有对侧形状键,Update all opposite side Shapekeys
+BlenRig 从 L 向 R 镜像晶格变换,BlenRig Mirror Lattice Transforms from L to R
+镜像将 LATTICE_EYE_L 变换镜像到 LATTICE_EYE_R,Mirror Mirror the LATTICE_EYE_L transforms to LATTICE_EYE_R
+BlenRig 切换权重绘制模式,BlenRig Toggle Weight Painting Mode
+在 BlenRig 指南中切换配重绘制,Toggle Weight Painting in BlenRig Guide
+BlenRig 切换形状键编辑模式,BlenRig Toggle Shapekey Editting Mode
+在 BlenRig 指南中切换形状键编辑模式,Toggle Shapekey Editting in BlenRig Guide
+BlenRig 镜像 VP 和 RJ 值,BlenRig Mirror VP & RJ Values
+BlenRig 镜像体积保持和真实关节值,BlenRig Mirror Volume Preservation and Realistic Joints Values
+BlenRig 接头选择,BlenRig Joint Select
+滚动接头列表,Scroll through the joints list
+BlenRig Vgroup Select（BlenRig顶点组选择,BlenRig Vgroup Select
+在顶点组列表中滚动,Scroll through the Vertex Groups list
+BlenRig 选择网格变形顶点组,BlenRig Select Mdef VGroup
+选择网格变形顶点组,Select Mesh Deform Vertex Group
+BlenRig 编辑修正平滑顶点组,BlenRig Edit Corrective Smooth VGroup
+编辑所选对象上的修正平滑顶点组,Edit Corrective Smooth Vertex Group on Selected Object
+将骨骼捕捉到光标,BlenRig Snap Bone to Cursor
+将骨骼捕捉到光标,Snap Bone to Cursor
+BlenRig 镜像顶点组,BlenRig Mirror Vertex Groups
+镜像顶点组,Mirror Vertex Groups
+装配指南,BlenRig Guide
+装配辅助工具 ：,Rigging Assistants :
+1 - 比例指南,1 - Reproportion Guide
+2 - 权重转移指南,2 - Weights Transfer Guide
+3 - 网格变形指南,3 - Mesh Deform Guide
+4 - 网格指南,4 - Lattices Guide
+5 - 重量绘制指南,5 - Weight Painting Guide
+6 - 动作指南,6 - Actions Guide
+7 - 高级设置指南,7 - Advanced Settings Guide
+8 - 形状键指南,8 - Shapekeys Guide
+选项,Options
+语言,Language
+图像比例,Image Scale
+步骤指南,Steps Guide
+步骤,Steps
+显示步骤指南,Show Steps Guide
+锁定装配体中心骨骼的 X 变换,Lock the X Transform for the Center Bones of the Rig
+锁定中心骨骼,Lock Center Bones
+生成雕刻对象时考虑平滑修改器,Take Smooth Modifiers into account when Generating the Sculpt Object
+使用平滑修改器,Use Smooth Modifiers
+"首选项中 ""仅插入可用关键帧 ""的状态",State of Only Insert Available Keyframes in Preferences
+仅插入可用,Only Insert Available
+自动镜像 VP 和 RJ 值,Auto Mirror VP and RJ values
+在步骤更改时自动镜像已编辑的真实关节和体积保持值,Automatically Mirror Edited Realistic Joints and Volume Preservation value on Step Change
+形状键列表,Shapekey List
+自动镜像形状键,Auto Mirror Shapekeys
+在步骤更改时自动镜像已编辑的形状键,Automatically Mirror Edited Shapkeys on Step Change
+传输光线距离,Transfer Ray Distance
+映射,Mapping
+定义字符的向外限制,Define the Outwards Limit of the Character
+嘴角向外界限,Mouth Corner Out Limit
+定义字符的向内界限,Define the Inwards Limit of the Character
+口角向内界限,Mouth Corner In Limit
+定义字符的向上界限,Define the Upwards Limit of the Character
+口角向上限值,Mouth Corner Up Limit
+定义字符的下限,Define the Downwards Limit of the Character
+口角下限,Mouth Corner Down Limit
+定义字符的向后限值,Define the Backwards Limit of the Character
+口角向后界限,Mouth Corner Back Limit
+定义字符的向前限值,Define the Forwards Limit of the Character
+口角向前限值,Mouth Corner Forwards Limit
+定义下巴向上旋转的最大限度,Define the maximum amount of Upwards rotation for the Jaw
+下颚向上旋转限值,Jaw Upwards Rotation Limit
+定义下颌向下旋转的最大限度,Define the maximum amount of Downwards rotation for the Jaw
+下颌向下旋转限值,Jaw Downwards Rotation Limit
+定义面颊向上移动的最大幅度,Define the maximum amount of Upwards movement for the Cheek
+面颊上移限值,Cheek Upwards Limit
+定义面颊向下移动的最大幅度,Define the maximum amount of Downwards movement for the Cheek
+面颊向下限值,Cheek Downwards Limit
+定义鼻子皱眉时向上移动的最大幅度,Define the maximum amount of Upwards movement for when Frowning the Nose
+鼻子皱眉限制,Nose Frown Limit
+定义 U 声母控制器的最大移动量,Define the maximum amount of movement of the U vowel controller
+U_O_M 限值,U_O_M Limit
+定义皱眉时嘴角向下移动的最大幅度,Define the maximum amount of Downwards movement for when Frowning the Mouth
+嘴角皱眉限值,Mouth Frown Limit
+定义下巴皱眉时向下运动的最大幅度,Define the maximum amount of Downwards movement for when Frowning the Chin
+下巴皱眉限值,Chin Frown Limit
+定义上眼皮向上移动的最大幅度,Define the maximum amount of Upwards movement of the Upper Eyelid
+上眼皮向上限值,Upper Eyelid Up Limit
+定义上眼睑向下运动的最大幅度,Define the maximum amount of Downwards movement of the Upper Eyelid
+上眼睑向下限值,Upper Eyelid Down Limit
+定义下眼睑向下移动的最大幅度,Define the maximum amount of Downwards movement of the Lower Eyelid
+下眼睑向下限值,Lower Eyelid Down Limit
+定义下眼睑向上移动的最大幅度,Define the maximum amount of Upwards movement of the Lower Eyelid
+下眼睑上移限值,Lower Eyelid Up Limit
+定义眼球向外旋转的最大幅度,Define the maximum amount of Outwards Rotation of the Eye
+眼睑向外极限,Eyelid Out Limit
+定义眼球向内旋转的最大幅度,Define the maximum amount of Inwards Rotation of the Eye
+眼睑内收限值,Eyelid In Limit
+定义眨眼率,Define the Blink Rate
+眨眼率,Blink Rate
+肉眼率,Fleshy Eyes Rate
+手臂运动时肩部自动向前旋转,Shoulder Automatic Forwards Rotation on Arm movement
+肩部向前,Shoulder Forwards
+手臂运动时肩部自动向后旋转,Shoulder Automatic Backwards Rotation on Arm movement
+肩部向后,Shoulder Backwards
+手臂运动时肩部自动上旋,Shoulder Automatic Upwards Rotation on Arm movement
+肩向上,Shoulder Upwards
+手臂运动时肩部自动向下旋转,Shoulder Automatic Downwards Rotation on Arm movement
+肩部向下,Shoulder Downwards
+脚辊控制器旋转范围,Foot Roll Controllers Rotation Range
+脚掌滚动控制器旋转,Foot Roll Controller Rotation
+脚趾 1 开始滚动的角度,Angle for toe 1 to start rolling
+脚趾 1 旋转开始,Toe 1 Rotation Start
+脚趾 2 开始滚动的角度,Angle for toe 2 to start rolling
+脚趾 2 旋转开始,Toe 2 Rotation Start
+拉伸和挤压音量变化,Stretch & Squash Volume Variation
+手臂量变,Arms Volume Variation
+手指运动量变化,Fingers Volume Variation
+腿部变量,Legs Volume Variation
+脚趾运动量变化,Toes Volume Variation
+脚地板偏移值,Feet Floor Offset Value
+脚地板偏移,Feet Floor Offset
+眼睑 1 地面偏移值,Eyelid 1 Floor Offset Value
+眼睑 1 地面偏移值,Eyelid 1 Floor Offset
+眼睑 2 地面偏移值,Eyelid 2 Floor Offset Value
+眼睑 2 地面偏移值,Eyelid 2 Floor Offset
+眼睑 3 地面偏移值,Eyelid 3 Floor Offset Value
+眼睑 3 地面偏移值,Eyelid 3 Floor Offset
+唇 1 地面偏移值,Lip 1 Floor Offset Value
+唇 1 地面偏移值,Lip 1 Floor Offset
+唇 2 地面偏移值,Lip 2 Floor Offset Value
+唇 2 地面偏移值,Lip 2 Floor Offset
+唇 3 地面偏移值,Lip 3 Floor Offset Value
+唇缘 3 地面偏移,Lip 3 Floor Offset
+定义在使用 Mouth_Ctrl 向外移动时，嘴角向后移动的程度，代表牙齿的基本体积,"Define how much the Mouth Corners move Backwards when they move Outwards with Mouth_Ctrl, representing the underlying volume of the teeth"
+嘴角自动后移,Mouth Corner Auto Back
+定义角色微笑时脸颊上扬的幅度,Define how much the Cheek raises when the character smiles
+脸颊微笑跟随率,Cheek Smile Following Rate
+定义上眼睑跟随眼球向上移动的幅度,Define how much the Upper Eyelid follows the upwards movement of the Eye
+上眼睑向上跟随,Upper Eylid Up Follow
+定义上眼睑跟随眼球向下运动的幅度,Define how much the Upper Eyelid follows the downwards movement of the Eye
+上眼睑向下跟随,Upper Eylid Down Follow
+定义下眼睑跟随眼球向上运动的程度,Define how much the Lower Eyelid follows the upwards movement of the Eye
+下眼睑上移,Lower Eylid Up Follow
+定义下眼睑跟随眼球向下运动的程度,Define how much the Lower Eyelid follows the downwards movement of the Eye
+下眼睑向下跟随,Lower Eylid Down Follow
+定义下眼睑跟随脸颊向上移动的程度,Define how much the Lower Eyelid follows the Upwards movement of the Cheek
+下眼睑跟随脸颊,Lower Eylid Cheek Follow
+定义嘴唇移动时的弧度,Define the Curvature of the lips when they move
+嘴唇弧度,Lip Curvature
+定义嘴唇关节向嘴角伸展的程度,Define how much the joints of the lip stretch towards the mouth corner
+唇 1 刚度,Lip 1 Rigidity
+唇 2 刚度,Lip 2 Rigidity
+嘴唇 3 刚度,Lip 3 Rigidity
+调整值 (XYZ)，以覆盖嘴唇的默认曲率,Tweak value (XYZ) to override the default curvature of the lips
+嘴唇 1 运动覆盖,Lip 1 motion Override
+嘴唇 2 动作覆盖,Lip 2 motion Override
+嘴唇 3 运动覆盖,Lip 3 motion Override
+定义 BBone 垂直曲率,Define BBone Vertical Curvature
+垂直曲线输入,Vertical Curve In
+定义 BBone 深度曲率,Define BBone Depth Curvature
+深度曲线输入,Depth Curve In
+垂直曲线输出,Vertical Curve Out
+深度曲线输出,Depth Curve Out
+重量绘制指南中骨骼的角度,Angle for Bone in Weight Painting Guide
+X 旋转,X Rotation
+X 负旋转,X Negative Rotation
+Y 旋转,Y Rotation
+Y 负旋转,Y Negative Rotation
+Z 旋转,Z Rotation
+Z 负旋转,Z Negative Rotation
+骨骼在重量绘制指南中的位置,Location for Bone in Weight Painting Guide
+X 位置,X Location
+Y 位置,Y Location
+Z 位置,Z Location
+重量绘制指南中骨骼的刻度,Scale for Bone in Weight Painting Guide
+X 刻度,X Scale
+Y 刻度,Y Scale
+Z 标尺,Z Scale
+滚动查看关节的不同旋转角度,Scroll through the different rotations of the joint
+6 个步骤,6 Steps
+4 个步骤,4 Steps
+2 个步骤,2 Steps
+在 BlenRig 向导中切换骨骼可见性,Toggle Bone Visibility in BlenRig Guides
+显示所有骨骼,Show All Bones
+在 BlenRig 操作指南中切换变形骨骼的可见性,Toggle Deformation Bone Visibility in BlenRig Actions Guide
+显示变形骨骼,Show Deformation Bones
+在 BlenRig 权重转移指南中切换 Mdef Cage 的可见性,Toggle Mdef Cage Visibility in BlenRig Weights Transfer Guide
+显示定义笼,Show Mdef Cage
+BlenRig 角色身体对象,BlenRig Character Body Objects
+配重绘制指南中的关节列表,Joint List for Weight Painting Guide
+权重绘制的可见骨骼列表,Visible bones list for Weight Painting
+用于编辑形状键的活动形状键列表,Active Shapekeys List for Shapekeys Editting
+.,.
+BlenRig_Empty,BlenRig_Empty
+形状键+,Shape Keys+
+使用当前姿势更新驱动程序,Update Driver with Current Pose
+更新所有面部驱动程序,Update All Facial Drivers
+镜像活动形状键驱动程序,Mirror Active Shapekey Driver
+镜像所有形状键驱动程序,Mirror All Shapekeys Drivers
+添加预定义形状键,Add Predefined Shapekeys
+添加/复制,Add / Copy
+父级,Parent
+非父级,Unparent
+层次结构,Hierarchy
+选择...,Select...
+全部,All
+无,None
+无,Inv.
+MESH_UL_BlenRig_shape_keys_plus,MESH_UL_BlenRig_shape_keys_plus
+键块,key_blocks
+active_shape_key_index,active_shape_key_index
+范围：,Range:
+最小值,Min
+最大值,Max
+混合：,Blend:
+类型：,Type:
+Expression：,Expression:
+对象,Object
+骨骼,Bone
+类型,Type
+模式,Mode
+空间,Space
+对象 ,Object 
+{0:.3f},{0:.3f}
+形状键 添加特殊效果,Shape Key Add Specials
+选定 (,Selected (
+从混合中新建形状,New Shape From Mix
+新建文件夹,New Folder
+清除形状键,Clear Shape Keys
+形状键 添加特殊效果（选中）,Shape Key Add Specials (Selected)
+形状键复制特殊效果,Shape Key Copy Specials
+复制形状键，镜像,"Copy Shape Key, Mirrored"
+复制形状键，镜像（拓扑图）,"Copy Shape Key, Mirrored (Topology)"
+形状键复制特殊效果（已选中）,Shape Key Copy Specials (Selected)
+复制形状键,Copy Shape Key
+其他形状键特效,Other Shape Key Specials
+将默认文件夹图标设置为,Set Default Folder Icon to
+镜像形状键（拓扑）,Mirror Shape Key (Topology)
+其他形状键特效（已选中）,Other Shape Key Specials (Selected)
+将父级设置为,Set Parent to
+清除父级,Clear Parents
+取消父级 ,Unparent from 
+将父级设置为（已选）,Set Parent to (Selected)
+将文件夹图标设置为,Set Folder Icon to
+交换（激活）,Swap (Active)
+标准,Standard
+特殊,Special
+杂项,Miscellaneous
+通用 BlenRig 形状键,Generic BlenRig Shape Keys
+添加形状放置,Add Shape Placement
+亲缘放置,Parenting Placement
+取消亲和放置,Unparenting Placement
+自动绑定,Auto Parent
+自动将新形状绑定到活动文件夹中,Automatically parent new shapes to the active folder
+缩进,Indentation
+缩进文件夹内容,Indentation of folder contents
+显示驱动程序,Show Driver
+显示过滤后的文件夹内容,Show Filtered Folder Contents
+显示正在过滤的文件夹内容，即使其内容没有被过滤。,"Show contents of a folder that is being filtered, even if its contents don"
+仅显示活动形状,Show Active Shapes Only
+只显示值高于特定阈值的形状键,Only show shape keys with a value above a certain threshold
+活动阈值,Active Threshold
+只显示该值以上的形状键,Only show shape keys above this value
+翻转活动阈值,Flip Active Threshold
+只显示低于阈值而不是高于阈值的值,Only show values lower than the threshold instead of higher
+如果可能，返回 l[i] 的值，否则返回 d。,"Returns the value of l[i] if possible, otherwise d."
+文件夹 ,Folder 
+键 ,Key 
+移动形状键及其容量范围内的所有内容。,Moves the shape key and all in its capacity range.
+设置为文件夹图标,Set As Folder Icon
+设置文件夹图标,Sets the folder icon
+交换,Swap
+设置默认值,Set Default
+设为父级,Set As Parent
+设置父级,Sets the parent
+添加形状键,Add Shape Key
+为对象添加形状键,Add shape key to the object
+删除形状键,Remove Shape Key
+从对象中移除形状键,Remove shape key from the object
+复制形状,Copy Shape
+复制现有形状键,Copy existing shape key
+移动形状键,Move Shape Key
+在列表中向上/向下移动形状键,Move shape key up/down in the list
+选择/取消选择形状键,Select/Deselect Shape Key
+选择此形状键,Select this shape key
+展开/折叠,Expand/Collapse
+显示或隐藏此文件夹,Show or hide this folder
+取消文件夹分组,Ungroup Folder
+取消此文件夹的分组,Ungroup this folder
+更新驱动程序,Update Driver
+强制更新此驱动程序,Force update this driver
+添加输入变量,Add Input Variable
+为该驱动程序添加新变量,Add a new variable for this driver
+删除变量,Remove Variable
+从驱动程序中删除变量,Remove variable from the driver
+复制变量,Copy Variable
+复制此变量,Copy this variable
+移动变量,Move Variable
+在列表中向上/向下移动该变量,Move this variable up/down in the list
+[ 调试 ] 文件夹数据,[ DEBUG ] Folder Data
+手动创建文件夹数据,Manually create folder data
+文件夹迭代,Folder Iterations
+缩进文件夹的次数,Number of times to indent the folder
+子文件夹,Children
+文件夹的子文件夹数量，不包括子文件夹的子文件夹,"The amount of children the folder has, not including children of children"
+展开,Expand
+展开或折叠文件夹,Expand or collapse the folder
+图标对,Icon Pair
+文件夹展开或折叠时使用的图标对,The pair of icons used when the folder is expanded or collapsed
+交换图标,Swap Icons
+交换文件夹展开或折叠时使用的图标,Swap the icons used for when the folder is expanded or collapsed
+主体设置,Body Settings
+折叠,Cage_snapping
+X 镜像,X-Mirror
+调整笼,Adjust Cage
+值,value
+重放平滑,Repiter Smooth
+因子平滑,Factor Smooth
+动态整形,Dynamic Shaping
+动态塑形,DYNAMIC SHAPING
+头部,Head:
+,{}
+,Neck:
+,Arm_R:
+,Torso:
+,Arm_L:
+,Forearm_R:
+,Hand_R:
+,Chest:
+,Ribs:
+,waist:
+,pelvis:
+,Forearm_L:
+,Hand_L:
+,Leg_R:
+,Leg_L:
+,Shin_R:
+,Foot_R:
+,Shin_L:
+,Foot_L:
+,Facial Settings
+,Actions Assistant Guide
+,WARNING! Pose will not be mirrored to the other side. Using X-Mirror is recommended.
+,Toggle Rest Pose
+,Define Range of Motion
+,Data Transfer Assistant Guide
+,Head Weights Mesh Editing Options
+,Hands Weights Mesh Editing Options
+,Set Head Object
+,Define selected as Head Object
+,Set Hands Object
+,Define selected as Hands Object
+,Transfer Head Weights
+,Character Head Editing Options
+,Face Deformation
+,Add Head Modifiers
+,Test Defomation
+,Transfer Hand Weights
+,Character Hands Editing Options
+,Hands Deformation
+,Add Hands Modifiers
+,Eyes Deformation
+,Add Left Eye Modifiers
+,Add Right Eye Modifiers
+,Inner Mouth Deformation
+,Add Inner Mouth Modifiers
+,Clean Symmetry
+,Mirror All Vertex Groups
+,Lattices Assistant Guide
+,Lattice Position
+,Mirror Lattice Transforms
+,Mesh Deform Assistant Guide
+,Define Objects that use Mesh Deform
+,Set Body Objects
+,Mdef Cage Automatic Wrapping
+,Mdef Cage Options
+,Deformation
+,Edit Mdef Cage
+,Repoportion Assistant Guide
+,Spine Curvature
+,Upper Curvature
+,Lower Curvature
+,Fingers Toggles
+,General Toggle
+,Toggle All Right Fingers
+,Toggle All Left Fingers
+,Individual Toggles
+,Right Thumb
+,Right Index
+,Right Middle
+,Right Ring
+,Right Little
+,Left Thumb
+,Left Index
+,Left Middle
+,Left Ring
+,Left Little
+,Toes Toggles
+,Toggle All Right Toes
+,Toggle All Left Toes
+,Right Big
+,Right Fourth
+,Left Big
+,Left Fourth
+,Set Eyes Location
+,Snap Eye to Cursor
+,Curve Values
+,Vertical In
+,Vertical Out
+,Depth in
+,Depth Out
+,Vertical
+,Curve in Y Right
+,Curve in Y Left
+,Curve out Y Right
+,Curve out Y Left
+,Depth
+,Curve in X Right
+,Curve in X Left
+,Curve out X Right
+,Curve out X Left
+,Upper Lips
+,Depth In
+,Zipper
+,Lower Lips
+,Bake All
+,Custom Alignments
+,IK Rotation Override
+,Mask Editing Options
+,Snap vertex to Face
+,Snap
+,Rig Advanced Settings Assistant Guide
+,Display Options
+,Shoulder Automatic Movement
+,Shoulder_L Forwards
+,Shoulder_L Backwards
+,Shoulder_L Upwards
+,Shoulder_L Downwards
+,Torso Rotation Rate:
+,Spine 3
+,Spine 2
+,Spine 1
+,Neck Rotation Rate:
+,Neck 3
+,Neck 2
+,Neck 1
+,Torso Stretching Curvature:
+,Curve
+,Pelvis Compensation Movement:
+,Rate
+,Foot Roll:
+,Controller Rotation
+,Joint 1 Raising Start Angle
+,Joint 2 Raising Start Angle
+,Squash & Stretch Volume Variation:
+,Arm_L
+,Fingers_L
+,Leg_L
+,Toes_L
+,Neck
+,Feet Collision:
+,Foot_L
+,Eyelids Collision:
+,Blink Rate:
+,Eye Upwards Movement Follow:
+,Upper Eyelid
+,Lower Eyelid
+,Eye Upwards Downwards Follow:
+,Fleshy Eyes:
+,Lower Eyelid Cheek Movement Follow:
+,Cheek Follow
+,Cheek Smile Movement Follow:
+,Smile Follow
+,Mouth Corner Backwards Tension:
+,Backwards Tension
+,Lip Joints Collision:
+,Lip Mid Floor Offset
+,Lip Controller Collision:
+,Lip Ctrl Floor Offset
+,Lip Curvature:
+,Lip Joints Rigidity:
+,Joint 1 Rigidity
+,Joint 2 Rigidity
+,Joint 3 Rigidity
+,Joints Override:
+,X
+,Y
+,Z
+,Joint 1 Override
+,Joint 2 Override
+,Joint 3 Override
+,Shapekeys Assistant Guide
+,Toggle Shapekey Editting
+,Edit Corrective Smooth Vgroup
+,Sculpt Shapekey
+,Generate Sculpt Object
+,Apply Sculpt to Shapekey
+,Pose Options
+,X-Axis Mirror (Pose)
+,Shapekeys Editting Options
+,Toggle Subsurf
+,Set Joint Transforms
+,Ankle Pose
+,Select Joint Number
+,Foot Toe 1 Pose
+,Foot Toe 2 Pose
+,Knee Pose
+,Thigh Pose
+,Pelvis / Spine 1 Pose
+,Spine 2 Pose
+,Spine 3 Pose
+,Neck 1 Pose
+,Neck 2 Pose
+,Neck 3 Pose
+,Head Pose
+,Collarbone Pose
+,Arm Pose
+,Forearm Pose
+,Wrist Pose
+,Thumb Pose
+,Index Pose
+,Middle Pose
+,Ring Pose
+,Little Pose
+,Apply Current Shape to Brow Up Shapekeys
+,Apply Shape
+,Apply Current Shape to Brow Down Shapekeys
+,Select Shapekey Vertex Group
+,Eyebrow Pose
+,Weight Painting Options
+,Cheek Pose
+,Nostril Pose
+,Mouth Corner Pose
+,Apply Current Shape to U Shapekeys
+,Apply Current Shape to U_Thickness Shapekeys
+,Apply Current Shape to M Shapekeys
+,Jaw Pose
+,Active Shapekey:
+,Drivers:
+,Mirroring:
+,Mirror Active Shapekey
+,Cancel
+,Weights Assistant Guide
+,Toggle Weight Painting
+,Symmetry Options
+,Enable X Symmetry
+,Select Mesh Deform Vgroup
+,Select Head Lattice Vgroup
+,Select Eyebrow Lattice Vgroup
+,Select Mouth Lattice Vgroup
+,Select Eye Lattice Vgroup
+,Select Corrective Smooth Vgroup
+,Realistic Joints Parameters
+,Ankle Displacement
+,Shin Twist Rate
+,Twist Rate
+,Volume Preservation: Instep
+,Outwards
+,Volume Preservation: Ankle
+,Auto Mirror RJ and VP Values
+,Mirror Values
+,Volume Preservation: Toe 1 Curl Down
+,Volume Preservation: Toe 1 Curl Up
+,Volume Preservation: Toe 2 Curl Down
+,Volume Preservation: Toe 2 Curl Up
+,Shin Displacement
+,Thigh Displacement
+,Thigh Twist Rate
+,Volume Preservation: Shin
+,Volume Preservation: Knee Volume
+,Volume Preservation: Leg
+,Horizontal
+,Volume Preservation: Buttock
+,Volume Preservation: Hips
+,Volume Preservation: Trapezius
+,Volume Preservation: Chest
+,Volume Preservation: Back
+,Volume Preservation: Shoulder
+,Volume Preservation: Armpit:
+,Back:
+,Forearm Displacement
+,Arm Displacement
+,Volume Preservation: Forearm
+,Elbow
+,Arm Twist Rate
+,Wrist_L Displacement 1
+,Upper Wrist Volume:
+,Lower Wrist Volume:
+,Forerm Twist Rate
+,Hand Pose
+,Fingers:
+,Volume Preservation: Fingers
+,Knuckles Volume:
+,Palm Volume:
+,Fingers Volume:
+,Fingers Pose
+,Thumb Up Knuckle Volume:
+,Index Up Knuckle Volume:
+,Middle Up Knuckle Volume:
+,Ring Up Knuckle Volume:
+,LIttle Up Knuckle Volume:
+,Thumb Down Knuckle Volume:
+,Thumb Down Palm Volume:
+,Index Down Knuckle Volume:
+,Index Down Palm Volume:
+,Middle Down Knuckle Volume:
+,Middle Down Palm Volume:
+,Ring Down Knuckle Volume:
+,Ring Down Palm Volume:
+,Little Down Knuckle Volume:
+,Little Down Palm Volume:
+,Thumb Upper Volume:
+,Thumb Lower Volume:
+,Index Upper Volume:
+,Index Lower Volume:
+,Middle Upper Volume:
+,Middle Lower Volume:
+,Ring Upper Volume:
+,Ring Lower Volume:
+,Little Upper Volume:
+,Little Lower Volume:
+,Head Joints Pose
+,Ear Pose
+,Eyebrows Pose
+,Eyelids Pose
+,Cheeks Pose
+,Nose Pose
+,Mouth Pose
+,Masking Options
+,Use Face Mask
+,Use Auto Normalize
+,Layers Settings
+,Layers
+,Layers Names: (Always keep 32 items)
+,Renaming Layers
+,Maximum Layers
+,Rigging & Baking
+,Reproportion Mode
+,Custom Aligns
+,Visual Assistant
+,R_Side
+,L_Side
+,Eyes
+,Face
+,Face Controls
+,Eyerbrows
+,Lips
+,Face Mech
+,Inner Mouth
+,Hands
+,Toes
+,Others
+,Advanced Baking
+,Baking:
+,Bake Armature
+,Fix Alignment:
+,Fix Joints
+,Calc Rolls
+,Store Roll Angles
+,Restore Roll Angles
+,X-Axis Mirror
+,Display Axes
+,Extras:
+,Reset Deformers
+,Calculate Pole Angles
+,Set Armature as BlenRig Armature
+,Rigging Optimizations
+,RIG OPTIMIZATIONS
+,Enable Face Drivers
+,Enable Body Drivers
+,Enable Flex Scaling
+,Enable Dynamic Scaling
+,Rig Version Info
+,Armature Ver. 
+,BlenRig 5 Controls
+,Armature needs Update!
+,Current Ver. 
+,Update to Ver. 1.005
+,Backup the file!
+,UPDATE 
+,"(To skip update, edit rig_version property in Armature Data)"
+,ARMATURE LAYERS
+,ARMATURE CUSTOM LAYERS
+,Assign
+,Remove
+,Select
+,Deselect
+,Pose Copy-Paste bottons
+,Quick Pose Flipped
+,BLENRIG BODY PICKER
+,PROPERTIES
+,Eyes Target
+,Head FK
+,Head IK
+,Neck Ctrl
+,IK
+,Shldr FK
+,FK
+,Torso Ctrl
+,Spine 3 inv Ctrl
+,Invert
+,IK/FK
+,Str IK
+,Mstr Torso
+,Pelivs Ctrl
+,Hand IK
+,Hand FK
+,Hand R
+,Hand Sole R
+,Hand L
+,Hand Sole L
+,Foot R
+,Foot L
+,Sole R
+,Sole L
+,Master
+,Zoom to Selected
+,Model_Res
+,HEAD
+,Hinge
+,NECK
+,ARM_R
+,HAND_R
+,FING_R
+,LEG_R
+,TOES_R
+,ARM_L
+,HAND_L
+,FING_L
+,LEG_L
+,TOES_L
+,IK/FK SNAPPING
+,ALL
+,SNAP HEAD
+,FK >> IK
+,IK >> FK
+,SNAP TORSO
+,UP >> INV
+,INV >> UP
+,SNAP ARM LEFT
+,SNAP ARM RIGHT
+,SNAP LEG LEFT
+,SNAP LEG RIGHT
+,BLENRIG FACE PICKER
+,Brow R
+,Brow L
+,Eyelid up R
+,Eyelid low R
+,Eyelid up L
+,Eyelid low L
+,Cheek R
+,Cheek L
+,Mouth ctrl
+,Mouth mstr ctrl
+,Maxi
+,Teeth up  
+,Teeth low
+,Tongue mstr
+,EXTRA PROPERTIES
+,Teeth - Follow Smile
+,Upper Teeth
+,Lower Teeth
+,Fleshy Eyes
+,Eye_R
+,Eye_L
+,Arms
+,Curved Arms
+,Curve_R
+,Tweak_R
+,Curve_L
+,Tweak_L
+,Elbow Poles
+,Follow_Torso_R
+,Follow_Torso_L
+,Fingers
+,IK_R
+,Hinge_R
+,IK_L
+,Hinge_L
+,Thumb
+,Index
+,Middle
+,Ring
+,Little
+,FOLLOW FREE_R
+,FOLLOW FREE_L
+,Legs
+,Curved Legs
+,Knee Poles
+,Follow_foot_R
+,Follow_foot_L
+,Props
+,Toggle Free or Sticky
+,Hat
+,Glasses
+,CUSTOM PROPERTIES
+,ACTIVE BONE ROTATION ORDER
+,[
+,MUSCLE SYSTEM
+,Off
+,On
+,Muscles
+,Muscle Resolution
+,Deformation Extras
+,BlenRig 5.5 Controls
+,BlenRig 5 Rigging Control
+,BODY SETTINGS
+,IK:
+,IK Initial Rotation:
+,Automated Movement:
+,IK Auto Shoulder:
+,{} {}
+,Torso FK Ctrl Influence:
+,Torso INV Ctrl Influence:
+,Spine 2 inv
+,Spine 1 inv
+,Pelvis inv
+,Neck FK Ctrl Influence:
+,Foot Roll R:
+,Foot Roll L:
+,Realistic Joints:
+,Bone Movement
+,Toggles:
+,FACIAL SETTINGS
+,Facial Movement Ranges:
+,Mouth_Corner_R
+,Mouth_Corner_L
+,Mouth_Ctrl
+,Mouth_Frown_R
+,Mouth_Frown_L
+,Cheek_Ctrl_R
+,Cheek_Ctrl_L
+,Nose_Frown_R
+,Nose_Frown_L
+,Eyelid_Low_R
+,Eyelid_Low_L
+,Eyelid_Up_R
+,Eyelid_Up_L
+,Action Toggles:
+,Lip Shaping:
+,Follow Left Corner
+,X:
+,Y:
+,Z:
+,%
+,Follow Right Corner
+,LAYERS SETTING
+,  Bone Auto Hiding
+,Layers Schemes:
+,Compact
+,Expanded
+,RIGGING & BAKING
+,Fix Alignment (Edit Mode):
+,Set Library Overrides On
+,BlenRig General Panel
+,Blenrig 6 general SubPanel
+,BlenRig 6 Controls
+, Armature Layers
+, Armature Custom Layers
+,BODY PICKER & PROPERTIES
+,PICKER
+,Keyframe All Properties
+,Eye Target
+,Ctrl
+,Torso FK Ctrl
+,Inv
+,Reset Pivot
+,Align Spine
+,Master Extra
+,ARM RIGHT
+,Stretchy IK
+,ELBOW POLE
+,Pin Elbow
+,HAND RIGHT
+,FINGERS
+,LEG RIGHT
+,KNEE POLE
+,Pin Knee
+,TOES
+,ARM LEFT
+,HAND LEFT
+,LEG LEFT
+,FACE PICKER
+,Model Res
+,Teeth - Stretch along with the Smile
+,Follow Mouth Orientation
+,Tongue
+,RIGHT FINGERS SPACE
+,LEFT FINGERS SPACE
+,Props Space
+,Eyeglasses
+,Hand Accessory
+,BlenRig 6 guides Panels
+,Add Body Mofiiers
+,Add Teeth Mofiiers
+,Add Left Eye Mofiiers
+,Add Right Eye Mofiiers
+,Shapekeys Tools
+,Add
+,Mirroring
+,Mirror Shapekey
+,Mirror All Shapekeys
+,Mirror Shapekey Driver
+,Sculpting
+,Override Sculpt Object
+,No Objects Assigned
+,Override Shapekey Objet
+,No Object Assigned
+,Mirror Active Vertex Group
+,Character Objects
+,Define selected as Body Objects
+,Define selected as Toes Object
+,BlenRig Rigging Meshes
+,Define selected as Mdef Cage Object
+,Define selected as Head Weights Transfer Object
+,Define selected as Hands Weights Transfer Object
+,Shoulder Automatic Movement:
+,Shoulder_R Forwards
+,Shoulder_R Backwards
+,Shoulder_R Upwards
+,Shoulder_R Downwards
+,Elbow Pin:
+,Shoulder L Down Limit
+,Spine 3 Inv
+,Spine 2 Inv
+,Organic Twisting:
+,Spine
+,Body BBones Settings:
+,Volume Variation
+,Arm_R
+,Fingers_R
+,Leg_R
+,Toes_R
+,Forearm_R
+,Thigh_R
+,Shin_R
+,Forearm_L
+,Thigh_L
+,Shin_L
+,Body Collisions Offset:
+,Foot_R
+,IK Initial Rotation Override (Fix non bending IK):
+,Bone Displacement On Joint Rotation
+,Elbow_R Displacement 1
+,Elbow_R Displacement 2
+,Wrist_R Displacement 1
+,Knee_R Displacement 1
+,Knee_R Displacement 2
+,Ankle_R Displacement 1
+,Mirror Values to the Left Side
+,Elbow_L Displacement 1
+,Elbow_L Displacement 2
+,Knee_L Displacement 1
+,Knee_L Displacement 2
+,Ankle_L Displacement 1
+,Mirror Values to the Right Side
+,Volume Preservation Bones Movement:
+,Forearm Upwards
+,Forearm Volume:
+,Elbow Volume:
+,Arm Upwards
+,Shoulder Volume:
+,Arm Downwards
+,Armpit Volume:
+,Chest Volume:
+,Back Volume:
+,Arm Forwards
+,Arm Backwards
+,Trap Volume:
+,Hand Upwards
+,Hand Up:
+,Hand Downwards
+,Fingers Backwards
+,Fingers Curl
+,Palm Volume 
+,Leg Forwards
+,Leg Volume:
+,Leg Outwards
+,Hips Volume:
+,Leg Backwards
+,Buttock Volume:
+,Shin Upwards
+,Shin Volume:
+,Knee Volume:
+,Foot Downwards
+,Ankle Volume:
+,Foot Upwards
+,Instep Volume:
+,Foot Toe Curl Upwards
+,Toe 1 Up Volume:
+,Toe 2 Up Volume:
+,Foot Toe Curl Downwards
+,Toe 1 Lower Volume:
+,Toe 2 Lower Volume:
+,Toes Backwards
+,Toe Knuckles Volume:
+,Toes Curl
+,Toe Sole Volume:
+,Toes Volume:
+,Facial BBones Settings:
+,Eyebrows Curve Values
+,Curve in
+,Curve out
+,Lips Curve Values
+,Face Collisions offset:
+,Eyelids Floor Offset
+,Eyelid 3 R
+,Eyelid 2 R
+,Eyelid 1 R
+,Eyelid 3 L
+,Eyelid 2 L
+,Eyelid 1 L
+,Lips Floor Offset
+,Lip_3_R
+,Lip_2_R
+,Lip_1_R
+,Lip_Mid
+,Lip_1_L
+,Lip_2_L
+,Lip_3_L
+,Lip Up Ctrl
+,Collisions Toggles
+,Eyelids R Floor
+,Eyelids L Floor
+,Lips Floor
+,Lip Rigidity
+,Right Side
+,Left Side
+,Lip Up 3 R
+,Lip Up 2 R
+,Lip Up 1 R
+,Lip Low 3 R
+,Lip Low 2 R
+,Lip Low 1 R
+,Lip Up 1 L
+,Lip Up 2 L
+,Lip Up 3 L
+,Lip Low 1 L
+,Lip Low 2 L
+,Lip Low 3 L
+,Upper Lip R Curve Roundness
+,Zipper Lip R Curve Roundness
+,Lower Lip R Curve Roundness
+,Upper Lip L Curve Roundness
+,Zipper Lip L Curve Roundness
+,Lower Lip L Curve Roundness
+,Movement Override
+,Frowns_R
+,Frowns_L
+,Fleshy Mouth Rate
+,Fleshy Nose Rate

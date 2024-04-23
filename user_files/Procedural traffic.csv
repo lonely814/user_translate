@@ -1,0 +1,64 @@
+, 
+,"""\""""
+"""",""Add Tree"""
+添加选定的模型,Add the selected Models
+类别,Category
+选择类别,Select a category
+程序交通 .blend 文件,Procedural traffic .blend file
+设置程序交通 .blend 文件的文件路径,Set the file path for the Procedural traffic .blend file
+导入交通系统,Import Traffic
+导入交通系统,Import Traffic system
+地面,Ground
+将选定对象移至地面集合,Move selected objects to the Ground collection
+停止,Stopped
+"将所选对象移至 ""已停止 ""集合",Move selected objects to the Stopped collection
+慢速,slow
+将选中的对象移至慢速集合,Move selected objects to the Slow down collection
+程序交通,Procedural traffic
+添加,Add
+设置,Settings
+选择程序交通对象,Select Procedural traffic object
+汽车数量,Number of Cars
+种子,Seed
+视口中的真实汽车,Real cars in viewport
+快速预览,Fast preview
+加速,Acceleration
+最高速度,Max speed
+慢速,Slow speed
+最大速度变化,Max speed variations
+制动距离,Braking distance
+制动速度,Braking speed
+慢速制动,Slow braking
+双向交通,Two way traffic
+双行,Two lines
+车距,Distance Between cars
+弯道偏移,Offset on curve
+随机偏移,Random offset
+反向,Reverse Direction
+多条曲线,Multiple curves
+曲线,Curve
+缓存,Cache
+空槽,Empty slots
+旋转,Rotation
+随机,Random
+点数,Points
+模型,Models
+头灯,Head lights
+日光灯,Day lights
+颜色,Color
+瑕疵,Imperfections
+污垢,Dirt
+车内人物,Poeple in cars
+相机剔除,Camera culling
+预览,Preview
+距离,Distance
+偏移,Offset
+分辨率 X,Resolution X
+Y,Y
+摄像头,Camera
+来源,Source
+减速,Slow down
+汽车,Cars
+代理汽车,Proxy cars
+图标,Icons
+选择所需车型,Select Desired Models

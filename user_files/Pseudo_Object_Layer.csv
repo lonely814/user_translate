@@ -1,0 +1,105 @@
+, 
+"""\""""","""\""""
+"""",""Pseudo Object Layer Extras Menu"""
+""""", ""伪对象图层附加功能菜单""",Key Visibility
+键 可见性,Pseudo Object Layer Icon Expose Menu
+伪对象图层图标 显示菜单,Batch Move Layers to Collections
+批量移动图层到集合,Mode
+模式,Export Layers to FBX
+将图层导出为 FBX,Selected Objects
+选定对象,Export selected and visible objects only
+仅导出选定的可见对象,Active Collection
+活动集合,Export only objects from the active collection (and its children)
+仅导出活动集合（及其子集合）中的对象,Scale
+缩放,Scale all data (Some importers do not support scaled armatures!)
+缩放所有数据（某些导入程序不支持缩放纟！）。,Apply Unit
+应用单位,"Take into account current Blender units settings (if unset, raw Blender Units values are used as-is)"
+考虑当前的 Blender 单位设置（如果未设置，则按原样使用原始的 Blender 单位值）,Apply Scalings
+应用缩放,How to apply custom and units scalings in generated FBX file 
+如何在生成的 FBX 文件中应用自定义缩放和单位缩放 ,Use Space Transform
+使用空间变换,Apply global space transform to the object rotations. When disabled 
+对对象旋转应用全局空间变换。禁用时 ,Apply Transform
+应用变换,"Bake space transform into object data, avoids getting unwanted rotations to objects when "
+将空间变换烘焙到对象数据中，避免对象在以下情况下发生不必要的旋转 ,Object Types
+对象类型,Which kind of object to export
+导出哪种对象,Apply Modifiers
+应用修改器,Apply modifiers to mesh objects (except Armature ones) - 
+将修改器应用于网格对象（电枢对象除外）- 使用修改器渲染设置 ,Use Modifiers Render Setting
+使用修改器渲染设置,Use render settings when applying modifiers to mesh objects (DISABLED in Blender 2.8)
+在对网格对象应用修改器时使用渲染设置（在 Blender 2.8 中禁用）,Smoothing
+平滑,Export smoothing information 
+导出平滑信息 ,Export Subdivision Surface
+导出细分曲面,Export the last Catmull-Rom subdivision modifier as FBX subdivision 
+将最后一个 Catmull-Rom 细分修改器导出为 FBX 细分 ,Loose Edges
+松散边缘,Export loose edges (as two-vertices polygons)
+导出松散边缘（作为双顶点多边形）,Tangent Space
+切线空间,"Add binormal and tangent vectors, together with normal they form the tangent space "
+添加二法线和切线向量，与法线一起构成切线空间 ,Custom Properties
+自定义属性,Export custom properties
+导出自定义属性,Add Leaf Bones
+添加叶骨,Append a final bone to the end of each chain to specify last bone length 
+在每个链的末端添加最后一根骨骼，以指定最后一根骨骼的长度 ,Primary Bone Axis
+主骨轴,Secondary Bone Axis
+次骨骼轴,Only Deform Bones
+仅变形骨骼,Only write deforming bones (and non-deforming ones when they have deforming children)
+只写入变形骨骼（以及有变形子骨骼的非变形骨骼）,Armature FBXNode Type
+电枢 FBX 节点类型,FBX type of node (object) used to represent Blender
+用于表示 Blender 的节点（对象）的 FBX 类型。,'
+',Baked Animation
+烘焙动画,Export baked keyframe animation
+导出烘焙关键帧动画,Key All Bones
+关键帧所有骨骼,Force exporting at least one key of animation for all bones 
+强制导出所有骨骼的至少一个关键帧动画 ,NLA Strips
+NLA 条带,Export each non-muted NLA strip as a separated FBX
+将每个非静音 NLA 条带导出为单独的 FBX,All Actions
+所有动作,Export each action as a separated FBX
+将每个动作导出为单独的 FBX,Force Start/End Keying
+强制开始/结束关键帧,Always add a keyframe at start and end of actions for animated channels
+始终在动画通道的动作开始和结束时添加关键帧,Sampling Rate
+采样率,How often to evaluate animated values (in frames)
+评估动画值的频率（以帧为单位）,Simplify
+简化,"How much to simplify baked values (0.0 to disable, the higher the more simplified)"
+简化烘焙值的程度（0.0 表示禁用，越高越简化）,Embed Textures
+嵌入纹理,Embed textures in FBX binary file (only for \
+在 FBX 二进制文件中嵌入纹理（仅用于,Batch Mode
+批处理模式,Batch Own Dir
+批处理自己的目录,Create a dir for each exported file
+为每个导出文件创建一个目录,Use Metadata
+使用元数据,Export Layer to FBX
+将图层导出为 FBX,Generate Visibility Driver
+生成可见性驱动程序,Driver Type
+驱动程序类型,Driver Name
+驱动程序名称,Driver
+驱动程序,Visibility_Driver
+可见性驱动程序,Group Channel
+组通道,Group name
+组名称,Move Layer to Collection
+将图层移至集合,Convert Layer to Collection
+将图层转换为集合,Name
+图层名称,Add Pseudo Layer
+添加伪图层,Add Layer Object
+添加图层对象,Add Selected Object
+添加选定对象,Add Selected Object to Layer
+将选定对象添加到图层,New Layer From Selected
+从选定对象新建图层,New Layer from selected objects
+从选定对象新建图层,Remove Pseudo Layer
+移除伪图层,Remove Layer
+删除图层,Remove Layer Object
+移除图层对象,Select Layer Object
+选择图层对象,Select Layer Object (Hold Shift to Deselect All Before Selecting)
+选择图层对象（选择前按住 Shift 键取消全选）,Frame Layer Object
+框架图层对象,Frame Layer Objects
+框选图层对象,Purge Missing Objects
+清除缺失对象,Solo Layer
+独奏图层,Add Layer Category
+添加图层类别,Remove Layer Session
+删除图层会话,Reorder Layer Session
+重新排序图层会话,Reorder Layer
+重排图层,Pseudo Object Layer
+伪对象层,New Session
+新建会话,New From Selected
+从所选图层新建,Assign
+分配,Unassign
+取消指定,Batch Layers to Collection
+批处理图层到集合,Parent Layer Orphan Objects to Empty
+父图层孤岛对象为空,

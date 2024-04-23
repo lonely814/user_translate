@@ -1,0 +1,50 @@
+, 
+"""\""""
+"""", ""附加组件信息","""\""""
+"""",""Addon Info"""
+打开插件信息 URL,Open the addon info URL
+从图像追踪形状,Trace shapes from Image
+打开图像,Open Image
+加载图像文件,Load an image file
+加载图像,Load image
+打开另一个图像,Open Another Image
+加载另一个图像文件,Load another image file
+加载另一张图像,Load another image
+为网格添加几何体,Add geometry to the mesh
+完成工艺,Finalize the craft
+对物体进行最后润色,Add final touches to the object
+追踪对象,Trace Object
+TraceGenius Pro,TraceGenius Pro
+拖放图像，或 ,"Drag and Drop image, or "
+','
+打开另一张图像,Open another Image
+以世界原点为中心,Center to World Origin
+样式 ：,Style :
+反转,Inversion:
+颜色阈值：,Color Threshold:
+选择图像对象,Select an image object
+追踪形状,Trace Shape
+后期处理,Post Process
+对象已有几何体,Object already has geometry
+添加几何图形,Add Geometry
+几何图形,Geometry
+斜面,Bevel
+分辨率,Resolution
+最终确定,Finalize
+着色,Shading:
+输出,Output:
+起源,Origins
+轮廓或填充,outline_or_filled
+反转图像,invert_image
+输出格式,Output Format
+表面着色,Surface Shading
+颜色阈值,Color Threshold
+确定亮度阈值，超过该阈值将进行计算,Determine the lightness threshold above which calculations will be done
+单个部件的原点中心,Individual Parts Center of Origins
+在描边前将图像在世界空间中居中,Center the image in the world space before tracing
+分离岛屿,Separate islands
+将岛屿分离成单独的对象,Separate islands into individual objects
+清理网格,Cleanup Mesh
+生成后清理网格,Cleanup Mesh after generating
+GP,GP
+TraceGenius 对象,TraceGenius Object

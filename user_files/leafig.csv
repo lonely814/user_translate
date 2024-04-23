@@ -1,0 +1,78 @@
+ 链类异常 , Exception for Chain class 
+ 基于 v0 和连接的 Tstrip，选定边缘 ," Tstrip based on v0 and connected, selected edge "
+"""\""""
+"""", ""边缘""","""\""""
+"""",""EDGES"""
+通道,Channel
+读取多边形的图像通道,Image channel to read the polygons from
+背景色,Background
+用于计算可见度的背景颜色。,Background color that is used for visibility calculation.\n
+原点位置,Origin position
+创建对象的原点位置,Location of the created object origin(s)
+平滑,Smoothing
+平滑源像素,Smooth source pixels
+截止,Cutoff
+所选通道被视为可见的阈值,Threshold in which the selected channel is considered visible
+像素误差,Pixel error
+多边形简化量。,The amount of polygon simplification.\n
+镶嵌,Inset
+嵌入创建的对象边界,Inset the created object border
+实心镶嵌,Solid inset
+嵌入区域作为第二个材质创建，而不是移除,Inset area is created as second material instead of removed
+分离个体,Separate individuals
+将单个部件分离为各自的对象,Separate individual parts as their own objects
+忽略内部,Ignore inner
+忽略所有多边形孔，只从最外圈创建,"Ignore all polygon holes, only create from the outermost loops"
+只创建边缘,Only edges
+只创建多边形边缘，不填充面,Create only polygon edges without filling faces
+像素,Pixels
+多边形,Polygons
+原点,Origin
+剪切,Cutout
+网格,leafig_mesh
+面孔,FACES
+ , 
+用于脚本的叶状截图,Leafig Cutout for Scripting
+从图像创建纹理剪切,Creates a textured cutout from image
+图像名称,Image name
+对象名称,Object name
+打印信息,Print info
+打印一些调试信息,Prints some debug info
+宽度轴,Width axis
+二维到三维映射的宽度轴,The width axis for the 2D to 3D mapping
+宽度轴反向,Width axis revers
+反转宽度轴方向,Reverse width axis direction
+高度轴,Height axis
+二维到三维映射的高度轴,The height axis for the 2D to 3D mapping
+高度轴反向,Height axis revers
+反转高度轴方向,Reverse height axis direction
+跳过材料,Skip material
+Don,Don
+','
+移至中心,Move to center
+将产生的剪裁移至原点,Move resulting cutouts to origin
+Leafig 裁剪,Leafig Cutout
+重建 UV,Leafig Rebuild UV
+根据网格顶点位置重建 UV,Rebuild  UV based on mesh vertex locations
+Leafig 构建曲面,Leafig Build Surface
+根据连接边循环建立多边形曲面,Build a polygonal surface based on connected edge loop
+剪切,Leafig
+创建剪切,Create Cutout
+纠正操作,Corrective ops:
+重建 UV,Rebuild UV
+表面处理,Surfacer
+ 生长 UV 选区 , Grow UV selection 
+ 将 UV 选区扩展到面 , Grow UV selection to faces 
+ 与美化面基本相同 , Basically the same as beautify faces 
+ 计算指定网格的曲率 , Calculates curvature for specified mesh 
+ 计算指定网格的曲率向量 , Calculates curvature vectors for specified mesh 
+" 在网格拓扑上平滑数据 [0, 1] 中的变量 "," Smooths variables in data [0, 1] over the mesh topology "
+" 数据 [0, 1] 网格拉普拉斯 "," Data [0, 1] mesh Laplacian "
+ 将 RGBA 图像数组从 Numpy 压缩成字符串 , Compresses RGBA image array from Numpy into a string 
+ 将字符串解压缩为 Numpy RGBA 图像数组 , Unpacks a string into a Numpy RGBA image array 
+工具的显示设置,Display settings of the tool
+panel_,panel_
+ kmeans++ , kmeans++ 
+" 用 np.ones((len(values), 4)) 初始化数值 "," init values with np.ones((len(values), 4)) "
+,
+通过www.DeepL.com/Translator（免费版）翻译,

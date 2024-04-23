@@ -1,0 +1,212 @@
+ 禅宗搅拌器实用工具 , Zen Blender Utils 
+ , 
+','
+面板,Panel
+"""\""""
+"""", ""窗口栏移动事件""","""\""""
+"""",""Window Bar Move Event"""
+窗口栏事件处理程序,Window Bar Event Handler
+窗口栏事件的模态操作符,Modal operator for window bar events
+显示区域设置,Show Area Settings
+显示包含区域设置的弹出式菜单,Display popup menu with area settings
+invoke_region_win,INVOKE_REGION_WIN
+在区域中隐藏： ,Hide in Area: 
+从......撤消 ,Undo From: 
+显示切换按钮设置,Show Toggle Button Settings
+显示带有切换按钮设置的弹出式菜单,Display popup menu with toggle button settings
+按钮名称,Button Name
+切换按钮名称,Toggle button name
+显示最小化按钮设置,Show Minimized Button Settings
+显示带有最小化按钮设置的弹出式菜单,Display popup menu with minimized button settings
+最小化按钮名称,Minimized button name
+在活动设置中显示还原,Show Restore in Active Settings
+显示饼形菜单，以还原活动区域,Display pie menu to restore in active area
+INVOKE_DEFAULT,INVOKE_DEFAULT
+左侧,Left
+顶部,Top
+右边,Right
+底部,Bottom
+EXEC_DEFAULT,EXEC_DEFAULT
+最左,Most Left
+最顶部,Most Top
+最右,Most Right
+最底部,Most Bottom
+设置： ,Set: 
+在活动状态下还原,Restore in Active
+还原模式,Restore Mode
+对齐,Align
+切换区域,Toggle Area
+通过插件设置切换区域,Toggle area by addon settings
+按钮模式,Button Mode
+覆盖附加组件按钮模式,Overrides addon button mode
+在新窗口中打开,Open in New Window
+在新窗口中打开区域,Open area in new window
+保存区域/空间属性,Save Area/Space Properties
+将区域和空间属性保存到附加组件设置中,Area and space properties will be saved into addon settings
+移除最小化按钮,Remove Min Button
+最小化按钮将被移除，与区域相关的所有数据将被清除,Minimized button will be removed and all associated data with area will be cleared
+切换按钮,Make Toggle Button
+恢复工作区,Restore Workspace
+将备份工作区载入活动工作区,Load backup workspace into active workspace
+您将还原不同的工作区：,You are about to restore different workspaces:
+按 ,Press 
+添加切换按钮,Add Toggle Button
+添加可切换区域可见性的按钮,Add button that can toggle area visibility
+方向,Direction
+切换新区域的方向,Direction where to toggle new area
+删除切换按钮,Remove Toggle Button
+删除选定的切换按钮,Remove selected toggle button
+保存和恢复,Save & Restore
+编辑区域属性,Edit Area Properties
+编辑空间属性,Edit Space Properties
+页眉,Header
+水平分割,Horizontal Split
+垂直分割,Vertical Split
+切换全屏区域,Toggle Fullscreen Area
+高级,Advanced
+操作,Actions
+取消隐藏,Unhide
+取消隐藏所有区域,Unhide All Areas
+取消隐藏所有工作区,Unhide All Workspaces
+窗口,Window
+ Zen Dock 附加组件属性模块 , Zen Dock Addon Properties module 
+区域,Area
+屏幕区域类型,Type of screen area
+将区域对齐至窗口侧面,Align area to the side of the window
+允许复制,Allow Duplicate
+尺寸系数,Size Factor
+尺寸占宽度或高度的百分比，取决于方向,Size percentage of width or height depending on direction
+自动,Auto
+颜色遵循当前 Blender 主题,Color follows current Blender theme
+面板颜色,Panel Color
+面板背景颜色,Background panel color
+最小化按钮图标,Minimize Button Icon
+最小化按钮图标的背景颜色,Background color of minimize button icon
+工具提示颜色,Tooltip Color
+工具提示的背景颜色,Background color of tooltip
+工具提示文本颜色,Tooltip Text Color
+工具提示文本颜色,Text color of tooltip
+按钮颜色,Button Color
+按钮背景颜色,Button background color
+按钮悬停颜色,Button Hover Color
+鼠标进入时的按钮背景颜色,Button background color when mouse is entered
+按钮选定颜色,Button Selected Color
+按钮被按下或选中时的背景颜色,Button background color when it is pressed or selected
+按钮图标颜色,Button Icon Color
+按钮图标默认颜色,Button icon default color
+切换按钮图标,Toggle Button Icon
+切换按钮默认图标的背景颜色,Background color of toggle button default icon
+方向颜色,Direction Color
+方向指针的颜色,Color of direction pointer
+方向最左颜色,Direction Most Color
+最左/最右/最上/最下模式下方向指针的颜色,Color of direction pointer in most left/right/top/bottom mode
+模式颜色化,Colorize Modes
+如果设置，按钮图标将按特定模式着色,"If set, then button icon is colorized by the certain mode"
+模式： 允许重复,Mode: Allow Duplicate
+模式中按钮图标的颜色： 允许重复,Color of button icon in mode: Allow Duplicate
+模式： 开启,Mode: On
+模式下按钮图标的颜色： 打开,Color of button icon in mode: On
+模式 关闭,Mode: Off
+模式下按钮图标的颜色： 关闭,Color of button icon in mode: Off
+按钮名称,Name
+按钮名称,Button name
+模式,Mode
+按钮按下行为,Button press behaviour
+区域道具,Area Props
+空间道具,Space Props
+锁定区域/空间属性,Lock Area/Space Properties
+过滤工作区的名称,Name of the filtered workspace
+三维视口,3D Viewport
+不在此区域显示,Do not display in this area
+图像编辑器,Image Editor
+UV 编辑器,UV Editor
+合成器,Compositor
+纹理节点编辑器,Texture Node Editor
+几何节点编辑器,Geometry Node Editor
+着色器编辑器,Shader Editor
+视频序列器,Video Sequencer
+电影剪辑编辑器,Movie Clip Editor
+涂料表,Dope Sheet
+时间轴,Timeline
+图表编辑器,Graph Editor
+驱动程序,Drivers
+非线性动画,Nonlinear Animation
+文本编辑器,Text Editor
+Python 控制台,Python Console
+信息,Info
+大纲,Outliner
+属性,Properties
+文件浏览器,File Browser
+资产浏览器,Asset Browser
+电子表格,Spreadsheet
+首选项,Preferences
+水平分割区域,Split area horizontally
+垂直分割区域,Split area vertically
+最小化,Minimize
+切换区域最小化,Toggle area minimize
+最大化,Maximize
+切换区域最大化,Toggle area maximize
+关闭,Close
+关闭活动区域,Close active area
+按钮索引,Button Index
+过滤工作区索引,Filtered Workspace Index
+选项组,Option Groups
+右偏移,Right Offset
+底部偏移,Bottom Offset
+保存和恢复区域属性,Save & Restore Area Properties
+如果启用，区域属性将在关闭时保存或在打开时恢复,"If enabled, area properties are saved on close or restored on open"
+使用还原工作区,Use Revert Workspace
+将最后一个区域布局保存到临时工作区,Save last area layout to temporary workspace
+临时工作区,Temporary Workspace
+存储区域的临时工作区名称,Name of temporary workspace where areas are stored
+UI 缩放,UI Scale
+工具提示延迟（毫秒,"Tooltip Delay, msec"
+工具提示延迟（毫秒,Delay of tooltip in milliseconds
+扩展状态,Expanded State
+系统按钮,System Buttons
+颜色,Colors
+切换区域按钮,Toggle Area Buttons
+属性,Properties:
+空间,Space
+ZWB_UL_ButtonsList,ZWB_UL_ButtonsList
+过滤工作区,Filtered Workspaces
+过滤区域,Filtered Areas
+工作区名称,Workspace Name
+区域图标,Area Icon
+编辑切换区域/空间属性,Edit Toggle Area/Space Properties
+保存 切换区域/空间文本属性,Save Toggle Area/Space Text Properties
+全部取消隐藏,Unhide All
+取消隐藏所有区域和工作区的按钮栏,Unhide button bar in all areas and workspaces
+取消隐藏工作区,Unhide Workspace
+在工作区中启用面板显示,Enable panel display in workspace
+索引,Index
+还原,Restore
+将首选项恢复到默认状态,Restore preferences to its default state
+道具列表,Props List
+Zen Dock 道具,Zen Dock Props
+未知,UNKNOWN
+浮动,FLOAT
+INT,INT
+BOOL,BOOL
+STR,STR
+数组,ARRAY
+ 记录 , Logging 
+UI_UL_list,UI_UL_list
+绘制 +/- 按钮来添加和删除列表条目。,Draw the +/- buttons to add and remove list entries.
+绘制上/下箭头以移动列表中的元素。,Draw the up/down arrows to move elements in the list.
+根据上下文成员的数据路径返回其值。,Return the value of a context member based on its data path.
+根据数据路径设置上下文成员的值。,Set the value of a context member based on its data path.
+从列表中移除所选条目,Remove the selected entry from the list
+删除选定条目,Remove Selected Entry
+在当前活动条目后向列表中添加条目,Add an entry to the list after the current active item
+添加条目,Add Entry
+上下移动列表中的条目,Move an entry in the list up or down
+移动条目,Move Entry
+ 启动 Zen Dock , Init Zen Dock 
+ 注册类别 , Register classes 
+ 取消注册类 , Unregister classes 
+按钮,Button
+标签,Label
+使用两个矢量点绘制直线,Draws a line using two Vector-based points
+,
+通过www.DeepL.com/Translator（免费版）翻译,

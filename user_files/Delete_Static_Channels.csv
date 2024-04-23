@@ -1,0 +1,26 @@
+,"""\""""
+"""",""Update"""
+版本,Version
+自动检查更新,Auto-check for Update
+调试模式,Debug Mode
+频率（周）,Frequency (weeks)
+检查更新,Check For Updates
+可用更新。%s. 请从购买此附加组件的商店下载。,Update Available. %s. Please download from the store where you purchased this Add-on.
+您拥有的是最新版本。,You have the latest version.
+爆炸框架,Blastframe
+混合器市场,Blender Market
+根据每个 F 曲线的关键帧数和关键帧值之间的差值删除 F 曲线通道。,Delete F-Curve channels based on each F-Curve's number of keyframes and 
+关键帧值之间的差值来删除 F 曲线通道。,the difference between its keyframes' values
+ , 
+删除静态通道,Delete Static Channels
+通道过滤器,Channel Filter
+筛选可以删除的通道。,Filter which channels can get deleted.
+保留修改器通道,Keep Modifier Channels
+保存带有 F 曲线修饰符的通道，以防删除,Saves channels with F-Curve modifiers from deletion
+最小值 按键数,Min. Key Count
+避免删除所需的最少按键数,Minimum number of keys required to avoid deletion
+最小 差值,Min. Difference
+F-Curves 关键帧值的最小差值,Minimum difference of an F-Curves keyframe values
+','
+图形编辑器,Graph Editor
+检查是否有,Checks if there

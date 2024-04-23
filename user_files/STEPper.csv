@@ -1,0 +1,767 @@
+均衡二维点尺寸的长宽比,Equalize aspect ratio of 2D point dimensions
+不进行共线性测试的三角形定位,Triangle orientation without colinearity test
+解除对象与所有集合的链接,Unlink object from all collections
+角度（弧度），轴为 X、Y 或 Z,"Angle in radians, axis is X, Y or Z"
+轴为 X、Y 或 Z,"Axis is X, Y or Z"
+, 
+"""\""""
+"""", ""颜色""","""\""""
+"""",""Colors"""
+STEP_,STEP_
+角度偏转、线性偏转,"Angular defflection, Linear deflection"
+tt_,tt_
+跳过有问题的实体,Skip faulty solids
+跳过库挂起和无法加载的某些形状,Skip some shapes the library hangs on and fails to load
+艺术家友好参数,Artist friendly parameters
+不使用线性挠度和角度挠度值，只使用细节设置,"Instead of linear and angle deflection values, use only detail setting"
+网格细节,Mesh detail
+您希望网格的详细程度,How detailed you want the mesh to be
+线性偏转,Linear deflection
+数值越小，多边形数量越多。数值越大，多边形数量越少。,Smaller values increase polygon count. Higher values lower polygon count.
+角度偏转,Angular deflection
+文件,File
+有问题的 STEP 文件的路径,Path to problematic STEP file
+导入 STEP,Import STEP
+导入 STEP 文件,Import a STEP file
+向前,Forward
+导入模型的正向轴,Forward axis of the imported model
+向上,Up
+导入模型的向上轴,Up axis of the imported model
+树状层次结构,Tree hierarchy
+对象的组织样式,Organization styles of objects
+比例,Scale
+设置对象比例,Set object scale
+自定义比例,Custom scale
+手动确定单位信息，而不是从文件中加载单位信息,"Instead of loading the unit information from the file, determine it manually"
+STEPper 输入选项：,STEPper import options:
+层次结构,Hierarchy
+清除 STEP 缓存,Clear STEP cache
+清除 STEP 缓存，重新加载文件,"Clear STEP cache, enabling the reload of a file"
+尝试 STEP ASCII 修正,Attempt STEP ASCII fix
+重新加载 STEP,Reload STEP
+重新加载 STEP 文件,Reload STEP file
+重建 STEP 文件中的选定对象,Rebuild selected objects from the STEP file
+试验性的： 在某些形状上引起问题,Experimental: Causes issues on some shapes\n
+STEPper： 构建,STEPper: Build
+已使用内存： {},Used memory: {}
+已选择重建,Rebuild selected
+STEPper： 文件,STEPper: File
+STEPper： 调试,STEPper: Debug
+执行 ASCII,Enforce ASCII
+尝试修复 STEP 字符集,Attempt fix STEP charset
+错误信息：,Error messages:
+报告问题：,Reported problems:
+跳过的图形：,Skipped shapes:
+没有跳过的图形,No skipped shapes
+选择活动 STEP 对象,Select active STEP object
+确保 PIP,Ensure PIP
+升级 PIP,Upgrade PIP
+列表,List
+STEP (.step),STEP (.step)
+用于编写在 Python 2 和 3 上运行的代码的实用工具,Utilities for writing code that runs on Python 2 and 3
+为函数添加文档。,Add documentation to a function.
+导入模块，返回最后一个点后的模块。,"Import module, returning the module after the last dot."
+懒加载移动对象,Lazy loading of moved objects
+在 six.moves.urllib_parse 文件中懒散加载被移动的对象,Lazy loading of moved objects in six.moves.urllib_parse
+懒加载 six.moves.urllib_error 中的移动对象,Lazy loading of moved objects in six.moves.urllib_error
+在 six.moves.urllib_request 文件中懒散加载已移动的对象,Lazy loading of moved objects in six.moves.urllib_request
+在 six.moves.urllib_response 文件中缓慢加载被移动的对象,Lazy loading of moved objects in six.moves.urllib_response
+在 six.moves.urllib_robotparser 文件中懒散加载被移动的对象,Lazy loading of moved objects in six.moves.urllib_robotparser
+创建一个与 Python 3 命名空间相似的 six.moves.urllib 命名空间,Create a six.moves.urllib namespace that resembles the Python 3 namespace
+向 six.moves.urllib_robotparser 添加一个项目,Add an item to six.moves.
+从 six.moves.urllib_robotparser 中删除项目,Remove item from six.moves.
+从可能未绑定的函数中获取函数,Get the function out of a possibly unbound function
+字节字面,Byte literal
+文本字面,Text literal
+在命名空间中执行代码。,Execute code in a namespace.
+"exec _code_ in _globs_, _locs_","exec _code_ in _globs_, _locs_"
+Python 2.4 和 2.5 的新式 print 函数。,The new-style print function for Python 2.4 and 2.5.
+引发异常,Reraise an exception.
+创建带有元类的基类。,Create a base class with a metaclass.
+用于创建元类的类装饰器。,Class decorator for creating a class with a metaclass.
+分析 OCAF 文档结构的类。,A class that analyzes the structure of an OCAF document.
+提供文档或 STEP 文件名中的一个。,Supply one or the other: document or STEP filename.
+读取 STEP 文件并返回 <TDocStd_Document>。,Read STEP file and return <TDocStd_Document>.
+单个三角形的关联数据,Associated data for a single triangle
+检查所有三角形是否重叠。如果没有发现则返回无,Check all tris for overlap. Return None if none found
+删除所有面积为零的三角形,Remove all tris with zero area
+删除所有重复的三角形,Remove all duplicate tris
+使相同位置的顶点相同，更新三角形,"Make verts in identical locations the same, update tris"
+假设：空 BMesh,ASSUMPTION: empty BMesh
+ 生长 UV 选区 , Grow UV selection 
+ 将 UV 选区扩展到面 , Grow UV selection to faces 
+ 与美化面基本相同 , Basically the same as beautify faces 
+ 计算指定网格的曲率 , Calculates curvature for specified mesh 
+ 计算指定网格的曲率向量 , Calculates curvature vectors for specified mesh 
+" 在网格拓扑上平滑数据 [0, 1] 中的变量 "," Smooths variables in data [0, 1] over the mesh topology "
+" 数据 [0, 1] 网格拉普拉斯 "," Data [0, 1] mesh Laplacian "
+ 将 RGBA 图像数组从 Numpy 压缩成字符串 , Compresses RGBA image array from Numpy into a string 
+ 将字符串解压缩为 Numpy RGBA 图像数组 , Unpacks a string into a Numpy RGBA image array 
+工具的显示设置,Display settings of the tool
+panel_,panel_
+ kmeans++ , kmeans++ 
+," init values with np.ones((len(values), 4)) "
+,'
+,.
+,DumpToString(AdvApp2Var_ApproxAFunc2Var self) -> std::string
+,DumpToString(AdvApprox_ApproxAFunction self) -> std::string
+,DumpToString(AdvApprox_SimpleApprox self) -> std::string
+,Class decorator for adding a metaclass to a SWIG wrapped class - a slimmed down version of six.add_metaclass
+,Meta class to enforce nondynamic attributes (no new attributes) for a class
+,myIsHidden : bool
+,myHasOwnColor : bool
+,myHasOwnTransp : bool
+,myHasOwnWidth : bool
+,:rtype: None
+,DumpToString(AppDef_MultiLine self) -> std::string
+,DumpToString(AppDef_MultiPointConstraint self) -> std::string
+,DumpToString(AppDef_Variational self) -> std::string
+,GetEstLength(AppDef_LinearCriteria self) -> Standard_Real
+,"SetEstLength(AppDef_LinearCriteria self, Standard_Real value)"
+,DumpToString(AppParCurves_MultiCurve self) -> std::string
+,DumpToString(AppParCurves_MultiPoint self) -> std::string
+,DumpToString(AppParCurves_MultiBSpCurve self) -> std::string
+,DumpToString(Approx_Curve3d self) -> std::string
+,DumpToString(Approx_CurvilinearParameter self) -> std::string
+,DumpToString(Approx_SweepApproximation self) -> std::string
+,__init__(AppStd_Application self) -> AppStd_Application
+,__init__(AppStdL_Application self) -> AppStdL_Application
+,WriteTOCToString(BinLDrivers_DocumentSection self) -> std::string
+,"ReadShapeSectionFromString(BinMNaming_NamedShapeDriver self, std::string src)"
+,WriteShapeSectionToString(BinMNaming_NamedShapeDriver self) -> std::string
+,"ReadFromString(BinObjMgt_Persistent self, std::string src)"
+,WriteToString(BinObjMgt_Persistent self) -> std::string
+,"ReadFromString(BinTools_Curve2dSet self, std::string src)"
+,WriteToString(BinTools_Curve2dSet self) -> std::string
+,"ReadFromString(BinTools_CurveSet self, std::string src)"
+,WriteToString(BinTools_CurveSet self) -> std::string
+,"ReadFromString(BinTools_LocationSet self, std::string src)"
+,WriteToString(BinTools_LocationSet self) -> std::string
+,"ReadFromString(BinTools_ShapeSet self, std::string src)"
+,"ReadGeometryFromString(BinTools_ShapeSet self, std::string src)"
+,"ReadPolygon3DFromString(BinTools_ShapeSet self, std::string src)"
+,"ReadPolygonOnTriangulationFromString(BinTools_ShapeSet self, std::string src)"
+,"ReadTriangulationFromString(BinTools_ShapeSet self, std::string src)"
+,WriteToString(BinTools_ShapeSet self) -> std::string
+,WriteGeometryToString(BinTools_ShapeSet self) -> std::string
+,WritePolygon3DToString(BinTools_ShapeSet self) -> std::string
+,WritePolygonOnTriangulationToString(BinTools_ShapeSet self) -> std::string
+,WriteTriangulationToString(BinTools_ShapeSet self) -> std::string
+,"ReadFromString(BinTools_SurfaceSet self, std::string src)"
+,WriteToString(BinTools_SurfaceSet self) -> std::string
+,"GetChangeValue(BlendFunc_Tensor self, Standard_Integer const Row, Standard_Integer const Col, Standard_Integer const Mat) -> Standard_Real"
+,"SetChangeValue(BlendFunc_Tensor self, Standard_Integer const Row, Standard_Integer const Col, Standard_Integer const Mat, Standard_Real value)"
+,"__eq_wrapper__(Bnd_Range self, Bnd_Range other) -> bool"
+,DumpErrorsToString(BOPAlgo_Options self) -> std::string
+,DumpWarningsToString(BOPAlgo_Options self) -> std::string
+,GetArgumentTypeMode(BOPAlgo_ArgumentAnalyzer self) -> Standard_Boolean
+,"SetArgumentTypeMode(BOPAlgo_ArgumentAnalyzer self, Standard_Boolean value)"
+,GetContinuityMode(BOPAlgo_ArgumentAnalyzer self) -> Standard_Boolean
+,"SetContinuityMode(BOPAlgo_ArgumentAnalyzer self, Standard_Boolean value)"
+,GetCurveOnSurfaceMode(BOPAlgo_ArgumentAnalyzer self) -> Standard_Boolean
+,"SetCurveOnSurfaceMode(BOPAlgo_ArgumentAnalyzer self, Standard_Boolean value)"
+,GetMergeEdgeMode(BOPAlgo_ArgumentAnalyzer self) -> Standard_Boolean
+,"SetMergeEdgeMode(BOPAlgo_ArgumentAnalyzer self, Standard_Boolean value)"
+,GetMergeVertexMode(BOPAlgo_ArgumentAnalyzer self) -> Standard_Boolean
+,"SetMergeVertexMode(BOPAlgo_ArgumentAnalyzer self, Standard_Boolean value)"
+,GetRebuildFaceMode(BOPAlgo_ArgumentAnalyzer self) -> Standard_Boolean
+,"SetRebuildFaceMode(BOPAlgo_ArgumentAnalyzer self, Standard_Boolean value)"
+,GetSelfInterMode(BOPAlgo_ArgumentAnalyzer self) -> Standard_Boolean
+,"SetSelfInterMode(BOPAlgo_ArgumentAnalyzer self, Standard_Boolean value)"
+,GetSmallEdgeMode(BOPAlgo_ArgumentAnalyzer self) -> Standard_Boolean
+,"SetSmallEdgeMode(BOPAlgo_ArgumentAnalyzer self, Standard_Boolean value)"
+,GetStopOnFirstFaulty(BOPAlgo_ArgumentAnalyzer self) -> Standard_Boolean
+,"SetStopOnFirstFaulty(BOPAlgo_ArgumentAnalyzer self, Standard_Boolean value)"
+,GetTangentMode(BOPAlgo_ArgumentAnalyzer self) -> Standard_Boolean
+,"SetTangentMode(BOPAlgo_ArgumentAnalyzer self, Standard_Boolean value)"
+,DumpToString(BRepBlend_AppSurface self) -> std::string
+,DumpToString(BRepExtrema_DistShapeShape self) -> std::string
+,StatisticsToString(BRepMesh_DataStructureOfDelaun self) -> std::string
+,StatisticsToString(BRepMesh_VertexTool self) -> std::string
+,Deserializes TopoDS_Shape from string
+,DumpToString(BRepTools_History self) -> std::string
+,__init__(BRepTools_History self) -> BRepTools_History
+,DumpGeometryToString(BRepTools_ShapeSet self) -> std::string
+,DumpPolygon3DToString(BRepTools_ShapeSet self) -> std::string
+,DumpPolygonOnTriangulationToString(BRepTools_ShapeSet self) -> std::string
+,DumpTriangulationToString(BRepTools_ShapeSet self) -> std::string
+,"ReadGeometryFromString(BRepTools_ShapeSet self, std::string src)"
+,"ReadPolygon3DFromString(BRepTools_ShapeSet self, std::string src)"
+,"ReadPolygonOnTriangulationFromString(BRepTools_ShapeSet self, std::string src)"
+,"ReadTriangulationFromString(BRepTools_ShapeSet self, std::string src)"
+,WriteGeometryToString(BRepTools_ShapeSet self) -> std::string
+,"ReadFromString(CDF_Application self, std::string src)"
+,PrintToString(CDM_Document self) -> std::string
+,PrintToString(CDM_MetaData self) -> std::string
+,"GetChangeParameter(Draft_VertexInfo self, TopoDS_Edge E) -> Standard_Real"
+,"SetChangeParameter(Draft_VertexInfo self, TopoDS_Edge E, Standard_Real value)"
+,DumpToString(FairCurve_Batten self) -> std::string
+,DumpToString(FairCurve_MinimalVariation self) -> std::string
+,"GetChangeValue(FEmTool_ProfileMatrix self, Standard_Integer const I, Standard_Integer const J) -> Standard_Real"
+,"SetChangeValue(FEmTool_ProfileMatrix self, Standard_Integer const I, Standard_Integer const J, Standard_Real value)"
+,"__imul_wrapper__(Geom2d_VectorWithMagnitude self, Standard_Real const other)"
+,"__iadd_wrapper__(Geom2d_VectorWithMagnitude self, opencascade::handle< Geom2d_Vector > const other)"
+,"__isub_wrapper__(Geom2d_VectorWithMagnitude self, opencascade::handle< Geom2d_Vector > const other)"
+,"__itruediv_wrapper__(Geom2d_VectorWithMagnitude self, Standard_Real const other)"
+,DumpToString(Geom2dConvert_ApproxCurve self) -> std::string
+,DumpToString(GeomConvert_ApproxCurve self) -> std::string
+,DumpToString(GeomConvert_ApproxSurface self) -> std::string
+,"GetChangeValue(GeomFill_Tensor self, Standard_Integer const Row, Standard_Integer const Col, Standard_Integer const Mat) -> Standard_Real"
+,"SetChangeValue(GeomFill_Tensor self, Standard_Integer const Row, Standard_Integer const Col, Standard_Integer const Mat, Standard_Real value)"
+,DumpToString(GeomTools_Curve2dSet self) -> std::string
+,"ReadFromString(GeomTools_Curve2dSet self, std::string src)"
+,"ReadCurve2dFromString(GeomTools_Curve2dSet self, std::string src)"
+,WriteToString(GeomTools_Curve2dSet self) -> std::string
+,DumpToString(GeomTools_CurveSet self) -> std::string
+,"ReadFromString(GeomTools_CurveSet self, std::string src)"
+,"ReadCurveFromString(GeomTools_CurveSet self, std::string src)"
+,WriteToString(GeomTools_CurveSet self) -> std::string
+,DumpToString(GeomTools_SurfaceSet self) -> std::string
+,"ReadFromString(GeomTools_SurfaceSet self, std::string src)"
+,"ReadSurfaceFromString(GeomTools_SurfaceSet self, std::string src)"
+,WriteToString(GeomTools_SurfaceSet self) -> std::string
+,"__imul_wrapper__(gp_GTrsf self, gp_GTrsf other)"
+,"GetChangeValue(gp_Mat self, Standard_Integer const Row, Standard_Integer const Col) -> Standard_Real"
+,"SetChangeValue(gp_Mat self, Standard_Integer const Row, Standard_Integer const Col, Standard_Real value)"
+,"__iadd_wrapper__(gp_Mat self, gp_Mat other)"
+,"__isub_wrapper__(gp_Mat self, gp_Mat other)"
+,"__itruediv_wrapper__(gp_Mat self, Standard_Real const other)"
+,"GetChangeValue(gp_Mat2d self, Standard_Integer const Row, Standard_Integer const Col) -> Standard_Real"
+,"SetChangeValue(gp_Mat2d self, Standard_Integer const Row, Standard_Integer const Col, Standard_Real value)"
+,"__imul_wrapper__(gp_Mat2d self, Standard_Real const other)"
+,"__iadd_wrapper__(gp_Mat2d self, gp_Mat2d other)"
+,"__isub_wrapper__(gp_Mat2d self, gp_Mat2d other)"
+,"__itruediv_wrapper__(gp_Mat2d self, Standard_Real const other)"
+,"__imul_wrapper__(gp_Trsf self, gp_Trsf other)"
+,"__imul_wrapper__(gp_Vec self, Standard_Real const other)"
+,"__iadd_wrapper__(gp_Vec self, gp_Vec other)"
+,"__isub_wrapper__(gp_Vec self, gp_Vec other)"
+,"__itruediv_wrapper__(gp_Vec self, Standard_Real const other)"
+,"GetChangeCoord(gp_XY self, Standard_Integer const theIndex) -> Standard_Real"
+,"SetChangeCoord(gp_XY self, Standard_Integer const theIndex, Standard_Real value)"
+,"__iadd_wrapper__(gp_XY self, gp_XY other)"
+,"__isub_wrapper__(gp_XY self, gp_XY other)"
+,"__itruediv_wrapper__(gp_XY self, Standard_Real const other)"
+,"GetChangeCoord(gp_XYZ self, Standard_Integer const theIndex) -> Standard_Real"
+,"SetChangeCoord(gp_XYZ self, Standard_Integer const theIndex, Standard_Real value)"
+,"__iadd_wrapper__(gp_XYZ self, gp_XYZ other)"
+,"__isub_wrapper__(gp_XYZ self, gp_XYZ other)"
+,"__itruediv_wrapper__(gp_XYZ self, Standard_Real const other)"
+,GetEditKeepStatus(IFSelect_EditForm self) -> Standard_Boolean
+,"SetEditKeepStatus(IFSelect_EditForm self, Standard_Boolean value)"
+,PrintDefsToString(IFSelect_EditForm self) -> std::string
+,PrintNamesToString(IFSelect_Editor self) -> std::string
+,GetModeSignOnly(IFSelect_SignatureList self) -> Standard_Boolean
+,"SetModeSignOnly(IFSelect_SignatureList self, Standard_Boolean value)"
+,PrintCountToString(IFSelect_SignatureList self) -> std::string
+,PrintSumToString(IFSelect_SignatureList self) -> std::string
+,PrintToString(IGESData_IGESWriter self) -> std::string
+,GetWriteMode(IGESData_IGESWriter self) -> Standard_Integer
+,"SetWriteMode(IGESData_IGESWriter self, Standard_Integer value)"
+,GetCValue(Interface_IntVal self) -> Standard_Integer
+,"SetCValue(Interface_IntVal self, Standard_Integer value)"
+,GetDispatchStatus(Interface_InterfaceModel self) -> Standard_Boolean
+,"SetDispatchStatus(Interface_InterfaceModel self, Standard_Boolean value)"
+,PrintTraceToString(Interface_MSG self) -> std::string
+,"ReadFromString(Interface_MSG self, std::string src)"
+,PrintStaticToString(Interface_Static self) -> std::string
+,DumpToString(math_BFGS self) -> std::string
+,DumpToString(math_BissecNewton self) -> std::string
+,DumpToString(math_BracketMinimum self) -> std::string
+,DumpToString(math_BracketedRoot self) -> std::string
+,DumpToString(math_BrentMinimum self) -> std::string
+,DumpToString(math_Crout self) -> std::string
+,DumpToString(math_DirectPolynomialRoots self) -> std::string
+,"GetValue(math_DoubleTab self, Standard_Integer const RowIndex, Standard_Integer const ColIndex) -> Standard_Real"
+,"SetValue(math_DoubleTab self, Standard_Integer const RowIndex, Standard_Integer const ColIndex, Standard_Real value)"
+,DumpToString(math_FRPR self) -> std::string
+,DumpToString(math_FunctionAllRoots self) -> std::string
+,DumpToString(math_FunctionRoot self) -> std::string
+,DumpToString(math_FunctionRoots self) -> std::string
+,DumpToString(math_FunctionSetRoot self) -> std::string
+,DumpToString(math_Gauss self) -> std::string
+,DumpToString(math_GaussLeastSquare self) -> std::string
+,DumpToString(math_GaussMultipleIntegration self) -> std::string
+,DumpToString(math_GaussSetIntegration self) -> std::string
+,DumpToString(math_GaussSingleIntegration self) -> std::string
+,DumpToString(math_Householder self) -> std::string
+,DumpToString(math_IntegerVector self) -> std::string
+,"GetValue(math_IntegerVector self, Standard_Integer const theNum) -> Standard_Integer"
+,"SetValue(math_IntegerVector self, Standard_Integer const theNum, Standard_Integer value)"
+,"__imul_wrapper__(math_IntegerVector self, Standard_Integer const other)"
+,"__iadd_wrapper__(math_IntegerVector self, math_IntegerVector other)"
+,"__isub_wrapper__(math_IntegerVector self, math_IntegerVector other)"
+,DumpToString(math_Jacobi self) -> std::string
+,DumpToString(math_Matrix self) -> std::string
+,"GetValue(math_Matrix self, Standard_Integer const Row, Standard_Integer const Col) -> Standard_Real"
+,"SetValue(math_Matrix self, Standard_Integer const Row, Standard_Integer const Col, Standard_Real value)"
+,"__iadd_wrapper__(math_Matrix self, math_Matrix other)"
+,"__isub_wrapper__(math_Matrix self, math_Matrix other)"
+,"__itruediv_wrapper__(math_Matrix self, Standard_Real const other)"
+,DumpToString(math_NewtonFunctionRoot self) -> std::string
+,DumpToString(math_NewtonFunctionSetRoot self) -> std::string
+,DumpToString(math_NewtonMinimum self) -> std::string
+,DumpToString(math_Powell self) -> std::string
+,DumpToString(math_SVD self) -> std::string
+,DumpToString(math_TrigonometricFunctionRoots self) -> std::string
+,DumpToString(math_Uzawa self) -> std::string
+,DumpToString(math_Vector self) -> std::string
+,"GetValue(math_Vector self, Standard_Integer const theNum) -> Standard_Real"
+,"SetValue(math_Vector self, Standard_Integer const theNum, Standard_Real value)"
+,"__imul_wrapper__(math_Vector self, Standard_Real const other)"
+,"__iadd_wrapper__(math_Vector self, math_Vector other)"
+,"__isub_wrapper__(math_Vector self, math_Vector other)"
+,"__itruediv_wrapper__(math_Vector self, Standard_Real const other)"
+,__init__(Message_Alert self) -> Message_Alert
+,DumpToString(Message_Report self) -> std::string
+,type
+,type:nn
+,GetCValue(MoniTool_IntVal self) -> Standard_Integer
+,"SetCValue(MoniTool_IntVal self, Standard_Integer value)"
+,GetCValue(MoniTool_RealVal self) -> Standard_Real
+,"SetCValue(MoniTool_RealVal self, Standard_Real value)"
+,DumpToString(MoniTool_Timer self) -> std::string
+,DumpTimersToString(MoniTool_Timer self) -> std::string
+,PrintToString(MoniTool_TypedValue self) -> std::string
+,PrintValueToString(MoniTool_TypedValue self) -> std::string
+,"ReadPolygon2DFromString(poly self, std::string src)"
+,"ReadPolygon3DFromString(poly self, std::string src)"
+,"ReadTriangulationFromString(poly self, std::string src)"
+,__init__(Poly self) -> poly
+,DumpToString(Poly_CoherentNode self) -> std::string
+,"GetChangeValue(Poly_Triangle self, Standard_Integer const theIndex) -> Standard_Integer"
+,"SetChangeValue(Poly_Triangle self, Standard_Integer const theIndex, Standard_Integer value)"
+,"__ne_wrapper__(Quantity_Color self, Quantity_Color other) -> bool"
+,"__eq_wrapper__(Quantity_Color self, Quantity_Color other) -> bool"
+,"__ne_wrapper__(Quantity_ColorRGBA self, Quantity_ColorRGBA other) -> bool"
+,"__eq_wrapper__(Quantity_ColorRGBA self, Quantity_ColorRGBA other) -> bool"
+,GetModifyBigSplineMode(ShapeAnalysis_ShapeContents self) -> Standard_Boolean
+,"SetModifyBigSplineMode(ShapeAnalysis_ShapeContents self, Standard_Boolean value)"
+,GetModifyIndirectMode(ShapeAnalysis_ShapeContents self) -> Standard_Boolean
+,"SetModifyIndirectMode(ShapeAnalysis_ShapeContents self, Standard_Boolean value)"
+,GetModifyOffestSurfaceMode(ShapeAnalysis_ShapeContents self) -> Standard_Boolean
+,"SetModifyOffestSurfaceMode(ShapeAnalysis_ShapeContents self, Standard_Boolean value)"
+,GetModifyOffsetCurveMode(ShapeAnalysis_ShapeContents self) -> Standard_Boolean
+,"SetModifyOffsetCurveMode(ShapeAnalysis_ShapeContents self, Standard_Boolean value)"
+,GetModifyTrimmed2dMode(ShapeAnalysis_ShapeContents self) -> Standard_Boolean
+,"SetModifyTrimmed2dMode(ShapeAnalysis_ShapeContents self, Standard_Boolean value)"
+,GetModifyTrimmed3dMode(ShapeAnalysis_ShapeContents self) -> Standard_Boolean
+,"SetModifyTrimmed3dMode(ShapeAnalysis_ShapeContents self, Standard_Boolean value)"
+,GetKeepLoopsMode(ShapeAnalysis_WireOrder self) -> Standard_Boolean
+,"SetKeepLoopsMode(ShapeAnalysis_WireOrder self, Standard_Boolean value)"
+,GetForceProjection(ShapeAnalysis_TransferParametersProj self) -> Standard_Boolean
+,"SetForceProjection(ShapeAnalysis_TransferParametersProj self, Standard_Boolean value)"
+,GetAdjustOverDegenMode(ShapeConstruct_ProjectCurveOnSurface self) -> Standard_Integer
+,"SetAdjustOverDegenMode(ShapeConstruct_ProjectCurveOnSurface self, Standard_Integer value)"
+,GetBuildCurveMode(ShapeConstruct_ProjectCurveOnSurface self) -> Standard_Boolean
+,"SetBuildCurveMode(ShapeConstruct_ProjectCurveOnSurface self, Standard_Boolean value)"
+,GetConvertBezierSurf(ShapeCustom_RestrictionParameters self) -> Standard_Boolean
+,"SetConvertBezierSurf(ShapeCustom_RestrictionParameters self, Standard_Boolean value)"
+,GetConvertConicalSurf(ShapeCustom_RestrictionParameters self) -> Standard_Boolean
+,"SetConvertConicalSurf(ShapeCustom_RestrictionParameters self, Standard_Boolean value)"
+,GetConvertCurve2d(ShapeCustom_RestrictionParameters self) -> Standard_Boolean
+,"SetConvertCurve2d(ShapeCustom_RestrictionParameters self, Standard_Boolean value)"
+,GetConvertCurve3d(ShapeCustom_RestrictionParameters self) -> Standard_Boolean
+,"SetConvertCurve3d(ShapeCustom_RestrictionParameters self, Standard_Boolean value)"
+,GetConvertCylindricalSurf(ShapeCustom_RestrictionParameters self) -> Standard_Boolean
+,"SetConvertCylindricalSurf(ShapeCustom_RestrictionParameters self, Standard_Boolean value)"
+,GetConvertExtrusionSurf(ShapeCustom_RestrictionParameters self) -> Standard_Boolean
+,"SetConvertExtrusionSurf(ShapeCustom_RestrictionParameters self, Standard_Boolean value)"
+,GetConvertOffsetCurv2d(ShapeCustom_RestrictionParameters self) -> Standard_Boolean
+,"SetConvertOffsetCurv2d(ShapeCustom_RestrictionParameters self, Standard_Boolean value)"
+,GetConvertOffsetCurv3d(ShapeCustom_RestrictionParameters self) -> Standard_Boolean
+,"SetConvertOffsetCurv3d(ShapeCustom_RestrictionParameters self, Standard_Boolean value)"
+,GetConvertOffsetSurf(ShapeCustom_RestrictionParameters self) -> Standard_Boolean
+,"SetConvertOffsetSurf(ShapeCustom_RestrictionParameters self, Standard_Boolean value)"
+,GetConvertPlane(ShapeCustom_RestrictionParameters self) -> Standard_Boolean
+,"SetConvertPlane(ShapeCustom_RestrictionParameters self, Standard_Boolean value)"
+,GetConvertRevolutionSurf(ShapeCustom_RestrictionParameters self) -> Standard_Boolean
+,"SetConvertRevolutionSurf(ShapeCustom_RestrictionParameters self, Standard_Boolean value)"
+,GetConvertSphericalSurf(ShapeCustom_RestrictionParameters self) -> Standard_Boolean
+,"SetConvertSphericalSurf(ShapeCustom_RestrictionParameters self, Standard_Boolean value)"
+,GetConvertToroidalSurf(ShapeCustom_RestrictionParameters self) -> Standard_Boolean
+,"SetConvertToroidalSurf(ShapeCustom_RestrictionParameters self, Standard_Boolean value)"
+,GetGMaxDegree(ShapeCustom_RestrictionParameters self) -> Standard_Integer
+,"SetGMaxDegree(ShapeCustom_RestrictionParameters self, Standard_Integer value)"
+,GetGMaxSeg(ShapeCustom_RestrictionParameters self) -> Standard_Integer
+,"SetGMaxSeg(ShapeCustom_RestrictionParameters self, Standard_Integer value)"
+,GetSegmentSurfaceMode(ShapeCustom_RestrictionParameters self) -> Standard_Boolean
+,"SetSegmentSurfaceMode(ShapeCustom_RestrictionParameters self, Standard_Boolean value)"
+,GetManifoldMode(ShapeExtend_WireData self) -> Standard_Boolean
+,"SetManifoldMode(ShapeExtend_WireData self, Standard_Boolean value)"
+,GetClosedMode(ShapeFix_ComposeShell self) -> Standard_Boolean
+,"SetClosedMode(ShapeFix_ComposeShell self, Standard_Boolean value)"
+,GetAutoCorrectPrecisionMode(ShapeFix_Face self) -> Standard_Integer
+,"SetAutoCorrectPrecisionMode(ShapeFix_Face self, Standard_Integer value)"
+,GetFixAddNaturalBoundMode(ShapeFix_Face self) -> Standard_Integer
+,"SetFixAddNaturalBoundMode(ShapeFix_Face self, Standard_Integer value)"
+,GetFixIntersectingWiresMode(ShapeFix_Face self) -> Standard_Integer
+,"SetFixIntersectingWiresMode(ShapeFix_Face self, Standard_Integer value)"
+,GetFixLoopWiresMode(ShapeFix_Face self) -> Standard_Integer
+,"SetFixLoopWiresMode(ShapeFix_Face self, Standard_Integer value)"
+,GetFixMissingSeamMode(ShapeFix_Face self) -> Standard_Integer
+,"SetFixMissingSeamMode(ShapeFix_Face self, Standard_Integer value)"
+,GetFixOrientationMode(ShapeFix_Face self) -> Standard_Integer
+,"SetFixOrientationMode(ShapeFix_Face self, Standard_Integer value)"
+,GetFixPeriodicDegeneratedMode(ShapeFix_Face self) -> Standard_Integer
+,"SetFixPeriodicDegeneratedMode(ShapeFix_Face self, Standard_Integer value)"
+,GetFixSmallAreaWireMode(ShapeFix_Face self) -> Standard_Integer
+,"SetFixSmallAreaWireMode(ShapeFix_Face self, Standard_Integer value)"
+,GetFixSplitFaceMode(ShapeFix_Face self) -> Standard_Integer
+,"SetFixSplitFaceMode(ShapeFix_Face self, Standard_Integer value)"
+,GetFixWireMode(ShapeFix_Face self) -> Standard_Integer
+,"SetFixWireMode(ShapeFix_Face self, Standard_Integer value)"
+,GetRemoveSmallAreaFaceMode(ShapeFix_Face self) -> Standard_Integer
+,"SetRemoveSmallAreaFaceMode(ShapeFix_Face self, Standard_Integer value)"
+,GetFixFreeFaceMode(ShapeFix_Shape self) -> Standard_Integer
+,"SetFixFreeFaceMode(ShapeFix_Shape self, Standard_Integer value)"
+,GetFixFreeShellMode(ShapeFix_Shape self) -> Standard_Integer
+,"SetFixFreeShellMode(ShapeFix_Shape self, Standard_Integer value)"
+,GetFixFreeWireMode(ShapeFix_Shape self) -> Standard_Integer
+,"SetFixFreeWireMode(ShapeFix_Shape self, Standard_Integer value)"
+,GetFixSameParameterMode(ShapeFix_Shape self) -> Standard_Integer
+,"SetFixSameParameterMode(ShapeFix_Shape self, Standard_Integer value)"
+,GetFixSolidMode(ShapeFix_Shape self) -> Standard_Integer
+,"SetFixSolidMode(ShapeFix_Shape self, Standard_Integer value)"
+,GetFixVertexPositionMode(ShapeFix_Shape self) -> Standard_Integer
+,"SetFixVertexPositionMode(ShapeFix_Shape self, Standard_Integer value)"
+,GetFixVertexTolMode(ShapeFix_Shape self) -> Standard_Integer
+,"SetFixVertexTolMode(ShapeFix_Shape self, Standard_Integer value)"
+,GetFixFaceMode(ShapeFix_Shell self) -> Standard_Integer
+,"SetFixFaceMode(ShapeFix_Shell self, Standard_Integer value)"
+,GetFixOrientationMode(ShapeFix_Shell self) -> Standard_Integer
+,"SetFixOrientationMode(ShapeFix_Shell self, Standard_Integer value)"
+,GetCreateOpenSolidMode(ShapeFix_Solid self) -> Standard_Boolean
+,"SetCreateOpenSolidMode(ShapeFix_Solid self, Standard_Boolean value)"
+,GetFixShellMode(ShapeFix_Solid self) -> Standard_Integer
+,"SetFixShellMode(ShapeFix_Solid self, Standard_Integer value)"
+,GetFixShellOrientationMode(ShapeFix_Solid self) -> Standard_Integer
+,"SetFixShellOrientationMode(ShapeFix_Solid self, Standard_Integer value)"
+,GetClosedWireMode(ShapeFix_Wire self) -> Standard_Boolean
+,"SetClosedWireMode(ShapeFix_Wire self, Standard_Boolean value)"
+,GetFixAddCurve3dMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixAddCurve3dMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixAddPCurveMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixAddPCurveMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixConnectedMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixConnectedMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixDegeneratedMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixDegeneratedMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixEdgeCurvesMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixEdgeCurvesMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixGaps2dMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixGaps2dMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixGaps3dMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixGaps3dMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixGapsByRangesMode(ShapeFix_Wire self) -> Standard_Boolean
+,"SetFixGapsByRangesMode(ShapeFix_Wire self, Standard_Boolean value)"
+,GetFixIntersectingEdgesMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixIntersectingEdgesMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixLackingMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixLackingMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixNonAdjacentIntersectingEdgesMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixNonAdjacentIntersectingEdgesMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixNotchedEdgesMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixNotchedEdgesMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixRemoveCurve3dMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixRemoveCurve3dMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixRemovePCurveMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixRemovePCurveMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixReorderMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixReorderMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixReversed2dMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixReversed2dMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixSameParameterMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixSameParameterMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixSeamMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixSeamMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixSelfIntersectingEdgeMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixSelfIntersectingEdgeMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixSelfIntersectionMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixSelfIntersectionMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixShiftedMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixShiftedMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixSmallMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixSmallMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixTailMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixTailMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetFixVertexToleranceMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetFixVertexToleranceMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetModifyGeometryMode(ShapeFix_Wire self) -> Standard_Boolean
+,"SetModifyGeometryMode(ShapeFix_Wire self, Standard_Boolean value)"
+,GetModifyRemoveLoopMode(ShapeFix_Wire self) -> Standard_Integer
+,"SetModifyRemoveLoopMode(ShapeFix_Wire self, Standard_Integer value)"
+,GetModifyTopologyMode(ShapeFix_Wire self) -> Standard_Boolean
+,"SetModifyTopologyMode(ShapeFix_Wire self, Standard_Boolean value)"
+,GetPreferencePCurveMode(ShapeFix_Wire self) -> Standard_Boolean
+,"SetPreferencePCurveMode(ShapeFix_Wire self, Standard_Boolean value)"
+,GetModeDropSmallEdges(ShapeFix_Wireframe self) -> Standard_Boolean
+,"SetModeDropSmallEdges(ShapeFix_Wireframe self, Standard_Boolean value)"
+,GetMinArea(ShapeUpgrade_RemoveInternalWires self) -> Standard_Real
+,"SetMinArea(ShapeUpgrade_RemoveInternalWires self, Standard_Real value)"
+,GetRemoveFaceMode(ShapeUpgrade_RemoveInternalWires self) -> Standard_Boolean
+,"SetRemoveFaceMode(ShapeUpgrade_RemoveInternalWires self, Standard_Boolean value)"
+,GetMaxArea(ShapeUpgrade_ShapeDivideArea self) -> Standard_Real
+,"SetMaxArea(ShapeUpgrade_ShapeDivideArea self, Standard_Real value)"
+,GetNbParts(ShapeUpgrade_SplitSurfaceArea self) -> Standard_Integer
+,"SetNbParts(ShapeUpgrade_SplitSurfaceArea self, Standard_Integer value)"
+,GetMaxArea(ShapeUpgrade_FaceDivideArea self) -> Standard_Real
+,"SetMaxArea(ShapeUpgrade_FaceDivideArea self, Standard_Real value)"
+,ShallowDumpToString(Standard_GUID self) -> std::string
+,"__ne_wrapper__(Standard_GUID self, Standard_GUID other) -> bool"
+,"__eq_wrapper__(Standard_GUID self, Standard_GUID other) -> bool"
+,PrintToString(Standard_Failure self) -> std::string
+,GetTypeNum(Standard_Persistent self) -> Standard_Integer
+,"SetTypeNum(Standard_Persistent self, Standard_Integer value)"
+,PrintToString(Standard_Type self) -> std::string
+,GetLabelMode(StepData_StepWriter self) -> Standard_Integer
+,"SetLabelMode(StepData_StepWriter self, Standard_Integer value)"
+,PrintToString(StepData_StepWriter self) -> std::string
+,GetTypeMode(StepData_StepWriter self) -> Standard_Integer
+,"SetTypeMode(StepData_StepWriter self, Standard_Integer value)"
+,DumpToString(STEPSelections_AssemblyExplorer self) -> std::string
+,GetASCIIMode(StlAPI_Writer self) -> Standard_Boolean
+,"SetASCIIMode(StlAPI_Writer self, Standard_Boolean value)"
+,PrintToString(TCollection_AsciiString self) -> std::string
+,"ReadFromString(TCollection_AsciiString self, std::string src)"
+,StatisticsToString(TCollection_BasicMap self) -> std::string
+,PrintToString(TCollection_ExtendedString self) -> std::string
+,"__iadd_wrapper__(TCollection_ExtendedString self, TCollection_ExtendedString other)"
+,PrintToString(TCollection_HAsciiString self) -> std::string
+,PrintToString(TCollection_HExtendedString self) -> std::string
+,StatisticsToString(TColStd_PackedMapOfInteger self) -> std::string
+,"__isub_wrapper__(TColStd_PackedMapOfInteger self, TColStd_PackedMapOfInteger other)"
+,"__eq_wrapper__(TColStd_PackedMapOfInteger self, TColStd_PackedMapOfInteger other) -> bool"
+,DumpToString(TDataStd_AsciiString self) -> std::string
+,DumpToString(TDataStd_BooleanArray self) -> std::string
+,DumpToString(TDataStd_BooleanList self) -> std::string
+,List(TDataStd_BooleanList self) -> TDataStd_ListOfByte
+,DumpToString(TDataStd_ByteArray self) -> std::string
+,DumpToString(TDataStd_Current self) -> std::string
+,DumpToString(TDataStd_Expression self) -> std::string
+,DumpToString(TDataStd_ExtStringArray self) -> std::string
+,DumpToString(TDataStd_ExtStringList self) -> std::string
+,DumpToString(TDataStd_IntPackedMap self) -> std::string
+,DumpToString(TDataStd_Integer self) -> std::string
+,DumpToString(TDataStd_IntegerArray self) -> std::string
+,DumpToString(TDataStd_IntegerList self) -> std::string
+,DumpToString(TDataStd_NamedData self) -> std::string
+,DumpToString(TDataStd_Real self) -> std::string
+,DumpToString(TDataStd_RealArray self) -> std::string
+,DumpToString(TDataStd_RealList self) -> std::string
+,DumpToString(TDataStd_ReferenceArray self) -> std::string
+,DumpToString(TDataStd_ReferenceList self) -> std::string
+,DumpToString(TDataStd_TreeNode self) -> std::string
+,DumpToString(TDataStd_UAttribute self) -> std::string
+,DumpToString(TDataStd_Variable self) -> std::string
+,DumpToString(TDataStd_Comment self) -> std::string
+,DumpToString(TDataStd_Directory self) -> std::string
+,DumpToString(TDataStd_Name self) -> std::string
+,DumpToString(TDataStd_NoteBook self) -> std::string
+,DumpToString(TDataStd_Relation self) -> std::string
+,DumpToString(TDataStd_Tick self) -> std::string
+,DumpToString(TDataXtd_Axis self) -> std::string
+,DumpToString(TDataXtd_Constraint self) -> std::string
+,DumpToString(TDataXtd_Geometry self) -> std::string
+,DumpToString(TDataXtd_Placement self) -> std::string
+,DumpToString(TDataXtd_Plane self) -> std::string
+,DumpToString(TDataXtd_Point self) -> std::string
+,DumpToString(TDataXtd_Shape self) -> std::string
+,DumpToString(TDataXtd_Triangulation self) -> std::string
+,DumpToString(TDataXtd_PatternStd self) -> std::string
+,DumpToString(TDF_Attribute self) -> std::string
+,DumpToString(TDF_AttributeDelta self) -> std::string
+,DumpToString(TDF_Data self) -> std::string
+,DumpToString(TDF_DataSet self) -> std::string
+,DumpToString(TDF_Delta self) -> std::string
+,DumpToString(TDF_IDFilter self) -> std::string
+,DumpToString(TDF_Label self) -> std::string
+,EntryDumpToString(TDF_Label self) -> std::string
+,"__ne_wrapper__(TDF_Label self, TDF_Label other) -> bool"
+,"__eq_wrapper__(TDF_Label self, TDF_Label other) -> bool"
+,Returns the label name
+,DumpToString(TDF_Reference self) -> std::string
+,DumpToString(TDocStd_ApplicationDelta self) -> std::string
+,DumpToString(TDocStd_Modified self) -> std::string
+,DumpTransactionToString(TDocStd_MultiTransactionManager self) -> std::string
+,DumpToString(TDocStd_Owner self) -> std::string
+,DumpToString(TDocStd_XLink self) -> std::string
+,DumpToString(TDocStd_XLinkRoot self) -> std::string
+,"__init__(ShapeTesselator self, TopoDS_Shape aShape) -> ShapeTesselator"
+,"Compute(ShapeTesselator self, bool compute_edges=False, float mesh_quality=1.0, bool parallel=False)"
+,"GetVertex(ShapeTesselator self, int ivert)"
+,"GetNormal(ShapeTesselator self, int inorm)"
+,"GetTriangleIndex(ShapeTesselator self, int triangleIdx)"
+,"GetEdgeVertex(ShapeTesselator self, int iEdge, int ivert)"
+,VerticesList(ShapeTesselator self) -> float *
+,ObjGetTriangleCount(ShapeTesselator self) -> int
+,ObjGetInvalidTriangleCount(ShapeTesselator self) -> int
+,ObjGetVertexCount(ShapeTesselator self) -> int
+,ObjGetNormalCount(ShapeTesselator self) -> int
+,ObjGetEdgeCount(ShapeTesselator self) -> int
+,"ObjEdgeGetVertexCount(ShapeTesselator self, int iEdge) -> int"
+,ExportShapeToX3DTriangleSet(ShapeTesselator self) -> std::string
+,"ExportShapeToThreejsJSONString(ShapeTesselator self, char * shape_function_name) -> std::string"
+,"ExportShapeToX3D(ShapeTesselator self, char * filename, int diffR=1, int diffG=0, int diffB=0)"
+,GetVerticesPositionAsTuple(ShapeTesselator self) -> vector_float
+,GetNormalsAsTuple(ShapeTesselator self) -> vector_float
+,DumpToString(TFunction_DriverTable self) -> std::string
+,DumpToString(TFunction_Function self) -> std::string
+,DumpToString(TFunction_GraphNode self) -> std::string
+,DumpToString(TFunction_Iterator self) -> std::string
+,DumpToString(TFunction_Logbook self) -> std::string
+,DumpToString(TFunction_Scope self) -> std::string
+,DumpToString(TNaming_NamedShape self) -> std::string
+,DumpToString(TNaming_Naming self) -> std::string
+,DumpToString(TNaming_UsedShapes self) -> std::string
+,DumpTypesToString(TObj_Persistence self) -> std::string
+,DumpToString(TObj_TXYZ self) -> std::string
+,GetChangeBoundary(TopBas_TestInterference self) -> Standard_Integer
+,"SetChangeBoundary(TopBas_TestInterference self, Standard_Integer value)"
+,GetChangeIntersection(TopBas_TestInterference self) -> Standard_Real
+,"SetChangeIntersection(TopBas_TestInterference self, Standard_Real value)"
+,ShallowDumpToString(TopLoc_Datum3D self) -> std::string
+,__hash__(TopLoc_Location self) -> Standard_Integer
+,ShallowDumpToString(TopLoc_Location self) -> std::string
+,"__ne_wrapper__(TopLoc_Location self, TopLoc_Location other) -> bool"
+,"__eq_wrapper__(TopLoc_Location self, TopLoc_Location other) -> bool"
+,__hash__(TopoDS_Shape self) -> Standard_Integer
+,"__ne_wrapper__(TopoDS_Shape self, TopoDS_Shape other) -> bool"
+,"__eq_wrapper__(TopoDS_Shape self, TopoDS_Shape other) -> bool"
+,GetTolerance(TopoDSToStep_Root self) -> Standard_Real
+,"SetTolerance(TopoDSToStep_Root self, Standard_Real value)"
+,DumpLineTransitionsToString(TopOpeBRep_LineInter self) -> std::string
+,DumpCurrentToString(TopOpeBRep_ShapeScanner self) -> std::string
+,DumpToString(TopOpeBRepBuild_GIter self) -> std::string
+,DumpToString(TopOpeBRepBuild_GTool self) -> std::string
+,__init__(TopOpeBRepBuild_GTool self) -> TopOpeBRepBuild_GTool
+,DumpTypeToString(TopOpeBRepBuild_GTopo self) -> std::string
+,PrintIntgToString(TopOpeBRepDS_Check self) -> std::string
+,DumpCurrentToString(TopOpeBRepTool_ShapeExplorer self) -> std::string
+,DumpToString(TopTools_LocationSet self) -> std::string
+,"ReadFromString(TopTools_LocationSet self, std::string src)"
+,WriteToString(TopTools_LocationSet self) -> std::string
+,DumpToString(TopTools_ShapeSet self) -> std::string
+,DumpExtentToString(TopTools_ShapeSet self) -> std::string
+,DumpGeometryToString(TopTools_ShapeSet self) -> std::string
+,"ReadFromString(TopTools_ShapeSet self, std::string src)"
+,"ReadGeometryFromString(TopTools_ShapeSet self, std::string src)"
+,WriteToString(TopTools_ShapeSet self) -> std::string
+,WriteGeometryToString(TopTools_ShapeSet self) -> std::string
+,GetModeTrans(Transfer_ActorOfFinderProcess self) -> Standard_Integer
+,"SetModeTrans(Transfer_ActorOfFinderProcess self, Standard_Integer value)"
+,GetModeNewTransfer(TransferBRep_Reader self) -> Standard_Boolean
+,"SetModeNewTransfer(TransferBRep_Reader self, Standard_Boolean value)"
+,GetNoResult(TransferBRep_TransferResultInfo self) -> Standard_Integer
+,"SetNoResult(TransferBRep_TransferResultInfo self, Standard_Integer value)"
+,GetNoResultFail(TransferBRep_TransferResultInfo self) -> Standard_Integer
+,"SetNoResultFail(TransferBRep_TransferResultInfo self, Standard_Integer value)"
+,GetNoResultWarning(TransferBRep_TransferResultInfo self) -> Standard_Integer
+,"SetNoResultWarning(TransferBRep_TransferResultInfo self, Standard_Integer value)"
+,GetNoResultWarningFail(TransferBRep_TransferResultInfo self) -> Standard_Integer
+,"SetNoResultWarningFail(TransferBRep_TransferResultInfo self, Standard_Integer value)"
+,GetResult(TransferBRep_TransferResultInfo self) -> Standard_Integer
+,"SetResult(TransferBRep_TransferResultInfo self, Standard_Integer value)"
+,GetResultFail(TransferBRep_TransferResultInfo self) -> Standard_Integer
+,"SetResultFail(TransferBRep_TransferResultInfo self, Standard_Integer value)"
+,GetResultWarning(TransferBRep_TransferResultInfo self) -> Standard_Integer
+,"SetResultWarning(TransferBRep_TransferResultInfo self, Standard_Integer value)"
+,GetResultWarningFail(TransferBRep_TransferResultInfo self) -> Standard_Integer
+,"SetResultWarningFail(TransferBRep_TransferResultInfo self, Standard_Integer value)"
+,__init__(Display3d self) -> Display3d
+,VrmlHeaderWriterToString(vrml self) -> std::string
+,__init__(Vrml self) -> vrml
+,PrintToString(Vrml_AsciiText self) -> std::string
+,PrintToString(Vrml_Cone self) -> std::string
+,PrintToString(Vrml_Coordinate3 self) -> std::string
+,PrintToString(Vrml_Cube self) -> std::string
+,PrintToString(Vrml_Cylinder self) -> std::string
+,PrintToString(Vrml_DirectionalLight self) -> std::string
+,PrintToString(Vrml_FontStyle self) -> std::string
+,PrintToString(Vrml_Group self) -> std::string
+,PrintToString(Vrml_IndexedFaceSet self) -> std::string
+,PrintToString(Vrml_IndexedLineSet self) -> std::string
+,PrintToString(Vrml_Info self) -> std::string
+,DEFToString(Vrml_Instancing self) -> std::string
+,USEToString(Vrml_Instancing self) -> std::string
+,PrintToString(Vrml_LOD self) -> std::string
+,PrintToString(Vrml_Material self) -> std::string
+,PrintToString(Vrml_MaterialBinding self) -> std::string
+,PrintToString(Vrml_MatrixTransform self) -> std::string
+,PrintToString(Vrml_Normal self) -> std::string
+,PrintToString(Vrml_NormalBinding self) -> std::string
+,PrintToString(Vrml_OrthographicCamera self) -> std::string
+,PrintToString(Vrml_PerspectiveCamera self) -> std::string
+,PrintToString(Vrml_PointLight self) -> std::string
+,PrintToString(Vrml_PointSet self) -> std::string
+,PrintToString(Vrml_Rotation self) -> std::string
+,PrintToString(Vrml_Scale self) -> std::string
+,PrintToString(Vrml_Separator self) -> std::string
+,PrintToString(Vrml_ShapeHints self) -> std::string
+,PrintToString(Vrml_Sphere self) -> std::string
+,PrintToString(Vrml_SpotLight self) -> std::string
+,PrintToString(Vrml_Switch self) -> std::string
+,PrintToString(Vrml_Texture2 self) -> std::string
+,PrintToString(Vrml_Texture2Transform self) -> std::string
+,PrintToString(Vrml_TextureCoordinate2 self) -> std::string
+,PrintToString(Vrml_Transform self) -> std::string
+,PrintToString(Vrml_TransformSeparator self) -> std::string
+,PrintToString(Vrml_Translation self) -> std::string
+,PrintToString(Vrml_WWWAnchor self) -> std::string
+,PrintToString(Vrml_WWWInline self) -> std::string
+,AddToString(VrmlConverter_Projector self) -> std::string
+,DumpToString(VrmlData_Scene self) -> std::string
+,DumpToString(XCAFDoc_Area self) -> std::string
+,DumpToString(XCAFDoc_AssemblyItemRef self) -> std::string
+,DumpToString(XCAFDoc_Centroid self) -> std::string
+,DumpToString(XCAFDoc_GraphNode self) -> std::string
+,DumpToString(XCAFDoc_Note self) -> std::string
+,DumpToString(XCAFDoc_NotesTool self) -> std::string
+,DumpToString(XCAFDoc_ShapeTool self) -> std::string
+,DumpToString(XCAFDoc_Volume self) -> std::string
+,DumpToString(XCAFDoc_NoteBinData self) -> std::string
+,DumpToString(XCAFDoc_NoteComment self) -> std::string
+,"__eq_wrapper__(XCAFPrs_Style self, XCAFPrs_Style other) -> bool"
+,"Return True is PyQt5 found, else False"
+,"Return True is PySide2 found, else False"
+,"Return True is wxPython found, else False"
+,Quantity_NOC_%s
+,Adds a callback that will be called each time a shape s selected
+,Remove a callback from the callback list
+,enables the raytracing mode
+,Show a black triedron in lower right corner
+,"displays a background image (jpg, png etc.)"
+,displays a vector as an arrow
+,display one or a set of displayable objects
+,capture-%i-%s.jpeg
+,The base Qt Widget for an OCC viewer
+,Centers the window on the screen.
+, A flask webserver. 
+,PythonOCC Demo Page
+,called whenever a shape  or edge is clicked
+,Adds a callback that will be called each time a shape is selected
+,Returns the selected shape
+,shp is a list of gp_Pnt
+,shp is either a TopoDS_Wire or a TopodS_Edge.
+, A very simple webserver. 
+,Export a set of points to a LineSegment buffergeometry
+,Author
+,Keywords
+,Generate the HTML file to be rendered by the web browser
+,render the scene into the browser.
+,generator
+,creator
+,identifier
+,description
+,x3d_shapes is a list that contains uid for each shape
+,A class for exporting a TopoDS_Shape to an x3d file
+,Adds a shape to the rendering buffer. This class computes the x3d file
+,Call the render() method to display the X3D scene.
+,"opens a stl file, reads the content, and returns a BRep topods_shape object"
+,"Returns a svgwrite.Path for the edge, and the 2d bounding box"
+,returns True if the TopoDS_Face is a planar surface
+,Returns shape volume
+,Returns a set of points
+,"just get the type string, remove TopAbs_ and lowercas all ending letters"
+,Return hidden and visible edges as two lists of edges
+,creates a proxy for the given class

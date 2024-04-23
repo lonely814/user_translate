@@ -1,0 +1,227 @@
+如果设置了 use_print_traces，则打印处理过的异常详细信息,Print handled exception details when use_print_traces is set
+如果 verbose 为 true，则打印详细日志信息。,Print out a verbose logging message if verbose is true.
+解压缩下载的文件并验证内容,"Unzip the downloaded file, and validate contents"
+"在不删除现有文件夹的情况下，将文件夹 ""merger ""合并到文件夹 ""base ""中",Merge folder 'merger' into folder 'base' without deleting existing
+指定要更新的标签名称和网址,Assign the tag name and url to update to
+加载或初始化更新器状态的 JSON 字典数据,Load or initialize JSON dictionary data for updater state
+启动后台线程检查更新,Start a background thread which will check for updates
+执行更新检查，作为后台线程的目标运行,"Perform update check, run as target of background thread"
+与 Bitbucket API 集成，用于 git 格式的版本库,Integration to Bitbucket API for git-formatted repositories
+ , 
+"""\""""
+"""", ""比特巴克尔","""\""""
+"""",""bitbucket"""
+与 Github API 集成,Integration to Github API
+github,github
+与 GitLab API 集成,Integration to GitLab API
+gitlab,gitlab
+为类字段添加注解属性以避免 Blender 2.8 警告,Add annotation attribute to class fields to avoid Blender 2.8 warnings
+Blender 2.8 之前和之后拆分 UI 功能的中间方法,Intermediate method for pre and post blender 2.8 split UI function
+Blender 2.8 前后抓取偏好设置的中间方法,Intermediate method for pre and post blender 2.8 grabbing preferences
+检查并安装可用更新,Check and install update if available
+更新 {x} 附加组件,Update {x} addon
+检查并显示当前可用更新的弹出菜单,Popup menu to check and display current updates available
+清除安装,Clean install
+如果启用，则完全清除附加组件,"If enabled, completely clear the addon"
+','
+处理更新,Process update
+决定安装、忽略或推迟新的附加组件更新,"Decide to install, ignore, or defer new addon update"
+更新模块错误,Updater module error
+更新 {} 已准备就绪！,Update {} ready!
+选择 ,Choose 
+或点击窗口外的 推迟,or click outside window to defer
+无可用更新,No updates available
+"按 ""确定 ""以退出对话框",Press okay to dismiss dialog
+现在检查更新？,Check for update now?
+立即检查 ,Check now for 
+现在检查更新 {x} 附加组件,Check now for an update to the {x} addon
+更新 ,Update 
+更新至 {x} 附加组件的最新版本,Update to the latest version of the {x} addon
+安装目标版本的 {x} 附加组件,Install a targeted version of the {x} addon
+要安装的目标版本,Target version to install
+选择要安装的版本,Select the version to install
+更新程序错误,Updater error
+选择安装版本,Select install version
+作为备用方案，引导用户手动下载插件,"As a fallback, direct the user to download the addon manually"
+手动安装更新,Install update manually
+继续手动安装更新,Proceed to manually install update
+发生错误,Error Occurred
+尝试自动安装时出现问题,There was an issue trying to auto-install
+按下面的下载按钮，像安装普通附加组件一样安装,Press the download button below and install
+像安装普通插件一样安装压缩文件。,the zip file like a normal addon.
+手动安装插件,Install the addon manually
+直接下载,Direct download
+(直接下载失败）,(failed to retrieve direct download)
+打开网站,Open website
+查看源网站下载更新,See source website to download the update
+已安装附加组件，弹出窗口告知用户已完成安装或出错原因,"Addon in place, popup telling user it completed or what went wrong"
+安装报告,Installation Report
+更新安装响应,Update installation response
+出现错误，未安装,"Error occurred, did not install"
+点击手动下载。,Click for manual download.
+恢复插件,Addon restored
+重启搅拌器重新加载,Restart blender to reload
+插件已成功安装,Addon successfully installed
+考虑重新启动 blender 以完全重新加载。,Consider restarting blender to fully reload.
+从备份恢复插件,Restore addon from backup
+恢复备份,Restore backup
+防止未来弹出更新通知,Prevent future update notice popups
+忽略更新,Ignore update
+忽略更新以防止未来弹出通知,Ignore update to prevent future popups
+停止后台更新检查,Stop checking for update in the background
+结束后台检查,End background check
+传入更新器，后台线程更新器,"Passed into the updater, background thread updater"
+可放在其他操作符前面，按下时启动,Can be placed in front of other operators to launch when pressed
+重启搅拌器,Restart blender
+以完成更新,to complete update
+更新准备就绪！,Update ready!
+忽略,Ignore
+更新,Update
+手动安装,Install manually
+立即获取,Get it now
+初始化更新程序代码时出错：,Error initializing updater code:
+获取更新程序首选项时出错,Error getting updater preferences
+更新程序设置,Updater Settings
+重新启动搅拌机以完成更新,Restart blender to complete update
+检查间隔,Interval between checks
+检查...,Checking...
+直接更新为 ,Update directly to 
+现在更新为 ,Update now to 
+下载 ,Download 
+插件已更新,Addon is up to date
+安装最新 {} / 旧版本,Install latest {} / old version
+重新安装/安装旧版本,Reinstall / install old version
+恢复附加组件备份 ({}),Restore addon backup ({})
+最后更新检查 ,Last update check: 
+上次更新检查 从不,Last update check: Never
+上次检查 ,Last check: 
+上次检查 从不,Last check: Never
+在此模块中注册操作符,Registering the operators in this module
+层减法,Subtract_Layer
+带状减法,Subtract_strip
+.,.
+选择当前图层中带有关键帧的骨骼,Select bones with keyframes in the current layer
+选择图层骨骼,Select layer bones
+警告！,WARNING!
+对象 %s 是一个覆盖库，其源文件中使用了图层或轨迹。,The object %s is an override library that uses layers or tracks in its source file.
+请清除源文件中的动画层或 nla 轨道。,Please clean the source file from animation layers or nla tracks.
+在新的 Blender 窗口中打开源文件,Open the source file in a new Blender window
+发现覆盖 NLA 轨道，但无法删除。请在引用文件中删除它们,Override NLA tracks are found and are not removable. Remove them inside the referenced file
+删除 NLA 轨道,Remove NLA tracks
+动画层,Anim_Layer
+添加动画层,Add animation layer
+添加动画层,Add Animation Layer
+基础图层,Base_Layer
+基础,Basis
+形键图层,Shapekeys_Layer
+形键图层,Base_Shapekeys
+复制动画层,Duplicate animation layer
+复制动画图层,Duplicate Animation Layer
+提取选定骨骼到新图层,Extract selected bones to a new Layer
+提取选中的骨骼,Extract Selected Bones
+从标记提取关键帧。用于 mocap 清理,Extract keyframes from Markers. Usefull for mocap cleanup
+提取标记的关键帧,Extract Marked keyframes
+移除动画层,Remove animation layer
+移除动画层,Remove Animation Layer
+将选定图层上移,Move the selected layer up
+上移选定的动画层,Move selected Animation layer up
+下移所选图层,Move the selected layer down
+下移选定的动画层,Move selected Animation layer down
+对所有选中的骨骼和对象应用循环 F 曲线修改器,Apply Cyclic Fcurve modifiers to all the selected bones and objects
+循环 F 曲线,Cyclic_Fcurves
+从所有选中的骨骼和对象中移除循环 F 曲线修改器,Remove Cyclic Fcurve modifiers from all the selected bones and objects
+删除,Cyclic_Remove
+为当前图层中选中的对象/骨骼添加值为 0 的关键帧，适用于叠加图层,"Add keyframes with 0 Value to the selected object/bones in the current layer, usefull for additive layers"
+重置图层关键帧,Reset_Layer_Keyframes
+动画层 - iiiDea.CN,Animation Layers - iiiDea.CN
+数据类型：,Data Type:
+影响,Influence
+混合,Blend
+烘焙操作符,Bake Operators
+新烘焙图层,New Baked Layer
+合并/烘焙,Merge / Bake
+复制图层,Duplicate Layer
+提取标记的关键帧,Extract Marked Keyframes
+工具与设置,Tools & Settings
+主动操作,Active Action:
+自动重命名图层,Auto Rename Layer
+仅影响所选骨骼,Affect Only Selected Bones
+在图层中选择骨骼,Select Bones in Layer
+重置关键图层 ,Reset Key Layer 
+循环曲线,Cyclic Fcurves
+删除曲线,Remove Fcurves
+多个图层的关键帧：,Keyframes From Multiple Layers:
+合并并烘焙从当前选定图层向下至底层的图层,Merge and bake the layers from the current selected layer down to the base
+向下合并图层,Merge_Layers_Down
+选择合并方向,Select direction of merge
+根据新的烘焙曲线重新计算贝塞尔手柄或应用自动夹紧手柄,Recalculate bezier handles from the new baked curves or apply auto clamped handles
+烘焙类型 ：,Bake Type :
+烘焙操作符 ：,Bake Operator :
+烘焙方向 ：,Bake Direction :
+贝塞尔手柄,Bezier handles
+打开动画图层,Turn Animation Layers On
+打开并启动动画层,Turn on and start Animation Layers
+链接,Linked
+使用链接动作复制图层,Duplicate a layer with a linked action
+智能烘焙,Smart Bake
+合并和烘焙后保持相同数量的关键帧,Stay with the same amount of keyframes after merging and baking
+仅选定骨骼,Only selected Bones
+仅烘焙选定的衔铁控制,Bake only selected Armature controls
+清除约束,Clear constraints
+在烘焙过程中清除约束,Clear constraints during bake
+合并循环和 F 曲线修改器,Merge Cyclic & Fcurve modifiers
+在烘焙中包含 F 曲线修改器,Include Fcurve modifiers in the bake
+查看,View
+查看多个图层的关键帧，使用锁定和静音功能排除图层,"View keyframes from multiple layers, use lock and mute to exclude layers"
+编辑,Edit
+编辑多个图层的关键帧,Edit keyframes from multiple layers
+仅选定骨骼,Only Selected Bones
+仅编辑和查看选定的骨骼,Edit and view only selected bones
+类型,Type
+选择关键帧的可视类型,Select visibiltiy type of keyframes
+烘焙类型,Type of Bake
+烘焙类型,Type of bake
+混合类型,Blend Type
+数据类型,Data Type
+选择动作数据类型,Select type of action data
+重命名图层以匹配所选动作,Rename layer to match to selected action
+自动混合,Auto Blend
+根据缩放和旋转值自动应用混合类型,Apply blend type automatically based on scale and rotation values
+曲线,fcurves
+帮助程序，用于检查 fcurves 是否已更改,helper to check if fcurves are changed
+动画图层,AnimLayer
+静音,Mute
+静音动画层,Mute Animation Layer
+锁定,Lock
+锁定动画层,Lock Animation Layer
+独奏,Solo
+独奏动画层,Solo Animation Layer
+图层影响,Layer Influence
+动画影响,Animated Influence
+打开/关闭动画影响,Turn Animated influence On/Off
+动作,Actions
+选择动作,Select action
+图层,Layer
+每层使用自定义帧范围，而不是场景帧范围,Use a custom frame range per layer instead of the scene frame range
+动作起始帧,Action Start Frame
+图层的第一帧,First frame of the layer
+动作结束帧,Action End Frame
+图层的结束帧,End frame of the layer
+对象,object
+已打开动画层的对象,objects with animation layers turned on
+选项卡类别,Tab Category
+为面板类别选择名称,Choose a name for the category of the panel
+自动检查更新,Auto-check for Update
+如果启用，自动检查更新的时间间隔为,"If enabled, auto-check for updates using an interval"
+月数,Months
+检查更新的间隔月数,Number of months between checking for updates
+天数,Days
+检查更新之间的天数,Number of days between checking for updates
+小时数,Hours
+两次检查更新之间的小时数,Number of hours between checking for updates
+分钟,Minutes
+两次检查更新之间的分钟数,Number of minutes between checking for updates
+选项卡类别：,Tab Category:
+动画层,Animation Layers
+,
+通过www.DeepL.com/Translator（免费版）翻译,

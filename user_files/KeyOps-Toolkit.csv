@@ -1,0 +1,641 @@
+,"""\""""
+"""",""Tabs"""
+设置,Settings:
+自动删除,Auto Delete
+警告，删除菜单仍在对象模式 (X) 中启用,"Warning, Delete Menu is still enabled in Object Mode (X)"
+修复,Fix
+重置为默认值，弹出菜单,"Reset to Default, popup menu"
+切换重拓扑,Toggle Retopology
+未安装 Poly Quilt,Poly Quilt is not installed
+下载,Download
+边缘宽度,Edge Width:
+玛雅透视,Maya Pivot
+快速合并,Fast Merge
+"警告 ""添加对象 ""饼状菜单当前为 (Shift Alt A)",Warning Add Objects Pie Menu is Currently (Shift Alt A)
+修复重新绑定到 (Shift A)？,Fix Rebind to (Shift A)?
+添加对象饼,Add Objects Pie
+添加菜单当前为（Shift Alt A）,Add Menu is currently (Shift Alt A)
+将添加菜单重置为（Shift A）？,Reset Add Menu back to (Shift A)?
+查看相机派警告，当前被（空格）播放阻止,"View Camera Pie Warning, Currently Blocked by (Space) Play"
+修复：播放到（Shift 空格）,Fix: Play to (Shift Space)
+查看相机派,View Camera Pie
+播放动画当前（空格移位）,Play Animation Currently (Shift Space)
+播放回（空格）？,Play back to (Space)?
+UV 工具,UV Tools
+面板名称（需要重新启动）,panel name (restart required)
+操作,Operations
+饼形菜单,Pie Menus
+这里还没有......将来会添加一些很酷的东西,Nothing here yet... will add somthing cool in the future
+在 Blender 中重新绑定快捷键,Rebind Shortcuts in Blender
+WIP. 警告：即使删除插件，在保存预览时也会覆盖当前快捷方式。,"WIP. Warning this will overwrite your current shortcuts when prefrences are saved, even if you remove the addon"
+将上下文菜单重新绑定为 W（操作符）,Rebind Context Menu to W (Operator)
+将上下文菜单重新绑定到默认右键（操作员）,Rebind Context Menu to Default RightClick (Operator)
+将上下文菜单重新绑定到空格键（操作员）,Rebind Context Menu to Shift Space (Operator)
+空格查看相机派移位,Space To View Camera Pie Shift
+将上下文菜单重新绑定到空格（操作员）,Rebind Context Menu to Space (Operator)
+将上下文菜单重新绑定到 A 档（操作员）,Rebind Context Menu to Shift A (Operator)
+将上下文菜单重新绑定到 Shift Alt A（操作员）,Rebind Context Menu to Shift Alt A (Operator)
+饼状菜单设置（操作员）,Pie Menu Settings (Operator)
+无延迟馅饼菜单设置,No Lag Pie Menu Settings
+ , 
+重置为默认饼状菜单设置,Reset to Defualt Pie Menu Settings
+玛雅导航,Maya Navigation
+添加类似 Maya 中的导航功能,Adds Navigation that works like in Maya
+双击选择岛,Double Click Select Island
+双击选择网格岛，效果与 Maya 相同,Double Click to Select Mesh Island like in Maya
+UV 饼,UV Pies
+实用工具饼,Utility Pie
+添加修改器饼,Add Modifier Pie
+传统快捷方式,Legacy Shortcuts
+工作区馅饼,Workspace Pie
+光标饼,Cursor Pie
+修改器键,Modifier Key
+CAD 降维,CAD Decimate
+自动 LOD,Auto LOD
+快速烘焙名称,Quick Bake Name
+多边形数量列表,Polycount List
+实用工具面板,Utilities Panel
+快速导出,Quick Export
+属性操作,Atributes Operations
+材质实用工具,Material Utilities
+溶解边缘,Dissolve Edge
+工具,Tool
+自定义工具,Custom Tool
+颜色,Color
+面 Alpha,Face Alpha
+边缘宽度,Edge Width
+行为,Behavior
+显示小工具,Show Gizmo
+选项,Options
+限制,Limit
+顶点,Verts
+相对缩放比例,Relative Scale
+默认相对比例值,Default Relative Scale Value
+屏幕尺寸,Screen Size
+屏幕尺寸,Size
+默认常规比例尺寸值,Default Regular Scale Size Value
+最小尺寸,Min Size
+相对缩放最小尺寸值,Relative Scale Min Size Value
+添加空而不是猴子,Add Empty Instead of Monkey
+添加网格派,Add Mesh Pie
+UV 球体,UV Sphere
+立方体,Cube
+圆柱体,Cylinder
+平面,Plane
+圆柱体模型,Mod Cylinder
+空,Empty
+猴形,Monkey
+四面体,Quad Sphere
+圆形,Circle
+阵列,Array
+固化,Solidify
+斜面,Bevel
+加权法线,Weighted Normal
+网格,Lattice
+焊接,Weld
+三角化,Triangulate
+收缩包装,Shrinkwrap
+切换工作区,Switch Workspace
+布局,Layout
+建模,Modeling
+着色,Shading
+UV 编辑器,UV Editor
+UV 编辑,UV Editing
+脚本,Scripting
+纹理绘制,Texture Paint
+几何节点,Geometry Nodes
+雕刻,Sculpting
+原点到 3D 光标,Origin to 3D Cursor
+原点至选区,Origin to Selection
+光标至选区,Cursor to Selection
+选区至光标,Selection to Cursor
+选择至网格,Selection to Grid
+光标至网格,Cursor to Grid
+光标至世界原点,Cursor to World Origin
+光标至活动,Cursor to Active
+UV 空间派,UV Space Pie
+拉直四边形,Straighten Quads
+隔离岛屿（切换）,Isolate Island (Toggle)
+打包母版,Pack Master
+快速打包,Quick Pack
+就地解包,Unwrap Inplace
+解开并打包,Unwrap and Pack
+选定的拆包,Unwrap Selected
+边缘矫直,Straighten after Edge
+查看所选,View Selected
+实时展开,Live Unwrap
+UV 贴图菜单,UV Mapping Menu
+VIEW3D_MT_uv_map,VIEW3D_MT_uv_map
+按角度接缝,Seam by Angle
+展开并打包,Unfold and Pack
+拼接工具,Seam Tool
+mesh_tool.poly_quilt_seam,mesh_tool.poly_quilt_seam
+修正面属性g,Correct Face Attributesg
+在边缘后对岛屿进行四边形化,Quadrify Island after edge
+制作单个用户,Make Single User
+自动合并,Auto Merge
+通过锐边平滑,Smooth by Sharp Edge
+UV Q 派,UV Q Pie
+选择重叠,Select Overlapping
+将岛屿定向到边缘,Orient Island to Edge
+堆叠相似的岛,Stack Similar Islands
+来自 UV 岛的锐边,Sharp Edges from UV Islands
+岛屿的接缝,Seams from Islands
+镜像接缝,Mirror Seams
+镜像所选接缝,Mirror Selected Seams
+取消堆叠岛屿,Unstack Islands
+选择相似的岛,Select Similar Islands
+对象,Object
+数据,Data
+材质,Materials
+对象动画,Object Animation
+对象动画数据,Object Animation Data
+UV 贴图,UV Mapping
+解除包裹,Unwrap
+智能项目,Smart Project
+光贴图包,Lightmap Pack
+跟随活动四边形,Follow Active Quads
+立方体项目,Cube Project
+圆柱体项目,Cylinder Project
+球体项目,Sphere Project
+从视图查看项目,Project From View
+项目自视图边界,Project From View Bounds
+重置,Reset
+解包操作符,Unwraping Operator
+解包类型,Unwrap Types
+解包选项,Unwrap Options
+打包岛屿,Pack Islands
+拉直所选,Streighten Selected
+针岛,Pin Island
+边缘后拉直,Streighten After Edge
+相对浮动缩放,scale_relative_float
+添加网格,Add a mesh
+添加网格,Add Mesh
+网格类型,Mesh Type
+网格的绝对缩放比例,Absolute scale of the mesh
+使用相对缩放比例,Use Relative Scale
+相对比例,Scale Relative
+网格的相对比例,Relative scale of the mesh
+分段,Segments
+圆柱体的分段数,Amount of segments the cylinder has
+下潜量,Subdive Amount
+使用修改器,Use Modifiers
+顶点,Vertices
+圆的顶点数量,Amount of vertices the circle has
+环,Rings
+球体的环数,Amount of rings the sphere has
+添加修改器,Add a modifier
+添加修改器,Add Modifier
+修改器类型,Modifier Type
+保持标准,Keep Normals
+保持锐利,Keep Sharp
+合并阈值,Merge Threshold
+模式,Mode
+已修改,Modified
+使用最终几何体。仅限编辑模式,Use final geometry. Edit mode only
+单个,Individual
+为每个对象指定单独的网格,Assign individual lattice per object
+网格样式,Lattice Style
+细分,Subdivisions
+','
+指定,Assign
+删除,Remove
+选择,Select
+浮点数值,Float Value
+顶点组,Vertex Group
+边缘组,Edge Group
+面组,Face Group
+关键操作：属性操作,KeyOps: Atri OP
+属性操作,Atributte Operations
+顶点组,Vertex_Group
+边缘组,Edge_Group
+面组,Face_Group
+浮点颜色值,Float Color Value
+关键操作：自动删除,KeyOps: Auto Delete
+删除小面,Delete Small Faces
+删除松散边缘,Delete Loose Edges
+生成 LOD,Generate LODs
+EDGE_SPLIT,EDGE_SPLIT
+分解,Decimate
+将属性复制到选区,Copy Attributes to Selection
+保留组,Preserve Group
+保留较小形状,Preserve Smaller Shapes
+删除 保留较薄的图形,Remove Preserve Thin Shapes
+生成 LOD,Generate LOD
+法线,Normals:
+边缘分割,Edge Split
+LOD 设置：,LOD Settings:
+父对象,Parent Object
+应用降维修改器,Apply Decimate Modifier
+对称 X,Symmetry X
+解锁法线,Unlock Normals
+LOD 数量,Amount of LODs
+LOD 差异 (%),LOD Difference (%)
+删除非流形面,Remove non manifold faces
+最大面尺寸 (%),Max Face Size (%)
+多重化,Multipler
+为选区添加保留形状,Add Preserve Shape to Selection:
+添加保留较薄形状,Add Preserve Thin Shapes
+对选定对象设置自动平滑,Set auto smooth on selected objects
+自动平滑,Auto Smooth
+角度,Angle
+忽略锐边,Ignore Sharp
+删除现有锐边,Remove Existing Sharp Edges
+删除锐边,Delete Sharp
+应用于所有实例,Apply on All Instances
+移动到底部,Move to Bottom
+自动 CAD 降维,Auto CAD Decimate
+导出 CAD 降维,Export CAD Decimate
+导入 CAD 去目标值,Import CAD Decimate
+导入并解密，然后导出,"Import and Decimate, then Export"
+导入文件夹中的所有内容,Import all in folder
+手动去角质,Manual Decimation
+导出,Export
+全部导入,Import All
+CAD 底图面板,CAD Decimate Panel
+路径,Path
+仅选定,Selected Only
+质量,Quality
+快速模式（内存占用大）,Fast Mode (Memory Heavy)
+细分 %,Decimation %
+合并数量,Merge Amount
+保留 UV,Preserve UVs
+导入后删除文件,Delete Files After Import
+清除网格数据,Clear Mesh Data
+自动降解,AutoDecimate
+自动清除垃圾数据,Auto Clear Garbage Data
+自动清除网格数据块（节省大量内存，但速度较慢）,"Auto Clear Mesh Data Blocks (Saves a lot of Memory, but is slower)"
+导出文件的路径,Path for exporting files
+细分率,Decimation Ratio
+仅导出选中文件,Export Selected Only
+类型,deceimate_type
+去除质量,Decimate Quality
+合并距离,Merge Distance
+合并距离（数值越大 = 去微分越多）,Merge Distance (higher value = more decimation)
+格式,format
+格式,Format
+KeyOps：双击选择岛屿,KeyOps: Double Click Select Island
+KeyOps：选择边缘环,KeyOps: Select Edge Loop
+按键操作：选择,KeyOps: Select Edge Loop Shift
+沿法线挤出所选边缘,Extrude selected edges along their normals
+沿法线挤出边缘,Extrude Edge Along Normals
+数量,Amount
+尝试保留 UV（速度较慢，且并非总是有效）,Try Preserve UVs (Slower and does not always work)
+KeyOps：传统快捷键,KeyOps: Legacy Shortcuts
+添加 Blender 2.79x 中的传统快捷键,Adds Legacy Shortcuts From Blender 2.79x
+KeyOps：材质索引,KeyOps: Material Index
+材质名称,Material Name
+材质索引面板,Material Index Panel
+材质索引,Material Index
+设置索引,Set Index
+清除,Clear
+向上,Up
+向下,Down
+索引列表,Index List
+在场景属性面板中显示多边形数量,Show polycount in Scene properties panel
+KeyOps：材质索引分配,KeyOps: Material Index Assign
+KeyOps：Maya 导航,KeyOps: Maya Navigation
+按键操作：枢轴按键,KeyOps: Pivot Press
+移动枢轴按键,Move Pivot Key Press
+按键操作：莫迪键,KeyOps: Modi Key
+类型,type
+KeyOps：莫迪键 无撤消,KeyOps: Modi Key No Undo
+修改器,MODIFIER
+数据,DATA
+将选定对象的原点设置为几何图形或选区的中心点,Set the origin of the selected object to the center of its geometry or selection
+类型,Type
+多边形计数列表,Poly Count List
+仅使用选中对象,Use selected only
+只计算选中对象的统计数据,Compute stats only for selected objects
+显示三角形,Show Tris
+在列表中显示三角形,Show Tris in the list
+显示顶点,Show Verts
+在列表中显示顶点,Show Verts in the list
+显示边,Show Edges
+在列表中显示边,Show Edges in the list
+显示面,Show Faces
+在列表中显示面,Show Faces in the list
+场景,scene
+总特里斯: {},Total Tris: {}
+刷新,Refresh
+仅选中,Only selected
+三边形,Tris
+边缘,Edges
+面,Face
+过滤,Filter
+多边形计数过滤器,Polycount Filter
+面,Faces
+随机名称,Random Name
+重命名数据块,Rename Datablock
+隐藏重命名,Hide Renamed
+隐藏,Hide
+隐藏 显示 低 高,Hide Show Low High
+快速烘焙名称面板,Quick Bake Name Panel
+显示,SHOW
+隐藏,HIDE
+KeyOps：快速导出,KeyOps: Quick Export
+快速导出面板,Quick Export Panel
+缩放,Scale
+上下文菜单 W,Context Menu W
+右键单击右键菜单,Context Menu Rightclick
+按键操作：添加对象饼重新绑定 Shift A,KeyOps: Add Object Pie Rebind Shift A
+"将 ""添加对象饼 ""重新绑定到 Shift A",Rebind Add Object Pie to Shift A
+按键操作：空间到查看相机饼,KeyOps: Space to View Camera Pie
+"将 ""查看相机派 ""重新绑定到空格",Rebinds View Camera Pie to Space
+按键操作：删除菜单对象模式菜单,KeyOps: Remove Delete Menu Object Mode Menu
+删除菜单对象模式,Remove Delete Menu Object Mode
+按键操作：添加删除菜单对象模式菜单,KeyOps: Add Delete Menu Object Mode Menu
+添加删除菜单对象模式,Add Delete Menu Object Mode
+按键操作：重新绑定,KeyOps: Rebind
+关键操作：切换重拓,KeyOps: Toggle Retopology
+mesh_tool.select_box_xray,mesh_tool.select_box_xray
+builtin.select_box,builtin.select_box
+新建网格,New_Retopology_Mesh
+", ",", "
+重拓,Retopology
+退出模型,Exit Retopology
+活动时的新拓扑,New Retopology at Active
+"未安装 ""Poly Quilt 工具",Poly Quilt Tool is not installed
+重拓设置,Retopology Settings
+复制唯一集,Unique Collection Duplicate
+复制当前图集，并在选择了布尔运算后使所有布尔运算都是唯一的。,Make a copy of the current collection and makes all the booleons unqiue if the booleons are selected
+低,low
+高,high
+偏移 UV,Offset UV
+命名属性,Named Attribute
+矢量数学,Vector Math
+组合 XYZ,Combine XYZ
+存储命名属性,Store Named Attribute
+分组输出,Group Output
+几何,Geometry
+组输入,Group Input
+选择,Selection
+偏移 UV X,Offset UV X
+偏移 UV Y,Offset UV Y
+三平面 UV 贴图,Triplanar UV Mapping
+名称,Name
+X,X
+Y,Y
+矢量 Math.002,Vector Math.002
+矢量数学.003,Vector Math.003
+矢量旋转.001,Vector Rotate.001
+分离 XYZ.001,Separate XYZ.001
+比较.002,Compare.002
+比较.003,Compare.003
+位置,Position
+开关,Switch
+开关.001,Switch.001
+开关.003,Switch.003
+开关.002,Switch.002
+正常,Normal
+数学矢量.001,Vector Math.001
+分离 XYZ,Separate XYZ
+比较,Compare
+比较.001,Compare.001
+布尔数学,Boolean Math
+布尔数学,Boolean Math.001
+矢量旋转,Vector Rotate
+实用工具 面板操作符,Utilities Panel Operator
+实用程序操作符,Utilities Operator
+真,True
+选择子代,Select Children
+选择父代,Select Parent
+选择顶层父代,Select Top Parent
+设置材料索引,Set Material Index
+连接对象,Join Objects
+应用实例,Apply Instances
+混合因子,Mix Factor
+将原点设置为几何图形,Set Origin to Geometry
+细分,Subdivide
+尝试复制材质,Try Deduplicate Materials
+将 UV 图层 0 重命名为 UVMap,Rename UV Layer 0 To UVMap
+连接子代,Join Children
+旋转,Rotation
+应用三平面,Apply Triplanar
+重新计算法线,Recalculate Normals
+可能会产生意想不到的结果，请保存备份！,"Can have unexpected results, save backup!"
+插座_2,Socket_2
+三平面 UV 贴图,Triplanar_UV_Mapping
+偏移 UV,Offset_UV
+UVMap,UVMap
+temp_file.obj,temp_file.obj
+{} 发现重复的材质,{} duplicate materials found
+边缘_未细分_圆柱体,Edge_Un_Subdivied_Cylinder
+边缘_细分_气缸,Edge_Subdivied_Cylinder
+螺钉,Screw
+智能挤出（Smart Extrude），这个操作既慢又过时，更快更好的版本正在开发中,"Smart Extrude, this is a slow and outdated operator, a way faster and better version is in the works"
+智能挤出（缓慢、过时）,"Smart Extrude (Slow, Outdated)"
+偏移,Offset
+均匀偏移,Even Offset
+比例偏移,Scale Offset
+移除双倍,Remove Doubles
+修改器,Modifiers
+三平面 UV,Triplanar UV
+设置法线,Set Normals
+球形,Sphere
+清除自定义法线,Clear Custom Normals
+设置,Set
+设置值,Set Value
+按 % 设置,Set by %
+按偏移隐藏,Hide by Offset
+标记,Marke
+预览,Preview
+全部清除,Clear All
+选择所有更改,Select All Changed
+标记常德对象,Mark Changde Objects
+常德网格：,Changde Meshes:
+斜面段数量,Bevel Segment Amount
+斜面段百分比,Bevel Segment By %
+斜面偏移,Bevel Offset
+比例补偿,Compensate for Scale
+斜面分段类型,bevel_segments_type
+根据斜面设置进行设置,Set based on bevel settings
+建模面板,Modeling Panel
+编辑模式,Edit Mode
+智能挤出（过时）,Smart Extrude (Outdated)
+翻转,Flip
+重新计算,Recalculate
+按距离合并,Merge by Distance
+有限溶解,Limited Dissolve
+选择非歧管,Select Non Manifold
+取消细分圆柱体,Un-Subdivide Cylinder
+细分圆柱体,Subdivide Cylinder
+圆柱体从边缘修改器,Cylinder From Edge Modifier
+对象模式面板,Object Mode Panel
+对象模式,Object Mode
+连接对象并保持法线,Join Objects & Keep Normals
+快速应用所有修改器,Quick Apply All Modifiers
+收藏,Collections:
+切换,Toggle
+KeyOps：智能 UV 同步,KeyOps: Smart UV Sync
+切换同步模式和 UV 选择，同时保留选择和选择模式,Toggle Sync Mode and UV Selection while preserving selection and selection mode
+快速模式,Fast Mode
+快速模式，右键单击切换同步模式和 UV 选择，在非常大的网格上可能会比较慢,"Fast Mode, Right Click to Toggle Sync Mode and UV Selection, can be slow on very large meshes"
+启用,Enable
+右键单击切换同步模式和 UV 选择，在非常大的网格上可能会很慢,"Right Click to Toggle Sync Mode and UV Selection, can be slow on very large meshes"
+KeyOps：UV 剪切,KeyOps: UV Cut
+像 Maya 一样剪切 UV,Maya like Cut UVs
+关键操作：从 UV 群岛锐化,KeyOps: Sharp From UV Islands
+从 UV 岛标记锐边,Mark Sharp Edges from UV Islands
+仅 UV 岛边界,Only UV Island Borders
+应用修改器,Apply Modifier
+从 UV 岛锐化,SharpFromUVIslands
+UV,UV
+设置阴影平滑.001,Set Shade Smooth.001
+设置阴影平滑.002,Set Shade Smooth.002
+组,Group
+UV 群岛边界,UV Islands Boundaries
+UV 边界,UV Borders
+布尔数学.002,Boolean Math.002
+边缘邻域.001,Edge Neighbors.001
+在索引处评估.001,Evaluate at Index.001
+面中的偏移角,Offset Corner in Face
+边缘的角,Corners of Edge
+边缘的角.001,Corners of Edge.001
+在索引处求值,Evaluate at Index
+在索引处评估.002,Evaluate at Index.002
+面中的偏移角.001,Offset Corner in Face.001
+边缘的角.002,Corners of Edge.002
+边缘的角.003,Corners of Edge.003
+在索引处求值.003,Evaluate at Index.003
+组输入.001,Group Input.001
+面组边界,Face Group Boundaries
+面组边缘,Edges to Face Groups
+关键操作：原位解包,KeyOps: Unwrap in Place
+原位解除缠绕,Unwrap in Place
+忽略针脚,Ignore Pin
+选择岛屿（慢速）,Select Islands (Slow)
+选择岛屿,Select Islands
+方法,Method
+UV 解包方法,UV Unwrap Method
+打包 UV 岛,Pack UV Islands
+边缘,Margin
+旋转,Rotate
+旋转方法,Rotation Method
+(调试）不应用,(Debug) No Apply
+打包岛屿：,Pack Islands:
+匹配边框,Match Bounding Box
+矢量,Vector
+目标,Target
+数学,Math
+数学.001,Math.001
+数学.002,Math.002
+数学.003,Math.003
+混合,Mix
+Mix.001,Mix.001
+混合.002,Mix.002
+边框,Bounding Box
+矢量 Math.004,Vector Math.004
+重定向,Reroute
+数学.004,Math.004
+重定向.001,Reroute.001
+数学.007,Math.007
+数学.008,Math.008
+数学.009,Math.009
+位置.001,Position.001
+角的顶点,Vertex of Corner
+角的顶点.001,Vertex of Corner.001
+面的角.001,Corners of Face.001
+角的顶点.002,Vertex of Corner.002
+面的角.002,Corners of Face.002
+角的顶点.003,Vertex of Corner.003
+样本索引.002,Sample Index.002
+样本索引.005,Sample Index.005
+样本索引.004,Sample Index.004
+样本索引.007,Sample Index.007
+样本索引.001,Sample Index.001
+样本索引.003,Sample Index.003
+样本索引.008,Sample Index.008
+样本索引.006,Sample Index.006
+面角.003,Corners of Face.003
+面角,Corners of Face
+索引,Index
+就地展开工具,Unwrap In Place Tool
+组输出.001,Group Output.001
+设置位置,Set Position
+分割边缘,Split Edges
+存储命名属性.003,Store Named Attribute.003
+UV 展开.001,UV Unwrap.001
+存储已命名属性,Store Named Attribute.004
+设置位置.003,Set Position.003
+设置位置.001,Set Position.001
+组输入.001,Group.001
+组输入.006,Group Input.006
+存储命名属性.006,Store Named Attribute.006
+命名属性.001,Named Attribute.001
+复制元素,Duplicate Elements
+捕捉属性,Capture Attribute
+UV 解压缩.002,UV Unwrap.002
+在域上评估,Evaluate on Domain
+命名属性.002,Named Attribute.002
+命名属性.003,Named Attribute.003
+移除命名属性,Remove Named Attribute
+字符串,String
+值,Value
+布尔值,Boolean
+字符串.001,String.001
+网格,Grid
+变换几何,Transform Geometry
+域大小,Domain Size
+按距离合并.002,Merge by Distance.002
+命名属性.004,Named Attribute.004
+复制元素.002,Duplicate Elements.002
+设置位置.002,Set Position.002
+重复元素.003,Duplicate Elements.003
+当前可变面,Currently_Visiable_Faces
+接缝_原位展开,seam_Unwrap_In_Place
+仅在选取时,On Selection Only
+标记接缝,Mark Seams
+标记锐边,Mark Sharp
+保留现有接缝,Keep Existing Seams
+锐边阴影,Shading by Sharp Edge
+选择新接缝,Select New Seams
+选择接缝,Select Seams
+切换平滑锐边,Toggle Smooth Sharp
+操作指南：删除接缝,KeyOps: Remove Seam
+按键操作：清除所有引脚,KeyOps: Clear All Pins
+填充孔洞,Fill Holes
+修正剖面,Correct Aspect
+使用细分曲面,Use Subdivision Surface
+旋转方法,Rotate Method
+合并重叠,Merge Overlapping
+打包至,Pack to
+UDIM 源,UDIM Source
+ 验证上下文 , Validate context 
+隔离 UV 岛,Isolate UV Island
+选择相似 UV 岛,Select Similar UV Island
+阈值,Treshold
+关键操作：工具包 - UV 工具,Key Ops: Toolkit - UV Tools
+智能 UV 同步,Smart UV Sync
+UV 岛,UV Islands
+隔离 UV,Isolate UV
+取消隐藏 UV,Unhide UV
+从 UV 群岛锐化,Sharp from UV Islands
+紫外线岛接缝,Seams from UV Islands
+平均岛屿比例,Average Island Scale
+启用实时,Enable Live
+实时图钉,Live Pin
+和包装,and Pack
+已选择,Selected
+原位拆岛,Unwrap Island in Place
+接缝,Seams
+标记,Mark
+UV 剪切,UV Cut
+EXEC_DEFAULT,EXEC_DEFAULT
+UV 缝合,UV Stitch
+INVOKE_DEFAULT,INVOKE_DEFAULT
+精确包装,Exact Pack
+插针,Pin
+解除引脚,Unpin
+反转引脚,Invert Pin
+清除所有引脚,Clear All Pins
+对齐,Align
+对齐岛屿,Align Islands
+相似,Similar
+重叠,Overlap
+变换,Transform
+翻转 X,Flip X
+翻转 Y,Flip Y
+复制/粘贴 UV,Copy/Paste UVs
+复制,Copy
+粘贴,Paste

@@ -1,0 +1,78 @@
+, 
+,"""\""""
+"""",""Pin"""
+下降,Fall
+移位,Displace
+','
+骨动力学阻尼,BoneDynamics-damped-
+尾巴,tails
+织物,Cloth
+软体,Soft Body
+将动态骨骼的烘烤范围与时间线同步,Synchronize the dynamic bones baking range with the timeline
+同步时间范围,Sync Time Range
+将动画转移到控制骨骼的网格上,Transfer animation to the mesh that controls the bone
+转移动画,Transfer Animation
+使骨骼动态化,Make the bone dynamic
+简单对象操作器,Simple Object Operator
+将骨骼恢复到原始状态,Restore the bone to its original state
+将当前参数设置为默认值,Set current parameters to default
+选择当前骨骼,Select current bone
+选择此骨骼,Select this bone
+执行预设,Execute a preset
+执行 Python 预置,Execute a Python Preset
+菜单 ID 名称,Menu ID Name
+调用菜单的 ID 名称,ID name of the menu this was called from
+预设,Presets
+保存为预置,Save as a preset
+动态骨骼,Dynamic Bones
+骨骼动态专业版,Bone Dynamics Pro
+添加骨骼动态,Add Bone Dynamics
+删除骨骼动态效果,Remove Bone Dynamics
+重置参数,Reset Parameters
+制作动画,Bake Animation
+"将所选骨骼的物理特性烘焙为关键帧（播放同步需要在 ""每帧播放 ""中进行）。",bake the physics of the selected bones into keyframes (Playback sync needs to be in 'Play Every Frame') 
+为所选骨骼制作动画,Bake the animation of the selected bones
+重要：,IMPORTANT:
+烘焙范围将与时间线长度一致。,the baking range will follow the timeline length.
+您需要至少完整播放一次动画,You need to play fully the animation at least once
+确保播放同步设置为每帧播放,Make sure that your playback sync is set to play every frame
+清除约束和物理对象,Clear constraints and physics object
+简化因子,Simplification factor
+烘焙成新的条状,Bake into a new strip
+连锁模式,Chain mode
+仅适用于连接的骨骼 ,Only for connected bones 
+布料模式,Cloth mode
+仅适用于连接的骨骼，该模式适用于头发或衣服,"Only for connected bones, This mode is useful for hair or clothes"
+允许拉伸,Allow Stretching
+允许骨骼伸展,allow the bones to stretch
+调试,Debug
+调试模式,Debug mode
+动态父节点,Dynamic Parent
+如果希望将活动骨骼作为父对象，请启用此选项,Enable this if you want the active bone to be the parent
+曲线简化,Curve simplification
+数值越大，关键帧越少，精确度也越低。,Higher number means lower keyframes and less accuracy too.
+骨骼长度,Bone Length
+如果骨骼链无法正常工作。请尝试更改此参数,If the chain is not working properly. Try changing this parameter
+我的指针,my pointer
+切换约束,toggle constraintes
+位移,Displacement
+允许骨骼在旋转的基础上平移 ,Allow the bone to translate on top of rotating 
+原始位移,Displacement original
+原始骨骼连接,original bone connect
+质量,Mass
+骨的质量,Mass of the bone
+摩擦力,Friction
+空气厚度,Air thickness
+硬度,Stiffness
+骨骼的刚度,Stiffness of the bone
+阻尼,Damping
+骨骼阻尼,Damping of the bone
+强度,Strength
+骨骼强度,Strength of the bone
+速度,Speed
+影响,Influence
+弹性,Elasticity
+弯曲,Bending
+重力,Gravity
+,
+通过www.DeepL.com/Translator（免费版）翻译,

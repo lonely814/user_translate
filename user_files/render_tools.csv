@@ -1,0 +1,57 @@
+, 
+"""\""""
+"""", ""将 ID 添加到纹理""","""\""""
+"""",""Bake ID to Texture"""
+将 ID 颜色烘焙成纹理,Bake the ID colors into a Texture
+将 ID 转换为纹理,ID to Texture
+注意：您需要先用 ID 工具创建,Note: You need to create first
+ID 颜色,"the id colors, with the ID Tools"
+解除 UV 包覆,Unwrap UVs
+如果选中，对象,"If checked, the object"
+','
+随机材料,Random_Material
+特定材质,Specific_Material
+应用随机颜色,Apply Random Colors
+对选定的网格对象应用随机颜色,Apply random colors to the selected mesh objects
+对所有场景对象应用随机颜色,Apply Random Colors to All Scene Objects
+对场景中的所有网格物体应用随机颜色,Apply random colors to all mesh objects in the scene
+渲染 ID 传递,Render ID pass
+渲染 ID 通道,Render the ID Pass
+创建新材质,Create New Material
+为每个材质类型的每个对象创建唯一 ID,Creates a Unique ID per object istead per material type
+应用特定颜色,Apply Specific Color
+根据所选对象的材质类型应用特定的 ID 颜色,Apply specific Id color by Material Type of the selected object
+新材料,New_Material
+通过 ID,ID Pass
+应用随机 ID 颜色,Apply Random ID Colors
+对所有对象应用随机 ID 颜色,Apply Random ID Colors to All
+选择 ID 颜色,Pick ID color
+应用特定 ID 颜色,Apply Specific ID Color
+每个对象的 ID 颜色,ID Color per Object
+渲染 ID 通道,Render ID Pass
+渲染动画,Render Animation
+加载自定义图标,Load Custom Icons
+我的颜色,My Color
+视口显示的颜色,Color for the viewport display
+启用动画渲染,Enable Animation Render
+选中时将渲染所有动画帧,When is check it will render all the animation frames
+渲染蒙版传递,Render Mask Pass
+选择要渲染的对象,Select a object or objects to render selected
+预设名称,Preset Name
+预设名称,Name of the preset
+对象名称,Objects
+预置中的对象名称列表,List of object names in the preset
+保存选择预置,Save selection preset
+选择预置,Select the preset
+删除选择预置,Delete the selection preset
+重命名选择预置,Rename selection preset
+重命名预置,Rename the preset
+屏蔽选区预置,Mask Selection Presets
+编辑,Edit
+INVOKE_DEFAULT,INVOKE_DEFAULT
+蒙版渲染通过,Mask Render Pass
+注：选择要渲染为屏蔽的对象,Note: Select the object or objects
+对象。,to be render as masked
+选择预设,Selection Presets
+,
+通过www.DeepL.com/Translator（免费版）翻译,

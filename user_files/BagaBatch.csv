@@ -1,0 +1,128 @@
+对每个选定对象进行批量渲染预览,Batch render preview for each selected objects
+ , 
+"""\""""
+"""", ""批量缩略图""","""\""""
+"""",""Batch Thumbernails"""
+批量渲染预览,Batch render preview for collections
+选择文件夹,Select Folder
+切换文件夹视图,Toggle Folder View
+  ,  
+设置资产类型,Set Asset Type
+批处理,BagaBatch
+测试版,BETA VERSION
+仅用于测试！,Only for testing !
+您的 Blender 崩溃了？,Your Blender Crashed ?
+请回到您的场景。,"Please, go back to your scene."
+','
+生成资产缩略图 ！,Generate Assets Thumbnails !
+预览设置,Preview Settings
+资产类型 ：,Asset Type :
+对象,Object
+收藏,Collection
+活动集合,Active Coll
+所有标记资产,All Marked Assets
+摄像机镜头 ：,Camera Lens :
+焦距,Focal Length
+剪辑开始,Clip Start
+剪辑结束,Clip End
+摄像机方向 ：,Camera Orientation :
+当前,Current
+默认,Default
+查看,View
+活动摄像机,Active Camera
+根据对象调整视图,Fit view to object
+旋转偏移,Rotation Offset
+渲染设置,Render Settings
+bagabatch_saveassets.py,bagabatch_saveassets.py
+将预览保存为 PNG 格式：,Save Preview as PNG :
+混合文件位置,To Blend File Loc
+自定义路径,Custom Path
+渲染设置 ：,Render Settings :
+分辨率,Resolution
+循环,Cycles
+EEVEE,EEVEE
+循环设置 ：,Cycles Settings :
+样本,Samples
+透明度反弹,Transparency Bounces
+去噪,Denoise
+透明背景,Transparent Background
+曝光,Exposition
+太阳方向,Sun Orientation
+EEVEE 设置 ：,EEVEE Settings :
+环境闭塞,Ambient Occlusion
+屏幕空间反射,Screen Space Reflection
+折射,Refraction
+导出,Export
+导出资产,Export Assets
+保存资产导出现有库中的资产。,Save Assets export your asset in existing library.
+资产将保存为单独的混合文件。,Assets will be saved as individual blend files.
+导出步骤 ：,Export Steps :
+1 - 选择要保存的资产（对象或集合）。,1 - Select assets (objects or collections) to save.
+2 - 在下面设置资产类型。,2 - Set the asset type below.
+3 - 指定资产的目标库。,3 - Specify the destination library for the assets.
+4 - 如果您的库包含子文件夹 ：,4 - If your library contains subfolders :
+     转到资产位置 > 库子文件夹,     Go to Asset Location > Library Subfolder
+     资产将直接保存在选定的子文件夹中,     Asset will be saved directly in selected subfolders
+注意：请先进行预览！,PS : Render a preview first !
+     导出按钮获胜,     Export button won
+活动收藏,Active Collection
+移除并链接图块,Remove & Link coll
+- 从场景中移除图块链接,- Coll will be unlinked from scene
+- 导出的图块将链接到场景,- Exported coll will be linked to scene
+目标库,Destination Library
+选择资产目标库：,Select Asset Destination Library :
+库： 资产位置,Library: Asset Location
+图库文件夹中的文件位置：,File location in the Library folder:
+当前库,Current Library
+库子文件夹,Library Subfolder
+使用 ： ,Use : 
+库文件夹 ：,Library Folders :
+无子文件夹,No Subfolder
+资产将保存在 ：,Assets will be saved in :
+资产目录,Asset Catalog
+目录中的资产类别,Assets Category in the Catalog
+未找到目录,No Catalog Found
+资产元数据,Asset Metadata
+描述,Description
+许可证,License
+版权,Copyright
+作者,Author
+我们的附加组件 ！,Our Addons !
+显示工具提示,Display a tooltips
+显示工具提示,Display Tooltip
+视频演示,Video Demo
+附加组件首选项,Addon Preferences
+资产类型,Assets Type
+渲染所有资产集合,Render all assets collection
+使用当前视图方向,Use Current View Orientation
+使用用户视图,Use User View
+在用户视图中调整对象视图,Fit view on object in user View
+render_pref,render_pref
+渲染引擎,Render Engine
+cam_focal,cam_focal
+cam_start,cam_start
+凸轮结束,cam_end
+循环预置,cycle_pref
+预置,eevee_pref
+资产前缀,Asset_Prefix
+资产类型,Asset_Type
+替换,Replace Coll
+保存预览,Save Preview
+在当前文件中保存预览,Save Preview in Current File
+资产数据,Asset_data
+调试,Debug
+使用临时文件,Use Temp Files
+删除临时文件,Remove Temp Files
+预览首选项,Preview Preferences
+结束,End
+渲染首选项,Render Preferences
+默认太阳方向（度）,Default Sun Orientation (° deg)
+高级,Advanced
+调试模式（打开控制台）,Debug Mode (Open Console)
+在临时文件中保存缓存,Save Cache in Temp Files
+在 Discord 上联系,Contact on Discord
+通过 BlenderMarket 联系 ,Contact via BlenderMarket 
+渲染设备,Render Device
+选择用于 Cycles 渲染的设备,Choose the device for Cycles rendering
+,
+通过www.DeepL.com/Translator（免费版）翻译,

@@ -1,0 +1,72 @@
+, 
+"""\""""
+"""", ""scene.dsac_msgbox""","""\""""
+"""",""scene.dsac_msgbox"""
+消息,message
+标题,title
+宽度,width
+启用或禁用切片操作,Enable or disable slice operation
+顶点组,Vertex Group
+切片操作的顶点组名称,Vertex group name for Slice operation
+启用或禁用盖孔操作,Enable or disable cap holes operation
+需要填充的孔的面数（零填充所有孔）,Number of sides in hole required to fill (Zero fills all holes)
+为盖面指定材料索引,Assign material index for cap faces
+盖面的材料槽索引,Material slot index for cap faces
+为盖面创建顶点组,Create vertex group for cap faces
+启用动态操作（对于,Enable dynamic operations (For \
+"为动画启用 ""切片 ""和 ""盖帽 ""操作。",Enable Slice and Cap operation for animations.
+为动画启用修改器（如果渲染时出现问题，请取消选中）,Enable modifiers for animations (Uncheck if you have problems when renders)
+设置新对象时加载默认设置,Load default settings when new object set
+动态操作的刷新时间（毫秒）,Refresh time for dynamic operations (milliseconds)
+网格.dsac_set_主对象,mesh.dsac_set_main_object
+设置对象,Set object
+"设置 ""切片 ""和 ""盖帽 ""操作的主对象",Set main object for Slice and Cap operation
+mesh.dsac_unset_main_object,mesh.dsac_unset_main_object
+取消设置切片和盖帽操作的主对象,Unset main object for Slice and Cap operation
+mesh.dsac_set_active_too_original,mesh.dsac_set_active_to_original
+将当前网格设置为原始网格（当网格改变或添加形状键时使用）,Set active mesh to original mesh (Use when if mesh changed or shape keys added)
+mesh.dsac_reset_plane,mesh.dsac_reset_plane
+重置平面,Reset plane
+重置平面对象的变换,Reset transforms of plane object
+mesh.dsac_apply_result,mesh.dsac_apply_result
+应用结果,Applied result
+显示应用结果,Show applied result
+mesh.dsac_reload_original,mesh.dsac_reload_original
+原始数据,Original
+显示原始数据,Show original data
+mesh.dsac_finish,mesh.dsac_finish
+完成,Finish
+完成切片和盖帽操作并释放资源,Finish Slice and Cap operation and free resources
+mesh.dsac_cancel,mesh.dsac_cancel
+取消,Cancel
+"取消 ""切片和盖帽 ""操作并释放资源",Cancel Slice and Cap operation and free resources
+VIEW3D_PT_Dynamic_slice_and_cap_panel,VIEW3D_PT_dynamic_slice_and_cap_panel
+动态切片和盖帽,Dynamic Slice and Cap
+数据,data
+设置主对象,Set Main Object
+切片,SLICE
+切片类型：,Slice Type:
+顶点组,Vertex Group:
+盖孔,CAP HOLES
+面,Sides:
+光滑新面,Smooth New Faces
+平滑旧面,Smooth Old Faces
+应用到整个对象,Apply to Entire Object
+指定材质索引,Assign Material Index
+材料索引：,Material Index:
+创建顶点组,Create Vertex Group
+设置,Settings
+动态,Dynamic
+允许动画,Allow Animation
+为动画启用修改器,Enable Modifiers for Anims
+加载默认设置,Load Default Settings
+刷新.:,Refresh Ms.:
+将活动设置为原始设置,Set Active to Original
+重置平面,Reset Plane
+应用,Applied
+应用结果,APPLIED RESULT
+原始,ORIGINAL
+完成,FINISH
+取消,CANCEL
+,
+通过www.DeepL.com/Translator（免费版）翻译,

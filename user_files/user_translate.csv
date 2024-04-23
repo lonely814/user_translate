@@ -1,5 +1,6 @@
 , 
-,"""\""""
+"""\""""
+"""", ""自动更新翻译文件""","""\""""
 """",""Auto Update Translation File"""
 从剪贴板粘贴翻译文本,Paste translated text from clipboard
 将剪贴板中由自动翻译网站等翻译的文本粘贴为翻译文本,Paste the clipboard text translated by an automatic translation site etc. as translated text

@@ -1,0 +1,78 @@
+根据所需的数量来确定哪些级别可以重复。,Quels niveaux doivent être répétés selon le nombre d'étages qu'on veut.
+ , 
+"""\""""
+"""", ""需要的 Megascans 资产和格式""","""\""""
+"""",""Needed Megascans assets and formats"""
+显示该建筑所需的 Megascans 资产的详细信息,Show the details about the necessary Megascans assets for this building
+点击下面查看该建筑需要下载的 Megascans 资产。,Click below to see the Megascans assets to download for this building.
+(资产 ID 显示在工具提示中）,(asset ids displayed in tooltips)
+所有网格必须以 FBX 格式下载。,All meshes must be downloaded in FBX format.
+此建筑的材质需要以下纹理通道：,This building needs the following texture channels for its materials:
+显示缺失,Show missing
+显示此 LOD 和纹理分辨率缺少哪些纹理，以便您在需要时下载。,"Show what textures are missing for this LOD and texture resolution, so you can download them if you need"
+显示此 LOD 缺少哪些网格，以便您下载。,"Show what meshes are missing for this LOD, so you can download them if you need"
+导入,Ouvrir
+导入所选的 Megascans 建筑网格,Import the selected Megascans building meshes
+导入选定的 Megascans 建筑网格，以备使用。将创建一个新的对象集合来存放所有这些网格。,"Imports the meshes of the selected Megascans building, ready to use. Will create a new objects collection to hold all those meshes. "
+切换资产可见性,Toggle assets visibility
+将资产集合放入场景中,Places the assets collection in the scene
+','
+删除 Megascans 建筑的网格,Delete the meshes of a Megascans building
+将从该混合文件中删除该 LOD 的所有模块网格（对象和网格）。,Will delete from this blend file ONLY the collection holding the individual modular meshes (objects and meshes) for this LOD. 
+检查是否已下载所需资产,Check if you have downloaded the needed assets
+检查硬盘上已下载的所选 Megascans 建筑的资产。,Check on your hard drive which assets of the selected Megascans building are downloaded. 
+为选定的 MegaScans 建筑创建新实例,Create new instance of the selected MegaScans building
+删除 MegaScans 建筑的实例,Delete an instance of a MegaScans building
+导入选定的 MegaScans 建筑材料,Import the selected Megascans building material
+导入所选 MegaScans 建筑的材质、LOD 和分辨率，可随时使用，但尚未应用于任何网格或对象。,"Import the material of the selected Megascans building, LOD and resolution, ready to use, but not applied to any mesh or object yet"
+非彩色,Non-Color
+删除 Megascans 建筑的材质,Delete the materials of a Megascans building
+如果没有其他材质依赖于这些材质，则将从该混合文件中删除这些材质及其所有相关纹理，但不会强制删除 ,"Will delete from this blend file the materials and all their associated textures if no other material depends on them, but will not force the deletion of "
+选择一个梅加斯坎建筑,Select a Megascans Building
+管理选定的梅加斯坎建筑,Manage The Selected Megascans Building
+首先在插件预置中设置 Megascans 库的文件夹,"Set the folder of your Megascans library first, in the addon prefs"
+重新检查是否已下载所需资产,Re-check if you have downloaded the needed assets
+已导入 ✓,Imported ✓
+显示,Show
+隐藏,Hide
+2k,2k
+4k,4k
+8k,8k
+导入,Import
+创建新的 Megascans 建筑实例,Create New Megascans Buildings Instances
+LOD：,LOD:
+纹理分辨率：,Texture resolution:
+无法使用当前参数创建新建筑,Cannot create new building with current parameters
+ 返回整个巨型建筑的信息 , Sert à pouvoir retrouver les infos d'un batiment mégascans entier 
+ 将一个建筑的生成参数存入其母体集合中 , Sert à stocker les paramètres de génération d'un batiment dans sa collection mère 
+LOD,LOD
+要导入资产的详细程度。LOD 0 是最详细的,Level Of Detail of the assets to import. LOD 0 is the most detailed
+导入的资产集合颜色,Imported assets collections color
+新建筑物集合颜色,New buildings collections color
+楼层尺寸,Floor size
+以 X 和 Y 为单位，以米为单位。建筑物地面形状暂时仅限于矩形，以增加多样性 ,"On X and Y, in meters. Buildings ground shapes are limited to rectangles for now, more variety "
+总楼层数,Total floors
+第一层（数字 1）为底层，必须存在。,"The first floor (number 1) is the ground floor, it must be present. "
+要生成的建筑物的详细程度。LOD 0 是最详细的,Level Of Detail of the building to generate. LOD 0 is the most detailed
+文本分辨率,Text. res.
+纹理的分辨率,Resolution of textures
+ Liste des rôles de chaque morceau modulaire d'une façade d'un bâtiment. , Liste des rôles de chaque morceau modulaire d'une façade d'un bâtiment. 
+ Une instance d'un morceau modulaire d'une façade d'un bâtiment. , Une instance d'un morceau modulaire d'une façade d'un bâtiment. 
+ MegaScans 所有模块化建筑的名称列表。, Liste des noms de tous les batiments modulaires de MegaScans. 
+ 关于 MegaScans 模块化建筑的所有信息。, Toutes les informations sur un bâtiment modulaire de MegaScans. 
+检查所需的 Python 软件包版本,Check needed Python packages versions
+需要互联网连接，可能需要一些时间（几秒钟）。使用 Python pip 从 pypi.org SceneCity 进行检查。,"You need an internet connection, may take some time (a few seconds). Uses Python pip to check from pypi.org SceneCity"
+更新,Update
+下载并更新至 pip 的最新版本,Download and update to the latest version of pip
+安装/更新,Install / Update
+下载并安装或更新至 pyside 的最新版本,Download and install or update to the latest version of pyside
+出现错误，请查看 Blender,"An error occured, look into Blender"
+Megascans 文件夹,Megascans folder
+Megascans 库的根文件夹,The root folder of your Megascans library
+资产,Assets
+您需要的资产,Assets you need
+构建巨型模型,Megascans Building
+需要的资产,Needed assets
+选定的 Megascans 建筑所需的资产,Assets you need for the selected Megascans building
+,
+通过www.DeepL.com/Translator（免费版）翻译,

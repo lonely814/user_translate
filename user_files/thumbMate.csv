@@ -1,0 +1,19 @@
+, 
+"""\""""
+"""", ""渲染资产预览""","""\""""
+"""",""Render asset preview"""
+渲染集合资产预览,Render collection asset preview
+更新资产预览,Update asset preview
+渲染,Render
+渲染选定对象,Render Selected Objects
+渲染所选集合,Render Selected Collection
+更新所选资产,Update Selected Asset
+','
+世界图像,World Images
+HDRI,HDRI
+摄像机旋转,Camera Rotation
+摄像机焦距,Camera Focal Length
+剪辑最小值,Clip Min
+最大剪辑,Clip Max
+世界旋转,World Rotation
+边缘填充 %,Edge Padding %

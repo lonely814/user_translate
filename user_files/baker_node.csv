@@ -1,0 +1,172 @@
+, 
+"""\""""
+"""", ""烘焙""","""\""""
+"""",""Baker"""
+将输入内容烘焙为图像或颜色属性,Bakes input to an image or color attribute
+标识符,Identifier
+此 BakerNode 实例的唯一标识符,A unique identifier for this BakerNode instance
+烘焙模式,Bake Mode
+要烘焙的目标类型,The type of target to bake to
+烘焙进行中,Bake in Progress
+如果此节点有待处理或活动的烘焙任务，则为 True,True if this node has a pending or active bake job
+目标属性,Target Attribute
+要烘焙的颜色属性,The color attribute to bake to
+对齐,Alignment
+要对齐平面的坐标轴,Which axes to align the plane to
+操作,Operation
+烘焙值应如何与现有的 ,How the baked value should be combined with the existing 
+灰度方法,Grayscale Method
+如何将输入的颜色转换为灰度值,How to convert the color input into a grayscale value
+边距,Margin
+将烘焙结果扩展为后处理滤镜。,Extends the baked result as a post process filter. 
+对象,Object
+烘焙时使用的对象。如果为空，则 ,The object to use when baking. If blank then the 
+烘焙样本,Bake Samples
+烘焙时使用的样本数。默认为 ,The number of samples to use for baking. The default 
+显示预览,Show Preview
+显示此节点的预览,Shows a preview for this node
+同步,Synced
+当烘焙此节点时，UV 贴图中的所有其他同步节点都会被同步。,When this node is baked all other synced nodes in 
+UV 贴图,UV Map
+目标图像的 UV 贴图,The UV map of the target image
+如果烘焙失败，由 BakerNode.schedule_bake 引发。,Raised by BakerNode.schedule_bake if it fails.
+为该节点创建唯一标识符。,Creates a unique identifier for this node.
+"""在布局上绘制节点的 ""Bake/""按钮。","""Draws the node's \""Bake\"" button on layout."""
+烘焙,Bake
+绘制 target_type 及相关属性。,Draw target_type and related properties.
+色彩空间,Color Space
+图像没有 alpha 通道,Image has no alpha channel
+图像没有文件路径,Image has no filepath
+在侧边栏中绘制节点按钮,Draw node buttons in sidebar
+预览,Preview
+当烘焙完成或取消时调用。,Called when the bake is either completed or cancelled.
+当烘焙完成时调用。,Called when the bake has been completed.
+返回与此节点同步的所有节点的列表。,Returns a list of all nodes that this node is synced with.
+如果此节点应使用非彩色图像目标，则返回 True。,Returns True if this node should use an non-color image target.
+返回此节点是否应使用浮点目标。,Returns whether this node should use a float target.
+烘焙此节点时处于活动状态的对象。,The object that should be active when this node is baked.
+如果预览应在后台烘焙，则返回 True。,Returns True if previews should be baked in the background.
+如果此节点可以显示预览图像，则返回 True。,Returns True if this node can display a preview image.
+如果烘焙目标是图像序列，则返回 True。,Returns True if the bake_target is an image sequence.
+此节点上次更新预览时的哈希值。,The hash of this node when its preview was last updated.
+如果此节点当前正在显示预览，则返回 True。,True if this node is currently displaying a preview.
+此节点的 alpha 输入是否需要烘焙。,Whether the alpha input of this node should be baked.
+"""（""此节点应烘焙到的图像""）。","""\""The Image this node should bake to."""
+此节点的节点组预计具有的名称。,The name that this node's nodegroup is expected to have.
+','
+INVOKE_DEFAULT,INVOKE_DEFAULT
+丢弃图像更改,Discard Image Changes
+设置,Settings
+此烘焙节点的其他设置,Additional settings for this baker node
+图像设置,Image Settings
+图像序列,Image Sequence
+生成,Generated
+宽度,Width
+高度,Height
+不支持图像源,Image source not supported
+未设置面包师节点,No baker node set
+注册尚未注册的 BakerNode。,Register BakerNode if it is not already registered.
+只有当 BakerNode 实例不存在时，才会取消注册。,Unregisters BakerNode only if there no instances exist.
+标识符,identifier
+此 BakeQueueJob 的标识符,The identifier of this BakeQueueJob
+材料,material
+烘焙节点所在的材料,The material in which the baker_node is located
+目标节点树,target node tree
+烘焙师节点所在的节点组,The node group in which the baker node is located
+节点名称,node name
+面包师节点的名称,The name of the baker node
+节点标识符,node identifier
+烘焙节点的标识符属性,The identifier property of the baker node
+是否预览,is preview
+此任务是否要烘焙预览图像 ,Whether this job should bake a preview image instead 
+烘焙对象,bake object
+烘焙时应激活的对象,The object that should be active when baking
+在后台运行,run in background
+此任务是否应在后台运行,Whether this job should be run in the background
+任务进行中,job in progress
+如果作业已开始烘焙，则为 True,True if the job has started baking
+作业已完成,job finished
+如果该任务已完成或取消，则调用 True,True if this job is completed or cancelled
+如果该任务成功完成，则由 BakeQueue 调用。,Called by BakeQueue if this job completes successfully.
+烘焙节点所在的着色器节点树。,The ShaderNodeTree in which the baker node is located.
+作业,jobs
+取消注册 _add_update_timer 注册的函数。,Unregisters the function registered by _add_update_timer.
+如果队列中的作业正在被烘焙，则为 True,True if a job in the queue is currently being baked
+从 BakerNode 实例向烘焙队列中添加作业。,Adds a job to the bake queue from a BakerNode instance.
+从 Baker_node 取消烘焙队列中的所有作业。,Cancels all jobs in the bake queue from baker_node.
+延迟数秒后，在烘焙队列中调用 try_run_next。,Call try_run_next on the bake queue after delay seconds.
+初始化图像（平面）目标类型所使用的平面。,Initializes the plane used for the Image (Plane) target type.
+将烘焙节点的 target_attribute 设置为烘焙目标。,Sets the baker node's target_attribute as the bake target.
+将烘焙节点的 target_image 设置为烘焙目标。,Sets the baker node's target_image as the bake target.
+设置场景的框架（烘焙图像序列时使用）。,Sets the scene's frame (used when baking to image sequences).
+设置 obj 使用包含烘焙节点的材质。,Set obj to use the material that contains the baker node.
+与 self.baker_node.target_type 相同。,Same as self.baker_node.target_type
+烘焙时使用的 CyclesRenderSettings.bake_type 值。,The CyclesRenderSettings.bake_type value to use when baking.
+烘焙图像时使用的边距。,The margin to use when baking to images.
+如果图像预览包含 alpha 通道，则设置为 True。,True if an image preview should contain an alpha channel.
+烘焙时使用的样本数。,The number of samples to use when baking.
+烘焙时使用的 UV 贴图。,The UV map to use for baking.
+返回预览图像目标颜色数据的副本。,Returns a copy of the color data from the preview image target.
+后处理步骤失败时引发的错误。,Error raised when the postprocess step has failed.
+BakerNode 内部节点树中使用的节点名称。,Names for the nodes used in BakerNode's internal node tree.
+在 Blender 4.0 以上版本中代替 _check_sockets 使用。,Used instead of _check_sockets for Blender 4.0+
+烘焙颜色,Baked Color
+清除并重建 BakerNode 的节点树。,Clears and rebuilds the node tree of a BakerNode.
+返回节点的哈希值（字节）。,Returns a hash (as bytes) of node.
+使用 hash_obj 对输出套接字进行散列。,Hashes an output socket using hash_obj.
+使用 hash_obj 对输入插座进行散列。,Hashes an input socket using hash_obj.
+以字节形式返回输入插座的哈希值。,Returns the hash of an input socket as bytes.
+如果活动节点是面包师节点，则返回活动节点，否则返回 None。,Returns the active node if it is a baker node or None otherwise.
+BakerNode 上用作按钮的操作符基类。,Base class for operators used as buttons on a BakerNode.
+将此节点的输入烘焙到其目标,Bake this nodes input to its target
+取消,Cancel
+选定烘焙,Bake Selected
+烘焙选定的烘焙节点,Bake the selected baker nodes
+静音所有面包师（切换）,Mute All Bakers (Toggle)
+静音/取消静音此节点树中的所有烘焙节点,Mutes/unmutes all Baker nodes in this node tree
+将烘焙器转换为内置,Convert Bakers to Built-in
+刷新预览,Refresh Preview
+更新此节点,Updates this node
+添加遮罩设置,Add Masking Setup
+创建缺失目标,Create Missing Targets
+自动添加新图像或顶点属性 ,Automatically add a new image or vertex attribute 
+自动目标域,Auto Target Domain
+自动创建颜色的元素类型 ,Type of element that automatically created color 
+始终使用浮点,Always Use Float
+在以下情况下始终使用 32 位浮点色彩属性 ,Always use 32 bit floating point color attributes when 
+始终使用 32 位浮点图像 ,Always use 32 bit floating point images when 
+自动目标尺寸,Auto Target Size
+自动创建图像的宽度和高度。,The width and height of an automatically created image. 
+背景烘焙,Bake in Background
+如果支持，在后台执行烘焙,Perform baking in the background if supported
+设备,Device
+烘焙时 Cycles 应使用的设备,The device Cycles should use when baking
+默认样本,Default Samples
+烘焙时使用的默认样本数,Default number of samples to use for baking
+预览缓存,Cache Previews
+维护预览的每帧缓存。允许 ,Maintains a per-frame cache of previews. Allows for 
+最大预览尺寸,Max Preview Size
+预览图像的最大宽度或高度,The maximum width or height of a preview image
+预览更新间隔,Preview Update Interval
+检查烘焙节点是否在后台烘焙预览的频率,How often to check if a Baker node
+在后台烘焙预览,Bake Previews in Background
+尽可能在后台烘焙预览图像,Bake previews in the background if possible
+预览样本,Preview Samples
+用于烘焙预览的样本数,Number of samples to use for baking previews
+使用 NumPy,Use NumPy
+允许插件在某些操作中使用 NumPy,Allows the add-on to use NumPy for certain operations
+自动目标设置,Automatic Target Settings
+图像,Images
+图像大小,Image Size
+颜色属性,Color Attributes
+域,Domain
+如果要自动更新节点预览，则设置为 True。,True if node previews should be updated automatically.
+返回 Baker 节点插件的首选项,Returns the preferences for the Baker Node addon
+返回 BakerNode 的 ImagePreview 或 None。,Returns the ImagePreview for a BakerNode or None.
+删除此节点的所有缓存预览数据。,Deletes all cached preview data for this node.
+Returns whether id_props can currently be written to for id_data.,Returns whether id_props can currently be written to for id_data.
+返回以 x 和 y 为偏移量的节点位置。,Returns the location of node offset by x and y.
+将图像保存到磁盘。,Saves an image to disk.
+返回图像是否有 alpha 通道。,Returns whether image has an alpha channel.
+保留所有更改。,Keep all changes.
+将所有属性还原为原始值。,Revert all attributes to their original values.

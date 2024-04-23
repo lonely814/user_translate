@@ -1,0 +1,723 @@
+, 
+"""\""""
+"""", ""指定顶点组""","""\""""
+"""",""Assign Vertex Group"""
+将顶点组指定为遮罩,Assign a vertex group as mask
+顶点组名称,Vertex Group Name
+道具路径,Prop Path
+当前对象中没有顶点组...,No vertex group in current object...
+HairBrush3DObjectProps,HairBrush3DObjectProps
+HairBrush3DWindowManagerProps,HairBrush3DWindowManagerProps
+','
+窗口,Window
+VIEW3D_MT_hair_brush_opt,VIEW3D_MT_hair_brush_opt
+折叠默认毛刷,Fold Default Brushes
+折叠所有默认毛刷,Fold all the default hair brushes
+启用画笔选项菜单,Enable Brush Option Menu
+显示快捷菜单,Show the shortcut menu
+启用毛发子代的修改器,Enable Modifier of Hair Children
+切换属性 UI,Switch Property UI
+将属性名称和值分成两部分,Split property name and value into two parts
+预设位置,Preset Location
+头发预设的路径,The path of hair presets
+启用预设分页,Enable Pagination of Presets
+行,Rows
+列,Columns
+按住,Ctrl
+移位,Shift
+按 Alt,Alt
+渲染设置,Render Settings
+渲染引擎,Render Engine
+头发形状,Hair Shape
+发丝形状,Strand Shape
+发根直径,Diameter Root
+发梢,Tip
+半径曲线预设,Radius Curve Preset
+应用,Apply
+应用当前预设,Apply current preset
+新建,New
+创建新预置,Create a new preset
+移除,Remove
+移除当前预置,Remove current preset
+循环发型,CyclesHair
+隐藏视口叠加,Hide Viewport Overlays
+显示视口叠加,Show Viewport Overlays
+发形曲线,hair_shape_curve
+预设名称,Preset Name
+使用半径曲线,Use Radius Curve
+使用曲线控制头发的半径,Use curve to control radius of the hair
+使用随机直径,Use Diameter Random
+随机设置头发的半径,Randomize radius of the hair
+形状曲线,Shape Curve
+随机种子,Random Seed
+开始,Start
+随机范围的起点,The start of random range
+阈值,Threshold
+随机厚度的阈值,Threshold of random thickness
+直径顶点组,Diameter Vertex Group
+控制直径刻度的顶点组,Vertex group to control diameter scale
+直径顶点组 否定,Diameter Vertex Group Negate
+循环毛发设置,Cycles Hair Settings
+循环毛发设置,Cycles Hair settings
+材质块,material_block
+垫数据,mat_data
+形状曲线块,shapeCurveBlock
+颜色组块,colorGroupBlock
+形状曲线表,shapeCurveTable
+颜色组,colorGroups
+世界块,world_block
+世界数据,world_data
+3D 画笔选项,3D Brush Options
+画笔 3D 编辑,Brush 3D Edit
+应用画笔 3D 编辑,Apply brush 3D edit
+绘制引导线,Draw Guide Line
+绘制或编辑引导线,Draw or edit guide lines
+ 使用鼠标滚轮设置某些尺寸属性（如画笔尺寸 , Set some size property (e.g. brush size) with mouse wheel 
+径向控制,Radial Control
+梳理,Comb
+绘制,Draw
+定向,Orient
+扭曲,Twist
+部件,Part
+噪音,Noise
+均匀,Uniform
+端点,Endpoint
+随机,Random
+X,X
+Y,Y
+Z,Z
+吸引,Attract
+吸引方法,Attract Method
+克隆,Clone
+仅在 3D 模式下工作,Works in 3D mode only
+.曲线雕刻,.curves_sculpt
+偏转发射器,Deflect Emitter
+距离,Distance
+平滑,Smooth
+添加,Add
+密度,Density
+最小距离,Distance Min
+长度,Length
+仅适用于 2D 模式,Works in 2D mode only
+泡芙,Puff
+蛇钩,Snake Hook
+重量,Weight
+方法,Method
+颜色,Color
+删除活动颜色组并重置发色,Delete the active color group and reset the hair color
+撤销,Undo
+撤销涂抹发色或删除颜色组。注意，一旦更改了毛发数量，就可以,"Undo painting hair color or deleting color group. Note, once you change the amount of hairs then you can"
+指定颜色,Assign Color
+为选定的毛发指定笔刷颜色,Assign brush color to the selected hair
+设置笔刷形状,Set brush shape
+预设,Preset
+模式,Mode
+粒子画笔派,Particle Brush Pie
+内置光标,builtin.cursor
+  ,  
+画笔名称,Brush Name
+更改画笔,Change Brush
+画笔图标名称,Brush Icon Name
+Ui 名称,Ui Name
+粒子毛刷,Particle Hair Brushes
+曲线毛刷,Curve Hair Brushes
+活动画笔索引,Active Brush Index
+自动隐藏饼状菜单,Auto Hiding Pie Menu
+重置,Reset
+将饼状菜单重置为默认值,Reset pie menu to default
+加载画笔列表,Load Brush List
+加载画笔列表以自定义饼形菜单,Load brush list to custom a pie menu
+向饼状菜单添加画笔,Add brush to pie menu
+您已添加所有画笔...,You have added all brushs...
+删除画笔,Remove Brush
+删除画笔,Remove brush
+画笔索引,Brush Index
+全部删除,Delete All
+刷子3d.粒子.梳子,brush3d.particle.comb
+头发_刷子_3d.梳子,hair_brush_3d.Comb
+毛发_毛刷_3d.3d_梳子,hair_brush_3d.3d_comb
+3D 梳子,3D Comb
+删除所有画笔？,Remove all brushes?
+移动画笔,Move Brush
+移动方向,Move Direction
+画笔饼菜单,Brush Pie Menu
+清除,Clear
+画笔选项,Brush Option
+绘制模式,Draw Mode
+公差,Tolerance
+段数,Segments
+添加头发的段数,Segment count of added hair
+分段模式,Segment Mode
+确定头发段数的算法,The algorithm to determine hair segment count
+表面,Surface
+将笔触粘贴到表面,Stick strokes to surface
+平面,Plane
+投影笔触的平面,Plane for projected stroke
+偏移,Offset
+使粒子远离发射器的距离,Distance to keep particles away from emitter
+密度模式,Density Mode
+最小距离,Minimum Distance
+发根之间的最小距离,The minimum Distance between the roots of hair
+最大计数,Count Max
+每次添加头发的最大数量,The maximum number of hair to be added per time
+禁用插值时新添加头发的长度,The length of newly added hair when Interpolate is disabled
+自动切换,Auto Switch
+启用自动切换,Enable auto switch
+画笔比例,Brush Scale
+缩放时在画笔所在的 2D 空间和 3D 空间之间切换,Toggle between 2D space and 3D space where the brush is in when zooming
+启用 3D 画笔,Enable 3D Brush
+对法线的影响,Influence on Normal
+画笔对法线的影响,The influence of the brush on the normal
+强度-3D,Strength-3D
+平滑模式,Smooth Mode
+目标长度,Target Length
+最大或最小长度,Maximum or minimum length
+方向模式,Orient Mode
+曲线,Curve
+曲线强度,Curve strength
+部件模式,Part Mode
+重量模式,Weight Mode
+灰度显示,Display Grayscale
+以灰度颜色显示重量,Visualize weight in grayscale color
+吸引模式,Attract Mode
+连续吸引,Continuous Attract
+随机控制,Random Control
+范围控制,Range Control
+吸引中心,Attract Center
+使用粗糙度,Use Roughness
+固定形状,Fix Shape
+自动播种,Auto Seeding
+每冲程更换种子,Change Seed with per stroke
+锁定 X 轴,Lock X axis
+锁定 Y 轴,Lock Y axis
+锁定 Z 轴,Lock Z axis
+播种,Seed
+随机粗糙度种子,Random seed of roughness
+头部强度,Head Strength
+中间强度,Middle Strength
+端点强度,Endpoint Strength
+未预测半径,Unprojected Radius
+克隆模式,Clone Mode
+旋转角度,Rotation Angle
+设置旋转角度,Set the angle of rotation
+旋转步骤,Rotation Step
+预览源,Preview Source
+实时显示来源,Show the source in real time
+实时更新,Real-time Update
+画笔颜色,Brush Color
+画笔的颜色,The color of the brush
+显示头发颜色,Show Hair Color
+显示头发颜色,Show hair color
+脱落形状,Falloff Shape
+使用投影或球形脱落,Use projected or spherical falloff
+方向,Direction
+方向 随机,Direction Random
+强度 随机,Strength Random
+隐藏引导线,Hide Guide Lines
+隐藏粒子的同时隐藏引导线,Hide guide lines while hiding particles
+画笔数据,Brush Data
+颜色索引,color_index
+color_group_idx,color_group_idx
+.particlemode,.particlemode
+头发颜色组,Hair Color Groups
+更改颜色,Change Color
+选择  ,Select  
+添加  ,Add  
+删除 激活,Delete Active
+脱落,Falloff
+内置画笔,builtin_brush.
+旋转克隆画笔,Rotate Clone Brush
+旋转克隆笔刷,Rotate clone brush
+旋转模式,Rotate mode
+微调,Fine Tuning
+将曲线转换为毛发,Convert Curve To Hair
+将选定的曲线对象转换为毛发粒子系统,Convert selected curve objects to hair particle systems
+捕捉到最近的表面,Snap to Nearest Surface
+设置毛发名称,Set Hair Name
+将粒子系统和粒子设置的名称设置为曲线,Set the name of ParticleSystem and ParticleSettings to Curve
+必须选中以下选项：,The following option must be checked:
+调整头发长度,Adjust Hair Length
+调整头发长度,Adjust hair length
+目标头发,Target Hair
+要调整的粒子系统,Particle System to Adjust
+缩放,Scale
+微粒,particle
+头发工具,Hair Tools
+原理 BSDF,Principled BSDF
+底色 HSV,Base Color HSV
+阿尔法强度,Alpha Strength
+镜面强度,Specular Strength
+透明涂层强度,Clearcoat Strength
+法线贴图,Normal Map
+贴图,Mapping
+固定贴图,Fix Mapping
+纹理区域,Texture Region
+将头发转换为发卡,Convert hair to hair cards
+将头发转换为发卡,Convert Hair to Cards
+要转换的目标头发,Target hair to convert
+自动生成密度遮罩,Auto Generate Density Mask
+根据需要自动生成密度遮罩,Automatically generate density mask if required
+转换材料,Convert Material
+转换现有头发材质,Convert hair material if existing
+纹理区域数,Texture Region Count
+要创建的纹理区域数量,The number of texture regions to create
+纹理区域宽度,Texture Region Width
+每个纹理区域的宽度（uv 坐标,The width of each texture region in uv coordinate
+纹理区域高度,Texture Region Height
+每个纹理区域的高度（uv 坐标,The height of each texture region in uv coordinate
+总宽度大于 1，而实际宽度,"The total width is more than 1, and the actual width"
+ 将根据计数计算！, will be calculated base on count!
+平滑发卡曲线,Smooth hair card curves
+平滑曲线,Smooth Curve
+重新排列区域,Rearrange Regions
+按宽度重新排列区域，避免重叠,Rearrange regions by width to avoid overlapping
+材质分配方法,Material Assignment Method
+添加发卡纹理区域,Add hair card texture region
+添加纹理区域,Add Texture Region
+UV 坐标,UV Coordinate
+纹理区域的 UV 坐标,UV coordinate of the texture region
+宽度,Width
+以 UV 坐标表示的区域宽度,The width of the region in uv coordinate
+高度,Height
+以 UV 坐标表示的区域高度,The height of the region in uv coordinate
+子编号百分比,Percentage of Child Number
+子编号相对于原始编号的百分比,The percentage of child number relative to the original
+头发厚度百分比,Percentage of Hair Thickness
+毛发厚度相对于原始纹理的百分比,The percentage of hair thickness relative to the original
+复制活动纹理区域,Duplicate active texture region
+复制区域,Duplicate Region
+删除纹理区域,Remove texture region
+删除区域,Remove Region
+在图像编辑器中查看纹理,View texture in image editor
+在图像编辑器中查看,View In Image Editor
+纹理类型,Texture Type
+激活要用作上下文的修改器,Activate the modifier to use as the context
+设置激活修改器,Set Active Modifier
+修改器,Modifier
+要设置的修改器名称,Name of the modifier to set
+添加节点修改器,Add Nodes Modifier
+添加节点修改器,Add a nodes modifier
+节点名称,Nodes Name
+节点类别,Nodes Category
+更新纹理,Update Texture
+为组添加头发,Add hair to the group
+添加头发,Add Hair
+您已添加所有头发...,You have added all hairs...
+添加纹理组,Add a texture group
+添加组,Add Group
+删除纹理组,Remove the texture group
+删除组,Remove Group
+使用当前设置进行转换,Apply conversion with current settings
+纹理输出目录,Texture Output Directory
+纹理分辨率,Texture Resolution
+纹理前缀,Texture Prefix
+输出纹理的前缀，默认为头发名称,"The prefix of the output texture, default to the hair name"
+纹理格式,Texture Format
+批量应用,Batch Apply
+应用此对象的所有转换,Apply all conversion of this object
+合并卡片,Combine Cards
+将转换后的发卡合二为一,Combine converted hair cards into one
+合并纹理,Combine Textures
+将多个头发纹理合并为一个,Combine multiple hair textures into one
+UV 边距,UV Margin
+打包发卡 UV 时添加的边距,The margin added while packing hair card uvs
+UVMap_Tangent,UVMap_Tangent
+纹理组,Group
+纹理组：,Texture Groups:
+取消转换并清除数据,Cancel conversion and clear data
+取消,Cancel
+区域名称,Region Name
+倾斜度,Tilt
+深度比,Depth Ratio
+相对于区域宽度的深度比,The depth ratio relative to region width
+左右填充,Left & Right Padding
+两侧的填充,The padding of both sides
+顶部填充,Top Padding
+顶部填充,The padding of top
+毛数,Number
+毛发总数,Total number of hairs
+头发长度,Hair Length
+头发长度,Length of the hair
+子种子,Child Seed
+粒子系统名称,Particle System Name
+转换后的曲线对象,Converted Curve Object
+股数,Strand Count
+密度顶点组,Density Vertex Group
+反转顶点群,Inverted Vertex Group
+顶点数,Vertex Count
+每股顶点数,Number of vertices per strand
+线宽,Strand Width
+相对于对象的线宽,Strand width relative to the object
+使用宽度曲线,Use Width Curve
+宽度曲线,Width Curve
+斜面形状,Bevel Shape
+使用自定义斜面形状,Use Custom Bevel Shape
+长度比,Length ratio
+长度顶点组,Length Vertex Group
+对齐方向,Align Orientation
+将发卡的方向与模型表面对齐,Align the orientation of hair cards with the model surface
+随机方向,Random Oriantation
+随机毛卡方向,Random hair cards orientation
+随机范围开始,Random Range Start
+随机范围,Random Range
+漩涡形状,Whirl Shape
+渲染样本,Render Samples
+最大采样,Max Samples
+自适应采样阈值,Adaptive Sampling Threshold
+步骤,Steps
+主动纹理区域索引,Active Texture Region Index
+实时重新分配材质,Reassign Material in Real-time
+当股数发生变化时，重新分配发卡材质,Reassign hair card material when strand number changes
+自动更新纹理,Auto Update Texture
+检测到任何变化时自动更新纹理,Automatically update the texture when any change is detected
+色调,Hue
+饱和度,Saturation
+数值,Value
+粗糙度,Roughness
+镜面,Specular
+透明涂层,Clearcoat
+阿尔法,Alpha
+正常,Normal
+前缀,Prefix
+在图像编辑器中显示区域,Show Region in Image Editor
+在图像编辑器中显示纹理区域,Show texture region in Image Editor
+渲染图层,Render Layers
+基色,BaseColor
+图像,Image
+深度,Depth
+深度 AOV,Depth AOV
+根,Root
+转换法线,Converted Normal
+分离正常,Separate Normal
+正常 AOV,Normal AOV
+hb3_hair_card_textures,hb3_hair_card_textures
+render.render,render.render
+纹理区域菜单,Texture Region Menu
+修改器选项,Modifier Options
+默认值,INVOKE_DEFAULT
+移至最前,Move to First
+移至最后,Move to Last
+添加修改器,Add Modifier
+空节点修改器,Empty Nodes Modifier
+分割,Parting
+虚拟父节点不可用,Parting not available with virtual parents
+最小值,Min
+最大值,Max
+时间,Timing
+结束,End
+儿童,Children
+渲染量,Render Amount
+尺寸,Size
+随机化尺寸,Randomize Size
+半径,Radius
+圆度,Roundness
+修改器,Modifiers
+输出属性,Output Attributes
+未连接组输出属性,No group output attributes connected
+纹理,Texture
+分辨率,Resolution
+粒子设置,Particle Settings
+毛发设置,Hair Settings
+材质,Material
+发卡,Hair Cards
+└─,└─
+密度_vg,density_vg
+长度,length_vg
+添加修改器,Add modifier
+修改器类型,Modifier Type
+复制修改器,Duplicate Modifier
+复制修改器,Duplicate modifier
+删除修改器,Remove Modifier
+删除选定的修改器,Remove selected modifier
+移动修改器,Move Modifier
+移动方向,Movement Direction
+将修改器复制到选定对象,Copy Modifiers to the Selected Object
+将修改器复制到选定对象的活动粒子系统中,Copy modifiers to the active particle system of the selected object
+仅激活,Only Active
+仅复制活动修改器,Copy active modifiers only
+移除现有修改器,Remove Existing Modifiers
+隔离曲线控制,Isolate Curve Control
+隔离修改器中使用的所有曲线,Isolate all the curves used in the modifier
+新名称,New Name
+添加纹理图像,Add Texture Image
+为纹理添加图像,Add a image to texture
+纹理名称,Texture Name
+名称,Name
+图像数据块名称,Image data-block name
+图像宽度,Image width
+图像高度,Image height
+默认填充颜色,Default fill color
+创建带 alpha 通道的图像,Create an image with an alpha channel
+32 位浮点,32-bit Float
+使用 32 位浮点位深度创建图像,Create image with 32-bit floating-point bit depth
+类型,Type
+编辑纹理,Edit Texture
+编辑纹理属性,Edit texture properties
+添加纹理,Add Texture
+为子修饰符属性添加纹理,Add a texture to child modifier property
+启用表达式,Enable Expression
+启用表达式时允许使用的表达式,Expressions are allowed to use while enabling expression
+道具名称,Prop Name
+禁用表达式,Disable Expression
+禁用表达式时不允许使用表达式,Expressions are not allowed to use while disabling expression
+显示表达式手册,Show Expression Manual
+显示表达式的手册文件,Show the Manual document of Expression
+子修饰符表达式手册,Child Modifier Expression Manual
+使用路径权重,Use Path Weight
+使用路径权重图层作为掩码,Use a path weight layer as mask
+权重图层名称,Weight Layer Name
+确保至少存在权重层。,Ensure at least weight layers exist.
+导出 ABC,Export ABC
+导出 ABC 并应用粒子系统子修改器,Export ABC with ParticleSystem child modifier applied
+起始帧,Start Frame
+导出的起始帧，使用默认值为 ,"Start frame of the export, use the default value to "
+结束帧,End Frame
+导出的结束帧，使用默认值为 ,"End frame of the export, use the default value to "
+变换采样,Transform Samples
+每帧变换采样的次数,Number of times per frame transformations are sampled
+几何采样,Geometry Samples
+每帧对象数据的采样次数,Number of times per frame object data are sampled
+快门打开,Shutter Open
+快门打开的时间,Time at which the shutter is open
+快门关闭,Shutter Close
+快门关闭的时间,Time at which the shutter is closed
+使用实例,Use Instancing
+将重复对象的数据作为 Alembic 实例导出；加快导出速度 ,Export data of duplicated objects as Alembic instances; speeds up the export 
+导出自定义属性,Export Custom Properties
+将自定义属性导出为 Alembic .userProperties,Export custom properties to Alembic .userProperties
+使用设置,Use Settings for
+仅对选定对象使用设置,Selected Objects Only
+仅导出选定对象,Export only selected objects
+仅渲染对象,Renderable Objects Only
+仅导出在大纲器中标记为可渲染的对象,Export only objects marked renderable in the outliner
+仅导出可见对象,Visible Objects Only
+仅导出可见对象,Export only objects that are visible
+扁平化层次结构,Flatten Hierarchy
+不保留对象,Do not preserve objects
+UV,UVs
+导出 UV,Export UVs
+打包 UV 岛,Pack UV Islands
+导出带有打包岛的 UV,Export UVs with packed island
+法线,Normals
+导出法线,Export normals
+顶点颜色,Vertex Colors
+导出顶点颜色,Export vertex colors
+生成坐标,Generated Coordinates
+导出未变形网格顶点坐标,Export undeformed mesh vertex coordinates
+面集,Face Sets
+导出每个面的着色组分配,Export per face shading group assignments
+使用细分模式,Use Subdivision Schema
+使用 Alembic 输出网格,Export meshes using Alembic
+应用细分曲面,Apply Subdivision Surface
+将细分曲面导出为网格,Export subdivision surfaces as meshes
+将曲线导出为网格,Curves as Mesh
+将曲线和 NURBS 曲面导出为网格,Export curves and NURBS surfaces as meshes
+三角化,Triangulate
+将多边形（四边形和 n 形）导出为三角形,Export polygons (quads and n-gons) as triangles
+四边形方法,Quad Method
+将四边形分割成三角形的方法,Method for splitting the quads into triangles
+N 形方法,N-gon Method
+将 n 个多边形分割成三角形的方法,Method for splitting the n-gons into triangles
+导出头发,Export Hair
+将头发粒子系统导出为动画曲线,Exports hair particle systems as animated curves
+导出粒子,Export Particles
+导出非毛发粒子系统,Exports non-hair particle systems
+手动变换,Manual Transform
+场景选项,Scene Options
+选定对象,Selected Objects
+可渲染对象,Renderable Objects
+可见对象,Visible Objects
+对象选项,Object Options
+颜色属性,Color Attributes
+使用模式,Use Schema
+方法 四边形,Method Quads
+多边形,Polygons
+粒子系统,Particle Systems
+阿莱姆比克发型修改器(.abc),Alembic HairModifier(.abc)
+使用曲线,Use Curve
+使用纹理,Use Texture
+顶点组,Vertex Group
+使用随机,Use Random
+属性名称,Property Name
+表达式,Expression
+是否启用,Is Enabled
+是否有效,Is Valid
+路径类型,Path Type
+反转路径权重,Invert Path Weight
+比例掩码,Scale Mask
+长度掩码,Length Mask
+尺寸掩码,Size Mask
+端点形状,Endpoint Shape
+幅度,Magnitude
+幅度曲线,Magnitude Curve
+幅度屏蔽,Magnitude Mask
+保留长度,Preserve Length
+系数,Factor
+*团块*的团块因子,The clump factor for *clumps*
+因子掩码,Factor Mask
+结块,Clump
+路径*的结块量,Amount of clumping for *paths*
+结块掩码,Clump Mask
+形状,Shape
+保留团块长度,Preserve Clump Length
+保留体积,Preserve Volume
+保留体积掩码,Preserve Volume Mask
+保留体积曲线,Preserve Volume Curve
+团块类型,Clump Type
+生成方法,Generating Method
+细分算法,Subd Algorithm
+细分,Subdivision
+母块被细分为多少个小块,How many clump the parent clump subdivided into
+细分掩码,Subdivision Mask
+随机性,Randomness
+密度掩码,Density Mask
+褶皱类型,Kink Type
+卷曲类型,Curl Type
+振幅,Amplitude
+振幅曲线,Amplitude Curve
+振幅掩码,Amplitude Mask
+频率,Frequency
+频率掩码,Frequency Mask
+团块点计数： ,Clump Points Count: 
+修改器名称,Modifier Name
+启用,Enabled
+影响,Influence
+不受修改器影响的路径数量,Amount of paths that are not affected by the modifier
+影响掩码,Influence Mask
+反转顶点组屏蔽,Invert VertexGroup Mask
+反转纹理蒙版,Invert Texture Mask
+头发修改器,Hair Modifiers
+头发修饰器,Modifiers of hair child
+活动修改器索引,Active Modifier Index
+使用子修改器,Use Child Modifier
+反转遮罩,Invert Mask
+需要 UV 贴图,UV Map Needed
+修改器菜单,Modifier Menu
+头发修改器,Hair Modifier
+重命名顶点组,Rename Vertex Group
+删除顶点组,Remove Vertex Group
+蒙版,Mask
+使用纹理所需的 UV 贴图,UV Map Needed For Using Texture
+添加重量层,Add Weight Layer
+新添加的权重层名称,Name of newly added weight layer
+权重层,Weight Layer
+权重存储类型,Storage type of weight
+默认权重,Default Weight
+默认权重,Default weight
+应用当前权重,Apply Current Weight
+根据当前权重创建权重层,Create weight layer based on the current weight
+删除权重层,Remove Weight Layer
+删除活动权重层,Remove active weight layer
+移动权重层,Move Weight Layer
+将权重层复制到选定对象,Copy Weight Layers to Selected Objects
+从活动对象复制权重层到选定对象,Copy weight layers from the active object to selected objects
+仅复制活动粒子系统的权重层,Copy weight layers of active particle system only
+匹配 ID,Match ID
+移除重量层,Remove Weight Layers
+在传输权重之前从目标粒子系统中移除权重层,Remove weight layers from the target particle system before transferring weight
+只有粒子数相同的粒子系统之间才能相互转移重量层。,Only the particle systems with the same particle count can transfer the weight layers between each other.
+层名称,Layer Name
+毛发动力学,Hair Dynamics
+动态模拟基于重量层,Dynamics simulation is based on the weight layer
+权重层,Weight Layers
+活动重量层索引,Active Weight Layer Index
+权重层菜单,Weight Layers Menu
+头发模块,hair_module
+添加分类目录,Add a category directory
+添加类别,Add Category
+类别名称,Category Name
+类别名称不能为空！,Category name cannot be null!
+请修改已存在的类别名称！,Please modify the category name for it already exists!
+重命名当前类别,Rename current category
+重新命名,Rename
+删除类别目录,Remove category directory
+警告： 至少有一个预设，还要删除吗？,"Warning: There is at least one preset, still remove?"
+重新扫描当前库,Rescan current library
+重新扫描库,Rescan Library
+为预设设置预览图像,Set preview images for presets
+选择预置预览,Select Preset Preview
+筛选文件夹,Filter folders
+过滤图像,Filter images
+重置位置和旋转,Reset Location and Rotation
+删除对象数据,Remove Object Data
+清除网格中的顶点组、未使用的 UV 贴图和顶点颜色,"Clear VertexGroups, unused UVMaps and VertexColors from mesh"
+将活动对象导入基本模型库,Import the active object to the library of base models
+将基本模型导入模型库,Import Base Models to Library
+删除材质,Remove Materials
+将活动对象保存为预设,Save the active object as a preset
+保存头发预设,Save Hair Preset
+类别,Category
+仅可见,Only Visible
+仅保存可见粒子系统,Save visible particle systems only
+预览,Preview
+设置预设预览的方法,The way to set preset preview
+预设名称不能为空！,Preset name cannot be Null!
+请修改已存在的预设名称！,Please modify the preset name for it already exists!
+设置父对象,Set Parent
+将活动对象设为父对象,Set the active object as parent
+绑定目标,Bind Target
+将活动对象设置为绑定目标,Set the active object to bind target
+设置为代理,Set to Proxy
+将加载的对象设置为活动对象的代理对象,Set the loaded object to the proxy object of the active object
+请先选择一个网格！,Please select a mesh first!
+将头发预设的基本模型加载到场景中,Load base model of hair preset to scene
+加载基本模型,Load Base Model
+将头发预设载入当前场景,Load hair preset to the current scene
+加载预设,Load Preset
+仅网格,Mesh Only
+仅加载网格,Load mesh only
+将头发预设应用到活动对象。请确保当前网格和预设网格相同,Apply hair preset to the active object. Please ensure that the current mesh and the preset mesh are the same
+添加预置,Add Preset
+切换头发预设。请确保当前网格和预设网格相同，否则结果可能不正确,"Switch hair preset. Please ensure that the current mesh and the preset mesh are the same, otherwise the result may be incorrect"
+切换预设,Switch Preset
+实时应用头发预设,Apply hair preset in real-time
+放置预设,Place Preset
+确认,Confirm
+旋转,Rotate
+重置旋转,Reset Rotate
+重置比例,Reset Scale
+重命名当前预置,Rename current preset
+重命名预置,Rename Preset
+新预置名称,New Preset Name
+从库中删除当前预置,Remove the current preset from library
+删除预置,Remove Preset
+从当前对象中删除预置,Remove presets from current object
+全部移除,Remove All
+删除所有预置,Remove all presets
+将活动对象投影到目标对象,Project active object to target object
+收缩包围至目标对象,Shrinkwrap to Target
+收缩缠绕,Shrinkwrap
+使用曲面变形修改器将活动对象绑定到目标对象,Bind active object to target object using Surface Deform modifier
+绑定到目标,Bind to Target
+表面变形,Surface Deform
+选择预设,Select the preset
+选择预置,Select Preset
+页码,Page Number
+基本模型,Base_Model
+头发预设,Hair Preset
+资料库,Library
+发型预设类别,Hair Preset Category
+显示滤镜选项,Show Filter Options
+过滤字符串,Filter String
+用于在当前类别中搜索的预设名称,Preset name for searching in current category
+排序方法,Sort Method
+反向筛选,Invert Filtering
+反向排序,Reverse sort
+页面,Page
+头发预设名称,Hair Preset Name
+代理,Proxy
+在两个不同对象之间传输数据的代理对象,Proxy object for transfering data between two different objects
+目标,Target
+要绑定的目标,Target to bind
+切换,Switch
+要切换的头发预设,The hair preset that will be switched
+库菜单,Library Menu
+没有匹配的预设,No matched preset
+转到,Go to:
+预设库,Preset Library
+无,None
+头发预设库的路径不存在：,Path to hair preset library does not exist:
+首先设置头发预设的路径！,Set the path of hair presets first!
+打开插件首选项...,Open addon preferences...
+,
+通过www.DeepL.com/Translator（免费版）翻译,

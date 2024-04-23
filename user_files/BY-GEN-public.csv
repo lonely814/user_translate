@@ -1,0 +1,402 @@
+, 
+"""\""""
+"""", ""生成 AO 遮罩组""","""\""""
+"""",""Generate AO Group Mask"""
+在选定对象上生成 AO 遮罩组,Generates an AO mask group on the selected object
+导入曲面效果,Import Surface Effect
+导入并添加选定的曲面效果。,Imports and adds the selected surface effect.
+应用（顶点绘制）,Apply (Vertex Paint)
+导入效果并将其设置为顶点绘制。,Imports the effect and sets it up for vertex painting.
+刷新效果属性,Refresh Effect Properties
+刷新效果属性,Refreshes the effect properties
+曲面效果,Surface Effects
+应用到所选效果,Apply to Selected
+应用（重量绘制）,Apply (Weight Paint)
+辅助工具,Helper Tools
+顶点组操作,Vertex Group Operations
+从选定顶点组,Vertex Group from Selected
+顶点组遮罩,Vertex Group Masks
+环境遮蔽,Ambient Occlusion
+网格效果,Mesh Effects
+修改器样式,Modifier Styles
+修改模式,Modify Mode
+位移类型,Displacement Type
+分解折叠,Decimate Collapse
+分解角度,Decimate Angle
+镜像,Mirror
+三角化,Triangulate
+创建发射矩阵,Create Emissive Mat
+导入参数网格效果,Import Parametric Mesh Effect
+导入并添加选定的参数网格效果,Imports and adds the selected parametric mesh effect
+导入参数网格模板,Import Parametric Mesh Template
+导入并添加选定的参数网格效果模板,Imports and adds the selected parametric mesh effect template
+参数,Parametric
+导入模板,Import Template
+导入结构网格效果,Import Structural Mesh Effect
+导入并添加选定的结构网格效果,Imports and adds the selected structural mesh effect
+导入结构网格效果模板,Import Structural Mesh Template
+导入并添加选定的结构网格效果模板,Imports and adds the selected structural mesh effect template
+结构,Structural
+导入网格位移,Import Mesh Displacement
+导入并添加选定的网格位移效果,Imports and adds the selected mesh displacement effect
+位移,Displacement
+需要较高的几何体密度。,Requires high geometry density.
+打开深度工具文件夹,Open Depth Tool Folder
+创建顶点对象,Create Vertex Object
+在 3D 光标上创建具有单个顶点的对象,Creates an object with a single vertex on the 3D Cursor
+添加蒙皮和子曲面,Add Skin and Subsurf
+添加蒙皮和子曲面修改器,Adds the Skin and Subsurf modifiers
+打开深度工具,Open Depth Tool
+打开深度工具文件,Opens the depth tool file
+导入体积效果,Import Volume Effect
+导入并添加所选的体积效果。,Imports and adds the selected volume effect.
+音量效果,Volume Effects
+文件夹路径,Folder Path
+超级秘密男孩乐队,Super secret boy band.
+我不,I don
+','
+允许镜像,Allow Mirror
+允许添加镜像修饰符,Allow the addition of a mirror modifier
+生成类型,Generation Type
+要执行的生成类型,The type of generation to perform
+生成位移类型,Generation Displacement Type
+生成的位移类型,The displacement type for the generation
+衰减修改器的折叠率,Collapse ratio for the Decimation modifier
+细化修改器的平面角度,Planar angle for the Decimation modifier
+允许旧修改,Allow Old Mods
+修改器存在时允许修改,Allow modification when modifiers are present
+允许添加三角测量修改器,Allow the addition of a triangulate modifier
+创建发射材料,Create Emissive Material
+允许创建发射材质,Allows for the creation of an emissive material
+修改类型,Modify Type
+要应用的样式类型,The type of style to apply
+输入源,Input Source
+解释器的输入源,Input source for the interpreter
+输出源,Output Source
+解释器的输出源,Output source for the interpreter
+移除预存,Remove Pre-Existing
+在读取输入之前移除所选对象上的修改器,Remove modifiers on selected object before reading input
+使集合唯一,Make Collection Unique
+使导入的集合唯一,Make the imported collection unique
+新建对象,New Object
+复制 ,Copy of 
+纹理,Texture
+图像,Image
+修改器,Modifier
+数据传输,DataTransfer
+网格缓存,MeshCache
+网格序列缓存,MeshSequenceCache
+法线编辑,NormalEdit
+加权法线,WeightedNormal
+UV 工程,UVProject
+翘曲,Warp
+顶点权重编辑,VertexWeightEdit
+顶点重量混合,VertexWeightMix
+顶点权重邻近度,VertexWeightProximity
+阵列,Array
+斜面,Bevel
+布尔值,Boolean
+构建,Build
+十进制,Decimate
+边缘分割,EdgeSplit
+蒙版,Mask
+多重网格,Multires
+重网格,Remesh
+螺钉,Screw
+皮肤,Skin
+固化,Solidify
+下表面处理,Subsurf
+焊接,Weld
+线框,Wireframe
+电枢,Armature
+铸造,Cast
+曲线,Curve
+位移,Displace
+钩,Hook
+拉普拉斯变形,LaplacianDeform
+网格,Lattice
+变形,Deform
+收缩包装,Shrinkwrap
+简单变形,SimpleDeform
+平滑,Smooth
+矫正平滑,CorrectiveSmooth
+拉普拉斯平滑,LaplacianSmooth
+表面变形,SurfaceDeform
+波浪,Wave
+布,Cloth
+碰撞,Collision
+动态绘制,DynamicPaint
+爆炸,Explode
+流体,Fluid
+海洋,Ocean
+粒子实例,ParticleInstance
+粒子系统,ParticleSystem
+软体,SoftBody
+摄像机,Cameras
+灯光,Lights
+清空,Empties
+物体,Objects
+曲线,Curves
+曲面,Surfaces
+元,Metas
+文本,Text
+体积,Volumes
+纟,Armatures
+网格,Lattices
+油脂铅笔,Grease Pencils
+光线探针,Light Probes
+新建节点对象,New Node Object
+生成模板,Generate Template
+生成模板,Generates a Template
+立方场,Cubic Field
+生成立体场,Generates a cubic field
+种子,Seed
+用于随机化的种子,Seed for randomisation
+立方体数量,Number of Cubes
+要创建的立方体数量,Number of cubes to create
+位置偏差,Position Deviation
+与创建点的最大可能偏差,Maximum possible deviation from creation point
+统一属性,Uniform Property
+对所有尺寸使用统一比例,Use uniform scale for all dimensions
+最小尺寸偏差,Minimum Size Deviation
+可能的最小尺寸偏差,Minimum possible size deviation
+最大尺寸偏差,Maximum Size Deviation
+最大可能尺寸偏差,Maximum possible size deviation
+添加斜面,Add Bevel
+为结果添加斜面修改器,Adds a bevel modifier to the result
+脚踢旋转,Kick Rotation
+为立方体的旋转添加随机偏差,Add a random deviation to the rotation of cubes
+连接立方体,Join Cubes
+将立方体拼接成一个对象,Join cubes into one object
+参数,Parameters
+随机种子,Random Seed
+比例偏差最小值,Scale Deviation Min
+比例偏差最大值,Scale Deviation Max
+设置,Settings
+均匀刻度,Uniform Scale
+球形场,Spherical Field
+生成球形场,Generates a spherical field
+球体数量,Number of Spheres
+要创建的球体数量,Number of spheres to create
+连接球体,Join Spheres
+将球面连接成一个对象,Join spheres into one object
+元云,Meta Cloud
+根据输入网格生成元云,Generates a meta cloud from an input mesh
+帧开始,Frame Start
+构建修改器的起始帧,Start frame for build modifier
+粒子大小,Particle Size
+粒子大小,Size of the particles
+粒子长度,Particle Lenght
+粒子长度,Length of the particles
+粒子长度,Particle Length
+生成硬表面框架,Generate Hard Surface Frame
+生成硬表面框架对象,Generates a Hard Surface Frame Object
+生成硬表面刻面,Generate Hard Surface Faceting
+生成硬表面刻面对象,Generates a Hard Surface Faceting Object
+生成硬表面蒙皮,Generate Hard Surface Skin
+生成硬表面蒙皮对象,Generates a Hard Surface Skin Object
+生成硬表面蒙皮（简单）,Generate Hard Surface Skin (Simple)
+生成硬表面蒙皮（简单）对象,Generates a Hard Surface Skin (Simple) Object
+生成金属外壳,Generate Metal Shell
+生成金属外壳对象,Generates a Metal Shell Object
+生成硬质衬垫,Generate Hard Padding
+生成硬质衬垫对象,Generates a Hard Padding Object
+生成蠓细胞,Generate Midge Cell
+生成蠓细胞对象,Generates a Midge Cell Object
+生成有机皮肤,Generate Organic Skin
+生成有机皮肤对象,Generates an Organic Skin Object
+生成粘土块,Generate Clay Blob
+生成粘土球,Generates a Clay Blob
+位移强度,Displace Strength
+位移强度,Strength of the displacement
+噪点强度,Noise Intensity
+噪音纹理的强度,Intensity of the noise texture
+噪音刻度,Noise Scale
+噪点纹理的比例,Scale of the noise texture
+镜像粘土球,Mirror the Clay Blob
+生成点云,Generate Point Cloud
+生成点云对象,Generates a Point Cloud Object
+生成像素对象,Generate Pixelate
+生成像素对象,Generates a Pixelate Object
+应用样式,Apply Style
+激活 BY-GEN 修改,Activate BY-GEN Modify
+反转,PointEmis_
+反转固化,Invert Solidify
+反转固化修改器的厚度,Invert the thickness of the solidify modifier
+城市散射 - 圆形,City Scatter - Circular
+像城市一样散射物体,Scatters objects like a city
+半径,Radius
+城市散射半径,Radius of the city scattering
+最大建筑物数,Max Buildings
+建筑物对象的最大数量,Maximum number of building objects
+大集合,Collection Large
+从中选择对象的集合,The collection to choose an object from
+大半径,Large Radius
+大型对象的边界,Boundary for large objects
+集合 - 中型,Collection - Medium
+从中选择中等大小的对象,Medium sized objects to choose from
+中型半径,Medium Radius
+中型物体的边界,Boundary for medium objects
+集合 - 小型,Collection - Small
+可供选择的小尺寸对象,Small sized objects to choose from
+小半径,Small Radius
+小型物体的边界,Boundary for small objects
+旋转变化,Rotation Variation
+允许对象的旋转变化,Allow variation in the rotation of objects
+邻居阈值,Neighbour Threshold
+相邻建筑物之间的最小距离,Minimum distance between neighbouring buildings
+最大循环次数,Max Cycles
+防止无限循环的最大循环次数,Maximum number of loop times to prevent infinite loops
+城市散点图 - 矩形,City Scatter - Rectangular
+采集名称,Collection Name
+随机放置,Random Placement
+随机决定是否放置建筑物,Randomize whether a building will be placed
+城市偏移,City Offset
+城市原点的位置偏移,Position offset for the origin of the city
+X 轴大小,X-Size
+网格 X 轴的大小,Size of grid X axis
+Y 轴大小,Y-Size
+网格 Y 轴大小,Size of grid Y axis
+单元格大小,Cell Size
+网格单元大小,Size of a grid cell
+导入空间站模板,Import Space Station Template
+导入用于分支生成的空间站模板。,Imports the space station template for branched generation.
+空间站生成器,Generator_SpaceStation
+导入机械装置模板,Import Mech Template
+导入用于分层生成的机械装置模板。,Imports the mech template for layered generation.
+生成器_机械,Generator_Mech
+config.gen,config.gen
+导入武器模板,Import Weapon Template
+导入用于分层生成的武器模板。,Imports the weapon template for layered generation.
+生成器_武器,Generator_Weapon
+导入城市（圆形）,Import City (Circular)
+导入用于城市散射（圆形）的集合。,Imports collections for city scattering (circular).
+城市_圆形,City_Circular
+导入城市（矩形）,Import City (Rectangular)
+导入城市散射（矩形）的集合。,Imports collections for city scattering (rectangular).
+城市_矩形,City_Rectangular
+应用修改器,Apply Modifiers
+在活动对象上应用所有修改器。,Applies all modifiers on the active object.
+清除纹理,Purge Textures
+删除 BY-GEN 创建的所有纹理。,Removes all textures created by BY-GEN.
+清除生成结果,Clear Generation Result
+清除已存在的生成结果集合。,Cleares the Generation Result collection if it exists
+备份生成结果,Backup Generation Result
+将生成结果集合的内容移到一个新的集合中,Moves the contents of the Generation Result collection into a new collection
+生成输出,Generation_Output_
+分支生成,Branched Generation
+开始分支生成程序,Begins the branched generation procedure
+启用生成,Enable Generation
+在设置准备好之前阻止生成的锁定,A lock to prevent generation until settings are prepared
+输出集合,Output Collection
+用于放置输出对象的集合,Collection to place the output objects
+最大模块数,Max Modules
+最大模块数,Maximum number of modules
+最小分支,Branch Min
+分支的最小尺寸,Minimum size of a branch
+分支最大,Branch Max
+分支的最大规模,Maximum size of a branch
+机会等级,Chance Level
+出现新分支的几率,Chance for a new branch to occur
+允许旋转,Allow Spin
+允许模块沿分支旋转,Allow rotation of modules along the branch
+移动偏移,Move Offset
+模块大小的移动偏移,Movement offset for module sizes
+模块 L,Module L
+收集 L 个模块,Collection for L pieces
+模块 T,Module T
+收集 T 件,Collection for T pieces
+模块 X,Module X
+收集 X 个棋子,Collection for X pieces
+模块 3 角,Module 3-Corner
+收集 3 角棋子,Collection for 3-Corner pieces
+模块 4 角,Module 4-Corner
+4 角作品集,Collection for 4-Corner pieces
+模块 5-角,Module 5-Corner
+5角棋子集合,Collection for 5-Corner pieces
+模块 6-端,Module 6-End
+适用于 6 端棋子的棋谱集,Collection for 6-End pieces
+模块 直线,Module Straight
+直线拼接的集合,Collection for straight pieces
+端模块,Module End
+收集端件,Collection for end pieces
+主控制,Main Control
+种子值：,Seed Value:
+输出收集：,Output Collection:
+最大模块：,Maximum Modules:
+分支最小长度,Branch Minimum Length:
+分支最大长度,Branch Maximum Length:
+机会级别,Chance Level:
+移动偏移,Move Offset:
+模块集合,Module Collections
+L,L
+T,T
+X,X
+3 角,3 Corner
+4 角,4 Corner
+5 角,5 Corner
+6 端,6 End
+直角,Straight
+末端,End
+分层生成,Layered Generation
+开始分层生成程序,Begins the layered generation procedure
+配置文本对象,Config Text Object
+配置文本对象,The configuration text object
+配置文本对象：,Config Text Object:
+object.custom_menu,object.custom_menu
+选择,Select
+全选/取消全选,Select/Deselect All
+反向,Inverse
+随机,Random
+BYGEN 菜单,BYGEN Menu
+文本,TEXT
+调用区域赢,INVOKE_REGION_WIN
+生成测试,Generate Test
+BY-GEN,BY-GEN
+散点图,Scatter
+模板,Templates
+生成器,Generators
+硬表面,Hard Surface
+有机,Organic
+特效,FX
+硬表面框架,Hard Surface Frame
+硬皮肤,Hard Surface Skin
+硬皮肤（简单）,Hard Surface Skin (Simple)
+硬表面刻面,Hard Surface Faceting
+金属外壳,Metal Shell
+硬质衬垫,Hard Padding
+蠓细胞,Midge Cell
+有机表皮,Organic Skin
+粘土球,Clay Blob
+点云,Point Cloud
+像素化,Pixelate
+BY-GEN - 生成,BY-GEN - Generation
+需要输入网格,Requires mesh input
+不需要输入,Does not require input
+BY-GEN - 修改,BY-GEN - Modify
+结构化生成,Structured Generation
+在场景属性中导入模板内容。,Import template content in scene properties.
+散射,Scattering
+工具,Tools
+实用操作,Useful Operations
+信息,Info
+由 Curtis Holt 创建,Created by Curtis Holt
+支持,Support
+Gumroad,Gumroad
+捐赠,Donate
+社交媒体,Social
+社交网络,YouTube
+推特,Twitter
+网站,Website
+Instagram,Instagram
+场景,scene
+导入模板内容并运行操作,Import template content and run operations.
+生成算法,Generation Algorithms
+调用 ,Call 
+位置参考对象必须在视口中处于活动状态（但可以隐藏）。,Position reference objects must be active in viewport (but can be hidden).
+模板会将 config.gen 文件导入文本编辑器。,Templates will import a config.gen file into the text editor.
+散射算法,Scattering Algorithms
+城市散射,City Scattering
+从 3D 视图工具栏或搜索窗口调用城市散射。,Call city scatter from the 3D View toolbar or the search window.
+,
+通过www.DeepL.com/Translator（免费版）翻译,

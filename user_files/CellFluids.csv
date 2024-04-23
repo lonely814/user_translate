@@ -1,9 +1,9 @@
+, 
 """\""""
-"""", ""层索引""","""\""""
-"""",""Layer Index"""
+"""", ""版本名称""","""\""""
+"""",""Version Name"""
 添加流体,Add Fluid
- , 
-创建图集,Create Collection
+创建集合,Create Collection
 设置渲染设置,Setup Render Settings
 ','
 启用折射,Enable Refraction
@@ -13,19 +13,59 @@
 透明光反弹循环,Cycles Transparent Light bounces
 EEVEE：,EEVEE:
 循环：,Cycles:
-烘焙流图,Bake Flow Map
-在视口和渲染中隐藏对象,Hide Object in Viewport and Render
-隐藏对象,Hide Object
+将所需的节点组加载到项目中,Load required Node Groups into project
+加载节点组,Load Node Groups
+将所需节点组重新加载到项目中,Reload required Node Groups into project
+重新加载节点组,Reload Node Groups
+为选定的流体对象重新指定默认节点组,Reassign default Node Group to selected fluid object
+重新分配节点组,Reassign Node Group
+替换材料,Replace Materials
+材料设置不会转移,Material settings will not be transferred
+需要重新模拟,You will need to re-bake the simulation
+继续？,Proceed?
+烘焙静态流图,Bake Static Flow Map
+烘焙到新对象,Bake To New Object
+清理几何体,Cleanup Geometry
+(在渲染和视口中隐藏选定对象,(Un)Hide selected objects in render and viewport
+在渲染中隐藏对象,Hide Object in Render
+可见,Is visible
 为集合中的对象添加所需的效果器修改器,Add Required Effector modifiers to objects in the collection
 设置效果器,Setup Effector
 移除效果器,Remove Effector
 单元格流体,Cell Fluids
+对象模式,objectmode
 输入 ,input 
+此项目中的流体节点组无效,Fluid node group in this project is invalid
+要重新加载节点组吗？,Do you want to reload node groups?
+此项目中流体节点组的版本不兼容,Version of the Fluid node group in this project is incompatible
+项目中的版本： ,Version in project: 
+插件版本： ,Addon Version: 
 新流体,New Fluid
+此 Fluid 版本不兼容,Version of this Fluid is incompatible
+版本： ,Version: 
+您想转换到当前版本吗？,Do you want to convert to current version?
+转换,Convert
+流体版本： ,Fluid Version: 
 网格分辨率： ,Grid Resolution: 
-流体,Fluid:
-地面,Ground:
+流体：,Fluid:
+地面（高度场）：,Ground (Height Field):
+动态地面（高度场）：,Dynamic Ground (Height Field):
 效果器,Effector:
-设置效应器修改器,Setup Effector Modifiers
-细胞流体工具,Cell Fluids Tools
-细胞液,Cell Fluid
+设置效果器修改器,Setup Effector Modifiers
+烘烤模拟,Bake Simulation
+单元流体工具,Cell Fluids Tools
+在渲染中隐藏对象,Hide object in Render
+在渲染中取消隐藏对象,Unhide object in Render
+高级控制：,Advanced Controls:
+默认节点组：,Default node groups:
+图层索引,Layer Index
+管理节点组,Manage Node Groups
+管理加载到项目中的默认节点组,Manage Default Node Groups loaded into the project
+流体节点组,Fluid Node Group
+流体静态节点组,Fluid Static Node Group
+效应器节点组,Effector Node Group
+克隆节点组,Clone Node Group
+清理节点组,Cleanup Node Group
+细胞流体,Cell Fluid
+,
+通过www.DeepL.com/Translator（免费版）翻译,

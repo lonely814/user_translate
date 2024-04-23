@@ -1,0 +1,114 @@
+, 
+"""\""""
+"""", ""测试打印""","""\""""
+"""",""Test Print"""
+工作室预设,Studio Presets
+设置工作室预置,Set the studio presets
+ALB_Studio_Presets,ALB_Studio_Presets
+导入预置,Import Preset
+导入选定的工作室预置,Import the selected studio presets
+重新载入图标,Reload Icons
+重新载入所有自定义图标,Reload all custom icons
+编号类型,Number Type
+重命名对象,Rename Object
+上一个项目,Previous Item
+下一个项目,Next Item
+作者姓名,Author Name
+描述,Description
+标签,Tags
+在添加新标签前删除现有标签,Remove Existing Tags Before Adding New
+对象到 3D 光标,Object to 3D Cursor
+隐藏集合中未渲染的对象,Hide non-render objects in the collection
+使用原始分辨率,Use original resolution
+使用摄像机角度预设,Use camera angle presets
+使用工作室预设来渲染资产,Use studio presets to render assets
+排除摄像机光源空实例,Exclude camera light empty instance
+透明背景,Transparent Background
+渲染分辨率,Render Resolution
+选择渲染分辨率,Select the render resolution
+添加自定义标签,Add Custom Tags
+移除自定义标签,Remove Custom Tags
+摄像机角度,Camera Angle
+设置摄像机角度,Set the camera angle
+摄像机角度设置,Camera Angle Setup
+录制 3D 视图,Record 3D View
+还原 3D 视图,Restore 3D View
+将原点设置为底部,Set Origin to Bottom
+将所选网格的原点设置为底部,Set origin of the selected meshes to the bottom
+切换自动锁定摄像机到对象,Toggle Auto Lock Camera to Object
+完成,FINISH
+将摄像机设置为查看,Set Camera to View
+将摄像机设置为查看选定对象,Set camera to view selected object
+切换摄像机视图,Toggle Camera View
+建立资产库,Build Assets Library
+资产设置,Asset Settings
+资产设置,【 Assets Settings 】
+用逗号分隔标签,Separate tags with commas.
+添加标签,Add Tags
+删除标签,Remove Tags
+当前标签：,Current Tags:
+选择要保存预览图像的文件夹,Select a folder to save the preview image
+选择文件夹,Select Folder
+设置,Setting
+设置,【 Setting 】
+隐藏选定对象中的其他对象。,Hide other objects in selected objects.
+排除摄像机、灯光、空、收藏实例,"Exclude Camera,Light,Empty,Collection Instance"
+摄像机设置,Camera Settings
+自动将摄像机锁定到对象,Auto Lock Camera to Object
+拍摄距离（米）,Shooting distance (m)
+将摄像机锁定到视图（摄像机视图）,Lock Camera to View (Camera View)
+镜头,Lens
+镜头移除 Alpha,Passepartout Alpha
+场景中未发现活动摄像机。,No active camera found in the scene.
+渲染设置,Render Settings
+透明背景,Transparent BackGround
+使用自定义分辨率,Use custom resolution
+便捷工具,【 Handy Tools 】
+旋转角度设置,Rotation Angle Setting
+重命名工具,Rename Tool
+重命名工具,Rename Tools
+名称：,Name:
+起始编号：,Start Number:
+类型,Type:
+重命名,Rename
+未选择对象。,No object selected.
+构建资产 ！,Build Assets !
+默认值,Default
+使用工作室预设,Use Studio Presets
+这是测试版功能，可能存在一些错误。,"This is beta feature, may have some bugs."
+导入工作室预置,Import Studio Presets
+请在 3D 视图 NPanel 中使用。,Please use in 3D View NPanel.
+文档和信息,Documentation and Info
+讨论区,Discord
+文档,Documents
+我的网站,My Website
+插件版本： ,Addon Version: 
+Blender 版本： ,Blender Version: 
+插件可能无法在此版本的 Blender 中正常运行。,Addon may not work properly in this version of Blender.
+请使用 Blender 3.4.0 或更高版本。,Please use Blender 3.4.0 or later.
+资产库生成器 2.0,Assets Library Builder 2.0
+重载图标,Reload icon
+创建资产库,Build Library
+以当前设置建立资产库,Build the assets library with the current settings
+选择资产文件夹,Choose Assets Folder
+隐藏非渲染对象,Hide Non-Render Objects
+基本路径,Base Path
+保存渲染预览的路径,Path to save rendered previews
+拍摄距离,Shooting Distance
+拍摄距离（米）,Shooting distance (in meters)
+显示摄像机设置,Show Camera Settings
+显示或隐藏摄像机设置,Show or hide camera settings
+显示渲染设置,Show Render Settings
+显示或隐藏渲染设置,Show or hide render settings
+显示设置,Show Settings
+显示或隐藏设置,Show or hide settings
+显示便捷工具,Show Handy Tools
+显示或隐藏便捷工具,Show or hide Handy Tools
+显示资产信息,Show Assets Info
+显示或隐藏资产信息,Show or hide assets info
+显示重命名工具,Show Rename Tool
+显示或隐藏重命名工具,Show or hide rename tool
+名称,Name
+开始编号,Start Number
+,
+通过www.DeepL.com/Translator（免费版）翻译,

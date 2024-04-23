@@ -2,7 +2,7 @@
 ,"""\""""
 """",""{\n"""
 为相机添加抖动,Add shake to your Cameras.
-相机防抖,Camera Shakify
+相机抖动,Camera Shakify
 数据,data
 OBJECT_UL_camera_shake_items,OBJECT_UL_camera_shake_items
 相机抖动,camera_shakes

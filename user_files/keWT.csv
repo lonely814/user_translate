@@ -1,0 +1,61 @@
+, 
+"""\""""
+"""", ""keWT","""\""""
+"""",""keWT"""
+keWorldTexture,keWorldTexture
+颜色,Color
+粗糙度,Roughness
+金属,Metallic
+RGB_Value,RGB_Value
+粗糙度值,RoughnessValue
+金属值,MetallicValue
+keWT 设置,keWT Setup
+将选定对象或集合加载到新的 keWT 设置文件。,Loads selected object or collection to new keWT Setup file.\n
+v%.3f ,v%.3f 
+输出路径,Output Path
+输出名称,Output Name
+对象,Coll
+对象,Obj
+应用命名,Apply Naming
+RP,RP
+渲染引擎：,Render Engine:
+AOV：（彩色、粗糙、金属）,"AOV: (Color, Rough, Metal)"
+连接 AOV 输出,Connect AOV Outputs
+深度和尺寸,Depth & Size:
+高度范围,Height Range
+面积大小,Area Size
+分辨率,Resolution:
+1K,1K
+2K,2K
+4K,4K
+8K,8K
+渲染,RENDER
+选定的新 keWT 设置：,New keWT Setup with selected:
+对象,Object
+采集,Collection
+keWT 设置预设分辨率,keWT Set Preset Res
+打开文件浏览器,Open the file browser
+标签类别,Tab Category
+为标签位置选择名称（类别,Choose a name (category) for tab placement
+keWT 默认设置场景路径,keWT Default Setup Scene Path
+用于创建新 keWT 场景的传输过程,Used for transfer process in creating a new keWT scene
+新 keWT 混合文件后缀,New keWT Blend File Suffix
+添加到在 keWT 传输过程中保存的新文件的后缀,The suffix added to the new file saved in the keWT transfer process
+keWT 默认设置混合文件路径：,keWT Default Setup Blend File Path:
+传输场景后缀：,Transfer Scene Suffix:
+选项卡位置（类别）：,Tab Location (Category):
+移除填充切换,Remove Padding Toggle
+在渲染后移除框架衬垫。\无需重新应用命名,Removes Frame-Padding after render. \n(No need to re-apply naming)
+渲染通道基本名称,Render Pass Base Name
+渲染图层后缀名（_normal 等） ,Render Layer suffixes (_normal etc.) 
+高度输出范围,Height Output Range
+负值到正值范围的除法： 0.2 = -0.1，0.1（米）单位,"Divides for negative to positive range: 0.2 = -0.1, 0.1\nMeter unit"
+渲染区域大小,Render Area Size
+设置摄像机和高度参考对象的区域大小（平方）,Sets Area Size for Camera and Height ref object\nMeter unit (Squared)
+AA,AA
+使用抗锯齿节点（代替双分辨率渲染）,Use Anti-Aliasing nodes (instead of double resolution render)
+使用负值范围,Use Negative Range
+高度范围底部使用负值： Z0 = 50% 灰色。否则在 Z0 处（0 = 黑色）,Height range bottom uses negative value: Z0 = 50% Gray. Else at Z0 (0 = Black)
+自定义 X 分辨率,Custom X Resolution
+,
+通过www.DeepL.com/Translator（免费版）翻译,

@@ -1,0 +1,398 @@
+用于注册类和属性的实用模块,Utility module for registering classes and properties
+"将给定模块放入全局 ""imported_modules ""列表中",Puts the given modules into a global 'imported_modules' list
+根据类的层次结构对类排序,Sorts classes based on their hierarchy.
+','
+三维视图,3D View
+属性编辑器,Property Editor
+返回包含所有图标的预览集合。,Returns the preview collection containing all icons.
+从 json 读取偏好设置,Read preferences from a json
+将首选项写入 json,Write preferences into a json
+"""\""""
+"""", ""侧边栏""","""\""""
+"""",""Sidebar"""
+启用/禁用侧边栏选项卡,Enable/disable the Sidebar tab
+属性编辑器,Properties Editor
+启用/禁用属性编辑器内的选项,Enable/disable inside Properties Editor
+属性编辑器样式,Properties Editor Style
+在属性编辑器中将修改器显示为,Display modifiers inside Properties Editor as
+侧边栏样式,Sidebar Style
+以,Display modifiers inside the sidebar as
+弹出窗口样式,Popup Style
+在弹出窗口中将修改器显示为,Display modifiers inside the popup as
+保持侧边栏面板可见,Keep Sidebar Panels Visible
+保持侧边栏面板始终可见,Keep the sidebar panels always visible
+侧边栏类别,Sidebar Category
+每行收藏夹,Favourites Per Row
+每行收藏夹的数量,The number of favourites per row
+从菜单中选择时自动排序收藏夹,Auto Sort Favourites When Choosing From Menu
+从菜单中选择时自动排序收藏夹修饰符。,Automatically sort favourite modifiers when choosing from the menu. 
+添加收藏修改器,Add a favourite modifier
+在收藏夹中使用图标,Use Icons In Favourites
+在收藏修改器按钮中使用图标,Use icons in favourite modifier buttons
+在激活后插入新修改器,Insert New Modifier After Active
+添加新修改器时，将其插入活动修改器之后。\n,"When adding a new modifier, insert it after the active one. \n"
+禁止应用隐藏修改器,Disallow Applying Hidden Modifiers
+禁止应用修改器,Disallow applying modifier
+图标颜色,Icon Color
+插件的颜色,Color of the addon
+反转列表,Reverse List
+持续反转列表顺序（需要重新启动）,Reverse the order of the list persistently (requires restart)
+隐藏常规设置区域,Hide General Settings Region
+隐藏显示修改器名称和显示设置的区域。,Hide the region which shows modifier name and display settings. 
+显示确认弹出窗口,Show Confirmation Popups
+"显示 ""应用所有修改器 ""的确认弹出窗口 ",Show confirmation popups for Apply All Modifiers 
+使用堆栈样式在主布局中显示批操作符,Show Batch Operators In Main Layout With Stack Style
+使用堆栈布局时，在主布局中显示批处理操作符。,"When using the stack layout, show the batch operators in the main layout in "
+显示信息消息,Show Info Messages For
+显示批操作符信息,Show batch operator info messages for
+宽度,Width
+弹出窗口的宽度，不包括导航栏,"Width of the popup, excluding the navigation bar"
+弹出窗口中修改器列表显示的默认/最小行数,Default/min number of rows to display in the modifier list in the popup
+使用对话式弹出窗口,Use Dialog Type Popup
+使用对话框类型弹出式窗口，该窗口不会,Use a dialog type popup which doesn
+自动将小工具作为活动对象的父对象,Auto Parent Gizmos To Active Object
+添加时自动将小工具作为活动对象的父对象,Automatically parent gizmos to the active object on addition
+将小工具尺寸匹配到活动对象,Match Gizmo Size To Active Object
+自动将小工具的尺寸与活动对象的最大尺寸相匹配。,Automatically match the size of the gizmo to the largest dimension of the 
+始终删除小控件,Always Delete Gizmo
+在应用或移除修改器时始终删除小工具对象。,Always delete the gizmo object when applying or removing a modifier. 
+首选项会自动保存到 Blender 配置文件夹中，例如,"Preferences are auto saved into your Blender config folder, eg:"
+      ,      
+风格：,Style:
+接下来的两个设置目前是禁用的，因为在 ,The next two settings are currently disabled because of a bug in 
+弹出窗口,Popup
+修改器列表默认/最小高度,Modifier List Default/Min Height
+重置为默认值,Reset to Defaults
+选择要显示默认值的修改器,Select a modifier to show defaults for
+不支持设置,No supported settings
+pinned_object 的回调函数,Callback function for pinned_object
+类型,Type
+要显示默认设置的修改器,Modifier to show defaults for
+搜索修改器以显示其可定制的默认设置,Search for a modifier to show its customizable default settings
+要添加的修改器,Modifier to add
+搜索修改器并将其添加到堆栈中,Search for a modifier and add it to the stack
+弹出选项卡,Popup Tabs
+获取活动对象，如果某个对象被固定，则获取该对象,"Get the active object or if some object is pinned, get that"
+检查给定的修改器是否为本地修改器,Check if the given modifier is local.
+获取 ml 小工具集合，如果还不存在，则创建它,Get the ml gizmo collection or create it if it doesnt exist yet
+在 3D 光标处定位一个小工具（空）对象,Position a gizmo (empty) object at the 3D Cursor
+定位一个网格小工具对象,Position a lattice gizmo object
+创建一个小工具（网格）对象,Create a gizmo (lattice) object
+ , 
+ML_Gizmo 对象,ML_Gizmo Objects
+为集合中的对象设置显示类型,Set Display Type For Objects In Collection
+为集合中的对象设置显示类型,Set display type for the objects in a collection
+为集合中的对象设置平滑阴影,Set Smooth Shading For Objects In Collection
+为集合中的对象设置平滑阴影,Set smooth shading for the objects in a collection
+在集合中选择对象,Select Objects In Collection
+属性搜索,Attribute Search
+添加小工具,Add Gizmo
+将活动对象作为小工具的父对象,Parent Active Object To Gizmo
+取消设置,Unset
+删除小工具,Delete Gizmo
+将小工具作为活动对象的父对象,Parent Gizmo To Active Object
+重置小工具的变换,Reset Transform For Gizmo
+重置小工具对象的变换,Reset transform for the gizmo object
+切换小工具对象的可见性,Toggle Gizmo Object Visibility
+切换小工具对象的可见性,Toggle gizmo object visibility
+切换网格编辑模式,Toggle Lattice Edit Mode
+切换网格编辑模式,Toggle lattice edit mode
+添加修改器,Add Modifier
+应用修改器对话框,Apply Modifier Dialog
+完成,Done
+对象,Object
+仅应用于活动对象（断开链接）,Apply To Active Object Only (Break Link)
+应用到所有对象,Apply To All Objects
+应用修改器的基本操作,Base operator for applying a modifier
+应用修改器,Apply Modifier
+将修改器应用为形状键,Apply Modifier As Shape Key
+将修改器保存为形状键,Save Modifier As Shape Key
+将修改器应用为新的形状键并保存在堆栈中,Apply modifier as a new shape key and keep it in the stack
+复制修改器,Copy Modifier
+在堆栈的相同位置复制修改器,Duplicate modifier at the same position in the stack
+从菜单添加修改器,Add Modifier from Menu
+打开修改器菜单，为活动对象添加修改器,Open the modifier menu to add a modifier to the active object
+OBJECT_MT_ml_add_modifier_menu,OBJECT_MT_ml_add_modifier_menu
+移动修改器,Move Modifier
+移动到终点,Move to End
+移至起点,Move to Start
+移除修改器,Remove Modifier
+从搜索中添加修改器,Add Modifier from Search
+搜索修改器并将其添加到活动对象。,Search for a modifier and add it to the active object.
+应用所有修改器对话框,Apply All Modifiers Dialog
+活动对象,Active object
+要应用所有对象的所有修改器，首先要将其 ,"In order to apply all modifiers of all objects, first make their "
+应用所有修改器,Apply All Modifiers
+应用所选对象的所有修改器,Apply all modifiers of the selected object(s)
+钉住对象,Pin Object
+钉住/取消钉住对象,Pin/unpin the object
+移除所有修改器,Remove All Modifiers
+移除所选对象的所有修改器,Remove all modifiers from the selected object(s)
+选择对象,Select Object
+设置平滑阴影,Set Smooth Shading
+设置平滑阴影,Set smooth shading
+在实例间同步活动修改器,Synchronize Active Modifier Between Instances
+在实例间同步所有修改器,Synchronize All Modifiers Between Instances
+根据活动对象在实例之间同步所有修改器,Synchronize all modifiers between instances based on the active object
+切换所有修改器的可见性,Toggle Visibility Of All Modifiers
+切换所有修改器面板,Toggle All Modifier Panels
+打开/关闭所有修改器面板,Open/close all modifier panels
+切换可见性,Toggle Visibility
+显示/隐藏活动视图层上的对象,Show/hide the object on the active view layer
+将活动的收藏修改器上移,Move Active Favourite Modifier Up
+上移当前最喜欢的修改器,Move the active favourite modifier up
+下移当前最爱修改器,Move Active Favourite Modifier Down
+下移当前最爱修改器,Move the active favourite modifier down
+移除活动收藏修改器,Remove Active Favourite Modifier
+删除活动收藏修改器,Remove the active favourite modifer
+设置活动收藏修改器插槽,Set Active Favourite Modifier Slot
+设置活动收藏修改器插槽,Set the active favourite modifier slot
+配置收藏修改器,Configure Favourite Modifiers
+选择并排列您最喜爱的修改器,Choose and order your favourite modifiers
+切换收藏修改器,Toggle Favourite Modifier
+切换喜爱的修改器,Toggle a favourite modifier
+导入首选项,Import Preferences
+从其他 Blender 版本导入修改器列表首选项,Import Modifier List preferences from another Blender version
+重置修改器默认值,Reset Modifier Defaults
+对喜爱的修改器排序,Sort Favourite Modifiers
+对最喜欢的修改器进行排序。同时删除收藏夹之间的空槽,Sort the favourite modifiers. Also removes empty slots between favourites
+布尔对象,Boolean Object:
+隐藏,Hide
+平滑阴影,Shade Smooth
+平滑阴影,Shade Flat
+选择,Select
+布尔集合：,Boolean Collection:
+设置要显示的对象：,Set Objects To Display As:
+纹理,Textured
+实心,Solid
+线,Wire
+边界,Bounds
+平滑阴影对象,Shade Objects Smooth
+平面阴影对象,Shade Objects Flat
+选择对象,Select Objects
+编辑网格,Edit Lattice
+仅外部,Outside Only
+将批处理操作符添加到给定的布局中。,Adds the the batch operators into the given layout.
+物理,PHYSICS
+粒子,PARTICLES
+无小玩意,No gizmo
+显示尺寸,Display Size
+重置变换,Reset Transform
+位置：,Location:
+旋转,Rotation:
+父对象,Parent
+小工具至活动对象,Gizmo To Active Object
+活动对象至 Gizmo,Active Object To Gizmo
+选择小工具,Select Gizmo
+修改,Modify
+生成,Generate
+变形,Deform
+物理,Physics
+向活动对象添加过程操作/效果,Add a procedural operation/effect to the active object
+INVOKE_DEFAULT,INVOKE_DEFAULT
+修改器附加功能,Modifier Extras
+在实例之间同步修改器：,Syncronize Modifiers Between Instances:
+仅激活,Active Only
+全部,All
+小工具设置,Gizmo Settings
+转换,Convert
+修改器弹出窗口,Modifier Popup
+无活动对象,No active object
+对象类型错误,Wrong object type
+对象：,Object:
+绑定到,Bind To:
+顶点组,Vertex Groups
+骨骼包络线,Bone Envelopes
+合并,Merge
+首尾,First Last
+距离,Distance
+UV,UVs:
+绝对距离,Absolute Distance
+深度,Depth
+偏移,Offset
+限幅方法：,Limit Method:
+偏移类型,Offset Type:
+斜切类型,Miter Type:
+外,Outer
+内,Inner
+面强度模式,Face Strength Mode:
+交叉类型,Intersection Type:
+轮廓类型,Profile Type:
+操作符类型,Operand Type:
+集合,Collection:
+求解器,Solver:
+评估,Evaluation:
+顶点组,Vertex Group:
+时间映射,Time Mapping:
+轴映射,Axis Mapping:
+向前/向上轴,Forward/Up Axis:
+翻转轴,Flip Axis:
+缓存文件属性：,Cache File Properties:
+修改器属性,Modifier Properties:
+时间,Time:
+渲染程序,Render Procedural:
+速度,Velocity:
+覆盖,Override:
+控制对象,Control Object:
+"设置位于 ""物理 ""选项卡内",Settings are inside the Physics tab
+变形轴,Deformation Axis:
+划界,Delimit:
+纹理,Texture:
+方向,Direction:
+空间,Space:
+纹理坐标,Texture Coordinates:
+骨骼,Bone:
+UV 贴图,UV Map:
+边缘角度,Edge Angle
+锐边,Sharp Edges
+粒子 UV,Particle UV
+刷新,Refresh
+重置,Reset
+重新定位,Recenter
+分配,Assign
+解除绑定,Unbind
+轴,Axis:
+Lambda：,Lambda:
+因子,Factor
+边界,Border
+衔铁,Armature:
+绑定,Bind
+XYZ,XYZ
+二等分,Bisect:
+翻转,Flip:
+镜像对象,Mirror Object:
+选项,Options:
+裁剪,Clipping
+纹理,Textures:
+翻转 U,Flip U
+翻转 V,Flip V
+翻转 UDIM,Flip UDIM
+预览,Preview
+雕刻,Sculpt
+渲染,Render
+UV 平滑,UV Smooth:
+边界平滑,Boundary Smooth:
+细分,Subdivide
+简单细分,Subdivide Simple
+线性细分,Subdivide Linear
+删除更高,Delete Higher
+取消细分,Unsubdivide
+重塑,Reshape
+应用基础,Apply Base
+重建细分,Rebuild Subdivisions
+打包外部,Pack External
+保存外部...,Save External...
+不使用 OceanSim 修改器,Built without OceanSim modifier
+波浪,Waves:
+尺度,Scale
+对齐,Alignment
+方向,Direction
+覆盖范围,Coverage
+泡沫数据层名称：,Foam Data Layer Name:
+生成喷雾,Generate Spray
+反转喷雾,Invert Spray
+喷雾数据层名称：,Spray Data Layer Name:
+删除烘烤,Delete Bake
+开始,Start
+结束,End
+缓存路径：,Cache path:
+粒子系统,Particle System
+从创建：,Create From:
+何时显示粒子,Show Particles When:
+数量,Amount
+沿路径创建,Create Along Paths
+随机,Random
+索引图层,Index Layer
+数值层,Value Layer
+设置可在粒子上下文中找到,Settings can be found inside the Particle context
+轴,AxisOb
+目标,Target:
+模式,Mode:
+限制,Limit
+剔除面：,Cull Faces:
+轴，原点：,"Axis, Origin:"
+锁定,Lock:
+变形,Deform:
+褶皱,Crease:
+边缘,Rim
+斜面,Bevel:
+材料指数偏移,Material Index Offset:
+外壳顶点群,Shell Vertex Group:
+轮辋顶点组,Rim Vertex Group:
+渲染：,Render:
+自适应,Adaptive
+级别,Levels
+视口,Viewport:
+细分,Subdivisions:
+视口,Viewport
+最终切割率,Final Dicing Rate:
+投影仪,Projectors
+纵向 X,Aspect X
+纵向 Y,Aspect Y
+比例 X,Scale X
+比例 Y,Scale Y
+从,From:
+至,To:
+骨骼,Bone
+运动,Motion:
+X,X
+Y,Y
+Z,Z
+生命,Life
+阻尼,Damping
+位置,Position:
+落差,Falloff
+纹理,Texture
+不带重网格修改器,Built without Remesh modifier
+影响/遮罩选项：,Influence/Mask Options:
+全局影响：,Global Influence:
+顶点群遮罩,Vertex Group Mask:
+纹理遮罩：,Texture Mask:
+使用通道：,Use Channel:
+默认权重：,Default Weight:
+顶点组 A：,Vertex Group A:
+默认权重 A：,Default Weight A:
+混合模式：,Mix Mode:
+顶点组 B,Vertex Group B:
+默认权重 B,Default Weight B:
+混合设置：,Mix Set:
+目标对象,Target Object:
+距离,Distance:
+创建电枢,Create Armature
+选定顶点,Selected Vertices:
+标记松动,Mark Loose
+清除松动,Clear Loose
+标记根,Mark Root
+均衡半径,Equalize Radii
+对称轴,Symmetry Axes:
+四轴法,Quad Method:
+Ngon 方法,Ngon Method:
+最小顶点,Minimum Vertices:
+UV 轴,UV Axis:
+偏移,Offset:
+缩放,Scale:
+旋转,Rotate:
+厚度,Thickness
+折痕边缘,Crease Edges
+折痕重量,Crease Weight
+均匀厚度,Even Thickness
+相对厚度,Relative Thickness
+边界,Boundary
+替换原始材料,Replace Original
+材料偏移,Material Offset
+生成数据层,Generate Data Layers
+加权模式：,Weighting Mode:
+加权,Weight
+阈值,Threshold
+分辨率模式,Resolution Mode:
+纹理映射：,Texture mapping:
+采样半径,Sample Radius
+中层,Mid Level
+输出,Outputs
+修改器,Modifiers
+修改器,modifier
+ 修改器, Modifiers
+移除,Remove
+取消选择,Deselect
+,
+通过www.DeepL.com/Translator（免费版）翻译,

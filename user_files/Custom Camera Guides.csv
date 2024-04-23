@@ -1,0 +1,151 @@
+"""\""""
+"""", ""指南颜色""","""\""""
+"""",""Guides Color"""
+颜色选择器,color picker
+选定的指南颜色,Selected Guide Color
+锁定的指南颜色,Locked Guide Color
+ , 
+','
+指南字母,Guides Alpha
+应用,Apply
+热键,Hotkeys
+通用 3D 视图,3D View Generic
+自定义相机向导,Custom Camera Guides
+面板在相机视图中工作,Panel works in Camera View
+视口：,Viewport:
+隐藏,Hide
+锁定,Lock
+向导,Guides
+自动,AUTO
+更新指南,Update Guides
+恢复颜色,Restore Color
+添加指南,Add Guide
+添加新指南,Add new Guide
+添加并抓取指南,Add and Grab Guide
+添加新指南并抓取,Add new Guide and Grab it
+删除指南,Remove Guide
+移除指南,Removes Guide
+切换指南可见性,Toggle Guides Visibility
+切换指南锁定,Toggle Guides Lock
+操作员,Operators
+指南操作器,Guides Operators
+操作类型,Operation Type
+自定义指南小工具,Custom Guide Widget
+移动指南,Move Guide
+添加指南小工具,Add Guide Widget
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,

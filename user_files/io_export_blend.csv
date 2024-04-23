@@ -1,0 +1,36 @@
+将部分或全部 Blender 场景导出为 .blend 文件,Export some or all of your Blender scene to a .blend file
+ , 
+"""\""""
+"""", ""导出 Blender","""\""""
+"""",""Export Blender"""
+导出选定对象,Export Selected
+将选定对象导出到 .blend 文件,Export selected objects to .blend file
+导出为集合,Export as Collection
+在导出前将选定对象打包成一个集合,Bundle selected objects in a collection before exporting
+集合名称,Collection Name
+导出集合的名称,Name of exported collection
+标记为资产,Mark as Asset
+将选定对象标记为资产，以便在资产浏览器中查看,Mark selected objects as assets for visibility in the Asset Browser
+反向链接,Backlink
+用导出对象的链接替换选中对象,Replace selection with a link to the exported object
+将选定的集合导出为单独的 .blend 文件,Export a selected collection to a separate .blend file
+导出 Blender 素材集,Export Blender Collection
+"在 ""资产浏览器 ""中将选中的集合标记为可见资产",Mark selected collection as an asset for visibility in the Asset Browser
+将选定的节点导出到单独的 .blend 文件中,Export selected nodes to a separate .blend file
+导出 Blender 节点,Export Blender Nodes
+将选中的节点导出到 .blend 文件。否则，导出活动节点树,"Export selected nodes to .blend file. Otherwise, export the active node tree"
+导出为节点组,Export as Node Group
+在导出前将选定对象捆绑到一个节点组中,Bundle selected objects in a node group before exporting
+节点组名称,Group Name
+导出节点组的名称,Name of exported node group
+是否为组合器,Is Compositor
+如果导出的是组合器节点，则应为 True,Should be True if exporting Compositor nodes
+用指向导出节点组的链接替换选中内容,Replace selection with a link to the exported node group
+','
+文件路径,File Path
+默认情况下导出文件的保存位置。在开头使用 // 使其相对于当前混合文件,Where the export will be saved by default. Use // at the beginning to make it relative to the current blend file
+Blender (.blend),Blender (.blend)
+INVOKE_DEFAULT,INVOKE_DEFAULT
+导出到 .blend,Export to .blend
+,
+通过www.DeepL.com/Translator（免费版）翻译,

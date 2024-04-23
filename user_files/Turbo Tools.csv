@@ -1,0 +1,326 @@
+将组输入重命名为从组外输入的插座名称,renames group inputs to names of sockets feeding them from outside the group
+ , 
+"""\""""
+"""", ""从信号源重命名编组输入""","""\""""
+"""",""Rename group inputs from source"""
+渲染音频...,Render Audio...
+查看渲染,View Render
+查看动画,View Animation
+锁定界面,Lock Interface
+渲染图像,Render Image
+渲染动画,Render Animation
+','
+文件输出节点工具,File Output Node Tools
+创建和连接文件输出,create and wire file output
+重新保存当前帧,resave current frame
+重新保存所有帧,resave all frames
+性能工具,Performance Tools
+插入播放质量节点,insert playback quality node
+重放质量,playback quality
+缓存工具,Cache Tools
+缓存/解缓存所选节点,Cache/Uncache the selected nodes
+刷新所有,refresh all
+刷新所选节点和上游节点,refresh selected and upstream
+清除所选缓存,clear cache of selected
+新缓存分辨率,new_cache_resolution
+群组工具,Group Tools
+发布,Publishing
+发布,Publish
+发布当前帧,publish current frame
+发布动画,publish animation
+消除时间闪烁,temporal flicker removal
+包含文件输出节点,include file output nodes
+快速发布,quick publish
+查看已发布图像,View published image
+查看发布的动画,View published animation
+涡轮工具,Turbo Tools
+渲染前检查（渲染前使用）,pre-render check (use before rendering)
+INVOKE_DEFAULT,INVOKE_DEFAULT
+设置涡轮渲染,setup turbo render
+刷新所选,refresh selected
+重新保存选定的文件输出节点,resave selected file output nodes
+渲染静态,render still
+渲染动画,render animation
+测试,tests shit
+上下文信息,context info
+转移顶点权重,transfer vertex weights
+清除订阅,clear subscriptions
+测试,test
+模态线程,modal thread
+固化,Solidify
+刷新所有标准缓存节点,refreshes all standard cache nodes
+将 mute_upstream 或 mute_downstream 设置为 True 也会使这些节点静音。,"mutes everything apart from upstreams, downstream, composite nodes, and the selected nodes.  setting either mute_upstream or mute_downstream to True will also mute those nodes"
+在处理大文件时，下面的步骤太慢,below is too slow with large files
+返回路径，但会更改路径分隔符以匹配操作系统,returns the path with the path seperators changed to match the OS
+"return hash_without_prefix_frame_and_extension, full_without_frame_and_extension","return  hash_without_prefix_frame_and_extension, full_without_frame_and_extension"
+返回散列下游节点时无需检查的属性列表,returns a list of attributes that don't need to be checked when hashing downstream nodes
+传递从堆栈末尾开始打印的行数,pass in the number of line to print from the end of the stack
+更新所有缓存节点，并对标准缓存节点执行额外检查，以确保下游节点未发生变化，如果发生变化，则重新缓存并删除旧的缓存文件,"updates all cache nodes, and performs additional checks on standard cache nodes to make sure the downstream nodes havent changed, and if they have it recaches them and deletes the old cache file"
+.Turbo_data_Group,.Turbo_data_Group
+.Turbo_world_data_group,.Turbo_world_data_group
+.Turbo_world,.Turbo_world
+.Turbo_Diff,.Turbo_Diff
+.Turbo_Diff_2,.Turbo_Diff_2
+.Turbo_Diff_3,.Turbo_Diff_3
+.Turbo_surface_rec_z,.Turbo_surface_rec_z
+.Turbo_z_vector_group,.Turbo_z_vector_group
+.Turbo_z_single_channel,.Turbo_z_single_channel
+.Turbo_Min,.Turbo_Min
+最小值,Min
+.Turbo_Max,.Turbo_Max
+最大值,Max
+图像,Image
+for_turbo_render true 将把节点添加到 global_vars.turob_render_nodes_to_delete 中。 Pass_node_a_name 将用于新节点的第一部分，以避免冲突（可能没有必要）,for_turbo_render true will add the node to global_vars.turob_render_nodes_to_delete.  Pass_node_a_name will be used for the first part of the new node to avoid conflicts (probably not necessary)
+固化,solidify
+创建文件输出节点，并自动将其连接到所选节点,creates file output node and automatically wires it to the selected node
+目录,Directory
+缓存/解缓存,Cache/Uncache
+通过缓存所选节点下游的所有节点，使合成器快速运行。,make the compositor rapid by caching all nodes downstream from the selected nodes.
+清除所选节点的缓存,Clear cache of selected nodes
+合并渲染通道,Combine render passes
+暂时关闭所有缓存，并将全质量动画发布到属性面板 Blenders 输出部分指定的位置/格式。,Temporarily disables all cache and publishes the full quality animation to the location/format specified in Blenders output section of the properties panel.
+暂时禁用所有缓存，并将完整质量的图像发布到属性面板 Blenders 输出部分中指定的位置/格式。,Temporarily disables all cache and publishes the full quality image to the location/format specified in Blenders output section of the properties panel.
+刷新所有缓存节点,refreshes all cache nodes
+为场景中所有未静音的渲染层节点加载最新的渲染缓存，如果缺少渲染层缓存节点，则创建必要的渲染层缓存节点。 同时更新节点树中的任何标准缓存节点。\n\n,"Loads the latest render cache for all unmuted render layer nodes in the scene, and creates the necessary render layer cache nodes if missing.  Also updates any standard cache nodes in the node tree.\n\n"
+刷新所有上游节点,refresh all upstream
+刷新所选节点上游的所有缓存节点。 这样做是为了避免重新计算其他缓存节点，而这些节点并不在所选节点的上游。,refreshes all cache nodes upstream of the selected node.  This is to avoid recalculating other cache nodes that aren
+涡轮工具渲染动画,turbo tools render animation
+使用涡轮工具渲染动画,renders the animation using turbo tools
+涡轮工具渲染静态图像,turbo tools render still image
+使用涡轮工具渲染静态图像,renders a still image using turbo tools
+重新保存选中（当前帧）,resave selected (current frame)
+重新保存所选内容（所有帧）,resave selected (All Frames)
+涡轮工具测试操作员,turbo tools test operators
+测试内容 最终用户不应看到这些内容,test stuff end user shouldnt see this
+渲染面板,THREEDI_Turbo_Render_Panel
+渲染,render
+Turbo 工具场景选项,Turbo Tools Scene Options
+生成时间稳定数据,generate temporal stabilisation data
+物体识别,object recognition
+表面识别,surface recognition
+深度感知,depth perception
+可变容差,variable tolerance
+场景缓存文件夹,Scene Cache Folder
+涡轮渲染选项,Turbo Render Options
+启用,Enable
+去噪模式,Denoising Mode
+样本预设,Sample Presets
+非常脏,Very Dirty!
+室内/重度 GI,Interior/Heavy GI
+动画效果,Animation
+增强纹理/反射,Enhance Textures/reflections
+增强纹理,Enhance Textures
+自动增强,Auto Enhanced
+仅最终渲染,final render only
+循环加速,Cycles Speedup
+(视口和最终渲染）,(viewport & final render)
+防止萤火虫,Prevent Fireflies
+优化 HDRI,Optimise HDRI
+相机可见,Visible to Camera
+曲面,Surfaces
+漫反射,Diffuse
+光泽/金属,Glossy/Metal
+透射,Transmission
+发射,Emission
+SSS,SSS
+世界环境,World Environment
+仅在传输后面,Only behind Transmission
+重度 DOF/运动模糊,Heavy DOF/Motion Blur
+体积,Volume
+遮挡,occludes
+漫反射,diffuse
+光泽,glossy
+透射,transmission
+发射,emission
+世界环境,world Environment
+解决问题,Problem Solving
+漩涡状/斑点状伪影,swirly/blotchy artefacts
+去噪后的亮像素,bright pixels after denoising
+Turbo Comp 选项,Turbo Comp Options
+缓存选项,Cache Options
+缓存选项,cache options
+场景缓存文件夹,scene cache folder
+动画,animation
+验证缓存,validate cache
+缓存/取消缓存,cache/uncache
+新缓存分辨率,new cache resolution
+刷新选定/上游,refresh selected/upstream
+文件输出节点工具,File Output Node Utils
+创建和布线,create and wire
+仅有线,only wired
+格式,Format
+性能,Performance
+添加缓存调整节点大小,add cache resize node
+背景大小,backdrop size
+允许查看器,allow viewer
+消除时间闪烁,remove temporal flicker
+时态选项,Temporal Options
+时态智能,Temporal Intelligence
+时间智能,temporal intelligence
+仅表面,surfaces only
+时态化锯齿,temporalise aliasing
+运动分析,motion analysis
+最大偏差,max deviation
+平滑,smooth
+增量,increment
+容差,tolerance
+纠正错误,correct errors
+允许变化,allowable change
+自适应,adaptive
+单独纠正 RGB,correct rgb seperately
+查看已发布,View Published
+缓存文件夹,turbo_cache_folder
+当前场景中 Turbo Tools 缓存的存储位置,Where to store Turbo Tools cache for the current scene
+对于渲染动画的每一帧，磁盘上将为每个唯一的渲染层节点和每个用户缓存节点保存缓存文件（对于合成完整动画非常有用）。,"Enabled\n\nFor every frame of the rendered animation, cache files will be kept on disk for every unique render layer node and each user cache node (useful for comping full animations)\n\n"
+项目缓存文件夹,project cache folder
+设置存储缓存文件的默认位置。 这在创建新场景时使用。 在这里为每个新项目设置它，以避免重复设置。 如果有\,Sets the default location to store the cache files.  This is used when creating a new scene.  Set it here for each new project to save you having to do it repeatedly.  If you have \
+渲染层缓存位深度,render layer cache bit depth
+设置为渲染层节点创建的缓存文件的位深度。 16 位（半浮点）或 32 位（全浮点）,"sets the bit depth of the cache files that are created for the render layer nodes.  16 bit (half float), or 32 bit (full float)"
+非渲染层缓存位深度,non render layer cache bit depth
+设置为非渲染层节点创建的缓存文件的位深度。 16 位（半浮点）或 32 位（全浮点）,"sets the bit depth of the cache files that are created for non render layer nodes.  16 bit (half float), or 32 bit (full float)"
+合成器缓存选项,Compositor Cache Options
+合成器性能选项）,Compositor Performance Options)
+合成器性能选项,Compositor Performance Options
+标准缓存位深度,standard cache bit depth
+保留缓存,keep_cache
+文件格式,file format
+选择要保存到文件输出节点的文件格式,choose the file format for the file output node to save to
+渲染设置预置,render setting presets
+警告 - 样本预置全部使用自适应采样。 在较高设置下，自适应采样可能会导致暗部出现漩涡状伪影，如果遇到这种情况，请参阅手册了解解决方法,"WARNING - Sample presets all use adaptive sampling.  Adaptive sampling can lead to swirly artefacts in dark areas on the higher settings, if you experience this refer to the manual for a workaround"
+涡轮模式,turbo mode
+\所有模式都会保存经过去噪处理的合并图像通道，但 Ultra 还会保存所有经过去噪处理的通道供后期使用。,"\nAll modes save the denoised combined image pass, but Ultra also saves all denoised passes for use in post.\n"
+only_linked,only_linked
+从选定节点到文件输出节点的输出插座，如果已经与节点树中的其他节点连接，则只与这些插座连接,only wire up output sockets from the selected node/s to the file output node if they already have a wire to elsewhere on the node tree
+firefly_removal,firefly_removal
+\通过箝位减少动态范围来防止萤火虫（亮白点）。可显著加快渲染速度。\n,\nPrevents fireflies (bright white dots) by reducing the dynamic range with clamping. Can speed up rendering quite dramatically.\n
+室内模式,interior_mode
+\n优化室内场景和有大量间接照明的场景的样本预设。在所有场景类型中，它也可用于在不增加采样的情况下提高质量,\nOptimises sample presets for interior scenes and scenes that also have have a lot of indirect lighting. In all scene types it can also be used to improve quality without increasing samples
+优化光源,optimise_hdri
+\n优化重要性贴图，使渲染速度提高 10 倍，并减少渲染过程中的内存消耗（取决于场景）。 \n如果发现音量噪点增加，请禁用。 \n更高分辨率的 HDRI 对性能的提升会更明显。,\nOptimises the importance map for up to 10x faster rendering and less memory consumption during rendering (scene dependant).  Disable if you notice increased noise in volumes.\n\nOnly enable if your HDRI is 4k or above.  Performance improvements will be more noticable with higher resolution HDRI\
+在播放过程中验证缓存,validate_cache_during_playback
+在播放过程中，如果下游发生变化，它会自动检查整个树并重新计算单个缓存节点。速度极慢，因此不用\,"This will automatically check the entire tree and recalculate individual cache nodes during playback if something downstream has changed. Extremely slow, so it\"
+在发布过程中执行文件输出,execute_file_outputs_during_publish
+如果希望未静音的文件输出节点在发布时生成新图像，则启用此选项,Enable if you want the unmuted file output nodes to generate new images during publish
+quick_publish,quick_publish
+使用缓存分辨率并提升渲染分辨率\n\n,use cache resolution and upscale to render resolution.\n\n
+turbo_render,turbo_render
+启用涡轮渲染。 这将大大提高渲染效果,Enable turbo rendering.  This will provide dramatically better results
+clean_color_passes,clean_color_passes
+如果即使启用了涡轮渲染，您的渲染看起来仍有颗粒感（很可能是使用了 SSS 材质），那么请尝试启用此功能,"If your render looks grainy even with turbo render enabled (most likely if you have SSS materials), then try enabling this"
+优化动画,optimise_for_anim
+启用此选项可优化动画的样本预置。 这可能需要更长的时间，但应有助于确保获得更好的效果。,"Enable this to optimise the sample presets for animations.  May take longer, but should help to ensure better results."
+涡轮几何体,turbo_geo
+如果摄像机可以看到非体积几何体，则启用此项。 如果不需要更快的渲染速度，则将其关闭！,Enable if non-volumetric geometry will be visible to the camera.  Turn off if not needed for an even faster render!
+涡轮差异,turbo_diff
+如果摄像机可以看到漫反射材质，则启用该选项。 如果不需要，请关闭以获得更快的渲染速度！,Enable if diffuse materials will be visible to the camera.  Turn off if not needed for an even faster render!
+启用光泽材质。 如果不需要，请关闭以加快渲染速度！,Enable if glossy materials will be visible to the camera.  Turn off if not needed for an even faster render!
+透射,turbo_trans
+如果在视图中传输（玻璃、水等），则启用。 如果不需要则关闭，以加快渲染速度！,"Enable if transmission in view (glass,water,etc).  Turn off if not needed for an even faster render!"
+涡轮体积,turbo_volume
+启用视图中的体积着色器（原理体积、体积吸收、体积散射）。如果不需要，请关闭以加快渲染速度！,"Enable if volume shaders in view (principled volume, volume absorption, volume scatter). Turn off if not needed for an even faster render!"
+发射,turbo_emission
+如果视图中的材质具有发射功能，则启用该功能。如果不需要，请关闭以加快渲染速度！,Enable if materials with emission in view. Turn off if not needed for an even faster render!
+涡轮增压,turbo_env
+场景有可见的世界环境（hdri 等）。如果不需要，请关闭以加快渲染速度！,Scene has visible world environment (hdri etc). Turn off if not needed for an even faster render!
+发射,turbo_emit
+场景有可见的发射材料（hdri 等）。如果不需要，请将其关闭，以加快渲染速度！,Scene has visible emission materials (hdri etc). Turn off if not needed for an even faster render!
+env_only_behind_glass,env_only_behind_glass
+如果世界环境只能通过透射材料（如玻璃或水）看到，则启用该选项以确保尽可能快的渲染时间。,"If the world environment is ONLY visible through a transmissive material such as glass or water, enable to ensure render time is as fast as possible \n\n"
+emit_behind_glass,emit_behind_glass
+如果发射只能通过透射材料（如玻璃或水）看到，则启用该选项,Enable if an emission is ONLY visible through a transmissive material such as glass or water\n\n
+env_behind_volume,env_behind_volume
+如果世界环境着色器（hdri 等）通过体积可见，则启用。如果不需要更快的渲染速度，则关闭！,Enable if the world environment shader (hdri etc) is visible through the volume. Turn off if not needed for an even faster render!
+幕后发射,emission_behind_volume
+"如果通过 ""体 ""可以看到 ""发射""，则启用该选项。如果不需要，请关闭此选项，以加快渲染速度！",Enable if there is emission visible through the volume. Turn off if not needed for an even faster render!
+geometry_behind_volume（隐藏几何体,geometry_behind_volume
+如果有几何体通过体积可见，则启用。如果不需要，请关闭此选项，以加快渲染速度！,Enable if there is geometry visible through the volume. Turn off if not needed for an even faster render!
+透射体积,trans_behind_volume
+体积后面的几何体具有透射材质（玻璃、水等）。禁用此选项会加快渲染速度，但可能会在透过体积可见的透射表面上产生噪点,"Geometry behind volume has a transmissive material (glass,water,etc). Leaving disabled will result in a faster render but may cause noise on transmissive surfaces visible through volumes"
+diff_behind_volume,diff_behind_volume
+体后面的几何体具有漫反射元素的材质（原则性 bsdf、漫反射 bsdf 等）。禁用此选项将加快渲染速度，但可能会导致通过体可见的光照/阴影产生噪点。,"Geometry behind volume has a material with a diffuse element(principled bsdf, diffuse bsdf, etc).Leaving disabled will result in a faster render but may cause noisy lighting/shadows visible through volumes"
+体积后的光泽度,gloss_behind_volume
+体积背后的几何体具有透射材质（启用透射原则、玻璃 bsdf、折射 bsdf）。禁用此功能会加快渲染速度，但可能会导致通过体块看到嘈杂的反射效果,"Geometry behind volume has a transmissive material (principled with transmission enabled, glass bsdf, refraction bsdf). Leaving disabled will result in a faster render but may cause noisy reflections visible through volumes"
+重影,heavy_dof
+如果您的相机有较重的 DOF，并且即使启用了 Turbo 渲染功能，测试渲染也会产生颗粒，则启用此选项。,Enable if your camera has heavy DOF and the test renders have grain even with Turbo Render enabled.
+turbo_sss,turbo_sss
+如果摄像机可以看到 SSS（次表面散射材质），则启用该选项。 如果不需要更快的渲染速度，请将其关闭！,Enable if SSS (sub surface scattering material) is visible to the camera.  Turn off if not needed for an even faster render!
+turbo_render_HQ,turbo_render_HQ
+使用,Use if you\
+turbo_render_enhance_textures （增强纹理,turbo_render_enhance_textures
+\n增强纹理和光泽度信息，以避免在低噪点模式下丢失细节，从而使渲染结果更接近于高噪点和超噪点。 如果启用此功能后物体边缘出现噪点，请打开,"\nEnhances textures and glossy information to help avoid loss of detail in lower denoise modes, so the result is closer to high and ultra.  May also improve shadows in draft mode.\n\nIf noise around the edge of objects appears when this is enabled, turn on the \"
+标准缓存分辨率,standard_cache_resolution
+\n当点击上面的,\nWhen clicking the above \
+时间发布,temporal_publish
+尝试消除帧间的闪烁。 只能用于去噪数据。 如果与非循环渲染一起使用，请确保它,"Attempts to removes flicker between frames.  Should only be used on denoised data.  If using with non cycles renders, ensure it\"
+运动模糊警告,motion_blur_warning
+某些场景会在此场景下渲染,Some scenes that will be rendered from this scene\
+时间表面识别精度（Temporal_surface_recognition_precision,temporal_surface_recognition_precision
+\确保只有来自物体上同一区域的像素才会被渲染。,\nMakes sure only pixels from the same area on the object\
+创建时态数据,create_temporal_data
+如果您打算在此场景中使用时间稳定功能，请启用该功能,enable if you intend to use temporal stabilisation for this scene
+生成物体识别旁路,generate_object_recognition_pass
+如果打算使用时间稳定技术并希望使用物体识别选项，请启用,enable if you intend to use temporal stabilisation and want the option to use object recognition
+生成表面识别旁路,generate_surface_recognition_pass
+如果打算使用时间稳定技术并希望使用曲面识别选项，请启用,enable if you intend to use temporal stabilisation and want the option to use surface recognition
+生成深度感知旁路,generate_depth_perception_pass
+如果打算使用时间稳定技术并希望使用深度感知选项，请启用,enable if you intend to use temporal stabilisation and want the option to use depth perception
+生成可变容差旁路,generate_variable_tolerance_pass
+如果打算使用时间稳定技术并希望使用可变容差选项，请启用,enable if you intend to use temporal stabilisation and want the option to use variable tolerance
+\n每远离摄像机一个场景单元，容差会增加多少,\nHow much to increase the tolerance by for every scene unit away from the camera
+\n随着与摄像机距离的增加，容差也会增加。 如果远处的物体仍在闪烁，但您需要保持较低的容差以避免在靠近摄像机的几何体上出现伪影，请启用该选项。,"\nThe tolerance will increase as the distance from the camera increases.  Enable if distant objects are still flickering, but you need to keep the tolerance low to avoid artefacts on geometry near to the camera"
+\n稳定后的像素将根据它们与容差阈值的接近程度与非稳定像素混合。 如果像素接近容差阈值，那么该像素将主要是原始像素。 如果像素远低于容差阈值，则大部分将被稳定。 这有助于避免明显的过渡。0.02 通常是个不错的值,"\nThe stabilised pixels will be blended with the unstabilised pixels based on how close to the tolerance threshold they are.  If a pixel is close to the tolerance threshold then the pixel will be mostly the original pixel.  If the pixel is far below the tolerance, it will be mostly stabilised.  Can help avoid obvious transitions. 0.02 is usually a good value"
+时间表面识别,temporal_surface_recognition
+\n如果轮子或齿轮等复杂运动物体上出现伪影，而运动分析又无法解决，则使用此功能。,\nUse if artefacts appear on complex moving objects such as wheels or cogs and motion analysis was unable to solve.
+时间表面识别容差,temporal_surface_recognition_tolerance
+\n增大容差以允许周围的曲面点对稳定做出贡献。 如果有，可能需要增加,\nIncrease to allow surrounding surface points to contribute to stabilisation.  May need to be increased if there\
+时间表面识别误差,temporal_surface_recognition_falloff
+时间表面识别的 z 容差,temporal_surface_recognition_z_tolerance
+时间表面识别 Z 公差倍数,temporal_surface_recognition_z_tolerance_multiplier
+时间对象识别,temporal_object_recognition
+\n不需要使用，但如果其他方法都无效，在物体周围出现伪影时可以尝试使用。 可能会降低小物体或远处物体的稳定质量。,"\nShould never be necessary, but if all else fails try this if artefacts appear around objects.  May reduce stabilisation quality on small or distant objects."
+时间物体识别公差,temporal_object_recognition_tolerance
+\n如果物体体积较大，则使用较高值。,\nUse higher value if theres a volum
+时间物体识别误差,temporal_object_recognition_falloff
+时间物体识别公差,temporal_object_recognition_z_tolerance
+物体的 Z 公差倍数,temporal_object_z_tolerance_multiplier
+only_surfaces（仅限时间曲面,temporal_only_surfaces
+\防止修改世界环境等非几何元素。 该选项应始终开启，因为只有几何体才有稳定所需的矢量数据。,"\nprevents non geometric elements such as the world environment from being modified.  This should always be left on, because only geometry has the necessary vector data needed for stabilisation"
+容错,error_tolerance
+\n通过查找变化过大的像素来发现人工痕迹，然后将该像素还原为原始值。 如果启用了平滑度，它可以略微混入不正确的值，以试图降低过渡的可见度,"\nFinds artefacts by looking for pixels that have changed too much, and then reverts that pixel to the original value.  If smoothness is enabled, it can slightly mix in the incorrect value to try reduce the visiblity of transisitons"
+容差,error_tolerance_tolerance
+\n任何变化超过此值的像素都将被未时态化的像素取代。(0-1) 0 表示不保留时态化，1 表示保留所有时态化。 场景中的闪烁越多，这个值就需要越大，因为去除闪烁会导致未时态化像素和时态化像素之间的差异很大。,"\nAny pixel that has changed more than this value will be replaced by the untemporalised pixel. (0-1) 0 means no temporalisation will be kept, 1 means all temporalisation will be kept.  The more flicker your scene has, the higher this value needs to be, because flicker removal will cause a big difference between untemporalised and temporalised pixels."
+误差容限,error_tolerance_falloff
+error_z_tolerance,error_z_tolerance
+时间化误差 Z 宽容倍数,temporal_error_z_tolerance_multiplier
+误差容忍度,error_tolerance_rgb_seperately
+\n单独校正 RGB 通道，可能会获得更好的效果,\ncorrect the RGB channels individually for potentially better results
+运动分析,motion_analysis
+\n分析物体的运动以避免伪影。 消除除镜子和玻璃外的所有伪影。应始终使用此功能。,\nanalyses the movement of objects to avoid artefacts.  Eliminates all artefacts except in mirros and glass. This should always be used.
+motion_analysis_allowable_pixel_deviation （运动分析允许的像素偏差,motion_analysis_allowable_pixel_deviation
+\n如果帧与帧之间的预期运动差异超过此值，则倾向于原始像素。 以像素为单位,\nFavour original pixels if the expected movement between frames differs by more than this value.  Measured in pixels
+运动分析平滑度,motion_analysis_smoothness
+运动分析允许的像素偏差 z_tolerance,motion_analysis_allowable_pixel_deviation_z_tolerance
+时间运动 Z 误差倍增器,temporal_motion_z_tolerance_multiplier
+深度感知,depth_perception
+\n考虑各帧中每个像素与摄像机的距离。有助于消除一般伪影以及镜子和玻璃中的伪影,\nConsiders the distance of each pixel from the camera across frames. Helps to eliminate general artefacts and artefacts in mirrors and glass
+深度感知允许的像素偏差,depth_perception_allowable_pixel_deviation
+\n像素在各帧之间远离或靠近摄像机的最大距离。 移动幅度过大会导致像素无法稳定以避免产生伪像。过低则无法稳定像素，0.5 通常是个不错的值,"\nMaximum distance a pixel can move away or toward the camera between frames.  Greater movement will result in the pixel not being stabilised to avoid artefacts. Too low and nothing will be stabilised, 0.5 is usually a good value"
+深度感知平滑度,depth_perception_smoothness
+深度感知自适应,depth_perception_adaptive
+深度感知 z 容差倍数,depth_perception_z_tolerance_multiplier
+仅时间表面阈值,temporal_only_surfaces_threshold
+\稳定几何体与世界环境之间的抗锯齿区域。 0 = 不稳定抗锯齿，1 表示稳定所有抗锯齿（数值过高可能会产生伪影）,"\nStabilise anti-aliased areas between geometry and world environment.  0 = dont stabilised anti-aliasing, 1 means stabilise all anti-aliasing (high values may introduce artefacts)"
+时间容忍度乘数（temporal_z_tolerance_multiplier,temporal_z_tolerance_multiplier
+\n根据像素增加多少容差乘数,"\nHow much to increase the tolerance multiplier by, based on a pixel\"
+漩涡伪影,swirly_artifacts
+关闭自适应采样以避免漩涡状伪影，这种伪影有时会因为自适应采样留下了人工智能认为应该保留的图案而产生。,Turns off adaptive sampling to avoid swirly artefacts that can sometimes occur as a result of adaptive sampling leaving patterns that the AI assumes should be kept. (most likely due to a volume that doesn\
+亮像素去噪后,bright_pixels_after_denoising
+\n在 SDR 而不是 HDR 中去噪光泽。 通常只有在有,\nDenoises the glossy passes in SDR instead of HDR.  This problem only usually occurs if there\
+allow_backdrop_during_stabilisation （在稳定过程中允许回放,allow_backdrop_during_stabilisation
+启用后，用户界面将被锁定。 可能会导致 Blender 在某些系统上崩溃，如果发生这种情况，请在发布前禁用该选项。,"Enable to see the stabilisation progress in the image editors viewer mode, UI will become locked when enabled.  May cause Blender to crash on some systems, if that happens disable before publishing in future"
+temporal_iq_enable,temporal_iq_enable
+\n启用/禁用临时 iq,\nenable/disable temporal iq
+temporal_options_scene,temporal_options_scene
+"传递一个包含 [function,arg,arg,arg 等] 的列表","pass in a list containing [function,arg,arg,arg,etc]"
+,
+通过www.DeepL.com/Translator（免费版）翻译,

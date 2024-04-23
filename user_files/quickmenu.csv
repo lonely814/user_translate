@@ -1,0 +1,136 @@
+快速菜单,Quick Menu
+编辑菜单项,Edit Menu Items
+ , 
+','
+qm.edit_items,qm.edit_items
+重新载入菜单项,Reload Menu Items
+qm.load_items,qm.load_items
+加入或分离,Join or Separate
+分离时重置原点,Reset Origin on Separate
+在分离时重置驱动程序,Reset Drivers on Separate
+设置平滑阴影。按住 shift 键使用修改器,Set Smooth Shading. Hold shift to use modifier
+平滑,Smooth
+按角度,By Angle
+角度,Angle
+使用修改器,Use Modifier
+本地视图,Local View
+将原点设置为几何体中心或选区。按住 shift 键将原点设置为底部,Set origin to geometry center or selection. Hold shift to set origin to bottom
+类型,Type
+切换比例编辑,Toggle Proportional Editing
+连接,Connected
+切换线框,Toggle Wireframe
+不透明,Opacity
+旋转 按住 shift 键反转角度,Rotate. Hold shift to invert angle
+将几何节点实例转换为对象实例,Convert Geometry Node Instances To Object Instances
+添加后缀,Add Suffix
+移动到新集合,Move Into New Collections
+链接,Link
+切换正确的面属性,Toggle Correct Face Attributes
+选择环 按住 shift 键选择环,Select ring. Hold shift to select loop
+选择循环,Select Loop
+选择更多。按住 shift 键选择更少,Select more. Hold shift to select less
+选择更少,Select Less
+将区域转换为循环或将循环转换为区域,Convert Region To Loop Or Loop To Region
+将循环区域变大,Loop To Region Bigger
+旋转操作符,Spin Operator
+负角度,Negative Angle
+步骤,Steps
+翻转法线,Flip Normals
+使用复制,Use Duplicates
+转换为网格,Convert To Mesh
+GPencil 关闭笔触,GPencil Close Strokes
+GPencil 溶解角度,GPencil Dissolve Angle
+GPencil 双倍阈值,GPencil Doubles Threshold
+镜像,Mirror
+轴,Axis
+二等分翻转,Bisect Flip
+子曲面,Subsurf
+水平,Level
+阵列,Array
+计数,Count
+偏移,Offset
+斜面,Bevel
+数量,Amount
+分段,Segments
+使用重量,Use Weight
+淬火规范,Harden Normals
+循环滑动,Loop Slide
+夹紧重叠,Clamp Overlap
+三角化,Triangulate
+保持法线,Keep Normals
+布尔运算,Boolean
+操作,Operation
+求解器,Solver
+边界扩展,Boundary Extend
+自,Self
+重新计算法线,Recalculate Normals
+将修改器移至顶部,Move Modifier On Top
+清除修改器,Clear Modifiers
+拉直 UV,Straighten UVs
+标记或清除接缝。按住 shift 键清除接缝,Mark Or Clear Seam. Hold shift to clear seam
+清除内部区域,Clear Inner Region
+清除,Clear
+展开,Unwrap
+智能 UV 项目,Smart UV Project
+变换 UV,Transform UV
+偏移 X,Offset X
+偏移 Y,Offset Y
+旋转,Rotation
+缩放 X,Scale X
+缩放 Y,Scale Y
+设置顶点颜色,Set Vertex Color
+颜色,Color
+链接,Linked
+设置为活动,Set To Active
+按顶点颜色选择,Select By Vertex Color
+父节点到新的空节点,Parent To New Empty
+重置变换,Reset Transforms
+切换自动抠像,Toggle Auto Keying
+清除驱动程序,Clear Drivers
+设置使用自带驱动程序,Set Use Self Drivers
+添加骨骼,Add Bone
+添加碰撞,Add Collision
+外层厚度,Thickness Outer
+添加布料,Add Cloth
+压力,Pressure
+拉伸,Tension
+压缩,Compression
+剪切,Shear
+弯曲,Bending
+自碰撞,Self Collisions
+旋转动画,Animate Rotation
+循环 X,Cycles X
+循环 Y,Cycles Y
+循环 Z,Cycles Z
+变换方向,Transform Orientation
+自定义,Custom
+变换支点,Transform Pivot
+设置捕捉,Set Snap
+qm.set_snap,qm.set_snap
+模式,Mode
+设置工具,Set Tool
+qm.tool,qm.tool
+工具,Tool
+重新导入纹理,Reimport Textures
+解压所有数据到文件,Unpack All Data To Files
+导出,Export
+qm.export,qm.export
+解压数据,Unpack Data
+应用修改器,Apply Modifiers
+应用转换,Apply Transform
+批处理模式,Batch Mode
+"如果在编辑模式下或在对象模式下选择了任何内容，则查看 ""选定""。否则查看摄像机",View Selected if in edit mode or anything is selected in object mode. View Camera otherwise
+qm.view,qm.view
+查看相机,Camera
+设置光标旋转至视图,Set Cursor Rotation To View
+qm.set_cursor_rotation_too_view,qm.set_cursor_rotation_to_view
+仅编辑模式,Edit Mode Only
+qm.void_edit_mode_only,qm.void_edit_mode_only
+OBJECT_MT_quick_menu,OBJECT_MT_quick_menu
+编辑菜单,Edit Menu
+重新载入菜单,Reload Menu
+热键（需要重启）,Hotkey (Needs Restart)
+顶点颜色索引,Vertex Color Index
+三维视图,3D View
+,
+通过www.DeepL.com/Translator（免费版）翻译,

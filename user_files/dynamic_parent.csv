@@ -1,0 +1,20 @@
+, 
+"""\""""
+"""", ""DP_""","""\""""
+"""",""DP_"""
+创建一个新的动画子约束,Create a new animated Child Of constraint
+创建约束,Create Constraint
+禁用当前动画子约束,Disable the current animated Child Of constraint
+禁用约束,Disable Constraint
+清除动态父约束,Clear Dynamic Parent constraints
+清除动态父节点,Clear Dynamic Parent
+制作动态父代动画,Bake Dynamic Parent animation
+烘焙动态父节点,Bake Dynamic Parent
+清除或烘焙动态父级约束,Clear or bake Dynamic Parent constraints
+清除动态父对象？,Clear Dynamic Parent?
+清除,Clear
+烘焙并清除,Bake and clear
+动态父节点插件的用户界面,User interface for Dynamic Parent addon
+动态父级,Dynamic Parent 2.0.1
+创建,Create
+禁用,Disable
