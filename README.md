@@ -14,3 +14,10 @@
 注：【布的】翻译的有个别错误，可以忽略不计，或者自己校对汉化
 
 [<img src="https://img.alicdn.com/imgextra/i1/1856665554/O1CN01inALQd1qtmhSrq0qI_!!1856665554.jpg" alt="Procedural Sign Generator - Geometry Nodes" style="zoom: 33%;" />](https://blenderco.cn/83578.html)
+
+
+###  半自动和手动将您自己的翻译文本添加到Blender
+## PC 版插件安装位置
+C:\Users\Administrator\AppData\Roaming\Blender Foundation\Blender\4.*\scripts\addons
+## MAC 插件安装位置： 
+/USERS/你的名字/LIBRARY/APPLICATION SUPPORT/BLENDER/ 3.1/SCRIPTS/ADDONS
