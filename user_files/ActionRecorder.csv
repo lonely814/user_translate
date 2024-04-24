@@ -1,0 +1,296 @@
+, 
+,"""\""""
+"""",""Icons"""
+按下 选择图标,Press to select an Icon
+图标搜索,Icon Search
+按名称搜索图标,search Icon by name
+默认图标,Default Icon
+按下清除时设置的默认图标,Default icon that get set when clear is pressed
+重复使用,Reuse
+重复使用上次选择的图标,Reuse the last selected icon
+所选图标：,Selected Icon:
+','
+搜索：,Search:
+清除图标,Clear Icon
+自定义图标,Custom Icons
+添加自定义图标,Add Custom Icon
+删除,Delete
+图标,Icon
+选择图标,Select the Icon
+添加自定义图标,Adds a custom Icon
+删除图标,Delete Icon
+删除自定义图标,Delete a custom Icon
+选择,Select
+所有图标,All Icons
+选择所有图标,Select all Icons
+操作按钮,ActionButtons
+屏幕,Screen
+AR_MT_action_pie,AR_MT_action_pie
+AR_MT_Categories,AR_MT_Categories
+插件的日志系统,logging system for the addon
+%s_,%s_
+内部,INTERNAL
+仅供内部使用,INTERNAL USE ONLY
+附加组件目录,addon directory
+选项卡,Tab
+在偏好选项卡之间切换,Switch between preference tabs
+日志数量,Log Amount
+在下次启动 Blender 时保留并应用的日志文件数量,Number of log files kept\nChanges apply on the next launch of Blender
+图标路径,Icons Path
+所添加图标的存储路径,The Path to the Storage for the added Icons
+所选图标,selected icon
+仅内部使用,only internal usage
+自动更新,Auto Update
+自动搜索新的更新,automatically search for a new update
+更新进度,Update Progress
+模式,Mode
+记录宏,Record Macros
+在文本编辑器中隐藏本地操作,Hide Local Action in Texteditor
+在文本编辑器中隐藏本地操作,Hide the Local Action in the Texteditor
+创建空宏,Create Empty
+出错时创建空宏,Create Empty Macro on Error
+最后标签,last label
+最后命令,last command
+Don,Don
+自动保存,Autosave
+自动将所有全局按钮保存到存储区,automatically saves all Global Buttons to the Storage
+重命名,Rename
+重命名所选操作,Rename the selected Action
+隐藏,Hide
+隐藏全局菜单,Hide the global Menu
+存储路径,Storage Path
+保存类别的存储路径,The Path to the Storage for the saved Categories
+显示所有类别,Show All Categories
+发布说明,Release Notes
+检查更新,Check For Updates
+重新启动以完成,Restart to Finish
+有新版本 (%s),A new Version is available (%s)
+您使用的是最新版本 (%s),You are using the latest Version (%s)
+操作存储文件夹,Action Storage Folder
+选择操作按钮,Select Action Button
+存储路径,storage_path
+恢复默认文件夹,Recover Default Folder
+图标存储文件夹,Icon Storage Folder
+选择图标存储文件夹,Select Icon Storage Folder
+图标路径,icon_path
+打开日志,Open Log
+安装字体工具...,Installing fontTools...
+手册,Manual
+提示,Hint
+错误报告,Bug Report
+管理更新进程的数据,manage data for update processes
+更新进度,Progress
+更新,Update
+检查更新,Check for Update
+检查可用更新,check for available update
+安装新版本,install the new version
+重新启动 Blender,Restart Blender
+您需要重启 Blender 才能完成更新,You need to restart Blender to complete the Update
+{},{}
+.,.
+{0}.{1:03d},{0}.{1:03d}
+"仅从模块内相对导入：ui, shared_data","only relative import from intra-modules: ui, shared_data"
+类别,Categories
+ActRec 馅饼菜单,ActRec Pie Menu
+复制到动作记录器（单个）,Copy to Action Recorder (Single)
+未使用,Unused
+类别标签,Category Label
+区域,Area
+显示面板的所有可用区域,Shows all available areas for the panel
+显示选定区域的所有可用模式,Shows all available modes for the selected area
+标签,Label
+添加类别,Add Category
+编辑类别,Edit Category
+编辑所选类别,Edit the selected Category
+应用可见性,Apply Visibility
+删除可见性,Delete Visibility
+从类别中删除该可见性,Removes this visibility from the category
+删除类别,Delete Category
+删除所选类别,Delete the selected Category
+将删除该类别中的所有操作,All Actions in this Category will be deleted
+删除类别：%s,Remove Category: %s
+上移,Move Up
+上移类别,Move the Category up
+下移,Move Down
+下移类别,Move the Category down
+重新分类操作按钮,Recategorize Action Button
+将选定的操作重新分配到另一个类别,Reallocate the selected Action to another Category
+导入,Import
+将动作文件导入存储区,Import the Action file into the storage
+包含快捷方式,Include Shortcuts
+包含已添加的操作快捷方式,Include the added Shortcuts of the actions
+加载导入设置,Load import settings
+加载选择文件以更改导入设置,Loads the select file to change the import settings
+AR_IMPORT_TEMP,AR_IMPORT_TEMP
+导出,Export
+将操作文件导出为 .json 文件,Export the Action file as a .json file
+文件路径,File Path
+导出文件时使用的文件路径,Filepath used for exporting the file
+所有类别,All
+导出所有类别,Export all category
+保存,Save
+将所有全局操作保存到存储区,Save all Global Actions to the Storage
+加载,Load
+从存储器加载所有操作,Load all Actions from the Storage
+将全局操作转移到本地,Global Action to Local
+将选定的操作转移到本地操作,Transfer the selected Action to Local-actions
+删除操作,Remove Action
+删除选定的操作,Remove the selected actions
+上移操作,Move Action Up
+将选定的操作上移,Move the selected actions Up
+下移操作,Move Action Down
+下移选中的操作,Move the selected actions Down
+ActRec 操作按钮,ActRec Action Button
+播放此操作按钮,Play this Action Button
+添加快捷键,Add Shortcut
+为所选操作添加快捷方式,Add a Shortcut to the selected Action
+删除快捷方式,Remove Shortcut
+从所选动作中移除快捷方式,Remove the Shortcut from the selected Action
+编辑操作,Edit Action
+编辑该操作的标签和说明,Edit the label and description of this Action
+说明,Description
+设置悬停在该操作上时显示的描述,Sets the description that gets shown when hovered over this action
+设置此操作的标签,Sets the label of this action
+对象到集合,Object to Collection
+将本地操作转为全局操作,Local Action to Global
+将选定的操作转移到全局操作,Transfer the selected Action to Global-actions
+请先添加一个类别,Please add a category first
+为此，请进入高级菜单,"To do that, go to the advanced menu"
+添加,Add
+添加新操作,Add a New Action
+行动名称,Name
+操作名称,Name of the Action
+删除,Remove
+删除所选操作,Remove the selected Action
+上移所选操作,Move the selected Action up
+下移选定的操作,Move the selected Action Down
+加载本地操作,Load Local Actions
+加载上次保存的本地操作,Load the Local Action from the last Save
+来源,Source
+选择加载源,Choose the source from where to load
+向上选择动作记录,ActRec Selection Up
+向下选择,ActRec Selection Down
+播放动作,ActRec Play
+播放选定的动作。,Play the selected Action.
+开始/停止录制,Start/Stop Recording
+清除宏,Clear Macros
+删除所选操作的所有宏,Delete all Macros of the selected Action
+添加宏,ActRec Add Macro
+添加最后执行的操作,Add the last operation you executed
+添加事件,Add Event
+为所选操作添加事件,Add a Event to the selected Action
+事件类型,Event Type
+显示所有可能的事件,Shows all possible Events
+时间,Time
+时间（秒,Time in Seconds
+计数,Count
+循环重复多少次,How many times the Loop gets repeated
+语句,Statement
+要作为 python 代码评估的语句,Statement to be evaluated as python code
+活动,Active
+选择一个对象，该对象会被选中，并在此事件播放时被设置为活动状态,Choose an Object which get select and set as active when this Event is played
+保持选择,Keep Selection
+选择指定对象并保持当前选定对象的选定状态,Select the specified objects and keep the current selected objects selected
+文本,Text
+选择要转换为宏脚本的文本,Chose a Text to convert into a macro script
+宏索引,Macro Index
+类型,Type
+将文本加载到文本编辑器,Load Text to Text Editor
+将此宏的文本加载到文本编辑器中,Loads the Text of this macro into the Texteditor
+%s [ActRec 宏］,%s [ActRec Macro]
+删除宏,Remove Macro
+删除选中的宏,Remove the selected Macro
+上移宏,Move Macro Up
+上移选中的宏,Move the selected Macro up
+下移巨集,Move Macro Down
+下移选定的宏,Move the selected Macro down
+多行支持,Multiline Support
+在编辑宏对话框中添加多行支持,Adds multiline support the edit macro dialog
+已启用支持,Support Enabled
+是否要安装多行支持？,Do you want to install multiline support?
+"这需要安装 fontTools, brotli 软件包。","This requires the fontTools, brotli package to be installed."
+这需要安装 fontTools 软件包。,This requires the fontTools package to be installed.
+"安装 fontTools, brotli...","Installing fontTools, brotli..."
+安装,Install
+安装多行支持,Install Multiline Support
+编辑,Edit
+双击编辑,Double click to Edit
+命令,Command
+最后标签,Last Label
+最后命令,Last Command
+最后标识,Last Id
+清除操作员,Clear Operator
+删除操作符命令的参数。否则将清除整个命令,Delete the parameters of an operator command. Otherwise the complete command is cleared
+复制前一个,Copy Previous
+复制前一个已记录宏的数据并将其放入此宏中,Copy the data of the previous recorded Macro and place it in this Macro
+宽度,width
+弹出窗口宽度,Window width of the Popup
+编辑器类型,Editor Type
+该区域当前的编辑器类型,Current editor type for this area
+复制到操作记录器,Copy to Action Recorder
+将选定的操作员复制到操作记录器宏,Copy the selected Operator to Action Recorder Macro
+选择目录,Select Directory
+文件夹路径,Folder Path
+恢复标准目录,Recover Standard Directory
+恢复标准存储目录,Recover the standard Storage directory
+打开资源管理器,Open Explorer
+用给定路径打开资源管理器,Open the Explorer with the given path
+路径,Path
+用给定路径打开资源管理器,Open the explorer with the given path
+检查 Ctrl,Check Ctrl
+id,id
+操作的 id（1.）,id of the action (1. indicator)
+索引,index
+操作的索引（2.）,index of the action (2. indicator)
+复制文本,Copy Text
+将给定文本载入剪贴板,Loads the given text in the clipboard
+复制文本,copy text
+要复制到剪贴板的文本,Text to copy to clipboard
+仅从模块内相对导入：函数、ui、属性,"only relative import from intra-modules: functions, ui, properties"
+本地操作,Local Actions
+新版本可用 (%s),new Version available (%s)
+宏编辑器,Macro Editor
+停止,Stop
+记录,Record
+清除,Clear
+播放...,Playing...
+本地到全局,Local to Global
+全局操作,Global Actions
+全局到本地,Global to Local
+按钮,Buttons
+帮助,Help
+最新版本 (%s),latest Version (%s)
+高级,Advanced
+类别,Category
+数据管理,Data Management
+存储文件设置,Storage File Settings
+自动保存,AutoSave
+开启,On
+保存到文件,Save to File
+从文件加载,Load from File
+本地设置,Local Settings
+选择此类别,Select this Category
+选择此操作 Button\nuse ctrl to select multiple,Select this Action Button\nuse ctrl to select multiple
+导入操作,Import Action
+决定是否导入操作,Decide whether to import the action
+导入类别,Import Category
+决定是否导入类别,Decide whether to import the category
+导出操作,Export Action
+决定是否导出操作,Decide whether to export the action
+导出类别,Export Category
+决定是否导出类别,Decide whether to export the category
+对象,Object
+选择在播放此事件时要选择的对象,Choose an Object which get select when this Event is played
+内部使用,Internal use
+打开或关闭宏。,Toggles Macro on and off.
+执行上下文,Execution Context
+指示父操作是否执行其宏,Indicates whether the parent action executes its macros
+执行模式,Execution Mode
+选择对所选对象单独或分组执行当前操作,Choses to perform the current actions on the selected objects individually or as a group
+指示操作是否执行宏,Indicates whether the action executes its macros
+本地,Local
+场景备份-AddonPreference.local_actions 的数据（json 格式）,Scene Backup-Data of AddonPreference.local_actions (json format)
+撤销结束,Undo End
+用于获取记录开始前的撤销步骤，以比较撤销步骤（内部）,Used to get the undo step before the record started to compare the undo steps (INTERNAL)
+由内部模块使用：首选项、操作符,"used by intra-modules: preferences, operators"
+%s [%s］,%s [%s]

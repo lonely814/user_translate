@@ -1,9 +1,8 @@
 , 
-"""\""""
-"""", ""自动更新翻译文件""","""\""""
+"""\""""","""\""""
 """",""Auto Update Translation File"""
-从剪贴板粘贴翻译文本,Paste translated text from clipboard
-将剪贴板中由自动翻译网站等翻译的文本粘贴为翻译文本,Paste the clipboard text translated by an automatic translation site etc. as translated text
+""""", ""自动更新翻译文件""",Paste translated text from clipboard
+从剪贴板粘贴翻译文本将剪贴板中由自动翻译网站等翻译的文本粘贴为翻译文本,Paste the clipboard text translated by an automatic translation site etc. as translated text
 类型,Type
 打开文件夹,Open Folder
 合并源文本和翻译文本以创建文件,Combine source & translation to create file
@@ -28,4 +27,5 @@
 1.,1.
 2.,2.
 3.,3.
-从文件夹中的 .py 文件提取文本,Extract text from .py in a folder
+从文件夹中的 .py 中提取文本,Extract text from .py in a folder
+,

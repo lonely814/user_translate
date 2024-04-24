@@ -1,0 +1,23 @@
+,'
+UV 检查,UV Check
+ , 
+设置 UV 接缝（有关角度，请参阅插件首选项）,Setup UV Seams (see addon preferences for angle)
+缝合,Seam it up!
+展开,Unwrap
+解开,Unwrap it!
+UV 检查器,UV Checker
+添加 UV 检查器图像,Add a UV Checker image
+宽度,Width
+标签类别,Tab Category
+在 N 面板选项卡类别下显示,N-panel tab catagory to display under
+接缝角度,Seam Angle
+标记高于此角度的边缘接缝,Mark edge seams for edges higher then this angle
+UV 检查图像的宽度,Width of UV check image
+高度,Height
+UV 检查图像的高度,Height of UV check image
+非正方形,Non-Square
+允许独立调整高度和宽度,Allow adjustment of height and width independently
+选项卡类别：,Tab Category:
+接缝角度：,Seam Angle:
+UV 辅助,UV Assist
+实时展开,Live Unwrap

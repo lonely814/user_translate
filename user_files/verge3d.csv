@@ -1,0 +1,260 @@
+, 
+','
+烘焙修改器,Bake Modifiers
+导出前应用网格修改器（电枢修改器除外,Apply mesh modifiers (except armature modifers) before export
+版权,Copyright
+指定是否在所有导出文件中显示您的版权信息,Assign if you want your copyright info to be present in all exported files
+导出约束,Export Constraints
+导出对象约束,Export object constraints
+导出自定义道具,Export Custom Props
+导出对象自定义属性,Export object custom properties
+导出动画,Export Animations
+导出动画,Export animations
+导出播放范围,Export Playback Range
+导出场景播放范围内的动画,Export animation within scene playback range
+关键帧从 0 开始,Keyframes Start With 0
+使导出的动画关键帧从 0 开始,Make exported animation keyframes start with 0
+LZMA 压缩,LZMA Compression
+启用 LZMA 压缩导出的 glTF 文件,Enable LZMA compression for exported glTF files
+压缩纹理,Compress Textures
+以 KTX2 压缩格式存储纹理,Store textures in KTX2 compression format
+优化网格属性,Optimize Mesh Attrs
+删除导出网格中未使用的几何属性（如切线,Remove unused geometry attributes (such as tangents) from exported meshes
+抗锯齿,Anti-aliasing
+首选抗锯齿方法,Preferred anti-aliasing method
+使用 HDR 渲染,Use HDR Rendering
+在兼容硬件上启用 HDR 渲染管道,Enable HDR rendering pipeline on compatible hardware
+独立阶次透明度,Order-Indep. Transparency
+启用与阶次无关的透明度渲染技术,Enable Order-Independent Transparency rendering technique
+启用阴影,Enable Shadows
+启用阴影，使用灯管设置确认阴影参数,"Enable shadows, use lamp settings to confiure shadow params"
+阴影过滤,Shadow Filtering
+阴影过滤模式,Shadow Filtering Mode
+贴图面,Map Side
+将物体的哪一面渲染为阴影贴图,Which side of the objects will be rendered to shadow maps
+ESM 距离缩放,ESM Distance Scale
+IBL 环境 模式,IBL Env. Mode
+渲染场景环境的首选方法,Preferred method of rendering the scene environment
+烘焙衔接动作,Bake Armature Actions
+在导出前烘焙衔铁动作,Bake armature actions before export
+烘焙文本,Bake Text
+将字体对象导出为网格,Export Font objects as meshes
+抖动,Dithering
+应用色彩抖动消除条带伪影,Apply color dithering to eliminate banding artefacts
+轮廓设置是场景设置的一部分,Outline settings are part of scene settings
+启用,Enabled
+启用轮廓效果,Enable outline effect
+边缘强度,Edge Strength
+轮廓边缘强度,Outline Edge Strength
+边缘发光,Edge Glow
+轮廓边缘发光,Outline edge glow
+边缘厚度,Edge Thickness
+轮廓边缘厚度,Outline edge thickness
+脉冲周期,Pulse Period
+轮廓脉冲周期,Outline pulse period
+可见边缘颜色,Visible Edge Color
+轮廓可见边缘颜色,Outline visible edge color
+隐藏边缘颜色,Hidden Edge Color
+轮廓隐藏边缘颜色,Outline hidden edge color
+渲染隐藏边缘,Render Hidden Edge
+是否渲染隐藏边缘部分,Render the hidden edge part or not
+轮廓设置,Outline settings
+自动启动,Auto Start
+自动启动动画,Auto start animation
+循环模式,Loop Mode
+动画循环模式,Animation looping mode
+无限重复,Repeat Infinitely
+无限重复动画,Repeat animation infinite
+重复次数,Repeat Count
+动画重复次数,Animation repeat count
+偏移,Offset
+动画偏移（以帧为单位,Animation offset in frames
+渲染顺序,Render Order
+挫边剔除,Frustum Culling
+为该对象执行阴影剔除。,Perform frustum culling for this object.
+接收阴影,Receive Shadows
+允许此对象接收阴影,Allow this object to receive shadows
+HiDPI 合成,HiDPI Compositing
+使用单独的 HiDPI（视网膜）合成通道渲染此对象（及其子对象,Render this object (and its children) using the separate HiDPI (Retina) compositing pass
+修复正交缩放,Fix Ortho Zoom
+剪切平面,Clipping Plane
+剪贴平面对象,Clipping plane object
+受影响的对象,Affected Objects
+受剪切平面影响的对象,Objects affected by the clipping plane
+否定,Negated
+交换已剪切和未剪切的面,Swap clipped and unclipped sides
+剪切阴影,Clip Shadows
+剪切被剪切对象投射的阴影,Clip shadows casted from the clipped objects
+联合平面,Union Planes
+从所有剪切平面构建一个联合平面，影响对象而非它们的交点,"Construct a union from all the clipping planes, affecting the object, not their intersection"
+填充截面,Filled Cross-Section
+填充剪切平面和受影响对象之间的横截面,Fill cross-section between the clipping plane and the affected objects
+横截面颜色,Cross-Section Color
+横截面的漫反射颜色和不透明度,Cross-section diffuse color and opacity
+截面平面尺寸,Cross-Section Plane Size
+截面平面尺寸（如果使用较大的场景尺寸，则增大该尺寸）,Cross-section plane size (increase if you use larger scene size)
+截面渲染面,Cross-Section Render Side
+渲染剪切平面截面几何体的哪一面,Which side of clipping plane cross-section geometry will be rendered
+水平,Horizontal
+适合对象的水平画布边缘,Horizontal canvas edge to fit object to
+垂直,Vertical
+垂直画布边缘以适应对象,Vertical canvas edge to fit object to
+形状,Shape
+画布拟合形状,Canvas fit shape
+拟合偏移,Fit Offset
+可见性断点,Visibility Breakpoints
+启用断点，根据画布大小和方向影响对象的可见性,Enable breakpoints to affect object visibility depending on canvas size and orientation
+最小宽度,Min Width
+对象保持可见的最小画布宽度,Minimum canvas width the object stay visible
+最大宽度,Max Width
+对象保持可见的最大画布宽度,Maximum canvas width the object stay visible
+最小高度,Min Height
+对象保持可见的最小画布高度,Minimum canvas height the object stay visible
+最大高度,Max Height
+对象保持可见的最大画布高度,Maximum canvas height the object stay visible
+方向,Orientation
+对象保持可见的屏幕方向,Screen orientation the object stay visible
+控制,Controls
+摄像机控制类型,Camera controls type
+允许平移,Allow Panning
+允许摄像机平移,Allow camera panning
+旋转速度,Rotation Speed
+摄像机旋转速度系数,Camera rotation speed factor
+移动速度,Movement Speed
+摄像机移动速度系数,Camera movement speed factor
+最小距离,Min Dist
+轨道摄像机最小距离（透视摄像机）,Orbit camera minimum distance (perspective camera)
+最大距离,Max Dist
+轨道摄像机最大距离（透视摄像机）,Orbit camera maximum distance (perspective camera)
+最小变焦,Min Zoom
+轨道相机最小变焦（正射相机）,Orbit camera minimum zoom (orthographic camera)
+最大变焦,Max Zoom
+轨道摄像机最大变焦（正射摄像机）,Orbit camera maximum zoom (orthographic camera)
+最小角度,Min Angle
+轨道摄像机最小极角（垂直）角度,Orbit camera minimum polar (vertical) angle
+最大角度,Max Angle
+轨道摄像机最大极（垂直）角,Orbit camera maximum polar (vertical) angle
+轨道摄像机最小方位（水平）角,Orbit camera minimum azimuth (horizontal) angle
+轨道相机最大方位角（水平角,Orbit camera maximum azimuth (horizontal) angle
+目标物体,Target Object
+"""\""""
+"""",""对象中心用作摄像机的对象""","""\""""
+"""",""Object which center is used as the camera"""
+目标,Target
+轨道摄像机的目标点,Target point for orbit camera
+碰撞材料,Collision Material
+第一人称控制碰撞材料（地板和墙壁）,First-person control collision material (floor and walls)
+凝视水平,Gaze Level
+第一人称视角（头部）水平,First-person gaze (head) level
+故事高度,Story Height
+第一人称故事高度，为多层建筑指定合适的值,"First-person story height, specify proper value for multi-story buildings"
+启用指针锁定,Enable PointerLock
+启用指针锁定以捕捉鼠标指针,Enable PointerLock to capture the mouse pointer
+阴影设置是灯光设置的一部分,Shadow settings are part of light settings
+半径,Radius
+边距,Margin
+指数,Exponent
+阴影设置,Shadow Settings
+渲染面,Render Side
+渲染几何体的哪一面,Which side of geometry will be rendered
+深度写入,Depth Write
+写入深度缓冲区。禁用它可解决各种透明度排序问题,Write to depth buffer. Disable it to fix various transparency sorting issues
+深度测试,Depth Test
+执行深度测试。禁用它可在所有对象上方渲染材质,Perform depth test. Disable it to render the material above all objects
+兼容 glTF 2.0,glTF 2.0 compatible
+强制材质与 glTF 2.0 标准兼容,Force material to be compatible with glTF 2.0 standard
+各向异性过滤,Anisotropic Filtering
+各向异性过滤比率,Anisotropic filtering ratio
+衰减系数,Falloff Factor
+噪声随距离和锐角衰减的程度,How much the noise falls off with distance and for acute angles
+强度因子,Strength Factor
+噪声强度系数,Noise strength factor
+压缩方法,Compression Method
+纹理压缩方法,Texture compression method
+启用线条渲染,Enable Line Rendering
+将对象渲染为宽度不变的线条,Render the object as constant-width lines
+线条颜色,Line Color
+线条颜色,Line color
+线宽（像素）,Line Width (px)
+线条宽度（像素,Line width in pixels
+线条渲染设置,Line Rendering Settings
+启用集合导出,Enable Collection Export
+允许导出集合,Allow export of the collection\
+自定义影响,Custom Influence
+影响集合,Influence Collection
+受光源影响的物体,Objects affected by the lightprobe
+反转集合,Invert Collection
+反转影响集合,Invert influence collection
+Verge3D 世界设置,Verge3D world settings
+Verge3D 导出设置,Verge3D export settings
+Verge3D 场景设置,Verge3D scene settings
+Verge3D 对象设置,Verge3D object settings
+Verge3D 相机设置,Verge3D camera settings
+Verge3D 灯光设置,Verge3D light settings
+Verge3D 材质设置,Verge3D material settings
+Verge3D 纹理设置,Verge3D texture settings
+Verge3D噪点纹理设置,Verge3D noise texture settings
+Verge3D 图像设置,Verge3D image settings
+Verge3D 曲线设置,Verge3D curve settings
+Verge3D 网格设置,Verge3D mesh settings
+Verge3D 采集设置,Verge3D collection settings
+Verge3D 探针设置,Verge3D lightprobe settings
+位于渲染面板,Located on render panel
+渲染,render
+Verge3D 设置,Verge3D Settings
+动画,Animation
+阴影,Shadows
+轮廓效果,Outline Effect
+导出集合,Export Collections
+世界,world
+对象,object
+渲染,Rendering
+子渲染,Child Rendering
+贴合相机边缘,Fit to Camera Edge
+数据,data
+目标对象/点,Target Object / Point
+手动,Manual
+从对象,From Object:
+从光标,From Cursor
+更新视图,Update View
+垂直旋转限制,Vertical Rotation Limits:
+水平旋转限制,Horizontal Rotation Limits:
+模糊半径,Blur Radius
+ESM 倾斜,ESM Bias
+线条渲染,Line Rendering
+Verge3D 剪贴平面,Verge3D Clipping Plane
+颜色,Color
+平面尺寸,Plane Size
+材质,material
+通过设置 → 显示背面覆盖,Overridden by Settings → Show Backface
+各向异性过滤：,Anisotropic Filtering:
+比率,Ratio
+纹理压缩：,Texture Compression:
+方法,Method
+提示,Hint
+噪音参数,Noise Parameters:
+根据光标位置更新目标坐标,Update target coordinates from cursor position
+更新轨道相机的视图,Update view for the orbit camera
+偷窥,Sneak Peek
+导出到临时位置并在 Verge3D 中预览场景,Export to temporary location and preview the scene in Verge3D
+打开应用程序管理器,Open App Manager
+打开 Verge3D 应用程序管理器,Open Verge3D App Manager
+重新导出所有 Verge3D 资产,Reexport all Verge3D assets
+重新导出 Verge3D SDK 中的所有 glTF 文件,Reexport all glTF files inside Verge3D SDK
+应用程序管理器,App Manager
+Verge3D 用户手册,Verge3D User Manual
+Verge3D,Verge3D
+构建剪切平面,Construct clipping plane
+COLOR_,COLOR_
+从曲线映射数据中提取曲线点数据,Extract curve points data from CurveMapping data
+从颜色斜坡数据生成曲线,Make a curve from color ramp data
+ 以字典形式提取样条曲线参数 , Extract spline parameters as a dictionary. 
+纹理源也可以是扩展名,texture source can also be in extension
+注：位于此处，因为网格材质使用切线()时需要它,NOTE: located here since it's needed for meshMaterialsUseTangents()
+禁用内置 glTF 2.0 输出程序 (io_scene_gltf2),Disable built-in glTF 2.0 exporter (io_scene_gltf2)
+禁用内置 glTF 附加组件,Disable Built-in glTF Add-on
+偷窥模式,Sneak Peek Mode
+导出 Verge3D glTF,Export Verge3D glTF
+导出二进制 Verge3D glTF,Export Verge3D glTF Binary
+Verge3D glTF (.gltf),Verge3D glTF (.gltf)
+二进制 Verge3D glTF (.glb),Verge3D glTF Binary (.glb)
