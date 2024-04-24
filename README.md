@@ -30,4 +30,4 @@ csv字典文件位置：user_translate\user_files里面
 #问题二：翻译插件识别出错 在文件夹找到utils.py 文件 打开
 需要改里面的zh_HANS 回成zh_CN
 
-[<img src="https://img.alicdn.com/imgextra/i2/1856665554/O1CN01smxaq41qtmhBsKQZl_!!1856665554.png")
+<img src="https://img.alicdn.com/imgextra/i2/1856665554/O1CN01smxaq41qtmhBsKQZl_!!1856665554.png")
