@@ -21,3 +21,13 @@
 C:\Users\Administrator\AppData\Roaming\Blender Foundation\Blender\4.*\scripts\addons
 ## MAC 插件安装位置： 
 /USERS/你的名字/LIBRARY/APPLICATION SUPPORT/BLENDER/ 3.1/SCRIPTS/ADDONS
+
+
+### 常见问题
+#问题一：安装新版插件，一定要备份csv字典文件，防止被覆盖后，字典全部被删
+csv字典文件位置：user_translate\user_files里面
+
+#问题二：翻译插件识别出错 在文件夹找到utils.py 文件 打开
+需要改里面的zh_HANS 回成zh_CN
+
+[<img src="https://img.alicdn.com/imgextra/i2/1856665554/O1CN01smxaq41qtmhBsKQZl_!!1856665554.png")
