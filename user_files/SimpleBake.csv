@@ -1,0 +1,491 @@
+,Download and install updated version of SimpleBake
+, 
+,"""\""""
+"""",""Update"""
+SimpleBake_Curent4.zip,SimpleBake_Curent4.zip
+下载并安装前一版本的 SimpleBake,Download and install previous version of SimpleBake
+回滚,Rollback
+SimpleBake_Previous4.zip,SimpleBake_Previous4.zip
+无标题,Untitled
+从后台导入烘焙纹理和对象,Import baked textures and objects from the background
+导入,Import
+SimpleBake_Bakes_Background,SimpleBake_Bakes_Background
+简单烘焙,SimpleBake_Bakes
+删除排队的背景烘焙,Delete a queued background bake
+删除,Delete
+丢弃已完成的背景烘焙,Discard a completed background bake
+丢弃,Discard
+杀死正在进行的后台烘焙,Kill an active background bake
+删除,Kill
+执行通道打包,Perform channel packing
+打包,Pack
+SBC 合成_1to1,SBCompositing_1to1
+SBC 合成_3to1,SBCompositing_3to1
+sRGB,sRGB
+非彩色,Non-Color
+角色数据,role_data
+打包（旧方法）,Pack (Old Method)
+将烘焙纹理应用于原始对象,Apply the baked textures to the original objects
+将烘焙纹理应用到原始对象,Apply bakes to original
+复制烘焙对象并应用烘焙纹理,Copy the baked objects and apply baked textures
+复制烘焙对象并应用烘焙效果,Copy baked objects and apply bakes
+复制并应用,Copy and apply
+SB_cyclesbake_e,SB_cyclesbake_e
+SB_cyclesbake_b,SB_cyclesbake_b
+SB_cyclesbake_p,SB_cyclesbake_p
+SB_pbr_directx_and_glossy_decals,SB_pbr_directx_and_glossy_decals
+SB_pbr_glossy_decals,SB_pbr_glossy_decals
+SB_pbr_directx_decals,SB_pbr_directx_decals
+SB_standard_pbr_decals,SB_standard_pbr_decals
+SB_pbr_directx_and_glossy,SB_pbr_directx_and_glossy
+SB_pbr_glossy,SB_pbr_glossy
+SB_pbr_directx,SB_pbr_directx
+SB_standard_pbr,SB_standard_pbr
+从外部保存烘焙图像,Saved baked images externally
+从外部保存烘焙图像,Save baked images externally
+保存,Save
+从外部保存烘焙对象,Saved baked objects externally
+从外部保存烘焙对象,Save baked objects externally
+根据需要生成要烘焙的图像,Generate image to be baked to if needed
+生成需要烘焙的图像,Generates image to be baked to if needed
+生成图像,GenImage
+备份对象材质,Backup object materials
+备份和还原对象的材质,Backup and restore materials on an object
+备份/还原,Backup/Restore
+为 PBR 渲染准备对象,Prepare an object for PBR baking
+为 PBR 渲染准备对象,Prepare object for PBR bake
+准备,Prepare
+将当前 SimpleBake 设置保存到预设中,Save current SimpleBake settings to preset
+加载选定的 SimpleBake 预置,Load selected SimpleBake preset
+加载,Load
+代表列表中一个项目的属性组。,Group of properties representing an item in the list.
+烘焙对象,Bake Object
+场景中要烘焙的对象,An object in the scene to be baked
+名称,Name
+该项目的名称,A name for this item
+目标,Target
+进行 S2A 烤制时的目标,Target when we are doing an S2A bake
+代表简单烘焙预设的属性组。,Group of properties representing a SimpleBake preset.
+代表 SimpleBake CP 纹理的一组属性。,Group of properties representing a SimpleBake CP Texture.
+R,R
+R 通道的烘焙类型,Bake type for R channel
+G,G
+G 通道的烘焙类型,Bake type for G channel
+B,B
+B 通道的烘烤类型,Bake type for B channel
+A,A
+A 通道的烘焙类型,Bake type for A channel
+文件格式,File Format
+CP 纹理的文件格式,File format for CP texture
+全局烘焙模式,Global Baking Mode
+烘焙模式,Bake Mode
+从目标对象到选定对象的光线投射距离,Distance to cast rays from target object to selected object(s)
+射线距离,Ray Distance
+Blender 挤出自动生成的笼子以烘焙到目标对象的距离。请参阅工具提示,The distance for Blender to extrude the automatically generated cage for baking to target. See the tooltip for the \
+挤出笼,Cage Extrusion
+选择烘焙纹理的色彩空间,Select the colour space for the baked texture
+色彩空间,Colour Space
+将每个物体单独烘焙，隐藏其他物体，使其不被烘焙。,"Bake each object on its own, hiding the others so they don"
+','
+在烘焙过程中将物体相互隔离,Isolate objects from each other during baking
+"将一个或多个源对象（通常为高多边形）的贴图烘焙到单个目标对象（通常为低多边形）上。源对象和目标对象必须位于同一位置（重叠）。更多详细信息，请参阅 Blender 文档 ""从选定对象到活动对象的烘焙""。",Bake maps from one or more  source objects (usually high poly) to a single target object (usually low poly). Source and target objects must be in the same location (overlapping). See Blender documentation on selected to active baking for more details
+将选定对象烘焙到目标对象,Bake selected objects to target object
+指定烘焙的目标对象。请注意，它不必是视口中选区的一部分（当然也可以是）。,"Specify the target object for the baking. Note, this need not be part of your selection in the viewport (though it can be)"
+目标对象,Target Object
+自动匹配模式,Auto match mode
+"如果您没有使用自定义的笼子对象，那么在烘焙到目标对象时，Blender 会自动从目标对象中挤出一个笼子。自动挤出的笼子可以是光滑的，也可以是坚硬的。注意：如果您正在名称模式下自动匹配高多边形与低多边形对象，那么只有在低多边形对象未检测到笼子对象时，此设置才会起作用。只要存在笼子，该设置就会被忽略。请参阅 ""猴子 ""提示。","If you are not using a custom cage object, Blender will automatically extrude a cage from your target object when baking to target. That automatically extruded cage can be either smooth or hard. NOTE: If you are auto-matching high poly to low poly objects in name mode, this setting will only be relevant where a cage object is not detected for that low object. It will be ignored whenever a cage is present. See the Monkey Tip."
+自动挤出保持架类型,Auto extruded cage type
+将多个对象烘焙到一组纹理上。不适用于 ,Bake multiple objects to one set of textures. Not available with 
+将多个对象添加到一个纹理集,Multiple objects to one texture set
+一次烘焙一个对象时，对象,"When baking one object at a time, the object"
+多重烘焙的纹理名称,Texture name for multiple bake
+"使用 ""选定为活动的循环 ""选项进行烘焙",Bake using the Cycles selected to active option
+选定为活动,Selected to Active
+指定要烘焙到的目标对象（这将是使用 vanilla Blender 进行烘焙时的活动对象）,Specify the target object to bake to (this would be the active object with vanilla Blender baking)
+SimpleBake 提供了不同的烘焙到目标对象的方法,SimpleBake offers different ways of baking to a target object
+烘焙到目标模式,Bake to target mode
+烘焙至现有图像，覆盖所有其他纹理相关设置,"Bake to an existing image, override all other texture related settings"
+覆盖并烘焙至现有图像,Override and bake to existing image
+烘焙到现有图像,Existing image to bake to
+现有图像：,Existing Image:
+设置将生成的烘焙图像的高度,Set the height of the baked image that will be produced
+烘焙高度,Bake height
+设置将生成的烘焙图像的宽度,Set the width of the baked image that will be produced
+烘焙宽度,Bake width
+设置将要输出的烘焙图像的高度,Set the height of the baked image that will be ouput
+输出高度,Output Height
+设置将输出的烘焙图像的宽度,Set the width of the baked image that will be output
+输出宽度,Output Width
+法线贴图总是创建为 32 位浮点图像，但该选项会使所有图像都创建为 32 位浮点图像。理论上图像质量会有所提高，但通常并不明显。,"Normal maps are always created as 32bit float images, but this option causes all images to be created as 32bit float. Image quality is theoretically increased, but often it will not be noticable."
+所有内部 32 位浮点图像,All internal 32bit float
+烘焙图像具有透明背景（否则为黑色）,Baked images have a transparent background (else Black)
+透明背景,Transparent background
+在烘焙之前清除现有的烘焙图像（如果有）。启用此选项将确保 SimpleBake 每次烘焙都从空白图像开始。关闭此选项可实现迭代烘焙，每次烘焙都会添加到现有图像中。,Clear the existing bake image (if any) before baking to it. Keeping this enabled will ensure that SimpleBake starts with a blank image for each bake. Turn this off to allow iterative baking where each bake will add to the existing image.
+在烘焙前清除现有烘焙图像,Clear existing bake image before bake
+在粗糙度和光泽度（二者互反）之间切换。注意：粗糙度是 Blender 的默认设置，因此如果更改了它，纹理可能也会改变。,"Switch between roughness and glossiness (inverts of each other). NOTE: Roughness is the default for Blender so, if you change this, texture probably won"
+切换法线贴图的 OpenGL 和 DirectX 格式。注：OpenGL 是 Blender 的默认格式，因此如果更改，贴图可能会失败。,"Switch between OpenGL and DirectX formats for normal map. NOTE: Opengl is the default for Blender so, if you change this, texture probably won"
+将每个材质制作成自己的纹理（用于导出到第二人生等虚拟世界,Bake each material into its own texture (for export to virtual worlds like Second Life
+每个材质的纹理,Texture per material
+制作 PBR 颜色贴图,Bake a PBR Colour map
+制作 PBR 金属度贴图,Bake a PBR Metalness map
+制作 PBR 粗糙度或光泽度贴图,Bake a PBR Roughness or Glossy map
+粗糙度/光泽度,Roughness/Glossy
+烘焙法线贴图,Bake a Normal map
+烘焙 PBR 传输贴图,Bake a PBR Transmission map
+制作 PBR 传输粗糙度贴图,Bake a PBR Transmission Roughness map
+烘焙发射贴图,Bake an Emission map
+烘焙发射强度贴图,Bake an Emission Strength map
+烘焙次表面贴图,Bake a Subsurface map
+烘焙次表层颜色贴图,Bake a Subsurface colour map
+绘制 PBR 透明涂层贴图,Bake a PBR Clearcoat Map
+绘制 PBR 透明涂层粗糙度贴图,Bake a PBR Clearcoat Roughness map
+绘制镜面/反射贴图,Bake a Specular/Reflection map
+绘制 PBR Alpha 贴图,Bake a PBR Alpha map
+制作位移贴图,Bake a displacement map
+基于每个材质随机颜色的 ColourID 贴图,ColourID Map based on random colour per material
+将活动顶点颜色烘焙到纹理中,Bake the active vertex colours to a texture
+环境遮蔽,Ambient Occlusion
+厚度贴图,Thickness map
+曲率贴图,Curvature map
+光贴图,Lightmap map
+将您在渲染属性面板中设置的色彩管理设置应用到光贴图。仅在导出烘焙时可用。如果导出为 EXR 文件，这些设置将被忽略。,Apply the colour management settings you have set in the render properties panel to the lightmap. Only available when you are exporting your bakes. Will be ignored if exporting to EXR files as these don
+使用色彩管理设置导出,Export with colour management settings
+用于具有 AO 组件（厚度和 AO 本身）的所有特殊材质的样本数,"Sample count to be used for all specials materials with an AO component (thickness, and AO itself"
+AO 样本计数,AO Sample Count
+"使用智能 UV 项目为您的对象（或目标对象，如果烘焙到目标对象）创建新的 UV 贴图。详情请参阅 ""Blender 市场常见问题""。",Use Smart UV Project to create a new UV map for your objects (or target object if baking to a target). See Blender Market FAQs for more details
+新建 UV 贴图,New UV Map(s)
+"如果正在烘焙的对象存在一个 UV 贴图，则使用任何名为 ""Smart UV Project ""的现有 UV 贴图。","If one exists for the object being baked, use any existing UV maps called "
+优先选择名为 SimpleBake 的现有 UV 贴图,Prefer existing UV maps called SimpleBake
+新 UV 方法,New UV Method
+"如果您正在创建新的 UV 贴图，或偏好使用名为 ""SimpleBake ""的现有 UV 贴图，烘焙时使用的 UV 贴图可能不是烘焙前在视口中显示的 UV 贴图。此选项可还原烘焙前激活的 UV 贴图","If you are creating new UVs, or preferring an existing UV map called SimpleBake, the UV map used for baking may not be the one you had displayed in the viewport before baking. This option restores what you had active before baking"
+在结束时恢复原来激活的 UV 贴图,Restore originally active UV map at end
+将组合 UV 包入 Atlas 贴图时使用的边距,Margin to use when packing combined UVs into Atlas map
+打包边距,Pack Margin
+将 UV 岛组合到地图集时的平均尺寸,Average the size of the UV islands when combining them into the atlas map
+平均 UV 岛大小,Average UV Island Size
+使用时 ,When using 
+每个材质新增 UV，扩展至边界,"New UVs per material, expanded to bounds"
+自动检测每个烘焙对象的位置,Automatically detect where each bake object
+自动检测 UDIM,Auto detect UDIMs
+用于智能 UV 项目的 UV 岛之间的边距,Margin between islands to use for Smart UV Project
+UV 展开边距,UV Unwrap Margin
+将新生成的 UV 贴图移至 UV 贴图列表的第一项,Move the newly generated UV map to be the first item in the UV maps list
+将新 UV 移至顶部,Move new UVs to top
+形状方法,Shape method
+缩放,Scale
+,Rotate
+旋转法,Rotation method
+边距法,Margin method
+边距,Margin
+锁定销钉,Lock pinned
+锁定方法,Lock method
+重叠合并,Merge overlapping
+打包至,Pack to
+将烘焙输出到下面指定的文件夹，与保存 .blend 文件的文件夹相同。如果未保存 .blend 文件则不可用,"Export your bakes to the folder specified below, under the same folder where your .blend file is saved. Not available if .blend file not saved"
+导出烘焙,Export bakes
+为每个烘焙对象的纹理和 fbx 创建一个子文件夹。仅在导出烘焙和/或网格时可用。,Create a sub-folder for the textures and fbx of each baked object. Only available if you are exporting bakes and/or mesh.
+每个物体的子文件夹,Sub-folder per object
+将网格导出为带有单一纹理和用于烘焙的 UV 贴图的 .fbx 文件（即可以导入到其他地方。文件保存在下面指定的文件夹中，位于保存混合文件的文件夹下。如果未保存 .blend 文件，则无法使用,"Export your mesh as a .fbx file with a single texture and the UV map used for baking (i.e. ready for import somewhere else. File is saved in the folder specified below, under the folder where your blend file is saved. Not available if .blend file not saved"
+导出网格,Export mesh
+fbx 文件名。注意：为保持兼容性，将只使用 MS Windows 可接受的字符,"File name of the fbx. NOTE: To maintain compatibility, only MS Windows acceptable characters will be used"
+FBX 名称,FBX name
+gltf 文件名。注：为保持兼容性，将只使用 MS Windows 可接受的字符,"File name of the gltf. NOTE: To maintain compatibility, only MS Windows acceptable characters will be used"
+GLTF 名称,GLTF name
+在 Blender 中创建一个选定对象的副本（如果是烘焙到目标对象，则创建目标对象的副本），然后将烘焙纹理应用到该副本中。如果您在后台进行烘焙，这将在导入后发生/不能与以下操作同时使用 ,"Create a copy of your selected objects in Blender (or target object if baking to a target) and apply the baked textures to it. If you are baking in the background, this happens after you import/ Cannot be used at the same time as "
+复制对象并应用烘焙,Copy objects and apply bakes
+将烘焙纹理应用到原始对象。不能与 ,Apply the baked textures to the original objects. Cannot be used at the same time as 
+将烘焙纹理应用到原始对象,Apply bakes to original object
+复制和应用对象上的材质基于原理 BSDF、发射 BSDF 或背景节点,"Material on your Copy and Apply object based around Principled BSDF, Emission BSDF or Background node"
+材质格式,Material format
+在烘焙后隐藏视口中的烘焙源对象。如果您在背景中进行烘焙，则会在导入后隐藏源对象。,"Hide the source object that you baked from in the viewport after baking. If you are baking in the background, this happens after you import"
+在烘焙后隐藏源对象,Hide source objects after bake
+在烘焙后隐藏视口中的烘焙源对象。如果您是在背景中烘焙，则导入后会发生此操作。,"Hide the cage object that you baked from in the viewport after baking. If you are baking in the background, this happens after you import"
+在烘焙后隐藏笼子对象,Hide cage object after bake
+保留烘焙对象的原始材质分配（注意：所有材质都将相同，并指向烘焙纹理集，但每个材质的面分配都将保留）,"Preserve original material assignments for baked objects (NOTE: all materials will be identical, and point to the baked texture set, but face assignments for each material will be preserved)"
+保留对象的原始材质（BETA）,Preserve object original materials (BETA)
+法线贴图始终以 16 位输出，但该选项会导致所有图像都以 16 位输出。除非文件大小有问题，否则应继续启用该选项,"Normal maps are always exported as 16bit, but this option causes all images to be exported 16bit. This should probably stay enabled unless file sizes are an issue"
+所有输出均为 16 位,All exports 16bit
+选择导出烘焙的文件格式。也适用于 Sketchfab 上传的图像,Select the file format for exported bakes. Also applies to Sketchfab upload images
+导出文件格式,Export File Format
+EXR 文件编解码器,Codec for EXR file
+编解码器,Codec
+JPEG 的质量，因为它使用有损压缩。与 Blender 本地设置相同,Quality for JPEG as it uses lossy compression. Same as native Blender setting
+JPEG 质量,JPEG quality
+创建并保存烘焙/网格的文件夹名称。在保存混合文件的文件夹中创建。注意：为保持兼容性，将只使用 MS Windows 可接受的字符。,"Name of the folder to create and save the bakes/mesh into. Created in the folder where you blend file is saved. NOTE: To maintain compatibility, only MS Windows acceptable characters will be used"
+保存文件夹名称,Save folder name
+从外部保存漫反射图像时，应用当前场景中的色彩空间设置（曝光、伽玛等）。仅在导出烘焙图像时可用。如果导出为 EXR 文件，这些设置将被忽略，因为这些文件不包含色彩管理设置。,"Apply colour space settings (exposure, gamma etc.) from current scene when saving the diffuse image externally. Only available if you are exporting baked images. Will be ignored if exporting to EXR files as these don"
+导出带有色彩管理设置的漫反射,Export diffuse with col management settings
+在外部保存图像时应用当前场景中的色彩空间设置（曝光、伽玛等）。仅在导出烘焙图像时可用。如果将 Cycles 烘焙模式设置为正常，则不可用。 如果导出为 EXR 文件，则会被忽略，因为这些文件不会,"Apply colour space settings (exposure, gamma etc.) from current scene when saving the image externally. Only available if you are exporting baked images. Not available if you have Cycles bake mode set to Normal.  Will be ignored if exporting to EXR files as these don"
+使用文件夹管理设置导出,Export with col management settings
+在文件夹名称中附加日期和时间。如果关闭此选项，在忘记更改文件夹名称时有可能会意外覆盖之前进行的烘焙。,Append date and time to folder name. If you turn this off there is a risk that you will accidentally overwrite bakes you did before if you forget to change the folder name
+为文件夹添加日期和时间,Append date and time to folder
+通过合成器运行已烘焙的图像。必须保存混合文件，并导出烘焙图像,"Run baked images through the compositor. Your blend file must be saved, and you must be exporting your bakes"
+去噪,Denoise
+在将网格导出为 FBX 时为对象应用修改器,Apply modifiers to object on export of the mesh to FBX
+应用对象修改器,Apply object modifiers
+使用 ,Use the 
+应用变形,Apply transformation
+导出后在 Blender 内部保留烘焙图像,Keep baked images internal within Blender after exporting
+导出后保留内部图像,Keep internal images after export
+输入现有 FBX 导出预设的名称，以便将其用于网格导出,Enter the name of an existing FBX export preset to use that for mesh export
+FBX 导出预设,FBX Export Preset
+输入现有 GLTF 导出预设的名称，将其用于网格导出,Enter the name of an existing GLTF export preset to use that for mesh export
+GLTF 导出预置,GLTF Export Preset
+导出网格的格式（FBX 或 GLTF）,Format of the exported mesh (FBX or GLTF)
+导出格式,Export format
+打开时，将对添加到烘焙列表中的对象进行烘焙。关闭时，将对视口中选定的对象进行烘焙,"When turned on, you will bake the objects added to the bake list. When turned off, you will bake objects selected in the viewport"
+烘焙对象列表索引,Index for bake objects list
+背景烘焙,Background Bake
+帮助您识别背景烘焙任务的名称。该名称可以是任何内容，仅用于帮助跟踪多个背景烘焙任务。名称将显示在下面的列表中。,"Name to help you identify the background bake task. This can be anything, and is only to help keep track of multiple background bake tasks. The name will show in the list below."
+后台烘焙任务名称,Background bake task name
+GPU 内存限制,GPU Memory Limit
+通过限制渲染瓦片大小来限制内存使用。更多内存意味着更快的烘焙时间，但也有可能超出电脑性能，导致崩溃或烘焙时间过慢。,"Limit memory usage by limiting render tile size. More memory means faster bake times, but it is possible to exceed the capabilities of your computer which will lead to a crash or slow bake times"
+应用于这些烘焙的名称（已包含在烘焙文件名中，前提是您已将其包含在图像格式字符串中--请参阅插件首选项）。注意：为保持兼容性，仅使用 MS Windows 可接受的字符,"Name to apply to these bakes (is incorporated into the bakes file name, provided you have included this in the image format string - see addon preferences). NOTE: To maintain compatibility, only MS Windows acceptable characters will be used"
+批次名称,Batch name
+创建 glTF 设置节点组,Create the glTF settings node group
+创建 glTF 设置,Create glTF settings
+选择 glTF,glTF selection
+应将哪个贴图插入 glTF 设置节点,Which map should be plugged into the glTF settings node
+默认情况下，PBR 烘焙是以 2 个采样点进行的（因为它们是作为发射烘焙的，不可能出现噪点）。不过，对于包含斜角或 AO 节点的材质，需要增加采样点数。如果在材料中检测到这些节点，则使用此计数,"PBR bakes are done at 2 samples by default (as they are baked as emission and noise should not be possible). However, sample count needs to be boosted for materials containing Bevel or AO nodes. If those nodes are detected in your material(s), this count is used"
+增强样本数（AO 和斜面）,Boosted sample count (AO and Bevel)
+通常，法线贴图被视为一种特殊情况。无论您的其他设置如何，它们在内部始终是 32 位浮点数，在外部输出时是 16/32 位（所选文件类型的最大值）。启用此选项将关闭这种特殊处理。法线贴图将遵循与其他纹理相同的规则，并受到以下影响,"Usually, normal maps are treated as a special case. Regardless of your other settings, they are ALWAYS 32 bit floats internally and 16/32 bit external exports (maximum for chosen file type). Enabling this option turns off that special treatment. Normal maps will follow the same rules as other textures, and be affected by the \"
+唐,Don
+预设列表,List of presets
+预设,Presets
+烘焙预设列表的索引,Index for bake presets list
+保存此预置的名称,Name to save this preset under
+名称： ,Name: 
+加载预置时清除烘焙对象列表。预置中存储的任何烘焙对象列表都将被应用。,Clear the bake object list when loading a preset. Any bake objects list stored in the preset will be applied instead
+用预置替换烘焙对象列表,Replace bake objects list with preset
+显示 SimpleBake 预置,Show SimpleBake presets
+显示烘焙对象,Show bake objects
+显示 PBR 设置,Show PBR settings
+显示循环烘焙设置,Show CyclesBake settings
+显示特殊设置,Show Specials settings
+显示纹理设置,Show Texture settings
+显示导出设置,Show Export settings
+显示 UV 设置,Show UV settings
+显示其他设置,Show Other settings
+显示通道打包设置,Show Channel Packing settings
+显示当前运行的背景烘焙状态,Show status of currently running background bakes
+背景烘焙状态,BG Bakes Status
+显示高级 UV 包装选项,Show advanced UV packing options
+高级 UV 包装选项,Advanced UV packing options
+通道打包图像的红色通道使用的烘焙类型,Bake type to use for the Red channel of the channel packed image
+通道打包图像的格利布通道使用的烘焙类型,Bake type to use for the Greeb channel of the channel packed image
+通道打包图像的蓝色通道使用的烘焙类型,Bake type to use for the Blue channel of the channel packed image
+通道打包图像的 Alpha 通道使用的烘焙类型,Bake type to use for the Alpha channel of the channel packed image
+通道打包纹理列表,List of Channel Packed Textures
+CP 纹理,CP Textures
+CP 纹理列表的索引,Index for CP Textures list
+保存通道打包图像时使用的 PNG 压缩格式,PNG compression to use when saving the channel packed image
+通道打包图像的文件格式,File format for channel pack image
+通道打包的导出文件格式,Export File Format for Channel Packing
+通道打包后删除烘焙,Delete bakes after channel pack
+使用 SimpleBake for Blender 2.8 上传,Uploaded with SimpleBake for Blender 2.8
+将选定的 SimpleBake 生成对象上传到 Sketchfab,Upload selected SimpleBake generated objects to Sketchfab
+将选定的 SimpleBake 生成对象上传到 Sketchfab。必须保存您的混合文件。您只能上传使用 SimpleBake 创建的对象。,Upload selected SimpleBake generated objects to Sketchfab. Your blend file must be saved. You can only upload objects created with SimpleBake
+上传,Upload
+执行预烘焙启动检查,Perform pre-bake starting checks
+执行烘焙启动检查,Perform bake starting checks
+开始,Go
+设置 UDIM 瓦片,Set UDIM tile
+重新加载 UDIM 图像,Reload UDIM images
+无,None
+SB_Crash_Log,SB_Crash_Log
+SIMPLEBAKE,SIMPLEBAKE
+开始烘焙操作,Start the bake operation
+为烘焙对象准备 UV 贴图,Prepare UV maps on the bake objects
+准备 UV,Prepare UVs
+简单烘焙,SimpleBake
+_,_
+开始自动匹配的背景烘焙,Commence background bake for AutoMatch
+烘焙（背景）,Bake (Background)
+开始 PBR 自动匹配高低烘焙,Start PBR AutoMatch High Low Bake
+开始自动匹配烘焙,Commence AutoMatch Bake
+烘焙,Bake
+设置样本数,Set the sample count
+通过合成器去噪处理运行目标图像,Run the target image through compositor denoise
+合成器去噪,compositor_denoise
+仅选择指定对象,Select only the specified object
+选择,Select
+将烘焙对象选为选定对象，将目标对象选为活动对象,"Select the bake objects as selected, and target object as active"
+所有烘焙类型共享的准备工作,Preperation shared by all types of bake
+将所有烘焙图像打包到混合文件中,Pack all baked images into blend file
+根据需要缩放图像,Scale images if needed
+烘焙准备,BakePrep
+所有烘焙类型共享的修饰操作,Finishing actions shared by all types of bake
+所有烘焙类型共享的修饰,Finishing shared by all types of bake
+烘焙修饰,BakeFinish
+专门针对 PBR 烘焙的预处理和修饰,Preperation and finishing specific to PBR baking
+CyclesBake 烘焙类型的预处理或修饰,Preperation or Finish for CyclesBake bake type
+准备或完成,Prepare or Finish
+开始循环烘焙 S2A 的背景烘焙,Commence background bake for CyclesBake S2A
+开始循环烘焙 S2A 的烘焙,Commence bake for CyclesBake S2A
+开始循环烘焙（非 S2A）的背景烘焙,Commence background bake for CyclesBake (non S2A)
+开始循环烘焙（非 S2A）的背景烘焙,Commence bake for CyclesBake (non S2A)
+开始装饰板背景烘焙,Commence background bake for Decals
+开始 PBR 贴花烘焙,Start PBR Decals Bake
+开始装饰效果烘焙,Commence Decals Bake
+开始 PBR S2A 背景烘焙,Commence background bake for PBR S2A
+开始 PBR S2A 的烘焙,Commence bake for PBR S2A
+开始 PBR（非 S2A）背景烘焙,Commence background bake for PBR (non S2A)
+开始 PBR（非 S2A）的烘焙,Commence bake for PBR (non S2A)
+PBR 的预烘焙操作（移除节点组,Pre bake actions for PBR (remove node groups
+对 PBR 进行预烘焙（移除节点组）,Pre bake for PBR (remove node groups)
+反转粗糙度贴图以创建光泽度贴图,Invert roughness map to create glossy map
+反转,Invert
+翻转 Y 以创建 DirectX 法线贴图,Flip Y to create DirectX normal map
+创建,Create
+预处理或完成 PBR 烘焙类型,Preperation or Finish for PBR bake type
+删除,Remove
+记录或还原,Record or Restore
+设置,Setup
+UIL 列表。,UIList.
+添加简单烘焙 CP 纹理项目,Add a SimpleBake CP Texture item
+添加,Add
+删除选定的通道包纹理,Delete the selected channel pack texture
+添加一些通道包纹理示例,Add some example channel pack textures
+添加示例,Add examples
+Unity 光着色器,Unity Lit Shader
+Unity 传统着色器,Unity Legacy Shader
+ORM,ORM
+Alpha 中的漫反射和 Spec,Diffuse and Spec in alpha
+烘焙对象列表,Bake objects list
+ --> , --> 
+将选定对象添加到烘焙列表中,Add selected object(s) to the bake list
+在列表中添加一个烘焙对象,Adds a bake object to the list
+将指定对象添加到烘焙列表中,Add specified object(s) to the bake list
+从烘焙列表中移除选定对象。,Remove the selected object from the bake list.
+从列表中删除一个烘焙对象,Removes a bake object from the list
+清除对象列表,Clear the object list
+清除烘焙对象列表,Clears the bake object list
+移动列表中的对象,Move an object in the list.
+移动烘焙对象列表中的一个项目,Moves an item in the bake objects list
+ 夹紧时移动项目呈现队列的索引。, Move index of an item render queue while clamping it. 
+刷新列表以删除对象,Refresh the list to remove objects
+刷新烘焙对象列表,Refresh the bake objects list
+去噪 （合成器）,Denoise (Compositor)
+去噪（循环）,Denoise (Cycles)
+检测节点组,Node groups detected
+遗憾的是，这些只能,Unfortunately these can only be
+在前景中烘焙,baked in the foreground
+启用自动匹配高低多边形,Auto match high low poly enabled
+不幸的是，这只能,Unfortunately this can only be
+将贴花烘焙至目标已启用。,Baking decals to target enabled.
+渲染,render
+警告：Simplebake 不支持更新。,WARNING: Simplebake wasn
+更新。您在线吗？,for updates. Are you online?
+是的，我 *AM* 在线,Yes I *AM* online!!
+新版本的 SimpleBake 已可用,Newer version of SimpleBake available
+在插件首选项中自动更新,Update automatically in addon preferences
+SimpleBake 已更新,SimpleBake is up-to-date
+全部隐藏,Hide all
+全部显示,Show all
+设置预置,Settings presets
+烘焙对象,Bake objects
+清除,Clear
+向上,Up
+向下,Down
+刷新,Refresh
+笼子对象（可选）,Cage Object (Optional)
+烘焙到目标对象（选中为激活状态）,Bake to target object (selected to active)
+PBR 烘焙,PBR Bakes
+循环烘焙,CyclesBake
+空间,Space
+Swizzle R,Swizzle R
+特殊烘焙,Special bakes
+光贴图采样计数,Lightmap Sample Count
+光贴图应用色彩管理,Lightmap apply colour management
+纹理设置,Texture settings
+在以下位置烘焙,Bake at:
+输出位置,Output at:
+烘焙边距,Bake Margin
+边缘类型,Margin Type
+输出设置,Export settings
+不可用 - 混合文件未保存,Unavailable - Blend file not saved
+导出路径,Export Path
+以（最大）32 位 EXR 导出,EXR exported as (max) 32bit
+格式,Format
+UV 设置,UV settings
+UV 包装设置,UV packing settings
+UV 岛平均尺寸,Average UV island size
+智能 UV 项目,Smart UV Project
+未选择对象进行烘焙,No objects selected for bake
+其他设置,Other settings
+复制对象并应用烘焙（导入后）,Copy objects and apply bakes (after import)
+将烘焙应用于原始对象,Apply bakes to original objects
+烘焙后隐藏源对象（导入后）,Hide source objects after bake (after import)
+在烘焙后隐藏笼对象（导入后）,Hide cage object after bake (after import)
+材质,Material
+Blender 偏好设置中没有有效的 GPU 设备。使用 CPU。,No valid GPU device in Blender Preferences. Using CPU.
+通道打包,Channel packing
+不可用 - 您必须导出烘焙效果,Unavailable - You must be exporting your bakes
+压缩,Compression
+添加新内容 (!!! 未保存!!),Add new (!!not saved!!)
+烘焙！贴花,Bake! (Decals)
+烘焙 (贴花）（背景）,Bake! (Decals) (Background)
+烘烤 (自动匹配）,Bake! (Auto Match)
+烘烤 (自动匹配）（背景）,Bake! (Auto Match) (Background)
+烘烤,Bake!
+烘烤 背景,Bake! (in background)
+烘烤！目标,Bake! (to target)
+前景烘烤,FOREGROUND BAKE
+进行中,IN PROGRESS
+请稍候,Please wait
+背景烘焙,Background bakes
+已完成：,Completed:
+活动中：,Active:
+已排队,Queued:
+Sketchfab 上传,Sketchfab Upload
+选择所有 PBR 烘焙类型,Select all PBR bake types
+全部选择,Select All
+全不选择 PBR 烘焙类型,Select none PBR bake types
+选择无,Select None
+将纹理分辨率提高 1k,Increase texture resolution by 1k
++1k,+1k
+降低纹理分辨率 1k,Decrease texture resolution by 1k
+-1k,-1k
+将输出分辨率提高 1k,Increase output resolution by 1k
+将输出分辨率降低 1k,Decrease output resolution by 1k
+显示所有 SimpleBake 面板项目,Show all SimpleBake panel items
+隐藏所有 SimpleBake 面板项目,Hide all SimpleBake panel items
+如果要编辑所选特殊材料，请导入这些材料。编辑后，它们将用于此文件中所有该类型的烘焙,"Import the selected specials materials if you want to edit them. Once edited, they will be used for all bakes of that type in this file"
+导入特殊材料,Import specials materials
+"如果您在线，可能需要在网络服务器上完成 ""我不是机器人 ""检查。单击此处完成检查。一切都会有解释...","If you are online, you likely need to complete the 'I am not a robot' check on the web server. Click here to do that. All will be explained..."
+启动网络浏览器,Launch web browser
+将导出路径设置为当前混合文件的位置,Set export path to the location of current blend file
+设置,Set
+Sketchfab API 密钥： ,Sketchfab API Key: 
+图像格式字符串,Image format string
+解压所有节点组。如果您的材质中有非常不寻常的节点设置，则可使用此功能。(例如，材料输出节点隐藏在节点组内）。这样做会影响性能，但可以避免某些拥有大量嵌套节点组的材质发生崩溃。,"Unpack all node groups. Used if you have very unusual node setups in your materials. (e.g. Material Output nodes hidden inside node groups). This will hurt performance, but can avoid crashes with some materials that have lots and lots of nested node groups"
+烘焙 PBR（漫反射 BSDF、光泽度 BSDF 等）时跳过无效 PBR 节点检查 不推荐。,"Skip the check for invalid PBR nodes when baking PBR (Diffuse BSDF, Glossy BSDF etc.) NOT RECOMMENDED."
+使用旧的合成器方法进行通道打包,Use the old compositor method of channel packing
+在为具有自定义分割法线的对象制作法线贴图时，自动平滑选项会导致问题。此选项将导致 SimpleBake 在烘焙时禁用自动平滑，以防止法线贴图中出现奇怪的伪影。,The auto-smooth option causes issues when baking normal maps for objects with custom split normals. This option will cause SimpleBake to disable auto-smooth for the bake to stop weird artifacts in the normal map
+覆盖用于 PBR 烘焙的样本数。默认值为 2，通常这对所有 PBR 烘焙都没有问题，因为它们是以发射方式烘焙的（即不可能出现噪点）。,"Override the sample count used for PBR bakes. The default is 2, and this is usually fine for all PBR bakes as they are baked as emission (i.e. no noise is possible)"
+回滚到以前版本的 SimpleBake,Rollback to previous version of SimpleBake
+请在下面输入您的 Sketchfab API 密钥。袦袝袥袗袥袗袥袗袥袗,Enter your Sketchfab API key below. Don
+烘焙图像名称格式,Format for baked image names
+有效变量为 %OBJ%（对象名称或 ,Valid variables are %OBJ% (object name or 
+%BAKEMODE%（pbr 或循环烘焙），%BAKETYPE%（漫反射、发射等）,"%BAKEMODE% (pbr or cycles bake), %BAKETYPE% (diffuse, emission etc.)"
+和 %RESOLUTION%（例如 1024x1024）。,and %RESOLUTION% (e.g. 1024x1024)
+PBR 烘焙类型的别名和色彩空间设置,Aliases and colour space settings for PBR bake types
+警告：Sketchfab 会查找某些值。更改这些值可能会破坏 SF 上载,WARNING: Sketchfab looks for certain values. Changing these may break SF Upload
+特殊烘焙类型的别名,Aliases for special bake types
+调整和其他选项,Tweaks and Misc Options
+解压缩材料中的所有节点组,Unpack ALL node groups in materials
+跳过对 PBR 烘焙无效节点的检查（不推荐）,Skip check for invalid nodes for PBR bake (NOT RECOMMENDED)
+使用旧方法打包通道,Use the old method for channel packing
+禁用自定义分割法线的自动平滑功能,Disable auto-smooth for custom split normals
+覆盖 PBR 样本计数,Override PBR sample count
+重置图像名称别名,Reset the image name aliases
+将所有别名和色彩空间设置恢复为默认值,Restore all aliases and colour space settings to default
+将图像名称字符串还原为默认值（与 Sketchfab 兼容）,Reset the image name string to default (Sketchfab compatible)
+将图像字符串还原为默认值,Restore image string to default
+查看 SimpleBake 发行说明,View the SimpleBake Release Notes
+打开 SimpleBake 支持页面,Open the SimpleBake Support Page
+打开 SimpleBake Discord,Open the SimpleBake Discord
+刷新 SimpleBake 预设列表,Refresh list of SimpleBake presets
+删除选定的 SimpleBake 预设,Delete selected SimpleBake preset
+,
+通过www.DeepL.com/Translator（免费版）翻译,

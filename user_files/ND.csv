@@ -1,0 +1,200 @@
+,"""\""""
+"""",""Local user preferences version"""
+可更新,Update Available
+启用快速收藏夹,Enable Quick Favourites
+启用右键选择,Enable Right Click Select
+兼容性模式,Compatibility Mode
+实验模式,Experimental Mode
+"在 ""Recon Poly ""后自动运行 ""Solidify",Automatically run Solidify after Recon Poly
+"自动将 ""重构多边形 ""外延设置为 ""刻划""（与 ""环形 ""相比）",Automatically set Recon Poly extents to Inscribed (vs. Circumscribed)
+启用鼠标值,Enable Mouse Values
+使用快速布尔运算,Use Fast Booleans
+启用侧边栏/N-面板（需要重新启动 Blender）,Enable the sidebar / N-panel (requires Blender restart)
+启用轴可视化,Enable Axis Visualization
+锁定覆盖图钉扎,Lock Overlay Pinning
+图层锁定,Overlay Pinned
+启用更新检查,Enable Update Check
+覆盖图钉 X 坐标,Overlay Pin X Coordinate
+覆盖引脚 Y 坐标,Overlay Pin Y Coordinate
+轴基准厚度,Axis Base Thickness
+轴活动厚度,Axis Active Thickness
+轴不活动不透明度,Axis Inactive Opacity
+鼠标值 标量,Mouse Value Scalar
+单位增量大小,Unit Increment Size
+鼠标值步数,Mouse Value Steps
+实用工具集合名称,Utils Collection Name
+叠加 DPI,Overlay DPI
+叠加标题标准颜色,Overlay Header Standard Color
+叠加标题调用颜色,Overlay Header Recalled Color
+已暂停叠加标题颜色,Overlay Header Paused Color
+叠加基本颜色,Overlay Base Color
+覆盖选项活动颜色,Overlay Option Active Color
+覆盖选项手动覆盖颜色,Overlay Option Manual Override Color
+点主颜色,Points Primary Color
+点 二级颜色,Points Secondary Color
+点三级颜色,Points Tertiary Color
+点引导线颜色,Points Guide Line Color
+轴 X 颜色,Axis X Color
+轴 Y 颜色,Axis Y Color
+轴 Z 颜色,Axis Z Color
+标签,Tabs
+默认平滑角度,Default Smooting Angle
+暂停键,Pause Key
+插针键,Pin Key
+重置选项键,Reset Option Key
+自定义螺钉头,Custom Screw Heads
+显示注释,Show Annotations
+显示 X 轴,Show X Axis
+显示 Y 轴,Show Y Axis
+显示 Z 轴,Show Z Axis
+显示骨骼,Show Bones
+显示光标,Show Cursor
+显示附加功能,Show Extras
+显示地板,Show Floor
+显示运动路径,Show Motion Paths
+显示物体起源,Show Object Origins
+显示对象起源（全部）,Show Object Origins (All)
+显示正交网格,Show Ortho Grid
+显示所选轮廓,Show Outline Selected
+显示关系线,Show Relationship Lines
+显示统计数据,Show Stats
+显示文本,Show Text
+自定义叠加选项,Custom Overlay Options
+叠加键绑定,Overlay Keybinds
+ , 
+玖龙 v%s,ND v%s
+ND 主题颜色,ND Theme Colors
+斜面,Bevel
+边缘斜角,Edge Bevel
+顶点斜角,Vertex Bevel
+ND - 斜面,ND — Bevel
+WN 斜面,WN Bevel
+内嵌/外嵌,Inset/Outset
+对选定对象执行布尔操作,Perform a boolean operation on the selected objects
+ - , — 
+切片,Slice
+水合,Hydrate
+将布尔参考对象转换为固化几何体,Convert a boolean reference object into solidified geometry
+交换求解器,Swap Solver
+交换所选实用工具对象的布尔修改器的求解器模式,Swap the solver mode of the boolean modifiers referencing the selected utility objects
+布尔,Boolean
+模式,Mode
+网格,Lattice
+ND - 晶格,ND — Lattice
+简单变形,Simple Deform
+轮廓挤出,Profile Extrude
+螺纹,Screw
+凝固,Solidify
+斜面,Bevels
+','
+INVOKE_DEFAULT,INVOKE_DEFAULT
+布尔值,Booleans
+变形,Deform
+挤出,Extrusion
+ND v%s - 快速（预测）,ND v%s — Fast (Predict)
+无可用预测,No predictions available
+未选择活动目标对象,No active target object selected
+"F "" 制造边缘/面",F » Make Edge/Face
+交换求解器（布尔）,Swap Solver (Booleans)
+差异,Difference
+联合,Union
+相交,Intersect
+低 LOD,Low LOD
+高 LOD,High LOD
+ND_MT_fast_menu,ND_MT_fast_menu
+材料选择,Material Selection
+可更新！,Update Available!
+草图,Sketch
+包装,Packaging
+实用工具,Utils
+视口,Viewport
+ND_MT_main_menu,ND_MT_main_menu
+切换部分,Toggle Sections
+切换以下所有部分的可见性,Toggle the visibility of all sections below
+ND v%s - 核心,ND v%s — Core
+ND v%s - 包装,ND v%s — Packaging
+ND_MT_packaging_menu,ND_MT_packaging_menu
+复制,Replicate
+重置玖龙主题,Reset ND Theme
+将 ND 主题颜色重置为原始值,Reset the ND theme colors back to their original values
+场景,Scene
+着色,Shading
+简化,Simplify
+ND v%s - 素描,ND v%s — Sketch
+"S "" 清除比例",S » Clear Scale
+"S "" 缩小/加宽",S » Shrink/Fatten
+ND_MT_sketch_menu,ND_MT_sketch_menu
+ND v%s - 工具,ND v%s — Utils
+ND_MT_utils_menu,ND_MT_utils_menu
+ND v%s - 视口,ND v%s — Viewport
+ND_MT_viewport_menu,ND_MT_viewport_menu
+平滑 - ND SBA,Smooth — ND SBA
+批量分配材质,Bulk Assign Materials
+为每个选定对象随机分配一个 ID 材质,Assign a random ID material to each of the selected objects
+清除所有材质,Clear All Materials
+删除所有选定对象的材质槽,Remove the material slots from all selected objects
+创建 ID 材质,Create ID Material
+为所选对象或几何体创建并分配新的 ID 材质,Create and assign a new ID material to the selected object or geometry
+材料名称,Material Name
+名称和数据同步,Name & Data Sync
+更新所有数据名称以匹配相应的对象名称,Updates all data names to match their corresponding object names
+UV 接缝,UV Seams
+设置 LOD 后缀,Set LOD Suffix
+用指定的 LOD 为所有选定对象添加后缀,Suffixes all selected objects with the specified LOD
+后缀,Suffix
+_,_
+三角剖分,Triangulate
+阵列,Array³
+圆形阵列,Circular Array
+ND - 圆形阵列旋转器,ND — Circular Array Rotator
+镜面,Mirror
+ND - 镜面几何,ND — Mirror Geometry
+清理实用工具,Clean Utils
+删除未使用的布尔修改器和实用对象,Removes unused boolean modifiers and utility objects
+照明,Flare
+针对选定对象的位置添加新的照明装备,Adds a new lighting rig targeting selected objects position
+ND - 耀斑灯具,ND — Flare Rig
+ND - 耀斑灯光.001,ND — Flare Light.001
+平滑阴影,Smooth Shading
+设置和配置对象平滑属性,Set and configure object smoothing properties
+加权法线,Weighted Normals
+分解,Decimate
+焊接,Weld
+圆化,Circularize
+为选定平面添加顶点斜角操作符，将其转换为圆形,Adds a vertex bevel operator to the selected plane to convert it into a circular shape
+清除顶点组,Clear Vertex Groups
+从选定对象的所有顶点组中删除活动顶点,Remove the active vertices from all vertex groups on the selected object
+地理提升,Geo Lift
+制作曲面,Make Manifold
+尝试将当前草图转化为流形多边形,Attempts to turn the current sketch into a manifold polygon
+面板,Panel
+顶点,VERTS
+面,FACES
+边,EDGES
+重构多边形,Recon Poly
+在 3D 光标处添加规则的凸多边形,Adds a regular convex polygon at the 3D cursor
+螺丝头,Screw Head
+快速创建各种常见的螺钉头,Quickly create a variety of common screw heads
+ND - {} 头部,ND — {} Head
+单顶点,Single Vertex
+在 3D 光标处创建单顶点对象,Creates a single vertex object at the 3D cursor
+查看对齐,View Align
+ND - 草绘曲面,ND — Sketch Surface
+循环,Cycle
+应用修改器,Apply Modifiers
+设置原点,Set Origin
+抓取对齐,Snap Align
+将一个对象对齐并抓取到另一个对象,Align and snap one object to another
+轮廓,Silhouette
+为视口中的所有对象涂上黑色阴影，以帮助评估其轮廓,Apply flat black shading all objects in the viewport to help assess thier silhouette
+叠加（全部）,Overlays (All)
+切换所有叠加的可见性,Toggle the visibility of all overlays
+叠加（自定义）,Overlays (Custom)
+切换插件偏好设置中定义的所有叠加效果的可见性,Toggle the visibility of all overlays defined in the addon preferences
+脸部方向,Face Orientation
+切换脸部方向,Toggle face orientation
+工具可见性,Utils Visibility
+线框,Wireframes
+切换线框的可见性,Toggle wireframe visibility
+,
+通过www.DeepL.com/Translator（免费版）翻译,

@@ -1,9 +1,8 @@
 , 
-"""\""""
-"""",""伪对象层额外菜单""","""\""""
+,"""\""""
 """",""Pseudo Object Layer Extras Menu"""
-键 可见性,Key Visibility
-伪对象图层图标 显示菜单,Pseudo Object Layer Icon Expose Menu
+关键帧可见性,Key Visibility
+图标显示菜单,Pseudo Object Layer Icon Expose Menu
 批量移动图层到集合,Batch Move Layers to Collections
 模式,Mode
 将图层导出为 FBX,Export Layers to FBX
@@ -48,7 +47,7 @@
 ','
 烘焙动画,Baked Animation
 导出烘焙关键帧动画,Export baked keyframe animation
-键入所有骨骼,Key All Bones
+关键帧所有骨骼,Key All Bones
 强制导出所有骨骼的至少一个关键帧动画 ,Force exporting at least one key of animation for all bones 
 NLA 条带,NLA Strips
 将每个非静音 NLA 条带导出为单独的 FBX,Export each non-muted NLA strip as a separated FBX
@@ -91,11 +90,11 @@ NLA 条带,NLA Strips
 框架图层对象,Frame Layer Object
 框选图层对象,Frame Layer Objects
 清除缺失对象,Purge Missing Objects
-独奏图层,Solo Layer
+独立显示图层,Solo Layer
 添加图层类别,Add Layer Category
 删除图层会话,Remove Layer Session
 重新排序图层会话,Reorder Layer Session
-重新排序图层,Reorder Layer
+重排图层,Reorder Layer
 层,Pseudo Object Layer
 新建会话,New Session
 从所选图层新建,New From Selected
@@ -104,3 +103,4 @@ NLA 条带,NLA Strips
 批处理图层到集合,Batch Layers to Collection
 父图层孤岛对象为空,Parent Layer Orphan Objects to Empty
 ,
+通过www.DeepL.com/Translator（免费版）翻译,

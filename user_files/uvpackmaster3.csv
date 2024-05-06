@@ -1,0 +1,251 @@
+,"""\""""
+"""",""P1 (X)"""
+,P1 (Y)
+,P2 (X)
+,P2 (Y)
+,'
+方框坐标：,Box coordinates:
+方框内的岛屿：,Islands inside the box:
+选择,Select
+取消选择,Deselect
+将方框移动到相邻的位置：,Move the box to an adjacent tile:
+,↖
+,←
+,↙
+,↑
+,↓
+,↗
+,→
+,↘
+ , 
+,[ {} ]
+,Override {}
+名称,Name
+组号,Group Number
+名称,name
+uuid,uuid
+,g_scheme_{}
+行动,Action
+分组计划,Grouping Schemes
+新方案名称：,New Scheme Name:
+警告：未找到混合文件中的分组方案。,WARNING: no grouping scheme in the blend file found.
+应用到方案：,Apply To Scheme:
+新的分组方案,New Grouping Scheme
+添加新的分组方案,Add a new grouping scheme
+移除,Remove
+移除活动的分组方案,Remove the active grouping scheme
+新项目,New Item
+在活动分组方案中添加一个分组,Add a group to the active grouping scheme
+从方案中移除活动分组,Remove the active group from the scheme
+移动,Move
+在列表中向上/向下移动活动分组,Move the active group up/down in the list
+在活动分组中添加新目标框,Add a new target box to the active group
+删除活动目标框,Remove the active target box
+在列表中向上/向下移动活动方框,Move the active box up/down in the list
+岛屿分组,Island Grouping
+锁定组,Lock Groups
+堆叠分组,Stack Groups
+跟踪分组,Track Groups
+浏览分组方案,Browse Grouping Schemes
+,[D]
+,Box {}: {}
+显示帮助,Show Help
+显示给定功能的帮助,Show help for the given functionality
+显示模式帮助,Show Mode Help
+显示当前所选模式的帮助,Show help for the currently selected mode
+UVPackmaster 设置帮助,UVPackmaster Setup Help
+显示 UVPackmaster 设置帮助,Show help for UVPackmaster setup
+显示弹出窗口,Show a popup
+帮助,HELP
+警告,WARNING
+选择模式,Select Mode
+选择活动模式,Select active mode
+模式,Modes
+已选择,selected
+设备,UTILITIES
+包装,PACKING
+对齐,ALIGNING
+分组编辑器,GROUPING EDITOR
+其他工具,OTHER TOOLS
+统计,STATISTICS
+附加选项,ADD-ON OPTIONS
+扩展,expanded
+选择多面板,Select Multi Panel
+展开面板,Exapnd Panel
+展开/隐藏面板,Expand/hide the panel
+UVPackmaster3,UVPackmaster3
+模式,mode_id
+调整岛屿到纹理,Adjust Islands To Texture
+调整所选岛屿的比例，使其适合打包到活动纹理中。注意：此操作只能在打包到非正方形纹理时使用。有关非正方形打包的信息，请单击帮助图标,Adjust scale of selected islands so they are suitable for packing into the active texture. CAUTION: this operator should be used only when packing to a non-square texture. For for info regarding non-square packing click the help icon
+撤销岛屿调整,Undo Islands Adjustment
+撤销已执行的调整,Undo adjustment performed by the 
+完成方框编辑,Finish Box Editing
+编辑方案目标方框,Edit Scheme Target Boxes
+将方框设置为平铺,Set Box To Tile
+将目标方框设置为由 ,Set a target box to a UDIM tile as defined by the 
+方向 X,Direction X
+方向 Y,Direction Y
+移动目标方框,Move Target Box
+将目标方框移动到相邻的平铺,Move a target box to an adjacent tile
+编辑目标方框,Edit Target Box
+选择方框中的岛屿,Select Islands In Box
+选择/取消选择活动方框中的岛屿,Select/deselect islands in the active box
+显示岛屿参数,Show Island Parameter
+显示分配给所选岛屿的岛屿参数值,Show island parameter values assigned to the selected islands
+设置岛屿参数,Set Island Parameter
+重置岛屿参数,Reset Island Parameter
+将选定岛屿的岛屿参数重置为默认值,Reset the island parameter to the default value for the selected islands
+显示组分配,Show Group Assignment
+显示所选岛屿分配到的所有组的名称,Show the names of all groups the selected islands are assigned to
+将岛屿分配到组,Assign Islands To The Group
+将选定的岛屿分配到活动组,Assign the selected islands to the active group
+重置组,Reset Groups
+重置所选岛屿的组分配,Reset the group assignment for the selected islands
+选择分配给组的岛屿,Select Islands Assigned To Group
+选择/取消选择分配给活动组的所有岛屿,Select / deselect all islands which are assigned to the active group
+将分组应用于方案,Apply Grouping To Scheme
+使用当前选定的自动分组方法创建或扩展手动分组方案,Create or extend a manual grouping scheme using the currently selected automatic grouping method
+跳过默认组,Skip Default Group
+将分组应用到新方案时，不要将面分配到默认组中,Do not assign faces to the default group when applying grouping to a new scheme
+显示所选岛屿分配到的组号,Show group numbers the selected islands are assigned to
+将岛屿分配到组,Assign Islands To Group
+将所选的岛屿分配到由 ,Assign the selected islands to the group determined by the 
+将岛屿指定到空闲组,Assign Islands To Free Group
+将所选岛屿分配到第一个空闲组（UV 贴图中当前未被面孔使用的最低组）。,Assign the selected islands to the first free group (the lowest group not currently used by faces in the UV map)
+取消设置组,Unset Groups
+取消所选岛屿的群组分配（这些岛屿将不属于任何群组）,Unset the group assignment for the selected islands (the islands will not belong to any group)
+选择 / 取消选择分配到由 ,Select / deselect all islands which are assigned to the group determined by the 
+选择所有组,Select All Groups
+选择分配给任何组的所有岛屿,Select all islands which are assigned to any group
+设置,Set
+重置,Reset
+显示,Show
+值,Value
+设置旋转步长,Set Rotation Step
+将旋转步长设置为建议值之一,Set Rotation Step to one of the suggested values
+设置纹理尺寸,Set Texture Size
+将纹理大小设置为建议值之一,Set Texture Size to one of the suggested values
+附加选项,Add-on Options
+调试选项：,Debug options:
+实用工具,Utilities
+打包,Packing
+高级打包选项,Advanced Packing Options
+统计,Statistics
+上次操作统计：,Last operation statistics:
+迭代次数 ,Iteration count: 
+打包总时间 ,Total packing time: 
+平均迭代时间 ,Average iteration time: 
+对齐,Aligning
+选择分组方案,Select a grouping scheme:
+UVPM3_MT_BrowseGroupingSchemes,UVPM3_MT_BrowseGroupingSchemes
+← 选择分组方案,← Select a grouping scheme
+方案选项：,Scheme options:
+分组选项：,Group options:
+当前所选模式没有可用的分组选项,No group options available the for currently selected modes
+选择分配给组的岛屿：,Select islands assigned to the group:
+组目标框： （不能编辑互补组的目标框）,Group Target Boxes: (target boxes of the complementary group cannot be edited)
+分组选项：,Grouping options:
+方案组,Scheme Groups
+组目标方框,Group Target Boxes
+启用,enabled
+使用分组方案,Use Grouping Scheme
+使用分组方案定义分组,Use a grouping scheme to define groups
+{}（编辑器）,{} (Editor)
+常规选项,General options:
+用户界面选项,UI options:
+专家选项：,Expert options:
+只有当你真正了解自己在做什么时，才能更改专家选项。,Change expert options only if you really know what you are doing.
+打包设备：,Packing devices:
+已启用,Enabled
+引擎状态：,Engine status:
+UVPM 引擎的路径：,Path to the UVPM engine:
+显示专家选项,Show Expert Options
+INVOKE_DEFAULT,INVOKE_DEFAULT
+保存,Save
+选项预设,Option Presets
+从预设加载方框,Load Box From Preset
+删除预置,Remove Preset
+从磁盘中删除所选预置,Remove the selected preset from the disk
+文件路径,File Path
+导入文件时使用的文件路径,Filepath used for importing the file
+是否确定要删除 ,Are you sure you want to delete 
+保存预设,Save Preset
+将所有打包选项保存到文件中,Save all packer options to a file
+打开预设,Open Preset
+从文件加载所有包装器选项,Load all packer options from a file
+您确定要继续吗？,Are you sure you want to continue?
+从预设文件加载目标盒坐标,Load target box coordinates from a preset file
+重置为默认值,Reset To Defaults
+将所有 UVPM 参数重置为默认值,Reset all UVPM parameters to default values
+分组方案预设,Grouping Scheme Presets
+保存方案,Save Scheme
+将激活的分组方案保存到文件中,Save the active grouping scheme to a file
+加载方案,Load Scheme
+从文件加载分组方案,Load Grouping Scheme from a file
+该操作将覆盖混合文件中已有的编组方案：,The operation is going to overwrite a grouping scheme already present in the blend file:
+  ,  
+(因为分组方案和预置的内部 ID 相同）。按确定继续。,(because the internal IDs of the grouping scheme and the preset are the same). Press OK to continue.
+检查 ,Check 
+设置引擎路径,Set Engine Path
+设置 UVPM 引擎路径,Set a path to the UVPM engine
+uvpm,uvpm
+覆盖全局选项,Override Global Options
+(启用左侧复选框以覆盖特定选项）,(Enable checkboxes on the left to override particular options)
+覆盖全局选项,OVERRIDE GLOBAL OPTIONS
+打包选项：,Packing Options:
+像素边距：,Pixel Margin:
+全局启用像素边距,Enable Pixel Margin globally
+以覆盖,to enable overriding
+其他选项：,Other Options:
+选择相似,Select Similar
+从所有未选中的岛屿中，选择与当前选中的至少一个岛屿形状相似的所有岛屿。有关相似性检测的更多信息，请点击帮助按钮,"From all unselected islands, selects all islands which have similar shape to at least one island which is currently selected. For more info regarding similarity detection click the help button"
+对齐相似（堆栈）,Align Similar (Stack)
+对齐选中的岛屿，使形状相似的岛屿堆叠在一起。有关相似性检测的更多信息，请点击帮助按钮,"Align the selected islands, so islands which are similar are stacked on the top of each other. For more info regarding similarity detection click the help button"
+按相似度分组,Group By Similarity
+按相似度对所有选中的岛屿进行分组，并将生成的分组保存到分组方案中,Group all selected islands by similarity and save generated groups in a grouping scheme
+最小分组大小,Minimum Group Size
+所有小于该参数值的相似性分组将被忽略，其岛屿将被重新分配到默认分组 ({})。如果未使用该功能（值设为 1），默认分组将为空。,"All similarity groups of size lower than the value of this parameter will be ignored and their islands will be reassigned to the default group ({}). If the functionality is not used (value set to 1), the default group will be empty"
+警告：此操作将覆盖现有方案中的所有组。,WARNING: operation will overwrite all groups in the existing scheme.
+分割重叠的岛屿,Split Overlapping Islands
+有条不紊地将重叠的岛屿移动到相邻的瓷片上（在 +X 轴方向），以便在操作完成后，所选岛屿不会相互重叠,"Methodically move overlapping islands to adjacent tiles (in the +X axis direction), so that no selected islands are overlapping each other after the operation is done"
+撤销岛屿分割,Undo Island Split
+撤销上次的岛屿分割操作--将所有选中的岛屿移动到分割前的原始位置。警告：该操作只处理当前选中的岛屿，因此要将岛屿移动到其原始位置，必须确保在执行撤消操作时该岛屿处于选中状态。,"Undo the last island split operation - move all selected islands to their original locations before split. WARNING: the operation only process currently selected islands so in order to move an island to its original location, you have to make sure the island is selected when an Undo operation is run"
+在编辑器中编辑方案,Edit Scheme In Editor
+在编辑器中编辑方案,Edit the scheme in the Editor
+调整 UV 方向,Orient UVs
+旋转每个选中的 UV 岛，使生成的映射将给定的 3D 轴转换为给定的 UV 轴。点击帮助按钮获取更多信息,Rotate every selected UV island so that the resulting mapping transforms a given 3D axis to a given UV axis. Click the help button for more info
+删除对象中的 UVPM 数据,Remove UVPM Data From Objects
+从选定的对象中移除 UVPM 数据（UVPM 颜色属性）,Remove UVPM data from selected objects (UVPM color attributes)
+打包,Pack
+打包选定的 UV 岛,Pack selected UV islands
+重叠检查,Overlap Check
+检查所有选中的 UV 岛是否重叠。警告：此操作以每个 UV 岛为单位（报告两个不同的 UV 岛是否相互重叠），不会报告属于同一 UV 岛的两个重叠的 UV 面。,Check for overlapping UV islands among all selected islands. WARNING: this operation works on a per-island basis (reports whether two distinct UV islands overlap each other) - it will NOT report two overlapping UV faces belonging to the same island
+测量面积,Measure Area
+测量选定 UV 岛的面积,Measure area of selected UV islands
+将 TD 调整为非选定,Adjust TD To Unselected
+调整选定岛屿的像素密度，使其与未选定岛屿的像素密度一致,Adjust texel density of selected islands so it is uniform with texel density of unselected islands
+相似度选项,Similarity Options
+对齐优先级,Align Priority
+分割重叠,Split Overlapping
+分组编辑器,Grouping Editor
+将 UV 调整到三维空间,Orient UVs To 3D Space
+3D:,3D:
+UV：,UV:
+其他实用工具,Other Utilities
+瓦片设置,Tile Setup
+打包选项,Packing Options
+标准化比例,Normalize Scale
+像素边距,Pixel Margin
+使用活动纹理尺寸计算像素余量,Active texture dimensions are used to calculate pixel margin
+启发式搜索,Heuristic Search
+锁定重叠,Lock Overlapping
+非正方形打包,Non-Square Packing
+自定义目标框,Custom Target Box
+岛屿旋转步骤,Island Rotation Step
+岛规模限制,Island Scale Limit
+提示/帮助,Hints / Help
+参数提示：,Parameter hints:
+,
+通过www.DeepL.com/Translator（免费版）翻译,
+,
+,

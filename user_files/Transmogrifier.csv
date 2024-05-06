@@ -1,0 +1,260 @@
+, 
+,'
+线性,Linear
+sRGB,sRGB
+文件输出 ORM,File Output ORM
+在网络浏览器中打开在线文档（https://sapwoodstudio.github.io/transmogrifier）,Open online documentation in a web browser\n(https://sapwoodstudio.github.io/transmogrifier)
+在网络浏览器中打开在线文档（https://sapwoodstudio.github.io/transmogrifier）,Open online documentation in a web browser\n(https://sapwoodstudio.github.io/transmogrifier)
+在网络浏览器中打开在线文档（https://sapwoodstudio.github.io/transmogrifier）,Open online documentation in a web browser\n(https://sapwoodstudio.github.io/transmogrifier)
+在网络浏览器中打开在线文档（https://sapwoodstudio.github.io/transmogrifier）,Open online documentation in a web browser\n(https://sapwoodstudio.github.io/transmogrifier)
+将 3D 文件和相关纹理批量转换为其他格式,Batch converts 3D files and associated textures into other formats
+批量转换,Batch Convert
+计算批量转换并显示预测信息,Calculate batch conversion and display info message of the forecast
+转换预测,Conversion Forecast
+将 Transmogrifier 附带的示例预置复制到用户偏好设置中,Copy example presets shipped with Transmogrifier to User Preferences
+安装预置示例,Install Example Presets
+根据当前设置创建 Transmogrifier 预置,Creates a Transmogrifier preset from current settings
+添加转换预置,Add Transmogrifier Preset
+名称,Name
+移除当前选择的预置,Removes currently selected Transmogrifier preset
+删除预置,Remove Transmogrifier Preset
+从 JSON 文件加载 Transmogrifier 预置,Load a Transmogrifier preset from a JSON file
+加载预置,Load Preset
+添加导入,Add Import
+在用户界面中添加新导入,Add new import to UI
+移除导入,Remove Import
+从用户界面移除导入,Remove import from UI
+要移除的索引,Index to remove
+要移除的导入的索引,Index of the import to remove
+添加导出,Add Export
+在用户界面中添加新的导出,Add new export to UI
+移除导出,Remove Export
+从用户界面移除导出,Remove export from UI
+要移除的导出的索引,Index of the export to remove
+根据当前设置创建编辑纹理预设,Creates an Edit Textures preset from current settings
+添加 ,Add 
+删除 ,Remove 
+从 JSON 文件加载编辑纹理预设,Load an Edit Textures preset from a JSON file
+加载 ,Load 
+添加编辑纹理,Add Texture Edit
+添加要编辑的纹理贴图,Add a texture map to edit
+移除贴图,Remove Map
+从编辑中移除纹理贴图,Remove texture map from editing
+要删除的纹理的索引,Index of the texture to remove
+添加脚本,Add Script
+为用户界面添加新的自定义脚本,Add new custom script to UI
+移除自定义脚本,Remove Custom Script
+从用户界面中移除自定义脚本,Remove custom script from UI
+要删除的自定义脚本的索引,Index of the custom script to remove
+高级用户界面,Advanced UI
+切换简单/高级用户界面选项,Toggle simple/advanced user interface options
+"使用预设的批量转换设置（点击 ""创建""）。",Use batch conversion settings from a preset.\n(Create by clicking 
+链接目录,Link Directories
+在所有导入文件格式之间同步导入目录,Synchronize import directories between all import file formats
+目录,Directory
+搜索和导入文件的父目录（默认为 // 将从与 blend 文件相同的目录导入（仅在 blend 文件已保存的情况下有效）,Parent directory to search through and import files\nDefault of // will import from the same directory as the blend file (only works if the blend file is saved)
+链接导出设置,Link Export Settings
+在所有导出文件格式之间同步某些导出设置,Synchronize some export settings between all export file formats
+对象数据名称,Data Names from Objects
+根据相应的对象名称重命名对象数据名称,Rename object data names according to their corresponding object names
+相邻导出,Export Adjacent
+导出与各自导入相邻的模型,Export models adjacent to their respective imports
+覆盖文件,Overwrite Files
+覆盖可能已经存在的给定导出格式的文件,Overwrite files of the given export format(s) that may already exist
+导出文件的目录//默认为 // 将导出到与混合文件相同的目录（仅在混合文件已保存的情况下有效）,Directory to export files\nDefault of // will export to the same directory as the blend file (only works if the blend file is saved)
+比例,Scale
+在导出前设置模型的比例,Set the scale of the model before exporting
+子目录,Subdirectories
+将模型导出到给定导出目录下的子目录中,Export models to their own subdirectories within the given export directory
+复制原始内容,Copy Original Contents
+复制每个导入项的原始内容,Copy original contents of each import item
+前缀,Prefix
+所有导出文件名开头的文本,Text to put at the beginning of all the exported file names
+后缀,Suffix
+放在所有导出文件名末尾的文本,Text to put at the end of all the exported file names
+使用纹理,Use Textures
+用选定来源的图像为模型制作纹理,Texture models with images from a selected source
+编辑纹理,Edit Textures
+使用正则表达式、调整大小和/或重新格式化来修改图像纹理。,"Modify image textures with regular expressions, resizing, and/or reformatting."
+保留临时纹理,Keep Temporary Textures
+不要,Don
+"使用预设的纹理编辑设置（单击 ""创建 ""链接纹理设置）。",Use texture edit settings from a preset.\n(Create by clicking 
+链接纹理设置,Link Texture Settings
+同步图像纹理,Syncrhonize image textures
+重排纹理,Regex Textures
+使用 regex 纠正纹理 PBR 名称中的拼写错误和不一致之处。这有助于确保 Transmogrifier 检测和导入这些纹理。,Use regex to correct misspellings and inconsistencies in texture PBR names. This helps to guarantee their detection and import by Transmogrifier
+纹理来源,Source
+设置要使用的纹理来源,Set the source of textures to be used
+自定义文件夹，从中导入纹理并应用于所有转换后的对象,Custom folder from which textures will be imported and applied to all converted objects
+复制到模型文件夹,Copy to Model Folders
+将自定义目录中的纹理复制到导入模型的每个文件夹中,Copy textures from custom directory to every folder from which a model is imported
+覆盖纹理,Overwrite Textures
+如果开启，原始纹理（如果存在）将被替换为每个转换模型的自定义目录中的纹理,"If toggled on, original textures (should they exist) will be replaced with textures from custom directory per model converted"
+链接到 .blend,Linked to .blend
+使用已链接到 .blend 文件的纹理,Use textures already linked to .blend file
+分辨率,Resolution
+为导出的模型设置自定义图像纹理分辨率，而不影响原始/源纹理文件的分辨率,Set a custom image texture resolution for exported models without affecting resolution of original/source texture files
+格式,Format
+在不影响原始/源纹理文件分辨率的情况下，为导出模型设置自定义纹理图像类型,Set a custom texture image type for exported models without affecting resolution of original/source texture files
+质量,Quality
+(%) 支持有损压缩的图像格式的质量,(%) Quality for image formats that support lossy compression
+重命名 UV 贴图,Rename UV Maps
+规范化 UV 贴图名称。 同一对象中的多个 UV 贴图将递增，例如 ,"Normalize UV map names.  Multiple UV maps within the same object will increment, for example, as "
+重命名 UV,Rename UVs
+文本重命名所有 UV 贴图（例如 ,Text to rename all UV maps (e.g. 
+导出 UV,Export UVs
+将 UV 布局导出到文件,Export UV layout to file
+修改,Modified
+从修改后的网格导出 UV,Export UVs from the modified mesh
+目的地,Destination
+选择导出 UV 贴图的目录,Select directory into which UV layouts will be exported
+设置导出 UV 贴图的自定义目录（默认为 // 将导出到与混合文件相同的目录（仅在混合文件已保存的情况下有效））。,Set a custom directory to which UV maps will be exported\nDefault of // will export to same directory as the blend file (only works if the blend file is saved)
+组合,Combination
+选择 UV 贴图导出时的组合方式,Select how UV layouts should be combined upon export
+导出 UV 贴图的文件格式（透明度仅适用于 PNG、EPS 和 SVG）,"File format to export the UV layout to \n(Transparency only works for PNG, EPS, and SVG)"
+填充不透明度,Fill Opacity
+设置导出 UV 布局的不透明度（在 0.0 和 1.0 之间）,Set amount of opacity for export UV layout \n(between 0.0 and 1.0)
+设置,Set
+在导出前设置导入对象的自定义变换,Set custom transformations of the imported object(s) before exporting
+过滤,Filter
+要设置的滤镜变换,Filter transforms to set
+位置,Location
+旋转（XYZ 欧拉）,Rotation (XYZ Euler)
+应用,Apply
+对所有对象应用所有变换,Apply all transformations on all objects
+过滤转换过程中应用的变换,Filter transforms to apply during conversion
+使用动画,Use Animations
+使用动画。 如果切换为关闭，动画将被删除,"Use animations.  If toggled off, animations will be deleted"
+单位系统,Unit System
+设置导出时使用的单位系统,Set the unit system to use for export
+长度,Length
+设置导出时使用的长度单位,Set the length unit to use for export
+自动优化文件,Auto-Optimize Files
+设置最大文件大小，Transmogrifier 会自动尝试缩小每次导出的文件大小,Set a maximum file size and Transmogrifier will automatically try to reduce each export
+如果低于目标值，则跳过现有模型,Skip Existing if Below Target
+跳过优化 1) 已存在和 2) 已低于目标文件大小的模型,Skip optimizing models that 1) already exist and 2) are already below the target file size
+过滤要自动优化的模型,Filter models to be automatically optimized
+目标（MB）,Target (MB)
+设置 Transmogrifier 应尝试缩小每个转换文件的阈值,Set the threshold below which Transmogrifier should attempt to reduce each converted file
+方法,Methods
+用于自动优化缩小文件大小的筛选方法,Filter methods to use for auto-optimize file size reduction
+龙卷风,Draco
+(仅用于 glTF/GLB 导出）。尝试使用 Draco 压缩来降低导出文件大小,(Only for glTF/GLB export). Try Draco-compression to lower the exported file size
+调整纹理大小。,Resize Tex.
+尝试调整纹理大小以降低导出文件大小,Try resizing textures to lower the exported file size
+重新格式化 Tex。,Reformat Tex.
+尝试将除法线贴图外的所有纹理重新格式化为 JPEG 格式,Try reformatting all textures except the normal map to JPEG
+分解,Decimate
+尝试缩小对象尺寸以降低导出文件大小,Try decimating objects to lower the exported file size
+压缩级别,Compression Level
+Draco 压缩级别（0 = 最快速度，6 = 最大压缩，目前不支持更高数值）,"Draco compression level (0 = most speed, 6 = most compression, higher values currently not supported)"
+调整大小限制,Resize Limit
+设置自动文件大小不得低于的最小图像纹理分辨率。图像不会被放大,Set minimum image texture resolution for auto file size not to go below. Images will not be upscaled
+法线贴图,Normal Maps
+将法线贴图包含在 ,Include normal maps in 
+分解限制,Decimate Limit
+限制物品被分解的次数。物品每次将减少 50,Limit the number of times an item can be decimated. Items will be decimated by 50% each time
+标记资产,Mark Assets
+将转换后的模型标记为资产（为每个导入/转换的模型保存一个混合文件）,Mark converted models as assets.\n(Saves a Blend file for each model imported/converted)
+资产质量,Asset Quality
+选择包含资产的混合文件的质量。质量基于每个项目中保存资产混合文件的时间。,Select the quality of the Blend files containing assets. Quality is based on when asset Blend files are saved during each item
+标记资产过滤器,Mark Assets Filter
+选择要存档的资产类型,Select asset types to archive
+将预览保存到磁盘,Save Previews to Disk
+提取每种资产类型的预览图像缩略图，并以 PNG 格式保存到磁盘（仅适用于可生成预览的资产）。,Extract a preview image thumbnail for each asset type and save to disk as PNG.\n(Only works for assets that can have previews generated.)
+提取预览过滤器,Extract Previews Filter
+筛选要提取图像预览到磁盘的资产类型。,Filter asset types from which to extract image previews to disk.
+允许复制,Allow Duplicates
+允许复制已存在于所选资产库中的资产。,Allow duplicate assets that already exist in the selected asset library.\n(i.e. Mark duplicates as assets)
+允许复制过滤器,Allow Duplicates Filter
+筛选在所选资产库中已存在的资产类型时，哪些资产类型可以标记为重复资产。,Filter which asset types can have duplicates be marked when assets of those types already exists in the selected asset library
+只标记主文件,Mark Only Master
+在导入混合文件时，只将主集合标记为资产，而忽略其他集合。（对于转换的每个项目，所有对象都会移动到与项目名称相匹配的主集合中。）,"When importing a blend file, mark only the master collection as an asset and ignore other collections.\n(For each item converted, all objects are moved to a master collection matching the item name.\nThis option is only relevant when importing .blend files that may already contain collections.)"
+对象类型,Object Types
+筛选要标记为资产的对象类型。,Filter which object types to mark as assets.\nNot all will be able to have preview images generated
+库,Library
+将转换后的资产归档到选定的库中,Archive converted assets to selected library
+目录,Catalog
+将转换后的资产分配到选定的目录,Assign converted assets to selected catalog
+混合文件,Blend Files
+设置包含资产的混合文件的存储位置,Set where the blend files containing assets will be stored
+打包资源,Pack Resources
+将所有使用过的外部文件打包成 .blend,Pack all used external files into .blend
+使用绝对路径,Use Absolute Paths
+为纹理使用绝对路径,Use absolute paths for textures
+添加元数据,Add Metadata
+为转换后的项目添加元数据,Add metadata to converted items
+说明,Description
+为用户显示的资产描述,A description of the asset to be displayed for the user
+许可证,License
+该资产的发布许可类型。许可证名称为空并不一定表示该资产不受许可条款限制。如果需要说明，请联系作者,The type of license this asset is distributed under. An empty license name does not necessarily indicate that this is free of licensing terms. Contact the author if any clarification is needed
+版权,Copyright
+该资产的版权声明。版权声明为空并不一定表示该资产无版权限制。如需任何说明，请联系作者,Copyright notice for this asset. An empty copyright notice does not necessarily indicate that this is copyright-free. Contact the author if any clarification is needed
+作者,Author
+资产创建者姓名,Name of the creator of the asset
+标签,Tags
+为资产添加新的关键字标签。标签之间用空格隔开,Add new keyword tags to assets. Separate tags with a space
+链接脚本设置,Link Script Settings
+在所有自定义脚本之间同步某些触发器设置,Synchronize some trigger settings between all custom scripts
+触发器,Trigger
+设置何时触发自定义脚本,Set when custom script should be triggered
+保存转换摘要,Save Conversion Summary
+保存给定导入目录中批量转换的 CSV 摘要。该摘要记录了每个已转换模型的统计信息,Save a CSV summary of the batch conversion in the given import directories. The summary records statistics about each model converted
+日志摘要过滤器,Log Summary Filter
+筛选要记录在日志摘要 CSV 中的其他属性。,"Filter additional properties to document in the log summary CSV.\nImport file + format, export file + format will always be recorded"
+保存转换日志,Save Conversion Log
+将批量转换的 TXT 日志保存在给定的导入目录中。日志会记录转换过程中的每一步，这对排除转换错误或 bug 非常有用,"Save a TXT log of the batch conversion in the given import directories. The log records each step of the conversion process, which is invaluable for troubleshooting conversion errors or bugs"
+设置用于记录模型尺寸的单位系统,Set the unit system to use for logging model dimensions
+设置用于记录模型尺寸的长度单位,Set the length unit to use for logging model dimensions
+长度单位缩写,Length Unit Abbreviation
+用于记录模型尺寸的长度单位,The length unit to use for logging model dimensions
+X,X
+设置模型边界框的 X 尺寸,Set a bounding box X-dimension a model
+Y,Y
+设置模型 Y 维度的边界框,Set a bounding box Y-dimension a model
+导入哪种文件格式,Which file format to import
+导入哪种文件格式,Which file format to import
+导入哪种文件格式,Which file format to import
+导入哪种文件格式,Which file format to import
+预设,Preset
+使用预设的导入设置（在文件 > 导入菜单的导入设置中创建）。,Use import settings from a preset.\n(Create in the import settings from the File > Import menu
+扩展名,Extension
+格式扩展名,Format extension
+操作符,Operator
+导入操作符字符串,Import operator string
+选项,Options
+预设导入操作符选项字典,Dictionary of import operator options from preset
+显示/隐藏导出设置,Show/Hide export settings
+预设导出操作符选项字典,Dictionary of export operator options from preset
+自定义输出目录。\默认值为 // 将从与混合文件相同的目录导入（仅在混合文件已保存的情况下有效）,Custom output directory. \nDefault of // will import from the same directory as the blend file (only works if the blend file is saved)
+PBR 贴图,PBR Map
+过滤纹理贴图以调整大小,Filter texture maps to resize
+显示/隐藏自定义脚本设置,Show/Hide custom script settings
+Python 文件,Python File
+Python 脚本文件的路径,Path to a Python script file
+工作流程预设,Workflow Preset
+导入,Imports
+导出,Exports
+纹理,Textures
+资产,Assets
+元数据,Metadata
+存储,Storage
+保存预览,Save Previews
+UV,UVs
+变形,Transformations
+应用变换,Apply Transforms
+设置变换,Set Transforms
+动画,Animations
+场景,Scene
+自定义脚本,Custom Scripts
+切换 ,(Toggle 
+记录,Logging
+转换摘要,Conversion Summary
+比较文件大小,Compare File Size
+比较尺寸,Compare Dimensions
+转换器,Transmogrifier
+优化,Optimize
+脚本,Scripts
+插件位置,Addon Location
+放置 Transmogrifier 附加组件用户界面的位置,Where to put the Transmogrifier Addon UI
+动画,Animation
