@@ -1,0 +1,580 @@
+,"""\""""
+"""",""Preview Folder"""
+导出路径,Exports path
+缓存文件夹,Cache Folder
+用于烘焙 Dinamic Paint Canvas 的缓存文件夹,Cache Folder for Bakes of Dinamic Paint Canvas
+预览渲染,Preview Rendering
+预览输出,Preview Output
+翻页书启动时关闭叠加效果,Overlays Off when Flipbook Start
+使用子文件夹,Use subfolders
+仅用于图像序列,Only for img sequences
+导出/导入,Export/Import
+导出路径,Exports Path
+动态绘制,Dynamic Paint
+缓存路径,Cache Path
+ 删除列表中对象的数据路径指示中的特定帧 frame_target ," Elimina el frame especifico frame_target de la curva, del data path indicado a los objetos del listado "
+开始 | 持续时间,Start | Duration
+增加 减少,Increase Decrease
+增加 | 减少,Increase | Decrease
+从 | 到,From | To
+切换,Switch
+帧,Frame
+添加,Add
+更新,Update
+删除,Remove
+ 上下文覆盖 Blender 4.0 , Context Override Blender 4.0 
+边框,BoundingBox
+" 使用示例：hide_unhide_collection(context, coll.name, 'hide_viewport', visibility=self.visible) "," Example of use: hide_unhide_collection(context, coll.name, 'hide_viewport', visibility=self.visible) "
+输入：,Inputs:
+ 对象类别，以更简便实用的方式（按需）获取附加组件中最常用的路线/年份/条目。," Clase del Objeto para obtener (ondemand) las rutas/y/o items más utilizadas en el addon, de una manera más fácil y práctica "
+ 将激活对象的白名单中的修改器复制到选择中 , copiamos los modificadores de la lista blanca del objeto activo a la seleccion 
+ 要使用的素材白名单，与包含 .blend 的素材无关 ," White List de los materiales que se van a usar, independientemente de los que contenga el .blend "
+ 这样，我们就可以选择缩略图的名称、名称的参数。                        ," De esta manera se cual es cual, mat: thumbnail_name, name_para_el_append                         "
+ , 
+','
+安装枕头,Install Pillow
+.\n,.\n
+PIL,PIL
+ 为以后注册准备元组中的类 , PREPARING THE CLASSES IN TUPLES FOR LATER REGISTRATION 
+烘焙当前缓存,Bake Current Cache
+磁盘缓存,Disk Cache
+使用 ,To use 
+ 在其他对象中使用粒子修改器，以避免被缓存。," Apagamos en el resto de objetos, el modifier de particulas para evitar ser cacheados "
+刷新缓存,Refresh Cache
+当前缓存 要烘焙,Current Cache To Bake
+ 此操作可执行 Blender 的操作，但不允许在灰度环境下将其安装到我的计算机中。, Este ejecuta el de blender pero no permite ponerlo en mi ui sin estar en gris 
+烘焙模拟缓存,Bake Simulation Cache
+在几何节点修改器中烘焙模拟,Bake simulations in geometry nodes modifiers
+删除缓存的模拟,Delete Cached Simulation
+删除几何节点修改器中的缓存/烘焙模拟,Delete cached/baked simulations in geometry nodes modifiers
+全部烘焙,Bake All
+免费全部烘焙,Free Bake All
+按钮,Button
+动画按钮,Animation Button
+添加画笔,Add Brush
+添加画布,Add Canvas
+模糊图像,Blur images
+用枕头模糊图像,Blur images with pillow
+添加材质,Add Material
+添加到材质图像序列,Add to material Image sequence
+新材质,NuevoMaterial
+常用输出,Common Exports
+常用输出代码,Common Exports code
+未保存的场景,unsaved_scene
+导出 Alembic,Export Alembic
+将选定网格导出到 Alembic,Export selected meshes to Alembic
+导出美元,Export USD
+将所选网格导出为美元,Export selected meshes to USD
+导出 OBJ,Export OBJ
+将选定的网格布导出为 OBJ,Export selected meshes to OBJ
+设置流体预置,Set Fluid Presets
+设置流体预置,Fluid Presets set
+删除流体预置,Remove Fluid Preset
+保存预设,Save Preset
+保存流体预置,Save Fluid Presets
+新建预置,New Preset
+新流体预置,New Fluid Preset
+名称,Name
+新预设名称,New Preset Name
+ 软启动 y 软结束 应用 , Soft Start y Soft End  APPLY 
+ 软启动 y 软结束 删除 , Soft Start y Soft End  REMOVE 
+软启动,Soft Start
+为软启动添加关键帧,Add keyframes for Soft Start
+ 软启动应用 , Soft Start Apply 
+删除软启动的关键帧,Remove keyframes for Soft Start
+ 软启动删除 , Soft Start Remove 
+软结束,Soft End
+为软结束添加关键帧,Add keyframes for Soft End
+ 软结束应用 , Soft End Apply 
+移除软结束的关键帧,Remove keyframes for Soft End
+ 移除柔化结束 , Soft End Remove 
+在此处停止作用力,Stop Force Here
+添加力,Add Force
+添加对撞机力,Add Collider Force
+移除力,Remove Force
+添加碰撞力,Remove Collider Force
+添加网格力,Add Mesh Force
+移除网格力,Remove Mesh Force
+基础类 添加新组/力,Base Class Add New Group/Force
+基础类 添加组/力,Base Class Add Group/Force
+ 下拉列表 实用工具   , Dropdowns lists Utilities   
+移动项目,Move Item
+在列表中移动项目,Move Item in List
+ 在列表中移动项目的基类 , Base Class for Move items in lists 
+ 有必要在 target_list 中加入 .list 和 .list_index , Es necesario que el target_list teng dentro un .list y un .list_index 
+ 下拉列表操作符  , Dropdowns lists Operators  
+列表复制,List Duplication
+ 常用复制方法的基类 , Base Class for common methods of duplication 
+材料,Material
+复制组,Duplicate Group
+重复群组,Duplicate Group Iten
+复制发射器,Duplicate Emitter
+复制发射器,Duplicate Emitter Iten
+ 下拉列表 UI  , Dropdowns lists UI  
+组列表子菜单,Group List Submenu
+发射器列表子菜单,Emitters List Submenu
+复制组,Duplicate Groups
+新名称,New Name
+重复部队,Duplicate Forces
+部队组列表子菜单,Force Groups List Submenu
+作用力列表子菜单,Forces List Submenu
+添加新对撞机,Add New Colliders
+将对撞机添加到列表,Add Colliders to List
+几何体,Geometry
+集合,Collection
+创建新发射器,Create New Emitter
+在流体发射器列表中创建发射器,Create Emitter to Fluid Emitter List
+添加新的力组,Add New Force Group
+在列表中添加力组,Add Force Group to List
+力的类型,Type of Force
+要使用的力类型,The type of force you want to use
+力名称,Force Name
+新部队的名称,The name of the new Force
+添加新组,Add New Group
+将组添加到流体组列表,Add Group to Fluid Groups List
+组名称,Group Name
+添加新交互,Add New Interaction
+将相互作用添加到列表,Add Interactions to List
+将 GN 网格添加到,Add GN Meshes To:
+添加 GN 网格,Add GN Meshes
+GN 运动模糊,GNMotionBlur
+SPH_MotionBlur,SPH_MotionBlur
+ 用于扩展使用弹出式窗口重新使用流体组列表和/或发射器列表的操作程序的类 , Clase para extender los operadores que usan popup para reutilizar listados de Fluid Goup y/o Emitters list 
+ 恢复用户以前的索引 , Restauro los index previos que tuviera el usuario 
+分离,Separate
+分离网格,Separate Meshes
+未出生,Unborn
+未诞生的 GN,Unborn GN
+切换至 Cycles,Switcher to Cycles
+切换至 Cycles,Switch to Cycles
+切换到萌萌哒,Switcher to Eevee
+"切换到 ""Eevee",Switch to Eevee
+快速 Mp4,Quick Mp4
+快速设置为 Mp4,Quick Setup to Mp4
+预览翻页书,Vista previa del Flipbook
+翻页书渲染前视图,Vista previa del renderizado Flipbook
+切换器视口,Switcher Viewport
+切换视口,Switch Viewport
+添加世界,Add World
+在当前场景中添加 Fluidlab 世界,Add Fluidlab World in to current scene
+移除世界,Remove World
+移除 VDBLab 世界,Remove VDBLab World
+阴影缩略图箭头,Shading Thumbnails Arrows
+添加材质,Add material
+为选定对象添加材质,Add material to selected object
+流体组,Fluid Groups
+流体发射器,Fluid Emitters
+添加发射器,Add Emitter
+创建发射器,Create Emitter
+主模块 [ %s ],Main Modules [ %s ]
+主模块,Main Modules
+当前缓存,Current Cache
+停止模拟,Stop Simulation
+开始模拟,Start Simulation
+         ,         
+删除画布,Remove Canvas
+帧开始,Frame Start
+结束,End
+类型,Type
+UV 贴图,UV Map
+色彩图层,Color Layer
+比例影响,Scale Influence
+半径,Radius
+溶解,Dissolve
+时间,Time
+慢速,Slow
+干,Dry
+颜色,Color
+涂布,Spread
+速度,Speed
+滴水,Drip
+收缩,Shrink
+使用库路径,Use Library Path
+索引,Index
+路径,Path
+文件保存前缓存无效,Cache is disabled until the file is saved
+模拟开始,Simulation Start
+在保存文件前禁用选项,Options are disabled until the file is saved
+压缩,Compression
+关联对象烘焙要求启用磁盘缓存,Linked object baking requires Disk Cache to be enabled
+烘焙（必须启用磁盘缓存）,Bake (Disk Cache mandatory)
+删除烘焙,Delete Bake
+烘焙,Bake
+计算到帧,Calculate to Frame
+当前缓存到烘焙,Current Cache to Bake
+烘焙所有动态,Bake All Dynamics
+删除所有烘焙,Delete All Bakes
+更新所有至帧,Update All to Frame
+画图层,Paintmap Layer
+湿贴图层,Wetmap Layer
+顶点组,Vertex Group
+烘焙图像序列,Bake Image Sequence
+预乘法 Alpha,Premultiply Alpha
+文件名,Filename
+置换类型,Displace Type
+波形夹钳,Wave Clamp
+ 绘制, Paintmaps
+ 湿图, Wetmaps
+阿尔法,Alpha
+湿度,Wetness
+涂抹,Paint
+效果实体半径,Effect Solid Radius
+使用粒子,Use Particle
+平滑半径,Smooth Radius
+距离,Distance
+晕染,Smudge
+强度,Strength
+模块,Module
+ 基础用户界面 , UI BASICA 
+你好，基础世界,Hola Mundo Basico
+ UI AVANZADA , UI AVANZADA 
+有必要先烘焙 Dinamic Paint，然后移除笔刷，以便正确渲染。,It is necessary to bake Dinamic Paint and then remove the brushes in order to render correctly.
+导出到 Alembic,Export to Alembic
+导出为美元,Export to USD
+导出为单个 OBJ,Export to single OBJ
+导出后自动导入,Auto import after export
+隐藏原始网格,Hide original mesh
+以 OBJ 格式导出选定对象,Export selected object in OBJ
+添加选择对撞机,Add Selection Collider
+添加集合对撞机,Add Collection Collider
+渗透性,Permeability
+粘性,Stickiness
+流出（杀死粒子）,OutFlow (Kill Particles)
+阻尼,Damping
+随机阻尼,Randomize Damping
+摩擦,Friction
+随机化摩擦,Randomize Friction
+效应器数量,Effector Amount
+类型 1,Type 1
+线性,Linear
+四边形,Quadratic
+位置,Location
+旋转,Rotation
+噪声量,Noise Amount
+种子,Seed
+全球,Global
+引力,Gravitation
+形状,Shape
+结块量,Clumping Amount
+最小距离,Min Distance
+功率,Power
+力组,Forces Groups
+添加组,Add Group
+力,Forces
+添加粒子力,Add Particle Force
+移除粒子力,Remove Particle Force
+添加相互作用,Add Interaction
+网格列表,List of meshes
+添加网格,Add Mesh
+运动模糊,Motion Blur
+夹具运动模糊,Clamp Motion Blur
+数量,Amount
+液体网格开/关,Liquid Mesh ON/OFF
+体素分辨率,Voxel resolution
+最小值 | 最大值,Min | Max
+最小/最大,Min/Max
+平滑 XYZ,Smooth XYZ
+自适应,Adaptivity
+噪声,Noise
+强度,Strenght
+比例,Scale
+细节,Detail
+粗糙度,Roughness
+清晰度,Lacunarity
+变形,Distortion
+轴,Axis
+噪音 + 速度,Noise + Velocity
+从最小值,From Min
+从最大值,From Max
+至最小值,To Min
+至最大值,To Max
+分离网格,Separated Meshes
+密度,Density
+晶粒开/关,Grain ON/OFF
+球体/收集,Sphere/Collection
+收集颗粒,Collection Grains
+旋转最小值,Rotation Min
+最大旋转,Rotation Max
+开/关额外点,Extra Dots ON/OFF
+最小半径,Min Radius
+最大半径,Max Radius
+概率,Probability
+最小半径,Rand Min
+兰德最大值,Rand Max
+噪声标度,Noise Scale
+网格中的额外点,Extra Dots in Mesh
+设置预置,Set Preset
+物理设置,Physics Settings
+弹簧设置,Springs Settings
+几何发射器,geometry_emitter
+框架开关,Switch at Frame
+ 本节既涉及几何体，也涉及流入。, Esta sección esta tanto en Geometry como en Inflow 
+应用,Apply
+交互半径,Interaction Radius
+发射,Emit From
+分辨率,Resolution
+尺寸,Size
+随机尺寸,Size Random
+帧开始 | 结束,Frame Start | End
+寿命,Lifetime
+寿命随机性,Lifetime Randomness
+使用修改器堆栈,Use Modifier Stack
+数量 | 大小,Count | Size
+分辨率 | 大小,Resolution | Size
+随机寿命,Lifetime Random
+随机顺序,Random Order
+均匀分布,Even Distribution
+正态分布,Normal
+物体速度,Object Velocity
+初始速度 ,Initial Velocity 
+X,X
+Y,Y
+Z,Z
+未找到活动材料！,No active material found!
+时间步长,Timestep
+自适应,Adaptive
+子帧,Subframes
+阈值,Threshold
+质量,Mass
+质量与尺寸相乘,Multiply mass with size
+刚度,Stiffness
+粘度,Viscosity
+阻力 | 阻尼,Drag | Damping
+尺寸偏转,Size Deflect
+斥力系数,Repulsion Factor
+刚性粘度,Stiff Viscosity
+静止密度,Rest Density
+效应器收集,Effector Collection
+力,Force
+粘弹性,Viscoelastic
+弹性极限,Elastic Limit
+塑性,Plasticity
+初始静止长度,Initial Rest Length
+框架,Frames
+因子静止长度,Factor Rest Length
+休息长度,Rest Length
+ 视口部分 , Viewport section 
+漂亮的视口,Pretty Viewport
+翻书路径,Flipbook Path
+翻书,FlipBook
+视图渲染,View Render
+MP4,MP4
+移动,Shift
+聚焦,Focus
+ 渲染部分 , Rendering section 
+渲染,Render
+去噪,Denoise
+透明胶片,Film Transparent
+ 世界部分 , World section 
+添加流体实验室世界,Add FluidLab World
+移除流体实验室世界,Remove FluidLab World
+显示纹理,Show Texture
+设置材质,Set Material
+预览遮罩,Preview Mask
+显示为,Display as
+显示内部体积,Show internal volume
+ 属性 objeto.fluidlab.x , properties objeto.fluidlab.x 
+ particle_system.settings.fluidlab.x , particle_system.settings.fluidlab.x 
+ context.scene.fluidlab.dynamic_paint.x , context.scene.fluidlab.dynamic_paint.x 
+分区,Subsections
+动态喷涂子部分,Dynamic Paint Subsections
+ context.scene.fluidlab.fluid_forces.x , context.scene.fluidlab.fluid_forces.x 
+流体力子部分,Fluid Forces Subsections
+ context.scene.fluidlab.fluid_presets.x , context.scene.fluidlab.fluid_presets.x 
+预置,Presets
+"用于 ""流体设置"" > ""物理 ""的预配置设置",Preconfigured Settings for Fliud Settings > Physics
+编辑,Edit
+编辑预置,Edit Preset
+每帧的模拟时间步长（每帧秒数）,The simulation timestep per frame (seconds per frame)
+模拟子帧，以提高稳定性和更精细的模拟粒度（dt = 时间步/（子帧 + 1）,Subframes to simulate for improved stability and finer granularity simulation (dt = timestep / (subframes + 1))
+自适应子帧,Adaptive Subframe
+自动设置子帧数,Automatically set the number of subframes
+自适应子帧阈值,Adaptive Subframe Threshold
+粒子在需要更多子帧之前可移动的相对距离（目标库仑数）；建议范围为 0.01 至 0.3,The relative distance a particle can move before requiring more subframes (target Courant number); 0.01 to 0.3 is the recomended range
+粒子质量,Mass of the particles
+乘以粒度,Multiply by size
+质量乘以颗粒大小,Multiply mass by particle size
+流体的不可逆程度（声速）,How incomprensible the fluid is (speed of sound)
+线性粘度,Linear Viscosity
+阻力,Drag
+使用颗粒,Use particle
+流体避免聚集的强度（刚度系数）,How strongly the fluid tries to keep from clustering (factor of stiffness)
+为膨胀流体产生粘度,Creates viscosity for expanding fluid
+流体静止密度,Fluid rest density
+粘弹性弹簧,Viscoelastic Springs
+使用粘弹性弹簧代替虎克弹簧,Use viscoelastic springs instead of Hooke
+初始长度,Initial Length
+使用初始长度作为弹簧静止长度，而不是 2 * 每种颗粒尺寸,Use inital length as spring rest length instead of 2 * per particle size
+弹簧帧数,Spring Frames
+根据粒子诞生后的帧数创建弹簧（0 始终为 0）,Create springs for this number of frames since particles birth (0 is always)
+将弹簧静止长度作为弹簧静止长度，而不是 2 * 每个粒子大小,Spring rest length as spring rest length instead of 2 * per particle size
+ context.scene.fluidlab.fluid_settings.x , context.scene.fluidlab.fluid_settings.x 
+流体设置子节,Fluid Settings Subsections
+ 所有列表的通用方法 , Common methods for all lists 
+ context.scene.fluidlab.lists , context.scene.fluidlab.lists 
+ 流体对撞机列表 , Fluids Colliders List 
+清除,Clear
+ID,ID
+画布,Canvas
+标记将被分配画布的元素,Mark the elements that will be assigned a canvas
+使用碰撞,Use Collision
+启用/禁用碰撞,Enable/Disable Collisions
+隐藏碰撞器,Hide Colliders
+隐藏/取消隐藏碰撞器,Hide/Unhide Colliders
+图层列表,Layer List
+图层列表,The Layer List
+ 流体发射器列表 , Fluids Emitters List 
+粒子大小,Size Particles
+"手动调整 ""siez",Adjust the siez manually
+发射器,Emitter_
+顶点,Vertex_
+ 流体作用力组列表 , Fluids Forces Groups List 
+力类型,ForceType
+ active_force_group.fluid_settings_anim.x , active_force_group.fluid_settings_anim.x 
+力场强度,Strength of force field
+开始,Start
+持续时间,Duration
+从前两个关键帧到后两个关键帧的持续时间,Duration from the first two keyframes to the last two keyframes
+递增,Increase
+增加的帧数,Frames of the increment
+递减,Decrease
+减小的帧数,Frames of the decrement
+力的大小 湍流,Size of force Turbulence
+流量,Flow
+将作用力转换为气流速度,Convert effector force into airflow velocity
+自由引导,Guide Free
+粒子寿命的自由引导时间,Guide-Free time from particle life
+衰减力,Falloff Power
+强度随距离力场的远近而下降的速度,How quickly strength fall off with distance from the force field
+线性阻力,Linear Drag
+阻力分量与速度成正比,Drag component proportional to velocity
+二次阻力,Quadratic Drag
+阻力分量与速度的平方成正比,Drag component proportional to square of velocity
+谐波阻尼,Harmonic Damping
+谐波阻尼,Damping of the harmonic force
+谐振力的静止长度,Rest Length of the harmonic force
+ 流体组列表 , Fluids Groups List 
+ 流体相互作用列表 , Fluids Interactions List 
+ 流体网格列表 , Fluids Mesh List 
+初始密度,Initial Density
+淡出,Fade Out
+画笔,Brushes
+标记要分配画笔的元素,Mark the elements that will be assigned a brush
+移除画笔,Remove Brush
+ 在 active_collider.animation.x 中保护的属性 , Propiedades guardadas en el active_collider.animation.x 
+从帧开始,Start at Frame
+从,From
+从值 x,From value x
+至,To
+至值 x,To value x
+ 在 active_collider.settings.x 中设置的属性 , Propiedades guardadas en el active_collider.settings.x 
+粒子穿过网格的距离,Chande that the particle will pass through the mesh
+毛面碰撞的粘性程度,Amount of stickiness to furface collision
+杀死粒子,Kill Particles
+杀死碰撞粒子,Kill collided particles
+阻尼系数,Damping Factor
+粒子碰撞时的阻尼量,Amount of damping durin particle collision
+随机阻尼,Random Damping
+阻尼的随机变化,Random variation of damping
+摩擦因数,Friction Factor
+粒子碰撞时的摩擦力大小,Amount of friction durin particle collision
+随机摩擦,Random Friction
+摩擦力的随机变化,Random variation of friction
+ active_emitter_item.emission.x 中的保护属性 , Propiedades guardadas en el active_emitter_item.emission.x 
+直接影响粒子使用量的分辨率,Resolution that will directly influence the amount of particles to use
+流入分辨率,Inflow Resolution
+每帧每个面发射的粒子数量,"The number of particles that will be emitted per face, per frame"
+计数,Count
+整个时间轴上发射的粒子总数,Total particles emitted over the entire timeline
+随机渲染比例,Render Scale Random
+帧结束,Frame End
+粒子的寿命,Life span of the particles
+随机,Random
+让粒子寿命随机变化,Give the particle life a random variation
+显示发射前的粒子,Show particles before they are emitted
+分布,Distribution
+让表面法线给粒子一个起始速度,Let the surface normal give the particle a starting velocity
+让物体给粒子一个起始速度,Let the object give the particle a starting velocity
+物体对齐,Object Aligned
+让发射物体给粒子一个起始速度,Let the emitter object give the particle a starting velocity
+显示,Display
+以颜色显示附加数据,Display additional data as color
+ active_emitter_item.physics.x保留的属性 , Propiedades guardadas en el active_emitter_item.physics.x 
+流体的不可逆程度（声速）（数值越高越混乱）,How incomprensible the fluid is (speed of sound) (higher values more chaotic)
+将效应器限制在此集合中,Limit effectors to this collection
+重力,Gravity
+全局重力权重,Global gravity weight
+所有,All
+所有效应器重量,All effector`s weight
+力效应器重量,Force effector weight
+漩涡,Vortex
+涡流效应器重量,Vortex effector weight
+磁力,Magnetic
+磁力效应器重量,Magnetic effector weight
+谐波,Harmonic
+谐波效应器重量,Harmonic effector weight
+电荷,Charge
+电荷效应器重量,Charge effector weight
+伦纳德-琼斯,Lennard-jones
+伦纳德-琼斯效应器重量,Lennard-jones effector weight
+风,Wind
+风力效应器重量,Wind effector weight
+曲线引导,Curve Guide
+曲线引导效应器重量,Curve Guide effector weight
+纹理,Texture
+纹理效应器重量,Texture effector weight
+流体流,Fluid Flow
+流体流效应器权重,Fluid Flow effector weight
+湍流,Turbulence
+湍流效应器权重,Turbulence effector weight
+阻力效应器权重,Drag effector weight
+Boid,Boid
+Boid 效应器重量,Boid effector weight
+ active_emitter_item.springs.x 中的保护属性 , Propiedades guardadas en el active_emitter_item.springs.x 
+ active_emitter_item.weigths.x中保护的属性 , Propiedades guardadas en el active_emitter_item.weigths.x 
+ active_emitter_item.emission.anim.x , active_emitter_item.emission.anim.x 
+ active_emitter_item.geometry_emitter.x , active_emitter_item.geometry_emitter.x 
+几何图形发射器,Geometry Emitter
+启动开关时,When Start Switch
+ active_emitter_item.phyisics.anim.x , active_emitter_item.phyisics.anim.x 
+ active_emitter_item.springs.anim.x , active_emitter_item.springs.anim.x 
+ active_emitter_item.weights.x , active_emitter_item.weights.x 
+ 在 mesh_item.settings.x 中设置的属性 , Propiedades guardadas en el mesh_item.settings.x 
+切换最小值和最大值,Toggle Min Max
+最小值和最大值,Min and Max
+最小和最大体素分辨率,Min and Max Voxel Resolution
+为您的网格指定一个集合,Specify one collection for your grains
+最小和最大尺寸,Min and Max Size
+ 在 mesh_item.switchers.x 中保护的属性（全局/本地模式开/关图标、网格）： ," Propiedades guardadas en el mesh_item.switchers.x ( Los iconos Para Global/Local modes ON/OFF, la cadenita ): "
+ 更新对撞机属性 , Update Colliders Properties 
+ 更新 GN 网格设置属性 , Update GN Mesh Settings Properties 
+ 容器可以是 psys.settings 或 psys.settings.fluid 或 psys.settings.effector_weights , El container puede ser el psys.settings o el psys.settings.fluid o el psys.settings.effector_weights 
+ 帧开始会影响帧结束，反之亦然 , El frame_start afecta al frame_end y viceversa 
+ 粒子属性更新 , Particles Properties Update 
+ 根据是全局还是局部来加载 UI 数据 , Cargar los datos de ui en funcion de si es GLOBAL o LOCAL 
+ context.scene.fluidlab.x , context.scene.fluidlab.x 
+ 渲染视口 , Rendering Viewport 
+百分比,Percentages
+文件格式,File Format
+容器,Container
+ context.scene.fluidlab.shader_props.x , context.scene.fluidlab.shader_props.x 
+ 查看是否是我们在白名单 build_in_mat_lib 中考虑的材质 , compruebo si es un material contemplado por nosotros en el whitelist build_in_mat_lib 
+显示体积,Show Volume
+显示内部体积,Show Internal Volume
+矢量颜色/阴影,Vector Color / Shading
+显示阴影或速度,Show Shading or Velocity
+点度遮罩/颜色,Pointiness Mask / Color
+显示遮罩或颜色,Show Mask or Color
+ 可折叠 , PARA LOS COLLAPSABLES 
+ context.scene.fluidlab.ui.x , context.scene.fluidlab.ui.x 
+主要工作领域,Main areas of work
+渲染部分,Render Sections
+切换视口/渲染的工作类型,switching between types of working with viewport/rendering
+流体设置,Fluid Settings
+碰撞,Colliders
+流体相互作用,Fluid Interactions
+粒子总数,Total Particles
+粒子,Particles
+粒子大小,Part Size
+目前没有网格！,No meshes available at the moment!
+网格列表,List Of Meshes
