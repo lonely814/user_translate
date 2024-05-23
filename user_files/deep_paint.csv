@@ -1,0 +1,357 @@
+, 
+,"""\""""
+"""","".GPM.fill"""
+用于在 Blender 预览系统中处理图标的单例类。,Singleton class for handling icons in the Blender previews system.
+从 Blender 中移除模板的图标预览。,Remove the template's icon previews from Blender.
+从图标名称中获取 Blender 内部图标 ID。,Get an internal Blender icon ID from an icon name.
+添加热键条目,Add hotkey entry
+添加热键,Add Hotkeys
+油性笔,Grease Pencil
+顶点涂抹,Vertex Paint
+builtin_brush.Blur,builtin_brush.Blur
+buildin_brush.Draw,builtin_brush.Draw
+图像绘制,Image Paint
+内置画笔.柔化,builtin_brush.Soften
+builtin_brush.Smear,builtin_brush.Smear
+清除存储在 addon_keymaps 中的所有附加组件级按键热键,clears all addon level keymap hotkeys stored in addon_keymaps
+deep_paint,deep_paint
+模态快速对齐,Modal Snap Align
+启用快速对齐,Enable Snap Align
+禁用快速对齐,Disable Snap Align
+将所有选定对象的每个变换应用于其数据,Apply each of all selected objects transformation to it's data
+应用所有变换,Apply All Transform
+将所有选定对象转换为网格对象,Convert each of all selected objects into Mesh Objects
+将可视化几何体转换为网格,Visual Geometry to Mesh
+重新启动 Blender,Restart Blender
+Veda 权重绘制操作器,Veda Weight Paint Operator
+维达重量涂抹,Veda Weight Paint
+将活动对象中的修改器复制到选定对象中,Copies modifiers from active object to selected
+维达 TexPaint,Veda TexPaint
+AAA,AAA
+将修改器复制到选定对象,Copy Modifiers to Selected
+复制活动材质,Duplicate active material
+复制和重命名材质,Duplicate & Rename Material
+将活动对象中的材质链接到选定对象,Links material from active object to selected
+将活动材质链接到选定材质,Link Active Material to Selected
+维达 设置纹理颜色预设,Veda Set Texture Color Preset
+设置纹理颜色预设 黑色或白色,Set Texture Color Preset Black or White
+黑色,Black
+白色,White
+维达 设置纹理颜色,Veda Set Texture Color
+为所有选定对象设置纹理颜色,Set Texture Color for all selected objects
+Veda 设置顶点颜色预设,Veda Set Vertex Color Preset
+为所有选定对象设置顶点颜色预设值,Set Vertex Color Preset for all selected objects
+颜色,Color
+轮廓 VGroup 切换器,Outline VGroup Toggler
+在修改器中切换轮廓 VGroup,Toggle Outline VGroup in Modifier
+Veda 设置顶点颜色,Veda Set Vertex Color
+为所有选定对象设置顶点颜色,Set Vertex Color for all selected objects
+Veda 翻转法线,Veda Flip Normals
+为所有选定对象翻转法线,Flip Normals for all selected objects
+按松散部分分离,Separate by Loose Parts
+按松散部件分离所选对象,Separate selected object by loose parts
+操作员切换在选定对象上显示线框。,Operator to toggle show wireframe on selected object.
+显示线框,Show Wire
+操作员应用线框修改器,Operator to apply the screw modifier
+应用线框修改器,Apply Wireframe Modifier
+应用螺钉修改器,Apply Screw Modifier
+操作员可应用位移修改器,Operator to apply the displace modifier
+应用位移,Apply Displace
+操作员应用固化修改器,Operator to apply the Soldify modifier
+应用固化,Apply Solidify
+应用平滑,Apply Smooth
+操作员，应用分解修改器,Operator to apply the decimate modifier
+应用十进制修改器,Apply Decimate Modifier
+应用体素重网格,Apply Voxel Remesh
+从对象模式应用细分网格的操作器,Operator to apply subdivide sesh from object mode
+应用细分,Apply Subdivide
+圆形细分,Round Subd
+操作器应用四化,Operator to apply the Quadify
+应用四化,Apply Quadify
+应用三角剖分的操作符,Operator to apply the Triangulation
+应用三角剖分,Apply Triangulation
+将 GP 中部重置为网格道具,Mid Reset GP to Mesh Props
+中分辨率,Mid Res
+将 GP 重置为网格道具,Reset GP to Mesh Props
+将 GP 重置为网格,Reset GP to Mesh
+分离,Separate
+操作员在曲线对象上应用十进制修改器,Operator to apply the decimate modifier on the curve objects
+应用曲线衰减,Apply Curve Decimate
+将 DP 世界添加到当前场景的操作符,Operator to add DP World to current scene
+添加 DP 太阳光,Add DP Sun Light
+备份,_backup_
+添加 DP 世界设置,Add DP World Settings
+操作员设置预设材质,Operator to set preset materials
+设置预设材质,Set Preset Material
+DPM,DPM
+DPM2,DPM2
+轮廓,Outline
+DPM 叶子,DPM Leaf
+DPM 混合,DPM Mix
+渐变世界,Gradient World
+DPM Tex,DPM Tex
+DPM 阿尔法,DPM Alpha
+仅阴影,Shadow Only
+叶片轮廓,Outline Leaf
+移除,Remove
+移除材质,Remove Materials
+同步驱动程序,Sync Driver
+设置 DP 实用编织,Set DP Utility Braid
+操作员设置实用程序,Operator to set utility
+设置 DP 实用程序散布,Set DP Utility Scatter
+藤蔓基因,Vine Gen
+树根,Tree Gen
+散射,Scatter
+交换,Swap
+旋转,Spin
+NP,NP
+正常脸部,Normal Face
+应用,Apply
+编织,Braid
+设置 DP 实用程序,Set DP Utility
+添加天空彩绘,Add Skypaint
+添加渲染摄像机,Add RenderCam
+移除天空彩,Remove Skypaint
+移除渲染摄像机,Remove RenderCam
+连接渲染摄像机,Attach RenderCam
+分离渲染摄像机,Detach RenderCam
+添加植物,Add Plants
+移除植物,Remove Plants
+添加树木,Add Trees
+移除树木,Remove Trees
+添加房屋,Add house
+移除房屋,Remove house
+添加杂项,Add misc
+移除杂项,Remove misc
+智能快照原点采集,Smart Snap Origin Collection
+智能快照光标,Smart Snap Cursor
+智能快照原点,Smart Snap Origin
+重置 DPM,Reset DPM
+智能 UV 项目,Smart UV project
+添加空白绘图,Add Blank Draw
+从油性笔创建新网格对象,Create a new Mesh Object from Grease Pencil
+GP 至网格 线条与填充,GP to Mesh Line & Fill
+GP 至网格,GP to Mesh
+从油性笔创建新曲线对象,Create a New Curve Object from Grease Pencil
+将 GP 铅笔转为网格线,GPencil to Mesh Line
+曲线分解,Curve Decimate
+将曲线倾斜 45,Tilt Curve 45°
+连接线,Connect Line
+删除 GP,Delete GP
+从油脂笔创建新的曲线网格对象,Create a New Curve Mesh Object from Grease Pencil
+将 GPencil 转换为曲线网格,GPencil to Curve Mesh
+GPencil 至网格填充,GPencil to Mesh Fill
+边距,Margin
+定义投影的负边距,Define the negative margin of the projection
+切口密度,Slice density
+定义切口密度,Define the density of the cuts
+应用四边形,Apply Quad
+dp_empty,dp_empty
+::,::
+颜色属性,Color Attribute
+维达 添加纹理涂抹槽,Veda Add Texture Paint Slot
+添加基本纹理涂抹位置,Add Base Texture Paint Slot
+名称,Name
+宽度,Width
+高度,Height
+阿尔法,Alpha
+预设,Presets
+颜色,Col
+维达色彩属性操作菜单,Veda Color Attribute Operator Menu
+添加文字,Add Tex
+保存,Save
+设置纹理颜色,Set Texture Color
+半径,Radius
+强度,Strength
+无纹理,No Textures
+添加节点,Add Nodes
+维达重量喷涂操作菜单,Veda Weight Paint Operator Menu
+使用压力强度,use_pressure_strength
+使用统一重量,use_unified_weight
+使用统一尺寸,use_unified_size
+使用压力大小,use_pressure_size
+使用统一强度,use_unified_strength
+绘制,Draw
+减去,Subtract
+分配,Assign
+选择,Select
+取消选择,Deselect
+权重,Weight
+工具提示,Tooltip
+四边形,Quadify
+仅选定面,Selected Faces Only
+仅切割选中的面,Only cut the selected faces
+三角剖分,Triangulation
+尺寸,Size
+边界,Boundary
+随机化（较慢）,Randomize (slower)
+随机化,Randomize
+随机种子,Random Seed
+重复,Repeat
+指令,Cmd
+键图列表：,Keymap List:
+重新启动,Restart
+dp_show_keymaps,dp_show_keymaps
+显示键图,Show Keymaps
+启用后，显示键图列表,"When enabled, displays keymap list"
+旋转,rot
+速度,speed
+DPM 控制,DPM Control
+维达对象属性,Veda Object Properties
+语言,Language
+折射,Refraction
+渲染预设,Render Presets
+颜色属性切换,Color Attribute Toggle
+纹理属性切换,Texture Attribute Toggle
+天空彩选择,Skypaint Select
+使用表达式,Use Expression
+偏移,Offset
+比例尺寸,Proportional Size
+细分比率,Decimation Ratio
+置换强度,Displace Strength
+位移云大小,Displace Cloud Size
+平滑迭代,Smooth Iterations
+体素大小,Voxel Size
+螺旋步长,Screw Steps
+线框厚度,Wireframe Thickness
+厚度,Thickness
+三角形尺寸,Triang Size
+三角形边界,Triang Boundary
+三角形随机化,Triang Randomize
+相机位置,Camera Location
+相机旋转,Camera Rotation
+摄像头连接切换,Cam Attach Toggle
+比率,Ratio
+线条,Line
+网格填充,Mesh Fill
+网格线,Mesh Line
+使用路径曲线,Use Path Curve
+曲线线,Curve Line
+删除曲线对象,Delete Curve Object
+删除 GPencil 对象,Delete GPencil Object
+填充盖帽,Fill Caps
+使用重网格,Use Remesh
+阴影平滑,Shade Smooth
+如果禁用，将使用自动平滑代替,If disable will use auto-smooth instead
+应用曲线网格,Apply Curve Mesh
+启用可自动应用网格曲线,Enable to auto apply mesh curve
+重网格大小,Remesh Size
+曲线深度,Curve Depth
+分解,Decimate
+曲线分辨率,Curve Resolution
+曲线上的摄像机,Cam on Curve
+将摄像机安装到任意选定的曲线对象上,Attach camera to any selected curve object
+比例编辑,Proportional Edit
+线框,Wireframe
+显示面,Show Face
+翻转,Flip
+内置画笔平均值,builtin_brush.Average
+对象模式,Object Mode
+设置顶点颜色,Set Vertex Color
+纹理绘制,Texture Paint
+对象,Object
+智能 UV,Smart UV
+项目视图,Project View
+TexDraw,TexDraw
+喷笔,Airbrush
+锐绘,Sharpdraw
+边缘,Edge
+水彩画,Watercolor
+斑点,Speckles
+粉彩,Pastel
+条纹,Strake
+耙,Rake
+耙,Trake
+细分,Subdivide
+重网格,Remesh
+固化,Solidify
+置换,Displace
+平滑,Smooth
+拧紧,Screw
+叶片轮廓,Leaf Outline
+噪声混合,Noise Mix
+边缘阿尔法,Edge Alpha
+复制,Duplicate
+清除材质,Clear Material
+添加世界,Add World
+世界色彩,World Color
+世界之光,World Light
+体积,Volume
+DP 阳光,DP Sunlight
+环境遮蔽,Ambient Occlusion
+透明 BG,Transparent BG
+渲染,Render
+视口,Viewport
+光线,Light
+阴影层叠,Shadow Cascade
+使用曲线,Use Curves
+分辨率 X,Resolution X
+Y,Y
+%,%
+帧开始,Frame Start
+结束,End
+步骤,Step
+天空绘制,Sky Paint
+渲染摄像机,RenderCam
+植物,Plants
+树木,Trees
+房屋,House
+其他,Misc
+文档,Documentation
+报告问题,Report Issue
+ドキュメント,ドキュメント
+问题を报告,問題を報告
+VEDA 顶点绘制上下文菜单,VEDA Vertex Paint Context Menu
+GP至线条网格,GP to Line Mesh
+GP至填充网格,GP to  Fill Mesh
+GP至线条与填充,GP to Line & Fill
+GP至网格菜单,GP to Mesh menu
+添加空白,Add Blank
+GP 至网格线,GP to Mesh Line
+GP 至曲线网格,GP to Curve Mesh
+GP 至曲线,GP to Curve
+网格应用,Mesh Apply
+DP 摄像机设置,DP Camera Settings
+选择曲线,Select Curve
+使用 Expr,Use Expr
+速度,Speed
+旋转,Rotation
+线 ,Line: 
+网格线 ,Mesh FIll: 
+直线： 网格 ,Mesh Line: 
+曲线 ,Curve Line: 
+曲线： 网格 ,Curve Mesh: 
+倾斜 45°： ,Tilt Curve 45°: 
+填充盖帽 ,Fill Caps: 
+连接线 ,Connect Line: 
+平滑阴影 ,Shade Smooth: 
+删除 GPencils ,Delete GPencils: 
+使用曲线路径 ,Use Curve Path: 
+使用重网格 ,Use Remesh: 
+重网格大小,Remesh Size:
+深度,Depth:
+分辨率,Resolution:
+低分辨率,Decimate:
+应用四维网格,Apply Quad Mesh
+四维密度,Quad Density:
+曲线衰减,Curve Decimate:
+重置,Reset
+添加维达油性笔,Add veda grease pencil
+添加油性笔触,Adds a grease pencil stroke
+自定义 GPecil 弹出窗口,Custom GPecil popup
+笔触,Stroke
+笔刷,Brushes
+材质,Materials
+绘图平面,Drawing Plane
+图层,Layers
+新图层,New Layer
+目标,Target
+描边颜色,Stroke Color
+混合,Blend
+不透明度,Opacity
+导入自定义画笔包,Import custom brush pack
+GP,GP
+INVOKE_DEFAULT,INVOKE_DEFAULT
+油性笔触画笔（绘图笔刷）,Grease Pencil Stroke Paint (Draw brush)
+,
+,
