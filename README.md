@@ -3,7 +3,11 @@
 
 大家可分享自己已经汉化过的 插件补丁，
 
-5月23更新：deep_paint1.03   （VIP1群 hen自购分享插件）
+
+5月30更新：新增icity和autoConstraints     更新kekit pro
+
+
+5月23更新：deep_paint1.03   
 
 5月11更新：FluidLab 1.0汉化
 
