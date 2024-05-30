@@ -3,6 +3,8 @@
 
 大家可分享自己已经汉化过的 插件补丁，
 
+5月23更新：deep_paint1.03   （VIP1群 hen自购分享插件）
+
 5月11更新：FluidLab 1.0汉化
 
 4月23更新：Physical Puddles Pro  水坑汉化补丁    【布的翻译】
