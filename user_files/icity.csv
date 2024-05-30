@@ -1,0 +1,166 @@
+, 
+,"""\""""
+"""",""Store all assets"""
+,'
+资产,Assets
+材料,Materials
+M,M
+"焕然一新 ""主题",REFRESH theme
+刷新,REFRESH
+这可能需要很长时间！,This may take a long time!
+阅读,Read
+过滤城市资产,filter City assets
+过滤道路,filter road
+过滤主题,filter theme
+INVOKE_DEFAULT,INVOKE_DEFAULT
+zz,zz
+EXEC_DEFAULT,EXEC_DEFAULT
+541,541
+追加面板午餐,Append panel lunch
+SNA_PT_APPEND_PANEL_83F56,SNA_PT_APPEND_PANEL_83F56
+附加面板,Append panel
+附加组件首选项,Addon preferences
+未加载主题,No themes loaded
+.,.
+即将推出！,Coming soon!
+类型,Type
+附加,Append
+打开附加组件预览,Open addon prefrences
+隐藏公园 R,Hide park R
+草地 R,Grass R
+草地 V,Grass V
+树木 R,Trees R
+树木 V,Trees V
+隐藏公园,Hide park
+ICity,ICity
+视频,Youtube
+Discord 社区,Discord community
+报告错误,Report a bug
+文档,Documentation
+材料过滤器,Material filter
+道路材料过滤器,Road materials filter
+开始,Start
+设置场景可能需要一些时间！,This might take some time to set up the scene!
+城市应用,City apply
+应用道路,Road apply
+同步城市,sync city
+最小楼层数,Floor count min
+最大楼层数,Floor count max
+偏移 x,Offset x
+偏移 y,Offset y
+旋转 z,Rotation z
+偏移 x 预设值,Offset x preset
+偏移 y 预设值,Offset y preset
+旋转 z 预设值,Rotation z preset
+设置边数,Set side count
+指定道路,Assign road
+选择要指定为道路的边缘，然后单击,Select edge that you want to assign to be road and click
+删除道路,Remove road
+选择不希望成为道路的边缘，然后单击,Select edge that you want to not be a road and click
+车道宽度,Road lanes width
+人行道宽度,Sidewalk width
+人行横道偏移,crosswalk offset
+添加资产,Append Assets
+添加景观,Append landscape
+交叉口偏移,Intersection Offset
+编辑城市,Edit city
+从场景中删除城市,Delete from scene city
+从场景中删除。,Delete from scene.
+点亮城市,Light city
+从场景中删除,Delete from scene
+从场景中删除道路资产。,Delete from scene road assets.
+删除道路,Road Remove
+资产路径,Assets path
+读取文件,Read files
+测试资产,test assets
+刷新编辑,Refresh edit
+过滤器预设,Filter Presets
+程序化建筑过滤器,Procedural building filter
+公园滤镜,Park filter
+景观过滤器,Landscape filter
+过滤街道资产,Filter street assets
+ICity 编辑器,ICity editor
+代理模式,Proxy mode
+显示所有视口,Show viewport all
+显示所有渲染,Show render all
+边数,Side count
+指定,Assign
+移除,remove
+间距,Spacing
+路径偏移,Path offset
+深度偏移,Depth offset
+显示视口,Show viewport
+显示渲染,Show render
+叶片路径散射,Leaves path scattering
+采集,Collection
+叶片散射,Leaves scattering
+密度,Density
+窨井路径散射,Manholes path scattering
+排水路径散射,Water drain path scattering
+小瑕疵散射,Small imperfections scattering
+垃圾缺陷散射,Trash imperfection scattering
+水坑散射,Water Puddles scattering
+裂缝散射,Cracks scattering
+偏移,Offset
+光色,Light color
+光功率,Light power
+指定道路,Assign Road
+删除道路,Remove Road
+路段属性,Road segment attributes
+存储在边缘,Stored on edge
+道路交叉口属性,Road intersection attributes
+存储在顶点上,Stored on vertex
+交叉口偏移,Intersection offset
+人行横道偏移,Crosswalk offset
+建筑物高度,Buildings hight
+层数,Storey count
+照明,Lighting
+建筑物照明,Building light
+概率,Probability
+道具,Props
+地面道具,Ground Props
+树木,Trees
+城市街道,city-street
+城市街道附加,city-street append
+城市空间类型附加,City space type append
+街道资产类型附加,street asset type append
+街道资产选项,street asset-options
+街道资产类型,street asset type
+景观浏览器附加,Landscape browser append
+街道资产浏览器,Street asset browser
+程序化建筑浏览器,Procedural building browser
+城市空间类型,City space type
+城市建筑预设类型,City building presets type
+城市建筑预设类型,City building presets type append
+道路材料类型附加,Road materials type append
+建筑预设浏览器,Building presets browser
+风格,Style
+公园浏览器,Park browser
+人行道垫,Sidewalk mat
+人行道路缘石垫层,Sidewalk Curb mat
+景观浏览器,Landscape browser
+主题,THEME
+附加浏览器,Append browser
+测试,Test
+城市浏览器附加,City browser append
+道路浏览器,Road browser append
+资产文件夹路径,Assets folder path
+资产类别路径对象,Asset category path object
+资产类别路径集合,Asset category path collection
+资产类别路径材料,Asset category path material
+道路材料浏览器,Road materials browser
+道路材料浏览器附加,Road materials browser append
+道路材料类型 ,Road materials type 
+灯光模式,Light mode
+窗口,Window
+灯光,Light
+树,Tree
+系缆桩,Bollard
+汽车,Cars
+纹理,Texture
+座椅,Bench
+服务,Services
+交通灯,Traffic light
+标志,sign
+瑕疵,Imperfection
+公园,Park

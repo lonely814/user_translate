@@ -515,9 +515,9 @@ VP步骤旋转,VP Step Rotate
 即时将选定的元素零比例化为A。垂直或水平屏幕全局轴（派）。,Instantly zero-scales selected elements to A: Vertical or Horisontal screen global axis (pie)
 定向,Orientation
 书签,Bookmarks
-SnapCombo名称,SnapCombo Names
-捕捉组合,Snapping Combos
-O&P组合,O&P Combos
+快照组合名称,SnapCombo Names
+快照组合,Snapping Combos
+变换坐标系和轴心点组合,O&P Combos
 OPC 1,OPC 1
 OPC1 对象模式,OPC1 Object Mode
 东方,Orient
@@ -962,14 +962,14 @@ TT 默认使用手柄工具或经典样式(,TT Default uses the handle tools or 
 从端点的相对偏移。自动镜像到另一个端点。,Relative Offset from endpoint. Mirrored automatically to the other end point.
 从端点的固定偏移。自动镜像到另一个端点。,Fixed Offset from endpoint. Mirrored automatically to the other end point.
 中心切割。1或0表示没有。,Center Cut. 1 or 0 for none.
-,MultiCut Preset 1
-,MultiCut Preset 2
-,MultiCut Preset 3
-,MultiCut Preset 4
-,MultiCut Preset 5
-,MultiCut Preset 6
-,MultiCut Preset 7
-,MultiCut Preset 8
+多重剪切预置 1,MultiCut Preset 1
+多重剪切预置 2,MultiCut Preset 2
+多重剪切预置 3,MultiCut Preset 3
+多重剪切预置 4,MultiCut Preset 4
+多重剪切预置 5,MultiCut Preset 5
+多重剪切预置 6,MultiCut Preset 6
+多重剪切预置 7,MultiCut Preset 7
+多重剪切预置 8,MultiCut Preset 8
 仅限选择的切换,Selection-Only Toggle
 不需要鼠标点击，只选择元素（在面限制中最近的选定边缘 ,"No mouse-pick, selected element only (nearest selected edge in face limit "
 平坦阴影三角测量,Flat Shading Triangulate
@@ -999,3 +999,15 @@ keKit Keymap Export/Import,keKit Keymap Export/Import
 keKit Keymap Export/Import./nExports -only- keKit Operators & Pie-menus mappings to JSON file.,keKit Keymap Export/Import.\nExports -only- keKit Operators & Pie-menus mappings to JSON file
 导出/导入KeKit关键图,Export / Import keKit Keymap
 Unicode-icon statusbar modal-printing - 记得设置为 None,Unicode-icon statusbar modal-printing - remember to set to None
+检查折断,Check Snapping
+检查顶点的原点,Check Origin at Vert
+选择被遮挡的顶点,Select Occluded Verts
+清理重复材料,Clean Dupe Materials
+清理未使用的材料和插槽,Clean Unused Materials & Slots
+,
+,
+,
+,
+,
+,
+,

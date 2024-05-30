@@ -1,0 +1,125 @@
+将 KeyMapItem 复制到新的键图中，并将其添加到 addon_keymaps 中。,Creates a copy of a KeyMapItem into a new keymap and adds it to addon_keymaps
+将 KeyMapItem 转化为字典 - 用于将键图保存到 json 文件中,Turn a KeyMapItem into a dictionary — used to save keymaps to a json file
+从字典中创建 KeyMapItem - 用于从 json 文件加载键图,Create a KeyMapItem from a dictionary — used to load keymaps from a json file
+为每个键图和其中的每个 kmi 创建一个字典,Create a dictionary for every keymap and every kmi in it
+从字典中创建键映射并填充 KeyMapItem。用于从 json 文件加载键图,Create Keymaps populates with KeyMapItems from a dictionary. Used to load keymap from json file
+返回 addon 的 keymap json 文件路径,Returns path to addon's keymap json file
+重新加载键图。当 Blender 启动时无法访问用户的键图时非常有用。,Reload keymaps. Useful for when Blender doesn't have access to user keymaps when starting
+','
+通用 3D 视图,3D View Generic
+ , 
+内置移动,builtin.move
+内置旋转,builtin.rotate
+重新启用以前的热键 删除所有附加热键,Re-enable previous hotkeys. Remove all addon hotkeys
+"以 bools 元组形式返回与视图向量最接近的轴，例如 X 轴 = (True, False, False)","Returns the closest axis to the view vector in a tuple of bools. e.g. X axis = (True, False, False)"
+"以 bools 元组形式返回与视图向量最垂直的平面，例如 XY 平面 = (True, True, False)","Returns the most perpendicular plane to the view vector in the form of a tuple of bools. e.g. XY plane = (True, True, False)"
+在局部方向上选择多个对象时返回 True,Returns True when in local orientation with multiple objects selected
+,"""\""""
+"""",""Last Multi-Local"""
+最后正常,Last Normal
+切换自动限制场景属性。以操作符的形式实现，因此可以通过热键切换,Toggle auto-constraints scene property. Implemented as operator so toggle can be on a hotkey
+切换自动限制,Toggle Auto Constraints
+切换自动约束,Toggle auto-constraints
+具有自动轴约束的 transform.translate 操作符的封装程序,Wrapper for transform.translate operator with automatic axis constraints
+自动平移约束,Translate Auto Constraint
+使用自动约束调用移动工具,Invokes the move tool with automatic constraints
+带有自动轴约束的 transform.rotate 操作符的包装器,Wrapper for transform.rotate operator with automatic axis constraints
+旋转自动约束,Rotate Auto Constraint
+调用带自动约束的旋转工具,Invokes the rotate tool with automatic constraints
+具有自动轴约束的 transform.resize 操作符的包装器,Wrapper for transform.resize operator with automatic axis constraints
+调整大小自动约束,Resize Auto Constraint
+调用具有自动约束条件的缩放工具,Invokes the scale tool with automatic constraints
+具有自动轴向约束的 object.duplicate_move 操作符的包装器,Wrapper for object.duplicate_move operator with automatic axis constraints
+复制移动自动约束,Duplicate Move Auto Constraint
+通过自动约束调用复制移动工具,Invokes the duplicate_move tool with automatic constraints
+对象.duplicate_move_linked 运算符的包装器，带自动轴向约束,Wrapper for  object.duplicate_move_linked operator with automatic axis constraints
+复制移动链接自动约束,Duplicate Move Linked Auto Constraint
+调用带自动约束的复制移动链接工具,Invokes the duplicate_move_linked tool with automatic constraints
+带自动轴向约束的网格.复制移动操作符的封装器,Wrapper for mesh.duplicate_move operator with automatic axis constraints
+带自动轴向约束的挤出区域移动操作符的包装器,Wrapper for extrude_region_move operator with automatic axis constraints
+挤出区域自动约束,Extrude Region Auto Constraint
+调用带自动约束的挤出区域移动工具,Invokes the extrude_region_move tool with automatic constraints
+带自动轴向约束的曲线复制移动操作符的包装器,Wrapper for curve.duplicate_move operator with automatic axis constraints
+曲线复制移动自动约束,Curve Duplicate Move Auto Constraint
+调用带有自动约束的曲线复制移动工具,Invokes the curve.duplicate_move tool with automatic constraints
+带自动轴向约束的曲线挤出移动操作符的包装器,Wrapper for curve.extrude_move operator with automatic axis constraints
+曲线挤出移动自动约束,Curve Extrude Move Auto Constraint
+调用带有自动约束的曲线挤出移动工具,Invokes the curve.extrude_region_move tool with automatic constraints
+带自动轴向约束的电枢复制移动操作符的封装程序,Wrapper for armature.duplicate_move operator with automatic axis constraints
+电枢复制移动自动约束,Armature Duplicate Move Auto Constraint
+调用带有自动约束的电枢复制移动工具,Invokes the armature.duplicate_move tool with automatic constraints
+电枢挤出移动自动约束,Armature Extrude Move Auto Constraint
+调用带有自动约束的armature.extrude_region_move工具,Invokes the armature.extrude_region_move tool with automatic constraints
+带有自动轴约束的 gpencil.extrude_move 操作符的包装器,Wrapper for gpencil.extrude_move operator with automatic axis constraints
+油性笔挤出移动自动约束,Grease Pencil Extrude Move Auto Constraint
+调用带自动约束的 gpencil.extrude_region_move 工具,Invokes the gpencil.extrude_region_move tool with automatic constraints
+调用 fun,Calls fun
+自动约束的插件首选项,Addon Preferences for auto-constraints
+工具栏位置,Toolbar Location
+在 3D 视口用户界面中显示自动约束工具栏的位置,Where to show the auto-constraint toolbar in the 3D viewport UI
+工具栏模式,Toolbar Mode
+更改工具栏的外观和选项,Changes the look and options in the toolbar
+图标样式,Icon Style
+显示侧边栏,Show Sidebar
+显示包含所有选项的侧边栏面板,Show Sidebar panel with all options
+显示操作符按钮侧边栏,Show Operator Button Sidebar
+在侧边栏添加一个面板，以按钮形式显示所有自动限制操作符。在指定自己的键图时非常有用,Adds a panel to the sidebar with all autoconstraint operators as buttons. Can be useful when assigning your own keymaps
+启用轴偏置,Enable Axis Bias
+添加倾斜自动约束平面以偏向特定轴的选项,Adds option to skew the automatic constraint plane to favor a specific axis
+自动键图,Automatic Keymap
+根据所有自动约束操作符的默认热键，自动为其分配热键。关闭时,Automatically assigns hotkeys to all autoConstraint operators based on their default counterparts. When turned off you\
+类型,Type
+Ctrl,Ctrl
+移位,Shift
+Alt,Alt
+用户界面设置,UI Settings
+键图设置,Keymap Settings
+自动覆盖键图,Auto Override Keymap
+(关闭可手动绑定热键）,(Turn off to manually bind hotkeys)
+切换限制：,Toggle Constraints:
+高级设置,Advanced Settings
+(手动键图的良好参考）,(Good reference for manual keymaps)
+启用轴偏置选项,Enable Axis Bias Options
+所有自动约束场景属性的属性组,Property Group for all auto-constraint scene properties
+打开自动约束,Auto-constraints on
+在全局范围内切换自动约束行为,Toggle auto-constraint behaviour globally
+强制轴,Force Axis
+力特定轴锁定，将覆盖活动约束平面,"Force specific axis locking, will override active constraint plane"
+偏置自动约束平面计算,Bias automatic constraint plane calculation
+使自动约束偏向某些轴（例如：通过增加 Z 值偏向地平面,Bias the autoconstraints in favour of certain axis.\ne.g. Bias to the groundplane by increasing Z value
+自动约束最后自定义方向,Auto-constraint last custom orientation
+用于存储上次使用的自定义方向，以便下次变换时进行清理（如果使用当前运算符删除，然后手动锁定到某个轴，则会发生碰撞,Used to store the last used custom orientation so we can clean it up next transform (there is a crash if deleted with the current operator and then locking to an axis manually
+自动约束移动工具,Auto-constrain move tools
+切换移动和复制工具的自动限制功能,Toggle auto-constraints on for move and duplicate tools
+自动限制旋转,Auto-constrain rotate
+打开旋转工具的自动约束,Toggle auto-constraints on for rotate tool
+自动约束缩放,Auto-constrain scale
+切换缩放工具的自动约束功能,Toggle auto-constraints on for scale tool
+自动约束挤出的顶点和边缘,Auto-constrain extruded verts and edges
+切换挤出顶点、边缘和曲线的自动约束,"Toggle auto-constraints for extruding verts, edges and curves"
+自动限制挤出面,Auto-constrain extruded faces
+切换挤出面的自动约束,Toggle auto-constraints for extruding faces
+"返回 ""平面 ""枚举的项目。之所以没有在类中定义，是为了使用函数查找自定义图标",Returns the items for 'plane' enum. The reason this isn't defined on the class is to use functions to find custom icons
+将 window_manager 中的所有自动约束设置复制到场景中。这将通过文件,Copy all autoconstraint settings from window_manager to scene. This will be loaded with the file
+从场景加载所有自动约束设置。,Load all autoconstraint settings from scene.
+自动约束平面,Auto-constraint plane
+自动约束设置的主面板。用于下拉菜单和侧边面板,Main panel for auto-constraint settings. Used in dropdown and side panel
+自动约束,Auto Constraints
+开启自动约束,Auto-Constraints On
+约束平面,Constraint Plane
+自动,Automatic
+约束平面方向,Constraint Plane Orientation
+覆盖约束,Override Constraints
+变换,Transform
+ 移动, Move
+ 旋转, Rotate
+ 缩放, Scale
+挤出,Extrude
+面,Face
+轴偏置,Axis Bias
+自动约束操作符,Auto Constraint Operators
+约束,Constraints:
+绘制自动约束工具栏,Draws the auto-constraint toolbar
+操作员,Operators
+面/顶点,Edge/Vert
+通过www.DeepL.com/Translator（免费版）翻译,

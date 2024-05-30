@@ -1,0 +1,229 @@
+将 FBXs/OBJs/GLTFs 导出到 Unity/UE/Godot,Export FBXs/OBJs/GLTFs to Unity/UE/Godot
+, 
+,"""\""""
+"""",""Export FBXs/OBJs/GLTFs"""
+在操作系统中打开导出目录,Open Export Directory in OS
+导出工具,Export Tools
+导出模式：,Export Mode:
+文件格式,File Format:
+目标引擎,Target Engine:
+应用,Apply:
+旋转,Rotation
+缩放,Scale
+位置,Location
+删除所有材质,Delete All Materials
+合并所有网格,Combine All Meshes
+网格三角化,Triangulate Meshes
+自定义文件名,Custom Name for File
+文件名：,File Name:
+自定义导出选项,Custom Export Options
+ 平滑, Smoothing
+ 松散边缘, Loose Edges
+ 切线空间, Tangent Space
+ 仅变形骨骼, Only Deform Bones
+ 添加骨骼叶片, Add Leaf Bones
+ VC 色彩空间, VC color space
+ 自定义道具, Custom Props
+ 按垫子分离, Separate By Mats
+ 平滑组, Smooth Groups
+ 打包图像, Pack Images
+ 仅变形骨骼, Deform Bones Only
+ 自定义属性, Custom Properties
+ 切线, Tangents
+ 属性, Attributes
+自定义导出路径,Custom Export Path
+导出路径：,Export Path:
+将 FBX 导出到 Unity,Export FBX to Unity
+将 FBX 导出到虚幻,Export FBX to Unreal
+导出 OBJ,Export OBJ
+导出 GLTF,Export GLTF
+打开导出目录,Open Export Directory
+调色板纹理创建器,Palette Texture Creator
+','
+调色板_,Palette_
+非彩色,Non-Color
+调色板_烘焙平面,Palette_Bake_Plane
+sRGB,sRGB
+在操作系统中打开保存目录,Open Save Directory in OS
+在多编辑模式下为某些对象指定材质,Assign Materials for some objects in MultiEdit Mode
+为某些对象指定材质,Assign Materials for some objects
+清除顶点颜色,Clear Vertex Colors
+# 清除顶点颜色,# Clear Vertex Colors
+材质颜色到视口颜色,Material Color to Viewport Color
+随机材质视口颜色,Random Material Viewport Color
+清除视口颜色,Clear Viewport Color
+从对象中删除未使用的材质和插槽,Delete from Objects Unused Materials and Slots
+删除未使用的材质,Delete Unused Materials
+在 UV 编辑器中从活动材质中选择纹理,Select Texture In UV Editor From Active Material
+选择纹理,Select Texture
+材质没有纹理,Material has not textures
+网格没有材质,Mesh has not materials
+物体不是网格,Object is not mesh
+未找到已打开的 UV 编辑器,Opened UV Editor not found
+在 3D 视图中从活动材质选择纹理,Select Texture In 3D View From Active Material
+OBJECT_MT_select_texture_menu 菜单,OBJECT_MT_select_texture_menu
+材质/纹理工具,Material/Texture Tools
+材质 -> 视口颜色,Material -> Viewport Color
+PBR_Workflow,PBR_Workflow
+自定义保存路径,Custom Save Path
+保存路径：,Save Path:
+创建调色板纹理,Create Palette Texture
+打开保存目录,Open Save Directory
+在 UV 编辑器中打开纹理,Open Texture in UV Editor
+活动材质 -> 已选择,Active Material -> Selected
+原点至最小值 ,Origin To Min 
+原点至最小值,Origin To Min
+原点至最大值 ,Origin To Max 
+原点至最大值,Origin To Max
+原点至中间 ,Origin To Mid 
+原点至中间,Origin To Mid
+原点对齐至光标,Origin Align To Cursor
+原点对齐至光标,Origin To Cursor
+原点对齐至指定坐标,Origin Align To Spec Coordinate
+将原点设置为选区,Set Origin To Selection
+原点工具,Origin Tools
+原点对齐,Origin Align
+几何图形至原点,Geometry To Origin
+X,X
+Y,Y
+Z,Z
+最小值,Min
+最大值,Max
+中间,Middle
+光标,Cursor
+坐标,Coordinate
+将原点设置为所选原点,Set Origin To Selected
+清除自定义分割法线,Clear Custom Split Normals
+重新计算法线,Recalculate Normals
+翻转/计算法线,Flip/Calculate Normals
+将对象名称转换为数据名称,Obj Name to Data Name
+"将 ""列名 ""改为 ""对象名",Col Name to Obj Name
+将选定骨骼合并为活动骨骼,Merge Selected Bones to Active
+重量画笔子抽象模式,Weight Paint Brush Substract Mode
+其他工具,Other Tools
+对象名称 -> 数据名称,Obj Name -> Data Name
+ 方法, Method
+ 放置 , Place 
+ 类型样式 , Style of Type 
+集合名称 -> 对象名称,Collection Name -> Obj Name
+清除自定义法线,Clear Custom Normals
+重新计算法线,Recalc Normals
+内部,Inside
+合并骨骼：,Merge Bones:
+方法,Method
+合并骨骼,Merge Bones
+当前模式：,Current Mode:
+反转画笔,Invert Brush
+导入/导出工具,Import/Export Tools
+显示/隐藏导入/导出工具 UI 面板,Show/Hide Import/Export Tools UI Panel
+显示/隐藏材质/纹理工具（3D 视图）UI 面板,Show/Hide Material/Texture Tools (3D View) UI Panel
+显示/隐藏原点工具 UI 面板,Show/Hide Origin Tools UI Panel
+显示/隐藏其他工具 UI 面板,Show/Hide Other Tools UI Panel
+UV 工具（三维视图）,UV Tools (3D View)
+显示/隐藏 UV 工具（三维视图） UI 面板,Show/Hide UV Tools (3D View) UI Panel
+UV 工具（UV 编辑器）工具,UV Tools (UV Editor) Tools
+显示/隐藏 UV 工具（UV 编辑器） UI 面板,Show/Hide UV Tools (UV Editor) UI Panel
+重命名工具,Renaming Tools
+显示/隐藏重命名工具 UI 面板,Show/Hide Renaming Tools UI Panel
+材质/纹理工具（图像编辑器）,Material/Texture Tools (Image Editor)
+显示/隐藏材质/纹理工具（图像编辑器） UI 面板,Show/Hide Material/Texture Tools (Image Editor) UI Panel
+材质（属性）工具,Material (Properties) Tools
+显示/隐藏导入/导出材质（属性）UI 面板,Show/Hide Import/Export Material (Properties) UI Panel
+为导入/导出面板的类别选择名称,Choose a name for the category of the Import/Export panel
+"为 ""材质（3D 视图）""面板的类别选择名称",Choose a name for the category of the Material (3D View) panel
+"为 ""原点 ""面板的类别选择名称",Choose a name for the category of the Origin panel
+"为 ""其他 ""面板的类别选择名称",Choose a name for the category of the Other panel
+为重命名面板的类别选择名称,Choose a name for the category of the Rename panel
+为 UV（UV 编辑器）面板类别选择一个名称,Choose a name for the category of the UV (UV Editor) panel
+为 UV（三维视图）面板类别选择名称,Choose a name for the category of the UV (3D View) panel
+为材质（图像编辑器）面板类别选择名称,Choose a name for the category of the Material (Image Editor) panel
+面板的可见性和类别：,Visibility and Category for Panels:
+面板,Panel
+保存目录,Save Directory
+PBR 工作流程,PBR Workflow
+保存调色板的路径,Path for Save Palettes
+导出目录,Export Directory
+按材质分离,Separate By Materials
+按材质分离对象,Separate Objects By Materials
+平滑组,Smooth Groups
+导出平滑组,Export Smooth Groups
+自定义属性,Custom Properties
+导出自定义属性,Export Custom Properties
+仅骨骼变形,Deform Bones Only
+切线,Tangents
+导出切线,Export Tangents
+属性,Attributes
+导出属性,Export Attributes
+应用旋转,Apply Rotation
+为导出的模型应用旋转,Apply Rotation for Exported Models
+应用于旋转对象,Apply for Rotated Objects
+"为非 0,0,0 旋转的对象应用旋转功能","Apply Rotation for Objects with not 0,0,0 rotation"
+应用缩放,Apply Scale
+为导出模型应用缩放,Apply Scale for Exported Models
+应用位置,Apply Location
+为导出模型应用位置,Apply Location for Exported Models
+为 FBX 设置自定义名称,Set Custom Name for FBX
+为 FBX 设置自定义名称,Custom Name for FBX
+删除材质,Delete Materials
+在导出前删除材质,Delete Materials before Export
+三角剖分,Triangulate
+导出前对网格进行三角化处理,Triangulate Meshes before Export
+导出 FBX 的路径,Path for Export FBX
+自定义 FBX 导出选项,Custom FBX Export Options
+松散边缘,Loose Edges
+切线空间,Tangent Space
+自定义道具,Custom Props
+导出前合并网格,Combine Meshes before Export
+仅变形骨骼,Only Deform Bones
+添加骨骼叶片,Add Leaf Bones
+删除 Blender 编号,Delete Blender Nums
+删除对象名称中的 Blender 数字,Delete Blender Numbers from Object Names
+删除以前的编号,Delete Previous Nums
+从对象名称中删除之前的数字,Delete Previous Numbers from Object Names
+将几何体对齐至原点,Align Geometry To Origin
+UV 索引,UV Index
+UV 名称,UV Name
+项目角度限制,Project Angle Limit
+项目岛屿边距,Project Islands Margin
+包装质量,Packing Quality
+内部法线,Inside Normals
+重新计算内部法线,Recalculate Normals Inside
+启用调试模式,Enable Debug Mode
+对象编号,Numbering of Objects
+重命名骨骼,Rename bones
+对物体编号,Numbering Objects
+方法,Method:
+格式：,Format:
+设置编号,Set Numbering
+添加 .L,Add .L
+添加 .R,Add .R
+清除 UV 图层,Clear UV layers
+清除 UV 图层,Claer UV layers
+重命名 UV,Rename UV
+添加 UV,Add UV
+删除 UV,Remove UV
+设置活动 UV,Set Active UV
+UV 移动,UV Mover
+移动和缩放 UV 岛屿,Move and Scale UV islands
+将光标设置为角：,Set Cursor To Corner:
+左上角,Top Left
+右上角,Top Right
+左下,Bottom Left
+右下,Bottom Right
+缩放和移动,Scale and Move:
+缩放,Scale-
+向上,UP
+缩放+,Scale+
+向左,LEFT
+向下,DOWN
+向右,RIGHT
+移动步骤 1/,Move Step   1/
+UV 工具,UV Tools
+UV ID：,UV ID:
+包装,Packing:
+角度,Angle:
+边距,Margin:
+质量,Quality:
+清晰 UV 地图,Clear UV Maps
+,
+通过www.DeepL.com/Translator（免费版）翻译,

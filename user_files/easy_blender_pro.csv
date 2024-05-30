@@ -1,0 +1,950 @@
+,'
+导入,Import
+导出,Export
+附加,Append
+ , 
+,"""\""""
+"""",""INVOKE_DEFAULT"""
+可以,Can
+相机派菜单,Camera Pie Menu
+将相机锁定到视图,Lock Camera To View
+从视图中添加相机,Add Camera From View
+选择活动相机,Select Active Camera
+设置活动,Set Active
+将面部对象移至相机,Face Object To Camera
+将脸部图像添加到相机,Face Image To Camera
+..,..
+事实对象移至相机,Fact Object To Camera
+事实图像至摄像机,Fact Image To Camera
+照相机,Camera
+摄像机属性            ,Camera Properties            
+有用属性              ,Useful Properties              
+EXEC_DEFAULT,EXEC_DEFAULT
+渲染引擎,Render Engine
+功能集,Feature Set
+设备,Device
+打开着色语言,Open Shading Language
+显示/隐藏时间线属性,Show/Hide Timeline Properties
+时间轴                            ,Timeline                            
+取样                           ,Sampling                           
+视口,Viewport
+噪声阈值,Noise Threshold
+最大采样,Max Samples
+最小采样,Min Samples
+去噪,Denoise
+渲染,Render
+时间限制,Time Limit
+光照路径                        ,Light Paths                        
+总计,Total
+漫反射,Diffuse
+光泽,Glossy
+透射,Transmission
+体积,Volume
+透明,Transparent
+简化                           ,Simplify                           
+最大细分,Max Subdivision
+子粒子,Child Particles
+纹理限制,Texture Limit
+体积分辨率,Volume Resolution
+运动模糊                     ,Motion Blur                     
+位置,Position
+快门,Shutter
+滚动快门,Rolling Shutter
+快门持续时间,Rolling Shutter Duration
+胶片                                   ,Film                                   
+透明背景,Transparent Background
+曝光,Exposure
+自由式                         ,Freestyle                         
+线条粗细模式,Line Thickness Mode
+线条粗细,Line Thickness
+色彩管理           ,Color Management           
+使用曲线,Use Curves
+时间轴                               ,Timeline                               
+取样                             ,Sampling                             
+视口去噪,Viewport Denoising
+环境遮蔽         ,Ambient Occlusion         
+距离,Distance
+系数,Factor
+跟踪精度,Trace Precision
+弯曲法线,Bent Normals
+反弹近似,Bounces Approximation
+绽放                              ,Bloom                              
+阈值,Threshold
+膝关节,Knee
+半径,Radius
+颜色,Color
+强度,lntensity
+夹钳,Clamp
+屏幕空间反射,Screen Space Reflection
+折射,Refraction
+轨迹分辨率 半,Trace Res Half
+最大粗糙度,Max Roughness
+厚度,Thickness
+边缘褪色,Edge Fading
+背景分离,Background Separation
+最大模糊,Max Blur
+步骤,Steps
+最大子粒子数,Max Child Particles
+阴影分辨率,Shadow Resolution
+胶片                                      ,Film                                      
+滤镜尺寸,Filter Size
+景深                      ,Depth of Field                      
+最大尺寸,Max Size
+精灵阈值,Sprite Threshold
+邻域剔除,Neighbor Rejection
+去噪量,Denoise Amount
+高质量轻微散焦,High Quality Slight Defocus
+抖动相机,Jitter Camera
+过度模糊,Over-blur
+色彩管理             ,Color Management             
+请输入 Eevee 渲染引擎,Please enter Eevee render engine
+分辨率                         ,Resolution                         
+分辨率 X,Resolution X
+分辨率 Y,Resolution Y
+%,%
+比例                             ,Aspects                             
+输出                               ,Output                               
+面板信息,Panel Info
+魔术按钮,Magic Button
+自定义魔法按钮,Custom Magic Button
+点击我,Click Me
+噪音阈值（渲染）,Noise threshold (Render)
+渲染噪音阈值,Render Noise Threshold
+渲染最大样本,Render Max Samples
+去噪（渲染）,Denoise (Render)
+去噪（视口）,Denoise (Viewport)
+噪点阈值（视口）,Noise threshold (Viewport)
+简化,Simplify
+运动模糊,Motion Blur
+光线树,Light Tree
+循环                              ,Cycles                              
+标签信息,Tab Info
+自由风格,Freestyle
+实用属性,Useful Properties
+专业设置（循环）,Pro Settings (Cycles)
+循环,Cycles
+好了吗？,Ok?
+一个神奇的按钮，可缩短您的重放时间,A magic button that reduce your reder time
+魔法按钮组件,Magic Button Component
+专业设置信息,Pro Settings Info
+关于自定义魔法按钮的信息,Info Avout Custom Magic Button
+自定义魔法按钮 ,Custom Magic Button 
+expand_collapse.001,expand_collapse.001
+警告,Warning
+摄像机属性,Camera Properties
+方面操作员,Aspects Operator
+方面,Aspects
+输出操作器,Output Operator
+输出,Output
+分辨率 操作员,Resolution Operator
+分辨率,Resolution
+取样运算器 Eevee,Sampling Operator Eevee
+采样,Sampling
+Bloom 运算器 Eevee,Bloom Operator Eevee
+绽放,Bloom
+自由式操作员 Eevee,FreestyleOperator Eevee
+胶片操作员 Eevee,Film Operator Eevee
+胶片,Film
+景深操作员 Eevee,Depth of Field Operator Eevee
+景深,Depth of Field
+环境遮蔽操作员 Eevee,Ambient Occlusion Operator Eevee
+环境遮蔽,Ambient Occlusion
+运动模糊操作员 Eevee,Motion Blur Operator Eevee
+色彩管理 操作员 Eevee,Color Management Operator Eevee
+色彩管理,Color Management
+简化操作器 Eevee,Simplify Operator Eevee
+屏幕空间反射操作器 Eevee,Screen Space Reflection Operator Eevee
+时间线操作器 Eevee,Timeline Operator Eevee
+时间轴,Timeline
+光线路径操作器 循环,Light Paths Operator Cycles
+光线路径,Light Paths
+自由式操作循环,Freestyle Operator Cycles
+电影操作循环,Film Operator Cycles
+运动模糊操作程序,Motion Blur Operator Cycles
+简化操作程序,Simplify Operator Cycles
+色彩管理操作程序,Color Management Operator Cycles
+取样操作程序 123,Sampling Operator 123
+时间线循环,Timeline Cycles
+自定义按钮,Custom Buttons
+添加,Add
+名称,Name
+全部删除,Remove all
+操作员.002,Operator.002
+操作员,Operator
+删除,Delete
+索引,index
+操作员.001,Operator.001
+索引,Index
+操作员.003,Operator.003
+新面板,New Panel
+编辑每个按钮,Edit Each Button
+名称 最后按钮,Name Last Button
+节点,Nodes
+自定义图标库,Custom Icon Gallery
+选项卡名称,Tab name
+.Blend,.Blend
+图片,Images
+扩展,Extention
+图库比例,Gallery Scale
+弹出式缩放,Popup Scale
+显示标签,Show label
+材质选项卡 1 刷新,Material Tab 1 Refresh
+添加选项卡 1 材质,Append tab 1 Materials
+材质选项卡 2 刷新,Material Tab 2 Refresh
+"添加第 2 个 ""材料 ""选项卡",Append tab 2 Materials
+材料选项卡 3 刷新,Material Tab 3 Refresh
+"添加第 3 个 ""材料 ""选项卡",Append tab 3 Materials
+材料选项卡 4 刷新,Material Tab 4 Refresh
+"添加第 4 个 ""材料 ""选项卡",Append tab 4 Materials
+材料选项卡 5 刷新,Material Tab 5 Refresh
+添加选项卡 5 材料,Append tab 5 Materials
+对象选项卡 3 操作员,Object tab 3 operator
+附加第 3 个对象选项卡,Append tab 3 objects
+对象选项卡 4 操作员,Object tab 4 operator
+添加选项卡 4 对象,Append tab 4 objects
+对象选项卡 2 操作员,Object tab 2 operator
+附加选项卡 2 对象,Append tab 2 objects
+对象选项卡 5 操作符,Object tab 5 operator
+附加选项卡 5 对象,Append tab 5 objects
+对象选项卡 1 操作符,Object tab 1 operator
+添加选项卡 1 对象,Append tab 1 objects
+几何图形 ,Geometry 
+信息,INFO
+自定义面板,Custom Panel
+自定义饼形菜单,Custom Pie Menu
+简易编辑模式,Easy Edit Mode
+挤出,Extrude
+斜面,Bevel
+嵌入,Inset
+环形切割,Loop Cut
+标记接缝,Mark Seam
+清缝,Clear Seam
+填充,Fill
+戳脸,Poke Face
+突出所选对象,Highlight Selected Object
+点,Spot
+区域,Area
+点,Point
+太阳,Sun
+光属性,Light Properties
+添加点,Add Point
+添加太阳,Add Sun
+添加点,Add Spot
+添加区域,Add Area
+添加轨迹,Add Track
+相机专业版,Camera Pro
+材质属性,Material Properties
+自定义节点组属性,Custom Node Group Properties
+指定,Assign
+选择,Select
+取消选择,Deselect
+不兼容的输出节点,Incompatible output node
+无输出节点,No output node
+表面,Surface
+生成,Generate
+数组,Array
+布尔,Boolean
+生成,Build
+十进制,Decimate
+边缘分割,Edge Split
+几何节点,Geometry Node
+镜像,Mirror
+多分辨率,MultiResolution
+重网格,Remesh
+皮肤,Skin
+凝固,Solidify
+细分曲面,Subdevision Surface
+线框,Wireframe
+变形,Deform
+变形,Armature
+曲线,Curve
+位移,Displace
+网格,Lattice
+收缩包裹,Shrink Wrap
+简单变形,Simple Deform
+平滑,Smooth
+波,Wave
+物理,Physics
+布料,Cloth
+碰撞,Collision
+动态喷漆,Dynamic Paint
+爆炸,Explode
+流体,Fluid
+海洋,Ocean
+软体,Soft Body
+选择对象以激活菜单。,Select an object to activate the menu.
+阵列.001,Array.001
+斜面.001,Bevel.001
+布尔值.001,Boolean.001
+构建.001,Build.001
+十进制.001,Decimate.001
+边缘分割.001,Edge Split.001
+几何节点.001,Geometry Node.001
+镜像.001,Mirror.001
+多分辨率.001,MultiResolution.001
+重网格.001,Remesh.001
+皮肤.001,Skin.001
+凝固.001,Solidify.001
+细分曲面.001,Subdevision Surface.001
+线框,Wireframe.001
+曲线.001,Curve.001
+位移.001,Displace.001
+网格.001,Lattice.001
+收缩包裹.001,Shrink Wrap.001
+简单变形.001,Simple Deform.001
+平滑.001,Smooth.001
+波浪.001,Wave.001
+电枢.001,Armature.001
+布料.001,Cloth.001
+碰撞.001,Collision.001
+动态喷漆.001,Dynamic Paint.001
+爆炸.001,Explode.001
+流体.001,Fluid.001
+海洋.001,Ocean.001
+软体.001,Soft Body.001
+修改器,Modifiers
+枚举,Enum
+自定义属性,Custom Property
+材料属性类型 2,Material Properties type 2
+材料属性类型 1,Material Properties type 1
+快速帮助,Quick Help
+清理网格,Cleanup Mesh
+清理未使用的网格。,Clean unused meshes.
+清理材料,Cleanup Materials
+清理未使用的材质。,Clean unused materials.
+清理灯光,Cleanup Lights
+清理未使用的灯光。,Clean unused Lights.
+清理画笔,Cleanup Brushes
+清理未使用的画笔。,Clean unused Brushes.
+清理未使用的节点组,Cleanup unused Node group
+清理未使用的节点组。,Clean unused Node Groups.
+清理摄像机,Cleanup Cameras
+清理未使用的相机。,Clean unused Cameras.
+复制按钮,Copy Button
+复制脚本,Copy Script
+霓虹灯操作员,Neon Operator
+添加霓虹灯和线框（仅适用于网格）,Add Neon & Wireframe(Only Work With Meshs)
+霓虹灯,Neon
+添加霓虹灯材质,Add Neon Material
+霓虹灯属性信息,Neon Properties Info
+信息,Info
+上一页,Previous
+下一页,Next
+添加工作区 ,Add Workspace 
+测量,Measure It
+取消测量,UnMeasure It
+动画弹出消息,Animation Popup Message
+旧修改器菜单,Old Modifiers Menu
+活动刚体,Rigid Body Active
+刚体被动,Rigid Body Passive
+操作员.005,Operator.005
+刚体,Rigid Body
+力场,Force Field
+刚体约束,Rigid Body Constraint
+分段,Subdevide
+针脚,Pin
+黄色,Yellow
+橙色,Orange
+绿,Green
+紫色,Purple
+青色,Cyan
+灰,Grey
+棕色,Brown
+粉红,Pink
+随机颜色,Random Color
+浅红色,Light Red
+块状,Block It
+使其块状,Make It Blocky
+线框修改器,Wire frame Modifier
+模态操作器,Modal Operator
+低多边形,Low Poly It
+easy blender pro,EASY BLENDER PRO
+派针,Pie Pin
+如果存在名为 PIN 的顶点组，则 Pin 将不起作用。,Pin will not work if there is a vertexgroup called PIN.
+PIN,PIN
+对象.004,Objects.004
+自定义图标（材质）,Custom Icon (Material)
+仅为活动材质制作图标。,Make an icon for the active material only.
+确定吗？,Are You Sure?
+弹出消息,Popup message Parent
+去激活抓取,De Activate Snap
+锁定,Snap It
+移动并锁定 Z 轴,Move & Lock z-axis
+自动应用缩放和旋转,Auto Apply Scale & Rotation
+激活抓取,Activate Snap
+水平分割,Split Horizontal
+关闭,Close
+垂直分割,Vertical Split
+分离,Seperate
+全部删除,Remove All
+Operator 1231231231231231231321,Operator 1231231231231231231321
+主按钮,Main Button
+删除 123,Delete 123
+弹出消息 节点管理器,Popup message Node Wrangler
+"弹出消息 ""节点排列",Popup message Node Arrange
+弹出消息单元格断裂,Popup message Cell Fracture
+弹出消息 MeasureIt,Popup message MeasureIt
+"弹出消息 ""导入图像为平面",Popup message Import Images As Planes
+操作员.004,Operator.004
+建议的附加组件,Suggested Add-ons
+节点管理器,Node Wrangler
+节点排列,Node Arrange
+单元格断裂,Cell Fracture
+测量,MeasureIt
+导入图像为平面,Import Images As Planes
+搜索插件,Search Addons
+将活动相机对齐至视图,Align Active camera To View
+飞行模式操作员,Fly Mode operator
+摄像机/灯光属性信息,Camera/Light Properties Info
+显示_H_名称,Display_H_Name
+删除对象,Delete Object
+obj_index,obj_index
+添加,add
+添加到列表,add to list
+删除,remove
+从列表中删除,remove from list
+全部移除,remove all
+从列表中移除所有摄像机,Remove all cameras from list
+活动摄像机信息.001,Active Camera Info.001
+应用到摄像机,Apply To Camera
+正常 ,Normal 
+六边形 ,Hexagon 
+五边形 ,Pentagon 
+三角形 ,Triangle 
+正方形 ,Square 
+信息   ,Info   
+标签,Sticky Notets
+删除元素,Remove element
+添加项目,Add item
+着色器编辑器,Shader Editor
+图像编辑器,Image Editor
+UV 编辑器,UV Editor
+大纲,Outliner
+序列编辑器,Sequence Editor
+涂料表,Dope Sheet
+3d 视图,3d  View
+图形编辑器,Graph Editor
+控制台,Console
+文本编辑器,Text Editor
+资产,Assets
+几何节点编辑器,Geometry Node Editor
+属性,Properties
+纹理通道混合,Texture Channel Mixing
+剪辑编辑器,Clip Editor
+偏好设置,Preferences
+电子表格,Spreadsheet
+文件,Files
+非线性动画,Nonlinear Animation
+驱动程序,Drivers
+合成器,Compositor
+首选项.001,Preferences.001
+切换按钮,Switch Button
+4K.003,4K.003
+2K.003,2K.003
+8K.003,8K.003
+2:1,2:1
+1:2,1:2
+1:1,1:1
+1080 x 540 (1K),1080 x 540 (1K)
+2K,2K
+4K,4K
+8K,8K
+1080 x 1080 (1K),1080 x 1080 (1K)
+1920 x 1080 (1K),1920 x 1080 (1K)
+默认分辨率,DefaultResolution
+4K.001,4K.001
+2K.001,2K.001
+8K.001,8K.001
+1:1 分辨率.001,1:1 resolution.001
+4K.002,4K.002
+2K.002,2K.002
+8K.002,8K.002
+转换为 PNG,Convert To PNG
+转换为 JPEG,Convert To JPEG
+转换为 TIFF,Convert To TIFF
+转换为视频,Convert To Video
+教程和信息,Tutorials and Info
+订阅,Subscribe
+我的页面,My Page
+插件教程,Addon Tutorial
+2:1 分辨率,2:1 resolution
+1:2 分辨率.002,1:2 resolution.002
+常规属性信息,General Properties Info
+渲染图像,Render Image
+渲染动画,Render Animation
+快速渲染图像,Quick Render Image
+快速渲染动画,Quick Render Animation
+转换为,Convert To:
+PNG,PNG
+JPEG,JPEG
+TIFF,TIFF
+视频（FFmpeg）,Video (FFmpeg)
+删除相机,Delete Camera
+对象名称,ObjectName
+展开_折叠,expand_collapse
+场景中必须有摄像机才能删除它们,There has to be cameras  in the scene to be able to delete them
+摄像机名称,Camera name
+焦距,Focal length
+移动 X,Shift X
+移动 Y,Shift Y
+剪辑开始,Clip start
+剪辑结束,Clip end
+景深,Depth of field
+对焦距离,Focus distance
+F 光圈,F-Stop
+显示限制,Show Limits
+极限,Limits
+子面板信息,Subpanel Info
+从列表中添加/删除摄像机,Add/Remove camera from list
+显示（隐藏）名称,Display(Hide) Name
+飞行模式 (Shift+R),Fly mode  (Shift+R)
+设置活动摄像机,Set Active Camera
+仅查看选定对象,View only Selected Object
+截图视口,Screenshot The Viewport
+移除摄像机,Remove Cameras
+快切,Shorcut  Work In:
+所有空间,All Spaces
+飞行模式,Fly Mode
+编辑器切换器,Editor Switcher
+分割/连接区域,Split/Join Areas
+查找丢失的文件,Find Missing Files
+行走模式,Walk Mode
+魔法清理,Magic Clean
+工作区导航器,Workspace navigator
+任何操作员,Any Operator
+3D 视口,3D Viewport
+从视图添加摄像机,Add Camera From View.
+三维视口 对象模式,3D Viewport: Object Mode
+材质属性 1,Material Properties 1
+材质属性 2,Material Properties 2
+荧光笔,Highlighter
+活动光属性,Active Light Properties
+默认材质属性,Default Material Properties
+自定义材质属性,Custom Material Properties
+自定义修改器,Custom Modifiers
+旧修改器,Old Modifiers
+取消锁定,Unsnap It
+全部折叠/全部展开,Collapse/Arrange All
+3D 视口： 编辑模式,3D Viewport: Edit Mode
+测量,Measure
+取消测量,Unmeasure
+显示/隐藏,Show/Hide
+简易混合器专业版,Easy Blender Pro
+Easy Blender 属性,Easy Blender Properties
+便笺,Sticky Notes
+搜索,Search
+自定义节点（节点编辑器）,Custom Nodes (node Editor)
+飞行模式 ,Fly mode 
+更改编辑器类型,Change Editor Type
+显示快照属性,show snap proerties
+光线属性弹出窗口,Light Properties Popup
+材质属性 1 正常,Material Proeprties 1 Normal
+材质属性 2,Material Proeprties 2
+全部折叠,Collapse All
+分割器,Splitter
+所有快捷键 001,All Shortcuts 001
+自定义魔幻噪音三hold,Custom Magic Noise Thredhold
+自定义魔法最大采样,Custom Magic Max Samples
+自定义去噪视口,Custom Denoise Viewport
+自定义去噪渲染,Custom Denoise render
+自定义简化,Custom Simplify
+自定义动态模糊,Custom Motion Blur
+自定义渲染噪点上限,Custom Render Noise Threashold
+自定义光树,Custom Light Tree
+自定义噪点阈值（视口）,Custom Noise threshold (Viewport)
+自定义透明背景,Custom Transparent Background
+打开网站,Open Website
+Blender 文件（对象）派,Blender file (objects) Pie
+图片（对象） Pie,Images (objects) Pie
+扩展类型（对象 派,Extention Type (objects) Pie
+混合器文件（材质）派,Blender file (Materials) Pie
+图像（材质）派,Images (Materials) Pie
+扩展类型（材质）派,Extention Type (Materials) Pie
+菜单,Menus
+混合效果器文件（对象）1,Blender file (objects) 1
+混合器文件（对象） 2,Blender file (objects) 2
+混合效果器文件（对象） 3,Blender file (objects) 3
+混合效果器文件（对象） 4,Blender file (objects) 4
+混合器文件（对象） 5,Blender file (objects) 5
+图像（对象） 1,Images (objects) 1
+图像（对象） 2,Images (objects) 2
+图像（对象） 3,Images (objects) 3
+图像（对象） 4,Images (objects) 4
+图像（对象） 5,Images (objects) 5
+扩展类型（对象） 1,Extention Type (objects) 1
+扩展类型（对象） 2,Extention Type (objects) 2
+扩展类型（对象） 3,Extention Type (objects) 3
+扩展类型（对象） 4,Extention Type (objects) 4
+扩展类型（对象） 5,Extention Type (objects) 5
+比例对象 1,Scale object 1
+比例对象 2,Scale object 2
+比例对象 3,Scale object 3
+比例对象 4,Scale object 4
+缩放对象 5,Scale object 5
+弹出缩放对象 1,popup Scale object 1
+弹出缩放对象 2,popup Scale object 2
+弹出比例对象 3,popup Scale object 3
+弹出比例对象 4,popup Scale object 4
+弹出缩放对象 5,popup Scale object 5
+显示标签对象 1,Show label object 1
+显示标签对象 2,Show label object 2
+显示标签对象 3,Show label object 3
+显示标签对象 4,Show label object 4
+显示标签对象 5,Show label object 5
+对象标签类别 1,Object label catecory 1
+对象标签分类 2,Object label catecory 2
+对象标签分类 3,Object label catecory 3
+对象标签分类 4,Object label catecory 4
+对象标签分类 5,Object label catecory 5
+混合文件（材质）1,Blender file (material) 1
+混合效果器文件（材质） 2,Blender file (material) 2
+混合效果器文件（材质） 3,Blender file (material) 3
+混合效果器文件（材质） 4,Blender file (material) 4
+混合效果器文件（材质） 5,Blender file (material) 5
+图像（材质）1,Images (material) 1
+图像（材质） 2,Images (material) 2
+图像（材质） 3,Images (material) 3
+图像（材质） 4,Images (material) 4
+图像（材质） 5,Images (material) 5
+扩展类型（材料） 1,Extention Type (material) 1
+扩展类型（材料） 2,Extention Type (material) 2
+扩展类型（材料） 3,Extention Type (material) 3
+扩展类型（材料） 4,Extention Type (material) 4
+扩展类型（材料） 5,Extention Type (material) 5
+刻度材料 1,Scale material 1
+刻度材料 2,Scale material 2
+比例材料 3,Scale material 3
+比例尺材料 4,Scale material 4
+标尺材料 5,Scale material 5
+弹出刻度材料 1,popup Scale Material 1
+弹出刻度材料 2,popup Scale Material 2
+弹出比例尺材料 3,popup Scale Material 3
+弹出比例尺材料 4,popup Scale Material 4
+弹出标尺材料 5,popup Scale Material 5
+显示标签材料 1,Show label material 1
+显示标签材料 2,Show label material 2
+显示标签材料 3,Show label material 3
+显示标签材料 4,Show label material 4
+显示标签材料 5,Show label material 5
+材料标签类别 1,material label catecory 1
+材料标签分类 2,material label catecory 2
+材料标签分类 3,material label catecory 3
+材料标签分类 4,material label catecory 4
+材料标签分类 5,material label catecory 5
+,// \\
+混合效果器文件（收藏集） 1,Blender file (Collection) 1
+混合效果器文件（收藏集） 2,Blender file (Collection) 2
+混合效果器文件（收藏集） 3,Blender file (Collection) 3
+混合效果器文件（收藏集） 4,Blender file (Collection) 4
+混合效果器文件（收藏集） 5,Blender file (Collection) 5
+图像（收藏） 1,Images (collection) 1
+图像（收藏） 2,Images (collection) 2
+图像（收藏集） 3,Images (collection) 3
+图像（收藏集） 4,Images (collection) 4
+图像（收藏集） 5,Images (collection) 5
+扩展类型（集合） 1,Extention Type (colllection) 1
+扩展类型（集合） 2,Extention Type (colllection) 2
+扩展类型（集合） 3,Extention Type (colllection) 3
+扩展类型（集合） 4,Extention Type (colllection) 4
+扩展类型（集合） 5,Extention Type (colllection) 5
+比例集合 1,Scale collection 1
+比例集合 2,Scale collection 2
+比例集合 3,Scale collection 3
+比例集合 4,Scale collection 4
+比例集合 5,Scale collection 5
+弹出刻度集合 1,popup Scale collection 1
+弹出比例尺集合 2,popup Scale collection 2
+弹出规模集合 3,popup Scale collection 3
+弹出刻度集合 4,popup Scale collection 4
+弹出刻度集合 5,popup Scale collection 5
+显示标签集 1,Show label collection 1
+显示标签集 2,Show label collection 2
+显示标签集 3,Show label collection 3
+显示标签集 4,Show label collection 4
+显示标签集 5,Show label collection 5
+收藏标签分类 1,collection label catecory 1
+收藏标签分类 2,collection label catecory 2
+收藏标签分类 3,collection label catecory 3
+收藏标签分类 4,collection label catecory 4
+集合标签分类 5,collection label catecory 5
+输入 1,input 1
+输入 2,input 2
+输入 3,input 3
+输入 4,input 4
+输入 5,input 5
+输入 6,input 6
+输入 7,input 7
+输入 8,input 8
+输入 9,input 9
+输入 10,input 10
+输入 11,input 11
+输入 12,input 12
+输入 13,input 13
+输入 14,input 14
+输入 15,input 15
+输入 16,input 16
+输入 17,input 17
+输入 18,input 18
+输入 19,input 19
+输入 20,input 20
+输入 21,input 21
+输入 22,input 22
+输入 23,input 23
+输入 24,input 24
+输入 25,input 25
+输入 26,input 26
+输入 27,input 27
+输入 28,input 28
+输入 29,input 29
+输入 30,input 30
+饼 1,Pie 1
+饼 2,Pie 2
+饼 3,Pie 3
+饼 4,Pie 4
+饼 5,Pie 5
+饼 6,Pie 6
+派 7,Pie 7
+饼 8,Pie 8
+显示/隐藏摄像头,Show/hide Camera
+显示/隐藏 Csutom 面板,Show/hide Csutom Panel
+显示/隐藏图标库,Show/hide icon gallery
+显示/隐藏自定义按钮,Show/hide custom buttons
+显示/隐藏灯光属性,Show/hide  light properties
+显示/隐藏修改器,Show/hide modifiers
+显示/隐藏物理特性,Show/hide Physics
+显示/隐藏快速帮助,Show/hide quick help
+显示/隐藏建议的附加组件,Show/hide suggested addons
+显示/隐藏快照,Show/hide snap it
+显示/隐藏便笺,Show/hide sticky note
+搜索 ,Search 
+尺寸 X 窗口管理器,Size X Windows manager
+尺寸 Y Windows 管理器,Size Y Windows manager
+用鼠标打开,Open with The Mouse
+显示标题,Show Header
+显示菜单,Show Menu
+设置,settings
+自定义饼状菜单设置,Custom Pie Menu Settings
+功率,Power
+最大弹跳,Max Bounces
+形状,Shape
+角度,Angle
+尺寸,Size
+混合,Blend
+点尺寸,Spot Size
+平面,plane
+立方体,Cube
+UV 球体,UV Sphere
+圆柱体,Cylinder
+圆锥体,Cone
+圆环,Torus
+猴形,Monkey
+贝塞尔,Bezier
+随机变换,Randomize Transform
+快速动画预览,Quick Animation Previer
+快速图像预览,Quick Image Preview
+快速动画预览,Quick Animation Preview
+目录,Directory
+格式化,Format
+神奇文件清理工具,Magic File Cleaner
+神奇文件清理工具,Magic Cleanup File
+按类型清理,Clean By Type:
+网格,Mesh
+材料,Materials
+灯光,Light
+笔刷,Brushes
+节点组,Node group
+建模,Modeling
+打开/关闭四维视图,Open/Close Quad View
+空腔,Cavity
+类型,Type
+屏幕空间,Screen Space
+脊,Ridge
+山谷,Valley
+世界空间,World Space
+添加空腔（仅建模）,Add Cavity (only Modeling)
+X 射线,X-Ray
+显示线框,Show Wireframe
+在前面制作,Make In Front
+显示名称,Show Name
+添加霓虹灯,Add Neon
+偏移,Offset
+批量重命名,Batch Renamer
+混合器数据,Blender Data
+数据：,Data:
+渲染,Render:
+搜索任何操作符,Search For Any Operator
+常规设置,General Settings
+主动转换,Active Transormation
+选择对象开始,Select an object to start
+随机变换,Random Transform
+清除,Clear:
+Blender 保存,Blender Save
+自动保存,Auto-Save
+计时器（分钟）,Timer(Minutes)
+保存版本 (.Blend1),Save Versions (.Blend1)
+文件预览类型,File Preview Type
+平滑阴影,Shade Smooth
+自动阴影平滑,Auto Shade Smooth
+转换为,Convert to
+油性笔,Grease Pencil
+曲线,Curves
+原点,Origin
+原点至几何图形,Origin To Geometry
+原点至 3D 光标,Origin To 3D Cursor
+应用,Apply
+位置,Location
+旋转,Rotation
+缩放,Scale
+动画,Animation
+默认插值,Default Interpolation
+特效,Effects
+快速线框效果,Quick Wireframe effect
+线框中置效果,Wireframe Midifier
+快速效果,Quick Effects:
+链接材质,Link Material
+删除所有材质（活动对象）,Delete All Materials (Active Object)
+删除未使用的材质插槽,Remove unused Material Slots
+简单测量,Simple Measure
+添加简单测量,Add Simple Measure
+测量只能在编辑 ,Measurments will work in Edit 
+模式下工作,mode only
+Blender 主题,Blender Themes
+资产库,Asset Library
+颜色,Pallates
+添加随机颜色,Add Random Color
+渲染材质,Render Materials
+渲染所有材质,Render All Materials
+渲染对象,Render Objects
+渲染所有对象,Render All Objects
+清理 Blender 文件,Clean Blender File
+可选择性和可见性,Selectability & Visibility
+头发曲线,Hair Curves
+清空,Empty
+扬声器,Speaker
+父级,Parent
+父级至已选,Parent To Selected
+清除父级,Clear Parent
+编辑器类型设置,Editor Type Settings
+窗口管理器,Window Manager
+设置,Settings
+缩放 X,Scale X
+缩放 Y,Scale Y
+点_p01,point_p01
+字符串,String
+新属性,New Property
+按钮,Button
+字符串 1,String 1
+名称 1,Name 1
+显示/移除时间轴属性 循环,Show/Remove Timeline Properties Cycles
+显示/移除时间轴属性 Eevee,Show/Remove Timeline Properties Eevee
+平面上的点,point_on_plane
+索引_p1,index_p1
+is_add_p1,is_add_p1
+pop_1,pop_1
+pop_2,pop_2
+pop_4,pop_4
+删除摄像机,Delete Cameras
+标签创建器,Label creator
+自定义标签,Custom Labels
+自定义标签索引,Custom Labels Index
+MY_BOOLEAN,MY_BOOLEAN
+魔法按钮属性,Magic Button Properties
+boolProp,boolProp
+搜索栏,SearchBar
+其他菜单,Others Menu
+类别,categories
+打开/关闭,Open/Close
+分辨率列表,Resolution List
+对象属性,Object Property
+材料/对象菜单,Materials/Objects Menu
+材质属性,Materials Property
+相机列表,Camera List
+专业设置（自定义魔法按钮）,Pro Settings (Custom Magic Button)
+输出 001,Output 001
+循环（主采样）,Cycles (Sampling Main)
+循环（光线路径）,Cycles (Light Paths)
+循环（简化）,Cycles (Simplify)
+循环（运动模糊）,Cycles (Motion Blur)
+循环（胶片）,Cycles (Film)
+循环（自由风格）,Cycles (Free Style)
+循环（色彩管理）,Cycles (Color Management)
+时间线 Eevee,Timeline Eevee
+Eevee（采样主线）,Eevee(Sampling Main)
+Eevee（环境闭塞）,Eevee(Ambient Occlusion)
+Eevee（绽放）,Eevee(Bloom)
+Eevee（屏幕空间反射）,Eevee(Screen Space Reflection)
+Eevee（运动模糊）,Eevee(Motion Blur)
+Eevee（简化）,Eevee(Simplify)
+自由风格,Eevee(Freestyle)
+埃维（胶片）,Eevee(Film)
+Eevee（景深）,Eevee(Depth of Field)
+Eevee（色彩管理）,Eevee(Color Management)
+显示/移除时间线属性 Eevee 001,Show/Remove Timeline Properties Eevee 001
+修改器应用类型,Modifiers Apply Type
+布尔 1 快速,Bool 1 quick
+材质属性类型 1 快速,Material Properties type 1 quick
+材质属性类型 2 快速,Material Properties type 2 quick
+属性 11 快速,Property 11 quick
+多相机渲染 快速,Multiple Camera Render quick
+集合快速查找插件,Collection Find Addon quick
+用户界面字符串快速查找插件,UI string Find Addon quick
+快照自动应用缩放和旋转快速,Snap Auto apply the scale and rotation quick
+自定义对象,Objects Custom
+编辑对象 1 自定义,Edit object 1 Custom
+编辑对象 2 自定义,Edit object 2 Custom
+编辑对象 3 自定义,Edit object 3 Custom
+编辑对象 4 自定义,Edit object 4 Custom
+编辑对象 5 自定义,Edit object 5 Custom
+对象属性 1 自定义,Object Property 1 Custom
+对象属性 2 自定义,Object Property 2 Custom
+对象属性 3 自定义,Object Property 3 Custom
+对象属性 4 自定义,Object Property 4 Custom
+对象属性 5 自定义,Object Property 5 Custom
+材料/对象菜单 自定义,Materials/Objects Menu Custom
+自定义材料,Materials Custom
+材料属性 1 自定义,Materials Property 1 Custom
+材料属性 2 自定义,Materials Property 2 Custom
+材料属性 3 自定义,Materials Property 3 Custom
+材料属性 4 自定义,Materials Property 4 Custom
+材料属性 5 自定义,Materials Property 5 Custom
+编辑材料 1 自定义,Edit material 1 Custom
+编辑材料 2 自定义,Edit material 2 Custom
+编辑材料 3 自定义,Edit material 3 Custom
+编辑材料 4,Edit material 4 Custom
+编辑材料 5 自定义,Edit material 5 Custom
+集合自定义,Collections Custom
+集合属性 1 自定义,Collection Property 1 Custom
+集合属性 2 自定义,Collection Property 2 Custom
+集合属性 3 自定义,Collection Property 3 Custom
+集合属性 4 自定义,Collection Property 4 Custom
+集合属性 5 自定义,Collection Property 5 Custom
+编辑收藏集 1 自定义,Edit Collection 1 Custom
+编辑收藏集 2 自定义,Edit Collection 2 Custom
+编辑收藏集 3 自定义,Edit Collection 3 Custom
+编辑收藏集 4 自定义,Edit Collection 4 Custom
+编辑收藏集 5 自定义,Edit Collection 5 Custom
+自定义收藏,Collection Custom
+自定义批量收集,Collection Pie Custom
+UI 字符串饼自定义,UI string Pie Custom
+UI 字符串 Main 自定义,UI string Main Custom
+收藏 2 自定义,Collection 2 Custom
+用户界面字符串 2 自定义,UI string 2 Custom
+选择图像目录,Choose Image Directory Custom
+选择图像目录对象,Choose Image Directory objects Custom
+新属性,New Property Custom
+首选项,Preferences Items
+窗口,Window
+三维视图,3D View
+SNA_MT_C51B1,SNA_MT_C51B1
+SNA_MT_649F1,SNA_MT_649F1
+SNA_MT_33C5D,SNA_MT_33C5D
+SNA_MT_649F1,SNA_PT_MATERIAL_PROPERTIES_C58CB
+sna_pt_material_properties_4593a,SNA_PT_MATERIAL_PROPERTIES_4593A
+sna_pt_active_light_properties_35d30,SNA_PT_ACTIVE_LIGHT_PROPERTIES_35D30
+SNA_MT_E6D55,SNA_MT_E6D55
+SNA_MT_AC910,SNA_MT_AC910
+SNA_MT_DC158,SNA_MT_DC158
+SNA_MT_E29EA,SNA_MT_E29EA
+SNA_MT_2B853,SNA_MT_2B853
+,
+通过www.DeepL.com/Translator（免费版）翻译,
